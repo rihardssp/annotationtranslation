@@ -5,8 +5,9 @@ from Pipe import *
 from Configuration import *
 
 # Define the pipeline
+config_reader = ConfigReader()
 pipe_line = [
-    PropBankPipe(ConfigReader())
+    PropBankPipe(config_reader)
 ]
 
 # The magic
@@ -15,7 +16,7 @@ for p in pipe_line:
     triplet_list = p.process_amr(triplet_list)
 
 # Store in file
-f = codecs.open("output.txt", "w", "utf-8")
+f = codecs.open(config_reader.get_output_file_path(), "w", "utf-8")
 for triplet in triplet_list:
     triplet.print(f)
 f.close()

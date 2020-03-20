@@ -19,13 +19,19 @@ class ConfigReader(PropBankPipeConfigReader):
     def get_value(self, section, key):
          return self.config.get(section, key)
 
-    def get_PropBankPipe_value(self, key):
+    def get_propbankpipe_value(self, key):
          return self.get_value('PropBankPipe', key)
 
     def get_frame_folder(self):
-        return self.get_PropBankPipe_value('FrameFolder')
+        return self.get_propbankpipe_value('FrameFolder')
 
     def get_conllu_file(self):
-        return self.get_PropBankPipe_value('ConlluFile')
+        return self.get_propbankpipe_value('ConlluFile')
+
+    def get_default_value(self, key):
+         return self.get_value('Default', key)
+
+    def get_output_file_path(self):
+         return self.get_default_value('OutputFile')
 
 
