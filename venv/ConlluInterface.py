@@ -7,6 +7,7 @@ class TokenWord:
         self.token = token
 
     misc = property(lambda self: self.token['misc'])
+    lemma = property(lambda self: self.token['lemma'])
     arg = property(lambda self: self.token['arg'])
     head = property(lambda self: self.token['head'])
     id = property(lambda self: self.token['id'])
@@ -14,11 +15,15 @@ class TokenWord:
     form = property(lambda self: self.token['form'])
     feats = property(lambda self: self.token['feats'])
 
+    NumType = property(lambda self: self.feats['NumType'])
+
     def __getitem__(self, key):
         return self.token[key]
 
 class TokenSentence:
     """Logic for getting certain things from conllu sentence"""
+
+    sent_id = property(lambda self: self.__token_list.metadata['sent_id'])
 
     def __init__(self, token_list):
         l = list()

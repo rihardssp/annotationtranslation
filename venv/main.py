@@ -7,7 +7,8 @@ from Configuration import *
 # Define the pipeline
 config_reader = ConfigReader()
 pipe_line = [
-    PropBankPipe(config_reader)
+    PropBankPipe(config_reader),
+    UniversalDependencyPipe(config_reader)
 ]
 
 # The magic
