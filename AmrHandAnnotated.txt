@@ -22,9 +22,9 @@
 # ::snt_lv Uzņēmums projekta realizāciju sāka 2001.gadā.
 (v2 / start-01
     :ARG0 (v1 / Uzņēmums)
-    :ARG1 (v3 / projekta
-        :time (v4 / date-entity
-            :year 2001)))
+    :ARG1 (v3 / projekta)
+	:time (v4 / date-entity
+		:year 2001))
 			
 # ::id a-p3754-p5s2
 # ::snt_lv Kopš tā laika poligona attīstībā ieguldīti vairāk nekā septiņi miljoni latu.
@@ -58,7 +58,7 @@
 		
 # ::id a-c18-p3s4
 # ::snt_lv Pat jaunās varas ieceltās vietējās varas iestādes nezināja, kur tie palikuši.
-(v4 / appoint-01
+(v4 / appoint-01 #change this
 	:ARG0 (v6 / varas
         :mod (v5 / jaunās))
     :ARG1 (v3 / iestādes

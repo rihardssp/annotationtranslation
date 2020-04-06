@@ -12,7 +12,7 @@ class PipeBase:
     """This defines a pipes interface"""
 
     def process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
-        pass;
+        pass
 
 
 class PropBankPipe(PipeBase):
@@ -45,6 +45,7 @@ class PropBankPipe(PipeBase):
                     same_sentence[0].add_token(token_list)
 
         finally:
+
             data_file.close()
 
         return sentence_list
