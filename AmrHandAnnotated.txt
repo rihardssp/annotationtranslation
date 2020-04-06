@@ -8,71 +8,65 @@
 
 # ::id a-d62-p34s5
 # ::snt_lv Vida nerunāja, neatvadījās.
-(v2 / speak-01
-    :polarity -
-    :ARG0 (v1 / Vida
-		:ARG0-of (v3 / say-01
-			:polarity -
-			:ARG1 (v4 / goodbye))))
+# :: goodbye - jāaizvieto ar latviešu alternatīvu
+(a / and
+	:op1 (v2 / speak-01
+		:polarity -
+		:ARG0 (v1 / Vida))
+	:op2 (v3 / say-01
+		:polarity -
+		:ARG0 v1
+		:ARG1 (v4 / goodbye)))
 			
 # ::id a-p3754-p5s1
 # ::snt_lv Uzņēmums projekta realizāciju sāka 2001.gadā.
 (v2 / start-01
     :ARG0 (v1 / Uzņēmums)
-    :ARG1 (v3 / projektu
+    :ARG1 (v3 / projekta
         :time (v4 / date-entity
             :year 2001)))
 			
 # ::id a-p3754-p5s2
 # ::snt_lv Kopš tā laika poligona attīstībā ieguldīti vairāk nekā septiņi miljoni latu.
-# ::alignments 0-1|0.1 3-4|0.0.0 7-8|0.0 10-11|0 12-13|0.2.0 13-14|0.2 
-# ::alignments_translation 0-0 1-1 2-1 6-2 6-3 7-4 8-5 9-6 10-7 5-8 5-9 5-10 4-11 3-12 4-13 11-14
 (v4 / invest-01
-    :op1 (v1 / since)
+    :op1 (v1 / Kopš tā laika)
     :ARG1 (v3 / monetary-quantity
         :quant (v2 / more-than
 			:op1 7000000)
 		:unit (v1 / latu))
-    :ARG2 (v6 / attīstība)
+    :ARG2 (v6 / attīstībā)
 			
 # ::id a-p12841-p1s1
 # ::snt_lv Rēzeknes novadā, apgāžoties automašīnai "Mazda", gājis bojā šoferis.
+# Vai overturn ir pareizais verb? <roleset id="overturn.01" name="invalidate, reverse">
 (v5 / die-01
     :ARG1 (v3 / šoferis)
-    :location (v2 / municipality
-        :mod (v1 / rezekne))
+    :location (v2 / novadā
+        :name (v1 / name :op1 "Rēzekne"))
     :time (v7 / overturn-01
         :ARG1 (v6 / car
-            :mod "Mazda")
+            :name (n / name :op1 "Mazda"))
         :ARG0 v3))
-		
-# ::id a-c13-p43s5
-# ::snt Many take the `` adventure '' approach to life and start something anew .
-# ::snt_lv Daudzi piekopj “piedzīvojumu” pieeju dzīvei un viegli sāk kaut ko no jauna.
-# piekopj doesnt have mapping so excluded this sentence. PropBank doesnt look good either
 
 # ::id a-c13-p43s6
-# ::snt You can make everyone love him .
 # ::snt_lv Prot panākt, ka viņu visi mīl.
-# ::alignments 0-1|0.1 1-2|0 3-4|0.0.0 4-5|0.0 
-# ::alignments_translation 0-0 0-1 1-2 3-2 2-3 5-3 6-4 4-5 7-6
-(v2 / possible-01
+(v2 / able.01
+	:ARG0 (v1 / viņu))
     :ARG1 (v4 / love-01
-        :ARG0 (v3 / everyone))
-    :ARG0 (v1 / you))
-	
+        :ARG0 (v3 / visi)
+		:ARG1 v1)
+		
 # ::id a-c18-p3s4
-# ::snt Even the local authorities appointed by the new authority did not know where they were .
 # ::snt_lv Pat jaunās varas ieceltās vietējās varas iestādes nezināja, kur tie palikuši.
-# ::alignments 0-1|0.0.1 2-3|0.0.0 3-4|0.0 4-5|0 7-8|0.1.0 8-9|0.1 10-11|0.2.0 11-12|0.2 
-# ::alignments_translation 0-0 1-1 4-2 5-3 6-3 3-4 1-5 1-6 1-7 2-8 7-9 7-10 7-11 8-12 9-12 10-13 11-14 12-15
 (v4 / appoint-01
-    :ARG0 (v3 / authority
-        :ARG1-of (v2 / local-02)
-        :mod (v1 / even))
-    :ARG0 (v6 / authority
-        :mod (v5 / new))
+	:ARG0 (v6 / varas
+        :mod (v5 / jaunās))
+    :ARG1 (v3 / iestādes
+		:mod (v8 / vietējās varas))
     :ARG2 (v7 / know-01
         :polarity -
-        :ARG0 v6
-        :ARG0 v3))
+        :ARG0 v3
+        :ARG1 (v12 / remain.01
+			:ARG3 (v10 / kur)
+			:ARG1 (v11 / tie))))
+			

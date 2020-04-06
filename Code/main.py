@@ -1,20 +1,26 @@
 import typing
 import codecs
-from Container import *
-from Pipe import *
-from Configuration import *
+import time
+from Code.Configuration import ConfigReader
+from Code.Container import TripletContainer
+from Code.Mappings import PropbankMappings
+from Code.Pipe import PropBankPipe
 
 # Define the pipeline
 config_reader = ConfigReader()
 pipe_line = [
-    PropBankPipe(config_reader),
-    UniversalDependencyPipe(config_reader)
+    PropBankPipe(config_reader, PropbankMappings())
 ]
+
+before_calc = time.perf_counter()
 
 # The magic
 triplet_list: typing.List[TripletContainer] = []
 for p in pipe_line:
     triplet_list = p.process_amr(triplet_list)
+
+after_calc = time.perf_counter()
+print(f"Calculation ran {after_calc - before_calc:0.4f} seconds")
 
 # Store in file
 f = codecs.open(config_reader.get_output_file_path(), "w", "utf-8")
