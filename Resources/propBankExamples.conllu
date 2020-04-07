@@ -1,0 +1,9 @@
+# sent_id = a-d62-p34s1
+# text = Toreiz garām skrēja tik balti mākoņi.
+1	Toreiz	toreiz	ADV	r0t	_	3	advmod	_	_	_
+2	garām	garām	ADV	r0p	_	3	advmod	_	_	AM-DIR
+3	skrēja	skriet	VERB	vmnist130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	Y	pass.03	_
+4	tik	tik	ADV	r0q	PronType=Dem	5	advmod	_	_	_
+5	balti	balts	ADJ	afmpnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	6	amod	_	_	_
+6	mākoņi	mākonis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	A1
+7	.	.	PUNCT	zs	_	3	punct	_	_	_
