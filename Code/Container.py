@@ -2,7 +2,7 @@ import penman
 import typing
 
 
-def get_variable_name(id):
+def get_variable_name(id: str):
     return f'v{id}'
 
 
@@ -15,18 +15,18 @@ class TripletContainer:
         self.__g = penman.Graph()
         self.__g.metadata = metadata
         self.instance_role = ':instance'
-        pass;
+        self.__generated_id = 0
 
-    def add_root(self, root_id: int, name_of_root):
+    def add_root(self, root_id: str, name_of_root):
         """Root verb of AMR"""
         root_alias = get_variable_name(root_id)
         self.__g.triples.append(penman.Triple(root_alias, self.instance_role, name_of_root))
 
-    def add(self, instance_id, role, argument):
+    def add(self, instance_id: str, role, argument):
         """Add an argument to a instance, for ex., polarity"""
         self.__g.triples.append(penman.Triple(get_variable_name(instance_id), role, argument))
 
-    def add_instance(self, head_id, instance_id: int, role, argument_instance):
+    def add_instance(self, head_id, instance_id: str, role, argument_instance):
         """Add an instance (differs from add by defining an alias for given argument_instance)"""
         argument_alias = get_variable_name(instance_id)
 
@@ -36,13 +36,13 @@ class TripletContainer:
 
         self.__g.triples.append(penman.Triple(get_variable_name(head_id), role, argument_alias))
 
-    def has_link(self, root_id, argument_id) -> bool:
+    def has_link(self, root_id: str, argument_id: str) -> bool:
         argument_name = get_variable_name(argument_id)
         root_name = get_variable_name(root_id)
         instances = list(x for x in self.__g.triples if x[0] == root_name and x[2] == argument_name)
         return len(instances) > 0
 
-    def has_instance(self, instance_id) -> bool:
+    def has_instance(self, instance_id: str) -> bool:
         instance_name = get_variable_name(instance_id)
         instances = list(x for x in self.__g.triples if x[1] == self.instance_role and x[0] == instance_name)
         return len(instances) > 0
@@ -64,3 +64,8 @@ class TripletContainer:
                 l.append(triplet[1][1:])
 
         return l
+
+    def get_generated_id(self):
+        generated_id = f'g{self.__generated_id}'
+        self.__generated_id += 1
+        return generated_id

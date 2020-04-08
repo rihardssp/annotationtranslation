@@ -5,6 +5,11 @@ from Code.Configuration import ConfigReader
 from Code.Container import TripletContainer
 from Code.Mappings import PropbankMappings
 from Code.Pipe import PropBankPipe
+import i18n
+i18n.load_path.append('../Translations')
+i18n.set('locale', 'lv')
+i18n.set('fallback', 'en')
+print(i18n.t('foo.foo'))
 
 # Define the pipeline
 config_reader = ConfigReader()

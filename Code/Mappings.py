@@ -5,15 +5,20 @@ from Code.Container import TripletContainer
 from Code.Delegators import ArgumentDelegatorPropBank, RuleDelegatorPropBank
 
 
+from Code.I18uExtensions import string_to_dictionary
+
+
 def time_argument_rule(pipe, root_word: TokenWord, argument_word: TokenWord, container: TripletContainer,
                        sentence: TokenSentence):
     related_words = sentence.read_words_with_head(argument_word.id)
-    if argument_word.lemma == 'gads':
+
+    time_mapping = string_to_dictionary('mappings.general.time_argument_rule_year')
+    if argument_word.lemma in time_mapping.keys():
         ordinal_number = list(filter(lambda x: x.num_type == 'Ord', related_words))
         if len(ordinal_number) == 1:
-            container.add_instance(root_word.id, 55, "time", "date-entity")
-            # TEMPORARY ID. ON THE TODO LIST!
-            container.add(55, "year", ordinal_number[0].form)
+            new_id = container.get_generated_id()
+            container.add_instance(root_word.id, new_id, "time", "date-entity")
+            container.add(new_id, "year", ordinal_number[0].lemma)
 
 
 # Need to either define all from here https://www.aclweb.org/anthology/W04-2412.pdf or add manual check for undefined

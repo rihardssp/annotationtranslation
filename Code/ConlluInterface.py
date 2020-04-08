@@ -23,7 +23,6 @@ class TokenWord:
     has_arg = property(lambda self: self.arg is not None and self.arg != '')
     has_misc = property(lambda self: self.misc is not None and len(self.misc) > 0)
 
-
     def __getitem__(self, key):
         return self.token[key]
 

@@ -34,6 +34,6 @@ class ArgumentDelegatorPropBank:
         # ToDo: test whether adding link works with a defined delegate above ^
         is_root = argument_word.has_misc
         container.add_instance(root_word.id, argument_word.id, self.default_mapping,
-                               argument_word.misc_first_value if is_root else argument_word.form)
+                               argument_word.misc_first_value if is_root else argument_word.lemma)
 
         return True
