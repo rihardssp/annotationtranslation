@@ -1,0 +1,25 @@
+{
+    "lv": {
+		"_comment": "These values are arrays separated by ; in case more then one word represents said verb",
+		"year":  "gads;g.",
+		"month":  "mēnesis",
+		"day":  "diena",
+		"century":  "gadsimts",
+		"decade":  "desmitgade",
+		"era":  "ēra",
+		"quarter":  "ceturksnis",
+		
+		"month_1":  "janvāris",
+		"month_2":  "februāris",
+		"month_3":  "marts",
+		"month_4":  "aprīlis",
+		"month_5":  "maijs",
+		"month_6":  "jūnijs",
+		"month_7":  "jūlijs",
+		"month_8":  "augusts",
+		"month_9":  "septembris",
+		"month_10":  "oktobris;okt.",
+		"month_11":  "novembris",
+		"month_12":  "decembris"
+	}
+}

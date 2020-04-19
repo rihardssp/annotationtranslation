@@ -1,0 +1,13 @@
+{
+    "en": 
+	{
+		"_comment": "These values are arrays separated by ; in case more then one word represents said verb",
+		"year":  "year",
+		"month":  "month",
+		"day":  "day",
+		"century":  "century",
+		"decade":  "decade",
+		"era":  "era",
+		"quarter":  "quarter"
+	}
+}
