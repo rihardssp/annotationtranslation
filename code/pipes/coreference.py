@@ -1,8 +1,8 @@
 import typing
-from Code.configuration import config_reader
-from Code.container import TripletContainer
-from Code.pipes.base import PipeBase
-from Code.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFileAnnotationReader
+from code.configuration import config_reader
+from code.container import TripletContainer
+from code.pipes.base import PipeBase
+from code.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFileAnnotationReader
 
 
 class CoReferencePipe(PipeBase):

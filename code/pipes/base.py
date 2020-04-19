@@ -2,7 +2,7 @@ import time
 import typing
 from abc import ABC, abstractmethod
 
-from Code.container import TripletContainer
+from code.container import TripletContainer
 
 
 class PipeBase(ABC):

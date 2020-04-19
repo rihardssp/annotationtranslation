@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from Code.words.base import TokenWord, IWord
+from code.words.base import TokenWord, IWord
 
 
 class IPropBankWord(IWord):

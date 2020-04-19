@@ -2,13 +2,13 @@ import typing
 import codecs
 import i18n
 
-from Code.configuration import ConfigReader
-from Code.container import TripletContainer
-from Code.mapping_defaults.named_entities import NamedEntitiesMapping
-from Code.mapping_defaults.propbank import PropBankMapping
-from Code.pipes.coreference import CoReferencePipe
-from Code.pipes.named_entity import NamedEntitiesPipe
-from Code.pipes.propbank import PropBankPipe
+from code.configuration import ConfigReader
+from code.container import TripletContainer
+from code.mapping_defaults.named_entities import NamedEntitiesMapping
+from code.mapping_defaults.propbank import PropBankMapping
+from code.pipes.coreference import CoReferencePipe
+from code.pipes.named_entity import NamedEntitiesPipe
+from code.pipes.propbank import PropBankPipe
 
 named_entities_debug = True
 co_reference_debug = True

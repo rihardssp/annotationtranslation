@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 from conllu import parse_incr
 from conllu.parser import DEFAULT_FIELDS, DEFAULT_FIELD_PARSERS
 
-from Code.readers.base import parse_string
-from Code.sentences.propbank import IPropBankSentence, PropBankTokenSentence
+from code.readers.base import parse_string
+from code.sentences.propbank import IPropBankSentence, PropBankTokenSentence
 
 
 class IPropBankAnnotationReaderBase(ABC):

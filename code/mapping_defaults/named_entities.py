@@ -1,8 +1,8 @@
 import typing
 from abc import ABC, abstractmethod
 
-from Code.delegates import ChunkDelegate
-from Code.mapping_definitions.named_entities import person_chunk_action, joined_location_action
+from code.delegates import ChunkDelegate
+from code.mapping_definitions.named_entities import person_chunk_action, joined_location_action
 
 
 # The 'allowed' categories, such as person, in AMR can be found here:

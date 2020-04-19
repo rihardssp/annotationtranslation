@@ -1,11 +1,11 @@
 import typing
 
-from Code.configuration import config_reader
-from Code.container import TripletContainer
-from Code.mapping_defaults.named_entities import INamedEntitiesMapping
-from Code.pipes.base import PipeBase
-from Code.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFileAnnotationReader
-from Code.sentences.named_entity import INamedEntitiesWord
+from code.configuration import config_reader
+from code.container import TripletContainer
+from code.mapping_defaults.named_entities import INamedEntitiesMapping
+from code.pipes.base import PipeBase
+from code.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFileAnnotationReader
+from code.sentences.named_entity import INamedEntitiesWord
 
 
 class NamedEntitiesPipe(PipeBase):

@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from Code.words.base import IWord, TokenWord
+from code.words.base import IWord, TokenWord
 
 
 class INamedEntitiesWord(IWord):

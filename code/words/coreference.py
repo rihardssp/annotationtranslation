@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from Code.words.base import SimpleTokenWord
+from code.words.base import SimpleTokenWord
 
 
 class ICoReferenceWord:

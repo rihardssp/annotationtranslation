@@ -1,8 +1,8 @@
 import typing
 
-from Code.container import TripletContainer
-from Code.delegates import ChunkDelegate
-from Code.words.base import IWord
+from code.container import TripletContainer
+from code.delegates import ChunkDelegate
+from code.words.base import IWord
 
 
 def person_chunk_action(pipe, root_id: str, chunk: typing.List[IWord], container: TripletContainer,

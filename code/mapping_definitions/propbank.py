@@ -1,7 +1,7 @@
-from Code.container import TripletContainer
-from Code.i18uExtensions import get_i18n_list
-from Code.words.base import IWord
-from Code.sentences.propbank import IPropBankWord, IPropBankSentence
+from code.container import TripletContainer
+from code.i18uExtensions import get_i18n_list
+from code.words.base import IWord
+from code.sentences.propbank import IPropBankWord, IPropBankSentence
 
 
 def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBankWord,

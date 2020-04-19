@@ -1,5 +1,5 @@
 import typing
-from Code.container import TripletContainer
+from code.container import TripletContainer
 
 DEFAULT_DELEGATE_INIT_ERROR = "Delegate initialized with non-callable argument"
 
