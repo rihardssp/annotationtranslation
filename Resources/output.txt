@@ -437,11 +437,11 @@
 (v5 / force.01
     :ARG0 (v1 / person
         :ARG0-of (v7 / pretend.01
-            :ARG1 (v8 / jautrs))
+            :ARG1 (v8 / jautrs)
+            :ARG2-of v5)
         :name (vg0 / name
             :op0 "Vents"))
-    :ARG1 (v6 / sevis)
-    :ARG2 v7)
+    :ARG1 v1)
 
 # ::sent_id a-d17-p71s2
 # ::text Lai vairāk apgrozītos ļaudīs, viņš atteicās no braucieniem automašīnā, pa centru gāja kājām, burzījās sabiedriskajā transportā.
@@ -458,12 +458,12 @@
 (v13 / separate.01
     :ARG0 (v8 / cilvēks
         :ARG0-of (v17 / steal.01
-            :ARG2 (v18 / sevis)
             :ARG1 (v23 / glāsts
                 :mod (v20 / vārds
-                    :mod (v19 / ļaudis)))))
-    :ARG1 (v10 / sevis)
-    :ARG2 (v15 / cits))
+                    :mod (v19 / ļaudis)))
+            :ARG2 v8))
+    :ARG2 (v15 / cits)
+    :ARG1 v8)
 
 # ::sent_id a-d173-p933s1
 # ::text Dieviņš Billi dzirdēt negribēja.
@@ -557,8 +557,8 @@
 (v12 / say.01
     :ARG1 (v5 / do.02
         :ARG0 (v2 / viņš)
-        :ARG2 (v3 / es)
-        :polarity -)
+        :polarity -
+        :ARG2 v8)
     :ARG0 (v8 / meitene))
 
 # ::sent_id a-d197-p101s2
@@ -1686,7 +1686,7 @@
 # ::text - Nē, rakstniece, - es teicu.
 (v8 / say.01
     :ARG1 (v4 / rakstniece)
-    :ARG0 (v7 / es))
+    :ARG0 v4)
 
 # ::sent_id a-d197-p52s2
 # ::text Un nodomāju, ka šai atbildei ir maz sakara ar jautājumu.
@@ -2446,8 +2446,8 @@
                 :ARG1 (v13 / want.01
                     :ARG0 (v12 / tu
                         :ARG0-of (v15 / kidnap.01
-                            :ARG1 (v14 / es)
-                            :ARG1-of v13)))))
+                            :ARG1 v1))
+                    :ARG1 v15)))
         :name (vg0 / name
             :op0 "Vida"))
     :polarity -)
@@ -5610,8 +5610,8 @@
 # ::text Komandieris necīnās par sevi, bet viņa labi saplānotā stratēģija, precīzi īstenota, tomēr pārvēršas uzvarā.
 (v2 / fight.01
     :ARG0 (v1 / komandieris)
-    :ARG2 (v4 / sevis)
-    :polarity -)
+    :polarity -
+    :ARG2 v1)
 
 # ::sent_id a-p2969-p6s4
 # ::text Napoleona Bonaparta pārliecinošās uzvaras iemesls bija koncentrācija un mērķa skaidrība, protams, viņam piemita arī milzīga drosme.
@@ -6251,8 +6251,8 @@
         :mod (v6 / tiesnesis)
         :ARG0-of (v10 / indicate.01
             :ARG1 (v16 / get.01
-                :ARG0 (v13 / viņš)
-                :ARG1 (v17 / atsaucība)))
+                :ARG1 (v17 / atsaucība)
+                :ARG0 v3))
         :name (vg1 / name
             :op0 "Uldis"
             :op1 "Ķinis")))
@@ -8286,7 +8286,7 @@
             :ARG1 (v18 / mean.02
                 :ARG1 (v16 / viela
                     :mod (v15 / apreibināt))
-                :ARG2 (v19 / viņš)))
+                :ARG2 v1))
         :ARG0-of (v3 / use.01
             :ARG1 (v4 / alkohols)))
     :ARG1 (v9 / komplekss
@@ -9547,8 +9547,8 @@
 # ::text Bet, uzskata Kuks, dzīvē šis paņēmiens sevi neattaisno, jo atteikšanās no Toras tikai pieaug.
 (v10 / justify.01
     :ARG0 (v8 / paņēmiens)
-    :ARG1 (v9 / sevis)
-    :polarity -)
+    :polarity -
+    :ARG1 v8)
 
 # ::sent_id a-z109-p142s1
 # ::text Kustībā ietilpa dažādas grupas, kuras vienoja mērķis – pārcelties uz Izraēla zemi.
@@ -9989,7 +9989,7 @@
 # ::text Bērns ir spējīgs atpazīt pats sevi.
 (v4 / recognize.02
     :ARG0 (v1 / bērns)
-    :ARG1 (v6 / sevis))
+    :ARG1 v1)
 
 # ::sent_id a-z22-p181s5
 # ::text Vairākums divgadnieku spēj iedziļināties citu personu emocionālajā stāvoklī [40.].
