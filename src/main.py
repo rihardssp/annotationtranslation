@@ -18,10 +18,11 @@ i18n.load_path.append('../translation')
 i18n.set('locale', 'lv')
 i18n.set('fallback', 'lv')
 
+
 # Define the pipeline
 pipe_line = [
     PropBankPipe(PropBankMapping(), None),
-    NamedEntitiesPipe(NamedEntitiesMapping(), debug_mode=named_entities_debug),
+    NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
     CoReferencePipe(debug_mode=co_reference_debug)
 ]
 

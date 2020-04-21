@@ -1287,7 +1287,7 @@
             :ARG1 (v10 / bērnība
                 :mod (v11 / location
                     :name (vg0 / name
-                        :op1 "Maskavas forštatē")))))
+                        :op1 "Maskavas forštate")))))
     :ARG1 (v4 / daudz))
 
 # ::sent_id a-d197-p18s1
@@ -2520,7 +2520,7 @@
     :ARG0 (v2 / person
         :mod (v1 / location
             :name (vg0 / name
-                :op1 "Mežotnes"))
+                :op1 "Mežotne"))
         :name (vg1 / name
             :op0 "Valdis"))
     :ARG2 (v8 / give.01
@@ -2602,7 +2602,7 @@
     :ARG1 (v5 / es)
     :ARG4 (v7 / location
         :name (vg0 / name
-            :op1 "Rozēm")))
+            :op1 "Rozes")))
 
 # ::sent_id a-d62-p30s1
 # ::text "Atradi?"
@@ -3063,7 +3063,7 @@
             :mod (v21 / euro))
         :ARG0 (v6 / organization
             :name (vg0 / name
-                :op1 "Rīgas pilsētas pašvaldībai"))
+                :op1 "Rīgas pilsētas pašvaldība"))
         :ARG2 (v10 / organization
             :name (vg1 / name
                 :op1 "SIA KU Baltic Oil Terminal"))))
@@ -3329,7 +3329,7 @@
         :mod (v4 / radioloģija)
         :mod (v2 / organization
             :name (vg0 / name
-                :op1 "Kuldīgas slimnīcas")))
+                :op1 "Kuldīgas slimnīca")))
     :ARG2 (v19 / darboties)
     :ARG0 (v23 / aparāts
         :mod (v20 / jauns)
@@ -3733,7 +3733,7 @@
     :ARG1 (v17 / ikviens)
     :ARG2 (v19 / location
         :name (vg0 / name
-            :op1 "Elejas muižas parku")))
+            :op1 "Elejas muižas parks")))
 
 # ::sent_id a-p10616-p4s2
 # ::text Tāpēc novads izsludinājis jaunu iepirkumu.
@@ -3768,7 +3768,7 @@
     :ARG0 (v26 / organization
         :mod (v25 / portāls)
         :name (vg1 / name
-            :op1 "LSM.lv")))
+            :op1 "Lsm.lv")))
 
 # ::sent_id a-p10628-p2s1
 # ::text Pats G.Freimanis palika Zemgales Olimpiskā centra tribīnēs, kapteiņa apsēju šajā spēlē uzticēdams vārtsargam Kasparam Ikstenam, kurš dāvāto uzticību attaisnoja godam, prasmīgi likvidēdams ne pārāk biežos daugavpiliešu uzbrukumus.
@@ -3789,7 +3789,7 @@
     :ARG3 (v8 / tribīne
         :mod (v5 / location
             :name (vg1 / name
-                :op1 "Zemgales Olimpiskā centra"))))
+                :op1 "Zemgales Olimpiskais centrs"))))
 
 # ::sent_id a-p10643-p1s1
 # ::text Godinot 1919. gada Latvijas Brīvības cīņu varoņus, sestdien, 21. novembrī, kad aprit 97 gadi kopš Jelgavas atbrīvošanas, «Ziņas» aicina uz piecu stundu brauciena velopastaigu, kurā tiks ietverti pieci atbrīvošanas pieminekļi.
@@ -3828,7 +3828,7 @@
                 :mod (v6 / Bauska)
                 :mod (v1 / organization
                     :name (vg0 / name
-                        :op1 "Valsts ugunsdzēsības un glābšanas dienesta")
+                        :op1 "Valsts ugunsdzēsības un glābšanas dienests")
                     :wiki "lv.wikipedia.org/wiki/Valsts_ugunsdzēsības_un_glābšanas_dienests")))
         :name (vg1 / name
             :op0 "Vadims"
@@ -4059,7 +4059,7 @@
                 :mod (v14 / mazs)))
         :mod (v1 / organization
             :name (vg0 / name
-                :op1 "Valsts ieņēmumu dienesta")
+                :op1 "Valsts ieņēmumu dienests")
             :wiki "lv.wikipedia.org/wiki/Valsts_ieņēmumu_dienests"))
     :ARG1 (v7 / atmazgāties))
 
@@ -4326,7 +4326,7 @@
             :ARG0 (v8 / pamāte)
             :ARG2-of v6)
         :name (vg0 / name
-            :op1 "Bukos"))
+            :op1 "Buki"))
     :ARG0 v8)
 
 # ::sent_id a-p1297-p4s4
@@ -4390,7 +4390,7 @@
             :mod (v5 / sports)
             :mod (v3 / organization
                 :name (vg0 / name
-                    :op1 "Ēdoles pamatskolas")))))
+                    :op1 "Ēdoles pamatskola")))))
 
 # ::sent_id a-p1299-p2s1
 # ::text „Tas, kas dziļi iecerēts, pārņem visas mūsu domas un darbus, un agri vai vēlu mēs redzam to piepildāmies,” teikts vēstījumā, kuru parakstījušas amatpersonas un citi tā brīža liecinieki.
@@ -5089,7 +5089,7 @@
         :mod (v4 / rekonstrukcija
             :mod (v1 / location
                 :name (vg0 / name
-                    :op1 "Mežaparka Lielās estrādes")
+                    :op1 "Mežaparka Lielā estrāde")
                 :wiki "en.wikipedia.org/wiki/Mežaparks_Great_Bandstand"))))
 
 # ::sent_id a-p14299-p4s3
@@ -5169,7 +5169,7 @@
     :ARG1 (v18 / nūja)
     :location (v14 / location
         :name (vg0 / name
-            :op1 "Tunošonkas upes pietekas")))
+            :op1 "Tunošonkas upes pieteka")))
 
 # ::sent_id a-p14453-p4s1
 # ::text Tomēr skaidrojot, kāpēc ir radies satraukums par bēgļu uzņemšanu, Rasnačs atzina, ka satraukums esot saistīts ar to, ka, līdzko Latvijā nostiprinās konkrēta diaspora, kas ir izolējusies no visas integrētās sabiedrības, tai ir tendence apaugt.
@@ -5205,7 +5205,7 @@
                         :op1 "VAS Latvijas Loto")
                     :wiki "lv.wikipedia.org/wiki/Latvijas_Loto")
                 :name (vg2 / name
-                    :op1 "Mārketinga daļas")))
+                    :op1 "Mārketinga daļa")))
         :name (vg3 / name
             :op0 "Aiga"
             :op1 "Roziņa")))
@@ -5232,7 +5232,7 @@
         :mod (v29 / priekšnieks
             :mod (v26 / organization
                 :name (vg1 / name
-                    :op1 "Jūrmalas Pašvaldības policijas")))
+                    :op1 "Jūrmalas Pašvaldības policija")))
         :name (vg2 / name
             :op0 "Valdis"
             :op1 "Kivkucāns")))
@@ -5340,7 +5340,7 @@
     :ARG0 (v3 / mediķis
         :mod (v1 / organization
             :name (vg0 / name
-                :op1 "Bērnu slimnīcas")
+                :op1 "Bērnu slimnīca")
             :wiki "lv.wikipedia.org/wiki/Bērnu_klīniskā_universitātes_slimnīca"))
     :ARG2 (v15 / attempt.01
         :ARG1 (v16 / remove.01
@@ -5816,7 +5816,7 @@
     :time (v9 / vecums)
     :ARG4 (v4 / organization
         :name (vg0 / name
-            :op1 "Liepājas teātri")
+            :op1 "Liepājas teātris")
         :wiki "lv.wikipedia.org/wiki/Liepājas_teātris"))
 
 # ::sent_id a-p3332-p7s2
@@ -6096,7 +6096,7 @@
             :mod (v11 / aģentūra
                 :mod (v8 / organization
                     :name (vg1 / name
-                        :op1 "Jelgavas pilsētas pašvaldības"))))
+                        :op1 "Jelgavas pilsētas pašvaldība"))))
         :ARG1 (v14 / tēriņš
             :mod (v13 / pamatot
                 :polarity -)
@@ -6144,7 +6144,7 @@
         :mod (v7 / saistība)
         :mod (v4 / organization
             :name (vg0 / name
-                :op1 "Jelgavas domes")))
+                :op1 "Jelgavas dome")))
     :polarity -)
 
 # ::sent_id a-p3732-p7s1
@@ -6158,7 +6158,7 @@
             :mod (v10 / laikraksts)))
     :ARG2 (v5 / organization
         :name (vg0 / name
-            :op1 "Jelgavas domei")))
+            :op1 "Jelgavas dome")))
 
 # ::sent_id a-p3732-p8s1
 # ::text Kā atklājusi Valsts kontrole, aģentūra "Pilsētsaimniecība" ir izlietojusi 36 000 latu atlīdzībai un valsts sociālās apdrošināšanas iemaksām par laiku, kurā darbinieki neveica pamatdarba pienākumus, bet piedalījās projekta "Pašvaldības un privātās partnerības veicināšana Jelgavas pilsētas ielu apsaimniekošanā" īstenošanā, par ko saņēma atlīdzību no projekta līdzekļiem.
@@ -6230,7 +6230,7 @@
     :ARG2 (v7 / priekšsēdētājs
         :mod (v2 / organization
             :name (vg0 / name
-                :op1 "Satversmes tiesas")))
+                :op1 "Satversmes tiesa")))
     :time (v8 / šodien)
     :ARG1 (v12 / person
         :name (vg1 / name
@@ -6324,7 +6324,7 @@
     :ARG1 (v20 / record.01
         :ARG1 (v9 / organization
             :name (vg1 / name
-                :op1 "RusLatNafta"))
+                :op1 "Ruslatnafta"))
         :time (v22 / date-entity
             :year 2000.)))
 
@@ -6375,7 +6375,7 @@
     :ARG1 (v20 / have.03
         :ARG0 (v6 / organization
             :name (vg0 / name
-                :op1 "Latvijas naftai"))
+                :op1 "Latvijas nafta"))
         :ARG1 (v22 / DUS)))
 
 # ::sent_id a-p3739-p13s2
@@ -6418,7 +6418,7 @@
         :mod (v46 / prezidents
             :mod (v41 / organization
                 :name (vg1 / name
-                    :op1 "Degvielas tirgotāju un ražotāju savienības")))
+                    :op1 "Degvielas tirgotāju un ražotāju savienība")))
         :name (vg2 / name
             :op0 "Sergejs"
             :op1 "Semjonovs")))
@@ -6541,7 +6541,7 @@
             :mod (v5 / padome
                 :mod (v1 / organization
                     :name (vg0 / name
-                        :op1 "Latvijas Degvielas tirgotāju asociācijas"))))
+                        :op1 "Latvijas Degvielas tirgotāju asociācija"))))
         :name (vg1 / name
             :op0 "Ojārs"
             :op1 "Karčevskis"))
@@ -6564,7 +6564,7 @@
     :mod-of v9
     :ARG0 (v3 / organization
         :name (vg0 / name
-            :op1 "Valsts ieņēmumu dienesta Akcīzes pārvaldes")))
+            :op1 "Valsts ieņēmumu dienesta Akcīzes pārvalde")))
 
 # ::sent_id a-p3739-p9s1
 # ::text SIA "RusLatNafta" apgrozījums 2011.gadā bijis 14,98 miljoni latu, bet peļņa - 5945 lati, liecina "Firmas.lv" informācija.
@@ -6742,7 +6742,7 @@
                         :mod (v25 / atkritumi))))))
     :ARG1 (v5 / organization
         :name (vg0 / name
-            :op1 "Konkurences padomē")))
+            :op1 "Konkurences padome")))
 
 # ::sent_id a-p3754-p12s1
 # ::text Ingrīda Gubernatorova: Tas ir saistīts ar likumdošanas prasību izpildi, bet ne tikai.
@@ -6772,7 +6772,7 @@
 (v15 / be.02
     :location (v13 / organization
         :name (vg0 / name
-            :op1 "Daibē"))
+            :op1 "Daibe"))
     :ARG1 (v17 / iekārta
         :mod (v16 / attīrīšana)))
 
@@ -6995,7 +6995,7 @@
 (v6 / produce.01
     :location (v1 / location
         :name (vg0 / name
-            :op1 "Eiropā"))
+            :op1 "Eiropa"))
     :ARG1 (v4 / izejviela)
     :ARG0 (v5 / viss))
 
@@ -7487,7 +7487,7 @@
         :mod (v3 / likumdošana
             :mod (v2 / location
                 :name (vg0 / name
-                    :op1 "Eiropas"))))
+                    :op1 "Eiropa"))))
     :ARG0 (v6 / organization
         :name (vg1 / name
             :op1 "ZAAO")))
@@ -7576,7 +7576,7 @@
             :op1 "Finanšu ministrija"))
     :ARG1 (v5 / organization
         :name (vg1 / name
-            :op1 "Iekšlietu ministriju")))
+            :op1 "Iekšlietu ministrija")))
 
 # ::sent_id a-p3757-p3s1
 # ::text Situācija Liepājas metalurgā pašlaik atgādina situāciju Parex bankā pēc 2008. gada 10. novembra, kad valsts bija atpirkusi bankas akciju kontrolpaketi no Valērija Kargina un Viktora Krasovicka.
@@ -7584,7 +7584,7 @@
     :ARG1 (v1 / situācija
         :mod (v2 / organization
             :name (vg0 / name
-                :op1 "Liepājas metalurgā")))
+                :op1 "Liepājas metalurgs")))
     :ARG2 (v6 / situācija
         :mod (v13 / novembris
             :mod (v11 / gads
@@ -7592,7 +7592,7 @@
             :mod (v12 / 10.))
         :mod (v7 / organization
             :name (vg1 / name
-                :op1 "Parex bankā"))))
+                :op1 "Parex banka"))))
 
 # ::sent_id a-p3757-p3s2
 # ::text Par diviem latiem valsts iestādes ieguva tiesības doties uz banku un tikai tad noskaidrot, ko īsti valsts nopirkusi.
@@ -8795,7 +8795,7 @@
         :mod (v7 / čiekurkalte
             :mod (v6 / location
                 :name (vg0 / name
-                    :op1 "Vijciema")))))
+                    :op1 "Vijciems")))))
 
 # ::sent_id a-p980-p9s1
 # ::text Vakar, kad Strenčos viesojās Valsts prezidents, Trikātas ielā, kas ved uz kokaudzētavu, ceļinieki čakli laboja bedres.
@@ -8810,7 +8810,7 @@
         :mod (v3 / priekšsēdētāja
             :mod (v1 / organization
                 :name (vg0 / name
-                    :op1 "Strenču domes")))
+                    :op1 "Strenču dome")))
         :name (vg1 / name
             :op0 "Velga"
             :op1 "Graumane"))
@@ -8888,7 +8888,7 @@
         :mod (v8 / čempione
             :mod (v7 / location
                 :name (vg1 / name
-                    :op1 "Eiropas")
+                    :op1 "Eiropa")
                 :wiki "en.wikipedia.org/wiki/Europe"))
         :mod (v11 / volejbols
             :mod (v10 / pludmale))
@@ -8956,7 +8956,7 @@
     :location (v3 / location
         :mod (v2 / Snēpele)
         :name (vg0 / name
-            :op1 "Kalējsētās"))
+            :op1 "Kalējsētas"))
     :ARG1 (v6 / audzēšana
         :mod (v5 / zemene)))
 
@@ -9083,7 +9083,7 @@
                     :mod (v6 / būt)
                     :mod (v7 / organization
                         :name (vg0 / name
-                            :op1 "Saeimas")
+                            :op1 "Saeima")
                         :wiki "en.wikipedia.org/wiki/Saeima"))
                 :mod (v9 / īpatnējs))
             :polarity -
@@ -9630,7 +9630,7 @@
             :ARG2 (v19 / direktors
                 :mod (v16 / organization
                     :name (vg0 / name
-                        :op1 "Eiropas Kolonizācijas fonda"))))))
+                        :op1 "Eiropas Kolonizācijas fonds"))))))
 
 # ::sent_id a-z109-p144s1
 # ::text Ceirei Cion (Cionas jaunatne) bija kreisi noskaņoto cionistu partija, kas savos uzskatos apvienoja cionisma idejas ar demokrātiska sociālisma ideju.
@@ -9649,7 +9649,7 @@
     :ARG0 (v10 / kurš)
     :ARG1 (v13 / organization
         :name (vg0 / name
-            :op1 "Tautu savienības minoritāšu komisijā")))
+            :op1 "Tautu savienības minoritāšu komisija")))
 
 # ::sent_id a-z109-p144s4
 # ::text 1931. gadā Ceirei Cion apvienojās ar Latvijas cionistu sociālistu organizāciju Cionistu sociālistu partijā.
@@ -9659,10 +9659,10 @@
     :ARG1 (v3 / Ceirei)
     :ARG2 (v7 / organization
         :name (vg0 / name
-            :op1 "Latvijas cionistu sociālistu organizāciju"))
+            :op1 "Latvijas cionistu sociālistu organizācija"))
     :ARG3 (v11 / organization
         :name (vg1 / name
-            :op1 "Cionistu sociālistu partijā")))
+            :op1 "Cionistu sociālistu partija")))
 
 # ::sent_id a-z109-p16s1
 # ::text Jāatzīmē arī vairākas fotogrāfijas, kurās attēlots M. Nuroks, bet tās ir vai nu bez uzraksta, vai arī uzraksts nav salasāms.
@@ -9715,7 +9715,7 @@
         :mod (v3 / atbalsts))
     :ARG3 (v5 / organization
         :name (vg0 / name
-            :op1 "Agudai")))
+            :op1 "Aguda")))
 
 # ::sent_id a-z109-p197s12
 # ::text Bet viņi neguva mācību un min tos pašus argumentus, kurus T. Hercls dzirdēja no saviem pretiniekiem, kurus Minhenes ebreji minēja, vēršoties pret Cionistu kongresa sasaukšanu.
@@ -9807,7 +9807,7 @@
 (v4 / arrive.01
     :ARG4 (v1 / location
         :name (vg0 / name
-            :op1 "Latgalē")
+            :op1 "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG1 (v3 / ebrejs
         :mod (v2 / pirmais))
@@ -9821,7 +9821,7 @@
         :year 1920.)
     :ARG1 (v3 / location
         :name (vg0 / name
-            :op1 "Latgalē"))
+            :op1 "Latgale"))
     :ARG0 (v8 / ebrejs
         :mod (v7 / tūkstotis)))
 
@@ -9831,7 +9831,7 @@
     :ARG1 (v2 / ebrejs
         :mod (v1 / location
             :name (vg0 / name
-                :op1 "Latgales")
+                :op1 "Latgale")
             :wiki "en.wikipedia.org/wiki/Latgale"))
     :ARG0 (v13 / rusifikācija
         :mod (v12 / beigas
@@ -9848,7 +9848,7 @@
             :ARG4 (v14 / Krustpils)))
     :ARG4 (v4 / location
         :name (vg0 / name
-            :op1 "Latgalē")
+            :op1 "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG3 (v7 / Polija))
 
@@ -9881,7 +9881,7 @@
         :mod (v3 / galvasnauda))
     :location (v5 / location
         :name (vg0 / name
-            :op1 "Latgalē")
+            :op1 "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG0 (v8 / ebrejs))
 
@@ -9905,7 +9905,7 @@
             :ARG0 (v5 / ebrejs
                 :mod (v4 / location
                     :name (vg0 / name
-                        :op1 "Latgales")
+                        :op1 "Latgale")
                     :wiki "en.wikipedia.org/wiki/Latgale"))
             :ARG1 (v9 / lauks)
             :ARG1-of v7)
