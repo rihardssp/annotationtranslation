@@ -2319,7 +2319,7 @@
     :location (v4 / organization
         :mod (v2 / tirgus)
         :name (vg0 / name
-            :op1 "« Latgalīte »"))
+            :op1 "Latgalīte"))
     :ARG1 (v8 / kompaktdisks
         :mod (v7 / pirātisks)))
 
@@ -3066,7 +3066,7 @@
                 :op1 "Rīgas pilsētas pašvaldībai"))
         :ARG2 (v10 / organization
             :name (vg1 / name
-                :op1 "SIA KU " Baltic Oil Terminal ""))))
+                :op1 "SIA KU Baltic Oil Terminal"))))
 
 # ::sent_id a-n222-p14s1
 # ::text 6. Šo noteikumu 3., 4. un 5. punktā minētajā būvspeciālista apdrošināšanas līgumā tiek apdrošināta atbildība par zaudējumiem, ko izraisa atbildīgais būvspeciālists un visi darba izpildē iesaistītie būvspeciālisti.
@@ -5202,7 +5202,7 @@
             :mod (v38 / organization
                 :mod (v33 / organization
                     :name (vg1 / name
-                        :op1 "VAS " Latvijas Loto "")
+                        :op1 "VAS Latvijas Loto")
                     :wiki "lv.wikipedia.org/wiki/Latvijas_Loto")
                 :name (vg2 / name
                     :op1 "Mārketinga daļas")))
@@ -6036,7 +6036,7 @@
         :mod (v3 / aģentūra
             :mod (v2 / pašvaldība))
         :name (vg0 / name
-            :op1 " Kultūra "))
+            :op1 "Kultūra"))
     :ARG1 (v14 / use_up.04
         :ARG1 (v12 / lats)
         :ARG2 (v15 / atlīdzība)))
@@ -6115,7 +6115,7 @@
         :mod (v6 / aģentūra
             :mod (v5 / pašvaldība))
         :name (vg0 / name
-            :op1 " Pilsētsaimniecība ")))
+            :op1 "Pilsētsaimniecība")))
 
 # ::sent_id a-p3732-p4s2
 # ::text Vairākkārt esam vērsuši Jelgavas pašvaldības uzmanību uz riskiem un nepilnībām, īstenojot normatīvajos aktos noteiktās pašvaldības funkcija," lēmumu tikties ar Rāviņu pamato ministrs.
@@ -6166,7 +6166,7 @@
     :ARG0 (v8 / organization
         :mod (v6 / aģentūra)
         :name (vg0 / name
-            :op1 " Pilsētsaimniecība "))
+            :op1 "Pilsētsaimniecība"))
     :ARG1 (v13 / lats)
     :ARG2 (v14 / atlīdzība
         :mod (v21 / laiks)))
@@ -6182,7 +6182,7 @@
                     :mod (v15 / labošana
                         :mod (v14 / iela)))))
         :name (vg0 / name
-            :op1 " Pilsētsaimniecība "))
+            :op1 "Pilsētsaimniecība"))
     :ARG2 v11)
 
 # ::sent_id a-p3732-p9s1
@@ -6320,11 +6320,11 @@
     :ARG0 (v4 / informācija
         :mod (v2 / organization
             :name (vg0 / name
-                :op1 " Firmas.lv ")))
+                :op1 "Firmas.lv")))
     :ARG1 (v20 / record.01
         :ARG1 (v9 / organization
             :name (vg1 / name
-                :op1 " RusLatNafta "))
+                :op1 "RusLatNafta"))
         :time (v22 / date-entity
             :year 2000.)))
 
@@ -6335,7 +6335,7 @@
     :ARG1 (v13 / organization
         :mod (v11 / reģistrēt)
         :name (vg0 / name
-            :op1 " Doriland Investments LLC ")))
+            :op1 "Doriland Investments LLC")))
 
 # ::sent_id a-p3739-p11s2
 # ::text Uzņēmums dibināts 2002.gadā un tā kapitāldaļas 20 000 latu apmērā pilnībā pieder Lielbritānijā reģistrētam uzņēmumam "Blanco Line LLP".
@@ -6349,7 +6349,7 @@
 (v5 / belong.01
     :ARG1 (v2 / organization
         :name (vg0 / name
-            :op1 " Aparts "))
+            :op1 "Aparts"))
     :ARG0 (v7 / DUS))
 
 # ::sent_id a-p3739-p12s2
@@ -6364,7 +6364,7 @@
 (v4 / belong.01
     :ARG1 (v2 / organization
         :name (vg0 / name
-            :op1 " Akselss "))
+            :op1 "Akselss"))
     :ARG0 (v7 / DUS
         :mod (v6 / automātisks)))
 
@@ -6375,7 +6375,7 @@
     :ARG1 (v20 / have.03
         :ARG0 (v6 / organization
             :name (vg0 / name
-                :op1 " Latvijas naftai "))
+                :op1 "Latvijas naftai"))
         :ARG1 (v22 / DUS)))
 
 # ::sent_id a-p3739-p13s2
@@ -6384,7 +6384,7 @@
     :ARG0 (v4 / organization
         :mod (v2 / līderis)
         :name (vg0 / name
-            :op1 " Statoil "))
+            :op1 "Statoil"))
     :ARG1 (v12 / stacija
         :mod (v9 / serviss
             :mod (v8 / pilns))
@@ -6413,7 +6413,7 @@
         :mod (v36 / portāls
             :mod (v35 / bizness))
         :name (vg0 / name
-            :op1 " Nozare.lv "))
+            :op1 "Nozare.lv"))
     :ARG0 (v47 / person
         :mod (v46 / prezidents
             :mod (v41 / organization
@@ -6513,7 +6513,7 @@
                 :mod (v13 / mazumtirgotājs
                     :mod (v12 / degviela))
                 :name (vg1 / name
-                    :op1 "SIA " Akselss "")))
+                    :op1 "SIA Akselss")))
         :ARG1-of (v2 / report.01)
         :ARG0 (v6 / organization
             :name (vg0 / name
@@ -6574,7 +6574,7 @@
     :ARG0 (v23 / informācija
         :mod (v21 / organization
             :name (vg0 / name
-                :op1 " Firmas.lv "))))
+                :op1 "Firmas.lv"))))
 
 # ::sent_id a-p3744-p2s1
 # ::text "Nordea banka" vēlas brīvu piekļuvi putnu fabrikas "Ķekava" kustamajai mantai, vēsta "Dienas Bizness".
@@ -6587,14 +6587,14 @@
                     :mod (v9 / fabrika
                         :mod (v8 / putns))
                     :name (vg1 / name
-                        :op1 " Ķekava "))
+                        :op1 "Ķekava"))
                 :mod (v13 / kustēt)))
         :ARG0 (v2 / organization
             :name (vg0 / name
-                :op1 " Nordea banka ")))
+                :op1 "Nordea banka")))
     :ARG0 (v18 / organization
         :name (vg2 / name
-            :op1 " Dienas Bizness ")))
+            :op1 "Dienas Bizness")))
 
 # ::sent_id a-p3744-p2s2
 # ::text PF "Ķekava" saņēmusi "Nordea Bank Finland" Latvijas filiāles vēstuli, ar kuru banka informē, ka radušās saistību neizpildes prasības.
@@ -6603,11 +6603,11 @@
         :mod (v12 / filiāle
             :mod (v7 / organization
                 :name (vg1 / name
-                    :op1 " Nordea Bank Finland "))
+                    :op1 "Nordea Bank Finland"))
             :mod (v11 / Latvija)))
     :ARG0 (v1 / organization
         :name (vg0 / name
-            :op1 "PF " Ķekava "")))
+            :op1 "PF Ķekava")))
 
 # ::sent_id a-p3744-p2s3
 # ::text Banka pieprasījusi nodrošināt bankas pilnvarotā pārstāvja brīvu piekļuvi uzņēmuma kustamajai mantai vienas diennakts laikā.
@@ -6623,7 +6623,7 @@
         :ARG1 (v12 / vēlme))
     :ARG0 (v1 / organization
         :name (vg0 / name
-            :op1 "PF " Ķekava "")))
+            :op1 "PF Ķekava")))
 
 # ::sent_id a-p3745-p1s1
 # ::text Dienas Bizness: Lai attīstītos, jāsadarbojas.
@@ -6660,12 +6660,12 @@
         :ARG1 (v12 / bāze
             :mod (v9 / organization
                 :name (vg1 / name
-                    :op1 " LMT "))
+                    :op1 "LMT"))
             :mod (v11 / klients))
         :ARG2 (v16 / tūkstotis))
     :ARG0 (v2 / organization
         :name (vg0 / name
-            :op1 " Dienas Bizness ")))
+            :op1 "Dienas Bizness")))
 
 # ::sent_id a-p3752-p2s2
 # ::text Cīņa par klientiem pasaulē ir mērāma miljonos, savukārt Latvijā - tūkstošu izteiksmē.
@@ -6682,7 +6682,7 @@
         :mod (v5 / sekretāre
             :mod (v2 / organization
                 :name (vg0 / name
-                    :op1 " LMT "))
+                    :op1 "LMT"))
             :mod (v4 / prese))
         :name (vg1 / name
             :op0 "Elīna"
@@ -6696,7 +6696,7 @@
         :mod (v27 / klients
             :mod (v25 / organization
                 :name (vg0 / name
-                    :op1 " LMT "))))
+                    :op1 "LMT"))))
     :ARG2 (v32 / tūkstotis))
 
 # ::sent_id a-p3754-p10s1
@@ -6704,7 +6704,7 @@
 (v4 / do.02
     :ARG0 (v2 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO ""))
+            :op1 "ZAAO"))
     :ARG1 (v7 / izglītošana
         :mod (v6 / sabiedrība)))
 
@@ -6772,7 +6772,7 @@
 (v15 / be.02
     :location (v13 / organization
         :name (vg0 / name
-            :op1 "„ Daibē ""))
+            :op1 "Daibē"))
     :ARG1 (v17 / iekārta
         :mod (v16 / attīrīšana)))
 
@@ -6784,7 +6784,7 @@
             :ARG1 (v13 / iekārta
                 :mod (v12 / nepieciešams)))
         :name (vg0 / name
-            :op1 "„ ZAAO ""))
+            :op1 "ZAAO"))
     :ARG1 (v8 / prasība
         :mod (v7 / likumdošana)))
 
@@ -6809,7 +6809,7 @@
             :ARG1 (v11 / atkritumi)
             :ARG2 (v14 / viensēta))
         :name (vg0 / name
-            :op1 "„ ZAAO "")))
+            :op1 "ZAAO")))
 
 # ::sent_id a-p3754-p14s2
 # ::text Šos attālumus nevar salīdzināt ar Rīgu vai Salaspili, kur ir cits iedzīvotāju blīvums un cits atkritumu daudzums.
@@ -6858,7 +6858,7 @@
         :mod (v3 / saražot))
     :ARG2 (v9 / organization
         :name (vg0 / name
-            :op1 "AS „ Latvenergo")))
+            :op1 "AS Latvenergo")))
 
 # ::sent_id a-p3754-p15s8
 # ::text Arī šajā jomā ir poligoni, kuri pat nedomā to darīt.
@@ -6870,7 +6870,7 @@
 (v14 / want.01
     :ARG0 (v11 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO ""))
+            :op1 "ZAAO"))
     :ARG1 (v15 / ieviest))
 
 # ::sent_id a-p3754-p17s1
@@ -6949,7 +6949,7 @@
 (v10 / accumulate.01
     :ARG0 (v8 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO ""))
+            :op1 "ZAAO"))
     :ARG1 (v12 / izejviela))
 
 # ::sent_id a-p3754-p19s6
@@ -6977,7 +6977,7 @@
             :mod (v3 / RDF)))
     :ARG3 (v7 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO "")))
+            :op1 "ZAAO")))
 
 # ::sent_id a-p3754-p21s1
 # ::text Ģirts Kuplais: Es domāju, ka vismaz pusmiljonu latu.
@@ -7045,7 +7045,7 @@
 (v6 / address.01
     :ARG2 (v2 / organization
         :name (vg0 / name
-            :op1 "AS „ CATA "")))
+            :op1 "AS CATA")))
 
 # ::sent_id a-p3754-p23s5
 # ::text Transporta uzņēmumiem tas ir saistīts ar izmaksām, kas būtu jāiegulda, lai iegādātos jaunus autobusus, kas darbojas ar gāzi.
@@ -7059,7 +7059,7 @@
     :ARG0 (v2 / tas)
     :ARG1 (v5 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO "")))
+            :op1 "ZAAO")))
 
 # ::sent_id a-p3754-p25s1
 # ::text Ģirts Kuplais: Degviela pašlaik maksā gandrīz latu litrā.
@@ -7174,7 +7174,7 @@
                     :mod (v24 / apsaimniekošana
                         :mod (v23 / atkritumi)))
                 :name (vg2 / name
-                    :op1 "SIA „ ZAAO "")))
+                    :op1 "SIA ZAAO")))
         :name (vg3 / name
             :op0 "Ingrīda"
             :op1 "Gubernatorova")))
@@ -7192,7 +7192,7 @@
 (v5 / look.01
     :ARG0 (v2 / organization
         :name (vg0 / name
-            :op1 "„ ZAAO ""))
+            :op1 "ZAAO"))
     :direction (v4 / nākotne))
 
 # ::sent_id a-p3754-p30s2
@@ -7490,7 +7490,7 @@
                     :op1 "Eiropas"))))
     :ARG0 (v6 / organization
         :name (vg1 / name
-            :op1 "„ ZAAO "")))
+            :op1 "ZAAO")))
 
 # ::sent_id a-p3754-p8s1
 # ::text Ģirts Kuplais: Izpildītas visas ES likumdošanas prasības atkritumu apsaimniekošanas jomā.
@@ -7533,7 +7533,7 @@
     :ARG0 (v7 / darbība
         :mod (v5 / organization
             :name (vg0 / name
-                :op1 "„ ZAAO "")))
+                :op1 "ZAAO")))
     :ARG1 (v16 / mērķis
         :mod (v15 / noteikt)))
 
