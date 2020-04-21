@@ -1,11 +1,12 @@
 import typing
 
-from code.configuration import config_reader
-from code.container import TripletContainer
-from code.mapping_defaults.named_entities import INamedEntitiesMapping
-from code.pipes.base import PipeBase
-from code.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFileAnnotationReader
-from code.sentences.named_entity import INamedEntitiesWord
+from src.configuration import config_reader
+from src.container import TripletContainer
+from src.external.phrase_normalizer import IPhraseNormalizer
+from src.mapping_defaults.named_entity import INamedEntitiesMapping
+from src.pipes.base import PipeBase
+from src.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFileAnnotationReader
+from src.sentences.named_entity import INamedEntitiesWord
 
 
 class NamedEntitiesPipe(PipeBase):
@@ -13,8 +14,9 @@ class NamedEntitiesPipe(PipeBase):
     and joins chunk parts if necessary"""
 
     def __init__(self, mapping: INamedEntitiesMapping, annotation_reader: INamedEntitiesAnnotationReaderBase = None,
-                 debug_mode: bool = False):
+                 phrase_normalizer: IPhraseNormalizer = None, debug_mode: bool = False):
         super().__init__(debug_mode)
+        self.phrase_normalizer: IPhraseNormalizer = phrase_normalizer
         self.mapping = mapping
         self.annotation_reader: INamedEntitiesAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else NamedEntitiesFileAnnotationReader(config_reader.get_named_entities_resource_folder_path())

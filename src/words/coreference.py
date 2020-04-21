@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from code.words.base import SimpleTokenWord
+from src.words.base import SimpleTokenWord
 
 
 class ICoReferenceWord:
@@ -10,6 +10,8 @@ class ICoReferenceWord:
     @abstractmethod
     def id(self):
         pass
+
+    # ToDO: its form, not lemma!
 
     @property
     @abstractmethod
@@ -31,7 +33,7 @@ class CoReferenceTokenWord(SimpleTokenWord, ICoReferenceWord):
     """Conllu token implementation of ICoReferenceWord"""
 
     __pos_value_key = "de.tudarmstadt.ukp.dkpro.core.api.lexmorph.type.pos.POS_PosValue"
-    pos_value = property(lambda self: self.token[self.__pos_value_key] if self.__pos_value_key in self.token else "")
+    pos_value = property(lambda self: self._getitem(self.__pos_value_key))
 
     __co_reference_type_key = "de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink_referenceType"
-    coref = property(lambda self: self.token[self.__co_reference_type_key] if self.__co_reference_type_key in self.token else "")
+    coref = property(lambda self: self._getitem(self.__co_reference_type_key))

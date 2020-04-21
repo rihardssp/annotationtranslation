@@ -1,5 +1,5 @@
 import typing
-from code.container import TripletContainer
+from src.container import TripletContainer
 
 DEFAULT_DELEGATE_INIT_ERROR = "Delegate initialized with non-callable argument"
 
@@ -37,10 +37,10 @@ class ChunkDelegate:
 
     def __init__(self, delegate, default_mapping: str = None):
         if delegate is None or callable(delegate):
-            self.delegate = delegate
-            self.default_mapping = default_mapping
+            self.__delegate = delegate
+            self.__default_mapping = default_mapping
         else:
             raise Exception(DEFAULT_DELEGATE_INIT_ERROR)
 
     def evaluate(self, pipe, container_word_id: str, chunk: typing.List, container: TripletContainer):
-        self.delegate(pipe, container_word_id, chunk, container, self.default_mapping)
+        self.__delegate(pipe, container_word_id, chunk, container, self.__default_mapping)

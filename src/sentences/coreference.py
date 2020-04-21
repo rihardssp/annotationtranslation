@@ -3,8 +3,8 @@ from abc import abstractmethod
 
 from conllu import TokenList
 
-from code.sentences.base import ISentence, TokenSentenceBase
-from code.words.coreference import CoReferenceTokenWord, ICoReferenceWord
+from src.sentences.base import ISentence, TokenSentenceBase
+from src.words.coreference import CoReferenceTokenWord, ICoReferenceWord
 
 
 class ICoReferenceSentence(ISentence):

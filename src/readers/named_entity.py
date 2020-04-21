@@ -6,8 +6,8 @@ from abc import ABC, abstractmethod
 from conllu import parse_incr
 from conllu.parser import DEFAULT_FIELD_PARSERS
 
-from code.readers.base import parse_string
-from code.sentences.named_entity import INamedEntitiesSentence, NamedEntitiesTokenSentence
+from src.readers.base import parse_string
+from src.sentences.named_entity import INamedEntitiesSentence, NamedEntitiesTokenSentence
 
 
 class INamedEntitiesAnnotationReaderBase(ABC):

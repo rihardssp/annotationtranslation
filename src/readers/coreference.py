@@ -5,8 +5,8 @@ from abc import ABC, abstractmethod
 
 from conllu import parse_incr
 
-from code.readers.base import parse_string
-from code.sentences.coreference import ICoReferenceSentence, CoReferenceTokenSentence
+from src.readers.base import parse_string
+from src.sentences.coreference import ICoReferenceSentence, CoReferenceTokenSentence
 
 
 class ICoReferenceAnnotationReaderBase(ABC):

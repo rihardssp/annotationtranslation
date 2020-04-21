@@ -41,11 +41,10 @@ class SimpleTokenWord:
     def __init__(self, token):
         self.token = token
 
-    id = property(lambda self: self.token["id"])
-    lemma: str = property(lambda self: self.token["lemma"])
+    id = property(lambda self: self._getitem("id"))
 
-    def __getitem__(self, key):
-        return self.token[key]
+    def _getitem(self, key):
+        return self.token[key] if key in self.token else ""
 
     def __str__(self):
         return self.lemma
@@ -54,12 +53,13 @@ class SimpleTokenWord:
 class TokenWord(SimpleTokenWord, IWord):
     """Conllu token implementation of IWord"""
 
-    misc = property(lambda self: self.token["misc"])
-    arg = property(lambda self: self.token["arg"])
-    head = property(lambda self: self.token["head"])
-    deprel = property(lambda self: self.token["deprel"])
-    form = property(lambda self: self.token["form"])
-    feats = property(lambda self: self.token["feats"])
+    misc = property(lambda self: self._getitem("misc"))
+    arg = property(lambda self: self._getitem("arg"))
+    head = property(lambda self: self._getitem("head"))
+    deprel = property(lambda self: self._getitem("deprel"))
+    form = property(lambda self: self._getitem("form"))
+    feats = property(lambda self: self._getitem("feats"))
+    lemma: str = property(lambda self: self._getitem("lemma"))
 
     def __str__(self):
         return self.form

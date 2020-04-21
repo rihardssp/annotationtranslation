@@ -2,16 +2,17 @@ import typing
 import codecs
 import i18n
 
-from code.configuration import ConfigReader
-from code.container import TripletContainer
-from code.mapping_defaults.named_entities import NamedEntitiesMapping
-from code.mapping_defaults.propbank import PropBankMapping
-from code.pipes.coreference import CoReferencePipe
-from code.pipes.named_entity import NamedEntitiesPipe
-from code.pipes.propbank import PropBankPipe
+from src.configuration import ConfigReader
+from src.container import TripletContainer
+from src.external.phrase_normalizer import RestletPhraseNormalizer, PhaseNormalizerCategory
+from src.mapping_defaults.named_entity import NamedEntitiesMapping
+from src.mapping_defaults.propbank import PropBankMapping
+from src.pipes.coreference import CoReferencePipe
+from src.pipes.named_entity import NamedEntitiesPipe
+from src.pipes.propbank import PropBankPipe
 
-named_entities_debug = True
-co_reference_debug = True
+named_entities_debug = False
+co_reference_debug = False
 
 i18n.load_path.append('../translation')
 i18n.set('locale', 'lv')

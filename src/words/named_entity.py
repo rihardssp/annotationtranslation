@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from code.words.base import IWord, TokenWord
+from src.words.base import IWord, TokenWord
 
 
 class INamedEntitiesWord(IWord):
@@ -26,11 +26,22 @@ class INamedEntitiesWord(IWord):
     def wiki2(self):
         pass
 
+    @property
+    @abstractmethod
+    def upostag(self):
+        pass
+
+    @property
+    @abstractmethod
+    def is_punct(self):
+        pass
 
 class NamedEntitiesTokenWord(TokenWord, INamedEntitiesWord):
     """Conllu token implementation of INamedEntitiesWord"""
 
     bio_tag1 = property(lambda self: self.head)
     bio_tag2 = property(lambda self: self.deprel)
-    wiki1 = property(lambda self: self.token['deps'])
+    wiki1 = property(lambda self: self._getitem("deps"))
     wiki2 = property(lambda self: self.misc)
+    upostag = property(lambda self: self._getitem("upostag"))
+    is_punct = property(lambda self: self.upostag == "PUNCT")

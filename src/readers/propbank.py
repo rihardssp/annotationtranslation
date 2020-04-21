@@ -4,8 +4,8 @@ from abc import ABC, abstractmethod
 from conllu import parse_incr
 from conllu.parser import DEFAULT_FIELDS, DEFAULT_FIELD_PARSERS
 
-from code.readers.base import parse_string
-from code.sentences.propbank import IPropBankSentence, PropBankTokenSentence
+from src.readers.base import parse_string
+from src.sentences.propbank import IPropBankSentence, PropBankTokenSentence
 
 
 class IPropBankAnnotationReaderBase(ABC):
@@ -21,7 +21,7 @@ class PropBankFileAnnotationReader(IPropBankAnnotationReaderBase):
 
     def __init__(self, file_path: str):
         self.__file_path = file_path
-
+        print(file_path)
         # Custom format for Conllu to parse
         self.DEFAULT_FIELD_PARSERS = DEFAULT_FIELD_PARSERS.copy()
         self.DEFAULT_FIELD_PARSERS['arg'] = lambda line, i: parse_string("_", line, i)

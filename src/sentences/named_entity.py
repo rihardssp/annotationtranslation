@@ -3,8 +3,8 @@ from abc import abstractmethod
 
 from conllu import TokenList
 
-from code.sentences.base import ISentence, TokenSentenceBase
-from code.words.named_entity import INamedEntitiesWord, NamedEntitiesTokenWord
+from src.sentences.base import ISentence, TokenSentenceBase
+from src.words.named_entity import INamedEntitiesWord, NamedEntitiesTokenWord
 
 
 class INamedEntitiesSentence(ISentence):

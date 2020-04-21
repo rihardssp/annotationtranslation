@@ -4,8 +4,8 @@ from abc import abstractmethod
 
 from conllu import TokenList
 
-from code.sentences.base import ISentence, TokenSentenceBase
-from code.words.propbank import PropBankTokenWord, IPropBankWord
+from src.sentences.base import ISentence, TokenSentenceBase
+from src.words.propbank import PropBankTokenWord, IPropBankWord
 
 
 class IPropBankSentence(ISentence):

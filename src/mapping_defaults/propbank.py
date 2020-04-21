@@ -1,12 +1,12 @@
 import typing
 from abc import abstractmethod, ABC
 
-from code.delegates import ArgumentDelegate, RuleDelegate
+from src.delegates import ArgumentDelegate, RuleDelegate
 
 
 # Need to either define all from here https://www.aclweb.org/anthology/W04-2412.pdf or add manual check for undefined
 # Maps propbank arguments to AMR notation
-from code.mapping_definitions.propbank import time_argument_action, related_word_mapping_rule, polarity_rule
+from src.mapping_definitions.propbank import time_argument_action, related_word_mapping_rule, polarity_rule
 
 DEFAULT_PROP_BANK_ACTION_MAPPING = {
     'A0': ArgumentDelegate(None, 'ARG0'),

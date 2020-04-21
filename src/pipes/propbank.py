@@ -1,11 +1,11 @@
 import typing
-from code.configuration import config_reader
-from code.container import TripletContainer
-from code.delegates import ArgumentDelegate
-from code.mapping_defaults.propbank import IPropBankMapping, PropBankMapping
-from code.pipes.base import PipeBase
-from code.readers.propbank import IPropBankAnnotationReaderBase, PropBankFileAnnotationReader
-from code.sentences.propbank import IPropBankWord, IPropBankSentence
+from src.configuration import config_reader
+from src.container import TripletContainer
+from src.delegates import ArgumentDelegate
+from src.mapping_defaults.propbank import IPropBankMapping, PropBankMapping
+from src.pipes.base import PipeBase
+from src.readers.propbank import IPropBankAnnotationReaderBase, PropBankFileAnnotationReader
+from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
 class PropBankPipe(PipeBase):
     """This is the initial pipe, which creates the base of AMR by using propbank verb and its arguments and adding

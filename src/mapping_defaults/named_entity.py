@@ -1,9 +1,9 @@
 import typing
 from abc import ABC, abstractmethod
 
-from code.delegates import ChunkDelegate
-from code.mapping_definitions.named_entities import person_chunk_action, joined_location_action
-
+from src.delegates import ChunkDelegate
+from src.mapping_definitions.named_entity import person_chunk_action, concat_chunk_action, \
+    concat_chunk_location_action, concat_chunk_organization_action
 
 # The 'allowed' categories, such as person, in AMR can be found here:
 # https://github.com/amrisi/amr-guidelines/blob/master/amr.md#named-entities
@@ -11,9 +11,12 @@ from code.mapping_definitions.named_entities import person_chunk_action, joined_
 # ToDo: define rest of mapping_definitions
 DEFAULT_IOB_ACTION_MAPPING = {
     "person": ChunkDelegate(person_chunk_action),
-    "organization": ChunkDelegate(joined_location_action, "organization"),
+    "organization": ChunkDelegate(concat_chunk_organization_action, "organization"),
     # This should modify :mod to :location instead? What about detailing the location, for ex., state, city, etc. Has place for improvement
-    "location": ChunkDelegate(joined_location_action, "location"),
+    "location": ChunkDelegate(concat_chunk_location_action, "location"),
+    #"event": ChunkDelegate(concat_chunk_action, "event"),
+    #"product": ChunkDelegate(concat_chunk_action, "product"),
+    #"GPE": ChunkDelegate(concat_chunk_action, "country"),
 }
 
 
