@@ -1770,7 +1770,9 @@
 # ::sent_id a-d197-p61s1
 # ::text Sev paņēmu Hennessy, 50 gramus, jā, un divas kafijas, vienu baltu.
 (v2 / take.01
-    :ARG1 (v3 / Hennessy))
+    :ARG1 (v3 / product
+        :name (vg0 / name
+            :op1 "Hennessy")))
 
 # ::sent_id a-d197-p62s1
 # ::text Nebija īsti ko teikt, un mēs diezgan saspringti gaidījām pasūtījumu.
@@ -2002,7 +2004,9 @@
 (v2 / remove.01
     :ARG0 (v1 / es)
     :ARG1 (v4 / paciņa
-        :mod (v3 / Dunhill)))
+        :mod (v3 / product
+            :name (vg0 / name
+                :op1 "Dunhill"))))
 
 # ::sent_id a-d197-p90s1
 # ::text - Nu tad pastāsti par sevi, - es teicu.
@@ -2311,8 +2315,11 @@
 # ::sent_id a-d29-p82s4
 # ::text Brauc ar gaiši zilu Ford Sierra, kurai katrs spārns citā krāsā.
 (v1 / go.02
-    :manner (v5 / Ford
-        :mod (v4 / zils)))
+    :manner (v5 / product
+        :mod (v4 / zils)
+        :name (vg0 / name
+            :op1 "Ford Sierra")
+        :wiki "en.wikipedia.org/wiki/Ford_Sierra"))
 
 # ::sent_id a-d29-p82s5
 # ::text Viņš tirgū «Latgalīte» pārdod pirātiskos kompaktdiskus.
@@ -3555,9 +3562,11 @@
 # ::text Piedzīvojumu tūrisma filmu kategorijā balva tika taizemiešu videofilmai «Es nīstu Taizemi» («I Hate Thailand»), eko tūrisma filmu kategorijā vispārliecinošākā bija arī «Grand Prix» nopelnījusī somu «Baltās nakts maģija», bet komerciālā tūrisma kategorijā uzvarēja britu iesūtītā videofilma «Lielbritānijas skaņas» («Sounds of Great Britain»), kur Apvienotā Karaliste reklamēta kā pievilcīgs tūrisma galamērķis cilvēkiem ar netradicionālu seksuālo orientāciju.
 (v6 / get.01
     :ARG1 (v5 / balva)
-    :ARG0 (v11 / nīst
+    :ARG0 (v11 / product
         :mod (v8 / videofilma
-            :mod (v7 / taizemietis))))
+            :mod (v7 / taizemietis))
+        :name (vg0 / name
+            :op1 "Es nīstu Taizeme")))
 
 # ::sent_id a-p10138-p1s1
 # ::text Pagājušajā nedēļā, lasot ziņu par Briseles centrā manītu aizdomīgu personu ziemas mētelī, no kura ārā karājās vadi, atcerējos bērnībā dzirdēto šausmu stāstu par cilvēku sarkanā mētelī.
@@ -3809,7 +3818,9 @@
 # ::sent_id a-p10643-p1s1
 # ::text Godinot 1919. gada Latvijas Brīvības cīņu varoņus, sestdien, 21. novembrī, kad aprit 97 gadi kopš Jelgavas atbrīvošanas, «Ziņas» aicina uz piecu stundu brauciena velopastaigu, kurā tiks ietverti pieci atbrīvošanas pieminekļi.
 (v25 / invite.01
-    :ARG0 (v23 / ziņa)
+    :ARG0 (v23 / product
+        :name (vg0 / name
+            :op1 "Ziņa"))
     :ARG2 (v30 / velopastaiga
         :mod (v29 / brauciens)))
 
@@ -3849,14 +3860,15 @@
         :name (vg2 / name
             :op0 "Vadims"
             :op1 "Kuzmičs"))
-    :ARG2 (v13 / dzīve
-        :mod (v12 / Bauska))
     :ARG1 (v21 / get.01
         :ARG1 (v18 / izsaukums
             :location (v20 / name
-                :op1 (vg3 / "Iecava")
+                :op1 (vg4 / "Iecava")
                 :wiki "en.wikipedia.org/wiki/Iecava"))
-        :time (v22 / nakts)))
+        :time (v22 / nakts))
+    :ARG2 (v12 / product
+        :name (vg3 / name
+            :op1 "Bauskas Dzīve")))
 
 # ::sent_id a-p10680-p6s1
 # ::text Vecumnieku novada Vecumniekos kādu 52 gadus vecu vīrieti apakšdelmā sakoda odze, savukārt tā paša novada Stelpes pagastā 74 gadus vecai kundzei mēlē iekoda lapsene.
@@ -4629,11 +4641,13 @@
 # ::text Drīzumā klajā nāks apvienoto grāmatnīcu pirmā avīze Juze, kas informēs par jaunumiem.
 (v3 / come_out.09
     :time (v1 / drīzumā)
-    :ARG1 (v8 / Juze
+    :ARG1 (v8 / product
         :mod (v7 / avīze
             :mod (v5 / grāmatnīca
                 :mod (v4 / apvienot))
-            :mod (v6 / pirmais))))
+            :mod (v6 / pirmais))
+        :name (vg0 / name
+            :op1 "Juze")))
 
 # ::sent_id a-p1309-p9s1
 # ::text Ieguvēji būs lasītāji, sola gan J.Visockis, gan V.Gobzeme.
@@ -4686,10 +4700,12 @@
 # ::sent_id a-p13504-p2s4
 # ::text Šķidrās ziepes rokām Kitchen satur dabīgu citruseļļu, kas piešķir produktam svaigu aromātu.
 (v5 / contain.01
-    :ARG0 (v4 / Kitchen
+    :ARG0 (v4 / product
         :mod (v2 / ziepes
             :mod (v1 / šķidrs)
-            :mod (v3 / roka)))
+            :mod (v3 / roka))
+        :name (vg0 / name
+            :op1 "Kitchen"))
     :ARG1 (v7 / citruseļļa
         :mod (v6 / dabīgs)))
 
@@ -7748,13 +7764,14 @@
 (v1 / happen.01
     :ARG1 (v10 / svētki
         :mod (v9 / atvēršana
-            :mod (v7 / fenomens
+            :mod (v6 / product
                 :mod (v4 / grāmata
                     :mod (v2 / person
                         :name (vg0 / name
                             :op0 "Andris"
                             :op1 "Vilks")))
-                :mod (v6 / Grūtups)))))
+                :name (vg1 / name
+                    :op1 "Grūtupa fenomens")))))
 
 # ::sent_id a-p3767-p3s1
 # ::text Informāciju sagatavoja Ilze Veisbārde, SIA "Jānis Roze" Reklāmas un sabiedrisko attiecību daļas vadītāja.
@@ -8209,9 +8226,10 @@
 # ::sent_id a-p6239-p3s1
 # ::text Dziesma «Miljoniem dota mīlestība» tapusi par godu Valentīna dienai un visiem mīlētājiem.
 (v7 / create.01
-    :ARG1 (v5 / mīlestība
+    :ARG1 (v4 / product
         :mod (v1 / dziesma)
-        :mod (v4 / dot)))
+        :name (vg0 / name
+            :op1 "Miljoniem dota mīlestība")))
 
 # ::sent_id a-p6239-p3s2
 # ::text Hits liks aizdomāties par mīlestības spēku, enerģiju, sajūtām un motivēs nekad nepadoties un vienmēr ticēt mīlestībai.
@@ -8474,14 +8492,15 @@
 # ::sent_id a-p8765-p4s1
 # ::text »Vakara Ziņas« pievienojas Maestro sveicēju pulkam, novēlot nepagurt mūzikas laukā, iepriecinot, aizkustinot un sajūsminot savus uzticīgos klausītājus!
 (v5 / join_in.05
-    :ARG0 (v3 / ziņa
-        :mod (v2 / vakars))
     :ARG1 (v8 / pulks
         :mod (v7 / sveicējs
             :mod (v6 / person
-                :name (vg0 / name
+                :name (vg1 / name
                     :op0 "maestro")
-                :wiki "en.wikipedia.org/wiki/Raimonds_Pauls"))))
+                :wiki "en.wikipedia.org/wiki/Raimonds_Pauls")))
+    :ARG0 (v2 / product
+        :name (vg0 / name
+            :op1 "Vakara Ziņa")))
 
 # ::sent_id a-p8765-p6s1
 # ::text Pirms desmit gadiem Maestro 70. jubilejas gaidās viss bija kā parasti – Raimonds Pauls vārdu «jubileja» nemaz negribēja dzirdēt.
@@ -8924,12 +8943,14 @@
     :ARG2 (v3 / vakcinācija
         :mod (v2 / dzīvnieks
             :mod (v1 / mežs)))
-    :ARG1 (v11 / Lusvulpen
+    :ARG1 (v11 / product
         :mod (v9 / vakcīna
             :mod (v8 / saturēt
                 :mod (v7 / vīruss
                     :mod (v5 / novājināt)
-                    :mod (v6 / trakumsērga))))))
+                    :mod (v6 / trakumsērga))))
+        :name (vg0 / name
+            :op1 "Lusvulpen")))
 
 # ::sent_id a-p9971-p3s1
 # ::text Arī pērn mūsu sportisti izcīnījuši pirmās vietas pasaules un Eiropas mēroga sacensībās, bijuši citi panākumi.

@@ -16,7 +16,7 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "location": ChunkDelegate(concat_chunk_location_action),
     "GPE": ChunkDelegate(concat_chunk_location_action),
     #"event": ChunkDelegate(concat_chunk_action, "subevent"),
-    #"product": ChunkDelegate(concat_chunk_action, "product"),
+    "product": ChunkDelegate(concat_chunk_general_normalized_action, "product"),
 
 }
 
