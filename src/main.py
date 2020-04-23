@@ -1,6 +1,5 @@
 import typing
 import codecs
-import i18n
 
 from src.configuration import ConfigReader
 from src.container import TripletContainer
@@ -13,11 +12,6 @@ from src.pipes.propbank import PropBankPipe
 
 named_entities_debug = False
 co_reference_debug = False
-
-i18n.load_path.append('../translation')
-i18n.set('locale', 'lv')
-i18n.set('fallback', 'lv')
-
 
 # Define the pipeline
 pipe_line = [

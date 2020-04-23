@@ -1,5 +1,5 @@
 from src.container import TripletContainer
-from src.i18uExtensions import get_i18n_list
+from src.localisation import localisation
 from src.words.base import IWord
 from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
@@ -19,7 +19,7 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
     if len(ordinal_number) > 0:
         # We map language specific terms to AMR date-entity arguments. Simple case
         for key in mapping_value:
-            if argument_word.lemma.lower() in get_i18n_list(mapping_keys_template + key):
+            if argument_word.lemma.lower() in localisation.get_localised_list(mapping_keys_template + key):
                 time_argument_action_date_entity(key, root_word.id, argument_word.id, container,
                                                  ordinal_number[0].lemma)
                 return
@@ -27,7 +27,7 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
         # Special cases
         # This is the 'september 22nd' format
         for key in mapping_value_month:
-            if argument_word.lemma.lower() in get_i18n_list(f"{mapping_keys_template}month_{key}"):
+            if argument_word.lemma.lower() in localisation.get_localised_list(f"{mapping_keys_template}month_{key}"):
                 time_argument_action_date_entity('month', root_word.id, argument_word.id, container, key)
                 container.add(argument_word.id, ':day', ordinal_number[0].lemma)
                 return
