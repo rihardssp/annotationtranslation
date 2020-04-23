@@ -8,7 +8,8 @@ import requests
 
 class PhaseNormalizerCategory(Enum):
     """Defines the available opetaion categories of phrase normalizer"""
-    NONE = ""
+    NONE = "none",
+    NOCATEGORY = "no_category",
     PERSON = "pers",
     LOCATION = "loc",
     ORGANIZATION = "org"
@@ -32,10 +33,6 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
         if category == PhaseNormalizerCategory.NONE:
             return value
 
-        return self.consume_service(category.value[0], value)
-
-    def consume_service(self, category: str, value: str):
-
         # Cache the result on disk for repeated calls
         cache_key = f"{category}_{value}"
         if cache_key in self.__cache:
@@ -46,7 +43,8 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
 
             return item
 
-        response = requests.get(f"{self.__base_url}{value}", {"category": category})
+        response = requests.get(f"{self.__base_url}{value}",
+                                {"category": category.value} if category != PhaseNormalizerCategory.NOCATEGORY else None)
 
         if response.status_code != 200:
             raise Exception(f"'{response.url}' returned code '{response.status_code}'. ")

@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 from src.delegates import ChunkDelegate
 from src.mapping_definitions.named_entity import person_chunk_action, concat_chunk_action, \
-    concat_chunk_location_action, concat_chunk_organization_action
+    concat_chunk_location_action, concat_chunk_organization_action, concat_chunk_general_normalized_action
 
 # The 'allowed' categories, such as person, in AMR can be found here:
 # https://github.com/amrisi/amr-guidelines/blob/master/amr.md#named-entities
@@ -13,10 +13,10 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "person": ChunkDelegate(person_chunk_action),
     "organization": ChunkDelegate(concat_chunk_organization_action, "organization"),
     # This should modify :mod to :location instead? What about detailing the location, for ex., state, city, etc. Has place for improvement
-    "location": ChunkDelegate(concat_chunk_location_action, "location"),
+    "location": ChunkDelegate(concat_chunk_location_action, None),
     #"event": ChunkDelegate(concat_chunk_action, "event"),
     #"product": ChunkDelegate(concat_chunk_action, "product"),
-    #"GPE": ChunkDelegate(concat_chunk_action, "country"),
+    #"GPE": ChunkDelegate(concat_chunk_general_normalized_action, "country"),
 }
 
 

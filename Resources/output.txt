@@ -1285,9 +1285,8 @@
     :ARG0 (v1 / es
         :ARG0-of (v8 / forget.01
             :ARG1 (v10 / bērnība
-                :mod (v11 / location
-                    :name (vg0 / name
-                        :op1 "Maskavas forštate")))))
+                :location (v11 / name
+                    :op1 (vg0 / "Maskavas forštate")))))
     :ARG1 (v4 / daudz))
 
 # ::sent_id a-d197-p18s1
@@ -2518,9 +2517,8 @@
 # ::text Mežotnes Valdis solīja visus meitu nevainību caurdūrējus atdot ugunij!"
 (v3 / promise.01
     :ARG0 (v2 / person
-        :mod (v1 / location
-            :name (vg0 / name
-                :op1 "Mežotne"))
+        :location (v1 / name
+            :op1 (vg0 / "Mežotne"))
         :name (vg1 / name
             :op0 "Valdis"))
     :ARG2 (v8 / give.01
@@ -2600,9 +2598,8 @@
 # ::text DIDZI, VAI PAVADĪSI mani līdz Rozēm?"
 (v4 / accompany.01
     :ARG1 (v5 / es)
-    :ARG4 (v7 / location
-        :name (vg0 / name
-            :op1 "Rozes")))
+    :ARG4 (v7 / name
+        :op1 (vg0 / "Rozes")))
 
 # ::sent_id a-d62-p30s1
 # ::text "Atradi?"
@@ -3049,10 +3046,9 @@
 # ::text 3) tankkuģiem nav jāšķērso navigācijai sarežģītais Irbes jūras šaurums.
 (v5 / cross.02
     :ARG0 (v3 / tankkuģis)
-    :ARG1 (v8 / location
+    :ARG1 (v8 / name
         :mod (v7 / sarežģīts)
-        :name (vg0 / name
-            :op1 "Irbes jūras šaurums")
+        :op1 (vg0 / "Irbes jūras šaurums")
         :wiki "en.wikipedia.org/wiki/Irbe_Strait"))
 
 # ::sent_id a-n166-p73s1
@@ -3456,9 +3452,8 @@
     :ARG3 (v11 / viesis
         :ARG0-of (v25 / weave.01
             :ARG1 (v26 / grāmatzīme))
-        :mod (v9 / location
-            :name (vg0 / name
-                :op1 "Gaismas pils")))
+        :location (v9 / name
+            :op1 (vg0 / "Gaismas pils")))
     :ARG1 (v13 / jāt))
 
 # ::sent_id a-p10112-p4s1
@@ -3731,9 +3726,8 @@
     :ARG0 (v15 / kas)
     :time (v16 / šogad)
     :ARG1 (v17 / ikviens)
-    :ARG2 (v19 / location
-        :name (vg0 / name
-            :op1 "Elejas muižas parks")))
+    :ARG2 (v19 / name
+        :op1 (vg0 / "Elejas muižas parks")))
 
 # ::sent_id a-p10616-p4s2
 # ::text Tāpēc novads izsludinājis jaunu iepirkumu.
@@ -3787,9 +3781,8 @@
             :op0 "g."
             :op1 "Freimanis"))
     :ARG3 (v8 / tribīne
-        :mod (v5 / location
-            :name (vg1 / name
-                :op1 "Zemgales Olimpiskais centrs"))))
+        :location (v5 / name
+            :op1 (vg1 / "Zemgales Olimpiskais centrs"))))
 
 # ::sent_id a-p10643-p1s1
 # ::text Godinot 1919. gada Latvijas Brīvības cīņu varoņus, sestdien, 21. novembrī, kad aprit 97 gadi kopš Jelgavas atbrīvošanas, «Ziņas» aicina uz piecu stundu brauciena velopastaigu, kurā tiks ietverti pieci atbrīvošanas pieminekļi.
@@ -4318,15 +4311,14 @@
 # ::sent_id a-p1297-p4s3
 # ::text Bagātajos Ēdoles pagasta Bukos drīz sākusi saimniekot pamāte, kas gan Jēkaba, gan māsas bērnību darījusi sūru.
 (v6 / start.01
-    :location (v4 / location
+    :location (v4 / name
         :mod (v1 / bagāts)
         :mod (v3 / pagasts
             :mod (v2 / Ēdole))
         :ARG1-of (v7 / manage.01
             :ARG0 (v8 / pamāte)
             :ARG2-of v6)
-        :name (vg0 / name
-            :op1 "Buki"))
+        :op1 (vg0 / "Buki"))
     :ARG0 v8)
 
 # ::sent_id a-p1297-p4s4
@@ -5087,9 +5079,8 @@
 (v7 / carry_out.03
     :ARG1 (v5 / projekts
         :mod (v4 / rekonstrukcija
-            :mod (v1 / location
-                :name (vg0 / name
-                    :op1 "Mežaparka Lielā estrāde")
+            :location (v1 / name
+                :op1 (vg0 / "Mežaparka Lielā estrāde")
                 :wiki "en.wikipedia.org/wiki/Mežaparks_Great_Bandstand"))))
 
 # ::sent_id a-p14299-p4s3
@@ -5167,9 +5158,8 @@
 (v17 / find.01
     :ARG0 (v7 / draugs)
     :ARG1 (v18 / nūja)
-    :location (v14 / location
-        :name (vg0 / name
-            :op1 "Tunošonkas upes pieteka")))
+    :location (v14 / name
+        :op1 (vg0 / "Tunošonkas upes pieteka")))
 
 # ::sent_id a-p14453-p4s1
 # ::text Tomēr skaidrojot, kāpēc ir radies satraukums par bēgļu uzņemšanu, Rasnačs atzina, ka satraukums esot saistīts ar to, ka, līdzko Latvijā nostiprinās konkrēta diaspora, kas ir izolējusies no visas integrētās sabiedrības, tai ir tendence apaugt.
@@ -6993,9 +6983,8 @@
 # ::sent_id a-p3754-p21s3
 # ::text Eiropā jau šo izejvielu visi ražo.
 (v6 / produce.01
-    :location (v1 / location
-        :name (vg0 / name
-            :op1 "Eiropa"))
+    :location (v1 / name
+        :op1 (vg0 / "Eiropa"))
     :ARG1 (v4 / izejviela)
     :ARG0 (v5 / viss))
 
@@ -7168,9 +7157,8 @@
                 :mod (v30 / attīstība))
             :mod (v26 / organization
                 :mod (v25 / uzņēmums
-                    :mod (v22 / location
-                        :name (vg1 / name
-                            :op1 "Ziemeļvidzemes"))
+                    :location (v22 / name
+                        :op1 (vg1 / "Ziemeļvidzemes"))
                     :mod (v24 / apsaimniekošana
                         :mod (v23 / atkritumi)))
                 :name (vg2 / name
@@ -7448,9 +7436,8 @@
             :mod (v19 / apsaimniekošana
                 :mod (v16 / reģions
                     :mod (v14 / līdzfinansēt)
-                    :mod (v15 / location
-                        :name (vg0 / name
-                            :op1 "Ziemeļvidzemes")))
+                    :location (v15 / name
+                        :op1 (vg0 / "Ziemeļvidzemes")))
                 :mod (v18 / atkritumi
                     :mod (v17 / sadzīve))))
         :mod (v22 / kārta
@@ -7485,9 +7472,8 @@
 (v9 / comply.01
     :ARG1 (v4 / prasība
         :mod (v3 / likumdošana
-            :mod (v2 / location
-                :name (vg0 / name
-                    :op1 "Eiropa"))))
+            :location (v2 / name
+                :op1 (vg0 / "Eiropa"))))
     :ARG0 (v6 / organization
         :name (vg1 / name
             :op1 "ZAAO")))
@@ -7505,9 +7491,8 @@
 # ::sent_id a-p3754-p8s2
 # ::text Piemēram,Eiropa prasa un Latvijas likumdošanā ierakstīts, ka sadzīves atkritumus drīkst noglabāt tikai tādā gadījumā, ja viņi ir apstrādāti.
 (v4 / request.01
-    :ARG0 (v3 / location
-        :name (vg0 / name
-            :op1 "Eiropa"))
+    :ARG0 (v3 / name
+        :op1 (vg0 / "Eiropa"))
     :ARG1 (v13 / drīkstēt
         :ARG1-of (v8 / enter.02
             :ARG2 (v7 / likumdošana
@@ -8303,10 +8288,9 @@
             :mod (v11 / Ecco
                 :mod (v9 / zīmols))
             :mod (v13 / rudens)))
-    :location (v5 / location
+    :location (v5 / name
         :mod (v3 / lielveikals)
-        :name (vg0 / name
-            :op1 "Galerija centrs")))
+        :op1 (vg0 / "Galerija centrs")))
 
 # ::sent_id a-p6552-p1s2
 # ::text Pasākums tika ieturēts pop-up stilā un pulcēja gan mūziķus, dīdžejus, gan modes blogerus.
@@ -8793,9 +8777,8 @@
 (v3 / schedule.01
     :ARG1 (v5 / vizīte
         :mod (v7 / čiekurkalte
-            :mod (v6 / location
-                :name (vg0 / name
-                    :op1 "Vijciems")))))
+            :location (v6 / name
+                :op1 (vg0 / "Vijciems")))))
 
 # ::sent_id a-p980-p9s1
 # ::text Vakar, kad Strenčos viesojās Valsts prezidents, Trikātas ielā, kas ved uz kokaudzētavu, ceļinieki čakli laboja bedres.
@@ -8886,9 +8869,8 @@
                 :op1 "Nikola"
                 :op2 "Ņečiporuka"))
         :mod (v8 / čempione
-            :mod (v7 / location
-                :name (vg1 / name
-                    :op1 "Eiropa")
+            :location (v7 / name
+                :op1 (vg1 / "Eiropa")
                 :wiki "en.wikipedia.org/wiki/Europe"))
         :mod (v11 / volejbols
             :mod (v10 / pludmale))
@@ -8953,10 +8935,9 @@
 # ::text Šogad Snēpeles Kalējsētās izmēģināta zemeņu audzēšana, ieklājot melno plēvi.
 (v4 / try_out.05
     :time (v1 / šogad)
-    :location (v3 / location
+    :location (v3 / name
         :mod (v2 / Snēpele)
-        :name (vg0 / name
-            :op1 "Kalējsētas"))
+        :op1 (vg0 / "Kalējsētas"))
     :ARG1 (v6 / audzēšana
         :mod (v5 / zemene)))
 
@@ -9805,9 +9786,8 @@
 # ::sent_id a-z109-p95s1
 # ::text Latgalē pirmie ebreji ieradās ap sešpadsmito gadsimtu, kad viņi bēga no Ivana Bargā represijām.
 (v4 / arrive.01
-    :ARG4 (v1 / location
-        :name (vg0 / name
-            :op1 "Latgale")
+    :ARG4 (v1 / name
+        :op1 (vg0 / "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG1 (v3 / ebrejs
         :mod (v2 / pirmais))
@@ -9819,9 +9799,8 @@
 (v4 / reside.01
     :time (v2 / date-entity
         :year 1920.)
-    :ARG1 (v3 / location
-        :name (vg0 / name
-            :op1 "Latgale"))
+    :ARG1 (v3 / name
+        :op1 (vg0 / "Latgale"))
     :ARG0 (v8 / ebrejs
         :mod (v7 / tūkstotis)))
 
@@ -9829,9 +9808,8 @@
 # ::text Latgales ebrejus, atšķirībā no Kurzemes ebrejiem vairāk ietekmēja deviņpadsmitā gadsimta beigu rusifikācija.
 (v9 / influence.01
     :ARG1 (v2 / ebrejs
-        :mod (v1 / location
-            :name (vg0 / name
-                :op1 "Latgale")
+        :location (v1 / name
+            :op1 (vg0 / "Latgale")
             :wiki "en.wikipedia.org/wiki/Latgale"))
     :ARG0 (v13 / rusifikācija
         :mod (v12 / beigas
@@ -9846,9 +9824,8 @@
         :mod (v3 / ebrejs)
         :ARG1-of (v13 / settle.03
             :ARG4 (v14 / Krustpils)))
-    :ARG4 (v4 / location
-        :name (vg0 / name
-            :op1 "Latgale")
+    :ARG4 (v4 / name
+        :op1 (vg0 / "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG3 (v7 / Polija))
 
@@ -9879,9 +9856,8 @@
         :year 1766.)
     :ARG1 (v4 / nodoklis
         :mod (v3 / galvasnauda))
-    :location (v5 / location
-        :name (vg0 / name
-            :op1 "Latgale")
+    :location (v5 / name
+        :op1 (vg0 / "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
     :ARG0 (v8 / ebrejs))
 
@@ -9903,9 +9879,8 @@
         :mod (v2 / 1804.)
         :time-of (v8 / reside.01
             :ARG0 (v5 / ebrejs
-                :mod (v4 / location
-                    :name (vg0 / name
-                        :op1 "Latgale")
+                :location (v4 / name
+                    :op1 (vg0 / "Latgale")
                     :wiki "en.wikipedia.org/wiki/Latgale"))
             :ARG1 (v9 / lauks)
             :ARG1-of v7)

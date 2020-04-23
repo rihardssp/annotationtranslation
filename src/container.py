@@ -126,6 +126,14 @@ class TripletContainer:
                 return
         raise Exception(f"Failed to find instance with alias {instance_alias}")
 
+    def replace_instance_left_roles(self, instance_id, old_role, new_role) -> bool:
+        instance_alias = get_variable_name(instance_id)
+        for i in range(len(self.__g.triples)):
+            if self.__g.triples[i][1] == old_role and self.__g.triples[i][2] == instance_alias:
+                self.__g.triples[i] = penman.Triple(self.__g.triples[i][0], new_role, instance_alias)
+                return True
+        return False
+
     def replace_instance(self, instance_id: str, new_id: str):
         """Replaces an instance and all its references. Resource-consuming operation, however acceptable if low number of references"""
         self.remove_instance(instance_id)
