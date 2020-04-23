@@ -97,7 +97,9 @@
     :ARG1 (v8 / act.01
         :manner (v7 / noslēpumainība)
         :ARG0 (v11 / čekists
-            :mod (v13 / Rīga))))
+            :location (v13 / name
+                :op1 (vg0 / "Rīga")
+                :wiki "en.wikipedia.org/wiki/Riga"))))
 
 # ::sent_id a-c58-p41s11
 # ::text Tos vislabāk palīdzēs izvēlēties katrai sievietei individuāli speciālists, ņemot vērā pacientes vēlmes, gaumi, iespējas, krūšu sākotnējo izskatu, krūšu galu atrašanās vietu un augstumu, kā arī krūšu kurvja izmērus un auguma proporcijas.
@@ -1227,7 +1229,8 @@
 # ::sent_id a-d197-p162s1
 # ::text Pirmās, no Holandes nākušās tulpes uz galda, dzeltenas kā saule.
 (v5 / come.01
-    :ARG3 (v4 / Holande)
+    :ARG3 (v4 / name
+        :op1 (vg0 / "Holandes"))
     :ARG1 (v6 / tulpe
         :mod (v1 / pirmais)))
 
@@ -2957,7 +2960,8 @@
             :ARG4 v2))
     :ARG4 (v2 / tu)
     :ARG1 (v4 / šķūnis
-        :mod (v5 / Zilupe)))
+        :location (v5 / name
+            :op1 (vg0 / "Zilupe"))))
 
 # ::sent_id a-d87-p90s7
 # ::text Nedošu tev naudu.
@@ -3182,7 +3186,8 @@
 (v11 / pay.01
     :ARG1 (v1 / izmaksa)
     :ARG0 (v15 / galalietotājs
-        :mod (v13 / Latvija)
+        :location (v13 / name
+            :op1 (vg0 / "Latvija"))
         :mod (v14 / elektroenerģija)))
 
 # ::sent_id a-n355-p38s1
@@ -3207,8 +3212,10 @@
 (v13 / compare.01
     :ARG2 (v17 / aizstāvis
         :mod (v16 / ideoloģija
-            :mod (v15 / Vācija
-                :mod (v14 / nacistisks)))))
+            :location (v15 / name
+                :mod (v14 / nacistisks)
+                :op1 (vg0 / "Vācija")
+                :wiki "en.wikipedia.org/wiki/Germany"))))
 
 # ::sent_id a-n440-p40s2
 # ::text Raidījumos tiek vilktas paralēles ar nacistu noziegumiem Otrajā pasaules karā, nododot vēstījumu, ka, šādiem spēkiem nākot pie varas, tie atkārtos nacistu noziegumus.
@@ -3232,13 +3239,18 @@
 (v3 / lead.01
     :time (v1 / šogad)
     :ARG0 (v2 / ceļš)
-    :ARG4 (v10 / pagasts
-        :mod (v5 / Padure)))
+    :ARG4 (v10 / name
+        :location (v5 / name
+            :op1 (vg0 / "Padure")
+            :wiki "en.wikipedia.org/wiki/Padure_Parish")
+        :op1 (vg1 / "Ēdoles pagasti")
+        :wiki "en.wikipedia.org/wiki/Ēdole_Parish"))
 
 # ::sent_id a-p10011-p70s3
 # ::text Īvandē velobraucēji uzzinās, kur dzimis un skolojies rakstnieks Mārtiņš Kalndruva, izstaigās muižu, dosies uz ūdensdzirnavām un apskatīs 1816. gadā celto luterāņu baznīcu.
 (v3 / discover.01
-    :location (v1 / Īvande)
+    :location (v1 / name
+        :op1 (vg0 / "Īvande"))
     :ARG0 (v2 / velobraucējs
         :ARG0-of (v20 / view.01
             :ARG1 (v25 / baznīca
@@ -3248,7 +3260,7 @@
         :location (v5 / kur)
         :ARG1 (v10 / person
             :mod (v9 / rakstnieks)
-            :name (vg0 / name
+            :name (vg1 / name
                 :op0 "Mārtiņš"
                 :op1 "Kalndruva"))))
 
@@ -3258,7 +3270,8 @@
     :ARG0 (v3 / vadītāja
         :mod (v2 / bibliotēka))
     :ARG1 (v10 / arise.02
-        :location (v9 / Latvija)
+        :location (v9 / name
+            :op1 (vg0 / "Latvija"))
         :ARG1 (v11 / doma)))
 
 # ::sent_id a-p10011-p70s5
@@ -3340,7 +3353,9 @@
             :op0 "K."
             :op1 "Silvestrova"))
     :ARG1 (v8 / use.01
-        :location (v6 / Renda)
+        :location (v6 / name
+            :op1 (vg1 / "Renda")
+            :wiki "en.wikipedia.org/wiki/Renda,_Latvia")
         :ARG0 (v7 / daudzi
             :ARG0-of (v21 / create.01
                 :ARG1 (v23 / vide
@@ -3628,7 +3643,9 @@
 # ::text 12.00 Tukumā, Brīvības laukumā, kāds 1980. gadā dzimis vīrietis pārkāpa Tiesas lēmumu par pagaidu aizsardzību pret vardarbību – pietuvojās aizsargājamai personai.
 (v12 / breach.01
     :time (v1 / 12.00)
-    :location (v2 / Tukums)
+    :location (v2 / name
+        :op1 (vg0 / "Tukumā")
+        :wiki "en.wikipedia.org/wiki/Tukums")
     :ARG0 (v11 / vīrietis
         :mod (v10 / dzimt))
     :ARG1 (v14 / lēmums
@@ -3710,14 +3727,18 @@
     :ARG1 (v13 / dalībnieks)
     :ARG3 (v19 / mala
         :mod (v17 / dažāds)
-        :mod (v18 / Latvija)))
+        :location (v18 / name
+            :op1 (vg0 / "Latvija")
+            :wiki "en.wikipedia.org/wiki/Latvia")))
 
 # ::sent_id a-p10374-p2s2
 # ::text Īpaši tās iecienījuši Bauskas jaunie vieglatlēti, būdami nopietni pretendenti arī uz vietām labāko trijniekā.
 (v3 / fond.01
     :ARG1 (v2 / tā)
     :ARG0 (v6 / vieglatlēts
-        :mod (v4 / Bauska)
+        :location (v4 / name
+            :op1 (vg0 / "Bauska")
+            :wiki "en.wikipedia.org/wiki/Bauska")
         :mod (v5 / jauns)))
 
 # ::sent_id a-p10389-p1s1
@@ -3753,15 +3774,16 @@
         :ARG1-of (v10 / think.01
             :ARG0 (v15 / person
                 :mod (v14 / deputāts
-                    :mod (v12 / novads
-                        :mod (v11 / Jelgava))
-                    :mod (v13 / opozīcija))
-                :name (vg0 / name
+                    :mod (v13 / opozīcija)
+                    :location (v11 / name
+                        :op1 (vg0 / "Jelgavas novads")
+                        :wiki "en.wikipedia.org/wiki/Jelgava_Municipality"))
+                :name (vg1 / name
                     :op0 "Kārlis"
                     :op1 "Rimša"))))
     :ARG0 (v26 / organization
         :mod (v25 / portāls)
-        :name (vg1 / name
+        :name (vg2 / name
             :op1 "Lsm.lv")))
 
 # ::sent_id a-p10628-p2s1
@@ -3818,27 +3840,33 @@
     :ARG0 (v9 / person
         :mod (v8 / komandieris
             :mod (v7 / daļa
-                :mod (v6 / Bauska)
+                :location (v6 / name
+                    :op1 (vg1 / "Bauska"))
                 :mod (v1 / organization
                     :name (vg0 / name
                         :op1 "Valsts ugunsdzēsības un glābšanas dienests")
                     :wiki "lv.wikipedia.org/wiki/Valsts_ugunsdzēsības_un_glābšanas_dienests")))
-        :name (vg1 / name
+        :name (vg2 / name
             :op0 "Vadims"
             :op1 "Kuzmičs"))
     :ARG2 (v13 / dzīve
         :mod (v12 / Bauska))
     :ARG1 (v21 / get.01
         :ARG1 (v18 / izsaukums
-            :mod (v20 / Iecava))
+            :location (v20 / name
+                :op1 (vg3 / "Iecava")
+                :wiki "en.wikipedia.org/wiki/Iecava"))
         :time (v22 / nakts)))
 
 # ::sent_id a-p10680-p6s1
 # ::text Vecumnieku novada Vecumniekos kādu 52 gadus vecu vīrieti apakšdelmā sakoda odze, savukārt tā paša novada Stelpes pagastā 74 gadus vecai kundzei mēlē iekoda lapsene.
 (v10 / bite.01
-    :location (v3 / Vecumnieki
-        :mod (v2 / novads
-            :mod (v1 / Vecumnieki)))
+    :location (v3 / name
+        :location (v1 / name
+            :op1 (vg0 / "Vecumnieku novads")
+            :wiki "en.wikipedia.org/wiki/Vecumnieki_Municipality")
+        :op1 (vg1 / "Vecumnieki")
+        :wiki "en.wikipedia.org/wiki/Vecumnieki")
     :ARG1 (v8 / vīrietis
         :mod (v7 / vecs))
     :ARG0 (v11 / odze))
@@ -3935,7 +3963,9 @@
 # ::sent_id a-p10693-p5s1
 # ::text Dombrovskis ir gandarīts, ka Kipra ir sasniegusi programmas mērķus, uzsverot, ka valstij ir jānotur šis kurss.
 (v8 / accomplish.01
-    :ARG0 (v6 / Kipra)
+    :ARG0 (v6 / name
+        :op1 (vg0 / "Kipra")
+        :wiki "en.wikipedia.org/wiki/Cyprus")
     :ARG1 (v10 / mērķis
         :mod (v9 / programma)))
 
@@ -4063,7 +4093,9 @@
         :location (v8 / vidus
             :mod (v7 / darbiniece
                 :mod (v6 / nodaļa
-                    :mod (v5 / Daugavpils))))
+                    :location (v5 / name
+                        :op1 (vg0 / "Daugavpils")
+                        :wiki "en.wikipedia.org/wiki/Daugavpils"))))
         :ARG1 (v23 / upurjērs)))
 
 # ::sent_id a-p12700-p1s4
@@ -4131,9 +4163,10 @@
 # ::sent_id a-p12841-p1s1
 # ::text Rēzeknes novadā, apgāžoties automašīnai "Mazda", gājis bojā šoferis.
 (v10 / perish.01
-    :location (v2 / novads
-        :mod (v1 / Rēzekne))
-    :ARG0 (v12 / šoferis))
+    :ARG0 (v12 / šoferis)
+    :location (v1 / name
+        :op1 (vg0 / "Rēzeknes novads")
+        :wiki "en.wikipedia.org/wiki/Rēzekne_Municipality"))
 
 # ::sent_id a-p12879-p4s1
 # ::text 1970.gada aprīlī tas nonāca mistera Paskua īpašumā un tika pārvests uz Džersiju.
@@ -4141,7 +4174,8 @@
     :time (v3 / aprīlis
         :time-of (v11 / transport.01
             :ARG1 (v4 / tas)
-            :ARG3 (v13 / Džersijs)))
+            :ARG3 (v13 / name
+                :op1 (vg1 / "Džersijs"))))
     :ARG1 v4
     :ARG4 (v8 / īpašums
         :mod (v7 / person
@@ -4313,12 +4347,13 @@
 (v6 / start.01
     :location (v4 / name
         :mod (v1 / bagāts)
-        :mod (v3 / pagasts
-            :mod (v2 / Ēdole))
         :ARG1-of (v7 / manage.01
             :ARG0 (v8 / pamāte)
             :ARG2-of v6)
-        :op1 (vg0 / "Buki"))
+        :location (v2 / name
+            :op1 (vg0 / "Ēdoles pagasts")
+            :wiki "en.wikipedia.org/wiki/Ēdole_Parish")
+        :op1 (vg1 / "Buki"))
     :ARG0 v8)
 
 # ::sent_id a-p1297-p4s4
@@ -4351,10 +4386,12 @@
             :op0 "Jēkabs"))
     :ARG3 (v14 / māja
         :mod (v13 / tēvs))
-    :ARG4 (v20 / pagasts
-        :mod (v18 / rajons
-            :mod (v17 / Liepāja))
-        :mod (v19 / Saka)))
+    :ARG4 (v19 / name
+        :location (v17 / name
+            :op1 (vg1 / "Liepājas rajons")
+            :wiki "en.wikipedia.org/wiki/Liepāja_District")
+        :op1 (vg2 / "Sakas pagasts")
+        :wiki "en.wikipedia.org/wiki/Saka_Parish"))
 
 # ::sent_id a-p1297-p4s8
 # ::text Pēc laika izrādījies, ka uz labu tas bijis, jo nav kā lielsaimnieks uz Sibīriju aizvests, bet izsūtīšana darbos uz Vāciju nav gājusi garām.
@@ -4371,7 +4408,9 @@
             :location (v3 / tur)))
     :manner (v12 / kāja)
     :ARG4 (v13 / atpakaļ)
-    :ARG4 (v15 / Latvija))
+    :ARG4 (v15 / name
+        :op1 (vg1 / "Latvija")
+        :wiki "en.wikipedia.org/wiki/Latvia"))
 
 # ::sent_id a-p1299-p1s1
 # ::text Piektdien ielikti Ēdoles pamatskolas sporta zāles pamati, bet tajos – kapsula ar veselīga dzīvesveida vēlējumu nākamajām paaudzēm un skolas bukletu.
@@ -4428,8 +4467,9 @@
     :manner (v2 / konkurss
         :mod (v1 / celtniecība))
     :ARG1 (v5 / organization
-        :mod (v4 / Ventspils)
-        :name (vg0 / name
+        :location (v4 / name
+            :op1 (vg0 / "Ventspils"))
+        :name (vg1 / name
             :op1 "SIA Venceb")))
 
 # ::sent_id a-p1299-p3s2
@@ -4574,12 +4614,14 @@
 # ::sent_id a-p1309-p8s2
 # ::text Tagad arī Kuldīgā pusaudži varēs apmeklēt Potera klubiņu.
 (v5 / able.01
-    :location (v3 / Kuldīga
+    :location (v3 / name
         :location-of (v6 / attend.01
             :ARG0 (v4 / pusaudzis)
             :ARG1 (v7 / organization
-                :name (vg0 / name
-                    :op1 "Potera klubiņu"))))
+                :name (vg1 / name
+                    :op1 "Potera klubiņu")))
+        :op1 (vg0 / "Kuldīga")
+        :wiki "en.wikipedia.org/wiki/Kuldiga")
     :ARG1 v4
     :ARG2 v6)
 
@@ -4742,7 +4784,9 @@
     :ARG1 (v1 / mūzika
         :mod (v3 / gaume
             :mod (v2 / dažāds)))
-    :location (v8 / Rīga))
+    :location (v8 / name
+        :op1 (vg0 / "Rīga")
+        :wiki "en.wikipedia.org/wiki/Riga"))
 
 # ::sent_id a-p14112-p3s1
 # ::text No abažūra nepieciešams noņemt veco materiālu, atstājot tikai karkasu.
@@ -4762,8 +4806,9 @@
     :ARG1 (v4 / putas
         :mod (v3 / poliuretāns))
     :ARG2 (v6 / siltinātājs)
-    :location (v10 / valsts
-        :mod (v9 / savienot)))
+    :location (v9 / name
+        :op1 (vg0 / "Amerikas Savienotās Valstis")
+        :wiki "en.wikipedia.org/wiki/United_States"))
 
 # ::sent_id a-p14117-p9s2
 # ::text Poliuretāna putas var izmantot grūti sasniedzamo vietu siltināšanai.
@@ -5062,8 +5107,9 @@
 # ::sent_id a-p14292-p2s2
 # ::text Tāpat komanda neaizvadīs ne vienu treniņu Latvijā - 21.martā dosies uz Slovākiju, kur gatavosies Senecas pilsētā, bet dienu pirms 25.martā gaidāmās spēles pārbrauks uz Čehiju.
 (v16 / prepare.02
-    :location (v18 / pilsēta
-        :mod (v17 / Seneca)))
+    :location (v17 / name
+        :op1 (vg0 / "Senecas pilsēta")
+        :wiki "en.wikipedia.org/wiki/Senec,_Slovakia"))
 
 # ::sent_id a-p14296-p4s1
 # ::text Pasākuma pirmajā daļā organizācija atskatīsies uz 2015.gadā paveikto, kā arī izvirzīs darbības prioritātes 2016.gadam.
@@ -5125,7 +5171,9 @@
 # ::sent_id a-p14382-p5s2
 # ::text Nākamajos gados tās tika iesaldētas, jo Spānijā turpinājās recesija, kuru izraisīja celtniecības nozares sabrukums.
 (v9 / go_on.15
-    :location (v8 / Spānija)
+    :location (v8 / name
+        :op1 (vg0 / "Spānija")
+        :wiki "en.wikipedia.org/wiki/Spain")
     :ARG1 (v10 / recesija))
 
 # ::sent_id a-p14438-p3s2
@@ -5250,7 +5298,8 @@
 (v7 / lose.03
     :ARG1 (v4 / tā)
     :ARG0 (v6 / sportiste
-        :mod (v5 / Latvija)))
+        :location (v5 / name
+            :op1 (vg0 / "Latvija"))))
 
 # ::sent_id a-p14477-p4s2
 # ::text Tikmēr 13 punktus guva un piecas bumbas zem groziem izcīnīja Artūrs Kurucs.
@@ -5280,7 +5329,9 @@
         :wiki "en.wikipedia.org/wiki/Mārtiņš_Karsums")
     :ARG1 (v9 / spēle
         :mod (v8 / klubs
-            :mod (v7 / Maskava))
+            :location (v7 / name
+                :op1 (vg1 / "Maskava")
+                :wiki "en.wikipedia.org/wiki/Moscow"))
         :mod (v11 / kārta)))
 
 # ::sent_id a-p17240-p4s1
@@ -5408,7 +5459,9 @@
 # ::text Vai izglītība Latvijā patiešām var tikt uzskatīta par "bezmaksas"?
 (v5 / able.01
     :ARG1 (v2 / izglītība
-        :mod (v3 / Latvija)
+        :location (v3 / name
+            :op1 (vg0 / "Latvija")
+            :wiki "en.wikipedia.org/wiki/Latvia")
         :ARG1-of (v7 / regard.01
             :ARG2 (v10 / bezmaksas)
             :ARG2-of v5)))
@@ -5830,14 +5883,20 @@
     :ARG0 (v2 / es
         :ARG1-of (v14 / be.02
             :location (v15 / teātris)))
-    :ARG3 (v7 / Durbe)
-    :ARG4 (v9 / Liepāja))
+    :ARG3 (v7 / name
+        :op1 (vg0 / "Durbe")
+        :wiki "en.wikipedia.org/wiki/Durbe")
+    :ARG4 (v9 / name
+        :op1 (vg1 / "Liepājs")
+        :wiki "en.wikipedia.org/wiki/Liepāja"))
 
 # ::sent_id a-p3332-p7s5
 # ::text Bet mācības Durbē un darbu teātrī apvienot bija grūti, tāpēc pārcēlos uz Liepāju, kas tēvam ļoti nepatika.
 (v7 / unite.01
     :ARG1 (v2 / mācība
-        :mod (v3 / Durbe))
+        :location (v3 / name
+            :op1 (vg0 / "Durbe")
+            :wiki "en.wikipedia.org/wiki/Durbe"))
     :ARG2 (v5 / darbs
         :mod (v6 / teātris)))
 
@@ -5860,7 +5919,9 @@
     :ARG1 (v2 / viņš
         :ARG0-of (v3 / tell.01
             :ARG1 v6))
-    :ARG4 (v11 / Daugavpils))
+    :ARG4 (v11 / name
+        :op1 (vg0 / "Daugavpils")
+        :wiki "en.wikipedia.org/wiki/Daugavpils"))
 
 # ::sent_id a-p3332-p7s9
 # ::text Bet man pašai tolaik bija milzīga apņēmība – uzskatīju, ka es to ne tikai gribu, bet arī varu.
@@ -6053,7 +6114,8 @@
             :wiki "lv.wikipedia.org/wiki/Andris_Rāviņš")
         :mod (v9 / pārkāpums
             :mod (v8 / atklāt)
-            :mod (v10 / Jelgava))))
+            :location (v10 / name
+                :op1 (vg2 / "Jelgava")))))
 
 # ::sent_id a-p3732-p2s2
 # ::text Vides aizsardzības un reģionālās attīstības ministrs Edmunds Sprūdžs (RP) rīt tiksies ar Jelgavas mēru Andri Rāviņu (ZZS), lai uzklausītu skaidrojumus par Valsts kontroles revīzijā atklātajiem normatīvo aktu pārkāpumiem un nepilnībām, aģentūru LETA informēja ministrijas sabiedrības informēšanas nodaļā.
@@ -6073,8 +6135,9 @@
             :op1 "Sprūdžs"))
     :ARG1 (v17 / person
         :mod (v16 / mērs
-            :mod (v15 / Jelgava))
-        :name (vg1 / name
+            :location (v15 / name
+                :op1 (vg1 / "Jelgava")))
+        :name (vg2 / name
             :op0 "Andris"
             :op1 "Rāviņš")))
 
@@ -6594,7 +6657,8 @@
             :mod (v7 / organization
                 :name (vg1 / name
                     :op1 "Nordea Bank Finland"))
-            :mod (v11 / Latvija)))
+            :location (v11 / name
+                :op1 (vg2 / "Latvija"))))
     :ARG0 (v1 / organization
         :name (vg0 / name
             :op1 "PF Ķekava")))
@@ -6805,7 +6869,8 @@
 # ::text Šos attālumus nevar salīdzināt ar Rīgu vai Salaspili, kur ir cits iedzīvotāju blīvums un cits atkritumu daudzums.
 (v4 / compare.01
     :ARG1 (v2 / attālums)
-    :ARG2 (v6 / Rīga))
+    :ARG2 (v6 / name
+        :op1 (vg0 / "Rīga")))
 
 # ::sent_id a-p3754-p14s3
 # ::text Šie un vēl daudzi citi faktori, protams, atstāj ietekmi uz izmaksām un cenu.
@@ -6868,7 +6933,8 @@
 (v13 / request.01
     :ARG1 (v12 / kas)
     :ARG0 (v15 / likumdošana
-        :mod (v14 / Latvija)))
+        :location (v14 / name
+            :op1 (vg0 / "Latvija"))))
 
 # ::sent_id a-p3754-p17s2
 # ::text Mums ir iespēja ražot RDF (angliski - refuse derived fuel, latviski - NAIK jeb no atkritumiem iegūtais kurināmais).
@@ -6910,7 +6976,8 @@
 (v16 / build.01
     :ARG1 (v18 / rūpnīca
         :mod (v17 / liels))
-    :location (v20 / Tallina))
+    :location (v20 / name
+        :op1 (vg0 / "Tallina")))
 
 # ::sent_id a-p3754-p19s2
 # ::text Tā sāks strādāt 2013.gada aprīlī.
@@ -6991,7 +7058,8 @@
 # ::sent_id a-p3754-p21s4
 # ::text Vispareizākais būtu, ja Latvijā būvētu kādu lielu rūpnīcu, piemēram, celulozes.
 (v6 / build.01
-    :location (v5 / Latvija)
+    :location (v5 / name
+        :op1 (vg0 / "Latvija"))
     :ARG1 (v9 / rūpnīca
         :mod (v8 / liels)))
 
@@ -7007,15 +7075,16 @@
 # ::text Cik man zināms, šāda prakse ir Vācijā, kur jau noteikumos tiek iestrādāts, ka būs jāizmanto šis kurināmais, nevis gāze, šķelda vai kas cits.
 (v7 / be.02
     :ARG1 (v6 / prakse)
-    :location (v8 / Vācija))
+    :location (v8 / name
+        :op1 (vg0 / "Vācija")))
 
 # ::sent_id a-p3754-p22s1
 # ::text Kā ar ieceri, kas kādreiz izskanēja, ka Valmieras pilsētas sabiedriskais transports un arī „ZAAO" transports varētu darboties ar atkritumu enerģiju benzīna vietā?
 (v21 / work.09
     :ARG1 (v13 / transports
-        :mod (v11 / pilsēta
-            :mod (v10 / Valmiera))
-        :mod (v12 / sabiedrisks))
+        :mod (v12 / sabiedrisks)
+        :location (v10 / name
+            :op1 (vg0 / "Valmieras pilsēta")))
     :manner (v24 / enerģija
         :mod (v23 / atkritumi)))
 
@@ -7170,7 +7239,8 @@
 # ::sent_id a-p3754-p2s2
 # ::text Līdz ar to ilgtermiņā Latviju klās lielas atkritumu kaudzes, lai gan, atkritumus veiksmīgi pārstrādājot, pāri varētu palikt vien smaka un pelni.
 (v6 / cover.02
-    :ARG1 (v5 / Latvija)
+    :ARG1 (v5 / name
+        :op1 (vg0 / "Latvija"))
     :ARG2 (v9 / kaudze
         :mod (v7 / liels)
         :mod (v8 / atkritumi)))
@@ -7343,7 +7413,8 @@
 # ::sent_id a-p3754-p38s6
 # ::text Tas izslēdz iespēju, ka Latvijā varētu būvēt kādas atkritumu pārstrādes rūpnīcas.
 (v8 / build.01
-    :location (v6 / Latvija)
+    :location (v6 / name
+        :op1 (vg0 / "Latvija"))
     :ARG1 (v12 / rūpnīca
         :mod (v11 / pārstrāde
             :mod (v10 / atkritumi))))
@@ -7482,7 +7553,8 @@
 # ::text Ģirts Kuplais: Izpildītas visas ES likumdošanas prasības atkritumu apsaimniekošanas jomā.
 (v4 / comply.01
     :ARG1 (v8 / prasība
-        :mod (v6 / ES)
+        :location (v6 / name
+            :op1 (vg0 / "ES"))
         :mod (v7 / likumdošana)
         :mod (v11 / joma
             :mod (v9 / atkritumi)
@@ -7496,7 +7568,8 @@
     :ARG1 (v13 / drīkstēt
         :ARG1-of (v8 / enter.02
             :ARG2 (v7 / likumdošana
-                :mod (v6 / Latvija)))))
+                :location (v6 / name
+                    :op1 (vg1 / "Latvija"))))))
 
 # ::sent_id a-p3754-p8s3
 # ::text Tas nozīmē, ka poligonā visus sadzīves atkritumus maļam un šķirojam, atsevišķi nodalot bioloģiski noārdāmos atkritumus.
@@ -7710,8 +7783,9 @@
             :op0 "Andris"
             :op1 "Grūtups"))
     :ARG1 (v26 / ideja
-        :mod (v25 / Latvija
-            :mod (v24 / latvisks))))
+        :location (v25 / name
+            :mod (v24 / latvisks)
+            :op1 (vg1 / "Latvija"))))
 
 # ::sent_id a-p3767-p6s1
 # ::text Lasītājiem tiek piedāvāts filozofisks stāstījums, kas balstās pārliecībā, ka cilvēku radījuši tik vareni spēki, ka tos nav iespējams ievietot indivīda apziņai piemītošo kritēriju rāmjos.
@@ -7825,7 +7899,9 @@
     :ARG2 (v3 / aktrise
         :ARG0-of (v4 / return.03
             :ARG1 (v5 / bērns)
-            :ARG2 (v6 / Losandželosa)
+            :ARG2 (v6 / name
+                :op1 (vg0 / "Losandželosa")
+                :wiki "en.wikipedia.org/wiki/Los_Angeles")
             :ARG1-of v2)))
 
 # ::sent_id a-p5406-p2s1
@@ -8628,10 +8704,11 @@
             :name (vg0 / name
                 :op0 "Valdis"
                 :op1 "Zatlers"))
-        :mod (v20 / Strenči))
+        :location (v20 / name
+            :op1 (vg1 / "Strenči")))
     :ARG0 (v23 / person
         :mod (v22 / pensionāre)
-        :name (vg1 / name
+        :name (vg2 / name
             :op0 "Dzidra"
             :op1 "Ploce")))
 
@@ -8753,7 +8830,8 @@
 # ::text Vizīti Strenčos Valsts prezidentam atgādinās simboliska dāvana - Agra Dzilnas fotogrāfija, kurā redzamas Strenču krāces Gaujā.
 (v5 / remind.01
     :ARG1 (v1 / vizīte
-        :mod (v2 / Strenči))
+        :location (v2 / name
+            :op1 (vg0 / "Strenči")))
     :ARG2 (v4 / prezidents
         :mod (v3 / valsts))
     :ARG0 (v7 / dāvana
@@ -8766,11 +8844,13 @@
         :ARG0-of (v8 / go.02
             :manner (v10 / laiva)
             :ARG3 (v13 / krāce
-                :mod (v12 / Strenči)))
+                :location (v12 / name
+                    :op1 (vg2 / "Strenči"))))
         :name (vg0 / name
             :op0 "V."
             :op1 "Zatlers"))
-    :ARG2 (v6 / Strenči))
+    :ARG2 (v6 / name
+        :op1 (vg1 / "Strenčus")))
 
 # ::sent_id a-p980-p8s2
 # ::text Viņam bija ieplānota arī vizīte Vijciema čiekurkaltē un lauku sētā "Kankarīši", kurā saimnieko Lonija Kurpniece ar ģimeni.
@@ -8914,10 +8994,11 @@
 # ::text 8.00 Ēdoles pagastā pie kādām mājām konstatēts, ka atslēgts vagoniņš un nozagti celtniecības instrumenti.
 (v7 / find.01
     :time (v1 / 8.00)
-    :location (v3 / pagasts
-        :mod (v2 / Ēdole))
     :ARG1 (v10 / unlock.01
-        :ARG1 (v11 / vagoniņš)))
+        :ARG1 (v11 / vagoniņš))
+    :location (v2 / name
+        :op1 (vg0 / "Ēdoles pagasts")
+        :wiki "en.wikipedia.org/wiki/Ēdole_Parish"))
 
 # ::sent_id a-p9980-p2s3
 # ::text 16. aprīlī ap 3.12 Kuldīgā, Pasta ielā, spēļu zālē vīrietim nozagta nauda.
@@ -8925,7 +9006,9 @@
     :time (v2 / date-entity
         :month 4
         :day 16.)
-    :location (v5 / Kuldīga)
+    :location (v5 / name
+        :op1 (vg0 / "Kuldīga")
+        :wiki "en.wikipedia.org/wiki/Kuldiga")
     :location (v11 / zāle
         :mod (v10 / spēle))
     :ARG2 (v12 / vīrietis)
@@ -8936,8 +9019,10 @@
 (v4 / try_out.05
     :time (v1 / šogad)
     :location (v3 / name
-        :mod (v2 / Snēpele)
-        :op1 (vg0 / "Kalējsētas"))
+        :location (v2 / name
+            :op1 (vg0 / "Snēpele")
+            :wiki "lv.wikipedia.org/wiki/Snēpele")
+        :op1 (vg1 / "Kalējsētas"))
     :ARG1 (v6 / audzēšana
         :mod (v5 / zemene)))
 
@@ -9255,7 +9340,9 @@
         :ARG0-of (v10 / consider.02
             :ARG1 (v14 / spēja
                 :mod (v13 / valdība))))
-    :ARG1 (v4 / Īrija))
+    :ARG1 (v4 / name
+        :op1 (vg0 / "Īrija")
+        :wiki "en.wikipedia.org/wiki/Republic_of_Ireland"))
 
 # ::sent_id a-z108-p155s2
 # ::text Bez tam visas izvēlētās valstis ir ES sastāvā, līdz ar to ievērojot tos pašus nosacījumus, ko nepieciešams garantēt Latvijā.
@@ -9276,7 +9363,9 @@
     :time (v3 / temporal-quantity
         :unit (vg0 / gads)
         :quant 10)
-    :ARG0 (v4 / Nīderlande)
+    :ARG0 (v4 / name
+        :op1 (vg1 / "Nīderlande")
+        :wiki "en.wikipedia.org/wiki/Netherlands")
     :ARG1 (v8 / atzinība
         :mod (v7 / starptautisks)))
 
@@ -9299,7 +9388,9 @@
 # ::sent_id a-z108-p193s5
 # ::text Turklāt Nīderlandē labklājības līmenis tika sasniegts periodā, kad lielākajā daļā citu Rietumeiropas valstu bija vērojama lejupslīde, bezdarba līmeņa pieaugums.
 (v6 / accomplish.01
-    :location (v2 / Nīderlande)
+    :location (v2 / name
+        :op1 (vg0 / "Nīderlande")
+        :wiki "en.wikipedia.org/wiki/Netherlands")
     :ARG1 (v4 / līmenis
         :mod (v3 / labklājība))
     :time (v7 / periods))
@@ -9309,7 +9400,9 @@
 (v14 / have.03
     :ARG0 (v4 / %
         :mod (v7 / iedzīvotājs
-            :mod (v6 / Nīderlande)
+            :location (v6 / name
+                :op1 (vg0 / "Nīderlande")
+                :wiki "en.wikipedia.org/wiki/Netherlands")
             :mod (v8 / vecums)
             :mod (v9 / grupa
                 :mod (v13 / gads))))
@@ -9321,17 +9414,23 @@
 # ::sent_id a-z108-p199s2
 # ::text Ar šādu statistiku Nīderlande ieņem otro vietu ES, atpaliekot tikai no Dānijas, kuras nodarbinātības rādītāji ir 78% apmērā.
 (v5 / rank.01
-    :ARG1 (v4 / Nīderlande)
+    :ARG1 (v4 / name
+        :op1 (vg0 / "Nīderlande")
+        :wiki "en.wikipedia.org/wiki/Netherlands")
     :ARG2 (v7 / vieta
         :mod (v6 / otrais)
-        :mod (v8 / ES)))
+        :location (v8 / name
+            :op1 (vg1 / "ES")
+            :wiki "en.wikipedia.org/wiki/European_Union")))
 
 # ::sent_id a-z108-p199s3
 # ::text Vidēji ES nodarbinātības rādītāji ir 66% apmērā, zemākie no tiem ir Maltā (55%) un arī Ungārijā, Itālijā, Rumānijā un Polijā rādītāji ir zem 60% atzīmes.
 (v13 / be.02
     :ARG1 (v10 / zems
         :mod (v12 / tas))
-    :location (v14 / Malta))
+    :location (v14 / name
+        :op1 (vg0 / "Malta")
+        :wiki "en.wikipedia.org/wiki/Malta"))
 
 # ::sent_id a-z108-p25s2
 # ::text Lange (Lange) un Regini (Regini) norādījuši, ka elastību lielā mērā var saistīt ar darba tirgus regulējošo aspektu samazināšanu, kā arī valsts vai pārvaldības mazāku „iejaukšanos” noteiktu sistēmu noteikšanā.
@@ -9538,7 +9637,9 @@
 # ::sent_id a-z109-p142s2
 # ::text Rīgā tika dibināta 12 cilvēku grupa, divi tās pārstāvji – Jehošua Falks Gafanovičs un Moše Šekcers 1890. g. ieradās Jafā.
 (v3 / establish.01
-    :location (v1 / Rīga)
+    :location (v1 / name
+        :op1 (vg0 / "Rīga")
+        :wiki "en.wikipedia.org/wiki/Riga")
     :ARG1 (v6 / grupa
         :mod (v5 / cilvēks)))
 
@@ -9547,7 +9648,9 @@
 (v9 / buy.01
     :ARG0 (v8 / viņš)
     :ARG1 (v10 / gruntsgabals
-        :mod (v11 / Hadera)))
+        :location (v11 / name
+            :op1 (vg0 / "Haders")
+            :wiki "en.wikipedia.org/wiki/Hadera")))
 
 # ::sent_id a-z109-p142s4
 # ::text Bija iespēja nopirkt vēl 2000 dunamu un viņi lūdza palīdzību saviem Rīgas biedriem.
@@ -9555,7 +9658,9 @@
     :ARG0 (v8 / viņš)
     :ARG1 (v10 / palīdzība)
     :ARG2 (v13 / biedrs
-        :mod (v12 / Rīga)))
+        :location (v12 / name
+            :op1 (vg0 / "Rīga")
+            :wiki "en.wikipedia.org/wiki/Riga")))
 
 # ::sent_id a-z109-p142s5
 # ::text Leibs Šalits un Jakovs Grindins nopirka atlikušo daļu.
@@ -9572,7 +9677,9 @@
 (v14 / return.01
     :ARG1 (v1 / daļa
         :mod (v3 / ebrejs
-            :mod (v2 / Rīga)))
+            :location (v2 / name
+                :op1 (vg0 / "Rīga")
+                :wiki "en.wikipedia.org/wiki/Riga")))
     :time (v13 / vēlu))
 
 # ::sent_id a-z109-p142s7
@@ -9595,9 +9702,13 @@
 (v3 / help.01
     :ARG0 (v1 / viņš)
     :ARG2 (v4 / izceļotājs
-        :mod (v6 / Rīga)
+        :location (v6 / name
+            :op1 (vg0 / "Rīga")
+            :wiki "en.wikipedia.org/wiki/Riga")
         :ARG0-of (v11 / buy.01
-            :location (v12 / Palestīna)
+            :location (v12 / name
+                :op1 (vg1 / "Palestīns")
+                :wiki "en.wikipedia.org/wiki/Palestine_(region)")
             :ARG1 (v13 / zeme)
             :ARG1-of v3)))
 
@@ -9673,7 +9784,8 @@
         :month 10
         :day 15.)
     :ARG1 (v9 / viņš)
-    :ARG3 (v11 / Liepāja))
+    :ARG3 (v11 / name
+        :op1 (vg0 / "Liepāja")))
 
 # ::sent_id a-z109-p192s3
 # ::text Pēc lekcijas klātesošie izteica viņam pateicību un lūdz arī turpmāk darboties Latvijas ebreju interešu vārdā.
@@ -9823,11 +9935,15 @@
         :mod (v1 / liels)
         :mod (v3 / ebrejs)
         :ARG1-of (v13 / settle.03
-            :ARG4 (v14 / Krustpils)))
+            :ARG4 (v14 / name
+                :op1 (vg2 / "Krustpils")
+                :wiki "lv.wikipedia.org/wiki/Krustpils")))
     :ARG4 (v4 / name
         :op1 (vg0 / "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
-    :ARG3 (v7 / Polija))
+    :ARG3 (v7 / name
+        :op1 (vg1 / "Polija")
+        :wiki "en.wikipedia.org/wiki/Poland"))
 
 # ::sent_id a-z109-p95s3
 # ::text Viņi bija ortodoksi, runāja jidišā un cieši pieturējās pie ebreju tradīcijām.
@@ -9869,8 +9985,9 @@
         :ARG1-of (v16 / include.01
             :ARG2 (v18 / josla
                 :mod (v17 / apmešanās))))
-    :location (v13 / guberņa
-        :mod (v12 / Vitebska)))
+    :location (v12 / name
+        :op1 (vg0 / "Vitebskas guberņa")
+        :wiki "en.wikipedia.org/wiki/Vitebsk_Governorate"))
 
 # ::sent_id a-z109-p95s8
 # ::text Kopš 1804. gada Latgales ebrejiem bija aizliegts dzīvot laukos un nodarboties ar lauksaimniecību, tādēļ viņi pārcēlās uz pilsētām, kur dzīvoja samērā nabadzīgi.

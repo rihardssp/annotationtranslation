@@ -13,10 +13,11 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "person": ChunkDelegate(person_chunk_action),
     "organization": ChunkDelegate(concat_chunk_organization_action, "organization"),
     # This should modify :mod to :location instead? What about detailing the location, for ex., state, city, etc. Has place for improvement
-    "location": ChunkDelegate(concat_chunk_location_action, None),
-    #"event": ChunkDelegate(concat_chunk_action, "event"),
+    "location": ChunkDelegate(concat_chunk_location_action),
+    "GPE": ChunkDelegate(concat_chunk_location_action),
+    #"event": ChunkDelegate(concat_chunk_action, "subevent"),
     #"product": ChunkDelegate(concat_chunk_action, "product"),
-    #"GPE": ChunkDelegate(concat_chunk_general_normalized_action, "country"),
+
 }
 
 
