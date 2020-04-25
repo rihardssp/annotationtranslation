@@ -3328,7 +3328,7 @@
 # ::text Balles tad notikušas tieši līdz trijiem naktī, kad policists visus izvadījis pa durvīm.
 (v3 / happen.01
     :ARG1 (v1 / balle)
-    :time (v6 / trīs))
+    :time (v6 / "līdz trijiem nakts"))
 
 # ::sent_id a-p10030-p7s4
 # ::text Tas gan nav traucējis balli turpināt, bet jau par papildu samaksu muzikantiem.
@@ -3340,7 +3340,7 @@
 # ::sent_id a-p10032-p1s1
 # ::text Šonedēļ Kuldīgas slimnīcas radioloģijas nodaļā, kurā kopš janvāra telpas nomā SIA Vizuālā diagnostika, testa režīmā sācis darboties jaunais magnētiskās rezonanses aparāts.
 (v18 / start.01
-    :time (v1 / šonedēļ)
+    :time (v1 / "Šonedēļ")
     :location (v5 / nodaļa
         :mod (v4 / radioloģija)
         :mod (v2 / organization
@@ -3494,7 +3494,7 @@
 # ::sent_id a-p10112-p4s2
 # ::text Bet vasarā, treniņnometnēs, gadās arī svelmainie treniņi: no rīta ir rīta rosme, kam seko brokastis, tad rīta treniņi četru stundu garumā, no 9.00 līdz 12.30, otrs treniņš ir no 16.00 vai 16.30 līdz 18.00, 18.30.
 (v6 / happen.01
-    :time (v2 / vasara)
+    :time (v2 / "vasara")
     :ARG1 (v9 / treniņš
         :mod (v8 / svelmains)))
 
@@ -3651,7 +3651,7 @@
 # ::sent_id a-p10257-p6s1
 # ::text 12.00 Tukumā, Brīvības laukumā, kāds 1980. gadā dzimis vīrietis pārkāpa Tiesas lēmumu par pagaidu aizsardzību pret vardarbību – pietuvojās aizsargājamai personai.
 (v12 / breach.01
-    :time (v1 / 12.00)
+    :time (v1 / "12.00")
     :location (v2 / name
         :op1 (vg0 / "Tukumā")
         :wiki "en.wikipedia.org/wiki/Tukums")
@@ -3834,10 +3834,9 @@
 # ::text Turklāt bijām pārliecināti, ka gaidām meitiņu,» par pārsteigumu pilno 5. jūniju, kad neierastos apstākļos pasaulē nāca baušķenieku Kristīnes Ķepales un Rolanda Dubuva trešā atvasīte, stāsta māmiņa.
 (v30 / tell.01
     :ARG1 (v3 / pārliecināt)
-    :ARG1 (v14 / jūnijs
-        :mod (v12 / pilns)
-        :mod (v13 / 5.))
-    :ARG0 (v31 / māmiņa))
+    :ARG0 (v31 / māmiņa)
+    :ARG1 (v13 / "5. jūnijs"
+        :mod (v12 / pilns)))
 
 # ::sent_id a-p10648-p2s3
 # ::text Četrgadīgās māsiņas Nikijas un divus gadus vecā Rolanda brālītis, kuram vārdu vēl visi domā, sevi pieteica 50 centimetru garš un 3500 gramu smags.
@@ -3865,7 +3864,7 @@
             :location (v20 / name
                 :op1 (vg4 / "Iecava")
                 :wiki "en.wikipedia.org/wiki/Iecava"))
-        :time (v22 / nakts))
+        :time (v22 / "naktī no svētdienas 10. jūlija uz pirmdiena"))
     :ARG2 (v12 / product
         :name (vg3 / name
             :op1 "Bauskas Dzīve")))
@@ -4075,7 +4074,7 @@
 # ::sent_id a-p12700-p1s1
 # ::text Šonedēļ internetā izlasīju, ka Latvijas ģenerālprokuratūra nolēmusi neiejaukties tajā traģikomēdijā, kas risinās uz mūsu valsts galvenās skatuves — galvaspilsētā.
 (v3 / read.01
-    :time (v1 / šonedēļ)
+    :time (v1 / "Šonedēļ")
     :ARG3 (v8 / decide.01
         :ARG0 (v7 / ģenerālprokuratūra
             :mod (v6 / Latvija)
@@ -4147,7 +4146,7 @@
         :ARG0-of (v11 / discuss.01
             :ARG1 (v15 / adopt.01
                 :ARG1 (v14 / jauns)
-                :time (v17 / janvāris)))
+                :time (v17 / "janvāris")))
         :name (vg0 / name
             :op1 "Kurmāles pagasta padome")))
 
@@ -4183,7 +4182,7 @@
 # ::sent_id a-p12879-p4s1
 # ::text 1970.gada aprīlī tas nonāca mistera Paskua īpašumā un tika pārvests uz Džersiju.
 (v5 / come.01
-    :time (v3 / aprīlis
+    :time (v3 / "1970. gada aprīlis"
         :time-of (v11 / transport.01
             :ARG1 (v4 / tas)
             :ARG3 (v13 / name
@@ -4208,7 +4207,8 @@
 # ::text Kopš 1986.gada automobilis uzglabāts garāžā un nav kustināts.
 (v5 / store.01
     :time (v3 / date-entity
-        :year 1986.)
+        :year 1986.
+        :wiki "en.wikipedia.org/wiki/Jersey")
     :ARG1 (v4 / automobilis)
     :ARG2 (v6 / garāža))
 
@@ -4427,7 +4427,7 @@
 # ::sent_id a-p1299-p1s1
 # ::text Piektdien ielikti Ēdoles pamatskolas sporta zāles pamati, bet tajos – kapsula ar veselīga dzīvesveida vēlējumu nākamajām paaudzēm un skolas bukletu.
 (v2 / insert.01
-    :time (v1 / piektdien)
+    :time (v1 / "Piektdien")
     :ARG1 (v7 / pamats
         :mod (v6 / zāle
             :mod (v5 / sports)
@@ -4447,7 +4447,7 @@
     :ARG1 (v10 / zāle
         :mod (v9 / sports))
     :ARG0 (v11 / skolēns)
-    :time (v16 / beigas))
+    :time (v16 / "80. gadu beigās"))
 
 # ::sent_id a-p1299-p2s3
 # ::text „Tagad galvenais ir jauno zāli dabūt zem jumta.
@@ -4587,7 +4587,7 @@
 (v5 / take.14
     :ARG1 (v2 / treniņš
         :mod (v1 / metiens))
-    :time (v4 / rīts)
+    :time (v4 / "no rīts")
     :polarity -)
 
 # ::sent_id a-p1304-p2s1
@@ -4789,7 +4789,7 @@
 # ::sent_id a-p13741-p1s1
 # ::text Negativus šogad izpaliek, bet Positivus festivāla nedēļas nogalē koncertdzīve citviet neapstājas.
 (v12 / stop.01
-    :time (v9 / nogale)
+    :time (v9 / "nedēļas nogale")
     :ARG1 (v10 / koncertdzīve)
     :location (v11 / citviet)
     :polarity -)
@@ -6300,7 +6300,7 @@
         :mod (v2 / organization
             :name (vg0 / name
                 :op1 "Satversmes tiesa")))
-    :time (v8 / šodien)
+    :time (v8 / "šodien")
     :ARG1 (v12 / person
         :name (vg1 / name
             :op0 "Gunārs"
@@ -6362,7 +6362,7 @@
                 :mod (v5 / organization
                     :name (vg1 / name
                         :op1 "ST"))))
-        :time (v12 / februāris)))
+        :time (v12 / "nākamā gada februāris")))
 
 # ::sent_id a-p3734-p9s1
 # ::text Viņš ST priekšsēdētāja amatā pirmo reizi stājās 2007.gada 31.janvārī, savukārt 2010.gadā viņš priekšsēdētāja amatā tika ievēlēts atkārtoti.
@@ -6574,7 +6574,7 @@
 # ::text Kā ziņots, janvāra beigās Konkurences padome (KP) saņēmusi degvielas mazumtirgotāju SIA "Akselss", SIA "Aparts" un "Dinaz" zīmola īpašnieka SIA "RusLatNafta" saīsināto apvienošanās ziņojumu, liecina KP informācija.
 (v37 / show.01
     :ARG1 (v11 / receive.01
-        :time (v5 / beigas)
+        :time (v5 / "janvāra beigās")
         :ARG1 (v35 / ziņojums
             :mod (v33 / saīsināt)
             :mod (v34 / apvienošanās)
@@ -6624,10 +6624,7 @@
         :mod (v13 / aprite
             :mod (v12 / prece
                 :mod (v11 / akcīze))
-            :mod (v17 / ceturksnis
-                :mod (v15 / gads
-                    :mod (v14 / 2012.))
-                :mod (v16 / pirmais)))
+            :mod (v14 / "2012. gada pirmais ceturksnis"))
         :ARG0-of (v2 / show.01
             :ARG1 (v27 / ierindot)))
     :mod-of v9
@@ -6797,7 +6794,7 @@
 (v4 / intend.01
     :ARG1 (v5 / carry_out.03
         :ARG1 (v3 / projekts)
-        :time (v9 / vidus)))
+        :time (v9 / "līdz 2014. gada vidus")))
 
 # ::sent_id a-p3754-p11s1
 # ::text Vairākās pašvaldībās iedzīvotāji vērsušies Konkurences padomē, jo sūdzas, ka pēc tam, kad pašvaldība izvēlējusies „ZAAO" pakalpojumus, cena par atkritumu apsaimniekošanu pieaugusi.
@@ -7000,7 +6997,7 @@
 (v2 / start.01
     :ARG0 (v1 / tā)
     :ARG2 (v3 / strādāt)
-    :time (v6 / aprīlis))
+    :time (v6 / "2013. gada aprīlis"))
 
 # ::sent_id a-p3754-p19s3
 # ::text Igauņi šo materiālu krāj, kopš uzzināja, ka ir doma šādu rūpnīcu būvēt.
@@ -7210,9 +7207,8 @@
 # ::sent_id a-p3754-p28s4
 # ::text Pašlaik nav skaidrības par šo gadu, nemaz nerunājot par 2014. un 2015.gadu.
 (v9 / speak.01
-    :ARG1 (v14 / gads
-        :mod (v11 / 2014.))
-    :polarity -)
+    :polarity -
+    :ARG1 (v11 / "2014. un 2015. gads"))
 
 # ::sent_id a-p3754-p29s1
 # ::text Ingrīda Gubernatorova: Nodokļa paaugstināšana ir instruments, kā samazināt apglabājamo atkritumu apjomu.
@@ -7543,7 +7539,7 @@
 # ::sent_id a-p3754-p5s2
 # ::text Kopš tā laika poligona attīstībā ieguldīti vairāk nekā septiņi miljoni latu.
 (v6 / invest.01
-    :time (v3 / laiks)
+    :time (v3 / "Kopš tā laiks")
     :ARG2 (v5 / attīstība
         :mod (v4 / poligons))
     :ARG1 (v10 / miljons
@@ -7660,13 +7656,10 @@
             :name (vg0 / name
                 :op1 "Liepājas metalurgs")))
     :ARG2 (v6 / situācija
-        :mod (v13 / novembris
-            :mod (v11 / gads
-                :mod (v10 / 2008.))
-            :mod (v12 / 10.))
         :mod (v7 / organization
             :name (vg1 / name
-                :op1 "Parex banka"))))
+                :op1 "Parex banka"))
+        :mod (v10 / "2008. gada 10. novembris")))
 
 # ::sent_id a-p3757-p3s2
 # ::text Par diviem latiem valsts iestādes ieguva tiesības doties uz banku un tikai tad noskaidrot, ko īsti valsts nopirkusi.
@@ -7744,7 +7737,7 @@
 # ::sent_id a-p3757-p4s5
 # ::text Šie apgalvojumi tika noformēti tādās liecībās par Liepājas metalurga darījumiem, ka Valsts policija jau pagājušā gada augustā bija spiesta sākt kriminālprocesu, bet tā vienīgais rezultāts, ko Neatkarīgajai apliecināja iekšlietu ministra Riharda Kozlovska preses pārstāve Daiga Holma, esot tāds, ka «šobrīd kriminālprocesā neviena persona nav atzīta par aizdomās turēto».
 (v20 / force.01
-    :time (v18 / augusts
+    :time (v18 / "pagājušā gada augusts"
         :time-of v21)
     :ARG2 (v21 / start.01
         :ARG0 v13
@@ -8736,7 +8729,7 @@
 (v4 / meet.03
     :ARG0 (v2 / prezidents
         :mod (v1 / valsts))
-    :time (v3 / šodien)
+    :time (v3 / "šodien")
     :ARG1 (v6 / strencēnietis))
 
 # ::sent_id a-p980-p2s1
@@ -8764,7 +8757,7 @@
 # ::sent_id a-p980-p3s2
 # ::text Pērn esot uzrakstījusi viņam pateicības vēstuli, jo aizvadītajā gadā Valsts prezidents ieradās uz politisko represēto salidojuma atklāšanu Ikšķilē.
 (v3 / write.01
-    :time (v1 / pērn)
+    :time (v1 / "Pērn")
     :ARG1 (v6 / vēstule
         :mod (v5 / pateicība)))
 
@@ -9008,13 +9001,12 @@
     :time (v2 / date-entity
         :month 4
         :day 15.)
-    :time (v4 / 6.30)
     :ARG1 (v9 / atlauzt))
 
 # ::sent_id a-p9980-p2s2
 # ::text 8.00 Ēdoles pagastā pie kādām mājām konstatēts, ka atslēgts vagoniņš un nozagti celtniecības instrumenti.
 (v7 / find.01
-    :time (v1 / 8.00)
+    :time (v1 / "8.00")
     :ARG1 (v10 / unlock.01
         :ARG1 (v11 / vagoniņš))
     :location (v2 / name
@@ -9038,7 +9030,7 @@
 # ::sent_id a-p9993-p11s1
 # ::text Šogad Snēpeles Kalējsētās izmēģināta zemeņu audzēšana, ieklājot melno plēvi.
 (v4 / try_out.05
-    :time (v1 / šogad)
+    :time (v1 / "Šogad")
     :location (v3 / name
         :location (v2 / name
             :op1 (vg0 / "Snēpele")
@@ -9715,8 +9707,7 @@
             :op1 "Šalits"))
     :ARG1 (v20 / konference
         :mod (v19 / Katovice)
-        :mod (v22 / gads
-            :mod (v21 / 1884.))))
+        :mod (v21 / "1884. gads")))
 
 # ::sent_id a-z109-p142s8
 # ::text Viņš bija palīdzējis izceļotājiem no Rīgas, Kauņas un Viļņas nopirkt Palestīnā zemi (Haderā).
@@ -9945,9 +9936,7 @@
             :op1 (vg0 / "Latgale")
             :wiki "en.wikipedia.org/wiki/Latgale"))
     :ARG0 (v13 / rusifikācija
-        :mod (v12 / beigas
-            :mod (v11 / gadsimts
-                :mod (v10 / deviņpadsmitais)))))
+        :mod (v10 / "deviņpadsmitais gadsimta beigu")))
 
 # ::sent_id a-z109-p95s2
 # ::text Lielāks skaits ebreju Latgalē ieradās no Polijas, Ukrainas un Baltkrievijas un apmetās Krustpilī, Krāslavā un Daugavpilī.
@@ -10013,15 +10002,14 @@
 # ::sent_id a-z109-p95s8
 # ::text Kopš 1804. gada Latgales ebrejiem bija aizliegts dzīvot laukos un nodarboties ar lauksaimniecību, tādēļ viņi pārcēlās uz pilsētām, kur dzīvoja samērā nabadzīgi.
 (v7 / prohibit.01
-    :location (v3 / gads
-        :mod (v2 / 1804.)
-        :time-of (v8 / reside.01
-            :ARG0 (v5 / ebrejs
-                :location (v4 / name
-                    :op1 (vg0 / "Latgale")
-                    :wiki "en.wikipedia.org/wiki/Latgale"))
-            :ARG1 (v9 / lauks)
-            :ARG1-of v7)
+    :ARG1 (v8 / reside.01
+        :time v2
+        :ARG0 (v5 / ebrejs
+            :location (v4 / name
+                :op1 (vg0 / "Latgale")
+                :wiki "en.wikipedia.org/wiki/Latgale"))
+        :ARG1 (v9 / lauks))
+    :location (v2 / "Kopš 1804. gads"
         :year 1804.))
 
 # ::sent_id a-z109-p95s9
