@@ -3230,9 +3230,8 @@
     :ARG1 (v4 / paralēle
         :mod (v7 / noziegums
             :mod (v6 / nacists)
-            :mod (v10 / karš
-                :mod (v8 / otrais)
-                :mod (v9 / pasaule)))))
+            :mod (v8 / "Otrā pasaules kars"
+                :wiki "en.wikipedia.org/wiki/World_War_II"))))
 
 # ::sent_id a-n440-p40s3
 # ::text Sižetos sistemātiski tiek stāstīts par šo Ukrainas demokrātijas aizstāvju it kā izdarītajiem noziegumiem.
@@ -3428,7 +3427,7 @@
 (v4 / advise.01
     :ARG2 (v7 / do.02
         :ARG1 (v6 / kas)
-        :time (v10 / vakars)))
+        :time (v10 / "Vecgada vakars")))
 
 # ::sent_id a-p10101-p1s2
 # ::text Dienas nosaukums ir radies no kristiešu godātā erceņģeļa Miķeļa vārda.
@@ -5164,7 +5163,7 @@
             :mod (v6 / sektors
                 :mod (v5 / valsts)))
         :ARG1 (v12 / prēmija
-            :mod (v11 / Ziemassvētki))))
+            :mod (v11 / "Ziemassvētks"))))
 
 # ::sent_id a-p14382-p3s2
 # ::text Šis pasākums savulaik izraisīja neapmierināto protestus ielās.
@@ -8069,7 +8068,8 @@
     :ARG0 (v9 / zvaigzne
         :ARG0-of (v2 / attend.01
             :ARG1 (v7 / ceremonija
-                :mod (v4 / Golden))))
+                :mod (v4 / "Golden globe"
+                    :wiki "en.wikipedia.org/wiki/Golden_Globe_Award"))))
     :ARG1 (v10 / vakars))
 
 # ::sent_id a-p6182-p2s1
@@ -9705,8 +9705,7 @@
         :name (vg0 / name
             :op0 "Leibs"
             :op1 "Šalits"))
-    :ARG1 (v20 / konference
-        :mod (v19 / Katovice)
+    :ARG1 (v19 / "Katovices konference"
         :mod (v21 / "1884. gads")))
 
 # ::sent_id a-z109-p142s8

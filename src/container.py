@@ -117,6 +117,14 @@ class TripletContainer:
 
         raise Exception(f"Failed to find link ({root_alias}, {role}, {argument_alias})")
 
+    def get_instance_value(self, instance_id: str):
+        """Replaces a value of an instance"""
+        instance_alias = get_variable_name(instance_id)
+        for i in range(len(self.__g.triples)):
+            if self.__g.triples[i][0] == instance_alias and self.__g.triples[i][1] == self.instance_role:
+                return self.__g.triples[i][2]
+        raise Exception(f"Failed to find instance with alias {instance_alias}")
+
     def update_instance_value(self, instance_id: str, instance_value: str):
         """Replaces a value of an instance"""
         instance_alias = get_variable_name(instance_id)
