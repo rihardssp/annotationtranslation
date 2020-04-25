@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 from src.delegates import ChunkDelegate
 from src.mapping_definitions.named_entity import person_chunk_action, instance_with_name_concat_chunk_action, \
     concat_chunk_location_action, concat_chunk_organization_action, instance_with_name_concat_normalised_chunk_action, \
-    concat_chunk_time_action, string_concat_chunk_action
+    concat_chunk_time_action, string_concat_chunk_action, money_chunk_action
 
 # The 'allowed' categories, such as person, in AMR can be found here:
 # https://github.com/amrisi/amr-guidelines/blob/master/amr.md#named-entities
@@ -17,7 +17,7 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "GPE": ChunkDelegate(concat_chunk_location_action),
     "event": ChunkDelegate(string_concat_chunk_action),
     "product": ChunkDelegate(instance_with_name_concat_normalised_chunk_action, "product"),
-    #"money": ChunkDelegate(concat_chunk_general_normalized_action, "product"),
+    "money": ChunkDelegate(money_chunk_action),
     #"entity": ChunkDelegate(concat_chunk_general_normalized_action, "product"),
     "time": ChunkDelegate(concat_chunk_time_action, "time"),
 

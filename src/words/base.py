@@ -34,6 +34,15 @@ class IWord(ABC):
     def feats(self):
         pass
 
+    @property
+    @abstractmethod
+    def feats(self):
+        pass
+
+    @property
+    @abstractmethod
+    def is_num_type_cardinal(self):
+        pass
 
 class SimpleTokenWord:
     """The most simple Conllu implementation of a word"""
@@ -60,6 +69,11 @@ class TokenWord(SimpleTokenWord, IWord):
     form = property(lambda self: self._getitem("form"))
     feats = property(lambda self: self._getitem("feats"))
     lemma: str = property(lambda self: self._getitem("lemma"))
+
+    num_type = property(
+        lambda self: (self.feats["NumType"] if self.feats is not None and "NumType" in self.feats else None))
+
+    is_num_type_cardinal: bool = property(lambda self: self.num_type == "Card")
 
     def __str__(self):
         return self.form

@@ -33,6 +33,21 @@ def string_concat_chunk_action(pipe, root_id: str, chunk: typing.List[INamedEnti
     container.update_instance_value(root_id, name)
 
 
+def money_chunk_action(pipe, root_id: str, chunk: typing.List[INamedEntitiesWord], container: TripletContainer,
+                                           default_mapping: str):
+    """If there's only one cardinal word then add it as monetary-value structure"""
+
+    # if there's one card then create a monetary-quantity instance
+    cardinal_number_wrds = list(x for x in chunk if x.is_num_type_cardinal)
+    if (len(cardinal_number_wrds) == 1):
+        container.update_instance_value(root_id, "monetary-quantity")
+        container.add_instance(root_id, container.get_generated_id(), "quant", cardinal_number_wrds[0].lemma)
+        chunk.remove(cardinal_number_wrds[0])
+        name = __format_chunk_to_name(pipe, chunk, PhaseNormalizerCategory.NOCATEGORY)
+        container.add_instance(root_id, container.get_generated_id(), "unit", name)
+    else:
+        string_concat_chunk_action(pipe, root_id, chunk, container, default_mapping)
+
 def instance_with_name_concat_chunk_action(pipe, root_id: str, chunk: typing.List[INamedEntitiesWord], container: TripletContainer,
                                            default_mapping: str, action: PhaseNormalizerCategory = PhaseNormalizerCategory.NONE):
     """Create an object with default mapping and adds chunk as name"""
