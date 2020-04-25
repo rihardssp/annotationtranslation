@@ -7179,14 +7179,9 @@
 # ::text Ingrīda Gubernatorova: Līdzšinējā Atkritumu apsaimniekošanas valsts plāna 2006.-2012.gadam darbības laiks ir beidzies, bet jaunais Atkritumu apsaimniekošanas valsts plāns 2013.-2020.gadam vēl nav apstiprināts.
 (v16 / end.01
     :ARG1 (v14 / laiks
-        :mod (v8 / plāns
-            :mod (v4 / līdzšinējs)
-            :mod (v6 / apsaimniekošana
-                :mod (v5 / atkritumi))
-            :mod (v7 / valsts)
-            :mod (v12 / gads
-                :mod (v9 / 2006.)))
-        :mod (v13 / darbība)))
+        :mod (v13 / darbība)
+        :mod (v5 / "Atkritumu apsaimniekošanas valsts plāna 2006. 2012. gads"
+            :mod (v4 / līdzšinējs))))
 
 # ::sent_id a-p3754-p28s2
 # ::text Ja agrāk zinājām trīs gadus uz priekšu, kāds būs dabas resursu nodoklis, par cik palielināsies, pašlaik neko nezinām.
@@ -7449,7 +7444,7 @@
 (v3 / happen.01
     :ARG1 (v1 / kas)
     :time (v2 / pašlaik)
-    :location (v6 / Daibe
+    :location (v6 / "Daibe"
         :mod (v4 / poligons)))
 
 # ::sent_id a-p3754-p40s1
@@ -7493,7 +7488,7 @@
 # ::sent_id a-p3754-p4s1
 # ::text Ģirts Kuplais: Gada laikā sadzīves atkritumu poligonā „Daibe" tiek ievesti apmēram 27000 tonnu sadzīves atkritumu.
 (v13 / bring.01
-    :ARG2 (v10 / Daibe
+    :ARG2 (v10 / "Daibe"
         :mod (v8 / poligons
             :mod (v7 / atkritumi
                 :mod (v6 / sadzīve))))
@@ -8373,7 +8368,7 @@
         :day 4.)
     :ARG1 (v15 / prezentācija
         :mod (v14 / apavs
-            :mod (v11 / Ecco
+            :mod (v11 / "Ecco"
                 :mod (v9 / zīmols))
             :mod (v13 / rudens)))
     :location (v5 / name
@@ -9285,7 +9280,8 @@
         :mod (v16 / darbs
             :mod (v20 / izstrāde
                 :mod (v19 / grozījums
-                    :mod (v18 / Satversme)))))
+                    :mod (v18 / "Satversme"
+                        :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")))))
     :ARG0 (v9 / organization
         :name (vg0 / name
             :op1 "Saeimas Juridiskā komisija")))
@@ -9321,8 +9317,7 @@
             :op1 "Saeima")
         :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")
     :ARG1 (v4 / izmaiņa
-        :mod (v6 / likums
-            :mod (v5 / kriminālprocess))))
+        :mod (v5 / "Kriminālprocesa likums")))
 
 # ::sent_id a-s98-p9s2
 # ::text Sagatavojot šādu ziņojumu, Valsts probācijas dienests veic apsūdzētā riska un vajadzību novērtējumu, kas ļauj prognozēt recidīva iespējamību un identificēt faktorus, kuri bijuši par iemeslu noziedzīgā nodarījuma izdarīšanai.
@@ -9543,7 +9538,8 @@
     :ARG0 (v11 / viņš)
     :ARG1 (v17 / efektivitāte
         :mod (v15 / cionists
-            :mod (v13 / Mizrahi)
+            :mod (v13 / "Mizrahs"
+                :wiki "en.wikipedia.org/wiki/Mizrahi_Jews")
             :mod (v14 / reliģisks))
         :mod (v16 / uzskats)))
 
@@ -9581,7 +9577,8 @@
     :ARG0 (v1 / viņš)
     :ARG1 (v14 / improve.01
         :ARG0 (v6 / pieeja
-            :mod (v5 / Mizrahi))
+            :mod (v5 / "Mizrahs"
+                :wiki "en.wikipedia.org/wiki/Mizrahi_Jews"))
         :ARG1 (v13 / situācija
             :mod (v12 / cionisms))
         :polarity -))

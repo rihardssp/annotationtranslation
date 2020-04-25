@@ -18,7 +18,7 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "event": ChunkDelegate(string_concat_chunk_action),
     "product": ChunkDelegate(instance_with_name_concat_normalised_chunk_action, "product"),
     "money": ChunkDelegate(money_chunk_action),
-    #"entity": ChunkDelegate(concat_chunk_general_normalized_action, "product"),
+    "entity": ChunkDelegate(string_concat_chunk_action, "entity"),
     "time": ChunkDelegate(concat_chunk_time_action, "time"),
 
 }
