@@ -1,7 +1,9 @@
 from abc import ABC, abstractmethod
 from enum import Enum
+
+from src.caches.cache import ICache, FileCache
 from src.configuration import config_reader
-from diskcache import Cache
+
 
 import requests
 
@@ -24,8 +26,8 @@ class IPhraseNormalizer(ABC):
 
 class RestletPhraseNormalizer(IPhraseNormalizer):
 
-    def __init__(self, debug_mode: bool = False):
-        self.__cache = Cache(config_reader.get_phrase_normalizer_cache_path())
+    def __init__(self, cache: ICache = None, debug_mode: bool = False):
+        self.__cache = cache if cache is not None else FileCache(config_reader.get_phrase_normalizer_cache_path())
         self.__base_url = config_reader.get_phrase_normalizer_base_url()
         self.__debug_mode = debug_mode
 
@@ -35,8 +37,8 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
 
         # Cache the result on disk for repeated calls
         cache_key = f"{category}_{value}"
-        if cache_key in self.__cache:
-            item = self.__cache[cache_key]
+        if self.__cache.has(cache_key):
+            item = self.__cache.get(cache_key)
 
             if self.__debug_mode:
                 print(f"Got value '{item}' with key '{cache_key}' from PhraseNormalizer cache")
@@ -55,7 +57,7 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
             raise Exception(f"Restlet normaliser service '{response.url}' returned text with html: '{result}'")
 
         # Not to forget cache
-        self.__cache[cache_key] = result
+        self.__cache.put(cache_key, result)
         if self.__debug_mode:
             print(f"Got value '{result}' from '{value}' by using phrase normalizer service")
 
