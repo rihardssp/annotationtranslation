@@ -7,6 +7,7 @@ from src.pipes.base import PipeBase
 from src.readers.propbank import IPropBankAnnotationReaderBase, PropBankFileAnnotationReader
 from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
+
 class PropBankPipe(PipeBase):
     """This is the initial pipe, which creates the base of AMR by using propbank verb and its arguments and adding
     some things from underlying treebank """
@@ -25,13 +26,13 @@ class PropBankPipe(PipeBase):
     def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
 
         for sentence in self.annotation_reader.read():
-            container = TripletContainer(sentence.metadata)
-
             # Add root verb, which is identified by existing PropBank frame verb (only one exists per sentence)
             root_word = sentence.get_root()
-            self.add_root(root_word, container, sentence)
 
-            triplet_list.append(container)
+            if root_word is not None:
+                container = TripletContainer(sentence.metadata)
+                self.add_root(root_word, container, sentence)
+                triplet_list.append(container)
 
         return triplet_list
 
@@ -82,7 +83,13 @@ class PropBankPipe(PipeBase):
             if container.has_instance(argument_word.id):
                 roots = sentence.get_roots_of_argument(argument_word.id)
                 for root in list(x for x in roots if x.id != root_word.id):
-                    self.add_root(root, container, sentence)
+                    should_be_added = len(list(
+                        x for x in sentence.get_arguments(root.id)[1]
+                        if x.arg in self.mapping.get_argument_action_mapping()
+                        and container.has_instance(x.id))) > 0
+
+                    if should_be_added:
+                        self.add_root(root, container, sentence)
 
         elif self.debug_mode:
             print(f"Failed to find propbank argument role mapping_definitions {argument_word.arg}")

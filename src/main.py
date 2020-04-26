@@ -1,7 +1,7 @@
 import typing
 import codecs
 
-from src.configuration import ConfigReader
+from src.configuration import ConfigReader, config_reader
 from src.container import TripletContainer
 from src.external.phrase_normalizer import RestletPhraseNormalizer, PhaseNormalizerCategory
 from src.mapping_defaults.named_entity import NamedEntitiesMapping
@@ -9,15 +9,27 @@ from src.mapping_defaults.propbank import PropBankMapping
 from src.pipes.coreference import CoReferencePipe
 from src.pipes.named_entity import NamedEntitiesPipe
 from src.pipes.propbank import PropBankPipe
+from src.readers.coreference import CoReferenceContentAnnotationReader
+from src.readers.named_entity import NamedEntitiesContentAnnotationReader
+from src.readers.propbank import PropBankContentAnnotationReader, PropBankMergedFormatAnnotationReader
 
 named_entities_debug = False
 co_reference_debug = False
 
+#data_file = open(config_reader.get_propbank_resource_file_path(), "r", encoding="utf-8")
+#content = ""
+#try:
+#    content = data_file.read()
+#finally:
+#    data_file.close()
+#annotation_reader=PropBankMergedFormatAnnotationReader(content)
+
+
 # Define the pipeline
 pipe_line = [
-    PropBankPipe(PropBankMapping(), None),
-    NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
-    CoReferencePipe(debug_mode=co_reference_debug)
+    PropBankPipe(PropBankMapping(), debug_mode=True),
+    #NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
+    #CoReferencePipe(debug_mode=co_reference_debug)
 ]
 
 # The magic

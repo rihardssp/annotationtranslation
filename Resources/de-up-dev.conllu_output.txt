@@ -1,0 +1,4160 @@
+# Generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_German
+
+
+(v2 / be.01
+    :ARG1 (v1 / Manasse)
+    :ARG2 (v5 / Parfümeur
+        :mod (v4 / einzigartig)))
+
+(v2 / have.03
+    :ARG0 (v1 / ich
+        :ARG0-of (v8 / visit.01
+            :ARG1 (v6 / Seminar)))
+    :ARG1 (v3 / Gelegenheit))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v5 / Ausgangspunkt
+        :mod (v4 / ich)
+        :mod (v8 / Parfümkreation)))
+
+(v5 / hold.01
+    :time (v4 / temporal-quantity
+        :unit (vg0 / Jahr)
+        :quant Viertel)
+    :ARG0 (v6 / ich)
+    :ARG1 (v9 / Wunder
+        :mod (v8 / duftend))
+    :location (v12 / Hand))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v3 / unbeschreiblich))
+
+(v4 / have.03
+    :ARG0 (v3 / Bäcker)
+    :ARG1 (v7 / Bröchten
+        :mod (v6 / super)
+        :ARG1-of (v15 / recommend.01
+            :ARG0 (v11 / man))))
+
+(v4 / be.01
+    :ARG2 (v3 / traurig))
+
+(v2 / find.01
+    :ARG1 (v1 / der)
+    :ARG0 (v3 / ich))
+
+(v7 / be.01
+    :ARG1 (v6 / ich)
+    :ARG2 (v8 / begeistert
+        :mod (v11 / Auswahl)))
+
+(v6 / receive.01
+    :ARG1 (v4 / Artikel
+        :mod (v3 / bestellt))
+    :time (v5 / prompt))
+
+(v14 / enjoy.01
+    :ARG0 (v10 / wir)
+    :ARG1 (v12 / er)
+    :extent (v13 / sehr))
+
+(v2 / have.03
+    :ARG0 (v1 / wir)
+    :ARG1 (v4 / Spaziergang
+        :mod (v3 / wunderschön)))
+
+(v4 / be.01
+    :ARG1 (v6 / Urlaub
+        :mod (v8 / Kind))
+    :ARG2 (v12 / Erlebnis
+        :mod (v1 / alle
+            :mod (v3 / Allem))))
+
+(v5 / say.01
+    :ARG1 (v1 / mehr)
+    :ARG0 (v3 / man))
+
+(v7 / buy.01
+    :time (v2 / heute)
+    :ARG1 (v3 / Kette)
+    :location (v6 / dort))
+
+(v7 / recommend.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v4 / Geschäft)
+    :extent (v6 / wärmstens))
+
+(v16 / live.01
+    :ARG0 (v11 / ich)
+    :location (v13 / Helmstedt))
+
+(v8 / buy.01
+    :time (v2 / Woche)
+    :ARG0 (v4 / ich)
+    :ARG1 (v7 / Funktionshemden))
+
+(v2 / think.01
+    :ARG0 (v3 / ich))
+
+(v8 / cost.01
+    :ARG2 (v3 / Euro)
+    :time (v5 / je)
+    :ARG1 (v7 / Teil))
+
+(v2 / hang.01
+    :ARG0 (v1 / Sie|sie)
+    :ARG1 (v10 / Sack
+        :mod (v9 / naß))
+    :ARG2 (v12 / ich)
+    :mod (v5 / Schluß))
+
+(v11 / highlight.01
+    :time (v1 / insbesondere)
+    :ARG1 (v5 / Service
+        :mod (v4 / gut)))
+
+(v3 / be.01
+    :ARG1 (v2 / Personal)
+    :ARG2 (v4 / freundlich))
+
+(v3 / be.01
+    :ARG1 (v2 / Empfang)
+    :ARG2 (v5 / freundlich))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v5 / Panzerkutscher
+        :mod (v4 / letzt)
+        :mod (v7 / Feierabend)))
+
+(v8 / go.02
+    :cause (v1 / deshalb)
+    :ARG0 (v5 / alle)
+    :manner (v7 / schnell))
+
+(v2 / happen.01
+    :ARG1 (v5 / Einweisung
+        :mod (v4 / dreiminütige))
+    :ARG2 (v10 / Motor
+        :mod (v7 / laufend))
+    :time (v12 / Funk))
+
+(v9 / implement.01
+    :ARG0 (v2 / Vater)
+    :ARG1 (v5 / Einweisung)
+    :time (v6 / verständlicherweise)
+    :time (v8 / sofort))
+
+(v6 / be.01
+    :ARG1 (v2 / Reaktion
+        :mod (v5 / Panzerfahrers
+            :mod (v4 / begleitend)))
+    :ARG2 (v8 / unfreundlich))
+
+(v2 / abort.01
+    :ARG0 (v1 / er
+        :ARG0-of (v15 / drive.01))
+    :ARG1 (v7 / Einweisung)
+    :mod (v4 / er|es|sie))
+
+(v3 / offer.01
+    :ARG0 (v2 / Geschäftsleitung)
+    :time (v4 / dann)
+    :ARG1 (v17 / drive.01
+        :location (v12 / Panzerdach)
+        :ARG1 (v15 / Gelände)
+        :mod (v9 / Gast)))
+
+(v4 / be.01
+    :ARG1 (v5 / der)
+    :ARG2 (v11 / Entschädigung
+        :mod (v3 / EUR)
+        :mod (v7 / wir)
+        :mod (v10 / ausreichend)))
+
+(v3 / pay.01
+    :ARG0 (v2 / Gast)
+    :ARG3 (v7 / Mitfahrt)
+    :ARG1 (v13 / EUR))
+
+(v4 / drive.01
+    :time (v3 / Diskussion)
+    :time (v5 / dann)
+    :ARG0 (v7 / Lebensgefährte)
+    :ARG1 (v9 / Panzer))
+
+(v4 / abort.01
+    :ARG0 (v3 / Fahrer
+        :mod (v2 / begleitend)
+        :ARG0-of (v15 / drive.01
+            :ARG1 (v17 / Panzer)
+            :time (v19 / Rest)))
+    :ARG1 (v6 / er|es|sie)
+    :time (v10 / Minute)
+    :manner (v12 / Begründung))
+
+(v23 / order.02
+    :ARG0 (v6 / wir)
+    :ARG1 (v12 / Videomitschnitt
+        :mod (v17 / EUR)
+        :mod (v20 / Panzerfahrt
+            :mod (v22 / Vater)))
+    :mod (v8 / Beginn
+        :mod (v10 / Fahrt)))
+
+(v4 / prove.01
+    :location (v3 / Nachhinein))
+
+(v5 / operate.01
+    :ARG0 (v4 / Arnezeder
+        :ARG0-of (v12 / make.05
+            :time (v14 / Meinung)
+            :ARG1 (v17 / Stern)
+            :ARG2 (v20 / Idee)))
+    :ARG1 (v7 / Wikingerdorf)
+    :manner (v10 / Engagement
+        :mod (v9 / viel)))
+
+(v6 / be.01
+    :ARG1 (v7 / ich)
+    :ARG2 (v11 / erstaunen
+        :mod (v4 / beusch
+            :mod (v3 / erst))
+        :mod (v10 / Hotel)))
+
+(v8 / seem.01
+    :time (v3 / Mitarbeiter)
+    :ARG1 (v4 / der))
+
+(v9 / be.01
+    :ARG1 (v8 / Leistung)
+    :ARG2 (v11 / gut))
+
+(v3 / recommend.01
+    :extent (v1 / absolut))
+
+(v3 / be.01
+    :ARG1 (v5 / Mann)
+    :ARG2 (v11 / Gast
+        :mod (v2 / 1964)
+        :mod (v14 / Hotel)))
+
+(v11 / accompany.01
+    :ARG0 (v13 / Kind))
+
+(v8 / be.01
+    :ARG1 (v2 / Antwort
+        :mod (v4 / Kapitän)
+        :mod (v7 / Beschwerde))
+    :ARG2 (v9 / unfreundlich
+        :mod (v14 / Ordnung)))
+
+(v2 / seem.01
+    :ARG1 (v1 / ich))
+
+(v2 / be.01
+    :ARG1 (v1 / der)
+    :ARG2 (v3 / unsozial))
+
+(v1 / try.01
+    :ARG0 (v2 / Sie|sie)
+    :time (v6 / Wochenende)
+    :ARG1 (v16 / set.02
+        :ARG1 (v9 / Rückfahrt
+            :mod (v8 / spät))
+        :ARG2 (v13 / Besucher)
+        :mod (v15 / Meerbusch)))
+
+(v12 / use.01
+    :location (v1 / hier)
+    :ARG0 (v6 / Leute)
+    :time (v9 / temporal-quantity
+        :unit (vg0 / Uhr)
+        :quant 20.00)
+    :ARG1 (v11 / Fähre)
+    :ARG2 (v22 / visit.01
+        :time (v16 / Biergarten)
+        :ARG1 (v20 / Seite
+            :mod (v19 / ander))))
+
+(v3 / be.01
+    :ARG1 (v7 / Hausbesuch)
+    :ARG2 (v9 / Highlight
+        :mod (v2 / wir)
+        :mod (v5 / alle)
+        :mod (v11 / Optikers)))
+
+(v3 / be.01
+    :ARG1 (v2 / Mutter)
+    :ARG2 (v4 / bettlägerig))
+
+(v10 / get.03
+    :ARG1 (v3 / ich))
+
+(v19 / cancel.01
+    :location (v17 / hier)
+    :manner (v18 / gut))
+
+(v2 / be.01
+    :ARG1 (v1 / Service)
+    :ARG2 (v3 / freundlich))
+
+(v8 / give.01
+    :ARG1 (v2 / Trinkgeld)
+    :ARG0 (v4 / ich)
+    :ARG2 (v7 / Mitleid))
+
+(v10 / advise.01
+    :location (v3 / Suche
+        :mod (v6 / Mitarbeiter
+            :mod (v5 / neu)))
+    :ARG1 (v8 / wir))
+
+(v11 / occupy.01
+    :ARG0 (v1 / wir)
+    :cause (v3 / deshalb)
+    :ARG1 (v6 / Position
+        :mod (v5 / offen))
+    :manner (v9 / Rekrutierungsaufwand
+        :mod (v8 / eigen))
+    :time (v10 / zügig))
+
+(v8 / defend.01
+    :manner (v3 / gut)
+    :ARG0 (v6 / Kanzlei))
+
+(v13 / lie.01
+    :ARG0 (v8 / es)
+    :mod (v12 / City
+        :mod (v11 / Aachener)))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :ARG2 (v4 / Meinung))
+
+(v1 / buy.01
+    :ARG0 (v2 / sie)
+    :ARG1 (v5 / Züchter
+        :mod (v4 / erfahren)))
+
+(v16 / support.01
+    :ARG0 (v11 / man)
+    :ARG1 (v13 / Laden))
+
+(v3 / be.01
+    :ARG1 (v2 / Boß)
+    :time (v4 / mittlerweile)
+    :ARG2 (v6 / teuer))
+
+(v9 / leave.01
+    :location (v3 / Qualität
+        :mod (v2 / gut))
+    :ARG0 (v5 / man)
+    :location (v6 / dort)
+    :ARG1 (v8 / Geld))
+
+(v4 / be.01
+    :manner (v3 / Hund)
+    :ARG1 (v5 / ich)
+    :time (v7 / Mal)
+    :ARG2 (v10 / Wienrich
+        :mod (v13 / Praxis)))
+
+(v12 / find.01
+    :ARG1 (v8 / was)
+    :ARG0 (v9 / ich))
+
+(v5 / hold.01
+    :ARG1 (v1 / der
+        :mod (v4 / Hautspezialist))
+    :ARG0 (v6 / ich)
+    :mod (v9 / übertreiben))
+
+(v6 / feel.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v5 / abfertigen))
+
+(v4 / make.02
+    :ARG1 (v3 / operate.01
+        :ARG0 (v2 / ich)))
+
+(v2 / be.01
+    :ARG1 (v3 / der)
+    :ARG2 (v6 / Arbeitsjahr
+        :mod (v5 / gut)))
+
+(v6 / give.01
+    :ARG1 (v7 / es)
+    :time (v10 / temporal-quantity
+        :unit (vg0 / mal)
+        :quant zweit))
+
+(v2 / do.02
+    :ARG0 (v1 / der)
+    :ARG1 (v5 / Schneiderei))
+
+(v5 / be.01
+    :ARG1 (v4 / Ärmel)
+    :ARG2 (v7 / lang))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :time (v3 / zwar)
+    :time (v5 / einmal)
+    :ARG2 (v6 / da))
+
+(v2 / know.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v8 / lie.01
+        :ARG0 (v6 / es)
+        :ARG1 (v7 / daran)))
+
+(v11 / spend.02
+    :ARG0 (v1 / ich
+        :ARG0-of (v17 / surprise.01))
+    :ARG1 (v4 / Nacht)
+    :location (v7 / Hotel))
+
+(v14 / be.01
+    :ARG1 (v13 / Preis)
+    :ARG2 (v15 / moderat))
+
+(v2 / appreciate.02
+    :ARG0 (v1 / ich)
+    :time (v10 / Winter)
+    :mod (v7 / Besuch
+        :mod (v6 / nah)))
+
+(v4 / say.01
+    :ARG0 (v3 / ich)
+    :ARG1 (v6 / seem.01
+        :ARG1 (v5 / es)))
+
+(v3 / give.01
+    :ARG1 (v2 / es))
+
+(v2 / deal.01
+    :ARG0 (v1 / ich)
+    :time (v6 / temporal-quantity
+        :unit (vg0 / Jahr)
+        :quant 15)
+    :ARG2 (v8 / Musik))
+
+(v2 / give.01
+    :ARG1 (v1 / es))
+
+(v9 / work.01
+    :time (v8 / lange)
+    :ARG0 (v10 / er)
+    :ARG1 (v13 / DJ)
+    :location (v17 / Nachtleben
+        :mod (v16 / Kölner)))
+
+(v4 / recommend.01
+    :ARG0 (v2 / ich)
+    :ARG1 (v3 / uneingeschränkt))
+
+(v14 / encounter.01
+    :time (v4 / Jahr)
+    :ARG0 (v7 / ich)
+    :ARG1 (v10 / Hompepage
+        :mod (v13 / Rübben)))
+
+(v2 / be.01
+    :ARG1 (v3 / ich)
+    :time (v7 / temporal-quantity
+        :unit (vg0 / mal)
+        :quant 10)
+    :ARG2 (v8 / da))
+
+(v7 / massage.01
+    :ARG1 (v1 / man)
+    :location (v3 / hier)
+    :location (v6 / Umgebung
+        :mod (v5 / angenehm)))
+
+(v7 / lay.01
+    :ARG1 (v4 / Termin)
+    :time (v5 / immer))
+
+(v6 / look.01
+    :ARG0 (v1 / wer)
+    :ARG1 (v5 / Massage
+        :mod (v4 / entspannend)))
+
+(v3 / be.01
+    :ARG1 (v2 / ich)
+    :time (v4 / öfter)
+    :location (v5 / hier)
+    :cause (v13 / fällen))
+
+(v4 / pay.01
+    :manner (v2 / spontan)
+    :ARG0 (v3 / Appetit))
+
+(v3 / be.01
+    :ARG1 (v2 / Essen)
+    :ARG2 (v8 / Qualität
+        :mod (v7 / gut)))
+
+(v9 / use.01
+    :ARG0 (v3 / ich)
+    :time (v4 / schon)
+    :ARG1 (v6 / Möglichkeit
+        :mod (v8 / Gruppenfeierlichkeiten)))
+
+(v6 / recommend.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v4 / Restaurant))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :location (v5 / hier)
+    :mod (v4 / öfteren))
+
+(v3 / taste.02
+    :ARG1 (v2 / Essen)
+    :manner (v5 / gut))
+
+(v6 / mess.01
+    :ARG1 (v2 / Außenbereich)
+    :time (v4 / liebevoll)
+    :time (v5 / neu))
+
+(v2 / come.01
+    :ARG1 (v1 / wir)
+    :time (v3 / immer))
+
+(v4 / recommend.01
+    :ARG0 (v1 / ich))
+
+(v9 / appreciate.02
+    :ARG0 (v3 / ich)
+    :ARG1 (v8 / Küche
+        :mod (v7 / neu)))
+
+(v2 / buy.01
+    :ARG0 (v1 / man)
+    :time (v3 / schließlich)
+    :time (v4 / selten)
+    :ARG1 (v6 / Küche))
+
+(v13 / order.02
+    :time (v5 / Beratung)
+    :ARG0 (v7 / wir)
+    :location (v10 / Küchenstudio)
+    :ARG1 (v19 / Euro))
+
+(v4 / deliver.01
+    :ARG1 (v2 / Küche))
+
+(v7 / forgive.01
+    :ARG0 (v1 / ich)
+    :time (v3 / leider)
+    :ARG1 (v6 / Stern
+        :ARG1-of (v13 / be.01)))
+
+(v2 / have.03
+    :ARG0 (v1 / wir)
+    :ARG1 (v4 / Küche)
+    :time (v5 / jetzt)
+    :time (v7 / temporal-quantity
+        :unit (vg0 / Juni)
+        :quant 2011))
+
+(v8 / run.02
+    :ARG0 (v1 / Beratung)
+    :ARG1 (v9 / wunderbar))
+
+(v3 / be.01
+    :ARG1 (v2 / Preis)
+    :ARG2 (v4 / moderat))
+
+(v6 / do.02
+    :ARG1 (v3 / Beanstandung
+        :mod (v2 / klein))
+    :time (v5 / problemlos))
+
+(v5 / buy.01
+    :ARG1 (v3 / Küche)
+    :location (v4 / dort))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :location (v5 / Dezember)
+    :ARG2 (v8 / Walther))
+
+(v9 / be.01
+    :ARG1 (v2 / Grundriß
+        :mod (v4 / Haus
+            :mod (v8 / 70er)))
+    :ARG2 (v11 / kompliziert))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v3 / begeistern))
+
+(v7 / have.03
+    :time (v6 / Beratung)
+    :ARG0 (v8 / wir)
+    :ARG1 (v11 / Preis))
+
+(v14 / go.02
+    :time (v4 / dann)
+    :ARG4 (v9 / Höffner))
+
+(v9 / judge.01
+    :ARG0 (v7 / ich)
+    :ARG1 (v8 / der))
+
+(v15 / walk.01
+    :ARG0 (v2 / Firma)
+    :time (v9 / temporal-quantity
+        :unit (vg0 / Jahr)
+        :quant 3)
+    :ARG1 (v11 / Leistung)
+    :manner (v14 / Auftrag))
+
+(v12 / decide.01
+    :manner (v3 / Gewissen
+        :mod (v2 / gut))
+    :ARG0 (v5 / wir)
+    :time (v8 / wieder)
+    :ARG2 (v11 / Firma)
+    :cause (v25 / realize.01
+        :ARG1 (v17 / Auftrag
+            :mod (v16 / erteilt))
+        :time (v24 / Wunsch)))
+
+(v12 / present.01
+    :ARG0 (v2 / Ausstellungsraum
+        :ARG1-of (v3 / be.01
+            :ARG2 v12))
+    :ARG1 (v8 / Liebe
+        :mod (v11 / Detail)))
+
+(v10 / decide.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v3 / wir)
+    :time (v6 / November)
+    :time (v9 / Terrassendach))
+
+(v7 / work.01
+    :ARG1 (v1 / es)
+    :manner (v4 / gut)
+    :ARG0 (v10 / Monteur))
+
+(v10 / expect.01
+    :ARG0 (v7 / Glashaus
+        :mod (v9 / Mangel))
+    :ARG1 (v11 / wir)
+    :mod (v14 / Wintergarten))
+
+(v17 / shift.01
+    :time (v8 / als)
+    :ARG0 (v12 / Fertigungstermin
+        :mod (v11 / vereinbart))
+    :ARG1 (v14 / Monat)
+    :direction (v16 / hinten))
+
+(v10 / change.01
+    :ARG0 (v15 / Ton
+        :mod (v14 / freundlich)
+        :mod (v17 / Verkäufer))
+    :time (v20 / leider)
+    :location (v24 / Gegenteil
+        :mod (v23 / glatt)))
+
+(v2 / promise.01
+    :ARG0 (v4 / Firma))
+
+(v2 / shop.01
+    :ARG0 (v1 / ich)
+    :location (v3 / hier)
+    :cause (v11 / give.01
+        :ARG1 (v8 / es)))
+
+(v6 / expect.01
+    :ARG0 (v3 / man)
+    :time (v4 / abends)
+    :ARG1 (v5 / damit))
+
+(v4 / convince.01
+    :ARG1 (v2 / Firma)
+    :manner (v7 / Kompetenz
+        :mod (v6 / umfassend)
+        :mod (v10 / Gebiet
+            :mod (v12 / Website))))
+
+(v2 / feel.01
+    :ARG0 (v1 / ich
+        :ARG0-of (v6 / advise.01
+            :manner (v5 / gut)
+            :ARG1-of v2)))
+
+(v3 / be.01
+    :ARG1 (v2 / Arzt)
+    :ARG2 (v6 / freundlich))
+
+(v5 / be.01
+    :ARG1 (v1 / Grunduntersuchung
+        :mod (v4 / Hund))
+    :time (v6 / dagegen)
+    :ARG2 (v8 / Ordnung))
+
+(v2 / come.01
+    :ARG1 (v3 / ich)
+    :ARG2 (v11 / Nymphensittich)
+    :ARG4 (v13 / er))
+
+(v2 / do.02
+    :ARG0 (v3 / ich)
+    :ARG1 (v5 / Hoffnung))
+
+(v3 / look.02
+    :ARG0 (v2 / Mittel)
+    :time (v6 / spät))
+
+(v6 / say.01
+    :location (v5 / der)
+    :ARG1 (v14 / mind.01
+        :ARG1 (v12 / Aussehen
+            :mod (v11 / verändert))))
+
+(v6 / come.01
+    :ARG1 (v2 / Behandlung
+        :mod (v5 / TA
+            :mod (v4 / ander)))
+    :time (v9 / spät))
+
+(v3 / be.01
+    :ARG1 (v2 / AlPonte)
+    :ARG2 (v6 / Motorradtreff
+        :mod (v5 / beliebt)
+        :mod (v11 / Personal
+            :mod (v8 / hübsch))))
+
+(v6 / appreciate.02
+    :ARG0 (v8 / Inhaber)
+    :ARG1 (v10 / Kunde)
+    :mod (v3 / Betreten
+        :mod (v5 / Laden)))
+
+(v9 / welcome.01
+    :time (v5 / Minute)
+    :ARG1 (v7 / man))
+
+(v10 / point.01
+    :ARG1 (v2 / Blick
+        :mod (v4 / Besitzer)
+        :ARG1-of (v5 / stay.01
+            :time (v6 / weiterhin)
+            :ARG2 v10))
+    :ARG2 (v9 / PC))
+
+(v4 / be.01
+    :ARG1 (v1 / Grund
+        :mod (v3 / Besuch)
+        :ARG0-of (v10 / rent.01
+            :ARG1 (v8 / Vespa)))
+    :ARG2 (v6 / Wunsch))
+
+(v15 / say.01
+    :ARG0 (v14 / Verkäufer)
+    :ARG1 (v22 / visit.01
+        :ARG0 (v18 / man)
+        :time (v21 / kurz)
+        :time (v25 / Samstag)))
+
+(v11 / wonder.01
+    :manner (v4 / Einstellung
+        :mod (v7 / Arbeit))
+    :ARG0 (v12 / ich)
+    :ARG1 (v23 / have.03
+        :ARG0 (v19 / Laden)
+        :ARG1 (v22 / Kundschaft)))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v4 / traurig))
+
+(v19 / give.01
+    :ARG1 (v6 / es))
+
+(v8 / keep.02
+    :ARG1 (v1 / Zimmer)
+    :ARG2 (v7 / Stil
+        :mod (v6 / traditionell)))
+
+(v6 / have.03
+    :ARG0 (v1 / wir)
+    :ARG1 (v4 / was))
+
+(v8 / vote.01
+    :ARG0 (v7 / Verhältnis))
+
+(v6 / go.02
+    :ARG0 (v1 / ich)
+    :ARG4 (v3 / aber))
+
+(v2 / come.01
+    :ARG1 (v1 / du
+        :ARG0-of (v4 / go.02))
+    :time (v7 / dauernd))
+
+(v2 / go.02
+    :ARG0 (v1 / ich)
+    :time (v10 / Sommer)
+    :cause (v19 / fällen)
+    :mod (v6 / Familie))
+
+(v1 / deserve.01
+    :ARG1 (v3 / Stern))
+
+(v6 / report.01
+    :ARG1 (v3 / nichts))
+
+(v6 / be.01
+    :ARG1 (v7 / es)
+    :ARG2 (v12 / schwer
+        :mod (v5 / €)))
+
+(v2 / find.01
+    :ARG0 (v1 / ihr)
+    :location (v3 / hier)
+    :location (v6 / Karte)
+    :ARG1 (v9 / Lady
+        :mod (v11 / Weingarten)))
+
+(v7 / report.01
+    :ARG0 (v1 / ich)
+    :location (v3 / hier)
+    :manner (v5 / positiv)
+    :ARG1 (v6 / darüber))
+
+(v5 / equip.01
+    :ARG0 (v2 / Studio
+        :ARG1-of (v3 / be.01
+            :ARG2 v5))
+    :manner (v4 / super)
+    :ARG2 (v11 / Gerät
+        :mod (v8 / neu)))
+
+(v7 / find.01
+    :time (v6 / betreten
+        :ARG0 (v3 / ihr)
+        :ARG1 (v5 / Studio))
+    :ARG0 (v8 / ihr)
+    :ARG1 (v11 / Ambiente
+        :mod (v10 / toll)
+        :mod (v14 / Ledercouches
+            :mod (v13 / neu))))
+
+(v3 / be.01
+    :ARG1 (v2 / Personal)
+    :ARG2 (v5 / nett))
+
+(v9 / put.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v3 / es)
+    :ARG2 (v4 / ihr)
+    :location (v8 / Herz))
+
+(v6 / taste.02
+    :ARG1 (v5 / Essen))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v4 / glücklich))
+
+(v5 / explore.01
+    :ARG1 (v4 / mehr))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v7 / Stil
+        :mod (v5 / Sicht)))
+
+(v2 / deserve.01
+    :ARG2 (v1 / hierfür)
+    :ARG0 (v4 / Burrichter)
+    :ARG1 (v7 / Respekt
+        :mod (v6 / besonder)))
+
+(v2 / talk.01
+    :ARG0 (v1 / es)
+    :ARG2 (v4 / er|es|sie)
+    :ARG1 (v24 / extend.01
+        :ARG0 (v8 / Burrichter)
+        :ARG1 (v10 / Angebot
+            :mod (v14 / Stunde|Stunden))
+        :time (v22 / Jahr)
+        :manner (v23 / kontinuierlich)
+        :mod (v18 / Nachfrage
+            :mod (v17 / groß))))
+
+(v3 / be.01
+    :time (v2 / ich)
+    :ARG1 (v5 / Yoga)
+    :time (v9 / Instanz))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :ARG2 (v5 / Angsthase
+        :mod (v4 / groß)
+        :mod (v7 / Welt)))
+
+(v7 / be.01
+    :ARG1 (v3 / es))
+
+(v2 / be.01
+    :ARG1 (v3 / es)
+    :ARG2 (v10 / weit
+        :mod (v5 / ich)
+        :mod (v8 / Woche)))
+
+(v8 / deal.01
+    :ARG0 (v2 / sieben)
+    :time (v5 / hervorragend)
+    :ARG2 (v7 / ich))
+
+(v7 / hire.01
+    :ARG0 (v1 / er
+        :ARG0-of (v9 / try.01
+            :ARG1 (v13 / take.01
+                :ARG1 (v10 / sie)
+                :ARG0 (v11 / ich))))
+    :mod (v6 / Angst))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :ARG2 (v4 / begeistern))
+
+(v11 / go.02
+    :ARG0 (v5 / ich)
+    :time (v6 / jetzt)
+    :time (v7 / immer)
+    :ARG4 (v10 / sieben)
+    :mod (v3 / Fall))
+
+(v6 / do.02
+    :ARG0 (v3 / ich
+        :ARG0-of (v7 / make.02))
+    :ARG1 (v5 / Krone))
+
+(v3 / recommend.01
+    :ARG0 (v4 / ich)
+    :time (v5 / dann)
+    :ARG1 (v8 / sieben))
+
+(v4 / look.02
+    :ARG0 (v3 / Krone))
+
+(v1 / be.01
+    :time (v3 / schon)
+    :time (v6 / Jahr)
+    :ARG2 (v10 / sieben)
+    :mod (v12 / Behandlung))
+
+(v4 / be.01
+    :ARG1 (v3 / sieben)
+    :ARG2 (v11 / Zahnarzt
+        :mod (v7 / kompetent)))
+
+(v6 / arrange.01
+    :ARG0 (v2 / Praxis
+        :ARG1-of (v3 / be.01
+            :ARG2 v6)))
+
+(v5 / recommend.01
+    :ARG0 (v2 / ich))
+
+(v3 / be.01
+    :ARG1 (v4 / ich)
+    :time (v7 / mal)
+    :ARG2 (v10 / Praxis
+        :mod (v14 / Luger)))
+
+(v5 / push.01
+    :ARG2 (v1 / unangemeldet)
+    :ARG1 (v3 / ich
+        :ARG1-of (v11 / wait.01
+            :time (v10 / temporal-quantity
+                :unit (vg0 / Minute)
+                :quant 45)))
+    :manner (v4 / dazwischen))
+
+(v6 / be.01
+    :ARG1 (v2 / Sprechstundenhilfe
+        :mod (v5 / Empfang))
+    :ARG2 (v8 / freundlich))
+
+(v8 / become.01
+    :ARG2 (v7 / Hausarzt
+        :mod (v4 / Fall)
+        :mod (v6 / neu)))
+
+(v3 / recommend.01)
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v4 / Nachbar
+        :mod (v3 / unmittelbar)
+        :mod (v7 / Rauschgold)))
+
+(v2 / have.03
+    :ARG0 (v1 / wir)
+    :ARG1 (v5 / Kind
+        :mod (v4 / klein)
+        :ARG1-of (v13 / bring.01
+            :ARG3 (v8 / immer)
+            :ARG2 (v12 / Schlaf))))
+
+(v2 / refuse.01
+    :ARG0 (v5 / Rauschgold)
+    :ARG1 (v9 / put.01
+        :ARG0 (v8 / Lärmschutz
+            :mod (v7 / fachmännisch))
+        :ARG1 (v17 / recommend.01
+            :extent (v11 / so)
+            :ARG0 (v13 / wir)
+            :ARG1 (v15 / Location))))
+
+(v2 / demand.01
+    :time (v1 / vielmehr)
+    :ARG0 (v3 / wir))
+
+(v3 / give.01
+    :ARG1 (v2 / es))
+
+(v4 / be.01
+    :ARG1 (v2 / Pizzeria)
+    :ARG2 (v8 / Gastwirtschaft
+        :mod (v7 / gut)
+        :ARG1-of (v13 / recommend.01)))
+
+(v4 / order.02
+    :time (v2 / schon)
+    :time (v3 / dreimal))
+
+(v3 / be.01
+    :ARG1 (v2 / Höhepunkt)
+    :ARG2 (v4 / sogar)
+    :time (v15 / legen
+        :location (v9 / Oberfläche
+            :mod (v8 / verbrannt))
+        :ARG1 (v13 / Schicht
+            :mod (v12 / weit))))
+
+(v18 / soak.01
+    :ARG1 (v9 / essen
+        :mod (v10 / alle
+            :mod (v12 / alle)))
+    :manner (v14 / Öl))
+
+(v4 / recommend.01
+    :ARG0 (v2 / ich))
+
+(v3 / be.01
+    :ARG1 (v2 / Opitz)
+    :ARG2 (v5 / nett))
+
+(v5 / seem.01
+    :ARG1 (v2 / Praxis))
+
+(v10 / be.01
+    :ARG1 (v8 / ich)
+    :time (v9 / jetzt)
+    :ARG2 (v13 / Umzug)
+    :mod (v7 / der))
+
+(v18 / help.01
+    :ARG0 (v15 / ich)
+    :manner (v17 / gut))
+
+(v6 / be.01
+    :ARG1 (v5 / Essen)
+    :time (v10 / immer)
+    :ARG2 (v12 / sahnen
+        :mod (v11 / erst)))
+
+(v9 / write.01
+    :location (v4 / Monaco)
+    :ARG1 (v6 / Gastfreundschaft))
+
+(v11 / be.01
+    :ARG1 (v2 / Pizza)
+    :ARG2 (v13 / lecker))
+
+(v11 / leave.12
+    :ARG0 (v3 / München)
+    :ARG1 (v10 / Kritik
+        :mod (v9 / gut)))
+
+(v3 / run.02
+    :ARG0 (v2 / Fernseher)
+    :ARG1 (v8 / Gast)
+    :ARG2 (v21 / schauen)
+    :mod (v12 / Übertragung))
+
+(v4 / arise.01
+    :ARG1 (v3 / Wirt)
+    :ARG0 (v7 / Kosten))
+
+(v11 / consider.01
+    :ARG0 (v1 / er)
+    :time (v4 / gemütlich)
+    :manner (v8 / Wein)
+    :ARG1 (v10 / Finale))
+
+(v5 / stay.01
+    :ARG1 (v4 / Team
+        :mod (v2 / lieb))
+    :ARG3 (v6 / so))
+
+(v4 / appreciate.02
+    :ARG0 (v1 / ich)
+    :ARG1 (v5 / wir)
+    :time (v7 / schon)
+    :mod (v11 / Besuch
+        :mod (v10 / nah)))
+
+(v6 / be.01
+    :ARG1 (v2 / Fahrschule)
+    :ARG2 (v8 / spitzen))
+
+(v14 / recommend.01
+    :ARG1 (v2 / Holzfachmarkt
+        :mod (v5 / Obi))
+    :ARG0 (v13 / Handwerker))
+
+(v2 / deal.01
+    :ARG0 (v1 / es)
+    :ARG2 (v9 / Holzfachmarkt
+        :mod (v8 / groß)
+        :mod (v11 / München))
+    :mod (v5 / Auspreisung))
+
+(v8 / surprise.01
+    :ARG1 (v4 / Auswahl
+        :mod (v3 / groß))
+    :ARG0 (v6 / wir
+        :ARG1-of (v5 / be.01
+            :ARG2 v8)))
+
+(v8 / know.01
+    :ARG2 (v3 / Preis|Preisen
+        :mod (v5 / Qualitätsböden
+            :mod (v7 / Haro)))
+    :ARG0 (v9 / wir)
+    :ARG1 (v12 / anders))
+
+(v6 / recommend.01
+    :ARG1 (v1 / alle
+        :mod (v3 / alle)))
+
+(v11 / offer.01
+    :ARG0 (v6 / der)
+    :ARG1 (v8 / Essen)
+    :location (v10 / Pappschachtel))
+
+(v2 / give.01
+    :location (v1 / hier)
+    :ARG1 (v3 / es))
+
+(v4 / push.01
+    :ARG0 (v2 / Laden)
+    :ARG2 (v6 / Hauptzeiten)
+    :ARG1 (v10 / Kapazitätsgrenze))
+
+(v4 / catch.03
+    :location (v3 / Block)
+    :ARG0 (v5 / Sie|sie)
+    :ARG1 (v8 / Burger
+        :mod (v6 / super)
+        :mod (v7 / lecker))
+    :ARG2 (v12 / Preis|Preisen
+        :mod (v11 / gut)))
+
+(v6 / be.01
+    :ARG1 (v2 / Fleisch)
+    :time (v7 / immer)
+    :ARG2 (v8 / Frisch))
+
+(v2 / get.01
+    :ARG0 (v1 / man)
+    :location (v3 / dort)
+    :ARG1 (v7 / Variante
+        :mod (v5 / verschieden)))
+
+(v3 / be.01
+    :ARG1 (v2 / Bedingung)
+    :time (v4 / immer)
+    :ARG2 (v5 / freundlich))
+
+(v1 / have.03
+    :ARG1 (v3 / Zimmer
+        :mod (v6 / Hinterhof)))
+
+(v14 / be.01
+    :time (v9 / Abend)
+    :ARG2 (v12 / meist))
+
+(v3 / be.01
+    :ARG1 (v2 / Zimmer)
+    :ARG2 (v4 / sauber))
+
+(v3 / be.01
+    :ARG1 (v2 / Frühstück)
+    :ARG2 (v5 / reichhaltig))
+
+(v6 / recommend.01
+    :ARG2 (v3 / Städtetripp))
+
+(v5 / renovate.01
+    :ARG1 (v3 / der)
+    :time (v4 / zurzeit))
+
+(v10 / renovate.01
+    :ARG1 (v8 / Fassade)
+    :time (v9 / total)
+    :mod (v4 / TV
+        :mod (v3 / neu)))
+
+(v10 / change.01
+    :ARG0 (v2 / Frühstück)
+    :time (v8 / Besuch)
+    :extent (v9 / stark))
+
+(v15 / become.01
+    :ARG1 (v7 / ich)
+    :ARG2 (v14 / aufmerksam
+        :mod (v5 / Eintrag)
+        :mod (v10 / Website
+            :mod (v13 / Weissenborn))))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :time (v3 / jetzt)
+    :ARG2 (v9 / Kunde
+        :mod (v8 / Jahr)
+        :mod (v11 / Herbalife)))
+
+(v10 / be.01
+    :ARG1 (v11 / ich)
+    :ARG2 (v13 / zufrieden
+        :mod (v3 / Beratung
+            :mod (v7 / Kundenberaters))))
+
+(v10 / achieve.01
+    :manner (v3 / Hilfe)
+    :ARG0 (v5 / ich
+        :ARG0-of (v13 / hold.01))
+    :ARG1 (v9 / Wunschgewicht)
+    :location (v16 / Gegensatz
+        :mod (v20 / Diätversuchen
+            :mod (v18 / etlich)
+            :mod (v19 / ander)
+            :mod (v25 / Effekt
+                :mod (v22 / wiederkehrendem)))))
+
+(v14 / eat.01
+    :time (v1 / heute)
+    :ARG0 (v3 / wir)
+    :time (v7 / temporal-quantity
+        :unit (vg0 / Mal)
+        :quant erst)
+    :ARG1 (v10 / Restaurant)
+    :time (v13 / Abend))
+
+(v5 / recommend.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v3 / der))
+
+(v2 / be.01
+    :ARG1 (v1 / Essen)
+    :ARG2 (v3 / ok))
+
+(v1 / be.01
+    :ARG2 (v3 / nett))
+
+(v1 / need.01
+    :ARG0 (v2 / ich)
+    :time (v5 / wieder))
+
+(v2 / find.01
+    :ARG0 (v1 / ich)
+    :ARG1 (v3 / es))
+
+(v2 / do.02
+    :time (v1 / so)
+    :ARG0 (v4 / Sanierung
+        :mod (v3 / energetisch))
+    :ARG1 (v5 / Spaß))
+
+(v1 / be.01
+    :ARG2 (v3 / Kunde
+        :mod (v2 / langjährig)
+        :mod (v5 / CSV)))
+
+(v9 / do.02
+    :ARG1 (v1 / Auftrag)
+    :manner (v4 / schnell)
+    :ARG2 (v8 / Qualität
+        :mod (v7 / super)))
+
+(v7 / send.01
+    :ARG0 (v2 / man)
+    :ARG1 (v6 / Internetseite))
+
+(v1 / be.01
+    :time (v2 / immer)
+    :ARG2 (v5 / Pappel))
+
+(v8 / join.04
+    :ARG1 (v2 / ich)
+    :location (v5 / Bewertung
+        :mod (v4 / erst)))
+
+(v1 / know.01
+    :ARG1 (v3 / Shop)
+    :time (v6 / Jahr))
+
+(v1 / go.02
+    :manner (v2 / schnell))
+
+(v3 / advise.01
+    :ARG1 (v1 / man
+        :ARG0-of (v5 / get.01
+            :manner (v8 / Problem)
+            :ARG1 (v10 / Druckproben))))
+
+(v5 / use.01
+    :ARG0 (v2 / Betreiber
+        :mod (v4 / Copyshops))
+    :manner (v6 / ausschließlich)
+    :ARG1 (v9 / Rechner))
+
+(v2 / hear.01
+    :time (v1 / dann)
+    :ARG0 (v3 / wir)
+    :ARG2 (v8 / Fulda
+        :mod (v10 / Löschenrod)))
+
+(v9 / try.01
+    :cause (v7 / have.03
+        :ARG0 (v2 / wir)
+        :ARG1 (v3 / nichts
+            :ARG1-of (v6 / lose.02))
+        :time (v4 / mehr))
+    :ARG0 (v10 / wir)
+    :location (v12 / dort))
+
+(v20 / run.02
+    :time (v5 / temporal-quantity
+        :unit (vg0 / Trainingseinheit)
+        :quant erst)
+    :ARG0 (v14 / wir)
+    :ARG1 (v16 / normal)
+    :ARG2 (v19 / Hund))
+
+(v2 / go.02
+    :ARG0 (v1 / er)
+    :ARG1 (v7 / Fuß))
+
+(v4 / go.02
+    :time (v3 / spät)
+    :ARG0 (v6 / Hund)
+    :ARG1 (v12 / Fuß)
+    :mod (v10 / Leine))
+
+(v4 / wonder.01
+    :ARG0 (v1 / Sie|sie)
+    :ARG1 (v13 / take.10
+        :ARG0 (v7 / es)
+        :ARG1 (v9 / Jahr)
+        :time (v17 / verstehen
+            :ARG0 (v16 / Hund)
+            :ARG1 (v23 / want.01
+                :ARG1 (v19 / was)
+                :ARG0 (v20 / wir)
+                :mod (v22 / er|es)))))
+
+(v4 / give.01
+    :location (v3 / Hundezentrum)
+    :ARG1 (v5 / es))
+
+(v5 / understand.01
+    :ARG1 (v3 / was
+        :ARG2-of (v2 / be.01
+            :ARG1 (v4 / Hund)))
+    :ARG0 v4)
+
+(v22 / save.01
+    :ARG0 (v12 / es)
+    :ARG1 (v15 / Zeit))
+
+(v11 / come.01
+    :ARG1 (v10 / wir))
+
+(v3 / understand.01
+    :time (v2 / jetzt)
+    :ARG0 (v4 / ich)
+    :ARG1 (v6 / Signal
+        :mod (v8 / Hund)))
+
+(v8 / appreciate.02
+    :ARG0 (v9 / er))
+
+(v3 / hold.01
+    :ARG0 (v2 / Zentrum)
+    :ARG1 (v6 / promise.01
+        :ARG1 (v4 / was)
+        :ARG0 (v5 / es)))
+
+(v12 / take.01
+    :ARG0 (v5 / man)
+    :ARG1 (v7 / Zeit)
+    :mod (v11 / Problemchen
+        :mod (v10 / einzeln)))
+
+(v2 / do.02
+    :location (v1 / hier)
+    :ARG0 (v4 / Weiterbildung)
+    :ARG1 (v5 / Spaß))
+
+(v2 / wear.01
+    :ARG0 (v1 / ich)
+    :time (v5 / temporal-quantity
+        :unit (vg0 / Jahr)
+        :quant 5)
+    :ARG1 (v8 / Haarteil))
+
+(v15 / learn.01
+    :time (v5 / temporal-quantity
+        :unit (vg0 / Jahr)
+        :quant 5)
+    :ARG1 (v7 / Studio)
+    :manner (v10 / Grund
+        :mod (v12 / Umzug
+            :mod (v11 / beruflich))))
+
+(v18 / operate.01
+    :ARG1 (v5 / ich)
+    :manner (v7 / gut)
+    :location (v17 / Klimmet))
+
+(v2 / be.01
+    :ARG1 (v1 / alle
+        :ARG0-of (v11 / sell.01
+            :ARG1 (v9 / Haarteil
+                :mod (v8 / neu))))
+    :ARG2 v11)
+
+(v19 / gain.02
+    :time (v9 / kaufen
+        :ARG0 (v3 / ich)
+        :ARG1 (v8 / Haarteil
+            :mod (v7 / teuer)))
+    :ARG0 (v12 / ich)
+    :ARG1 (v14 / Vertrauen)
+    :ARG2 (v18 / Können
+        :mod (v17 / fachlich)))
+
+(v3 / be.01
+    :ARG1 (v2 / Haarteil)
+    :ARG2 (v8 / Prothese
+        :mod (v5 / ich)))
+
+(v8 / give.01
+    :ARG0 (v2 / dies)
+    :location (v6 / Klimmet)
+    :time (v7 / gleich))
+
+(v2 / have.03
+    :ARG0 (v1 / ich)
+    :time (v3 / sofort)
+    :ARG1 (v4 / Vertrauen)
+    :mod (v6 / er))
+
+(v2 / think.01
+    :ARG0 (v3 / ich)
+    :ARG1 (v14 / take.01
+        :ARG0 (v5 / ich)
+        :time (v7 / lieb)
+        :ARG1 (v11 / Anfahrt
+            :mod (v9 / Std))
+        :location (v13 / Kauf)))
+
+(v2 / give.01
+    :ARG1 (v1 / es)
+    :location (v5 / Branche))
+
+(v5 / perform.01
+    :ARG0 (v1 / er)
+    :ARG1 (v4 / Wurzelkanalbehandlung))
+
+(v10 / lose.02
+    :ARG0 (v6 / ich)
+    :ARG1 (v8 / Zahn))
+
+(v10 / go.02
+    :ARG0 (v11 / ich)
+    :time (v12 / immer)
+    :location (v13 / dort))
+
+(v5 / be.01
+    :ARG1 (v2 / Qualität
+        :mod (v4 / Schuh))
+    :ARG2 (v7 / ideal))
+
+(v2 / hold.01
+    :ARG0 (v1 / Sie|sie))
+
+(v2 / save.01
+    :ARG0 (v3 / man)
+    :ARG1 (v6 / Blase|Blasen
+        :mod (v4 / viel)
+        :mod (v9 / Fuß)))
+
+(v3 / be.01
+    :ARG1 (v2 / Service)
+    :ARG2 (v4 / wunderbar))
+
+(v2 / make.02
+    :location (v1 / hier)
+    :ARG0 (v3 / ich))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :time (v3 / heute)
+    :ARG2 (v4 / da))
+
+(v3 / be.01
+    :ARG1 (v2 / Ferienwohnung)
+    :ARG2 (v4 / groß)
+    :time (v7 / erwarten
+        :ARG0 (v6 / man)))
+
+(v3 / be.01
+    :ARG1 (v2 / Ausstattung)
+    :ARG2 (v4 / ok))
+
+(v6 / recommend.01
+    :mod (v1 / alle
+        :mod (v3 / alle)))
+
+(v3 / be.01
+    :ARG1 (v2 / Firma)
+    :time (v7 / mehr))
+
+(v3 / delete.01
+    :ARG1 (v1 / beide))
+
+(v2 / convince.01
+    :ARG1 (v1 / Choclet))
+
+(v3 / be.01
+    :ARG1 (v2 / Choclet)
+    :ARG2 (v6 / Ort
+        :mod (v5 / gut)))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :time (v4 / oft)
+    :ARG2 (v7 / choclet))
+
+(v5 / get.01
+    :location (v4 / Bahnhof
+        :mod (v3 / Rosenheimer))
+    :ARG0 (v6 / ich)
+    :time (v8 / zentral)
+    :ARG1 (v10 / Mietwagen))
+
+(v3 / promise.01
+    :ARG0 (v2 / Service)
+    :ARG1 (v6 / Fahrzeug
+        :mod (v11 / Stellplatz)))
+
+(v10 / spell.02
+    :ARG1 (v1 / Pünktlichkeit)
+    :time (v7 / Standort))
+
+(v2 / mean.01
+    :ARG0 (v3 / ich)
+    :ARG1 (v6 / Bahnhof))
+
+(v15 / recommend.01
+    :ARG0 (v1 / man)
+    :ARG1 (v3 / Hertz
+        :mod (v5 / Rosenheim))
+    :location (v8 / Umfang
+        :mod (v7 / voll)
+        :mod (v10 / Service))
+    :ARG2 (v14 / Marktführer))
+
+(v3 / give.01
+    :location (v2 / Berlin)
+    :ARG1 (v4 / es)
+    :time (v5 / mittlerweile)
+    :manner (v8 / Sand
+        :mod (v11 / Meer)))
+
+(v3 / be.01
+    :ARG1 (v2 / Bay)
+    :ARG2 (v4 / ein))
+
+(v13 / be.01
+    :ARG1 (v2 / Lage
+        :mod (v5 / Nähe
+            :mod (v7 / Hauptbahnhof)))
+    :ARG2 (v15 / prima))
+
+(v4 / forget.01
+    :ARG0 (v3 / man
+        :ARG0-of (v9 / use.01
+            :ARG1 (v8 / Personal
+                :mod (v7 / viel)
+                :ARG1-of (v18 / become.01
+                    :ARG2 (v13 / Abfertigung
+                        :mod (v15 / Besuchermengen))))))
+    :ARG1 v9)
+
+(v9 / wait.01
+    :ARG1 (v1 / wir)
+    :time (v5 / lange)
+    :ARG2 (v8 / Getränk))
+
+(v4 / be.01
+    :ARG1 (v6 / Servicekräfte)
+    :ARG2 (v10 / überfordern))
+
+(v13 / deliver.01
+    :ARG0 (v9 / man)
+    :time (v10 / schon)
+    :ARG1 (v12 / Service
+        :mod (v11 / gut)))
+
+(v8 / be.01
+    :ARG1 (v7 / Musik)
+    :ARG2 (v10 / laut))
+
+(v9 / confirm.01
+    :ARG0 (v2 / Blick
+        :mod (v5 / Gesicht
+            :mod (v8 / Besucher
+                :mod (v7 / ander)))))
+
+(v6 / look.02
+    :ARG0 (v2 / Herumsitzen
+        :mod (v1 / entspannt)
+        :mod (v5 / Strandbar)))
+
+(v2 / be.01
+    :ARG1 (v4 / Gast)
+    :ARG2 (v6 / König))
+
+(v5 / advise.01
+    :location (v1 / hier)
+    :manner (v4 / gut))
+
+(v2 / be.01
+    :ARG1 (v3 / alle)
+    :ARG2 (v5 / empfehlenswert))
+
+(v9 / attend.01
+    :time (v3 / Woche)
+    :ARG1 (v6 / Kurs)
+    :location (v8 / diedenkweisen))
+
+(v8 / be.01
+    :ARG1 (v4 / Kurs)
+    :ARG2 (v10 / hilfreich))
+
+(v14 / recommend.01
+    :ARG2 (v4 / Interessierte)
+    :ARG0 (v10 / ich)
+    :ARG1 (v12 / Seite)
+    :extent (v13 / absolut))
+
+(v7 / house.01
+    :ARG1 (v1 / wir)
+    :ARG0 (v5 / Arbeitgeber)
+    :location (v6 / dort))
+
+(v10 / go.02
+    :ARG0 (v5 / es)
+    :ARG1 (v7 / Musikinstrument))
+
+(v5 / order.02
+    :location (v2 / hier)
+    :time (v4 / oft))
+
+(v6 / order.02
+    :location (v2 / hier)
+    :time (v4 / mehrfach)
+    :location (v5 / online))
+
+(v4 / be.01
+    :ARG1 (v5 / ich)
+    :ARG2 (v7 / zufrieden
+        :mod (v3 / Service)))
+
+(v2 / buy.01
+    :ARG0 (v1 / ich)
+    :time (v4 / Jahr
+        :time-of (v12 / disappoint.01
+            :time (v10 / bisher)))
+    :location (v5 / dort)
+    :ARG1 (v7 / Technik))
+
+(v2 / give.01
+    :ARG1 (v1 / es))
+
+(v2 / want.01
+    :ARG1 (v1 / was)
+    :ARG0 (v3 / man))
+
+(v7 / take.10
+    :ARG0 (v6 / Versand)
+    :ARG1 (v11 / Tag))
+
+(v2 / be.01
+    :ARG1 (v1 / ich
+        :ARG0-of (v13 / shop.01
+            :time (v10 / noch)
+            :location (v12 / dort)))
+    :ARG2 (v4 / zufrieden
+        :mod (v6 / Thomann)))
+
+(v5 / be.01
+    :ARG1 (v3 / Shop)
+    :ARG2 (v8 / vielversprechend))
+
+(v4 / have.03
+    :ARG0 (v2 / Musikhaus)
+    :ARG1 (v9 / Angebot
+        :mod (v8 / riesig)
+        :mod (v12 / Preis|Preisen
+            :mod (v11 / günstig))))
+
+(v5 / order.02
+    :time (v2 / temporal-quantity
+        :unit (vg0 / Uhr)
+        :quant 17.45)
+    :ARG0 (v4 / ich))
+
+(v3 / be.01
+    :ARG1 (v5 / Ware)
+    :time (v6 / bereits)
+    :ARG2 (v7 / versandfertig
+        :mod (v2 / Uhr)))
+
+(v2 / do.02
+    :time (v1 / so)
+    :ARG0 (v4 / shopping)
+    :ARG1 (v5 / Spaß))
+
+(v7 / be.01
+    :ARG2 (v9 / Fa
+        :mod (v2 / Frage
+            :mod (v4 / Luster)))
+    :ARG1 (v15 / Wahl
+        :mod (v14 / erst)))
+
+(v6 / go.02
+    :ARG0 (v1 / ich)
+    :ARG4 (v5 / Polizei))
+
+(v10 / call.02
+    :ARG2 (v3 / Glück)
+    :ARG0 (v5 / ich)
+    :time (v6 / erst)
+    :ARG1 (v9 / Büro))
+
+(v3 / advise.01
+    :ARG0 (v4 / ich
+        :ARG0-of (v7 / cancel.01
+            :ARG1 (v6 / Termin)
+            :ARG2-of v3)))
+
+(v11 / earn.01
+    :time (v3 / Akteneinsicht)
+    :ARG0 (v5 / er)
+    :ARG2 (v7 / ich)
+    :manner (v8 / zusammen)
+    :ARG1 (v10 / Stellungnahme))
+
+(v3 / come.01
+    :ARG1 (v2 / Verfahren)
+    :location (v6 / Gericht))
+
+(v4 / hope.01
+    :ARG1 (v1 / der)
+    :ARG0 (v3 / ich))
+
+(v5 / discuss.01
+    :ARG1 (v2 / Akt|Akte)
+    :time (v4 / ausführlich))
+
+(v6 / be.01
+    :ARG1 (v2 / Vorbereitung
+        :mod (v5 / Hauptverhandlung))
+    :ARG2 (v7 / super))
+
+(v4 / run.02
+    :ARG1 (v3 / Termin)
+    :ARG0 (v5 / alle))
+
+(v1 / lie.01
+    :ARG1 (v14 / tätig
+        :mod (v9 / 1991)
+        :mod (v11 / Berlin)
+        :mod (v13 / Strafverteidiger)))
+
+(v7 / answer.01
+    :ARG1 (v4 / Mails)
+    :time (v6 / sofort))
+
+(v3 / be.01
+    :ARG1 (v2 / Ergebnis)
+    :ARG2 (v4 / entsprechend))
+
+(v15 / run.02
+    :time (v5 / sehen
+        :ARG0 (v2 / ich
+            :ARG0-of (v12 / inform.01
+                :location (v9 / dort)
+                :manner (v11 / gut)))
+        :ARG1 (v4 / Homepage))
+    :manner (v21 / Mail))
+
+(v4 / sit.01
+    :time (v3 / temporal-quantity
+        :unit (vg0 / Tag)
+        :quant 8)
+    :ARG1 (v5 / ich)
+    :ARG2 (v12 / Büro
+        :mod (v15 / Feldkamp))
+    :mod (v9 / Mal
+        :mod (v8 / erst)))
+
+(v3 / be.01
+    :ARG1 (v2 / Ergebnis)
+    :ARG2 (v7 / Zufriedenheit
+        :mod (v6 / groß)))
+
+(v3 / vote.01
+    :ARG0 (v2 / Preis))
+
+(v5 / recommend.01
+    :ARG0 (v2 / ich)
+    :manner (v4 / Vorbehalt))
+
+(v3 / be.01
+    :ARG1 (v2 / Anwalt
+        :ARG0-of (v11 / give.01
+            :ARG1 (v13 / Tip
+                :mod (v12 / erst))))
+    :ARG2 (v9 / erreichbar
+        :mod (v8 / Notrufnummer)))
+
+(v5 / organize.01
+    :ARG1 (v1 / alle
+        :mod (v3 / alle))
+    :manner (v4 / perfekt))
+
+(v10 / get.01
+    :ARG0 (v11 / ich)
+    :time (v14 / Abend)
+    :ARG1 (v15 / ein
+        :mod (v19 / Pfannenkuchen)))
+
+(v16 / come.01
+    :ARG1 (v15 / der)
+    :location (v17 / hier)
+    :ARG2 (v21 / Kosten))
+
+(v7 / get.03
+    :ARG1 (v1 / ich)
+    :location (v2 / jedenfalls)
+    :time (v6 / davon))
+
+(v3 / be.01
+    :ARG1 (v2 / Personal)
+    :ARG2 (v4 / Klasse))
+
+(v8 / sit.02
+    :time (v1 / abends)
+    :ARG1 (v3 / ich
+        :ARG0-of (v11 / eat.01))
+    :ARG2 (v7 / Garten))
+
+(v5 / warn.01
+    :ARG0 (v1 / ich)
+    :manner (v3 / hiermit)
+    :ARG2 (v4 / alle))
+
+(v4 / be.01
+    :ARG1 (v2 / Essen)
+    :ARG2 (v7 / schlecht))
+
+(v2 / consist.01
+    :ARG1 (v1 / es)
+    :ARG2 (v6 / Fertigprodukt
+        :time-of (v10 / prepare.01
+            :ARG1 (v7 / der)
+            :time (v9 / Packungsanweisung))))
+
+(v2 / have.03
+    :ARG0 (v1 / ich)
+    :ARG1 (v3 / Sauerbraten
+        :ARG1-of (v9 / serve.02
+            :ARG2 (v8 / Fertigsauce))))
+
+(v5 / be.01
+    :ARG1 (v2 / Essen
+        :mod (v4 / Frau))
+    :ARG2 (v7 / schlecht))
+
+(v2 / do.02
+    :time (v1 / so)
+    :ARG0 (v4 / Kochen)
+    :ARG2 (v7 / Wirt)
+    :ARG1 (v8 / Spaß))
+
+(v9 / stay.01
+    :ARG3 (v1 / wir
+        :ARG0-of (v8 / stick.01
+            :ARG1 (v4 / Essen)
+            :ARG2 (v7 / Hals)))
+    :ARG1 v4
+    :location v7)
+
+(v6 / spoil.01
+    :ARG0 (v3 / wir)
+    :ARG1 (v5 / Sonntag))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v5 / Weg
+        :mod (v7 / Rußland))
+    :manner (v10 / Wohnmobil)
+    :mod (v12 / Miriam))
+
+(v10 / build.01
+    :ARG0 (v1 / Sie|sie)
+    :location (v3 / hier)
+    :ARG1 (v9 / Paradies
+        :mod (v8 / klein))
+    :mod (v6 / Gast))
+
+(v9 / recover.01
+    :location (v1 / hier)
+    :ARG1 (v3 / man)
+    :time (v7 / Natur)
+    :ARG2 (v8 / wunderbar))
+
+(v2 / give.01
+    :ARG1 (v1 / es))
+
+(v3 / be.01
+    :ARG1 (v2 / Gastgeber)
+    :ARG2 (v5 / freundlich))
+
+(v17 / rent.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v9 / Maschine)
+    :ARG2 (v12 / Firma))
+
+(v2 / look.02
+    :ARG0 (v1 / er)
+    :time (v3 / jetzt)
+    :manner (v5 / gut))
+
+(v16 / recommend.01
+    :ARG0 (v12 / wir)
+    :ARG1 (v14 / Firma))
+
+(v3 / be.01
+    :ARG1 (v2 / Hostel)
+    :ARG2 (v5 / heimelig))
+
+(v2 / feel.01
+    :ARG0 (v1 / man)
+    :time (v4 / sofort)
+    :location (v5 / zuhause))
+
+(v10 / be.01
+    :ARG1 (v5 / Küche
+        :mod (v2 / alle)
+        :mod (v4 / offen))
+    :ARG2 (v12 / schön))
+
+(v4 / be.01
+    :ARG1 (v5 / wir)
+    :ARG2 (v7 / sicher
+        :mod (v3 / Hinweis)))
+
+(v6 / be.01
+    :ARG1 (v2 / Einzelstunde
+        :mod (v5 / Sonntag))
+    :ARG2 (v8 / gut))
+
+(v8 / call.01
+    :ARG1 (v1 / was)
+    :ARG0 (v6 / schon)
+    :ARG2 (v7 / etwas
+        :mod (v5 / Begleiterin
+            :mod (v4 / vierbeinig))))
+
+(v6 / receive.01
+    :time (v5 / Abend)
+    :ARG0 (v7 / ich)
+    :ARG1 (v9 / Email
+        :mod (v12 / Zusammenfassung
+            :mod (v14 / Einzelstunde))))
+
+(v6 / despair.01
+    :manner (v3 / Hundeschule)
+    :ARG0 (v5 / wir))
+
+(v3 / be.01
+    :ARG1 (v2 / Hündin)
+    :ARG2 (v7 / Fall
+        :mod (v5 / echt)))
+
+(v6 / try.01
+    :ARG0 (v1 / wir)
+    :time (v3 / schon)
+    :ARG1 (v5 / Hundeschulen))
+
+(v12 / exist.01
+    :manner (v3 / Hundeschule)
+    :ARG1 (v5 / ich)
+    :time (v8 / Begleithundeprüfung))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v4 / enttäuscht))
+
+(v2 / reign.01
+    :ARG0 (v1 / es)
+    :ARG1 (v7 / Ton
+        :mod (v4 / rauh))
+    :time (v12 / Hund))
+
+(v4 / give.01
+    :ARG1 (v5 / es))
+
+(v7 / lie.01
+    :manner (v10 / Straße))
+
+(v3 / be.01
+    :ARG1 (v2 / Gruppe
+        :ARG0-of (v22 / smoke.02
+            :time (v18 / teilweise)
+            :time (v21 / Stunde)))
+    :ARG2 (v5 / groß))
+
+(v10 / recommend.01
+    :ARG0 (v4 / wir)
+    :ARG1 (v7 / Hundeschule))
+
+(v5 / be.01
+    :time (v1 / Naja)
+    :ARG1 (v4 / Badehaus)
+    :time (v6 / zwar)
+    :ARG2 (v10 / City))
+
+(v3 / seem.01
+    :ARG1 (v2 / Einrichtung))
+
+(v4 / belong.01
+    :ARG1 (v3 / Sauna)
+    :mod (v6 / ich))
+
+(v3 / be.01
+    :ARG1 (v2 / Hamam)
+    :ARG2 (v4 / schön))
+
+(v4 / be.01
+    :ARG1 (v2 / Außenbereich)
+    :ARG2 (v7 / bedrückend))
+
+(v11 / try.01
+    :time (v1 / da)
+    :ARG0 (v3 / ich)
+    :time (v5 / noch)
+    :ARG1 (v8 / Sauna
+        :mod (v10 / Bremen)))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v3 / faszinierend))
+
+(v5 / start.01
+    :time (v1 / wo)
+    :ARG0 (v3 / man))
+
+(v4 / surprise.01
+    :ARG0 (v1 / wir
+        :ARG1-of (v2 / be.01
+            :ARG2 v4)))
+
+(v10 / be.01
+    :ARG1 (v2 / Realität
+        :mod (v4 / Ferienwohnung))
+    :ARG2 (v11 / gut
+        :mod (v8 / Name)
+        :mod (v14 / Bild)))
+
+(v12 / lie.01)
+
+(v8 / pay.01
+    :ARG3 (v4 / ander)
+    :time (v5 / schon)
+    :ARG1 (v7 / mehr))
+
+(v7 / act.02
+    :ARG0 (v1 / wir)
+    :ARG1 (v4 / Sonnendüne)
+    :mod (v6 / Geheimtip))
+
+(v2 / be.01
+    :ARG1 (v1 / Blickfang)
+    :ARG2 (v5 / Küchenblock
+        :mod (v4 / offen)
+        :mod (v9 / Restaurant)))
+
+(v5 / choose.01
+    :location (v4 / Weinklimaschrank
+        :mod (v3 / begehbar))
+    :ARG0 (v7 / Gast)
+    :ARG1 (v14 / Wein))
+
+(v3 / provide.01
+    :ARG0 (v2 / Karte)
+    :ARG1 (v5 / Spezialität
+        :mod (v4 / regional)
+        :mod (v8 / Anbau
+            :mod (v7 / nachhaltig))))
+
+(v13 / stay.01
+    :ARG1 (v5 / Blick
+        :mod (v4 / einmalig
+            :mod (v3 / Cuxhaven))
+        :mod (v8 / Hafen)
+        :ARG0-of (v15 / pamper.01
+            :ARG1 (v17 / Gast)
+            :time (v20 / Weiter))))
+
+(v3 / be.01
+    :ARG1 (v2 / Parkplatz)
+    :ARG2 (v4 / umsonst))
+
+(v2 / be.01
+    :ARG2 (v1 / negativ))
+
+(v4 / be.01
+    :ARG1 (v3 / Eingangstür
+        :mod (v2 / elektrisch))
+    :ARG2 (v8 / Zimmer))
+
+(v3 / be.01
+    :ARG1 (v2 / Dusche)
+    :ARG2 (v5 / eng))
+
+(v3 / be.01
+    :ARG1 (v2 / Restaurante)
+    :ARG2 (v5 / GUT))
+
+(v14 / eat.01
+    :location (v1 / hier)
+    :ARG0 (v3 / man)
+    :time (v9 / Tag)
+    :ARG1 (v13 / warm))
+
+(v2 / be.01
+    :ARG1 (v1 / wir
+        :ARG0-of (v8 / eat.01
+            :location (v7 / Hexenschopf)))
+    :time (v4 / Woche)
+    :ARG2 v7)
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v3 / fantastisch))
+
+(v2 / be.01
+    :ARG1 (v3 / wir)
+    :ARG2 (v9 / Mal
+        :mod (v5 / Sicherheit)
+        :mod (v8 / letzt)))
+
+(v6 / feel.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v3 / wir))
+
+(v10 / visit.01
+    :time (v5 / Woche)
+    :ARG0 (v8 / Lokal
+        :ARG1-of (v6 / be.01
+            :ARG2 v10)))
+
+(v4 / solve.01
+    :location (v3 / Werkstatt)
+    :ARG0 (v5 / wir)
+    :ARG1 (v8 / Fahradprobleme))
+
+(v3 / be.01
+    :ARG1 (v2 / Erfahrung)
+    :ARG2 (v6 / positiv))
+
+(v4 / talk.01
+    :ARG2 (v3 / Werkstatt))
+
+(v13 / calculate.01
+    :time (v3 / Reparatur)
+    :ARG2 (v7 / ich)
+    :mod (v9 / Ersatzteil))
+
+(v2 / be.01
+    :ARG1 (v4 / Personal)
+    :ARG2 (v6 / freundlich))
+
+(v6 / forget.01
+    :time (v3 / Reparatur)
+    :ARG0 (v5 / ich
+        :ARG0-of (v8 / say.01
+            :ARG1 (v14 / hire.01
+                :ARG1 (v12 / Schaltung)
+                :time (v13 / neu))))
+    :ARG1 v8)
+
+(v6 / do.02
+    :ARG1 (v1 / der)
+    :ARG0 (v3 / sie
+        :ARG0-of (v11 / calculate.01
+            :ARG1 (v9 / etwas)
+            :ARG2-of v6)))
+
+(v2 / educate.01
+    :ARG0 (v4 / Betrieb)
+    :ARG1 (v5 / Jugndliche
+        :mod (v7 / Schulabschluß)))
+
+(v2 / provide.01
+    :ARG0 (v1 / er)
+    :ARG2 (v4 / Perspektivlosen)
+    :ARG1 (v7 / Zukunft))
+
+(v3 / be.01
+    :ARG1 (v2 / Dreck)
+    :ARG2 (v5 / weg))
+
+(v16 / blow.01
+    :time (v1 / jetzt)
+    :ARG1 (v4 / Dreck)
+    :ARG0 (v12 / Ecke)
+    :mod (v7 / Lärm)
+    :mod (v15 / ander))
+
+(v3 / be.01
+    :ARG1 (v2 / Team)
+    :ARG2 (v4 / freundlich))
+
+(v8 / take.10
+    :ARG1 (v3 / Reparatur
+        :mod (v2 / zusätzlich)))
+
+(v8 / change.01
+    :time (v5 / noch)
+    :ARG1 (v7 / Winterreifen))
+
+(v2 / be.01
+    :ARG1 (v3 / ich)
+    :time (v4 / unfreiwillig)
+    :ARG2 (v5 / da)
+    :cause (v13 / tow.01
+        :ARG1 (v9 / Auto)
+        :ARG2 (v12 / Lichtmaschine
+            :mod (v11 / kaputt))))
+
+(v11 / promise.01
+    :time (v1 / zuerst)
+    :ARG0 (v3 / man)
+    :ARG2 (v8 / Lichtmaschine
+        :mod (v7 / alt)))
+
+(v4 / be.01
+    :ARG1 (v5 / es))
+
+(v2 / be.01
+    :ARG1 (v1 / Centro)
+    :ARG2 (v3 / Wunderbar))
+
+(v19 / be.01
+    :time (v14 / jetzt)
+    :ARG1 (v17 / Store)
+    :ARG2 (v18 / da))
+
+(v3 / like.01
+    :ARG1 (v2 / Atmosphäre)
+    :ARG0 (v5 / jed))
+
+(v2 / give.01
+    :time (v1 / da)
+    :ARG1 (v3 / es))
+
+(v17 / run.02
+    :ARG0 (v6 / man)
+    :time (v8 / immer)
+    :ARG1 (v11 / Ende)
+    :ARG2 (v16 / Hälfte))
+
+(v3 / be.01
+    :ARG1 (v2 / Ziel)
+    :ARG2 (v6 / Einleitung
+        :mod (v10 / Dynamik
+            :mod (v8 / neu)
+            :mod (v9 / ökonomisch))))
+
+(v14 / think.01
+    :ARG0 (v1 / Spöri)
+    :ARG1 (v38 / pull.01
+        :ARG0 (v18 / SPD)
+        :ARG2 (v21 / Folge
+            :mod (v25 / Wandel
+                :mod (v23 / radikal)
+                :mod (v24 / wirtschaftlich)))
+        :ARG1 (v37 / Folgerung
+            :mod (v36 / entscheidend))))
+
+(v9 / get.01
+    :ARG1 (v10 / wenig))
+
+(v2 / be.01
+    :ARG1 (v1 / ich)
+    :time (v3 / dagegen)
+    :ARG2 (v15 / throw.01
+        :ARG0 (v6 / wir)
+        :ARG1 (v8 / Erfahrung
+            :mod (v12 / Jahr
+                :mod (v10 / letzt)))
+        :ARG2 (v14 / Bord)))
+
+(v2 / look.01
+    :ARG0 (v1 / Weber)
+    :time (v3 / noch)
+    :ARG1 (v4 / Helfer)
+    :ARG2 (v8 / Stunde|Stunden
+        :mod (v7 / kommend)))
+
+(v2 / be.01
+    :ARG1 (v1 / Tritium)
+    :ARG2 (v3 / radioaktiv))
+
+(v18 / ask.02
+    :ARG0 (v3 / Staat
+        :ARG0-of (v35 / do.02
+            :ARG1 (v21 / Urteil)
+            :ARG2 (v24 / Schriftsteller)))
+    :ARG1 (v11 / Präsident
+        :mod (v10 / Nigeria))
+    :time (v17 / Donnerstag)
+    :ARG2 (v33 / rückgängig))
+
+(v4 / come.01
+    :ARG1 (v6 / Gruppe)
+    :ARG2 (v9 / Mittelzufluß
+        :mod (v14 / Milliarde
+            :mod (v12 / Saldo)))
+    :mod (v3 / Geldmarktfonds))
+
+(v5 / close.01
+    :ARG1 (v2 / Haus
+        :ARG1-of (v3 / be.01
+            :time (v4 / derzeit)
+            :ARG2 v5))
+    :time v4)
+
+(v24 / assure.01
+    :ARG0 (v25 / Waigel))
+
+(v24 / decide.01
+    :time (v3 / Dezember)
+    :ARG0 (v6 / Europaparlament)
+    :ARG1 (v9 / Verwirklichung
+        :mod (v18 / Zollunion
+            :mod (v17 / geplant
+                :mod (v15 / Januar
+                    :mod (v13 / 1)
+                    :mod (v16 / 1996)))
+            :mod (v20 / Türkei
+                :mod (v23 / EU)))))
+
+(v3 / look.01
+    :ARG0 (v2 / Sozialdemokrat)
+    :time (v4 / wieder)
+    :ARG1 (v5 / Nachfolger)
+    :ARG2 (v7 / Ministerpräsident))
+
+(v12 / endanger.01
+    :cause (v5 / dadurch)
+    :ARG1 (v9 / Frieden
+        :mod (v8 / inner)
+        :mod (v11 / Deutschland)))
+
+(v2 / visit.01
+    :ARG0 (v1 / Ghali)
+    :ARG1 (v3 / Auschwitz))
+
+(v3 / know.01
+    :ARG0 (v2 / Geheimdienst)
+    :ARG1 (v6 / Mordplan))
+
+(v4 / report.01
+    :ARG0 (v3 / Fernsehen
+        :mod (v2 / israelisch))
+    :ARG1 (v18 / try.01
+        :ARG0 (v8 / Attentäter
+            :mod (v7 / 25jährig)
+            :ARG0-of (v21 / kill.01
+                :ARG1 (v20 / Rabin)))
+        :time (v17 / Monat)
+        :ARG1 v21))
+
+(v10 / say.01
+    :ARG0 (v2 / Sprecher
+        :mod (v5 / Haus
+            :mod (v4 / weiß)))
+    :ARG1 (v16 / know.01
+        :ARG0 (v13 / USA)
+        :time (v15 / nun)
+        :ARG1 (v23 / present.01
+            :ARG0 (v21 / Kandidat
+                :mod (v20 / neu)))))
+
+(v11 / create.01
+    :manner (v1 / wie)
+    :ARG1 (v10 / Arbeitsplatz
+        :mod (v6 / neu)))
+
+(v12 / delete.01
+    :time (v2 / Machthaber)
+    :ARG1 (v5 / Ergebnis
+        :mod (v9 / Parlamentswahl
+            :mod (v7 / erst)
+            :mod (v8 / frei)
+            :mod (v11 / 1991))))
+
+(v2 / provoke.01
+    :ARG0 (v1 / Gewalt)
+    :ARG1 (v6 / ander))
+
+(v4 / watch.01
+    :ARG0 (v3 / Biologe
+        :mod (v2 / Braunschweiger))
+    :ARG1 (v5 / Deutsche
+        :mod (v8 / Steuer)))
+
+(v3 / apply.02
+    :ARG1 (v2 / Maßnahme)
+    :ARG2 (v8 / Person
+        :time-of (v14 / be.01
+            :ARG1 (v10 / der)
+            :ARG2 (v13 / verantwortlich
+                :mod (v12 / Bluttat)))))
+
+(v3 / make.02
+    :ARG0 (v2 / wir)
+    :ARG1 (v6 / unterkriegen))
+
+(v8 / accept.01
+    :ARG0 (v2 / Chef
+        :mod (v4 / Industrie))
+    :ARG1 (v10 / KCTU))
+
+(v13 / pronounce.01
+    :ARG0 (v2 / Außenminister)
+    :ARG1 (v11 / Vertrauensvertrag
+        :mod (v9 / französisch)))
+
+(v4 / achieve.01
+    :ARG0 (v6 / Regierungspartei)
+    :ARG1 (v9 / Stimme|Stimmen)
+    :mod (v2 / Ergebnis))
+
+(v17 / decide.01
+    :ARG1 (v9 / include.01
+        :ARG0 (v2 / Zusage
+            :mod (v4 / Arbeitgeber
+                :mod (v6 / Erstattung
+                    :mod (v8 / Umzugskosten))))
+        :ARG2 (v12 / Zweifel)
+        :ARG1 (v15 / Rückumzug))
+    :ARG0 (v19 / Bundesarbeitsgericht)
+    :time (v31 / Urteil))
+
+(v6 / ask.02
+    :ARG1 (v2 / Land
+        :mod (v1 / interessiert)
+        :ARG0-of (v14 / help.01
+            :ARG1 (v10 / Umsetzung
+                :mod (v12 / Abkommen))))
+    :ARG2 v14)
+
+(v9 / prepare.02
+    :ARG0 (v2 / Verkehrsplaner)
+    :location (v7 / Gottesstaat
+        :mod (v5 / islamisch))
+    :ARG1 (v13 / Überraschung))
+
+(v11 / say.01
+    :ARG1 (v9 / smell.01
+        :time (v1 / manchmal)
+        :ARG0 (v3 / sie)
+        :ARG1 (v5 / Angst
+            :mod (v7 / Gegner)))
+    :ARG0 (v12 / sie))
+
+(v17 / force.01
+    :time (v3 / Karte)
+    :ARG0 (v6 / Spieler)
+    :ARG1 (v8 / Gegner)
+    :manner (v10 / Taktik
+        :mod (v13 / Bieten))
+    :ARG2 (v16 / Aufgeben))
+
+(v21 / give.01
+    :ARG1 (v22 / es))
+
+(v18 / acquit.01
+    :ARG0 (v3 / Landgericht
+        :mod (v2 / Berliner))
+    :time (v7 / Montag)
+    :ARG1 (v12 / Jurist
+        :mod (v9 / ehemalig))
+    :ARG2 (v15 / Vorwurf
+        :mod (v17 / Rechtsbeugung)))
+
+(v19 / double.01
+    :ARG0 (v2 / Zahl
+        :mod (v6 / Straftäter
+            :mod (v5 / 18jährig)))
+    :ARG2 (v9 / Delikt)
+    :ARG3 (v13 / 1985)
+    :ARG1 (v15 / 1993)
+    :ARG4 (v18 / 000))
+
+(v12 / introduce.01
+    :ARG0 (v3 / Weise)
+    :ARG1 (v7 / Gutachten)
+    :time (v11 / Dienstag))
+
+(v16 / do.02
+    :ARG1 (v2 / Arbeit)
+    :time (v4 / dann)
+    :time (v5 / allerdings)
+    :time (v11 / Tag)
+    :ARG2 (v15 / Dienstmädchen
+        :mod (v14 / leibeigen))
+    :ARG0 (v23 / Haushaltsprofis
+        :mod (v22 / angeheuert)
+        :ARG0-of (v29 / sweep.02
+            :ARG2 (v28 / Wohnung
+                :mod (v27 / verdreckt)))))
+
+(v19 / say.01
+    :ARG0 (v21 / Hildebrandt
+        :mod (v23 / ebök)))
+
+(v10 / contradict.01
+    :ARG0 (v2 / Festlegung
+        :mod (v4 / Mindestquote
+            :mod (v6 / Frau)
+            :mod (v9 / Mitgliederanteil)))
+    :ARG1 (v12 / Demokratieprinzip))
+
+(v15 / pronounce.01
+    :ARG0 (v2 / Opposition
+        :mod (v4 / Kraft
+            :mod (v3 / islamistischer)))
+    :time (v9 / Zeit)
+    :ARG1 (v14 / Herrscherhaus))
+
+(v5 / decide.01
+    :ARG0 (v2 / Bundesrepublik)
+    :ARG1 (v12 / make.02
+        :ARG0 (v8 / sie)
+        :ARG1 (v10 / Demokratisierungsprozeß)
+        :time (v11 / aktiv)))
+
+(v23 / receive.01
+    :ARG0 (v2 / Mobilfunkbetreiber)
+    :time (v24 / mittelfristig)
+    :ARG1 (v27 / Konkurrenz
+        :mod (v26 / neu)))
+
+(v21 / support.01
+    :ARG0 (v2 / Bundesrepublik)
+    :ARG1 (v6 / Sicherung
+        :mod (v5 / militärisch)
+        :mod (v8 / Friedensabkommen))
+    :manner (v11 / Sanitäter))
+
+(v7 / locate.01
+    :ARG1 (v3 / Kohl)
+    :manner (v11 / Gefolge
+        :mod (v10 / groß))
+    :time (v15 / Reise))
+
+(v17 / gain.02
+    :ARG0 (v2 / Druck)
+    :ARG1 (v7 / Konzern)
+    :time (v16 / Dienstag)
+    :mod (v10 / Unternehmenspolitik
+        :mod (v12 / Nigeria)))
+
+(v2 / interest.01
+    :ARG0 (v1 / BASF)
+    :ARG2 (v6 / Aktivität))
+
+(v7 / announce.01
+    :ARG1 (v2 / Urteil)
+    :time (v6 / Donnerstag))
+
+(v2 / be.01
+    :ARG1 (v1 / Religion)
+    :ARG2 (v4 / Erbin
+        :mod (v6 / Name)))
+
+(v2 / consist.01
+    :ARG1 (v4 / Gefahr)
+    :ARG2 (v16 / define.01
+        :ARG1 (v9 / Vorkehrung
+            :mod (v8 / entsprechend))
+        :ARG0 (v12 / Vertrag)
+        :ARG2 (v15 / lax)))
+
+(v6 / consist.01
+    :ARG1 (v1 / Anlaß
+        :mod (v4 / Sorge))
+    :mod (v10 / Konjunktur
+        :mod (v13 / Zeit
+            :mod (v12 / überschaubar))))
+
+(v5 / judge.01
+    :ARG0 (v2 / Mehrheit
+        :mod (v4 / Bevölkerung)
+        :ARG0-of (v20 / confirm.01
+            :ARG1 (v22 / Nachfahre|Nachfahren
+                :mod (v24 / Einwanderer
+                    :mod (v23 / japanisch)))
+            :location (v27 / April
+                :mod (v29 / Jahr))
+            :ARG2 (v32 / Mehrheit
+                :mod (v31 / deutlich))))
+    :ARG1 (v8 / Amtszeit
+        :mod (v7 / erst))
+    :manner (v18 / positiv)
+    :mod (v12 / Neigung
+        :mod (v11 / deutlich)
+        :mod (v14 / Präsident)
+        :mod (v17 / Autoritarismus)))
+
+(v3 / become.01
+    :ARG1 (v2 / Geld)
+    :ARG2 (v6 / ungültig
+        :mod (v5 / Zahlungsmittel)))
+
+(v26 / comment.01
+    :ARG1 (v2 / be.01
+        :ARG1 (v1 / der)
+        :ARG2 (v3 / so)
+        :time (v10 / besuchen
+            :ARG0 (v7 / man
+                :ARG0-of (v12 / say.01
+                    :ARG1 (v16 / show.01
+                        :ARG1 (v15 / nichts))))
+            :ARG1 (v9 / Feuerwehr)))
+    :ARG0 (v28 / Delegationsmitglied)
+    :time (v38 / versuchen
+        :ARG0 (v31 / es
+            :ARG0-of (v37 / keep.02
+                :ARG1 (v35 / Schritt)))
+        :manner (v34 / Kanzler)
+        :ARG1 v37))
+
+(v8 / come.01
+    :ARG4 (v3 / China)
+    :time (v7 / Geschäft))
+
+(v3 / grow.01
+    :ARG1 (v2 / Handel)
+    :manner (v5 / schnell
+        :mod (v8 / Produktion)))
+
+(v3 / put.01
+    :ARG2 (v2 / Toulouse)
+    :ARG0 (v4 / Student)
+    :ARG1 (v6 / Zugverkehr))
+
+(v10 / be.01
+    :ARG1 (v2 / Genossin
+        :ARG0-of (v16 / find.01
+            :location (v13 / Foyer
+                :mod (v15 / Halle))))
+    :ARG2 v16)
+
+(v4 / find.01
+    :ARG0 (v6 / wollen)
+    :ARG1 (v7 / der))
+
+(v5 / expect.01
+    :ARG1 (v3 / der)
+    :ARG0 (v4 / niemand))
+
+(v14 / call.01
+    :ARG1 (v2 / stand.01
+        :ARG1 (v1 / wir)
+        :location (v7 / Wettbewerb
+            :mod (v5 / hart)
+            :mod (v6 / international))
+        :ARG2 (v11 / Druck
+            :mod (v9 / stark)
+            :mod (v10 / wirtschaftspolitisch)))
+    :ARG0 (v15 / es)
+    :ARG2 (v16 / darin))
+
+(v2 / give.01
+    :ARG1 (v3 / es))
+
+(v7 / belong.01
+    :ARG0 (v2 / Start
+        :mod (v4 / Pflegehilfe))
+    :time (v6 / 1996)
+    :ARG1 (v10 / Wahlkampfversprechen
+        :mod (v12 / Chirac)))
+
+(v3 / derive.01
+    :ARG1 (v2 / Bewegung
+        :mod (v1 / sozial))
+    :ARG2 (v7 / daraus))
+
+(v5 / depend.01
+    :ARG0 (v2 / Zahl
+        :mod (v4 / Kammer))
+    :ARG1 (v9 / Feld
+        :mod (v8 / gesellschaftlich)))
+
+(v15 / represent.01
+    :ARG0 (v1 / Horn
+        :ARG1-of (v14 / be.01
+            :ARG2 v15)))
+
+(v4 / wait.01
+    :ARG1 (v1 / ich)
+    :ARG2 (v10 / abklären))
+
+(v17 / spread.03
+    :ARG0 (v1 / Wolff)
+    :ARG1 (v18 / Optimismus))
+
+(v6 / change.01
+    :ARG0 (v3 / Prozeß
+        :mod (v2 / rasant)
+        :mod (v5 / Medienentwicklung))
+    :ARG1 (v8 / Form
+        :mod (v11 / Zusammenleben
+            :mod (v10 / menschlich))))
+
+(v3 / react.01
+    :ARG0 (v2 / Südafrikaner)
+    :manner (v4 / damit)
+    :ARG2 (v6 / Bericht))
+
+(v4 / travel.01
+    :ARG0 (v3 / Außenminister
+        :mod (v2 / 53jährig))
+    :ARG4 (v6 / Marokko))
+
+(v9 / pretend.01
+    :ARG0 (v2 / Herzog)
+    :time (v20 / Mittwoch)
+    :ARG1 (v24 / Thema)
+    :mod (v12 / Eröffnungsrede)
+    :mod (v17 / Kommandeurstagung
+        :mod (v15 / 35))
+    :mod (v22 / München))
+
+(v14 / decide.01
+    :ARG1 (v2 / Angabe
+        :mod (v4 / Bundesgeschäftsführer))
+    :ARG0 (v9 / Parteipräsidium)
+    :time (v13 / Abstimmung))
+
+(v9 / deal.01
+    :ARG0 (v2 / Delegation
+        :mod (v4 / Bosnien)
+        :ARG0-of (v24 / override.01
+            :ARG1 (v17 / Meinungsunterschied
+                :mod (v20 / Schlüsselfrage
+                    :mod (v22 / Friedenslösung)))))
+    :ARG2 (v11 / jetzt)
+    :ARG1 v24
+    :mod (v13 / Vorschlag))
+
+(v20 / give.01
+    :ARG0 (v1 / Eltern)
+    :ARG2 (v4 / Neugeborene)
+    :time (v5 / künftig)
+    :ARG1 (v18 / Vorname
+        :mod (v8 / lustig))
+    :time (v19 / mehr))
+
+(v14 / demand.01
+    :ARG0 (v2 / Vorsitzende
+        :mod (v4 / Gesellschaft
+            :mod (v7 / Verfolgung
+                :mod (v9 / Urheberrechtsverletzung))))
+    :ARG1 (v17 / Durchgreifen
+        :mod (v16 / hart)
+        :mod (v19 / Justiz)))
+
+(v4 / open.01
+    :ARG0 (v3 / Wahlbüro
+        :ARG0-of (v13 / close.01
+            :time (v12 / temporal-quantity
+                :unit (vg0 / Uhr)
+                :quant 19)))
+    :time (v7 / temporal-quantity
+        :unit (vg1 / Uhr)
+        :quant acht))
+
+(v22 / call.01
+    :ARG0 (v1 / Ministerpräsident)
+    :ARG1 (v6 / Gesetz)
+    :location (v9 / Brief
+        :mod (v13 / Kollege
+            :mod (v12 / slowakisch)))
+    :ARG2 (v19 / Schritt
+        :mod (v18 / unannehmbar)))
+
+(v14 / report.01
+    :ARG0 (v15 / Bauman))
+
+(v7 / talk.01
+    :ARG0 (v3 / man))
+
+(v6 / be.01
+    :ARG2 (v5 / Dezember
+        :mod (v3 / 17))
+    :ARG1 (v7 / Wahl))
+
+(v2 / invite.01
+    :ARG0 (v1 / Peter)
+    :time (v4 / Mai)
+    :ARG2 (v9 / Wandern))
+
+(v14 / express.01
+    :ARG0 (v2 / Bundessozialgericht)
+    :ARG1 (v7 / Zweifel)
+    :ARG2 (v10 / Rechtmäßigkeit
+        :mod (v13 / Regelung
+            :mod (v12 / gesetzlich))))
+
+(v3 / seek.01
+    :ARG0 (v2 / Staat)
+    :ARG1 (v5 / Freihandelszone))
+
+(v2 / prevail.01
+    :ARG0 (v1 / Edelmetall)
+    :ARG2 (v7 / Markt
+        :mod (v6 / japanisch)))
+
+(v3 / think.01
+    :ARG0 (v2 / Görtz)
+    :time (v8 / temporal-quantity
+        :unit (vg0 / Monat)
+        :quant achtzehn)
+    :ARG1 (v11 / Börsengang
+        :mod (v14 / Nasdaq
+            :mod (v17 / USA))))
+
+(v18 / report.01
+    :ARG1 (v16 / invest.01
+        :ARG0 (v2 / Medizintechnik)
+        :time (v8 / künftig)
+        :time (v10 / noch)
+        :ARG1 (v13 / Grenze)
+        :ARG2 (v15 / Erweiterungsprojekte))
+    :ARG0 (v19 / Firmenchef))
+
+(v3 / write.01
+    :ARG1 (v2 / Zahl
+        :mod (v1 / schwarz)))
+
+(v3 / go.02
+    :location (v2 / Washington)
+    :ARG0 (v4 / es)
+    :ARG1 (v7 / Macht))
+
+(v10 / say.01
+    :ARG1 (v2 / need.01
+        :ARG0 (v1 / Sie|sie)
+        :ARG1 (v3 / Klarheit))
+    :ARG0 (v11 / er))
+
+(v4 / cancel.01
+    :ARG0 (v1 / Präsident)
+    :time (v7 / Donnerstag)
+    :ARG1 (v9 / Teilnahme
+        :mod (v16 / Gipfel
+            :mod (v18 / Japan))))
+
+(v10 / explain.01
+    :ARG1 (v7 / present.01
+        :ARG0 (v2 / Telecom)
+        :ARG2 (v4 / wir)
+        :ARG1 (v6 / Angebot))
+    :ARG0 (v12 / Sprecher))
+
+(v5 / be.01
+    :ARG1 (v2 / Kern
+        :mod (v4 / Konflikt))
+    :ARG2 (v6 / vielschichtig))
+
+(v22 / say.01
+    :ARG1 (v2 / give.01
+        :ARG1 (v3 / es)
+        :location (v6 / Tat))
+    :ARG0 (v23 / er)
+    :location (v30 / Tagung
+        :mod (v29 / veranstaltet
+            :mod (v28 / BVMB))))
+
+(v7 / express.01
+    :ARG0 (v4 / Vorsitzende)
+    :ARG1 (v9 / Hoffnung))
+
+(v3 / express.01
+    :ARG0 (v2 / Sozialdemokrat)
+    :ARG1 (v9 / Hoffnung))
+
+(v21 / clear.02
+    :time (v24 / spät)
+    :ARG1 (v26 / Satellit))
+
+(v2 / accuse.01
+    :ARG0 (v1 / Hamas)
+    :ARG1 (v4 / Behörde)
+    :ARG2 (v14 / give.01
+        :ARG1 (v7 / es)
+        :ARG2 (v11 / Abstimmung)))
+
+(v5 / be.01
+    :ARG1 (v2 / Teilnehmer
+        :mod (v4 / Tagung))
+    :ARG2 (v8 / einig))
+
+(v4 / station.01
+    :ARG0 (v1 / Petersburg)
+    :ARG1 (v5 / Panzer))
+
+(v7 / live.01
+    :ARG0 (v1 / Mensch)
+    :location (v11 / Ort|Orten))
+
+(v12 / do.02
+    :ARG0 (v1 / Straße
+        :mod (v3 / Kopfsteinpflaster)
+        :mod (v11 / Jahrhundert
+            :mod (v9 / 18)))
+    :ARG1 (v16 / Viertel))
+
+(v6 / throw.01
+    :ARG0 (v1 / wissen
+        :mod (v3 / Elend))
+    :time (v7 / plötzlich)
+    :ARG1 (v8 / Schatten)
+    :ARG2 (v10 / Gold))
+
+(v3 / take.10
+    :ARG0 (v2 / Ausgrabungszeit)
+    :ARG1 (v8 / Juli
+        :mod (v6 / 2)))
+
+(v4 / open.01
+    :ARG0 (v3 / Rundschau
+        :mod (v2 / Frankfurter))
+    :ARG1 (v9 / Ausgabe
+        :mod (v14 / November
+            :mod (v12 / 13)
+            :mod (v15 / 1945)))
+    :mod (v7 / Nachricht))
+
+(v9 / excuse.01
+    :ARG0 (v12 / Reporter
+        :mod (v11 / royalen))
+    :ARG1 (v14 / Überschwang))
+
+(v4 / access.01
+    :ARG0 (v1 / Ministerpräsident)
+    :ARG1 (v5 / Lafontaine)
+    :time (v8 / Freitag))
+
+(v2 / consist.01
+    :ARG1 (v1 / Pflanze|Pflanzen)
+    :ARG2 (v8 / Blatt
+        :mod (v5 / einzeln)))
+
+(v4 / call.01
+    :ARG0 (v2 / Ausländerbeauftragte)
+    :ARG1 (v7 / Lösung
+        :mod (v6 / friedlich)))
+
+(v16 / say.01
+    :ARG1 (v2 / annoy.01
+        :ARG0 (v1 / es)
+        :ARG1 (v3 / wir))
+    :ARG0 (v17 / Sprecher))
+
+(v2 / react.01
+    :time (v1 / jetzt)
+    :ARG0 (v4 / Teil
+        :mod (v6 / Zugewanderte))
+    :manner (v10 / Gruppenbildung
+        :mod (v9 / abgrenzender))
+    :ARG1 (v14 / Haß))
+
+(v20 / distort.01
+    :ARG1 (v19 / Wählerwille))
+
+(v8 / confirm.01
+    :ARG1 (v2 / Beschluß)
+    :time (v4 / noch)
+    :ARG0 (v7 / Senat))
+
+(v12 / arrest.01
+    :time (v3 / Samstag)
+    :ARG0 (v7 / Polizei
+        :mod (v6 / spanisch))
+    :ARG1 (v11 / Skinhead
+        :mod (v9 / bewaffnet)
+        :mod (v10 / deutsch)))
+
+(v20 / limit.01
+    :ARG1 (v3 / Auffassung
+        :mod (v2 / gängig)))
+
+(v13 / determine.01
+    :ARG0 (v1 / Sachzwang
+        :mod (v3 / Weltmarkt))
+    :time (v14 / dann)
+    :ARG1 (v16 / Politik))
+
+(v3 / refuse.01
+    :ARG0 (v2 / Jugend))
+
+(v3 / believe.01
+    :ARG0 (v2 / Polizei)
+    :ARG1 (v12 / be.01
+        :ARG1 (v8 / Selbstmordkommando)
+        :mod (v11 / Stadt)))
+
+(v3 / demand.01
+    :ARG0 (v2 / Unternehmen)
+    :ARG1 (v7 / Einzelvertrag)
+    :location (v9 / Umgehung
+        :mod (v11 / Gewerkschaft)))
+
+(v11 / convert.01
+    :ARG1 (v8 / Rest)
+    :ARG2 (v10 / Haftstrafe))
+
+(v2 / fight.01
+    :ARG0 (v1 / Vietnam)
+    :time (v12 / temporal-quantity
+        :unit (vg0 / Flirt)
+        :quant erst)
+    :location (v18 / alle)
+    :ARG1 (v20 / Bürokratismus)
+    :mod (v6 / Schwierigkeit
+        :mod (v5 / üblich)
+        :mod (v8 / Regime
+            :mod (v7 / sozialistisch))))
+
+(v10 / write.01
+    :time (v6 / da)
+    :ARG2 (v9 / Wand))
+
+(v9 / shoot.02
+    :ARG1 (v1 / Birkut)
+    :location (v5 / Arbeiterunruhe)
+    :time (v6 / 1970)
+    :location (v8 / Danzig))
+
+(v3 / flow.01
+    :ARG1 (v2 / Wertschöpfung
+        :mod (v1 / hoch))
+    :time (v4 / freilich)
+    :time (v5 / weitgehend)
+    :location (v8 / Tasche
+        :mod (v10 / Unternehmer)))
+
+(v14 / reduce.01
+    :ARG1 (v2 / Bankschuld)
+    :ARG0 (v7 / Mark
+        :mod (v10 / Spitze))
+    :ARG2 (v13 / Million))
+
+(v17 / say.01
+    :ARG0 (v27 / Versicherungsmakler
+        :mod (v26 / aufgerückt
+            :mod (v22 / Aufsichtsrat
+                :mod (v25 / Renommierklubs
+                    :mod (v24 / hanseatisch))))))
+
+(v12 / invest.01
+    :ARG0 (v2 / Partner)
+    :ARG2 (v8 / Jahr)
+    :ARG1 (v11 / Dollar))
+
+(v18 / slide.01
+    :ARG1 (v1 / Disney)
+    :location (v6 / Halbjahr
+        :mod (v5 / erst)
+        :mod (v9 / Geschäftjahres
+            :mod (v8 / laufend)))
+    :manner (v12 / September)
+    :location (v17 / Zahl
+        :mod (v16 / rot)))
+
+(v24 / report.01
+    :ARG1 (v2 / have.03
+        :time (v1 / früher)
+        :ARG0 (v4 / Pensionär
+            :ARG0-of (v16 / moan.01
+                :time (v15 / heute)))
+        :ARG1 (v5 / Träne|Tränen)
+        :location (v8 / Auge))
+    :ARG0 (v26 / Grom))
+
+(v19 / be.01
+    :ARG1 (v2 / Beschäftigte)
+    :ARG2 (v18 / tätig
+        :mod (v8 / Juli
+            :mod (v6 / 1))
+        :mod (v14 / Stunde|Stunden)
+        :mod (v17 / Woche)))
+
+(v2 / be.01
+    :ARG1 (v1 / Ziel)
+    :ARG2 (v8 / senken))
+
+(v18 / mean.01
+    :ARG0 (v19 / Breuer))
+
+(v5 / be.01
+    :ARG1 (v1 / Kernpunkt
+        :mod (v4 / Vereinbarung
+            :mod (v3 / Dubliner)))
+    :ARG2 (v7 / Einführung
+        :mod (v10 / Frühwarnsystem
+            :mod (v14 / Fehlentwicklung
+                :mod (v13 / finanzpolitisch)))))
+
+(v3 / lose.02
+    :ARG0 (v2 / Politik)
+    :ARG3 (v6 / Globalisierung
+        :mod (v8 / Wirtschaft))
+    :ARG2 (v10 / Bedeutung)
+    :ARG1 (v12 / justify.01
+        :ARG0 (v14 / Frankfurter)
+        :ARG1 (v16 / Schritt)))
+
+(v2 / hope.01
+    :ARG0 (v1 / ich
+        :ARG0-of (v12 / do.02
+            :ARG2 (v7 / Direktion
+                :mod (v9 / EWI))
+            :ARG1 (v11 / Team)
+            :ARG1-of v2)))
+
+(v9 / develop.02
+    :ARG0 (v3 / Unternehmen
+        :mod (v2 / Kölner)
+        :ARG0-of (v11 / deliver.01
+            :ARG1 (v12 / Betreiberkonzepte
+                :mod (v17 / Café))))
+    :ARG1 (v8 / Modell))
+
+(v4 / come.01
+    :time (v3 / Jahr)
+    :time (v5 / täglich)
+    :ARG1 (v8 / Ermittler
+        :mod (v11 / Landeskriminalamt
+            :mod (v10 / niedersächsisch)))
+    :ARG3 (v16 / Hannover)
+    :ARG4 (v18 / Göttingen))
+
+(v3 / run.02
+    :ARG0 (v2 / Bauer)
+    :ARG1 (v4 / Sturm))
+
+(v2 / reign.01
+    :ARG0 (v3 / Bewegung
+        :ARG0-of (v6 / give.01
+            :ARG1 (v7 / es))
+        :ARG0-of (v14 / give.01
+            :ARG1 (v13 / es))
+        :ARG0-of (v22 / give.01
+            :ARG1 (v21 / es))))
+
+(v14 / explain.01
+    :time (v2 / kurz)
+    :ARG0 (v4 / er)
+    :ARG1 (v6 / Militäraktion)
+    :mod (v9 / Schutz
+        :mod (v11 / Russe))
+    :mod (v13 / möglich))
+
+(v5 / start.01
+    :ARG0 (v2 / Konjunktur
+        :mod (v4 / Westeuropa))
+    :time (v18 / Jahr)
+    :mod (v7 / Ansicht
+        :mod (v12 / Institut
+            :mod (v9 / Münchner)
+            :mod (v14 / Wirtschaftsforschung))))
+
+(v11 / deny.01
+    :ARG0 (v2 / Konzernsprecher
+        :ARG0-of (v13 / confirm.01))
+    :ARG1 (v9 / Zahl
+        :mod (v8 / genannt
+            :mod (v7 / Wochenendausgabe))))
+
+(v20 / call.01
+    :ARG0 (v21 / es)
+    :location (v25 / Regierungskreis
+        :mod (v24 / deutsch)))
+
+(v46 / come.01
+    :ARG1 (v4 / Bürger)
+    :ARG4 (v26 / Lauf
+        :mod (v29 / Schuhputzerkarriere
+            :mod (v28 / sprichwörtlich)))
+    :time (v30 / mehrfach)
+    :ARG2 (v33 / Wachhund
+        :mod (v36 / Wall))
+    :time (v45 / Konflikt))
+
+(v10 / stay.01
+    :ARG1 (v1 / Mitterrand)
+    :ARG3 (v11 / unverletzt))
+
+(v15 / criticize.01
+    :ARG0 (v1 / Bürgermeister)
+    :ARG1 (v17 / Polizeivorgehen)
+    :ARG2 (v27 / unangemessen))
+
+(v16 / register.02
+    :ARG1 (v2 / Fehler
+        :mod (v1 / viel))
+    :location (v6 / Uhr)
+    :ARG0 (v10 / Fehler
+        :mod (v9 / allermeisten))
+    :location (v14 / Uhr))
+
+(v3 / communicate.01
+    :ARG2 (v2 / Walesa)
+    :time (v6 / Samstag)
+    :ARG1 (v13 / have.03
+        :ARG0 (v12 / er)
+        :ARG1 (v16 / Einwand
+            :mod (v20 / Kandidatur)))
+    :mod (v9 / Sprecher))
+
+(v8 / say.01
+    :ARG0 (v9 / Konzernchef)
+    :location (v14 / Gespräch
+        :mod (v18 / Tageszeitung
+            :mod (v17 / Amsterdamer))))
+
+(v7 / be.01
+    :ARG1 (v2 / Verweigerung
+        :mod (v4 / Verlängerung
+            :mod (v6 / Pachtvertrag)))
+    :ARG2 (v8 / Teil
+        :mod (v10 / Protestaktion
+            :mod (v12 / Bevölkerung
+                :mod (v13 / Okinawas)))))
+
+(v3 / have.03
+    :ARG0 (v2 / Leute)
+    :ARG1 (v4 / nichts)
+    :mod (v7 / Evangelen))
+
+(v15 / mean.01
+    :ARG0 (v3 / Mann
+        :mod (v2 / jung)
+        :mod (v9 / Button
+            :mod (v14 / Shirt))))
+
+(v14 / try.01
+    :ARG0 (v16 / Dromi)
+    :ARG1 (v18 / Erklärung))
+
+(v2 / hit.01
+    :ARG0 (v1 / ich)
+    :time (v5 / kurz)
+    :ARG1 (v8 / Demo)
+    :location (v10 / Jerusalem))
+
+(v17 / assure.01
+    :ARG0 (v19 / May)
+    :ARG1 (v23 / want.01
+        :ARG0 (v22 / Freddie)
+        :time (v24 / damals)
+        :ARG1 (v32 / go.02
+            :ARG0 (v27 / wir)
+            :time (v28 / jedesmal)
+            :ARG4 (v31 / Studio))))
+
+(v12 / admit.01
+    :ARG1 (v3 / give.01
+        :location (v2 / Klimaaspekten)
+        :ARG0 (v4 / dies)
+        :ARG1 (v6 / Anlaß
+            :mod (v9 / Freude)))
+    :ARG0 (v16 / Mann))
+
+(v9 / expect.01
+    :ARG1 (v3 / Aufbau
+        :mod (v5 / Stadtwerk))
+    :ARG0 (v7 / wir))
+
+(v2 / need.01
+    :ARG0 (v1 / Berlin)
+    :ARG1 (v11 / Regierung
+        :mod (v10 / handlungsfähig))
+    :mod (v8 / Aufgabe
+        :mod (v6 / anstehend)
+        :mod (v7 / schwer)))
+
+(v16 / get.01
+    :ARG0 (v3 / Ausländer
+        :ARG0-of (v22 / give_up.07
+            :ARG1 (v21 / Staatsbürgerschaft
+                :mod (v20 / alt))))
+    :ARG1 (v15 / Paß)
+    :ARG2 v22)
+
+(v24 / demand.01
+    :ARG1 (v6 / limit.01
+        :ARG0 (v1 / Christ
+            :ARG0-of (v11 / formulate.01
+                :ARG1 (v9 / Grundsatz
+                    :mod (v8 / ethisch))))
+        :manner (v5 / darauf)
+        :ARG1 v11)
+    :ARG0 (v26 / Brakelmann))
+
+(v1 / make.02
+    :ARG1 (v8 / happen.01
+        :ARG1 (v6 / solch)
+        :ARG2 (v7 / ihr)))
+
+(v28 / be.01
+    :ARG2 (v11 / lang)
+    :ARG1 (v17 / Verfahren
+        :mod (v16 / bedeutend)
+        :mod (v21 / Verfolgung
+            :mod (v20 / strafrechtlich)
+            :mod (v23 / Verantwortliche
+                :mod (v25 / Todesschuß)))))
+
+(v2 / see.01
+    :ARG0 (v1 / Merkel)
+    :ARG2 (v5 / Pionier))
+
+(v3 / be.01
+    :ARG1 (v2 / Gewerkschaft
+        :ARG0-of (v10 / talk.01
+            :ARG1 (v8 / alle)
+            :mod (v14 / Lohn)))
+    :ARG2 (v4 / bereit))
+
+(v2 / give.01
+    :ARG1 (v1 / es)
+    :time (v3 / bereits)
+    :location (v7 / Afrika))
+
+(v3 / fly.01
+    :ARG0 (v2 / Kampfflugzeug)
+    :time (v6 / Dienstag)
+    :ARG1 (v9 / Aufklärungseinsätze)
+    :direction (v11 / Ostslawonien)
+    :mod (v8 / UN))
+
+(v12 / grab.01
+    :ARG0 (v2 / Argument)
+    :manner (v7 / Prozeß
+        :mod (v10 / Bundesrepublik))
+    :manner (v11 / gut))
+
+(v6 / bring.01
+    :ARG1 (v3 / Glut
+        :mod (v2 / notwendig))
+    :ARG0 (v5 / wir))
+
+(v17 / discover.01
+    :ARG2 (v14 / Mai)
+    :location (v16 / Miami))
+
+(v13 / say.01
+    :ARG1 (v10 / invest.01
+        :ARG1 (v4 / Gulden)
+        :ARG0 (v6 / man)
+        :ARG2 (v8 / Anfänger)
+        :time (v9 / schon))
+    :ARG0 (v14 / Theo))
+
+(v5 / express.01
+    :ARG0 (v2 / Präsident)
+    :ARG1 (v7 / Kritik
+        :mod (v6 / zurückhaltend)))
+
+(v3 / close.01
+    :ARG0 (v2 / Dax)
+    :manner (v6 / Punkt))
+
+(v8 / pay.01
+    :ARG0 (v3 / Rentner
+        :mod (v2 / dänisch))
+    :ARG1 (v7 / Steuer
+        :mod (v6 / hoch)))
+
+(v6 / announce.01
+    :ARG0 (v2 / Rexrodt)
+    :time (v9 / Donnerstag)
+    :time (v12 / Bundestag)
+    :ARG1 (v16 / Maßnahmenpaket
+        :mod (v15 / umfassend)
+        :mod (v18 / Wachstum)))
+
+(v10 / look.01
+    :ARG0 (v1 / Greenpeace)
+    :time (v12 / noch)
+    :ARG1 (v16 / Bild
+        :mod (v15 / tragend)
+        :mod (v19 / Kampagne)))
+
+(v14 / admit.01
+    :ARG1 (v2 / know.01
+        :ARG0 (v1 / wir)
+        :time (v4 / noch)
+        :ARG1 (v5 / nichts)
+        :ARG2 (v8 / Herkunft
+            :mod (v10 / Virus)))
+    :ARG0 (v15 / Murray))
+
+(v3 / make.02
+    :manner (v2 / wie)
+    :ARG0 (v7 / Furcht
+        :mod (v6 / ausgeprägt)
+        :mod (v9 / Innovation)
+        :ARG0-of (v22 / overcome.01))
+    :location (v14 / Management
+        :mod (v13 / deutsch))
+    :ARG1 v22)
+
+(v5 / be.01
+    :ARG1 (v1 / Schleußer)
+    :ARG2 (v8 / Finanzminister
+        :mod (v7 / 1988)
+        :mod (v12 / Westfalen)))
+
+(v4 / be.01
+    :ARG1 (v5 / Peres)
+    :ARG2 (v6 / Finanzminister
+        :mod (v1 / 1988)
+        :mod (v10 / Regierung
+            :mod (v8 / Schamir)
+            :mod (v9 / neu))))
+
+(v3 / surround.01
+    :ARG0 (v2 / Telekom)
+    :time (v5 / sofort)
+    :ARG2 (v9 / Ansagedienst
+        :mod (v8 / ausländisch))
+    :time (v10 / wieder)
+    :ARG1 (v12 / Handvermittlung))
+
+(v4 / be.01
+    :ARG1 (v3 / Problem
+        :mod (v2 / groß)
+        :ARG0-of (v12 / accustom.01
+            :ARG1 (v9 / Zulieferer
+                :ARG0-of (v24 / deliver.01
+                    :ARG1 (v17 / Qualität)
+                    :ARG2-of v12))))
+    :ARG2 v12)
+
+(v18 / be.01
+    :ARG1 (v10 / sie)
+    :time (v14 / selbst)
+    :ARG2 (v17 / Einsatz)
+    :mod (v13 / Wahltag))
+
+(v8 / send.01
+    :ARG1 (v3 / Bedienstete)
+    :time (v5 / voraussichtlich)
+    :ARG2 (v7 / Zwangsurlaub))
+
+(v26 / introduce.01
+    :ARG0 (v2 / Stromwirtschaft
+        :mod (v6 / Deutschland))
+    :time (v12 / Montag)
+    :location (v14 / Straßburg)
+    :ARG1 (v17 / Projekt
+        :mod (v16 / gemeinsam)
+        :mod (v21 / Druckwasserreaktor
+            :mod (v20 / europäisch)))
+    :manner (v25 / offiziell))
+
+(v3 / ask.02
+    :ARG1 (v13 / check.01
+        :ARG0 (v1 / Bischof)
+        :ARG1 (v8 / Kloster
+            :mod (v7 / entsprechend)
+            :mod (v11 / Diözese))))
+
+(v2 / be.01
+    :ARG1 (v1 / Auwald)
+    :ARG2 (v5 / Wasserwald))
+
+(v3 / go.02
+    :ARG0 (v2 / Zeit)
+    :ARG1 (v6 / Kind)
+    :mod (v5 / alle))
+
+(v13 / become.01
+    :time (v4 / Klimaschutzstrategie
+        :mod (v3 / konsequent))
+    :ARG1 (v7 / Kirche)
+    :ARG2 (v8 / Vorreiter
+        :mod v4
+        :mod (v12 / Wohlstandsmodell
+            :mod (v11 / neu))))
+
+(v6 / slip.01
+    :ARG1 (v2 / Prozent
+        :mod (v5 / Aufwendung
+            :mod (v4 / marktweit)))
+    :ARG2 (v7 / 1994)
+    :time (v12 / Postsendung))
+
+(v10 / refuse.01
+    :ARG0 (v3 / Richter
+        :mod (v2 / Kasseler))
+    :time (v5 / damit)
+    :ARG1 (v9 / Gefolgschaft))
+
+(v3 / be.01
+    :ARG1 (v2 / Risiko)
+    :ARG2 (v10 / gleichsetzen
+        :mod (v7 / Eintritt
+            :mod (v9 / Krankheit))))
+
+(v25 / establish.01
+    :ARG1 (v5 / give.01
+        :ARG1 (v1 / es))
+    :ARG0 (v27 / Gutachten))
+
+(v29 / fear.01
+    :ARG1 (v8 / turn.01
+        :time (v10 / möglicherweise)
+        :ARG1 (v12 / ein
+            :mod (v18 / Hochschule
+                :mod (v17 / anerkannt
+                    :mod (v15 / Deutschland)))))
+    :ARG0 (v31 / Becker))
+
+(v12 / say.01
+    :ARG1 (v2 / give.01
+        :ARG0 (v1 / ich)
+        :ARG1 (v3 / Arbeit))
+    :ARG0 (v13 / Pastor
+        :mod (v18 / Christusgemeinde
+            :mod (v20 / Kronshagen
+                :mod (v22 / Kiel)))))
+
+(v6 / pronounce.01
+    :ARG0 (v2 / Herzog
+        :ARG0-of (v27 / move.01
+            :ARG1 (v12 / Deutschstämmige
+                :mod (v16 / Republik
+                    :mod (v15 / asiatisch)))
+            :manner (v19 / Hilfe)
+            :ARG2 (v22 / Bleibe|Bleiben
+                :mod (v25 / Land))))
+    :ARG1 v27)
+
+(v2 / want.01
+    :ARG0 (v3 / Haider)
+    :ARG1 (v6 / Kulturrevolution
+        :mod (v5 / politisch)))
+
+(v8 / do.02
+    :ARG1 (v1 / Überzeugungsarbeit)
+    :ARG0 (v3 / Küng)
+    :location (v5 / Tutzing)
+    :time (v7 / mehr))
+
+(v2 / be.01
+    :ARG1 (v1 / Peymann)
+    :ARG2 (v9 / Ding
+        :mod (v5 / Verfassung
+            :mod (v4 / blendender))
+        :mod (v8 / gut)))
+
+(v1 / enroll.01
+    :ARG0 (v2 / Sie|sie)
+    :ARG1 (v4 / Gast))
+
+(v7 / express.01
+    :ARG0 (v4 / Handelsbeauftragte)
+    :ARG1 (v12 / Ergebnis
+        :mod (v11 / bisherig)))
+
+(v4 / represent.01
+    :ARG0 (v1 / Nation
+        :mod (v3 / Wirtschaftsforum))
+    :ARG1 (v7 / Prozent
+        :mod (v9 / Weltproduktion)))
+
+(v19 / distinguish.01
+    :ARG0 (v1 / Mensch)
+    :time (v9 / Gesellschaft)
+    :ARG1 (v11 / Wort
+        :mod (v13 / Gesprächspartner))
+    :manner (v15 / mehr)
+    :ARG2 (v18 / Störgeräusch
+        :mod (v17 / ander))
+    :mod (v5 / Beispiel))
+
+(v8 / cancel.01
+    :ARG1 (v2 / Stelle|Stellen)
+    :ARG0 (v7 / Jahr
+        :mod (v6 / kommend)))
+
+(v2 / impose.01
+    :ARG0 (v1 / braun)
+    :ARG1 (v5 / Gefängnis
+        :mod (v4 / Jahr))
+    :ARG2 (v13 / Familienvater)
+    :mod (v9 / Staatshetze
+        :mod (v8 / planmäßig)))
+
+(v6 / ask.01
+    :ARG0 (v1 / ich)
+    :time (v3 / heute)
+    :ARG2 (v5 / Oskar))
+
+(v6 / stay.01
+    :ARG1 (v1 / Beifall)
+    :time (v5 / Ausspruch)
+    :ARG3 (v7 / mager))
+
+(v2 / test.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v3 / der))
+
+(v16 / mean.01
+    :location (v19 / Stadt)
+    :ARG0 (v22 / ander))
+
+(v17 / get.01
+    :ARG1 (v1 / Block
+        :mod (v4 / Kopf|Köpfen
+            :mod (v7 / Marx)))
+    :ARG0 (v18 / man)
+    :time (v19 / heute)
+    :ARG2 (v23 / Mark))
+
+(v2 / suspect.01
+    :ARG0 (v1 / man)
+    :ARG1 (v10 / give.01
+        :ARG1 (v5 / es)
+        :location (v6 / dort)
+        :time (v7 / noch)))
+
+(v18 / communicate.01
+    :ARG1 (v16 / focus.01
+        :ARG0 (v2 / Kaufinteresse)
+        :ARG2 (v7 / Investor
+            :mod (v6 / institutionell)
+            :mod (v10 / Schweiz)))
+    :ARG0 (v20 / Institut))
+
+(v14 / handle.01
+    :ARG0 (v9 / wir)
+    :ARG1 (v13 / Kosten))
+
+(v8 / report.01
+    :ARG1 (v5 / encourage.01
+        :ARG0 (v2 / Ergebnis)
+        :ARG1 (v4 / wir))
+    :ARG0 (v9 / Nitz))
+
+(v16 / say.01
+    :ARG1 (v5 / deserve.01
+        :ARG0 (v4 / Kind))
+    :ARG0 (v17 / Felizardo))
+
+(v3 / be.01
+    :ARG1 (v2 / Amerikaner)
+    :ARG2 (v10 / Volk
+        :mod (v5 / begeisterungsfähig)))
+
+(v7 / set.02
+    :ARG0 (v2 / SPD)
+    :ARG1 (v6 / Bedingung
+        :mod (v5 / klar)))
+
+(v11 / explain.01
+    :ARG1 (v4 / achieve.01
+        :ARG0 (v1 / wir)
+        :ARG1 (v3 / alle))
+    :ARG0 (v13 / Außenminister
+        :mod (v12 / Japan)))
+
+(v18 / symbolize.01
+    :ARG1 (v9 / der)
+    :ARG2 (v11 / Freiheitskampf
+        :mod (v13 / Pol|Pole|Polen)))
+
+(v4 / access.01
+    :ARG1 (v2 / Gläubige
+        :ARG0-of (v14 / give.01
+            :ARG2 (v9 / Kommunist)
+            :ARG1 (v12 / Chance))))
+
+(v18 / increase.01
+    :ARG1 (v2 / Bruttoeinkommen)
+    :ARG2 (v17 / Prozent)
+    :mod (v6 / Prozent))
+
+(v3 / be.01
+    :ARG1 (v2 / Finanzierungsdefizit)
+    :time (v4 / somit)
+    :ARG2 (v6 / Prozent))
+
+(v11 / assign.01
+    :ARG1 (v2 / Investition)
+    :time (v4 / 1998)
+    :time (v5 / erneut)
+    :location (v10 / Mark))
+
+(v8 / create.01
+    :ARG0 (v2 / Skandinavier)
+    :time (v5 / Thüringen)
+    :ARG1 (v7 / Arbeitsplatz))
+
+(v3 / lie.01
+    :ARG0 (v2 / Gewinn)
+    :time (v6 / Wort)
+    :time (v10 / Jahr)
+    :ARG1 (v17 / Mark
+        :mod (v19 / Steuer)))
+
+(v2 / be.01
+    :ARG1 (v1 / wir)
+    :ARG2 (v6 / Hauptverantwortliche
+        :mod (v4 / Vereinsrecht)))
+
+(v2 / be.01
+    :time (v1 / letztlich)
+    :ARG1 (v5 / Person
+        :mod (v4 / handelnd))
+    :ARG2 (v6 / entscheidend))
+
+(v14 / stress.01
+    :ARG1 (v3 / be.01
+        :ARG2 (v2 / Beschäftigte)
+        :ARG1 (v4 / es))
+    :ARG0 (v15 / Gesamtbetriebsratschefin))
+
+(v11 / achieve.01
+    :ARG0 (v2 / Inflation)
+    :ARG1 (v6 / Niveau
+        :mod (v5 / niedrig))
+    :time (v10 / Jahr))
+
+(v4 / clear.01
+    :ARG1 (v5 / Widerstand)
+    :manner (v8 / Granteln
+        :mod (v7 / bayerisch))
+    :ARG2 (v11 / Seite))
+
+(v2 / be.01
+    :ARG1 (v4 / Geschäft)
+    :ARG2 (v6 / politisch))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v4 / so))
+
+(v3 / be.01
+    :ARG1 (v2 / Auseinandersetzung)
+    :ARG2 (v8 / Eingehen
+        :mod (v11 / Figur)))
+
+(v15 / stress.01
+    :ARG2 (v5 / Methode
+        :mod (v4 / legal))
+    :ARG0 (v10 / Waitzis
+        :mod (v14 / Verbraucherzentrale
+            :mod (v13 / hessisch))))
+
+(v12 / take.01
+    :ARG1 (v2 / Einkunft)
+    :ARG2 (v7 / Einkommensteuersatz
+        :mod (v6 / persönlich)
+        :mod (v11 / Prozent)))
+
+(v8 / happen.01
+    :ARG2 (v2 / Angabe
+        :mod (v4 / Polizei)
+        :mod (v7 / Montag))
+    :ARG1 (v11 / Überfall
+        :mod (v10 / blutig))
+    :location (v14 / Ostprovinz))
+
+(v6 / receive.01
+    :time (v1 / bald)
+    :ARG0 (v3 / wir
+        :ARG0-of (v13 / open.01
+            :ARG1 (v5 / Befehl)))
+    :ARG1 v5
+    :ARG2 v13)
+
+(v3 / succeed.01
+    :ARG0 (v2 / Person
+        :ARG0-of (v11 / breach.01
+            :ARG1 (v7 / Sicherheitskordon
+                :mod (v9 / Polizei)))
+        :ARG0-of (v18 / penetrate.01))
+    :ARG1 v11)
+
+(v13 / go.02
+    :ARG0 (v11 / man)
+    :manner (v12 / gemeinsam))
+
+(v4 / express.01
+    :ARG0 (v1 / Präsident)
+    :ARG1 (v9 / Ausgang
+        :mod (v13 / Gipfel
+            :mod (v16 / USA)))
+    :mod (v6 / optimistisch))
+
+(v22 / access.01
+    :ARG0 (v1 / Generalsekretär)
+    :ARG1 (v9 / Gemeinschaft
+        :mod (v8 / international))
+    :mod (v12 / Hilfe
+        :mod (v11 / sofortig)
+        :mod (v18 / Flüchtling
+            :mod (v21 / Lanka))))
+
+(v10 / evacuate.01)
+
+(v3 / explain.01
+    :ARG0 (v2 / Kohl)
+    :ARG1 (v11 / treffen|triefen))
+
+(v14 / hurt.01
+    :ARG1 (v1 / Gurion))
+
+(v6 / announce.01
+    :ARG0 (v4 / Politiker
+        :ARG0-of (v17 / do.02
+            :ARG1 (v9 / Währungsunion)
+            :ARG2 (v12 / Thema
+                :mod (v14 / Bundestagswahlkampf
+                    :mod (v15 / 1998)))))
+    :ARG1 v17)
+
+(v24 / summon.01
+    :ARG0 (v2 / Ministerpräsident)
+    :time (v5 / temporal-quantity
+        :unit (vg0 / Stunde)
+        :quant ein)
+    :time (v11 / erneut)
+    :ARG1 (v13 / Friedensprozeß
+        :mod (v17 / Osten))
+    :mod (v10 / Demonstrant))
+
+(v2 / threaten.01
+    :ARG2 (v1 / Schmuggler)
+    :ARG0 (v3 / Geldstrafe))
+
+(v12 / admit.01
+    :ARG1 (v3 / come.01
+        :ARG1 (v2 / Denkschrift)
+        :ARG4 (v9 / Zeit
+            :mod (v8 / leicht)))
+    :ARG0 (v13 / Rau))
+
+(v11 / say.01
+    :ARG1 (v2 / fall.01
+        :ARG1 (v1 / er)
+        :ARG4 (v5 / Kampf
+            :mod (v8 / Frieden)))
+    :ARG0 (v12 / Präsident))
+
+(v3 / look.01
+    :ARG0 (v2 / Auge)
+    :direction (v4 / leer)
+    :manner (v6 / Verständnis))
+
+(v30 / communicate.01
+    :ARG0 (v32 / Regierungssprecher)
+    :ARG2 (v36 / Journalist)
+    :mod (v35 / Krankenhaus))
+
+(v2 / be.01
+    :ARG1 (v1 / es)
+    :ARG2 (v3 / klar))
+
+(v3 / need.01
+    :ARG0 (v2 / es)
+    :ARG1 (v7 / Leute))
+
+(v2 / know.01
+    :ARG0 (v1 / alle)
+    :ARG1 (v10 / stay.01
+        :ARG3 (v5 / wir)
+        :ARG1 (v9 / Zeit
+            :mod (v8 / viel))))
+
+(v8 / express.01
+    :ARG0 (v1 / ich)
+    :manner (v5 / schwer)
+    :location (v7 / Wort))
+
+(v4 / be.01
+    :ARG1 (v7 / Epidemie
+        :mod (v6 / groß))
+    :mod (v3 / Antibiotikum))
+
+(v3 / be.01
+    :ARG1 (v2 / Brötchen)
+    :ARG2 (v7 / spicken
+        :mod (v5 / Ameise)))
+
+(v2 / be.01
+    :ARG2 (v1 / Grund
+        :mod (v4 / alle))
+    :ARG1 (v5 / Enttäuschung
+        :mod (v9 / Partei
+            :mod (v8 / traditionell))))
+
+(v6 / announce.01
+    :ARG0 (v2 / Kohl)
+    :time (v9 / Bundestag)
+    :ARG1 (v30 / test.01
+        :ARG0 (v12 / er)
+        :ARG1 (v26 / Bündnis
+            :mod (v24 / angeboten
+                :mod (v21 / Vorsitzende))
+            :mod (v28 / Arbeit))))
+
+(v2 / be.01
+    :ARG1 (v1 / Kohl)
+    :ARG2 (v5 / Ansicht))
+
+(v15 / say.01
+    :ARG1 (v5 / leermachen)
+    :ARG0 (v17 / Hausbewohner
+        :ARG1-of (v23 / outlive.01
+            :ARG2 (v21 / Unglück)
+            :time (v22 / unverletzt))))
+
+(v3 / point.01
+    :ARG1 (v2 / Beschwerde)
+    :ARG2 (v8 / Finanzausstattung
+        :mod (v7 / unzureichend)
+        :mod (v10 / Kommune)
+        :mod (v14 / Schaffung
+            :mod (v13 / vorgeschrieben)
+            :mod (v16 / Kindergartenplatz))))
+
+(v18 / meet.02
+    :ARG0 (v3 / Firma
+        :mod (v2 / ausländisch)
+        :ARG1-of (v20 / be.01
+            :ARG2 (v25 / nützlich
+                :mod (v29 / Firma
+                    :mod (v28 / amerikanisch)))))
+    :ARG1 (v15 / Abmachung
+        :mod (v14 / vertraglich)
+        :mod (v17 / Amerikaner))
+    :mod (v8 / Lösung
+        :mod (v12 / Problem
+            :mod (v11 / komplex))))
+
+(v18 / ask.01
+    :ARG1 (v2 / give.01
+        :ARG1 (v1 / es)
+        :time (v5 / mehr))
+    :ARG0 (v20 / Vorsitzende
+        :mod (v22 / Zentralstelle))
+    :time (v29 / Montag)
+    :location (v31 / Bremen))
+
+(v8 / announce.01
+    :ARG1 (v5 / proceed.01
+        :ARG0 (v1 / wir)
+        :manner (v3 / dagegen)
+        :manner (v4 / gerichtlich))
+    :ARG0 (v10 / Pressesprecherin))
+
+(v5 / use.01
+    :ARG0 (v1 / der)
+    :ARG1 (v4 / Partei))
+
+(v5 / react.01
+    :ARG0 (v4 / Börse
+        :mod (v3 / Yorker))
+    :manner (v6 / bislang)
+    :manner (v10 / Kursverlust
+        :mod (v9 / leicht))
+    :ARG1 (v13 / Bugdetkonflikt
+        :mod (v15 / Washington)))
+
+(v26 / say.01
+    :ARG1 (v23 / destroy.01
+        :ARG1 (v11 / Sicherheitssystem
+            :mod (v13 / Land))
+        :ARG2 (v21 / Flanke
+            :mod (v18 / südlich)))
+    :ARG0 (v27 / Verteidigungsminister))
+
+(v13 / call.01
+    :ARG0 (v14 / es)
+    :mod (v17 / Bank))
+
+(v2 / know.01
+    :ARG0 (v1 / wir)
+    :ARG1 (v11 / be.01
+        :ARG1 (v5 / Aufklärung)
+        :manner (v8 / schnell)
+        :ARG2 (v19 / denken|gedenken
+            :mod (v18 / Jahr))))
+
+(v4 / surrender.01
+    :ARG0 (v2 / Tierversuch)
+    :ARG1 (v21 / show.01
+        :ARG0 (v7 / Tier)
+        :ARG1 (v20 / Melatoninkonzentration
+            :mod (v19 / erhöht))))
+
+(v2 / become.01
+    :ARG1 (v1 / Naumann)
+    :ARG2 (v4 / konkret))
+
+(v4 / stress.01
+    :ARG0 (v1 / Generalsekretär)
+    :ARG1 (v13 / represent.01
+        :ARG0 (v7 / Machtwechsel
+            :mod (v12 / Spitze))
+        :ARG1 (v19 / Linksruck
+            :mod (v16 / personell))))
+
+(v17 / present.01
+    :ARG0 (v3 / Witwe
+        :mod (v1 / Lennons)
+        :mod (v2 / zänkisch)
+        :ARG0-of (v14 / fight.01
+            :time (v8 / jahrelang)
+            :ARG1 (v11 / McCartney)
+            :ARG2 (v13 / Copyright)))
+    :ARG2 (v21 / Three)
+    :ARG1 (v25 / Archivmaterial
+        :mod (v24 / unvollständig)))
+
+(v5 / come.01
+    :ARG1 (v4 / Werkschau)
+    :ARG2 (v6 / 1996)
+    :time (v12 / Markt)
+    :mod (v9 / Video))
+
+(v2 / consist.01
+    :ARG1 (v5 / Notwendigkeit
+        :mod (v4 / wirtschaftlich)))
+
+(v7 / ask.02
+    :ARG0 (v1 / Ministerpräsident
+        :ARG1-of (v15 / appear.01
+            :time (v12 / bald)
+            :location (v14 / Ostdeutschland)))
+    :ARG1 (v8 / Lafontaine))
+
+(v2 / lack.01
+    :ARG0 (v4 / System
+        :mod (v7 / Sicherung
+            :mod (v5 / umfassend)
+            :mod (v6 / sozial))))
+
+(v5 / confirm.01
+    :ARG1 (v2 / Wahlergebnis)
+    :manner (v4 / offiziell))
+
+(v12 / lock.01
+    :ARG0 (v5 / Bundesbürger)
+    :ARG2 (v9 / Kassenpatient)
+    :ARG1 (v11 / Zusatzpolice))
+
+(v16 / advertise.01
+    :ARG0 (v2 / Demonstration)
+    :time (v5 / Darstellung)
+    :ARG1 (v11 / Lösung
+        :mod (v10 / friedlich)
+        :mod (v13 / Konflikt
+            :mod (v15 / Kurdistan))))
+
+(v3 / slip.01
+    :ARG2 (v2 / Dole)
+    :time (v6 / Samstag)
+    :ARG1 (v8 / Prozent
+        :mod (v10 / Stimme|Stimmen)))
+
+(v10 / do.02
+    :ARG1 (v2 / Gruppe))
+
+(v10 / kill.01
+    :ARG1 (v2 / Rebell)
+    :mod (v7 / Angabe
+        :mod (v9 / Armeesprecher)))
+
+(v10 / try.01
+    :ARG0 (v4 / Kriegsveteran
+        :mod (v2 / arbeitslos)
+        :mod (v3 / argentinisch)
+        :ARG0-of (v25 / pay.01
+            :ARG3 (v13 / Schulgebühr
+                :mod (v15 / Sohn))
+            :ARG1 (v18 / Tapferkeitsmedaillen
+                :mod (v21 / Falklandkrieg
+                    :mod (v23 / 1982)))))
+    :time (v8 / Samstag)
+    :manner (v9 / erfolglos)
+    :ARG1 v25)
+

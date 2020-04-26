@@ -5,7 +5,7 @@ from abc import abstractmethod
 from conllu import TokenList
 
 from src.sentences.base import ISentence, TokenSentenceBase
-from src.words.propbank import PropBankTokenWord, IPropBankWord
+from src.words.propbank import PropBankTokenWord, IPropBankWord, PropBankMergedTokenWord
 
 
 class IPropBankSentence(ISentence):
@@ -33,8 +33,7 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
 
     def __init__(self, token_list: TokenList):
         super().__init__(token_list)
-        self.sentence_list: typing.List[typing.List[PropBankTokenWord]] = []
-        self.add_token(token_list)
+        self.sentence_list: typing.List[typing.List[IPropBankWord]] = []
 
     def get_root(self) -> IPropBankWord:
         """propbank root verb - verb with smallest head number"""
@@ -80,12 +79,38 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
 
     def get_roots_of_argument(self, argument_id) -> typing.List[IPropBankWord]:
         """Find roots of a given argument"""
-        l: typing.List[PropBankTokenWord] = []
+        root_list: typing.List[IPropBankWord] = []
         for sentence in self.sentence_list:
             if len(list(x for x in sentence if x.id == argument_id and x.has_arg)) > 0:
-                l.append(list(x for x in sentence if x.has_verb)[0])
-        return l
+                found_verb = list(x for x in sentence if x.has_verb)
+                if len(found_verb) == 1:
+                    root_list.append(found_verb[0])
+        return root_list
 
-    def add_token(self, token_list: IPropBankWord):
+    def add_token(self, token_list):
         """This will contain all token_lists that belong to a single sentence"""
         self.sentence_list.append(list(PropBankTokenWord(x) for x in token_list))
+
+
+class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
+    """ Uses the super class logic and transforms the merged format into logical structure that would be perceived as superclasses case"""
+
+    def __init__(self, token_list: TokenList, argument_size: int):
+        super().__init__(token_list)
+        first_sentence = typing.List[PropBankMergedTokenWord]
+        verb_number = 0
+        for token in token_list:
+            word = PropBankMergedTokenWord(token, 0)
+
+            # This word is a propbank verb, so we add a symbol to represent it in the respective context
+            if word.inner_verb != "":
+                word.add_symbol(verb_number)
+                verb_number += 1
+
+
+        first_sentence = list(PropBankMergedTokenWord(x, 0) for x in token_list)
+        self.sentence_list.append(first_sentence)
+
+        # Emulate the multiple lists of standard propbankToken sentence
+        for i in range(1, argument_size):
+            self.sentence_list.append(list(x.switch_context(i) for x in first_sentence))

@@ -1,0 +1,3235 @@
+﻿# generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_Chinese
+
+
+(v29 / look.01
+    :time (v8 / 引起
+        :ARG0 (v5 / 大小)
+        :ARG1 (v9 / 的)
+        :ARG1-of (v10 / accelerate.01))
+    :ARG0 (v16 / 结果)
+    :ARG1 (v27 / 性))
+
+(v6 / have.03
+    :ARG1 (v2 / 车辆)
+    :ARG0 (v5 / 私人))
+
+(v8 / be.01
+    :ARG1 (v3 / 游戏
+        :mod (v1 / 动作)
+        :mod (v2 / 冒险)))
+
+(v20 / offer.01
+    :ARG0 (v2 / 测试
+        :mod (v1 / 其
+            :ARG0-of (v3 / contain.01
+                :ARG1 v2)
+            :ARG0-of (v17 / give.01
+                :ARG1 (v19 / 分析
+                    :mod (v18 / 行为))
+                :ARG2 v20
+                :location-of v20)))
+    :time (v16 / 同时)
+    :ARG1 (v28 / 平台
+        :mod (v23 / 个)
+        :mod (v27 / 交流)))
+
+(v18 / reach.01
+    :time (v16 / 公司)
+    :ARG0 (v17 / 损失
+        :mod v16)
+    :ARG1 (v21 / 元
+        :mod (v20 / 美)))
+
+(v6 / be.01
+    :ARG1 (v5 / 渔业
+        :ARG1-of (v4 / use.01
+            :time (v21 / 目前)
+            :ARG0 (v3 / 经济))))
+
+(v8 / greet.01
+    :time (v4 / 日)
+    :ARG0 (v6 / 努尔哈赤)
+    :ARG1 (v15 / 贝勒
+        :mod (v13 / 部)
+        :mod (v14 / 奥巴)))
+
+(v7 / compare.01
+    :ARG0 (v1 / 他
+        :ARG1-of (v2 / cost.01
+            :ARG2 (v17 / 化石
+                :mod (v16 / 恐龙)
+                :ARG1-of (v10 / investigate.01
+                    :ARG0 (v8 / 加拿大)))))
+    :ARG2 (v5 / 时间)
+    :ARG1 v17)
+
+(v13 / be.01
+    :time (v2 / 年)
+    :ARG1 (v11 / 四世
+        :mod (v10 / 查理)))
+
+(v10 / be.01
+    :ARG1 (v12 / 个)
+    :ARG2 (v13 / 范围
+        :mod v12))
+
+(v23 / let.01
+    :ARG0 (v2 / 迪士尼
+        :mod (v1 / 华特)
+        :ARG0-of (v4 / invite.01
+            :time (v3 / 首次)
+            :ARG2 (v8 / 人气)
+            :ARG1 (v9 / 博客
+                :mod (v6 / 名)
+                :mod (v7 / 香港)
+                :mod v8
+                :ARG1-of (v11 / involve.01))))
+    :ARG1 v4)
+
+(v20 / participate.01
+    :time (v3 / 秋
+        :time-of (v10 / sign.02
+            :ARG2 (v7 / 特兰西瓦尼亚)
+            :ARG1 (v11 / 盟约)
+            :ARG0 (v14 / 米哈伊))
+        :time-of (v16 / resist.01
+            :ARG0 v14
+            :ARG1 (v18 / 帝国
+                :mod (v17 / 奥斯曼))))
+    :time v10
+    :ARG0 v14
+    :ARG1 (v28 / 战争
+        :mod (v27 / 年)))
+
+(v23 / fight.01
+    :ARG0 (v15 / 玩家
+        :ARG1-of (v1 / be.01
+            :ARG2 (v2 / 平原))
+        :ARG0-of (v12 / move.01
+            :ARG1 (v22 / 敌人)))
+    :ARG1 (v16 / 将)
+    :ARG2 v22)
+
+(v15 / say.01
+    :ARG0 (v7 / 游戏
+        :ARG1-of (v6 / mention.01
+            :ARG0 (v3 / Game))
+        :ARG1-of (v8 / be.01
+            :ARG2 (v9 / 日本)))
+    :ARG1 (v17 / 四百万))
+
+(v16 / become.01
+    :ARG1 (v1 / 史莱姆
+        :ARG1-of (v2 / be.01
+            :ARG2 (v3 / be.03)
+            :time-of v16))
+    :ARG2 (v19 / 系列))
+
+(v17 / have.03
+    :ARG0 (v13 / 此)
+    :time (v14 / 最后)
+    :time (v15 / 仍)
+    :ARG1 (v26 / 报告
+        :mod (v19 / 个)
+        :mod (v20 / 具体)
+        :mod (v24 / 事故)
+        :mod (v25 / 调查)))
+
+(v27 / protest.01
+    :time (v4 / 年
+        :time-of (v8 / rain.01
+            :time (v7 / 刮风)
+            :time (v10 / 不顾)))
+    :ARG1 v10
+    :ARG0 (v21 / 她们)
+    :time (v24 / 周日))
+
+(v8 / be.01)
+
+(v3 / be.01
+    :ARG2 (v6 / 湖泊))
+
+(v9 / have.03
+    :ARG0 (v7 / 区
+        :ARG1-of (v4 / be.01))
+    :ARG1 (v18 / 扎格尼斯
+        :mod (v16 / 玛丽埃尔)))
+
+(v18 / be.01
+    :ARG2 (v19 / refer.01
+        :ARG1 (v20 / 学校)))
+
+(v23 / lack.01
+    :time (v2 / 年
+        :ARG2-of (v16 / reserve.01
+            :ARG1 (v9 / 措施
+                :mod (v8 / 改革))
+            :ARG0 (v13 / 期间
+                :mod (v12 / 当政))
+            :time (v15 / 依然)))
+    :ARG0 v9
+    :time v13
+    :location (v20 / 外交)
+    :ARG1 (v27 / 改变
+        :mod (v25 / 大)))
+
+(v11 / be.01
+    :ARG1 (v3 / 地
+        :ARG0-of (v12 / lack.01
+            :ARG1 (v15 / 地方)
+            :ARG2-of v11)))
+
+(v14 / be.01
+    :ARG1 (v13 / 层
+        :mod (v11 / 地下)))
+
+(v4 / be.01
+    :ARG1 (v3 / 前身
+        :ARG0-of (v30 / rebuild.01
+            :ARG1 (v25 / 年))))
+
+(v11 / arrive.01)
+
+(v63 / determine.01
+    :ARG0 (v54 / 等到)
+    :ARG1 (v64 / 是否))
+
+(v19 / have.03
+    :ARG0 (v2 / 外城
+        :mod (v1 / 北京
+            :time-of (v4 / have.03
+                :ARG0 v2
+                :time (v3 / 共)
+                :ARG1 (v6 / 门))))
+    :ARG1 (v22 / 便门
+        :mod (v21 / 座)))
+
+(v12 / be.01
+    :ARG1 (v13 / 东垣))
+
+(v2 / be.01
+    :ARG1 (v1 / 该部)
+    :ARG2 (v11 / 楼
+        :mod (v4 / 北京)
+        :mod (v5 / 大学)
+        :mod (v7 / 部)
+        :mod (v9 / 楼)))
+
+(v17 / demand.01
+    :time (v6 / 日)
+    :ARG0 (v15 / 批复)
+    :ARG1 (v19 / stop.01
+        :ARG0 (v18 / 该校
+            :ARG0-of (v24 / join.01
+                :manner v19
+                :ARG1 (v28 / 行列
+                    :mod (v27 / 校)
+                    :ARG1-of (v26 / set_up.03
+                        :ARG0 (v25 / 公)))))
+        :ARG1 (v22 / 试点
+            :mod (v20 / 体制)
+            :mod (v21 / 改革))))
+
+(v11 / get.03
+    :ARG1 (v4 / 伙食)
+    :ARG2 (v15 / 诟病))
+
+(v19 / arrive.01
+    :ARG1 (v1 / 支线
+        :ARG1-of (v5 / arrive.01
+            :ARG3 (v4 / 门)
+            :ARG4 (v7 / 环岛
+                :mod (v6 / 杨闸)))
+        :ARG0-of (v9 / continue.01
+            :time v5
+            :ARG1 (v12 / 行驶
+                :mod (v11 / 东))))
+    :time (v15 / 京)
+    :time (v16 / 哈)
+    :time (v17 / 高速)
+    :ARG4 (v23 / 小区
+        :mod (v20 / 通州)
+        :mod (v21 / 武夷)
+        :mod (v22 / 花园)))
+
+(v20 / lack.01
+    :ARG0 (v16 / 2)
+    :ARG1 (v24 / 路权
+        :mod (v23 / 专用)))
+
+(v17 / be.01
+    :ARG1 (v20 / 学院
+        :mod (v18 / 北京
+            :ARG1-of (v27 / graduate.01
+                :ARG0 v19
+                :ARG2 v20))
+        :mod (v19 / 电影)
+        :ARG0-of (v23 / grant.01
+            :ARG1 (v21 / 首批)
+            :ARG2 (v25 / 学位
+                :mod (v24 / 学士)))))
+
+(v17 / exceed.01
+    :time (v2 / 年
+        :time-of (v5 / reach.01
+            :time (v3 / 报考)
+            :ARG0 (v4 / 人数
+                :mod v3)
+            :ARG1 (v7 / 人次)))
+    :ARG0 v4
+    :ARG1 (v18 / 96%))
+
+(v3 / be.01
+    :ARG2 (v15 / 车站
+        :mod (v4 / 当时)
+        :mod (v5 / 中国)
+        :mod (v6 / 大陆)
+        :mod (v14 / 铁路)))
+
+(v18 / design.01
+    :ARG0 (v16 / 设计
+        :ARG0-of (v2 / improve.01
+            :ARG1 (v7 / 效果
+                :mod (v6 / 视觉))))
+    :ARG1 (v31 / 门洞
+        :mod (v21 / 个)))
+
+(v6 / arrive.01
+    :ARG1 (v1 / 他
+        :ARG0-of (v9 / adopt.01
+            :time (v2 / 每天)
+            :ARG1 (v10 / 灾童)))
+    :time v2
+    :ARG4 (v7 / 灾区))
+
+(v1 / be.01)
+
+(v16 / form.01
+    :ARG2 (v2 / 气旋)
+    :ARG0 (v5 / 风暴)
+    :time (v6 / 通常)
+    :ARG1 (v11 / 月)
+    :manner (v15 / 期间
+        :mod v11))
+
+(v11 / get.01
+    :ARG0 (v7 / 他们)
+    :location (v9 / 公众)
+    :ARG1 (v13 / 威望))
+
+(v10 / be.01
+    :ARG2 (v14 / 狂气)
+    :ARG1 (v24 / 狂气
+        :ARG0-of (v17 / act.01
+            :ARG1 (v20 / 演技)))
+    :ARG2-of (v9 / be.01
+        :ARG1 v24))
+
+(v19 / start.01
+    :ARG1 (v11 / 现代)
+    :ARG0 (v17 / 交流))
+
+(v27 / need.01
+    :ARG0 (v10 / 装置
+        :ARG0-of (v2 / avoid.01
+            :ARG1 (v4 / 事故
+                :ARG1-of (v5 / happen.01)))
+        :ARG0-of (v12 / include.01
+            :ARG2 (v33 / 维修
+                :mod (v29 / 严格)
+                :mod (v32 / 性)))
+        :ARG0-of (v13 / launch.01
+            :ARG1 (v24 / 等)))
+    :ARG1 v33)
+
+(v57 / increase.01
+    :ARG0 (v24 / 此)
+    :time (v49 / 余
+        :ARG0-of (v12 / add.02
+            :ARG2 (v54 / 燃料)
+            :ARG1 (v44 / 航线
+                :mod (v43 / 北极))))
+    :ARG2 v54
+    :ARG1 (v59 / 负载
+        :mod (v58 / 有效)))
+
+(v52 / achieve.01
+    :ARG0 (v51 / 重量)
+    :ARG1 (v56 / 公斤))
+
+(v2 / be.01
+    :ARG1 (v1 / be.01
+        :ARG2 (v4 / 北区
+            :mod (v3 / 校园))
+        :ARG1 (v7 / 文化)))
+
+(v9 / be.01
+    :ARG1 (v8 / 面积
+        :mod (v7 / 占地)
+        :ARG0-of (v5 / build.01
+            :ARG1 (v2 / 河北)))
+    :ARG2 (v10 / 20万))
+
+(v35 / use.01
+    :ARG0 (v34 / 款项)
+    :ARG1 (v37 / 招待
+        :ARG0-of (v38 / campaign.01)))
+
+(v14 / change.01
+    :ARG1 (v10 / 全线
+        :mod (v9 / 线))
+    :ARG0 (v13 / 本站)
+    :mod (v5 / 月
+        :mod (v3 / 年)))
+
+(v28 / give.01
+    :ARG0 (v3 / 政府
+        :mod (v2 / 李朝
+            :ARG1-of (v29 / use.01
+                :time v19
+                :ARG0 (v32 / 制裁)))
+        :ARG0-of (v4 / take.01
+            :ARG1 (v5 / 措施)
+            :time (v8 / 方面))
+        :ARG0-of (v9 / strengthen.01
+            :time v8
+            :ARG1 (v16 / 防务)))
+    :time (v19 / 方面)
+    :ARG2 (v26 / 压力)
+    :ARG1 v32)
+
+(v5 / be.01
+    :ARG2 (v13 / 车站
+        :mod (v7 / 个)
+        :mod (v12 / 铁路)
+        :ARG0-of (v30 / build.01
+            :ARG1 (v33 / 年))))
+
+(v2 / be.01
+    :ARG1 (v1 / 鉴)
+    :ARG2 (v15 / 业务
+        :mod (v14 / 场)))
+
+(v8 / have.03
+    :ARG1 (v11 / 学校
+        :mod (v10 / 所)
+        :ARG0-of (v15 / set_up.03)))
+
+(v4 / solve.01
+    :ARG0 (v10 / 地理)
+    :ARG1 (v11 / 方位
+        :mod v10
+        :ARG2-of (v6 / be.01)))
+
+(v7 / be.01
+    :ARG1 (v5 / 化学
+        :mod (v2 / 谓)
+        :mod (v3 / 医学)
+        :mod (v4 / 生物)))
+
+(v14 / arrive.01
+    :time (v13 / 传输)
+    :ARG1 (v17 / 体重)
+    :ARG4 (v20 / 云端
+        :mod (v16 / 篮)
+        :mod v17
+        :mod (v19 / 库))
+    :ARG2 (v45 / 科学
+        :mod (v44 / 方案)))
+
+(v10 / be.01
+    :ARG1 (v9 / 侧
+        :mod (v7 / 街)
+        :ARG1-of (v17 / be.01
+            :ARG2 (v43 / 街道
+                :mod (v42 / 特色)))
+        :ARG0-of (v40 / concentrate.01
+            :ARG1 v43))
+    :ARG2 (v15 / 建筑
+        :mod (v13 / 古典)
+        :mod (v14 / 风格)))
+
+(v11 / convince.01
+    :ARG2 (v3 / 培养)
+    :ARG1 (v14 / 恶人))
+
+(v31 / be.01
+    :ARG2 (v32 / 纽约))
+
+(v4 / surpass.01
+    :ARG0 (v3 / 成本
+        :mod (v1 / 本片)
+        :mod (v2 / 制作
+            :time-of (v9 / reach.01
+                :ARG0 v3
+                :ARG1 (v15 / 背景
+                    :mod (v14 / 故事)))))
+    :ARG1 (v7 / 部))
+
+(v2 / be.01
+    :ARG2 (v4 / 年))
+
+(v32 / reach.01
+    :ARG0 (v1 / 老子
+        :ARG1-of (v6 / be.01
+            :ARG2 (v9 / 阐述
+                :mod (v8 / 帝王)))
+        :ARG0-of (v14 / want.01
+            :ARG1 (v21 / 变化
+                :mod (v17 / 时政)
+                :mod (v19 / 细微))
+            :location (v39 / 目的))
+        :ARG0-of (v23 / follow.02
+            :ARG1 (v26 / 规律
+                :mod (v24 / 事物)
+                :mod (v25 / 发展))))
+    :time (v3 / 本章)
+    :time (v29 / 自然)
+    :ARG1 v39)
+
+(v4 / be.01
+    :ARG1 (v3 / 小调
+        :mod (v1 / 升)
+        :ARG1-of (v11 / start.01
+            :time (v10 / 音)
+            :ARG2-of v4)))
+
+(v10 / be.01
+    :ARG1 (v9 / be.01
+        :ARG1 (v3 / 大佛
+            :mod (v2 / 山)
+            :ARG0-of (v5 / call.01
+                :ARG1 (v6 / 资阳)
+                :ARG2 (v7 / 大佛
+                    :mod v6))
+            :ARG1-of (v20 / be.01
+                :ARG2 (v29 / 佛像
+                    :mod (v22 / 座)
+                    :time-of v9)))))
+
+(v13 / freeze.01
+    :ARG0 (v10 / 资产)
+    :ARG1 (v11 / 全))
+
+(v6 / call.01
+    :ARG0 (v2 / 腰)
+    :ARG1 (v7 / 半))
+
+(v13 / rely.01
+    :ARG1 (v14 / 贸易)
+    :ARG0 (v26 / 成长))
+
+(v5 / object.01
+    :ARG0 (v4 / 公司)
+    :ARG1 (v8 / 监督))
+
+(v9 / be.01
+    :ARG1 (v1 / 华山松)
+    :ARG2 (v13 / 植物
+        :mod (v11 / 种)
+        :mod (v12 / 松科)))
+
+(v3 / have.03
+    :ARG0 (v1 / 他
+        :ARG0-of (v30 / occupy.01
+            :time (v10 / 仿效)
+            :time (v28 / 方法
+                :ARG1-of (v26 / use.01
+                    :ARG0 (v14 / Ivan)
+                    :location (v23 / 起义
+                        :mod (v22 / 月))))
+            :ARG1 (v31 / 华沙)))
+    :manner (v2 / 手上)
+    :ARG1 (v7 / 兵力))
+
+(v2 / be.01
+    :ARG1 (v1 / 这
+        :ARG1-of (v7 / approach.01
+            :manner (v3 / 红军)
+            :time (v6 / 最)
+            :ARG2 (v8 / 华沙)
+            :ARG2-of v2)))
+
+(v5 / show.01
+    :ARG0 (v4 / 华纳
+        :mod (v2 / 哈利))
+    :ARG1 (v7 / 意见
+        :mod (v6 / 反对)))
+
+(v28 / suffer.01
+    :ARG0 (v22 / 华纳
+        :mod (v20 / 杰克
+            :time-of (v29 / hit.01
+                :ARG0 v22
+                :ARG1 v28
+                :ARG1-of v28))
+        :ARG2-of (v11 / become.01
+            :ARG1 (v10 / 华纳
+                :mod (v8 / 杰克)))
+        :time-of (v26 / die.01
+            :ARG1 (v25 / 兄长))))
+
+(v26 / forbid.01
+    :time (v2 / 年)
+    :ARG0 (v15 / 政府
+        :mod (v12 / 联邦)
+        :mod (v14 / 党)
+        :ARG0-of (v17 / pass.01
+            :ARG1 (v23 / 法案
+                :mod (v19 / 年)
+                :mod (v21 / 人)
+                :mod (v22 / 移民)))
+        :ARG1-of (v30 / emigrate.01
+            :ARG0 v26))
+    :ARG2 v17
+    :ARG1 v22)
+
+(v17 / abolish.01
+    :ARG0 (v15 / 政府
+        :mod (v14 / 加拿大))
+    :ARG1 (v24 / 法案
+        :mod (v22 / 排)))
+
+(v4 / live.01
+    :ARG0 (v2 / 人)
+    :location (v6 / 维多利亚))
+
+(v17 / remember.01
+    :ARG0 (v13 / 批
+        :time-of (v27 / have.03
+            :time (v14 / 剩余)
+            :ARG0 (v15 / 零部件
+                :mod v13
+                :mod v14
+                :ARG1-of (v19 / be.01))
+            :ARG1 (v30 / 人)))
+    :ARG1 v15)
+
+(v70 / be.01
+    :ARG1 (v69 / 物品
+        :mod (v68 / 拍卖)
+        :ARG0-of (v72 / lack.01
+            :ARG1 (v74 / 旅客))
+        :ARG1-of (v75 / use.01
+            :ARG0 v74))
+    :ARG2 v72)
+
+(v6 / have.03
+    :time (v2 / 此)
+    :ARG0 (v4 / 义峰
+        :mod (v3 / 卓))
+    :ARG1 (v12 / 外号))
+
+(v22 / lack.01
+    :ARG1 (v25 / 可能)
+    :mod (v19 / 变化
+        :mod (v18 / 音)))
+
+(v11 / end.01
+    :ARG1 (v8 / 文化
+        :ARG4-of (v7 / arrive.01
+            :ARG1 (v13 / 单县)))
+    :ARG0 (v10 / 革命
+        :mod v8))
+
+(v24 / reduce.01
+    :time (v2 / 年代
+        :time-of (v5 / follow.01
+            :ARG1 (v22 / 实体
+                :mod (v20 / 主权)
+                :mod (v21 / 政治
+                    :ARG0-of (v11 / do.02
+                        :ARG1 v22)))
+            :ARG2 v24))
+    :time (v3 / 后)
+    :ARG1 v21
+    :ARG0 v22
+    :manner (v23 / 渐渐))
+
+(v12 / develop.02
+    :ARG0 (v10 / 学科
+        :mod (v9 / 个))
+    :time (v11 / 已经)
+    :ARG1 (v17 / 术语
+        :mod (v15 / 不同)))
+
+(v22 / keep.02
+    :location (v2 / 微积分)
+    :ARG0 (v20 / 定义)
+    :time (v21 / 仍)
+    :ARG1 (v30 / 一样
+        :mod (v29 / 定义
+            :mod (v25 / 一般)
+            :mod (v27 / 序)
+            :mod (v28 / 理论))))
+
+(v4 / face.01
+    :ARG0 (v1 / 国民)
+    :ARG1 (v10 / 下令
+        :mod (v9 / 此)
+        :ARG1-of (v12 / withdraw.01
+            :ARG0 (v11 / 全线))))
+
+(v19 / be.01
+    :time (v6 / 日)
+    :ARG1 (v14 / 学生
+        :mod (v8 / 南京)
+        :mod (v9 / 大学)
+        :mod (v13 / 级))
+    :ARG2 (v24 / 校区
+        :mod (v23 / 仙林
+            :ARG1-of (v21 / build.01
+                :ARG0 v24
+                :time (v20 / 新)))))
+
+(v5 / be.01
+    :ARG1 (v2 / 官话
+        :mod (v1 / 南京))
+    :time (v3 / 曾经)
+    :time (v4 / 长期)
+    :ARG2 (v9 / 语言
+        :mod (v8 / 官方)))
+
+(v9 / form.01
+    :ARG0 (v6 / 融合)
+    :manner (v8 / 逐渐)
+    :ARG1 (v13 / 官话
+        :mod (v12 / 江淮)))
+
+(v7 / include.01
+    :ARG2 (v5 / 水体
+        :mod (v1 / 南京)
+        :mod (v3 / 重要))
+    :ARG1 (v13 / 滁河))
+
+(v8 / have.03
+    :ARG0 (v1 / 市区)
+    :ARG1 (v2 / 除))
+
+(v12 / have.03
+    :ARG1 (v14 / 温泉
+        :mod (v13 / 汤山)))
+
+(v9 / set_up.03
+    :time (v2 / 年))
+
+(v10 / pass.01
+    :ARG0 (v2 / 方案
+        :ARG0-of (v9 / vote.01
+            :time (v3 / 最终)
+            :ARG1 v10))
+    :time v3
+    :manner (v8 / 月
+        :mod (v6 / 年))
+    :ARG1 v9)
+
+(v12 / use.01
+    :ARG0 (v1 / 朝鲜
+        :ARG0-of (v3 / think.01
+            :ARG1 (v7 / 本国
+                :ARG2-of (v6 / be.01))))
+    :ARG1 (v15 / 时代
+        :mod (v14 / 南北国)))
+
+(v1 / have.03
+    :ARG0 (v3 / 上告))
+
+(v20 / die.01
+    :ARG1 (v4 / 陆斯佛得
+        :mod (v2 / 威廉)
+        :ARG1-of (v10 / be.01
+            :ARG2 (v18 / 一)))
+    :mod (v22 / 斯特拉斯堡))
+
+(v14 / be.01
+    :ARG1 (v1 / 南坑
+        :ARG1-of (v3 / be.01
+            :ARG2 (v6 / 北部
+                :mod (v5 / 台湾)))
+        :ARG1-of (v8 / be.01
+            :ARG2 (v12 / 支流)))
+    :ARG2 (v20 / 中部
+        :mod (v17 / 市)
+        :mod (v19 / 区)))
+
+(v33 / call.01
+    :time (v6 / 日)
+    :ARG0 (v32 / 媒体)
+    :ARG1 (v34 / 之
+        :ARG1-of (v35 / be.01
+            :ARG2 (v44 / 激动)))
+    :ARG2 (v40 / 中国))
+
+(v17 / restore.01
+    :ARG0 (v10 / 机构
+        :mod (v4 / 革命
+            :mod (v2 / 文化))
+        :mod (v7 / 各级)
+        :mod (v8 / 教育)
+        :mod (v9 / 行政))
+    :time (v15 / 年)
+    :time (v16 / 后)
+    :ARG1 (v18 / 发展))
+
+(v18 / perform.01
+    :ARG0 (v20 / 体制
+        :ARG1-of (v28 / come.01
+            :ARG2 (v30 / 自由
+                :mod v20
+                :mod (v27 / 杂剧)))))
+
+(v4 / arrive.01
+    :time (v3 / 发展
+        :time (v2 / 末年)
+        :ARG1 (v5 / 巅峰)
+        :ARG0 (v8 / 中叶
+            :mod (v7 / 明)
+            :time-of (v17 / replace.01
+                :ARG1 (v10 / 逐渐)
+                :ARG2 (v28 / 传奇))
+            :ARG1-of (v21 / be.01
+                :ARG2 v28))
+        :time (v9 / 后))
+    :ARG2 v28)
+
+(v12 / forbid.01
+    :ARG0 (v4 / 熹
+        :mod (v3 / 朱))
+    :ARG2 (v7 / 知府
+        :mod (v6 / 漳州))
+    :time (v11 / 曾)
+    :ARG1 (v15 / 演出
+        :mod (v13 / 当地)
+        :mod (v14 / 戏曲)))
+
+(v6 / make.02
+    :ARG0 (v4 / 位置
+        :mod (v1 / 特殊)
+        :mod (v3 / 地理))
+    :ARG1 (v7 / 本区
+        :ARG1-of (v8 / become.01
+            :ARG2 (v21 / 北部))))
+
+(v24 / treat.01
+    :ARG0 (v22 / 此)
+    :ARG1 (v27 / 联邦
+        :mod (v26 / 南)
+        :ARG0-of (v40 / solve.01
+            :manner (v34 / 保障
+                :mod (v30 / 式)
+                :mod (v31 / 平等)
+                :mod (v33 / 权力))
+            :ARG1 (v44 / 选择
+                :ARG2-of (v25 / be.01)))))
+
+(v44 / make.02
+    :ARG0 (v42 / 利益
+        :ARG1-of (v37 / go.02
+            :ARG0 v30)
+        :ARG0-of (v29 / make.02
+            :ARG1 (v34 / responsible.03
+                :ARG0 (v30 / 其)
+                :ARG1 (v33 / 选区))))
+    :ARG1 (v47 / 地方))
+
+(v46 / be.01
+    :ARG1 (v44 / 重要)
+    :mod (v32 / 观点))
+
+(v32 / have.03
+    :ARG0 (v30 / 迄今
+        :time-of (v13 / be.03
+            :time (v31 / 已)
+            :time (v11 / 日)))
+    :ARG1 (v34 / 国
+        :ARG0-of (v35 / sign.01
+            :ARG1 (v33 / 50))))
+
+(v16 / offer.01
+    :ARG2 (v4 / 时间)
+    :ARG0 (v13 / 陨石)
+    :ARG1 (v24 / 信息
+        :mod (v17 / 更多)
+        :mod (v23 / 有用)))
+
+(v9 / agree.01
+    :ARG0 (v8 / 批复)
+    :location (v18 / 区域
+        :mod (v16 / 其)
+        :mod (v17 / 行政))
+    :ARG1 (v20 / 并入))
+
+(v44 / write.01
+    :ARG0 (v36 / 后
+        :mod (v35 / 标志))
+    :time (v43 / 再)
+    :ARG1 (v47 / 全名
+        :mod (v46 / 文)))
+
+(v16 / make.02
+    :time (v6 / 日)
+    :ARG0 (v7 / 接收)
+    :ARG1 (v14 / 业务
+        :mod (v10 / 香港
+            :mod (v9 / 中银))
+        :mod (v13 / 内地
+            :mod (v12 / 中国))))
+
+(v6 / be.01
+    :ARG1 (v5 / be.01
+        :ARG2 (v7 / 上海)
+        :ARG1 (v11 / 大学
+            :mod (v10 / 所)
+            :ARG2-of (v4 / be.01
+                :ARG1 (v2 / 大学
+                    :mod (v1 / 南洋))))))
+
+(v6 / perform.01
+    :time (v2 / 年)
+    :ARG0 (v5 / 酒店
+        :mod (v4 / 南洋))
+    :ARG1 (v12 / 工程
+        :mod (v11 / 装修)))
+
+(v17 / rebuild.01
+    :ARG0 (v1 / 大殿
+        :ARG1-of (v13 / ruin.01
+            :location (v11 / 期间
+                :mod (v8 / 文化)
+                :mod (v10 / 革命))
+            :time (v16 / 年)))
+    :ARG1 (v5 / 建筑
+        :mod (v4 / 明代
+            :ARG1-of (v3 / be.01
+                :ARG2 v5
+                :manner (v2 / 原))))
+    :time v16)
+
+(v9 / be.01
+    :ARG1 (v8 / 名))
+
+(v2 / be.01
+    :ARG1 (v1 / 南调
+        :ARG1-of (v11 / build.01
+            :ARG0 (v3 / 台铁)
+            :mod (v9 / 化
+                :mod (v7 / 铁路))))
+    :ARG2 v11)
+
+(v13 / contain.01
+    :ARG1 (v7 / 设备
+        :mod (v3 / 电力)
+        :mod (v4 / 摩托车)
+        :mod (v6 / 厂))
+    :ARG0 (v29 / 办公))
+
+(v13 / swim.01
+    :ARG0 (v3 / 单位
+        :mod (v1 / 部分)
+        :mod (v2 / 特色)))
+
+(v7 / be.01
+    :ARG1 (v10 / 北京)
+    :ARG2 (v12 / 学校
+        :mod (v9 / 立)
+        :mod v10
+        :mod (v11 / 航空)))
+
+(v5 / be.01
+    :ARG2 (v6 / 树名))
+
+(v30 / contain.01
+    :ARG0 (v29 / 建设
+        :mod (v28 / 主力))
+    :ARG1 (v58 / 基地
+        :mod (v54 / 高速)
+        :mod (v55 / 列车)
+        :mod (v56 / 研发)
+        :mod (v57 / 实验)))
+
+(v8 / be.01
+    :ARG1 (v4 / 梵蒂冈
+        :mod (v3 / 罗马)
+        :ARG0-of (v10 / set_up.03
+            :manner (v7 / 年)
+            :ARG1 (v15 / 教区
+                :mod (v13 / 教)
+                :mod (v14 / 南阳))))
+    :ARG2 (v9 / 靳岗))
+
+(v2 / appoint.01
+    :ARG0 (v1 / 希比拉)
+    :ARG1 (v5 / 巴塞洛缪
+        :ARG1-of (v6 / be.01)))
+
+(v19 / close.01
+    :time (v4 / 月
+        :time-of (v7 / decide.01
+            :ARG0 (v6 / 公司)
+            :ARG1 (v8 / 退出)))
+    :ARG2 (v13 / reduce.01
+        :ARG1 (v16 / 产能)
+        :ARG0 (v18 / 工厂))
+    :ARG0 v18
+    :ARG1 (v32 / 高炉
+        :mod (v31 / 号)
+        :ARG1-of (v21 / be.01
+            :ARG2 (v28 / 一))))
+
+(v11 / happen.01
+    :ARG1 (v4 / 一切)
+    :time (v10 / 般))
+
+(v4 / be.01
+    :ARG2 (v5 / 圭亚那)
+    :manner-of (v16 / use.01
+        :ARG0 v5
+        :ARG1 (v19 / 说成
+            :ARG1-of (v28 / use.01
+                :ARG0 (v27 / 人
+                    :ARG1-of (v26 / have.03
+                        :location (v20 / be.01
+                            :ARG2 (v24 / 州份
+                                :mod (v21 / 世界)
+                                :mod (v23 / 个)))
+                        :ARG0 (v25 / 均)))))))
+
+(v5 / attract.01
+    :ARG0 (v4 / 庆典)
+    :ARG1 (v7 / 许多))
+
+(v17 / campaign.01
+    :ARG0 (v16 / 女))
+
+(v6 / be.01
+    :ARG1 (v5 / 目的
+        :ARG0-of (v1 / build.01
+            :ARG1 (v3 / 中心))
+        :ARG0-of (v14 / offer.01
+            :location (v7 / give.01
+                :ARG1 (v10 / 企业
+                    :mod (v8 / 本州)
+                    :mod (v9 / 制药)))
+            :ARG1 (v18 / 资源
+                :mod (v17 / 人员))))
+    :ARG2 v14)
+
+(v5 / bear.02
+    :ARG0 (v1 / 施米特)
+    :manner (v4 / 年)
+    :ARG1 (v14 / 家庭
+        :mod (v11 / 个)
+        :mod (v13 / 教)))
+
+(v9 / have.03
+    :ARG0 (v1 / 理察)
+    :time (v4 / 时候)
+    :time (v7 / 音乐)
+    :ARG1 (v10 / 兴趣))
+
+(v27 / interrupt.01
+    :time (v14 / 其中)
+    :time (v16 / 1400)
+    :ARG1 (v23 / 统治)
+    :ARG0 (v26 / 帝国
+        :mod (v25 / 帖木儿))
+    :mod (v20 / 年
+        :mod (v17 / 年)))
+
+(v43 / develop.02
+    :ARG0 (v1 / 苏联
+        :ARG0-of (v33 / discover.01
+            :ARG1 v43)
+        :ARG0-of (v36 / adapt.01
+            :ARG1 (v40 / 任务
+                :mod (v39 / 远海))))
+    :location (v9 / 1134A
+        :mod (v8 / 种))
+    :ARG1 (v23 / 任务))
+
+(v5 / add.02
+    :ARG1 (v4 / 食品)
+    :ARG0 (v9 / 种
+        :ARG2-of (v3 / be.01)))
+
+(v3 / be.01
+    :ARG1 (v2 / bear.02
+        :ARG0 (v1 / 他)
+        :ARG1 (v7 / 年
+            :mod (v5 / 纪元)))
+    :ARG2 (v16 / 岁))
+
+(v7 / be.01
+    :ARG2 (v15 / 河流
+        :mod (v14 / 条)))
+
+(v9 / work.01
+    :ARG0 (v6 / 卢阿卢阿
+        :mod (v4 / 洛马纳))
+    :ARG1 (v10 / 纽卡素))
+
+(v14 / come.01
+    :ARG1 (v8 / 母亲
+        :ARG0-of (v9 / take.01
+            :ARG1 (v13 / 孩子
+                :mod (v12 / 个)))
+        :time-of (v6 / divorce.01
+            :ARG1 (v2 / 年)
+            :ARG0 (v5 / 父母)))
+    :ARG2 (v16 / 洛杉矶))
+
+(v11 / have.03
+    :ARG0 (v1 / 她)
+    :time (v7 / 最小
+        :ARG2-of (v2 / be.01
+            :ARG1 (v5 / 孩子
+                :mod (v4 / 个))))
+    :ARG1 (v14 / 哥哥
+        :mod (v13 / 个)))
+
+(v2 / same.01
+    :ARG1 (v1 / 他)
+    :ARG2 (v4 / 国王
+        :mod (v3 / 西西里)))
+
+(v6 / have.03
+    :ARG0 (v2 / 一世
+        :mod (v1 / 利奥波德))
+    :ARG1 (v9 / 女儿
+        :mod (v8 / 个)))
+
+(v17 / enjoy.01
+    :time (v2 / 年)
+    :ARG0 (v12 / 金牌)
+    :ARG1 (v23 / 殊荣))
+
+(v9 / have.03
+    :ARG0 (v2 / 人们)
+    :time (v3 / 经常)
+    :ARG1 (v8 / 族群
+        :mod (v7 / 个))
+    :time (v12 / 联系))
+
+(v5 / suffer.01
+    :time (v2 / 年)
+    :ARG0 (v3 / 球场)
+    :time (v4 / 曾)
+    :ARG1 (v6 / 洪水))
+
+(v13 / have.03
+    :ARG0 (v12 / 该地)
+    :ARG1 (v16 / 城堡
+        :mod (v15 / 座)))
+
+(v4 / agree.01
+    :ARG0 (v2 / 丘吉尔)
+    :ARG1 (v18 / 地位
+        :mod (v13 / 蒋)
+        :mod (v14 / 介石)))
+
+(v27 / be.01
+    :ARG1 (v26 / 孩童)
+    :ARG2 (v28 / 主要))
+
+(v7 / return.01
+    :ARG4 (v8 / 罗马)
+    :ARG1 (v9 / 的))
+
+(v31 / call.01
+    :time (v19 / 球员)
+    :ARG1 (v26 / 他)
+    :ARG2 (v35 / 贾霸
+        :mod (v34 / 天勾))
+    :mod (v29 / 此))
+
+(v14 / be.01
+    :ARG1 (v10 / 复生
+        :mod (v9 / 黄)))
+
+(v8 / set_up.03
+    :ARG0 (v7 / 中山
+        :mod (v6 / 孙))
+    :ARG1 (v11 / 政府
+        :mod (v9 / 护法)
+        :mod (v10 / 军)))
+
+(v6 / arrive.01
+    :ARG1 (v1 / 后来)
+    :time (v4 / 范围)
+    :time (v5 / 扩大))
+
+(v20 / have.03
+    :ARG0 (v12 / 这)
+    :time (v18 / 发展)
+    :ARG1 (v21 / 关系))
+
+(v4 / include.01
+    :ARG2 (v2 / 欧
+        :mod (v1 / 东))
+    :ARG1 (v5 / 乌克兰))
+
+(v6 / be.01
+    :ARG1 (v1 / choose.01
+        :ARG0 (v2 / 婴儿)
+        :ARG1 (v3 / 性别
+            :mod v2))
+    :ARG2 (v8 / 违法))
+
+(v9 / perform.01
+    :ARG0 (v1 / 印戒)
+    :manner (v7 / 组织)
+    :ARG1 (v10 / 分类)
+    :mod (v8 / 化学
+        :mod (v6 / 免疫)
+        :mod v7))
+
+(v16 / present.01
+    :ARG0 (v4 / Gromaget
+        :ARG0-of (v9 / research.01
+            :ARG1 (v12 / 地层)))
+    :time (v6 / 1934)
+    :time v9
+    :time (v15 / 首次)
+    :ARG1 (v21 / 概念))
+
+(v11 / arrive.01
+    :time (v8 / 其)
+    :time (v10 / 扩展)
+    :ARG1 (v13 / 纳波利斯
+        :mod (v12 / 印第安))
+    :ARG2 (v16 / 修筑))
+
+(v22 / raise.01
+    :time (v2 / 管理)
+    :ARG0 (v5 / use.01
+        :ARG1 (v6 / 深化
+            :ARG1-of (v18 / be.01))
+        :ARG0 v22)
+    :ARG1 (v24 / 效率
+        :mod (v23 / 教学)))
+
+(v27 / maintain.01
+    :ARG0 (v11 / 另加)
+    :ARG1 (v28 / 优惠)
+    :mod (v39 / 日
+        :mod (v35 / 年)
+        :mod (v37 / 月)))
+
+(v30 / win.01
+    :time (v3 / 内)
+    :ARG0 (v5 / 乘客)
+    :time (v28 / 程)
+    :ARG1 (v32 / 优惠))
+
+(v9 / have.03
+    :ARG1 (v15 / 延误))
+
+(v8 / be.01
+    :ARG2 (v15 / 属
+        :mod (v14 / 个)))
+
+(v6 / be.01
+    :location (v11 / 广场
+        :mod (v10 / 拉德芳斯))
+    :ARG2 (v12 / 下方
+        :mod v11))
+
+(v2 / be.01
+    :ARG1 (v1 / 原驼)
+    :ARG2 (v12 / 一
+        :mod (v5 / 洲
+            :mod (v3 / 南))))
+
+(v6 / be.01
+    :ARG2 (v7 / 北京))
+
+(v36 / list.01
+    :cause (v33 / 货邮)
+    :ARG2 (v37 / 国内)
+    :ARG1 (v41 / 位
+        :mod v37
+        :mod (v38 / 民航)
+        :mod (v39 / 机场)))
+
+(v10 / plant.01
+    :ARG0 (v6 / 厦门
+        :ARG0-of (v11 / have.03
+            :ARG1 (v16 / 树
+                :mod (v12 / 世界))))
+    :ARG1 v11)
+
+(v3 / be.01
+    :ARG2 (v9 / 一))
+
+(v29 / use.01
+    :time (v6 / 日)
+    :ARG1 (v23 / 此)
+    :ARG0 (v27 / 线)
+    :time (v28 / 同时
+        :time-of (v12 / merge.01
+            :ARG0 (v11 / 线)
+            :ARG1 (v15 / 线)))
+    :ARG2 (v30 / 本站
+        :ARG1-of (v31 / be.01)))
+
+(v5 / be.01
+    :ARG2 (v7 / 大陆
+        :mod (v6 / 中国))
+    :ARG1 (v10 / 范围
+        :mod (v9 / 业务)))
+
+(v4 / be.01
+    :ARG1 (v3 / be.01
+        :ARG1 (v26 / 车站
+            :mod (v11 / 北京)
+            :mod (v12 / 地铁)
+            :mod (v24 / 个)
+            :mod (v25 / 换乘)
+            :ARG2-of (v10 / be.01))))
+
+(v6 / be.01
+    :ARG1 (v7 / 明朝)
+    :ARG2 (v8 / 建筑
+        :mod v7))
+
+(v1 / be.03)
+
+(v24 / be.01
+    :ARG1 (v21 / 触角)
+    :time (v22 / 长))
+
+(v5 / be.01
+    :ARG1 (v4 / 双峰驼
+        :ARG1-of (v6 / impossible.01)
+        :ARG0-of (v7 / drink.01
+            :ARG1 (v8 / 咸水)))
+    :ARG2 v6)
+
+(v21 / do.02
+    :ARG0 (v1 / 双峰驼
+        :ARG1-of (v16 / be.01
+            :ARG2 (v18 / 亚
+                :mod (v17 / 中))))
+    :time (v19 / 长期)
+    :ARG1 (v22 / 驮畜
+        :ARG0-of (v24 / say.01
+            :ARG1 (v30 / 商队
+                :mod (v29 / 骆驼))))
+    :mod (v4 / 耐寒
+        :mod (v3 / 其)))
+
+(v10 / lack.01
+    :ARG1 (v9 / 事实
+        :mod (v7 / 一些)
+        :mod (v8 / 几何)
+        :ARG1-of (v18 / accept.01
+            :ARG0 (v16 / 容易)
+            :ARG0-of v10)))
+
+(v10 / kind.01
+    :time (v9 / 多少)
+    :ARG1 (v11 / 误差))
+
+(v15 / make.02
+    :ARG1 (v28 / describe.01
+        :ARG0 (v23 / 理论
+            :mod (v22 / JTB)
+            :ARG1-of (v25 / impossible.01
+                :time (v24 / 仍然)))
+        :ARG1 (v30 / 知道)))
+
+(v22 / explain.01
+    :ARG0 (v5 / 数学
+        :ARG1-of (v2 / prove.01))
+    :ARG1 (v25 / 猜想
+        :mod (v24 / 个)
+        :ARG1-of (v26 / be.01)))
+
+(v9 / be.03)
+
+(v16 / be.01
+    :ARG1 (v15 / 目的
+        :mod (v14 / 其)
+        :ARG0-of (v23 / prevent.01
+            :ARG2 (v21 / 兴起)
+            :ARG1 (v26 / 分裂)
+            :ARG2-of v16)))
+
+(v19 / defeat.01
+    :ARG1 (v9 / 联军))
+
+(v13 / start.01
+    :ARG0 (v12 / 研究
+        :ARG0-of (v17 / publish.01
+            :ARG1 (v14 / be.01
+                :ARG2 (v15 / 雨后春笋)
+                :ARG1-of v13))))
+
+(v5 / have.03
+    :ARG0 (v1 / 渔业)
+    :ARG1 (v8 / 地位
+        :mod (v6 / 重要)))
+
+(v4 / be.01
+    :ARG2 (v1 / 世界))
+
+(v8 / point_out.02
+    :ARG1 (v32 / 削弱
+        :ARG2-of (v26 / reflect.01
+            :ARG1 (v25 / 危险))
+        :ARG0-of (v28 / rely.01
+            :ARG2 (v29 / 国家)
+            :ARG1 (v30 / 干预
+                :mod v29))))
+
+(v10 / perform.01
+    :ARG0 (v4 / 家长
+        :ARG0-of (v16 / think.01
+            :ARG1 (v21 / 风险)))
+    :time (v9 / 子女)
+    :ARG1 (v11 / 教育)
+    :manner (v13 / 责任))
+
+(v21 / exist.01
+    :location (v5 / 语言
+        :mod (v3 / 式)
+        :mod (v4 / 编程))
+    :ARG1 (v16 / 它
+        :ARG1-of (v14 / express.01
+            :ARG0 (v10 / 行为
+                :ARG0-of (v11 / use.01
+                    :ARG1 (v12 / 常量)))))
+    :ARG2 (v20 / 变量
+        :mod (v18 / 通常))
+    :location (v22 / 反差))
+
+(v12 / fight.01
+    :time (v4 / 日
+        :ARG1-of (v9 / be.01
+            :ARG2 (v11 / 处)))
+    :ARG1 (v6 / 叙利亚)
+    :ARG0 (v10 / 107))
+
+(v6 / follow.02
+    :ARG0 (v5 / 发育)
+    :ARG1 (v9 / 规律
+        :mod (v7 / 一定)))
+
+(v6 / be.01
+    :ARG1 (v5 / 口吃
+        :mod (v4 / 性))
+    :ARG2 (v12 / 疾病
+        :mod (v8 / 种)))
+
+(v24 / cause.01
+    :time (v4 / 日
+        :ARG0-of (v19 / attract.01
+            :manner (v18 / 成功)
+            :ARG1 (v20 / 国军))
+        :ARG0-of (v21 / notice.01
+            :time (v22 / 力)
+            :ARG1 v24))
+    :ARG0 (v10 / 厦门)
+    :ARG1 (v26 / 判断
+        :mod (v25 / 国军)))
+
+(v10 / be.01
+    :ARG1 (v7 / 国军))
+
+(v19 / start.01
+    :ARG0 (v17 / 这)
+    :ARG1 (v24 / 铺设))
+
+(v1 / free.01
+    :ARG1 (v4 / 夺取))
+
+(v14 / become.01
+    :ARG1 (v2 / 巨基
+        :mod (v1 / 古)
+        :ARG0-of (v6 / get.01
+            :manner (v5 / 年度)
+            :ARG2 (v8 / 台)
+            :ARG1 (v13 / 大奖
+                :mod (v9 / 联颁)
+                :mod (v10 / 音乐)
+                :mod (v11 / 大奖)
+                :mod (v12 / 歌曲)))
+        :ARG0-of (v21 / win.01
+            :manner (v20 / 连续)
+            :ARG1 (v27 / 歌手)
+            :mod (v18 / 慧琳
+                :mod (v17 / 陈))))
+    :time v6
+    :ARG2 v27)
+
+(v3 / be.01)
+
+(v4 / be.01
+    :ARG1 (v1 / deserve.01
+        :ARG1 (v2 / 一提)
+        :ARG0 (v3 / 的)))
+
+(v25 / satisfy.01
+    :ARG0 (v22 / 存在)
+    :ARG1 (v30 / 爱慕
+        :mod (v26 / 他们)))
+
+(v9 / enter.01
+    :ARG0 (v8 / 社会
+        :mod (v7 / 希腊)
+        :ARG0-of (v12 / develop.02
+            :ARG1 (v4 / 世纪
+                :mod (v1 / 公元))))
+    :ARG1 (v11 / 步))
+
+(v18 / show.01
+    :ARG0 (v1 / 他)
+    :time (v5 / 当时
+        :ARG1-of (v9 / satisfy.01
+            :ARG0 (v17 / 他)))
+    :ARG2 v17
+    :ARG1 (v31 / 房屋
+        :ARG1-of (v20 / be.01
+            :ARG2 (v24 / 附近
+                :mod (v22 / 狄俄尼索斯)
+                :mod (v23 / 神庙)))
+        :ARG1-of (v29 / use.01
+            :ARG0 (v26 / 她))))
+
+(v15 / use.01
+    :ARG0 (v1 / 他
+        :ARG0-of (v3 / use.01
+            :ARG1 (v6 / 线条
+                :mod (v4 / 极细))))
+    :ARG1 (v18 / 疏密
+        :ARG0-of (v20 / act.01
+            :ARG1 (v23 / 明暗)))
+    :ARG2 v23)
+
+(v16 / produce.01
+    :ARG0 (v2 / 作品
+        :mod (v1 / 其)
+        :ARG1-of (v4 / become.01
+            :ARG2 (v11 / 曲目
+                :mod (v7 / 会)
+                :mod (v9 / 常见)))
+        :ARG1-of (v13 / be.01
+            :ARG2 (v14 / 欧洲)))
+    :ARG1 (v20 / 现象))
+
+(v8 / be.01)
+
+(v25 / learn.01
+    :ARG0 (v1 / 他
+        :ARG1-of (v23 / arrive.01
+            :ARG4 (v24 / 雅典)))
+    :ARG1 (v27 / 哲学))
+
+(v11 / be.01
+    :ARG1 (v1 / 全诗
+        :ARG1-of (v6 / last.01
+            :ARG2 (v9 / 行))))
+
+(v9 / reflect.01
+    :ARG1 (v3 / 语言
+        :mod (v1 / 其)
+        :mod (v2 / 散文))
+    :time (v5 / 凝练)
+    :time (v7 / 朴实无华)
+    :ARG2 (v15 / 风格
+        :mod (v13 / 迥异
+            :mod (v12 / 西塞罗))))
+
+(v12 / be.01)
+
+(v18 / emphasize.01
+    :ARG0 (v17 / 全诗)
+    :ARG1 (v39 / 风格
+        :mod (v38 / 罗马)
+        :ARG2-of (v35 / be.01)))
+
+(v4 / be.01
+    :ARG1 (v3 / 库容
+        :mod (v1 / 水库)
+        :mod (v2 / 正常))
+    :ARG2 (v5 / 1202万))
+
+(v15 / be.01
+    :ARG1 (v8 / 词性)
+    :ARG2 (v17 / 关系
+        :mod (v16 / 语法)))
+
+(v7 / have.03
+    :ARG0 (v6 / 系统
+        :mod (v3 / 大型)
+        :mod (v4 / 水力)
+        :mod (v5 / 发电))
+    :ARG1 (v17 / 缺点
+        :mod (v9 / 个)
+        :mod (v10 / 显着)
+        :ARG0-of (v43 / destroy.01
+            :time (v27 / 颠沛流离)
+            :ARG1 (v47 / 系统
+                :mod (v46 / 生态)))))
+
+(v7 / be.01
+    :ARG1 (v6 / 技术
+        :mod (v4 / 化石)
+        :mod (v5 / 燃料))
+    :time (v8 / 比较))
+
+(v36 / reduce.01
+    :time (v19 / 年)
+    :ARG0 (v25 / 站
+        :mod (v23 / 能)
+        :ARG0-of (v28 / produce.01
+            :ARG1 (v33 / 电力
+                :mod (v29 / 世界)
+                :mod (v32 / 部分))))
+    :manner (v35 / 显着)
+    :ARG1 (v44 / 排放)
+    :mod (v15 / 预测
+        :mod (v10 / 个)))
+
+(v8 / have.03
+    :ARG0 (v6 / 成分
+        :mod (v5 / 主要))
+    :ARG1 (v10 / 种))
+
+(v5 / think.01
+    :ARG1 (v2 / 译名)
+    :ARG0 (v4 / 普遍))
+
+(v6 / be.01
+    :ARG1 (v5 / 真实))
+
+(v8 / be.03
+    :time (v1 / 目前))
+
+(v60 / start.01
+    :time (v6 / 日)
+    :time (v17 / 以
+        :ARG1 (v32 / 的)
+        :ARG2 (v35 / 体育)
+        :ARG0 (v38 / 同业))
+    :ARG1 (v68 / perform.01
+        :ARG0 (v15 / 市场
+            :mod (v14 / 外销))
+        :manner (v39 / 公会
+            :mod (v34 / 市)
+            :mod v35
+            :mod (v36 / 用品)
+            :mod (v37 / 商业)
+            :mod v38)
+        :ARG1 (v69 / 调查)
+        :mod (v67 / 情况)))
+
+(v5 / be.01
+    :ARG1 (v4 / build.01
+        :ARG0 (v3 / 机场
+            :mod (v1 / 黄岩)
+            :mod (v2 / 路桥)
+            :ARG1-of (v9 / be.01
+                :ARG2 (v10 / 全国)))
+        :ARG1 (v7 / 年)))
+
+(v16 / show.01
+    :ARG0 (v6 / 杰
+        :mod (v5 / 李)
+        :ARG0-of (v10 / answer.01
+            :time (v9 / 案)
+            :ARG1 (v13 / 质询
+                :mod (v11 / 李)
+                :mod (v12 / 敖))))
+    :ARG1 (v24 / 台湾
+        :ARG1-of (v25 / be.01
+            :ARG2 (v31 / 能力)))
+    :time (v26 / 防守))
+
+(v3 / be.01
+    :ARG1 (v2 / 自由
+        :mod (v1 / 新闻)
+        :ARG1-of (v7 / exploit.01
+            :time (v5 / 常)
+            :mod (v15 / 言论)))
+    :ARG2 (v4 / 台湾)
+    :time (v21 / 讨论))
+
+(v3 / be.01
+    :ARG1 (v1 / 这些))
+
+(v30 / be.03
+    :time (v3 / 方面)
+    :time (v15 / 创刊)
+    :time (v29 / 最后))
+
+(v28 / come.01
+    :time (v10 / 苦行)
+    :ARG1 (v27 / 道教
+        :ARG0-of (v23 / say.01
+            :ARG1 (v12 / 南方))))
+
+(v19 / have.03
+    :ARG0 (v3 / 事件
+        :ARG0-of (v6 / have.03
+            :ARG1 (v15 / 革命
+                :mod (v14 / 辛亥
+                    :time-of (v9 / happen.01
+                        :time v15
+                        :ARG1 (v8 / 件))))))
+    :ARG1 (v21 / 件
+        :ARG1-of (v22 / be.01
+            :ARG2 (v29 / launch.01
+                :ARG0 v21
+                :ARG1 (v30 / 的)))))
+
+(v16 / lead.01
+    :ARG0 (v24 / 军务)
+    :ARG1 (v26 / 李))
+
+(v17 / accept.01
+    :ARG0 (v6 / 仪
+        :mod (v5 / 陈)
+        :ARG0-of (v7 / represent.01
+            :ARG1 (v13 / 政府
+                :mod (v11 / 中华)
+                :mod (v12 / 民国))))
+    :ARG1 (v30 / 投降))
+
+(v15 / end.01
+    :ARG1 (v4 / 月)
+    :time (v6 / 日
+        :time-of (v10 / publish.01
+            :ARG0 (v9 / 天皇
+                :mod (v8 / 日本))
+            :ARG1 (v12 / 诏书
+                :mod (v11 / 终战))))
+    :ARG0 (v14 / 二战))
+
+(v10 / mean.01
+    :ARG1 (v3 / 稀有)
+    :ARG0 (v5 / 其))
+
+(v6 / isn't.01
+    :ARG1 (v7 / 因为))
+
+(v14 / have.03
+    :ARG0 (v10 / 铁路
+        :mod (v8 / 台湾)
+        :mod (v9 / 糖业))
+    :ARG1 (v24 / 问题))
+
+(v16 / have.03
+    :ARG1 (v19 / 奖品
+        :mod (v17 / 丰盛)))
+
+(v5 / appear.01
+    :ARG1 (v2 / 单元)
+    :manner (v3 / 曾经))
+
+(v7 / be.01
+    :ARG1 (v6 / 日
+        :mod (v2 / 年)
+        :mod (v4 / 月)
+        :time-of (v10 / set_up.03))
+    :ARG2 (v9 / 东京
+        :mod (v8 / 日本)))
+
+(v10 / start.01
+    :ARG0 (v9 / 结尾
+        :ARG0-of (v11 / have.03
+            :ARG1 (v12 / 高)
+            :ARG1-of v10)))
+
+(v21 / be.01
+    :time (v6 / 相同)
+    :ARG2 (v25 / 高山))
+
+(v17 / use.01
+    :ARG0 (v15 / 区域
+        :ARG1-of (v13 / plant.01
+            :ARG0 (v14 / 的)))
+    :ARG1 (v30 / 等))
+
+(v18 / be.03
+    :location (v13 / 事业)
+    :time (v16 / 极大))
+
+(v28 / appear.01
+    :manner (v11 / 曾)
+    :location (v22 / 学校)
+    :mod (v25 / 室
+        :mod v22
+        :mod (v23 / 某处)))
+
+(v8 / be.01
+    :ARG1 (v7 / 揭示)
+    :ARG2 (v15 / 雕像
+        :mod (v10 / 个)
+        :mod (v14 / 人形)))
+
+(v2 / assist.01
+    :ARG0 (v1 / 谢拉特)
+    :ARG1 (v3 / 利物浦
+        :ARG0-of (v8 / get.01
+            :ARG1 (v11 / 名
+                :mod (v9 / 英超)))
+        :ARG0-of (v13 / get.01
+            :location (v7 / 赛季
+                :mod (v6 / 个))
+            :time (v15 / 历史)
+            :ARG1 (v20 / 分数
+                :mod (v17 / 最高)
+                :mod (v19 / 联赛))))
+    :ARG2 v8)
+
+(v2 / be.01
+    :ARG1 (v1 / 谢拉特)
+    :ARG2 (v9 / 一))
+
+(v12 / see.01
+    :ARG0 (v1 / 招数)
+    :time (v4 / 复杂)
+    :time (v11 / 颇)
+    :ARG1 (v13 / 奇效))
+
+(v41 / be.03
+    :time (v40 / 年))
+
+(v11 / fake.01
+    :ARG0 (v13 / 金缕)
+    :ARG1 (v14 / 玉衣
+        :mod (v10 / 件)
+        :mod v13))
+
+(v7 / use.01
+    :ARG0 (v5 / 军方
+        :mod (v4 / 英国)
+        :ARG0-of (v6 / start.01
+            :ARG1 v7
+            :time (v13 / 之后)
+            :time (v3 / 年))
+        :ARG0-of (v14 / have.03
+            :time v13
+            :ARG1 (v19 / 改良)))
+    :ARG1 (v8 / 史特林))
+
+(v28 / hit.01
+    :ARG0 (v18 / 嗅)
+    :manner (v21 / 神水)
+    :time (v23 / 突然)
+    :ARG1 (v29 / 喷嚏))
+
+(v19 / tell.01
+    :ARG0 (v17 / 王后)
+    :ARG1 (v20 / 国王)
+    :ARG2 (v21 / 自己))
+
+(v2 / return.01
+    :ARG1 (v1 / 镜头)
+    :ARG4 (v7 / 王国
+        :mod (v5 / 很远)))
+
+(v15 / become.01
+    :ARG1 (v11 / 史瑞克
+        :ARG2-of (v7 / ask.02
+            :manner (v6 / 眼神
+                :mod (v4 / 无辜))
+            :ARG1 (v8 / 原谅)))
+    :time (v14 / 很快)
+    :ARG2 (v17 / 朋友))
+
+(v10 / be.01
+    :ARG1 (v3 / 故事
+        :mod (v2 / 西城))
+    :ARG2 (v14 / 突破))
+
+(v10 / be.01
+    :ARG1 (v6 / 当年)
+    :ARG2 (v15 / 成就
+        :mod (v11 / 桑坦)
+        :mod (v13 / 优秀)))
+
+(v18 / make.01
+    :ARG0 (v1 / 他)
+    :ARG1 (v16 / 部分))
+
+(v31 / ski.01
+    :ARG0 (v29 / 靠))
+
+(v14 / have.03
+    :ARG0 (v3 / 史通)
+    :ARG1 (v17 / 地位
+        :mod (v15 / 极高)
+        :mod (v16 / 史学)))
+
+(v2 / be.01
+    :ARG1 (v1 / 右龙)
+    :ARG2 (v8 / 一))
+
+(v13 / make.01
+    :ARG0 (v12 / 铭汉
+        :mod (v11 / 叶)
+        :ARG0-of (v15 / give.01
+            :ARG1 (v16 / 叔父)
+            :ARG2 (v20 / 病情
+                :mod (v19 / 他
+                    :ARG1-of (v21 / deteriorate.01
+                        :ARG0 v20)))))
+    :ARG1 (v14 / 工资))
+
+(v11 / arrive.01
+    :time (v1 / 后来)
+    :ARG1 (v3 / 他)
+    :time (v4 / 躲入)
+    :time (v10 / 终于)
+    :ARG4 (v12 / 重庆))
+
+(v6 / die.01
+    :ARG1 (v5 / 父亲))
+
+(v28 / involve.01
+    :ARG2 (v17 / 月
+        :mod (v15 / 同年))
+    :time (v26 / 赴)
+    :ARG1 (v29 / host.01
+        :ARG1 (v38 / 大典
+            :mod (v35 / 掣签
+                :mod (v34 / 金瓶))))
+    :ARG0-of v29)
+
+(v23 / sacrifice.01
+    :time (v4 / 后)
+    :ARG1 (v20 / 叶)
+    :ARG0 (v21 / 少毅
+        :mod v20))
+
+(v40 / face.01
+    :ARG0 (v29 / 普鲁申科
+        :mod (v27 / 叶甫根尼)
+        :ARG0-of (v34 / learn.01
+            :time (v32 / 生活)
+            :ARG1 (v35 / handle.01
+                :ARG0 v29
+                :ARG1 (v36 / 家务))))
+    :time (v38 / 更)
+    :ARG1 (v47 / 陋习
+        :ARG0-of (v49 / bully.01
+            :ARG1 (v50 / 新人))))
+
+(v9 / hold.04
+    :time (v6 / 年)
+    :ARG0 (v8 / 温哥华
+        :mod (v7 / 加拿大))
+    :ARG1 (v11 / 冬季))
+
+(v10 / head.02
+    :time (v6 / 日)
+    :ARG0 (v8 / 他)
+    :ARG1 (v11 / 俄国))
+
+(v4 / found.01
+    :time (v1 / 次年
+        :time-of (v10 / be.01
+            :ARG1 (v8 / 攸
+                :mod (v7 / 司马))
+            :ARG2 (v11 / 齐王)))
+    :ARG0 (v3 / 炎
+        :mod (v2 / 司马))
+    :ARG1 (v5 / 西晋))
+
+(v12 / avenge.01
+    :ARG0 (v2 / 汲桑
+        :ARG0-of (v3 / murder.01
+            :ARG1 (v7 / 腾
+                :mod (v6 / 司马))
+            :time (v1 / 其后))
+        :ARG0-of (v21 / take.01
+            :ARG1 (v23 / 它)))
+    :ARG1 (v11 / 颖))
+
+(v4 / be.01
+    :ARG1 (v3 / 铁路
+        :mod (v1 / 合)
+        :mod (v2 / 武))
+    :ARG2 (v11 / 一))
+
+(v6 / be.01
+    :ARG1 (v5 / 用途
+        :mod (v2 / 夹)))
+
+(v11 / build.01
+    :time (v3 / 世纪)
+    :ARG0 (v10 / 许耶罗布)
+    :ARG1 (v22 / 寺院
+        :mod (v14 / 座)
+        :mod (v21 / 苯教)
+        :ARG1-of (v16 / call.02
+            :ARG0 (v15 / 名)
+            :ARG2 (v18 / 吉卡日香))))
+
+(v6 / say.01
+    :ARG0 (v8 / 这
+        :ARG1-of (v9 / be.01
+            :ARG2 (v15 / 标志)
+            :time (v7 / 一般)))
+    :ARG1 v15
+    :mod (v4 / 家))
+
+(v11 / listen.01
+    :ARG1 (v1 / 相反
+        :ARG0-of (v5 / say.01
+            :ARG1 (v10 / 人
+                :ARG0-of (v13 / know.01)
+                :ARG0-of v11))))
+
+(v47 / assist.01
+    :ARG0 (v1 / 多斯桑托斯
+        :ARG0-of (v44 / act.01
+            :ARG1 (v45 / 出色)))
+    :ARG1 (v29 / 名单
+        :mod (v28 / 队)
+        :ARG2-of (v12 / become.01
+            :ARG1 (v15 / 国脚)))
+    :ARG2 (v37 / 球))
+
+(v20 / declare.01
+    :time (v6 / 日)
+    :ARG0 (v9 / 美和
+        :mod (v8 / 吉田)
+        :ARG0-of (v10 / select.01
+            :ARG1 (v12 / 生日)
+            :ARG1-of (v11 / be.01
+                :ARG2 v27)))
+    :ARG2 (v19 / 世人)
+    :ARG1 (v27 / 消息
+        :ARG1-of (v25 / marry.01
+            :ARG2 (v23 / 健
+                :mod (v22 / 末田))
+            :time (v24 / 闪电)))
+    :mod (v17 / 网站))
+
+(v7 / involve.01
+    :time (v1 / 斯诺克)
+    :ARG1 (v4 / 怀特)
+    :time (v6 / 曾)
+    :ARG2 (v16 / 传人))
+
+(v3 / be.01
+    :ARG2 (v16 / 镇
+        :mod (v15 / 个)))
+
+(v20 / include.01
+    :ARG0 (v3 / 成员
+        :mod (v1 / 名人
+            :ARG2-of (v4 / include.01
+                :ARG0 v3
+                :ARG1 (v5 / 亲王)))
+        :mod (v2 / 会议))
+    :ARG2 (v16 / 情况)
+    :ARG1 (v24 / 官员))
+
+(v3 / say.01
+    :ARG0 (v1 / 总括)
+    :ARG1 (v5 / 名人))
+
+(v4 / be.01
+    :ARG1 (v3 / 周
+        :mod (v1 / 上映)
+        :ARG1-of (v31 / become.01
+            :time (v30 / 依然)
+            :ARG2 (v36 / 冠军
+                :mod (v33 / 周)
+                :mod (v35 / 榜))))
+    :ARG2 (v10 / 第一))
+
+(v28 / invite.01
+    :ARG2 (v13 / plan.01
+        :ARG1 (v16 / share.01
+            :ARG2 (v15 / 好友)
+            :ARG1 (v19 / 宝物))
+        :ARG0 v19)
+    :ARG0 v19
+    :ARG1 (v29 / 福尔摩斯
+        :ARG0-of (v33 / participate.01
+            :ARG1 (v34 / 展览))))
+
+(v3 / have.03
+    :ARG0 (v1 / 校园)
+    :ARG1 (v8 / 大道
+        :mod (v5 / 条)))
+
+(v4 / be.01)
+
+(v5 / lack.01
+    :ARG0 (v3 / 我们)
+    :time (v4 / 已经)
+    :ARG1 (v6 / 办法))
+
+(v5 / cause.01
+    :ARG0 (v3 / 行为
+        :mod (v2 / 种))
+    :ARG1 (v14 / 偏激
+        :mod (v8 / 种)
+        :ARG0-of (v12 / understand.01
+            :ARG1 (v11 / 现代))))
+
+(v28 / do.02
+    :ARG0 (v19 / 他们)
+    :ARG1 (v22 / 寄生
+        :mod (v26 / 理性
+            :mod (v24 / 现代)
+            :mod (v25 / 启蒙))))
+
+(v2 / be.01
+    :ARG2 (v3 / 日本))
+
+(v8 / be.01
+    :ARG1 (v7 / 千秋
+        :mod (v6 / 向井))
+    :ARG2 (v17 / 讲师
+        :mod (v3 / 年)
+        :mod (v10 / 州)
+        :mod (v11 / 休斯敦)
+        :mod (v12 / 贝勒)
+        :mod (v14 / 院)
+        :mod (v15 / 外科)
+        :mod (v16 / 研究)))
+
+(v22 / be.01
+    :ARG2 (v24 / 青藏))
+
+(v11 / be.01
+    :ARG1 (v10 / be.01
+        :ARG1 (v17 / 西)))
+
+(v48 / offer.01
+    :ARG0 (v4 / 条件
+        :mod (v1 / 独特)
+        :mod (v3 / 地理
+            :ARG0-of (v17 / make.02
+                :ARG1 v4
+                :location-of v48)))
+    :time (v27 / 同时)
+    :ARG1 (v53 / 条件
+        :mod (v50 / 得天独厚)
+        :mod (v52 / 自然)))
+
+(v7 / involve.01
+    :ARG1 (v1 / 伊吕西)
+    :time (v4 / 师从)
+    :ARG2 (v5 / 格罗滕迪克))
+
+(v3 / die.01
+    :time (v1 / 宋)
+    :ARG1 (v2 / 太宗
+        :mod v1))
+
+(v7 / be.01
+    :ARG1 (v3 / 帝国
+        :time-of (v9 / happen.01
+            :ARG1 (v10 / 冲突)
+            :time (v13 / 不久)
+            :mod (v6 / 人)))
+    :ARG2 (v8 / 亚美尼亚))
+
+(v15 / cause.01
+    :ARG0 (v3 / 叛乱
+        :mod (v2 / 次)
+        :ARG0-of (v34 / cause.01
+            :ARG1 (v36 / 破坏
+                :mod (v35 / 很大))))
+    :ARG1 (v30 / 次)
+    :time-of (v31 / perform.01
+        :ARG0 (v20 / 入侵)
+        :time (v22 / 地区)
+        :time (v28 / 年)
+        :time v30
+        :ARG1 (v32 / 劫掠)))
+
+(v7 / take.01
+    :ARG0 (v2 / 平民
+        :mod (v1 / 普通))
+    :ARG2 (v4 / 逃避)
+    :manner (v6 / 竟)
+    :ARG1 (v10 / 办法))
+
+(v4 / use.01
+    :ARG0 (v1 / 吲哚乙酸)
+    :ARG1 (v6 / 方法
+        :mod (v5 / 化学)))
+
+(v29 / demand.01
+    :ARG1 (v15 / 时
+        :ARG1-of (v5 / make.02
+            :ARG0 (v4 / 活动)))
+    :ARG0 (v24 / 主义
+        :ARG0-of (v18 / decide.01
+            :ARG1 (v19 / 让步))))
+
+(v21 / fire.02
+    :ARG1 (v14 / 他)
+    :ARG0 (v20 / 学校))
+
+(v22 / work.01
+    :ARG0 (v4 / 父亲
+        :ARG1-of (v5 / come.01
+            :ARG4 (v9 / 民雄
+                :mod (v8 / 县)))
+        :ARG1-of (v11 / arrive.01
+            :ARG4 (v12 / 瑞芳))
+        :ARG1-of (v14 / be.01
+            :ARG2 (v21 / 煤矿
+                :mod (v20 / 瑞三
+                    :time-of (v18 / found.01
+                        :ARG1 v21
+                        :ARG0 (v17 / 兄弟
+                            :mod (v15 / 李)
+                            :mod (v16 / 建兴))))))))
+
+(v11 / discover.01
+    :time (v7 / 报章)
+    :ARG0 (v10 / 中国)
+    :ARG1 (v14 / 神童
+        :mod (v13 / 天才)))
+
+(v32 / put.01
+    :ARG0 (v25 / 吴)
+    :ARG2 (v30 / 靴筒)
+    :ARG1 (v38 / 姓名
+        :mod (v37 / 官
+            :mod (v35 / 名))))
+
+(v5 / be.01
+    :ARG2 (v23 / 余部
+        :mod (v19 / 自成
+            :mod (v18 / 李))))
+
+(v10 / cause.01
+    :time (v3 / 年)
+    :ARG0 (v5 / 朝廷)
+    :ARG1 (v12 / 三桂
+        :mod (v11 / 吴)))
+
+(v4 / be.01
+    :ARG1 (v3 / 高潮))
+
+(v18 / be.01)
+
+(v22 / graduate.01
+    :ARG1 (v8 / 知识
+        :mod (v7 / 文化))
+    :ARG0 (v10 / 她
+        :ARG1-of (v13 / arrange.01
+            :ARG0 (v11 / 曾)
+            :ARG2 (v17 / learn.01
+                :ARG0 v10
+                :time v13
+                :time (v14 / 到
+                    :ARG1 v13
+                    :ARG4 (v16 / 大学
+                        :mod (v15 / 西北)))
+                :ARG1 v15)))
+    :manner (v21 / 年))
+
+(v4 / be.01
+    :ARG1 (v2 / 建筑)
+    :ARG2 (v10 / 建筑
+        :mod (v5 / 一般)
+        :mod (v6 / 保护)
+        :mod (v7 / 等级)
+        :mod (v8 / 历史)
+        :mod (v9 / 风貌)))
+
+(v35 / leave.01
+    :ARG0 (v6 / 金贵
+        :mod (v5 / 吴))
+    :ARG1 (v22 / 助理)
+    :time (v25 / 很快)
+    :mod (v32 / 意见
+        :mod (v31 / 不同)))
+
+(v11 / deal.01
+    :ARG0 (v1 / Elijah
+        :ARG0-of (v9 / set_up.03
+            :time (v8 / 重新)
+            :ARG1 (v10 / 规则)))
+    :time (v2 / 之后)
+    :location (v6 / 匕首)
+    :ARG1 (v12 / Klaus))
+
+(v6 / become.01
+    :ARG1 (v1 / Katherine)
+    :ARG2 (v2 / 自杀)
+    :mod (v5 / 此))
+
+(v33 / participate.01
+    :time (v23 / 确定
+        :ARG0 (v29 / 角色)
+        :ARG1 (v32 / Hannigan))
+    :ARG0 v32
+    :ARG1 (v40 / 征选))
+
+(v16 / appear.01
+    :ARG1 (v3 / 身体)
+    :location (v13 / 界))
+
+(v26 / live.01
+    :time (v13 / 当时)
+    :ARG0 (v14 / 他)
+    :time (v15 / 仍然)
+    :ARG1 (v17 / 母亲)
+    :location (v28 / 一起))
+
+(v9 / be.01
+    :ARG1 (v8 / 他
+        :ARG1-of (v11 / die.01
+            :time (v15 / 岁)
+            :time (v6 / 日)))
+    :ARG2 (v10 / 伦敦))
+
+(v78 / make.02
+    :ARG0 (v63 / 性质
+        :mod (v62 / 工作)
+        :ARG0-of (v65 / restrict.01
+            :ARG1 (v76 / 层面
+                :mod (v75 / 交流)
+                :ARG1-of (v67 / be.01
+                    :ARG2 (v73 / 领域
+                        :mod (v68 / 艺术))))
+            :mod (v26 / 原因)
+            :ARG2 (v19 / 年代)))
+    :ARG1 v75)
+
+(v9 / serve.01
+    :ARG0 (v1 / 吕卫伦)
+    :time (v5 / 期间
+        :ARG1-of (v4 / work.01
+            :ARG0 (v3 / 新西兰
+                :ARG2-of (v2 / be.01))))
+    :time (v8 / 曾)
+    :ARG1 (v15 / 公职))
+
+(v31 / have.03
+    :time (v2 / 出任)
+    :ARG0 (v7 / 他)
+    :time (v30 / 协会)
+    :ARG1 (v33 / 认识
+        :mod (v32 / 一定)))
+
+(v3 / explode.01
+    :ARG1 (v1 / 辛亥)
+    :ARG0 (v2 / 革命
+        :mod v1))
+
+(v2 / be.01
+    :ARG1 (v1 / 他
+        :ARG0-of (v7 / talk.01
+            :time (v4 / 大学)
+            :ARG1 (v12 / 教授
+                :mod (v3 / 北京)
+                :mod v4
+                :mod (v6 / 个)
+                :ARG2-of v2))))
+
+(v10 / say.01
+    :ARG0 (v9 / 他)
+    :ARG1 (v11 / 他
+        :ARG0-of (v12 / like.01
+            :ARG1 (v13 / 涉览))))
+
+(v20 / be.01
+    :ARG2 (v2 / 情况)
+    :ARG1 (v19 / say.01)
+    :ARG1-of v19)
+
+(v15 / disband.01
+    :ARG1 (v1 / 民国)
+    :time (v3 / 年)
+    :ARG0 (v13 / 国会)
+    :time (v14 / 再度))
+
+(v9 / protect.01
+    :ARG0 (v8 / 日本)
+    :ARG1 (v11 / 际))
+
+(v33 / execute.02
+    :ARG0 (v27 / maintain.01
+        :time (v23 / 月)
+        :time (v25 / 仍)
+        :ARG1 (v28 / 原判))
+    :ARG1 (v34 / 枪决))
+
+(v12 / threaten.01
+    :ARG0 (v1 / 西戎
+        :ARG1-of (v2 / be.01
+            :ARG2 (v9 / 统称)))
+    :time v9
+    :time (v11 / 长期)
+    :ARG1 (v17 / 边境
+        :mod (v16 / 西部)))
+
+(v17 / be.01
+    :ARG1 (v4 / 志仁
+        :mod (v3 / 周))
+    :ARG2 (v18 / 四川))
+
+(v3 / be.01
+    :ARG1 (v2 / 成建
+        :mod (v1 / 周)
+        :ARG1-of (v18 / reach.01
+            :ARG0 (v17 / 资产
+                :mod (v16 / 个人))))
+    :ARG2 (v6 / 着名))
+
+(v14 / run.01
+    :ARG0 (v5 / 渝
+        :mod (v4 / 周
+            :time-of (v6 / inherit.01
+                :ARG0 v5
+                :ARG1 (v9 / 思想))))
+    :ARG1 (v21 / 茶馆
+        :mod (v17 / 市)
+        :mod (v18 / 独具一格)
+        :mod (v20 / 文化)
+        :ARG1-of (v23 / become.01
+            :ARG2 (v29 / 古迹
+                :mod (v26 / 市)
+                :mod (v28 / 定)))))
+
+(v1 / have.03
+    :ARG1 (v2 / 人
+        :ARG0-of (v3 / say.01
+            :ARG1 (v8 / 见到
+                :ARG2-of (v5 / be.01))))
+    :ARG0 (v4 / 这
+        :ARG1-of v5))
+
+(v18 / be.01)
+
+(v12 / serve.01
+    :ARG0 (v2 / 骏彦
+        :mod (v1 / 周))
+    :time (v3 / 早年
+        :ARG1-of (v5 / be.01
+            :ARG2 (v11 / 学堂
+                :mod (v10 / 龙津))))
+    :time (v4 / 曾)
+    :ARG1 (v13 / 学监))
+
+(v15 / let.01
+    :time (v1 / 幸得)
+    :ARG1 (v16 / 刘)
+    :ARG0 (v18 / 顺利))
+
+(v9 / get.01
+    :ARG0 (v1 / 玩家)
+    :time (v6 / 成员)
+    :ARG2 (v8 / 达夏)
+    :ARG1 (v10 / 联络)
+    :location (v13 / 达夏))
+
+(v17 / reserve.01
+    :ARG2 (v11 / 操作)
+    :location (v12 / 系统
+        :mod v11
+        :ARG1-of (v7 / use.01))
+    :time (v15 / 通常)
+    :ARG0 (v20 / select.01
+        :ARG1 (v24 / 接口
+            :mod (v23 / 列))
+        :ARG0-of (v22 / order.01
+            :ARG1 v24))
+    :ARG1 v24)
+
+(v27 / cause.01
+    :ARG0 (v14 / 节目
+        :mod (v13 / 命理))
+    :ARG1 (v30 / 风行))
+
+(v11 / use.01
+    :ARG0 (v4 / 台湾)
+    :ARG1 (v14 / 词汇
+        :mod (v12 / 现代)
+        :mod (v13 / 自创)))
+
+(v8 / think.01
+    :ARG0 (v1 / 他们
+        :ARG0-of (v16 / solve.01
+            :ARG1 (v20 / 暴力)
+            :mod (v11 / 谈判
+                :mod (v10 / 和平))))
+    :ARG1 v16)
+
+(v17 / be.03)
+
+(v29 / say.01
+    :ARG0 (v21 / 她)
+    :ARG1 (v30 / 非常))
+
+(v11 / run.01
+    :ARG0 (v1 / 和黄
+        :ARG1-of (v2 / be.01
+            :ARG2 (v9 / 企业
+                :mod (v7 / 大型)
+                :mod (v8 / 跨国)
+                :time-of v11)))
+    :ARG1 (v15 / 业务
+        :mod (v14 / 化)
+        :ARG2-of (v17 / include.01
+            :ARG1 (v18 / 全球
+                :location-of (v26 / run.01
+                    :ARG1 (v21 / 市场
+                        :mod (v20 / 个))
+                    :ARG0 (v25 / 码头))))))
+
+(v7 / pass.03
+    :ARG1 (v1 / 狐狸))
+
+(v19 / have.03
+    :ARG0 (v12 / 好坏)
+    :time (v18 / 过程
+        :ARG1-of (v14 / follow.02
+            :ARG0 (v17 / 烹制)))
+    :ARG1 (v23 / 影响
+        :mod (v21 / 重要)))
+
+(v3 / be.01
+    :ARG2 (v6 / 黄嘌呤))
+
+(v16 / reduce.01
+    :time (v2 / 咖啡)
+    :ARG0 (v10 / 含量)
+    :ARG1 (v23 / 含量
+        :mod (v22 / 因)))
+
+(v4 / be.01
+    :ARG2 (v18 / 行政))
+
+(v8 / do.02
+    :ARG0 (v1 / 中华)
+    :time (v3 / 时期)
+    :time (v7 / 曾)
+    :ARG1 (v10 / 故宫))
+
+(v36 / broadcast.01
+    :ARG1 (v24 / 欢迎)
+    :ARG0 (v28 / 广告)
+    :time (v31 / 无线))
+
+(v25 / be.01
+    :ARG1 (v24 / 说)
+    :ARG2 (v26 / 闽南))
+
+(v15 / appear.01
+    :time (v1 / 后来
+        :time-of (v8 / be.03))
+    :ARG1 (v6 / 上校
+        :mod (v5 / 桑德斯))
+    :location v8
+    :location (v21 / 广告
+        :mod (v18 / 多)
+        :mod (v20 / 肯德基)))
+
+(v8 / analyze.01
+    :ARG0 (v4 / 小丑
+        :ARG0-of (v10 / research.01
+            :ARG1 (v14 / 事)))
+    :ARG1 v14)
+
+(v23 / involve.01
+    :time (v3 / 晚会)
+    :time (v6 / 哈利
+        :ARG0-of (v12 / present.01
+            :ARG1 (v18 / 邀请))
+        :ARG0-of (v14 / accept.01
+            :ARG1 v18))
+    :time (v11 / 分别)
+    :time v12
+    :ARG2 (v21 / 舞伴)
+    :time (v22 / 一起)
+    :ARG1 (v25 / 晚会))
+
+(v5 / be.01
+    :ARG1 (v4 / 车站
+        :mod (v1 / 最近)
+        :mod (v3 / 公交)))
+
+(v20 / keep.02
+    :ARG0 (v4 / 哈尔滨
+        :ARG0-of (v5 / achieve.01
+            :ARG1 (v8 / 总值
+                :mod (v6 / 地区)
+                :mod (v7 / 生产))))
+    :manner v5
+    :ARG1 (v25 / 速度
+        :mod (v24 / 增长)))
+
+(v37 / become.01
+    :ARG1 (v5 / 产品
+        :mod (v1 / 其中)
+        :mod (v2 / 哈尔滨)
+        :mod (v4 / 厂)
+        :ARG0-of (v6 / take.01
+            :ARG1 (v13 / 二分之一)
+            :time-of v37))
+    :ARG2 (v41 / 龙头
+        :mod (v40 / 行业)))
+
+(v18 / become.01
+    :ARG1 (v16 / 市场
+        :mod (v15 / 利基))
+    :ARG2 (v28 / 蛋糕
+        :mod (v26 / 块)
+        :mod (v27 / 肥硕)))
+
+(v7 / be.01
+    :ARG1 (v1 / 哈德逊)
+    :ARG2 (v16 / 城市
+        :mod (v15 / 个)))
+
+(v25 / have.03
+    :ARG0 (v21 / 品质
+        :ARG1-of (v19 / treat.01
+            :ARG2 (v27 / 人
+                :mod (v26 / 不少)
+                :ARG0-of (v28 / purchase.01
+                    :ARG1 (v15 / 价格
+                        :ARG0-of (v10 / make.01
+                            :ARG1 (v8 / be.01
+                                :ARG2 (v9 / 日本))))))))
+    :time (v24 / 依然)
+    :ARG1 v27)
+
+(v21 / retire.01
+    :time (v4 / 月)
+    :ARG1 (v7 / 组织)
+    :ARG0 (v10 / 哈旺罗布
+        :ARG0-of (v11 / enjoy.01
+            :ARG1 (v15 / 工资
+                :mod (v13 / 级)
+                :mod (v14 / 职务))
+            :time (v20 / 提前))))
+
+(v2 / be.01
+    :ARG2 (v11 / 外祖父))
+
+(v30 / quit.01
+    :ARG1 (v24 / 他
+        :ARG1-of (v5 / fight.01
+            :mod (v4 / 黑池)
+            :ARG0 (v1 / 保亚沙)
+            :time (v2 / 合共)
+            :time (v7 / 场)))
+    :time (v25 / 仍)
+    :mod (v27 / 季后))
+
+(v20 / be.03)
+
+(v9 / be.01
+    :ARG1 (v1 / 俱乐部)
+    :time (v4 / 年)
+    :ARG2 (v12 / 哈特兰德))
+
+(v3 / have.03
+    :time (v1 / 目前)
+    :ARG1 (v5 / 名)
+    :ARG0 (v7 / 自愿))
+
+(v12 / learn.01
+    :ARG0 (v8 / 男孩
+        :mod (v7 / 哈瑞迪)
+        :ARG1-of (v28 / be.01
+            :ARG2 (v32 / 研读)))
+    :manner (v11 / 再)
+    :ARG1 (v18 / 科学))
+
+(v2 / be.01
+    :ARG2 (v6 / 遗址
+        :mod (v4 / 个)
+        :mod (v5 / 小型)))
+
+(v7 / happen.01
+    :time (v2 / 1946)
+    :time (v3 / 年)
+    :ARG1 (v6 / 本土
+        :mod (v5 / 美国)))
+
+(v32 / lack.01
+    :time (v18 / 任职)
+    :ARG0 (v29 / 他们)
+    :ARG1 (v33 / 开展)
+    :mod (v28 / 此))
+
+(v4 / be.01
+    :ARG1 (v2 / 出乎意料))
+
+(v3 / be.01
+    :ARG1 (v2 / 枪机
+        :mod (v1 / 其))
+    :ARG2 (v29 / 步枪
+        :mod (v27 / 反)
+        :ARG1-of (v20 / make.02
+            :mod (v19 / 修改)
+            :ARG0 (v10 / 锁耳
+                :ARG0-of (v4 / use.01
+                    :ARG1 (v11 / 枪机
+                        :mod (v8 / 大形)
+                        :mod (v9 / 闭锁)
+                        :mod v10
+                        :ARG1-of (v12 / be.01)))))
+        :ARG2-of (v23 / be.01
+            :ARG1 (v21 / 其))))
+
+(v3 / be.01
+    :ARG1 (v2 / 比索
+        :mod (v1 / 哥伦比亚))
+    :ARG2 (v10 / 货币
+        :ARG1-of (v8 / use.01
+            :ARG0 (v4 / 哥伦比亚)
+            :time (v5 / 正)
+            :time (v6 / 在)
+            :manner (v7 / 流通))))
+
+(v17 / have.03
+    :ARG0 (v7 / 人
+        :ARG0-of (v1 / participate.01
+            :ARG1 (v5 / 工作
+                :mod (v3 / 号)
+                :mod (v4 / 建造)))
+        :ARG0-of (v9 / have.03
+            :time (v8 / 大约)
+            :ARG1 (v13 / 人)))
+    :manner (v15 / 其中)
+    :time (v16 / 约)
+    :ARG1 (v19 / 人
+        :ARG1-of (v20 / be.01
+            :ARG2 (v22 / 领取))))
+
+(v4 / come.01
+    :ARG1 (v3 / 结果
+        :mod (v2 / 个))
+    :time (v13 / 喜好))
+
+(v27 / end.01
+    :time (v8 / 渡过)
+    :ARG1 (v13 / 企图
+        :ARG2-of (v1 / follow.01
+            :ARG1 (v7 / 来临))
+        :ARG1-of (v14 / be.01
+            :ARG2 (v16 / 可能)))
+    :ARG0 (v25 / 行动
+        :mod (v20 / 军团)))
+
+(v2 / show.01
+    :ARG0 (v1 / 他)
+    :ARG1 (v4 / be.01
+        :ARG1-of (v19 / build.01)))
+
+(v4 / discover.01
+    :ARG1 (v25 / 化学))
+
+(v25 / rely.01
+    :ARG0 (v23 / 农业
+        :mod (v22 / 早期))
+    :ARG1 (v31 / 使用))
+
+(v18 / force.01
+    :ARG0 (v17 / 这)
+    :ARG1 (v23 / unite.01
+        :ARG2 (v22 / 西夏)
+        :ARG1 (v29 / 河州
+            :ARG0-of (v31 / kill.01
+                :ARG1 (v33 / 守将
+                    :mod (v32 / 其)))))
+    :ARG2 (v26 / 攻打))
+
+(v3 / become.01
+    :ARG1 (v2 / 法国
+        :ARG0-of (v8 / have.03
+            :ARG1 (v9 / 住房)))
+    :ARG2 (v13 / 国家
+        :mod (v5 / 欧洲)
+        :mod (v7 / 个)))
+
+(v4 / start.01
+    :time (v1 / 随后)
+    :ARG0 (v3 / 唐
+        :ARG0-of (v8 / prepare.02
+            :ARG1 (v5 / 集结)
+            :ARG2 (v17 / 攻
+                :mod (v11 / 年))))
+    :ARG1 v8)
+
+(v14 / force.01
+    :ARG0 (v3 / 辅国
+        :mod (v2 / 李))
+    :ARG2 (v5 / 肃宗)
+    :ARG1 (v15 / 玄宗
+        :ARG1-of (v17 / be.01)))
+
+(v3 / lack.01
+    :ARG0 (v1 / 玄宗
+        :ARG0-of (v4 / launch.01
+            :ARG1 (v21 / 行动
+                :mod (v19 / 开边)
+                :mod (v20 / 军事)
+                :ARG1-of v3))))
+
+(v5 / lack.01
+    :ARG1 (v2 / 此)
+    :ARG0 (v6 / 人
+        :ARG0-of (v9 / have.03
+            :time (v8 / 再)
+            :ARG1 (v12 / 言))))
+
+(v10 / appear.01
+    :time (v3 / 后期)
+    :ARG1 (v7 / 状况
+        :mod (v6 / 财务))
+    :location (v13 / 膨胀
+        :mod (v12 / 通货)))
+
+(v27 / have.03
+    :ARG0 (v26 / 演员
+        :mod (v25 / 同期))
+    :ARG1 (v29 / 文乐
+        :mod (v28 / 余)))
+
+(v10 / think.01
+    :ARG0 (v9 / 后者)
+    :ARG1 (v14 / 成分
+        :mod (v13 / 基本)
+        :ARG1-of (v15 / be.01)))
+
+(v16 / reflect.01
+    :ARG1 (v2 / 贷款
+        :mod (v1 / 投资))
+    :time (v9 / 一直)
+    :ARG2 (v11 / 其)
+    :mod (v14 / 表
+        :mod v11
+        :mod (v12 / 资产)))
+
+(v20 / deport.01
+    :time (v1 / 魏)
+    :ARG0 (v2 / 惠王
+        :mod v1)
+    :time (v3 / 怨恨)
+    :ARG1 (v19 / 其)
+    :time (v22 / 秦国))
+
+(v14 / have.01
+    :time (v16 / 边))
+
+(v22 / become.01
+    :ARG1 (v1 / 她
+        :ARG0-of (v11 / summon.01
+            :ARG1 (v15 / 力量)
+            :ARG2 (v17 / 自身)
+            :time (v20 / 人)
+            :time (v21 / 永远)))
+    :time (v3 / 擅长)
+    :ARG2 v20
+    :time v21)
+
+(v5 / rule.03
+    :ARG1 (v8 / 北部)
+    :ARG0 (v12 / 埃及))
+
+(v15 / be.03)
+
+(v14 / become.01
+    :location (v4 / 古堡
+        :mod (v3 / 恶灵))
+    :ARG1 (v8 / 植物
+        :ARG0-of (v11 / infect.01
+            :ARG2 (v12 / 病毒)
+            :ARG1 v14
+            :time-of v14))
+    :ARG2 (v16 / 丧尸))
+
+(v20 / graduate.01
+    :ARG0 (v7 / 皮克特
+        :ARG0-of (v8 / bear.02
+            :ARG1 (v13 / 里奇蒙)
+            :time (v6 / 日)))
+    :time (v16 / 年)
+    :ARG1 (v18 / 西点)
+    :manner (v19 / 军校
+        :mod v18))
+
+(v6 / stay.01
+    :ARG1 (v1 / 皮克特)
+    :location (v4 / 末年
+        :mod (v3 / 内战))
+    :time (v5 / 一直))
+
+(v2 / same.01
+    :ARG1 (v1 / 他
+        :ARG0-of (v4 / serve.01
+            :ARG1 (v10 / 成员
+                :mod (v8 / 英国)
+                :mod (v9 / 王室))))
+    :ARG2 (v3 / 首位))
+
+(v8 / be.01
+    :ARG1 (v7 / 婚姻)
+    :ARG2 (v16 / 婚姻
+        :mod (v9 / 英国)
+        :mod (v10 / 王室)
+        :mod (v11 / 最后)
+        :mod (v13 / 桩)
+        :mod (v14 / 门当户对)))
+
+(v4 / be.01
+    :ARG1 (v3 / bear.02
+        :ARG0 (v1 / 玛丽娜)
+        :ARG1 (v6 / 年)))
+
+(v23 / come.01
+    :time (v21 / 乔治)
+    :ARG1 (v22 / 王子
+        :mod v21)
+    :ARG2 (v24 / 南斯拉夫))
+
+(v37 / lack.01
+    :ARG0 (v18 / 电影
+        :mod (v9 / 部)
+        :ARG0-of (v38 / get.01
+            :ARG1 (v43 / 成功)
+            :ARG1-of v37)))
+
+(v5 / treat.01
+    :ARG1 (v1 / 汉密尔顿)
+    :location (v3 / 当时)
+    :ARG2 (v12 / 新星
+        :mod (v11 / 颗)))
+
+(v12 / design.01
+    :ARG0 (v8 / 光纤
+        :mod (v7 / 模)
+        :ARG1-of (v9 / be.01
+            :ARG2 (v22 / 光纤
+                :mod (v3 / 通讯
+                    :mod (v2 / 光纤))
+                :mod (v11 / 种)))
+        :ARG0-of (v13 / use.01
+            :ARG2 v12
+            :ARG1 v22))
+    :ARG1 v22)
+
+(v5 / have.03
+    :time (v1 / 通常)
+    :ARG0 (v3 / 光束)
+    :ARG1 (v10 / 光))
+
+(v4 / visit.01
+    :ARG0 (v1 / 大众
+        :ARG1-of (v3 / invite.01
+            :ARG2 v4
+            :ARG0 (v8 / 设施)))
+    :ARG1 v8)
+
+(v10 / call.01
+    :ARG1 (v1 / 火箭
+        :ARG1-of (v2 / launch.01)
+        :ARG0-of (v13 / launch.01
+            :ARG1 (v12 / 喷射)))
+    :time (v8 / 经常)
+    :ARG2 v12
+    :mod (v7 / 中期
+        :mod (v6 / 年代)))
+
+(v12 / head.02
+    :time (v2 / 年)
+    :ARG0 (v11 / 亲自)
+    :ARG1 (v13 / 视查))
+
+(v14 / be.01
+    :ARG1 (v9 / 年))
+
+(v19 / serve.01
+    :ARG0 (v1 / 嘉莉迪
+        :ARG0-of (v3 / participate.01)
+        :ARG1-of (v11 / be.01))
+    :time (v18 / 曾)
+    :ARG1 (v21 / 演员))
+
+(v6 / set_up.03
+    :ARG0 (v2 / 楼
+        :ARG1-of (v3 / be.01
+            :ARG2 (v4 / Penthouse)))
+    :ARG1 (v10 / 单位
+        :mod (v8 / 个)
+        :mod (v9 / 复式)))
+
+(v11 / publish.01
+    :ARG0 (v3 / 嘉薛地
+        :ARG0-of (v5 / research.01
+            :ARG1 (v6 / 历史)))
+    :time (v8 / 二战)
+    :time (v9 / 前)
+    :time (v10 / 曾)
+    :ARG1 (v21 / 文章
+        :mod (v12 / 一些)))
+
+(v7 / be.01
+    :ARG1 (v4 / 医生
+        :mod (v3 / 嘉熏))
+    :time (v6 / 最初))
+
+(v31 / become.01
+    :ARG1 (v29 / 中学
+        :ARG0-of (v38 / have.03
+            :ARG1 (v39 / 规模)))
+    :ARG2 (v42 / 团体
+        :mod (v33 / 香港)
+        :mod (v34 / 其中)
+        :mod (v36 / 个)
+        :mod (v41 / 制服)))
+
+(v51 / have.03
+    :time (v6 / 日)
+    :ARG0 (v49 / 另外)
+    :ARG1 (v53 / 人))
+
+(v2 / same.01
+    :ARG1 (v1 / 她)
+    :ARG2 (v7 / 年轻))
+
+(v21 / have.03
+    :ARG0 (v6 / 称呼
+        :mod (v2 / 语))
+    :ARG1 (v24 / 处
+        :mod (v22 / 相似))
+    :mod (v15 / 法
+        :mod (v13 / 数词)))
+
+(v19 / die.01
+    :time (v2 / 年
+        :time-of (v6 / explode.01
+            :ARG0 (v5 / 汗国
+                :mod (v4 / 准噶尔))
+            :ARG1 (v8 / 瘟疫)
+            :time (v15 / 月))
+        :ARG1-of (v16 / be.01
+            :ARG2 (v17 / 伊犁)))
+    :time (v10 / 五十)
+    :ARG1 (v13 / 噶尔丹策零)
+    :time v15
+    :time (v18 / 染病))
+
+(v21 / be.01
+    :ARG1 (v20 / 特性
+        :mod (v19 / 其)))
+
+(v3 / think.01
+    :ARG0 (v2 / 瑜
+        :mod (v1 / 萧))
+    :ARG1 (v6 / 拜访))
+
+(v8 / use.01
+    :ARG0 (v1 / 四川)
+    :ARG1 (v4 / 周边
+        :mod v1
+        :mod (v3 / 站))
+    :time (v6 / 目前)
+    :time (v7 / 仍)
+    :ARG2 (v15 / 住宅
+        :mod (v14 / 门)
+        :ARG1-of (v11 / build.01
+            :time (v10 / 世纪)
+            :ARG0 (v12 / 的))
+        :ARG1-of (v19 / be.01)))
+
+(v30 / call.01
+    :ARG0 (v18 / 语言
+        :mod (v17 / 其)))
+
+(v11 / reserve.01
+    :ARG0 (v3 / 联会
+        :mod (v1 / 国际)
+        :mod (v2 / 天文))
+    :ARG2 (v10 / 卫星)
+    :ARG1 (v12 / 因纽特))
+
+(v4 / be.01
+    :ARG1 (v6 / 皇室)
+    :ARG2 (v7 / 宗女
+        :mod (v5 / 一般)
+        :mod v6))
+
+(v13 / achieve.01
+    :ARG0 (v9 / 队
+        :ARG0-of (v10 / compete.01))
+    :ARG1 (v14 / 高潮))
+
+(v5 / be.01
+    :ARG2 (v13 / 直属))
+
+(v4 / be.01)
+
+(v7 / be.01)
+
+(v18 / assist.01
+    :ARG0 (v1 / 各国
+        :ARG0-of (v15 / have.03
+            :ARG1 (v16 / 义务))))
+
+(v5 / be.01
+    :ARG1 (v4 / 其)
+    :ARG2 (v6 / 国外))
+
+(v6 / push.01
+    :time (v1 / 追求
+        :ARG1 (v2 / 利润))
+    :ARG0 (v4 / 动机)
+    :ARG2 (v5 / 不断)
+    :ARG1 (v14 / 发展
+        :mod (v13 / 前)))
+
+(v5 / be.01
+    :ARG1 (v4 / 宗旨
+        :ARG0-of (v9 / push.01
+            :ARG1 (v11 / 理论
+                :mod (v10 / 电磁))
+            :ARG2 (v27 / 教育))))
+
+(v11 / happen.01
+    :ARG1 (v3 / 战役
+        :mod (v2 / 场))
+    :time (v8 / 月)
+    :time (v14 / 图卡佩尔)
+    :mod (v10 / 日
+        :mod (v6 / 年)
+        :mod v8))
+
+(v10 / live.01
+    :ARG0 (v13 / 海鸟
+        :mod (v12 / 大量)
+        :ARG1-of (v1 / be.01
+            :ARG2 (v8 / 小岛
+                :mod (v6 / 个)
+                :mod (v7 / 灯塔)))))
+
+(v11 / bomb.01
+    :ARG0 (v4 / 他们)
+    :ARG1 (v10 / Tu-16))
+
+(v12 / be.03
+    :time (v1 / 最初))
+
+(v12 / have.03
+    :ARG1 (v5 / 总统)
+    :ARG0 (v15 / 元首
+        :mod (v13 / 部分)
+        :mod (v14 / 国家)
+        :ARG1-of (v16 / be.01
+            :ARG2 (v23 / produce.01
+                :ARG0 v15))))
+
+(v11 / be.01)
+
+(v13 / explode.01
+    :time (v12 / 日)
+    :ARG1 (v17 / 会战
+        :mod (v15 / 淞)
+        :mod (v16 / 沪)
+        :ARG2-of (v6 / involve.01
+            :ARG1 (v2 / 军)
+            :time (v5 / 随即))))
+
+(v15 / try.01
+    :ARG0 (v7 / 偷袭)
+    :ARG1 (v16 / 切断))
+
+(v15 / be.01
+    :ARG1 (v3 / 该军
+        :ARG0-of (v23 / fight.01
+            :ARG1 (v22 / 日)
+            :time v1)
+        :ARG0-of (v18 / serve.01
+            :ARG1 (v20 / 战场
+                :mod (v19 / 敌后))
+            :time (v1 / 此时)))
+    :ARG2 (v17 / 战区
+        :mod (v16 / 苏鲁)))
+
+(v13 / run.01
+    :ARG1 (v3 / 香港)
+    :ARG0 (v12 / 国泰))
+
+(v7 / set_up.03
+    :ARG0 (v6 / 国)
+    :ARG1 (v9 / 大学
+        :mod (v8 / 中央))
+    :mod-of v9)
+
+(v12 / be.01)
+
+(v43 / reserve.01
+    :ARG0 (v3 / 政府
+        :mod (v1 / 中央)
+        :mod (v2 / 人民)
+        :ARG0-of (v4 / appoint.01
+            :ARG2 (v17 / 叔平
+                :mod (v16 / 孙)
+                :ARG1-of (v25 / be.01
+                    :ARG2 (v26 / 第一)))
+            :ARG1 (v39 / 第二
+                :ARG2-of (v38 / be.01
+                    :ARG1 (v31 / 方训
+                        :mod (v30 / 李))))))
+    :ARG1 v4
+    :ARG2 (v45 / 南大)
+    :ARG3 (v52 / 机关
+        :mod (v51 / 行政)
+        :ARG1-of (v50 / organize.01)))
+
+(v6 / have.03
+    :ARG0 (v4 / 校门)
+    :time (v5 / 目前)
+    :ARG1 (v8 / 座))
+
+(v19 / have.03
+    :ARG0 (v18 / 周遭)
+    :ARG1 (v20 / 许多))
+
+(v7 / have.03
+    :ARG0 (v4 / 期间
+        :mod (v3 / 段))
+    :ARG1 (v9 / 球员
+        :ARG0-of (v11 / join.01
+            :ARG1 (v12 / 国家))
+        :ARG0-of (v17 / graduate.01)
+        :ARG0-of (v21 / join.01
+            :time v17
+            :time (v20 / 陆续)
+            :ARG1 (v8 / 许多))
+        :ARG1-of (v27 / become.01
+            :time (v10 / 获选)
+            :ARG2 (v34 / 来源
+                :mod (v33 / 重要)))))
+
+(v41 / be.01
+    :ARG1 (v3 / 学校
+        :mod (v1 / 屏东)
+        :mod (v2 / 农业))
+    :ARG2 (v43 / 五))
+
+(v3 / be.01
+    :ARG1 (v2 / 楼
+        :ARG0-of (v4 / supply.01
+            :ARG1 (v5 / 学生)
+            :ARG2-of v3)))
+
+(v13 / restore.01
+    :time (v12 / 年))
+
+(v9 / have.03
+    :time (v7 / 是否)
+    :ARG1 (v13 / 时间
+        :mod (v10 / 足够)
+        :mod (v12 / 讨论)))
+

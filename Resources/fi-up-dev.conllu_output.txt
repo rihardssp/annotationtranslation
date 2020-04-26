@@ -1,0 +1,3676 @@
+# Generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_Finnish
+
+
+(v3 / start.01
+    :ARG0 (v2 / pyöritys)
+    :time (v6 / bloggaaja#brunssi
+        :ARG1-of (v5 / organize.01
+            :ARG0 (v4 / H&M)))
+    :location (v7 / Helsinki))
+
+(v2 / show.01
+    :ARG2 (v1 / Showroom)
+    :ARG1 (v4 / The
+        :mod (v3 / uusi))
+    :mod (v12 / muoti#bloggaja
+        :mod (v11 / aamu#uninen)))
+
+(v1 / come.01
+    :ARG4 (v3 / kaupunki)
+    :manner (v4 / kamera#ryhmä)
+    :time (v8 / yksi#toista))
+
+(v4 / wait.01
+    :ARG2 (v1 / asema)
+    :ARG1 (v6 / suosikki#bloggaaja)
+    :mod (v2 / minä))
+
+(v8 / come.01
+    :ARG2 (v2 / Salla)
+    :direction (v7 / paikka
+        :location-of (v1 / be.01
+            :ARG2 v8)))
+
+(v5 / embrace.01
+    :time (v1 / yleensä)
+    :ARG0 (v2 / Peppi)
+    :ARG1 (v6 / ihminen))
+
+(v3 / get.01
+    :ARG1 (v1 / sellainen))
+
+(v3 / weigh.01
+    :ARG0 (v2 / minä))
+
+(v2 / get.01
+    :time (v1 / lopulta)
+    :ARG1 (v4 / take.01
+        :ARG1 (v3 / hali#kuva)))
+
+(v1 / stick.01
+    :time (v2 / heti)
+    :ARG1 (v5 / seinä))
+
+(v2 / be.01
+    :ARG2 (v1 / hylly)
+    :ARG1 (v5 / tuote))
+
+(v6 / agree.01
+    :ARG0 (v3 / lapsi
+        :mod (v2 / sisäinen)
+        :ARG0-of (v7 / disappear.01))
+    :ARG1 v7)
+
+(v10 / happen.01
+    :ARG2 (v2 / asunto
+        :mod (v1 / oma))
+    :ARG1 (v9 / hyvin
+        :mod (v8 / hurja)))
+
+(v4 / call.01
+    :manner (v2 / asia
+        :mod (v1 / tosi))
+    :ARG0 (v3 / päivä#peitto)
+    :ARG1 (v6 / koriste#tyyny
+        :mod (v5 / värikäs)))
+
+(v2 / find.01
+    :location (v1 / mallisto)
+    :ARG1 (v4 / kiva))
+
+(v3 / be.01
+    :ARG1 (v1 / eräs
+        :mod (v2 / suosikki#juttu))
+    :ARG2 (v9 / kesä#mekko
+        :mod (v8 / värinen
+            :mod (v5 / vihreä))))
+
+(v6 / appeal.03
+    :ARG0 (v2 / väri)
+    :ARG1 (v7 / minä))
+
+(v2 / do.02
+    :ARG2 (v3 / mieli)
+    :cause (v8 / need.01
+        :ARG0 (v7 / vartalo)
+        :ARG1 (v12 / mekko
+            :mod (v11 / mallinen
+                :mod (v10 / tietty)))))
+
+(v3 / know.01
+    :ARG1 (v6 / say.01
+        :ARG1 (v1 / malli)
+        :ARG0 (v2 / ei))
+    :mod (v5 / peruste))
+
+(v6 / gossip.01
+    :ARG0 (v1 / Lintu)
+    :location (v8 / showroom))
+
+(v3 / be.01
+    :ARG2 (v1 / aihe)
+    :ARG1 (v6 / Asplund#ihastus
+        :mod (v5 / yllättävä)))
+
+(v5 / learn.01
+    :manner (v3 / miten)
+    :ARG0 (v4 / sitä)
+    :ARG1 (v6 / look.01
+        :ARG1 (v7 / vaate)
+        :ARG2 (v10 / silmä)))
+
+(v1 / wander.01
+    :direction (v2 / ympäriinsä))
+
+(v1 / be.01
+    :time (v2 / kyllä)
+    :ARG2 (v3 / kiva))
+
+(v3 / come.01
+    :ARG2 (v1 / Salla))
+
+(v4 / drown.02
+    :ARG1 (v2 / pätkä
+        :mod (v1 / minunlainen))
+    :mod (v5 / tuo))
+
+(v2 / know.01
+    :ARG1 (v5 / picture.01
+        :location (v1 / Salla)
+        :ARG1 (v4 / neule)))
+
+(v3 / invade.01
+    :ARG0 (v2 / bloggaaja
+        :mod (v1 / väsynyt))
+    :ARG1 (v6 / istumapaikka
+        :mod (v5 / mahdollinen)))
+
+(v4 / say.01
+    :location (v1 / tämä)
+    :ARG1 (v5 / muu))
+
+(v1 / be.01
+    :time (v3 / vähän)
+    :ARG2 (v4 / ilmeetön)
+    :time (v7 / joskus))
+
+(v3 / be.01
+    :ARG1 (v2 / suhde)
+    :ARG2 (v5 / alku))
+
+(v2 / make_it.14
+    :ARG1 (v3 / be.01
+        :ARG2 (v6 / kauaa)
+        :mod (v4 / tilaisuus))
+    :cause (v15 / leave.11
+        :ARG0 (v9 / minä
+            :ARG0-of (v18 / prepare.02
+                :ARG1 (v17 / blogi#risteily)))
+        :time (v16 / laiva)
+        :ARG1 v18))
+
+(v1 / make_it.14
+    :time (v2 / silti)
+    :ARG1 (v3 / register.02
+        :ARG2 (v4 / muisti)
+        :ARG1 (v8 / asia
+            :mod (v7 / arvoinen))))
+
+(v3 / touch.01
+    :ARG1 (v6 / kenkä
+        :mod (v5 / valkoinen))
+    :time (v8 / hartaasti))
+
+(v2 / be.01
+    :ARG2 (v3 / kiva))
+
+(v4 / be.01
+    :ARG1 (v1 / bagel)
+    :ARG2 (v6 / tapa
+        :mod (v5 / ihana)
+        :manner-of (v7 / start.01
+            :ARG1 (v8 / aamu))))
+
+(v4 / arrange.01
+    :time (v1 / toivottavasti)
+    :ARG1 (v3 / tilaisuus
+        :mod (v2 / tällainen))
+    :time (v5 / lisää))
+
+(v6 / enjoy.01
+    :ARG0 (v1 / Johanna)
+    :ARG1 (v7 / aamiainen)
+    :mod (v9 / nurkka))
+
+(v3 / be.01
+    :ARG1 (v2 / smoothie
+        :mod (v1 / punainen))
+    :location (v5 / mieli)
+    :ARG2 (v8 / hyvä
+        :mod v5))
+
+(v3 / feel.01
+    :time (v2 / temporal-quantity
+        :unit (vg0 / aika)
+        :quant yksi)
+    :ARG1 (v4 / do.02))
+
+(v1 / get.01
+    :time (v2 / lähteä)
+    :time (v3 / vielä)
+    :ARG2 (v4 / mukaan)
+    :ARG1 (v11 / alennus#kuponki
+        :mod (v6 / eväs
+            :mod (v9 / kiitos))))
+
+(v2 / be.01
+    :ARG1 (v1 / paita)
+    :ARG2 (v3 / valkoinen))
+
+(v2 / be.01
+    :ARG1 (v1 / malli)
+    :ARG2 (v4 / löysä
+        :mod (v3 / ihana)
+        :mod (v6 / hiha
+            :mod (v5 / liehuva)
+            :time-of v2)))
+
+(v3 / prepare.02
+    :ARG1 (v1 / paita)
+    :location (v11 / polyesteri
+        :ARG1-of (v10 / prepare.02
+            :ARG2 (v7 / palautus#pullo
+                :mod (v6 / muovinen)))))
+
+(v4 / be.01
+    :ARG1 (v3 / hankkia)
+    :time (v5 / sittenkin)
+    :ARG2 (v6 / virhe))
+
+(v3 / say.01
+    :ARG0 (v1 / Minttu)
+    :ARG1 (v7 / paita)
+    :ARG2 (v8 / hame))
+
+(v3 / be.01
+    :ARG1 (v1 / blogi#äiti)
+    :ARG2 (v5 / tarve))
+
+(v4 / be.01
+    :ARG1 (v3 / nimi)
+    :ARG2 (v6 / The))
+
+(v2 / get.01
+    :ARG0 (v1 / mallisto)
+    :location (v4 / minä)
+    :ARG1 (v6 / plussa
+        :mod (v5 / suuri))
+    :mod (v7 / se))
+
+(v2 / leave.11
+    :time (v1 / nyt)
+    :ARG1 (v3 / describe.01
+        :ARG1 (v5 / ostos)))
+
+(v3 / clean_up.02
+    :time (v5 / kunnolla)
+    :mod (v6 / kamera#ryhmä))
+
+(v1 / be.01
+    :time (v2 / nyt)
+    :ARG2 (v3 / muuten)
+    :ARG1 (v5 / höpötys))
+
+(v1 / come.01
+    :time (v2 / nyt)
+    :time (v13 / pyytää
+        :location (v12 / täällä)
+        :time-of (v3 / tell.01
+            :time (v6 / laaja)
+            :ARG2 (v7 / aihe))))
+
+(v2 / like.02
+    :time (v1 / toivottavasti))
+
+(v11 / be.01
+    :ARG2 (v12 / build.01
+        :ARG0 (v10 / suunnitelma)
+        :ARG1 (v23 / intervalli#ajastin
+            :mod (v27 / kamera)))
+    :mod v10)
+
+(v2 / acquire.01
+    :ARG1 (v3 / kasa
+        :mod (v4 / osa)))
+
+(v1 / know.01
+    :ARG1 (v5 / be.01
+        :ARG2 (v6 / be.01)))
+
+(v3 / be.01
+    :ARG1 (v2 / homma
+        :mod (v1 / koko))
+    :time (v5 / vielä)
+    :ARG2 (v7 / suunnittelu#pöytä))
+
+(v3 / mean.01
+    :ARG1 (v1 / tämä))
+
+(v3 / be.01
+    :ARG2 (v2 / hallinta
+        :mod (v1 / täydellinen))
+    :ARG1 (v6 / puoli
+        :mod (v5 / hyvä)))
+
+(v2 / give.01
+    :ARG0 (v1 / tämä)
+    :ARG1 (v4 / ongelma)
+    :cause (v9 / be.01
+        :ARG1 (v7 / minä
+            :ARG0-of (v19 / take.01
+                :ARG1 (v21 / pinni)))
+        :time (v11 / näyttö)
+        :ARG2 (v13 / buy.01
+            :ARG1 (v15 / ledi#näyttö
+                :mod (v14 / tuollainen)))))
+
+(v3 / end_up.03
+    :time (v1 / toden#näköisesti)
+    :time (v4 / aluksi)
+    :ARG2 (v5 / ratkaisu))
+
+(v3 / believe.01
+    :time (v2 / muuten)
+    :ARG1 (v4 / need.01
+        :ARG0 (v1 / ei)
+        :ARG1 (v8 / valotus)))
+
+(v2 / put.01
+    :ARG1 (v5 / flash.01
+        :ARG0 (v4 / ledi)
+        :time (v9 / painaa
+            :ARG1 (v8 / nappi))))
+
+(v13 / come.01
+    :ARG2 (v14 / attach.01
+        :ARG2 (v16 / projekti))
+    :time (v19 / käyttää
+        :ARG1 (v18 / hyvä)))
+
+(v3 / be.01
+    :ARG1 (v2 / pinni)
+    :ARG2 (v4 / paljon))
+
+(v3 / produce.01
+    :ARG1 (v2 / pään#vaiva
+        :mod (v1 / pieni))
+    :ARG0 (v6 / moottori))
+
+(v3 / interest.01
+    :ARG1 (v1 / lukija))
+
+(v4 / pay.01
+    :ARG0 (v2 / proto#tyyppi)
+    :time (v5 / tämä)
+    :ARG1 (v9 / euro)
+    :ARG3 (v10 / posti#kulut))
+
+(v3 / get.01
+    :ARG1 (v2 / versio
+        :mod (v1 / lopullinen))
+    :time (v8 / temporal-quantity
+        :unit (vg0 / euro)
+        :quant 150)
+    :cause (v12 / miss.01
+        :manner (v11 / proto#tyyppi)
+        :time (v13 / vielä)
+        :ARG0 (v16 / materiaali)))
+
+(v3 / pay.01
+    :ARG1 (v2 / mikä))
+
+(v4 / see.01
+    :ARG1 (v2 / mikä))
+
+(v2 / be.01
+    :ARG1 (v1 / kolvaus)
+    :ARG2 (v4 / taso))
+
+(v4 / work.01
+    :ARG1 (v1 / pää#asia)
+    :ARG0 (v3 / vehje))
+
+(v2 / attach.01
+    :ARG0 (v1 / Shield)
+    :ARG2 (v3 / Arduino)
+    :manner (v4 / näin))
+
+(v6 / need.01
+    :ARG0 (v5 / joka)
+    :ARG1 (v8 / kymmenen))
+
+(v2 / pay.01
+    :ARG0 (v1 / setti)
+    :ARG1 (v3 / kymppi))
+
+(v1 / use.01
+    :ARG1 (v3 / erottaa
+        :mod (v4 / kamera)))
+
+(v5 / defuse.01
+    :ARG1 (v4 / joka))
+
+(v3 / be.01
+    :ARG2 (v2 / plugi))
+
+(v1 / find.01
+    :time (v4 / aika)
+    :ARG1 (v10 / find.01
+        :ARG1 (v8 / Twitter#tili)
+        :location (v12 / haku)))
+
+(v8 / filter.02)
+
+(v4 / be.01
+    :ARG1 (v2 / kyse)
+    :ARG2 (v6 / vika))
+
+(v10 / know.01
+    :ARG1 (v1 / syy
+        :mod (v2 / se)))
+
+(v3 / cause.01
+    :mod (v7 / retweet
+        :mod (v5 / usea)
+        :mod (v6 / peräkkäinen)))
+
+(v3 / find.01
+    :ARG1 (v2 / syy)
+    :location (v5 / Help))
+
+(v3 / know.01
+    :manner (v1 / kuinka)
+    :time (v2 / sitten)
+    :ARG1 (v7 / bannata))
+
+(v1 / go.02
+    :ARG4 (v3 / haku))
+
+(v4 / find.01
+    :ARG1 (v2 / tulos))
+
+(v4 / correct.01
+    :ARG1 (v1 / tilanne)
+    :time (v3 / onneksi))
+
+(v1 / follow.02
+    :ARG1 (v3 / ohje
+        :mod (v2 / seuraava)))
+
+# ::sentence-text: 1. Mene osoitteeseen http://support.twitter.com/forms ja avaa uusi ticket ( vikailmoitus / avunpyyntö )
+(v2 / go.02
+    :time (v1 / 1.)
+    :ARG4 (v3 / osoite))
+
+(v2 / write.01
+    :time (v1 / 2.)
+    :ARG1 (v3 / vika))
+
+(v2 / wait.01
+    :ARG2 (v1 / 3.)
+    :time (v7 / vastata
+        :ARG0 (v6 / tuki)))
+
+(v7 / show_up.02
+    :location (v4 / haku)
+    :time (v5 / korjaus))
+
+(v2 / be.01
+    :ARG2 (v1 / minä))
+
+(v13 / get.03
+    :time (v12 / viikko)
+    :ARG2 (v17 / teema
+        :mod (v14 / valtiollinen)))
+
+(v3 / be.01
+    :time (v1 / tänään)
+    :ARG1 (v4 / Dodenherdenking))
+
+(v4 / find.01
+    :time (v2 / päivä)
+    :ARG0 (v3 / hollantilainen)
+    :ARG1 (v5 / Manhattan))
+
+(v2 / be.01
+    :time (v1 / huomenna)
+    :ARG1 (v3 / Liberation))
+
+(v14 / leave.11
+    :ARG1 (v4 / stay.01
+        :time (v3 / nyt)
+        :time (v7 / menneisyys))
+    :time (v12 / niin)
+    :time (v13 / perjantai)
+    :time (v19 / viikon#loppu)
+    :direction (v20 / Bryssel)
+    :mod (v15 / Caro))
+
+(v6 / be.01
+    :ARG1 (v4 / teema
+        :mod (v3 / kantava))
+    :ARG2 (v7 / laiskottelu)
+    :time (v15 / sopia
+        :ARG1 (v10 / lomailu)
+        :time (v12 / nyt)
+        :manner (v13 / ihan)
+        :ARG2 (v16 / minä)))
+
+(v6 / loom.01
+    :time (v1 / varsinkaan)
+    :ARG1 (v7 / Suomi#loma)
+    :mod (v4 / viikko))
+
+(v6 / be.01
+    :ARG1 (v5 / askare
+        :mod (v2 / suuri))
+    :ARG2 (v8 / pesu))
+
+(v5 / be.01
+    :ARG1 (v2 / teema)
+    :time (v4 / sitten)
+    :ARG2 (v7 / juhla#mekko#paniikki
+        :mod (v6 / orastava)))
+
+(v3 / get.01
+    :ARG0 (v2 / mekko
+        :ARG1-of (v5 / happen.01
+            :manner (v4 / mielellään)
+            :ARG2 (v6 / ilta#juhla
+                :mod (v7 / Finlandia#talo))))
+    :manner v4
+    :ARG1 v5)
+
+(v9 / spoil.01
+    :location (v2 / täällä)
+    :time (v3 / nyt)
+    :manner (v7 / kauppa#valikoima
+        :mod (v6 / suuri))
+    :ARG1 (v8 / asukas))
+
+(v1 / buy.01
+    :ARG1 (v4 / korkkari
+        :mod (v3 / uusi)))
+
+(v11 / find.01
+    :cause (v1 / miksi)
+    :time (v7 / tarvita
+        :ARG1 (v8 / jokin))
+    :ARG1 (v12 / mikään))
+
+(v10 / find.01
+    :time (v5 / olla
+        :ARG1 (v3 / raha))
+    :ARG1 (v12 / mikä))
+
+(v4 / mean.01
+    :ARG0 (v6 / painostus
+        :mod (v5 / julkinen)
+        :ARG1-of (v7 / forget.01))
+    :ARG1 v7)
+
+(v7 / send.01
+    :ARG0 (v3 / perheen#jäsen)
+    :time (v4 / nyt)
+    :time (v6 / vihdoin)
+    :ARG1 (v9 / Lontoo))
+
+(v3 / start.01
+    :ARG0 (v6 / kuu#kausi
+        :ARG1-of (v9 / be.01
+            :ARG2 (v8 / matka)
+            :ARG1-of v3))
+    :mod (v2 / tämä))
+
+(v1 / shine.01
+    :ARG1 (v2 / kiinan#kaali))
+
+(v9 / be.01
+    :ARG1 (v4 / lisäke
+        :mod (v6 / ruoka))
+    :ARG2 (v11 / kiinan#kaali
+        :ARG1-of (v10 / shine.01)))
+
+(v2 / come.01
+    :time (v4 / harvoin))
+
+(v5 / alter.01
+    :ARG1 (v2 / kiinan#kaali
+        :ARG1-of (v1 / shine.01))
+    :manner (v4 / helposti)
+    :ARG2 (v8 / mukainen))
+
+(v3 / pay.01
+    :ARG1 (v6 / cook.01
+        :ARG1 (v2 / aines
+            :ARG1-of (v1 / add.02)
+            :ARG1-of (v4 / be.01
+                :time (v5 / nopsaan)
+                :ARG2 v6))
+        :time v5)
+    :cause (v11 / go.02
+        :ARG4 (v10 / paistaa)
+        :ARG0 (v14 / minuutti)))
+
+(v1 / cut.02
+    :ARG1 (v2 / kiinan#kaali)
+    :ARG2 (v5 / kahtia
+        :mod (v4 / pituus#suunta)))
+
+(v1 / heat_up.02
+    :location (v2 / paistin#pannu)
+    :ARG1 (v3 / rasva))
+
+(v1 / increase.01
+    :time (v2 / sitten)
+    :ARG1 (v3 / kiinan#kaali)
+    :time (v5 / pannu))
+
+(v2 / cook.01
+    :ARG0 (v1 / kiinan#kaali)
+    :time (v5 / minuutti))
+
+(v1 / watch_out.02
+    :ARG1 (v4 / ylikypsentää
+        :mod (v5 / mössö)))
+
+(v1 / put.01
+    :ARG1 (v2 / mauste)
+    :time (v6 / paprika#suikale))
+
+(v1 / check.01
+    :ARG1 (v2 / maku))
+
+(v1 / shine.01
+    :ARG1 (v2 / kiinan#kaali
+        :ARG1-of (v3 / be.01
+            :ARG2 (v4 / hyvä
+                :mod (v7 / perus#versio
+                    :mod (v6 / tällainen)
+                    :time-of v3)))))
+
+(v3 / eat.01
+    :time (v2 / kerta)
+    :ARG1 (v5 / kiinan#kaali
+        :ARG1-of (v4 / shine.01))
+    :manner (v7 / kyljys
+        :mod (v6 / valko#sipuli)))
+
+(v1 / shine.01
+    :ARG1 (v2 / kiinan#kaali))
+
+(v2 / eat.01
+    :ARG0 (v1 / minä)
+    :time (v3 / kaksistaan)
+    :ARG1 (v7 / lisäke
+        :ARG1-of (v6 / do.02
+            :ARG2 (v5 / kiinan#kaali))))
+
+(v3 / check.01
+    :ARG0 (v2 / kiinan#kaali
+        :ARG1-of (v1 / shine.01))
+    :manner (v4 / hyvin)
+    :ARG2 (v12 / lisäke))
+
+(v1 / try.01)
+
+(v6 / cut.02
+    :ARG1 (v8 / tuotanto#kiintiö))
+
+(v2 / be.01
+    :time (v1 / siksi)
+    :ARG2 (v4 / asia
+        :mod (v3 / hyvä)))
+
+(v3 / join.01
+    :ARG0 (v2 / markkina#järjestely)
+    :time (v4 / kiinteästi)
+    :ARG1 (v6 / markkina#järjestely))
+
+(v2 / be.01
+    :ARG2 (v3 / oikeutettu)
+    :cause (v8 / work.01
+        :ARG0 (v7 / tuottaja)
+        :location (v10 / osa
+            :mod (v9 / merkittävä))
+        :location (v12 / markkinat)))
+
+(v1 / be.01
+    :time (v2 / erittäin)
+    :ARG2 (v3 / tärkeä))
+
+(v4 / disturb.01
+    :ARG0 (v3 / ehdotus
+        :mod (v2 / alku#peräinen))
+    :ARG1 (v9 / tasa#paino
+        :mod (v8 / välinen))
+    :manner (v10 / vakavasti))
+
+(v4 / be.01
+    :ARG2 (v2 / ehdotus)
+    :ARG1 (v6 / seuraus
+        :mod (v5 / tuhoisa)
+        :mod (v9 / tulo)))
+
+(v2 / want.01
+    :ARG0 (v1 / komissio
+        :ARG0-of (v3 / replace.01
+            :ARG1 (v5 / lasku)
+            :ARG2 (v8 / prosentti)
+            :ARG1-of v2)))
+
+(v2 / fix.02
+    :ARG0 (v1 / neuvosto)
+    :ARG1 (v3 / tämä)
+    :time (v4 / oikeutetusti)
+    :ARG2 (v5 / raise.01
+        :ARG1 (v6 / tulo#lisä)
+        :ARG2 (v8 / prosentti
+            :mod (v10 / lasku))))
+
+(v9 / connect.01
+    :ARG0 (v8 / neuvosto)
+    :ARG1 (v11 / päätös)
+    :ARG2 (v14 / asetus
+        :mod (v16 / pienentää)))
+
+(v3 / be.01
+    :ARG2 (v2 / ratkaisu)
+    :ARG1 (v5 / hyöty)
+    :mod (v4 / ala))
+
+(v3 / fit.06
+    :ARG1 (v2 / pienentää)
+    :manner (v5 / erinomaisesti)
+    :ARG2 (v7 / kysyntä
+        :mod (v6 / nykyinen)
+        :mod (v10 / peruna#tärkkelys#markkinat)))
+
+(v6 / expand.01
+    :time (v2 / vuosi)
+    :ARG1 (v5 / kiintiö
+        :mod (v4 / eurooppalainen))
+    :cause (v8 / syy
+        :mod (v7 / poliittinen)))
+
+(v3 / give.01
+    :ARG2 (v2 / Saksa
+        :mod (v1 / uusi))
+    :ARG1 (v7 / kiintiö))
+
+(v6 / get.01
+    :ARG0 (v5 / valtio
+        :ARG1-of (v4 / join.01
+            :time (v1 / viimeksi)
+            :ARG3 (v3 / jäsen)))
+    :ARG1 (v11 / kiintiö))
+
+(v6 / deserve.01
+    :manner (v1 / lyhyesti)
+    :ARG0 (v3 / ehdotus
+        :mod (v5 / pienentää))
+    :ARG1 (v8 / tuki))
+
+(v2 / allow.01)
+
+(v4 / justify.01
+    :ARG0 (v3 / markkina#tilanne
+        :mod (v2 / nykyinen))
+    :ARG1 (v6 / päätös))
+
+(v4 / be.01
+    :time (v2 / puhe#mies)
+    :ARG2 (v7 / mieli))
+
+(v3 / be.01
+    :ARG1 (v2 / menettely)
+    :time (v4 / kovin)
+    :ARG2 (v5 / virallinen))
+
+(v1 / remind.01
+    :ARG1 (v7 / be.01
+        :ARG2 (v5 / epä#luottamus#lause
+            :ARG1-of (v4 / mention.01))
+        :ARG1 (v12 / ryhmä
+            :mod (v11 / poliittinen))
+        :mod (v8 / poikkeus)))
+
+(v5 / share.01
+    :ARG1 (v3 / pöytä#kirja))
+
+(v1 / be.01
+    :ARG2 (v2 / point_out.02))
+
+(v14 / be.01
+    :ARG1 (v13 / minä)
+    :ARG2 (v16 / iloinen
+        :mod (v15 / kaikki)
+        :mod (v18 / kirja
+            :mod (v17 / vihreä)
+            :time-of v14)))
+
+(v1 / allow.01
+    :ARG1 (v5 / say.01
+        :ARG0 (v2 / minä)
+        :ARG1 (v11 / get.01
+            :ARG0 (v10 / mietintö)
+            :ARG1 (v13 / arvio
+                :mod (v12 / myönteinen)))))
+
+(v1 / want.01
+    :ARG1 (v3 / congratulate.01
+        :ARG1 (v5 / Graenitz)
+        :mod (v6 / se)))
+
+(v3 / pretend.01
+    :ARG0 (v2 / komissio)
+    :location (v4 / ehdotus)
+    :location (v7 / muuttaa)
+    :ARG1 (v14 / be.01
+        :ARG1 (v13 / hallinto#komitea)
+        :ARG2 (v15 / vastuu
+            :mod (v21 / hyväksyä))))
+
+(v6 / be.01
+    :ARG1 (v3 / talous)
+    :time (v7 / vielä)
+    :ARG2 (v9 / mieli)
+    :mod (v2 / esitys))
+
+(v6 / support.01
+    :time (v2 / lausunto)
+    :ARG0 (v3 / talous)
+    :ARG1 (v8 / ehdotus))
+
+(v3 / support.01
+    :ARG0 (v2 / parlamentti)
+    :time (v4 / lausunto#luonnos)
+    :ARG1 (v6 / ehdotus))
+
+(v1 / allow.01
+    :ARG1 (v3 / say.01
+        :ARG0 (v2 / minä)
+        :ARG2 (v4 / tämä)
+        :ARG1 (v36 / talk.01
+            :ARG0 (v35 / perustelu
+                :mod (v8 / syy
+                    :mod (v7 / käytännöllinen))
+                :mod (v34 / oikeudellinen))
+            :ARG1 (v38 / ehdotus))))
+
+(v2 / want.01
+    :ARG1 (v11 / come.01
+        :ARG2 (v13 / ajatus)
+        :mod (v9 / väärin#käsitys)))
+
+(v5 / come.01
+    :ARG2 (v1 / maalis#kuu)
+    :ARG1 (v4 / yksikkö
+        :mod (v3 / oikeudellinen))
+    :manner (v6 / lausunto
+        :mod (v8 / perusta
+            :mod (v7 / oikeudellinen)))
+    :mod (v13 / toteuttaa))
+
+(v2 / be.01
+    :ARG1 (v1 / kysymys)
+    :mod (v3 / se))
+
+(v3 / like.02
+    :ARG1 (v9 / peruste)
+    :mod (v2 / lausunto)
+    :mod (v11 / se))
+
+(v12 / contain.01
+    :ARG0 (v1 / asia#kirja
+        :mod (v7 / tuotanto))
+    :ARG1 (v13 / määräys
+        :mod (v16 / yhdenmukaistaa)))
+
+(v6 / get.01
+    :location (v4 / noudattaa)
+    :ARG0 (v5 / ei
+        :ARG0-of (v7 / leave.11
+            :ARG2 (v8 / huomio)
+            :ARG1 (v11 / vaatimus)
+            :ARG1-of v6)))
+
+(v8 / place.01
+    :ARG2 (v4 / yhteys)
+    :ARG1 (v7 / suojelu)
+    :mod (v9 / etu#sija))
+
+(v5 / say.01
+    :manner (v1 / näin)
+    :ARG0 (v4 / tuomio#istuin))
+
+(v14 / follow.02
+    :cause (v4 / peruste)
+    :cause (v13 / siksi)
+    :ARG1 (v18 / määräys
+        :mod (v15 / asian#omainen)
+        :ARG1-of (v17 / let.01
+            :mod (v16 / markkina#järjestely))))
+
+(v3 / hope.01
+    :ARG1 (v9 / be.01
+        :ARG1 (v6 / enemmistö
+            :mod (v8 / parlamentti))
+        :ARG2 (v11 / mieli)))
+
+(v2 / be.01
+    :ARG1 (v1 / tämä)
+    :ARG2 (v4 / levy))
+
+(v2 / be.01
+    :ARG1 (v1 / tämä)
+    :ARG2 (v4 / muisto))
+
+(v2 / stand.01
+    :ARG1 (v1 / muutto#laatikko)
+    :ARG2 (v4 / torni))
+
+(v1 / wonder.01
+    :ARG1 (v5 / see.01
+        :manner (v3 / kuinka)
+        :ARG1 (v6 / sinä)
+        :mod (v7 / se)))
+
+(v2 / hit.01
+    :ARG0 (v1 / sade)
+    :location (v4 / pinta))
+
+(v1 / hit.01
+    :manner (v3 / voima
+        :mod (v2 / sellainen)))
+
+(v1 / close.01
+    :ARG1 (v2 / silmä))
+
+(v1 / raise.01
+    :ARG1 (v2 / käsi)
+    :ARG4 (v3 / kasvot))
+
+(v2 / smell.02
+    :ARG2 (v1 / sormi)
+    :ARG1 (v4 / maa
+        :mod (v3 / elävä)))
+
+(v4 / fire.02
+    :time (v2 / ajatus)
+    :ARG1 (v5 / minä)
+    :time (v7 / tie))
+
+(v1 / look.01
+    :direction (v2 / vierestä))
+
+(v2 / touch.01
+    :ARG0 (v1 / hiha)
+    :ARG1 (v3 / hiha))
+
+(v2 / fly.01
+    :ARG1 (v3 / hius))
+
+(v3 / be.01
+    :ARG1 (v2 / minä)
+    :ARG2 (v4 / maa)
+    :mod (v1 / lapsi))
+
+(v5 / play.01
+    :location (v3 / joka)
+    :ARG0 (v4 / valo)
+    :ARG1 (v6 / sammal#mätäs))
+
+(v2 / be.01
+    :ARG2 (v1 / metsä)
+    :ARG1 (v3 / lampi))
+
+(v2 / be.01
+    :ARG2 (v4 / metsä))
+
+(v2 / be.01
+    :ARG2 (v8 / metsä
+        :mod (v3 / puhdas)))
+
+(v5 / appear.01
+    :time (v2 / päivä)
+    :location (v3 / metsä)
+    :ARG1 (v7 / kreppi#paperi#nauha
+        :mod (v6 / punainen))
+    :mod (v8 / puu))
+
+(v3 / wonder.01
+    :time (v1 / aika)
+    :time (v6 / ymmärtää
+        :ARG1 (v9 / ring.01
+            :cause (v7 / miksi)
+            :location (v8 / sisällä)
+            :ARG1 (v11 / sävel
+                :mod (v10 / uhkaava)))))
+
+(v2 / be.01
+    :ARG1 (v1 / puu
+        :ARG2-of (v3 / threaten.01))
+    :ARG2 v3)
+
+(v3 / see.01
+    :location (v4 / muualla)
+    :ARG1 (v9 / happen.01
+        :ARG1 (v6 / mikä)
+        :ARG2 (v7 / metsä)
+        :time (v11 / temporal-quantity
+            :unit (vg0 / päivä)
+            :quant yksi)))
+
+(v1 / command.02
+    :ARG1 (v3 / collect.01
+        :ARG0 (v2 / kaikki)
+        :ARG1 (v4 / nauha)
+        :time (v5 / pois)))
+
+(v4 / be.01
+    :ARG2 (v1 / miten)
+    :ARG1 (v3 / nauha))
+
+(v5 / whisper.01
+    :ARG1 (v8 / hyvin
+        :ARG2-of (v7 / be.01
+            :ARG1 (v6 / kaikki))))
+
+(v4 / fill_up.02
+    :manner (v1 / ylpeä)
+    :ARG1 (v5 / tasku)
+    :ARG2 (v6 / nauha))
+
+(v3 / hide.01
+    :location (v1 / kotona)
+    :manner (v2 / vaivihkaa)
+    :ARG1 (v4 / nauha))
+
+(v1 / end_up.03
+    :ARG2 (v2 / kaupunki))
+
+(v4 / be.01
+    :time (v2 / palata)
+    :ARG1 (v5 / metsä)
+    :ARG2 (v6 / poissa))
+
+(v1 / go.02
+    :time (v2 / kauan)
+    :time (v6 / ymmärtää))
+
+(v3 / ask.01
+    :time (v2 / koskaan)
+    :ARG1 (v4 / asia)
+    :ARG2 (v5 / kukaan))
+
+(v11 / feel.01
+    :time (v3 / elää
+        :ARG1 (v6 / elämä))
+    :ARG0 (v10 / tappaa)
+    :ARG1 (v13 / mikään))
+
+(v3 / come.01
+    :ARG2 (v1 / millainen)
+    :ARG4 (v2 / ihminen)
+    :time (v8 / hokea
+        :time (v6 / hän)
+        :time (v7 / jatkuvasti)
+        :ARG1 (v13 / die.01
+            :ARG1 (v12 / isä)
+            :time (v14 / kohta))))
+
+(v3 / die.01
+    :ARG1 (v1 / hän)
+    :time (v5 / huomenna))
+
+(v1 / know.01
+    :ARG0 (v2 / sinä)
+    :ARG1 (v6 / die.01
+        :ARG1 (v5 / isä)
+        :time (v7 / kohta)))
+
+(v7 / live.01
+    :ARG0 (v2 / mies)
+    :time (v5 / enää)
+    :time (v6 / kauaa))
+
+(v4 / remember.01
+    :ARG0 (v2 / joku
+        :ARG0-of (v5 / tell.01
+            :ARG1 (v9 / die.01
+                :ARG1 (v8 / isä))))
+    :time (v3 / jo)
+    :ARG1 v5)
+
+(v1 / remember.01
+    :ARG1 (v11 / die.01
+        :ARG1 (v10 / hän)))
+
+(v2 / forget.01
+    :time (v3 / sekunti)
+    :ARG1 (v12 / die.01
+        :ARG1 (v11 / hän)
+        :manner (v13 / nopeasti)))
+
+(v1 / tell.01
+    :time (v2 / jo)
+    :ARG1 (v6 / die.01
+        :ARG1 (v5 / isä)))
+
+(v2 / be.01
+    :ARG1 (v1 / minä)
+    :ARG2 (v5 / mieli))
+
+(v7 / come.01
+    :ARG1 (v3 / mies
+        :ARG0-of (v8 / see.01
+            :ARG1 (v6 / kuusikymppinen))))
+
+(v3 / come.01
+    :ARG2 (v1 / millainen)
+    :time (v7 / hokea
+        :ARG0 (v6 / kaikki)
+        :time (v9 / aika)
+        :ARG1 (v13 / die.01
+            :ARG1 (v12 / isä)
+            :time (v14 / kohta)))
+    :mod (v2 / se))
+
+(v3 / tell.01
+    :ARG0 (v1 / minä))
+
+(v2 / come.01
+    :ARG2 (v3 / vaino#harhainen)
+    :mod (v1 / se))
+
+(v2 / know.01
+    :ARG1 (v3 / wait.01
+        :ARG2 (v1 / kuolema)))
+
+(v5 / think.01
+    :time (v3 / soittaa
+        :ARG0 (v2 / perheen#jäsen))
+    :time (v6 / ensimmäinen)
+    :ARG1 (v14 / die.01
+        :time (v11 / nyt)))
+
+(v12 / think.01
+    :time (v2 / istua
+        :ARG2 (v3 / yo#valvonta))
+    :manner (v13 / automaattisesti)
+    :ARG1 (v18 / tuoja
+        :ARG2-of (v15 / be.01
+            :ARG1 (v14 / hän))))
+
+(v2 / see.01
+    :ARG1 (v3 / isä
+        :mod (v4 / liikkumaton)
+        :mod (v5 / sohva))
+    :time (v32 / pysähtyä
+        :time (v29 / aina)
+        :ARG0 (v30 / minä)))
+
+(v2 / be.01
+    :ARG1 (v1 / minä)
+    :time (v4 / aika)
+    :ARG2 (v5 / valpas))
+
+(v11 / say.01
+    :time (v5 / totta
+        :ARG2-of (v4 / be.01
+            :ARG1 (v2 / tieto)
+            :time (v3 / lopulta)))
+    :ARG1 (v17 / know.01
+        :ARG0 (v15 / minä)))
+
+(v1 / be.01
+    :ARG1 (v4 / odottaa)
+    :time (v5 / sitten)
+    :ARG2 (v6 / tarpeellinen))
+
+(v1 / be.01
+    :ARG2 (v4 / välttämätön)
+    :ARG1 (v5 / remind.01
+        :ARG0 (v3 / ihminen)
+        :ARG1 (v6 / asia)
+        :time (v12 / tulla
+            :time (v7 / aina)
+            :ARG1 (v11 / tilanne
+                :mod (v8 / sopiva)))))
+
+(v3 / repeat.01
+    :time (v4 / päivittäin))
+
+(v1 / be.01
+    :location (v2 / ihminen)
+    :ARG2 (v3 / mahdoton
+        :mod v2)
+    :ARG1 (v4 / discuss.01
+        :ARG1 (v5 / isä)
+        :manner (v8 / arvailu)))
+
+(v2 / be.01
+    :ARG2 (v1 / ilmeisesti))
+
+(v1 / know.01
+    :ARG1 (v2 / wait.01))
+
+(v2 / wait.01
+    :time (v4 / viikko))
+
+(v5 / celebrate.02
+    :time (v3 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant kymmenen)
+    :ARG1 (v6 / kuusikymppinen))
+
+(v4 / be.01
+    :ARG1 (v3 / kyse)
+    :time (v6 / tunti))
+
+(v2 / know.01)
+
+(v1 / cause.01
+    :ARG0 (v3 / toimisto#bio#sfääri
+        :ARG1-of (v2 / warm_up.02))
+    :ARG1 (v5 / kadota))
+
+(v9 / spot.01
+    :ARG0 (v4 / react.01
+        :ARG1 (v2 / mieli
+            :mod (v1 / avoin))
+        :ARG2 (v3 / ympäristö))
+    :time (v8 / aika)
+    :ARG1 (v11 / lämmetä))
+
+(v2 / happen.01
+    :ARG1 (v1 / näin)
+    :ARG2 (v6 / ympäristö
+        :mod (v4 / oma)
+        :mod (v5 / lokaali)))
+
+(v4 / worry.01
+    :ARG0 (v3 / lämmön#nousu
+        :mod (v2 / globaali))
+    :ARG1 (v6 / tutkija))
+
+(v4 / spot.01
+    :time (v1 / nyt)
+    :time (v2 / jo)
+    :ARG1 (v9 / vähetä
+        :mod (v14 / alue)))
+
+(v2 / be.01
+    :time (v1 / aiemmin)
+    :ARG2 (v3 / mahdollinen)
+    :ARG1 (v4 / spend.02
+        :ARG1 (v6 / työ#päivä
+            :mod (v5 / koko))
+        :ARG2 (v7 / listen.01
+            :ARG1 (v11 / sirkutus))))
+
+(v2 / be.01
+    :time (v1 / silloin)
+    :ARG2 (v3 / helppo)
+    :ARG1 (v4 / stay.01
+        :mod (v5 / aika
+            :mod (v8 / lempi#suhde))))
+
+(v4 / threaten.01
+    :time (v1 / nyt)
+    :ARG0 (v3 / vähetä)
+    :time (v5 / jo)
+    :ARG1 (v6 / työ#teho)
+    :time (v11 / hankkia
+        :ARG1 (v9 / tieto)
+        :manner (v12 / itse)))
+
+(v13 / be.01
+    :ARG2 (v14 / be.01
+        :ARG2 (v16 / laji
+            :mod (v15 / runsastuva)
+            :ARG1-of v13)))
+
+(v4 / pick_up.04
+    :manner (v3 / helppo))
+
+(v3 / see.01
+    :time (v4 / aamuisin)
+    :ARG1 (v5 / löntystellä
+        :mod (v7 / toimisto)))
+
+(v4 / stay.01
+    :ARG3 (v1 / sinne)
+    :time (v3 / sitten))
+
+(v3 / belong.01
+    :ARG0 (v1 / mörinä)
+    :manner (v5 / ovi))
+
+(v1 / be.01
+    :ARG2 (v2 / selvä))
+
+(v2 / affect.01
+    :ARG0 (v1 / lämmetä)
+    :ARG1 (v3 / nopeutua))
+
+(v6 / come.01
+    :ARG1 (v3 / toimi
+        :mod (v2 / normaali)
+        :ARG0-of (v7 / stop.01
+            :ARG1 (v9 / kiihtyä)
+            :ARG2-of v6)))
+
+(v2 / argue.01
+    :ARG0 (v1 / tutkija)
+    :time (v3 / vielä)
+    :mod (v4 / se))
+
+(v4 / reign.01
+    :ARG0 (v3 / yksimielisyys
+        :mod (v1 / vankka)
+        :mod (v2 / keskinäinen))
+    :mod (v6 / se))
+
+(v5 / pick_up.04
+    :time (v1 / nyt)
+    :time (v3 / jo)
+    :manner (v4 / selkeästi)
+    :ARG1 (v9 / start.01
+        :ARG0 (v8 / laji
+            :mod (v7 / harvinainen)
+            :ARG0-of (v10 / move.01
+                :ARG2 (v15 / alue
+                    :ARG1-of (v14 / warm_up.02
+                        :time (v13 / vähän)))))
+        :ARG1 v10))
+
+(v4 / raise.01
+    :ARG4 (v3 / toimisto#bio#sfääri#seminaari
+        :ARG1-of (v2 / like.02
+            :time (v1 / aiemmin)))
+    :ARG2 (v5 / esille)
+    :ARG1 (v6 / kysymys))
+
+(v2 / start.01
+    :ARG0 (v1 / kysymys)
+    :ARG1 (v4 / väittely
+        :mod (v3 / ankara)
+        :mod (v9 / vaikutus#mekanismi)))
+
+(v10 / get.01
+    :ARG0 (v2 / teoria
+        :mod (v1 / aiempi)
+        :mod (v9 / vaikutus)
+        :ARG0-of (v11 / move.01))
+    :ARG1 v11)
+
+(v5 / raise.01
+    :ARG3 (v4 / julkilausuma)
+    :ARG2 (v6 / esille)
+    :ARG1 (v15 / vaikutus
+        :mod (v7 / paradoksaalinen))
+    :mod (v1 / se))
+
+(v4 / return.01
+    :ARG1 (v2 / toimisto#kuukkeli)
+    :time (v3 / vielä))
+
+(v1 / be.01
+    :ARG2 (v3 / hereillä
+        :mod (v2 / molemmat)
+        :mod (v5 / yö)))
+
+(v4 / be.01
+    :location (v2 / muualle)
+    :ARG1 (v3 / sinä)
+    :ARG2 (v5 / meno)
+    :mod (v8 / kiertue))
+
+(v2 / think.01
+    :ARG1 (v1 / tämä)
+    :ARG2 (v5 / nimi
+        :mod (v3 / kreikkalainen)))
+
+(v1 / wait.01
+    :ARG2 (v2 / hän)
+    :time (v4 / temporal-quantity
+        :unit (vg0 / tunti)
+        :quant kaksi))
+
+(v4 / be.01
+    :ARG2 (v2 / kiltti)
+    :time (v9 / huutaa
+        :ARG1 (v8 / paljon)))
+
+(v2 / come.01
+    :ARG1 (v1 / hän
+        :ARG0-of (v5 / handle.01
+            :ARG1 (v7 / seura
+                :mod (v6 / uusi))
+            :manner (v8 / hyvin)))
+    :ARG4 (v4 / peruste))
+
+(v1 / remember.01
+    :ARG1 (v7 / call.01
+        :time (v6 / vielä)
+        :ARG1 (v8 / pito#palvelu)))
+
+(v3 / live.01
+    :ARG0 (v1 / Ordina)
+    :location (v4 / Ruotsi)
+    :time (v9 / temporal-quantity
+        :unit (vg0 / kuu#kausi)
+        :quant neljä)
+    :time (v13 / myöntää
+        :ARG2 (v12 / hän)
+        :ARG1 (v14 / kansalaisuus)))
+
+(v4 / come.01
+    :ARG2 (v1 / Ansas)
+    :ARG1 (v3 / Jursi)
+    :ARG4 (v6 / yksityis#tunti))
+
+(v2 / survive.01)
+
+(v2 / come.01
+    :ARG4 (v1 / Porvoo)
+    :ARG1 (v4 / lähiö))
+
+(v2 / be.01
+    :ARG2 (v3 / isku))
+
+(v4 / belong.01
+    :ARG1 (v5 / wash.01
+        :ARG1 (v6 / astia))
+    :mod (v2 / siivooja))
+
+(v5 / complain.01
+    :ARG0 (v2 / hän)
+    :ARG1 (v7 / stay.01
+        :time (v8 / perillä)
+        :time (v9 / vuosi))
+    :mod (v1 / periaate))
+
+(v3 / happen.01
+    :ARG1 (v1 / minä)
+    :ARG2 (v4 / kauppa))
+
+(v4 / do.02
+    :ARG1 (v2 / etä#työ
+        :mod (v1 / monenlainen))
+    :ARG2 (v5 / ikä))
+
+(v2 / be.01
+    :ARG1 (v1 / Klinga)
+    :ARG2 (v3 / ainoa
+        :mod (v4 / suomalainen))
+    :location v4)
+
+(v2 / be.01
+    :ARG2 (v1 / vanha))
+
+(v3 / be.01
+    :ARG2 (v2 / tuho#alue))
+
+(v2 / drink.01
+    :time (v1 / sitten)
+    :ARG1 (v5 / vodka))
+
+(v4 / lose.02
+    :location (v5 / sikari)
+    :ARG1 (v6 / tuhka)
+    :direction (v7 / pois))
+
+(v1 / come.01
+    :ARG2 (v2 / hiljainen))
+
+(v2 / give.01
+    :ARG2 (v1 / tämä)
+    :ARG1 (v3 / nuori))
+
+(v1 / see.01
+    :time (v2 / nyt)
+    :time (v3 / ihmeessä)
+    :time (v4 / ensin)
+    :ARG1 (v16 / wonder.01
+        :ARG0 (v17 / Saarikangas)))
+
+(v2 / ease_up.04
+    :ARG0 (v1 / kipu))
+
+(v4 / pay.01
+    :ARG1 (v5 / hang_out.06
+        :time (v6 / olo#huone)
+        :time (v8 / kalsarisiltaan)))
+
+(v2 / tell.01
+    :ARG2 (v1 / uutinen)
+    :ARG1 (v8 / pay.01
+        :ARG1 (v5 / päivä)
+        :mod (v10 / se)))
+
+(v5 / sting.01
+    :ARG1 (v2 / kyllä)
+    :ARG0 (v3 / minä))
+
+(v1 / go.02
+    :ARG4 (v2 / tarve))
+
+(v2 / decide.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v5 / tell.01
+        :ARG2 (v6 / kukaan)
+        :ARG1 (v7 / mikään)))
+
+(v2 / look.01
+    :ARG0 (v1 / Eurooppa
+        :ARG0-of (v3 / survive.01
+            :ARG1 (v4 / suhdanne#taantuma)
+            :manner (v6 / nopeasti)
+            :ARG1-of v2)))
+
+(v1 / take.01
+    :ARG1 (v2 / minä))
+
+(v12 / think.01
+    :time (v10 / tulla
+        :ARG1 (v7 / arkki#piispa)
+        :ARG4 (v11 / virka))
+    :ARG1 (v13 / be.01
+        :ARG2 (v14 / hän)
+        :time (v19 / seuraaja)))
+
+(v3 / be.01
+    :ARG1 (v2 / elämän#kaari)
+    :ARG2 (v4 / erilainen))
+
+(v3 / reward.01
+    :ARG1 (v1 / juoksennella))
+
+(v2 / belong.01
+    :ARG1 (v3 / say.01
+        :ARG0 (v1 / edeltäjä)
+        :ARG1 (v7 / love.01
+            :ARG0 (v6 / hän)
+            :ARG1 (v8 / kuitti))))
+
+(v3 / be.01
+    :ARG1 (v2 / turvallisuus)
+    :time (v4 / näkyvästi)
+    :ARG2 (v5 / esillä))
+
+(v2 / come.01
+    :ARG1 (v1 / minä
+        :ARG0-of (v5 / clean.01))
+    :ARG4 (v3 / tämä)
+    :time (v4 / nyt))
+
+(v9 / take.01
+    :ARG0 (v7 / asia
+        :ARG1-of (v10 / come.01))
+    :ARG1 v10)
+
+(v4 / be.01
+    :ARG2 (v3 / pullo)
+    :ARG1 (v7 / etiketti
+        :mod (v6 / näköinen
+            :mod (v5 / vanha))))
+
+(v2 / take.01
+    :ARG0 (v1 / hän)
+    :location (v3 / kassi)
+    :ARG1 (v4 / kissa#makkara))
+
+(v5 / get.01
+    :ARG0 (v4 / ei
+        :ARG0-of (v6 / do.02
+            :ARG2 (v2 / maa)
+            :ARG1 (v3 / tuli)))
+    :ARG1 v6
+    :manner (v8 / lupa))
+
+(v2 / experience.01
+    :ARG0 (v1 / ihminen)
+    :ARG1 (v3 / yhteis#kunta))
+
+(v8 / answer.01
+    :time (v6 / niin)
+    :ARG0 (v7 / sinä)
+    :manner (v10 / henkilö#kohtaisesti)
+    :ARG1 (v12 / edustaja)
+    :mod (v9 / se))
+
+(v2 / cause.01
+    :ARG1 (v1 / turhautuneisuus)
+    :mod (v3 / se))
+
+(v4 / be.01
+    :location (v2 / osa)
+    :ARG1 (v3 / karanteeni#maksu)
+    :location (v5 / maksimi)
+    :ARG2 (v8 / mk
+        :mod v2
+        :mod v5))
+
+(v2 / taste.02
+    :ARG1 (v1 / leivos)
+    :ARG2 (v3 / hyvä))
+
+(v4 / care.01
+    :ARG0 (v1 / kaikki
+        :ARG0-of (v5 / record.01
+            :ARG1 (v8 / kasetti)))
+    :time (v3 / enää)
+    :ARG1 v5)
+
+(v3 / keep.02
+    :ARG1 (v1 / turva#vyö)
+    :ARG2 (v4 / attach.01)
+    :time (v7 / aika))
+
+(v2 / receive.01
+    :ARG0 (v1 / TVO)
+    :time (v3 / tänään)
+    :ARG1 (v4 / tarjous
+        :mod (v6 / ydin#voima#laitos#yksikkö
+            :mod (v5 / uusi))))
+
+(v4 / sell.01
+    :ARG1 (v3 / koru)
+    :ARG2 (v6 / Markkanen)
+    :mod (v2 / vaihe))
+
+(v5 / arrange.01
+    :direction (v1 / piha)
+    :ARG1 (v2 / kypärä
+        :mod (v3 / pää))
+    :ARG2 (v4 / pari#jono))
+
+(v2 / be.01
+    :ARG2 (v4 / vika
+        :mod (v3 / oma))
+    :time (v10 / sanoa
+        :ARG0 (v9 / hän)))
+
+(v2 / come.01
+    :ARG1 (v1 / sakko))
+
+(v2 / offer.01
+    :ARG0 (v1 / Kivi#juhla)
+    :ARG1 (v4 / keskustelu#tilaisuus))
+
+(v6 / perform.01
+    :ARG2 (v5 / Rekola)
+    :ARG1 (v7 / yli#työ#korvaus))
+
+(v2 / ask.01
+    :ARG0 (v1 / Riki)
+    :ARG1 (v3 / osoite))
+
+(v1 / be.01
+    :ARG2 (v2 / sinä)
+    :ARG1 (v3 / saarna)
+    :time (v5 / Simeoni))
+
+(v2 / keep.02
+    :ARG1 (v1 / vuosi#kerta)
+    :ARG2 (v4 / hyvä))
+
+(v2 / jump.01)
+
+(v2 / open.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v3 / pusakka))
+
+(v2 / be.01
+    :ARG1 (v1 / hanska)
+    :ARG2 (v3 / auto))
+
+(v9 / hit.01
+    :ARG2 (v11 / tarjotin))
+
+(v4 / reveal.01
+    :ARG0 (v3 / väärennös))
+
+(v3 / be.01
+    :ARG2 (v1 / kuka))
+
+(v2 / be.01
+    :ARG2 (v5 / hankala
+        :mod (v4 / pirullinen)))
+
+(v2 / measure.01
+    :ARG0 (v1 / tuomari)
+    :ARG1 (v3 / aika))
+
+(v2 / be.01
+    :ARG2 (v1 / sinä)
+    :ARG1 (v4 / nenän#pää))
+
+(v8 / dare.01)
+
+(v1 / happen.01)
+
+(v1 / be.01
+    :ARG1 (v3 / Lipponen)
+    :ARG2 (v5 / mieli))
+
+(v3 / do.02
+    :ARG0 (v1 / minä)
+    :ARG2 (v4 / laki)
+    :ARG1 (v5 / pysyvä))
+
+(v2 / want.01
+    :ARG0 (v1 / näyttely
+        :ARG1-of (v3 / stand_up.07))
+    :ARG1 v3)
+
+(v2 / wait.01
+    :ARG1 (v1 / hän)
+    :ARG2 (v6 / solve.01
+        :ARG1 (v5 / asia)))
+
+(v3 / come.01
+    :ARG1 (v1 / kuka)
+    :ARG2 (v4 / affect.01
+        :mod (v2 / se)))
+
+(v2 / give.01
+    :ARG0 (v1 / hän)
+    :time (v3 / mielellään)
+    :ARG1 (v4 / kuva)
+    :ARG2 (v5 / kuka))
+
+(v1 / want.01
+    :ARG1 (v3 / omena))
+
+(v5 / load.01
+    :time (v1 / asia#kirja)
+    :ARG1 (v3 / kontti)
+    :ARG2 (v6 / Belgia))
+
+(v10 / ask.01
+    :ARG0 (v3 / minä
+        :ARG1-of (v4 / come.01
+            :ARG4 (v6 / koe)
+            :time (v2 / sitten)))
+    :time (v8 / sitten)
+    :ARG1 (v13 / go.02
+        :manner (v12 / kuinka)))
+
+(v1 / operate.01
+    :time (v2 / näin)
+    :location (v4 / ylä#reuna))
+
+(v3 / find.01)
+
+(v4 / come.01
+    :direction (v1 / tällöin)
+    :ARG4 (v3 / Koivuselkä)
+    :ARG1 (v6 / kylä
+        :mod (v5 / monikansallinen)))
+
+(v2 / jump.01)
+
+(v3 / be.01
+    :ARG2 (v1 / uusi
+        :mod (v2 / puhelin))
+    :location v2
+    :ARG1 (v4 / vibra#hälytys))
+
+(v1 / remember.01
+    :time (v6 / karata
+        :location (v5 / tarha)
+        :ARG1 (v7 / järvi)
+        :ARG0 (v10 / ankka)))
+
+(v4 / stare.01
+    :ARG0 (v3 / väki
+        :ARG1-of (v2 / stand.01
+            :ARG2 (v1 / ympärillä)))
+    :ARG1 (v5 / näky))
+
+(v1 / proceed.01
+    :location (v2 / täällä)
+    :ARG1 (v5 / tienoo))
+
+(v2 / be.01
+    :ARG2 (v4 / tapa
+        :mod (v3 / halpa)
+        :manner-of (v5 / send.01
+            :ARG1 (v7 / kirje))))
+
+(v3 / find.01
+    :ARG1 (v2 / nainen#parlamentaarikko)
+    :location (v4 / Seychellit))
+
+(v3 / worry.02
+    :ARG0 (v1 / hän)
+    :ARG1 (v5 / asia
+        :mod (v4 / oma)))
+
+(v1 / stick.01
+    :ARG1 (v3 / käsi)
+    :direction (v4 / pois))
+
+(v2 / tell.01)
+
+(v3 / pay.01
+    :ARG1 (v5 / euro))
+
+(v5 / come.01
+    :time (v2 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1992)
+    :ARG1 (v4 / pakolainen)
+    :ARG4 (v6 / Suomi)
+    :time (v9 / temporal-quantity
+        :unit (vg1 / 000)
+        :quant 3))
+
+(v2 / show.01
+    :time (v1 / sieltä)
+    :ARG1 (v4 / kaupunki
+        :mod (v3 / koko)))
+
+(v2 / be.01
+    :ARG1 (v1 / viini)
+    :ARG2 (v3 / enempi))
+
+(v6 / be.01
+    :ARG1 (v3 / auto)
+    :ARG2 (v8 / vanha))
+
+(v11 / come.01
+    :time (v4 / siirtää
+        :ARG1 (v3 / piste)
+        :ARG2 (v5 / Säynätsalo))
+    :ARG1 (v10 / alue
+        :mod (v9 / koko)
+        :ARG0-of (v12 / chart.01))
+    :mod (v7 / Sahi))
+
+(v2 / shock.01
+    :ARG0 (v1 / mieli))
+
+(v4 / be.01
+    :ARG1 (v2 / tilanne
+        :mod (v1 / luova))
+    :ARG2 (v5 / hauska))
+
+(v2 / do.02
+    :ARG0 (v1 / minä))
+
+(v12 / equip.01
+    :ARG1 (v13 / grant.01
+        :ARG0 (v10 / ei)
+        :ARG1 (v15 / strategia
+            :mod (v14 / tällainen))))
+
+(v3 / believe.01
+    :ARG0 (v1 / sinä)
+    :ARG1 (v6 / neuvo))
+
+(v3 / express.01
+    :time (v1 / maanantai)
+    :ARG1 (v2 / tuki)
+    :ARG0 (v8 / Sten))
+
+(v2 / be.01
+    :ARG2 (v3 / väärin))
+
+(v4 / excite.01
+    :ARG0 (v1 / tapaaminen
+        :mod (v3 / viikko
+            :mod (v2 / ensi)))
+    :ARG1 (v5 / minä)
+    :extent (v6 / vähän))
+
+(v2 / be.01
+    :ARG2 (v5 / juhla
+        :mod (v4 / iki#muistettava)))
+
+(v6 / be.01
+    :ARG1 (v1 / Olavi)
+    :ARG2 (v8 / onnekas))
+
+(v9 / see.01
+    :ARG1 (v8 / kaikki))
+
+(v1 / eat.01
+    :ARG1 (v2 / keitto))
+
+(v5 / find.01
+    :ARG1 (v3 / nainen
+        :mod (v1 / paikkakuntalainen)
+        :mod (v2 / 28#vuotias)
+        :ARG0-of (v6 / wander.01
+            :ARG1 (v8 / vierusta)
+            :ARG2-of v5)))
+
+(v1 / know.01
+    :ARG1 (v2 / hän)
+    :time (v4 / vanha))
+
+(v2 / stay.01
+    :ARG1 (v1 / juusto)
+    :time (v3 / jää#kaappi))
+
+(v5 / deserve.01
+    :ARG2 (v2 / mieli
+        :mod (v1 / oma))
+    :ARG0 (v3 / Martin)
+    :ARG1 (v6 / paikka))
+
+(v2 / be.01
+    :ARG2 (v4 / lintu#mies))
+
+(v1 / affect.01
+    :ARG1 (v2 / aine))
+
+(v3 / be.01
+    :ARG1 (v1 / minä))
+
+(v4 / be.01
+    :ARG1 (v3 / harrastus
+        :mod (v2 / rakas))
+    :ARG2 (v5 / jää#kiekko))
+
+(v6 / be.01
+    :ARG1 (v5 / kaikki
+        :mod (v3 / koulutus#päällikkö))
+    :location (v8 / hetki)
+    :ARG2 (v9 / nainen
+        :mod v8))
+
+(v1 / leave.11
+    :ARG0 (v2 / sinä)
+    :time (v3 / mukaan))
+
+(v1 / watch.01
+    :ARG1 (v5 / klassikko)
+    :time (v7 / temporal-quantity
+        :unit (vg0 / kerta)
+        :quant ensimmäinen)
+    :time (v9 / vuosi))
+
+(v1 / hang_up.03
+    :time (v2 / varovasti))
+
+(v2 / be.01
+    :ARG2 (v1 / Oulu)
+    :ARG1 (v6 / yli#opisto
+        :mod (v5 / suuri)))
+
+(v1 / buy.01
+    :ARG1 (v2 / pullo
+        :mod (v4 / puna#viini
+            :mod (v3 / halpa))))
+
+(v1 / get.01
+    :location (v2 / minä)
+    :ARG1 (v3 / luotto))
+
+(v4 / find.01
+    :ARG0 (v2 / hän)
+    :ARG1 (v8 / myrsky
+        :mod (v6 / lievä)
+        :mod (v7 / trooppinen)))
+
+(v3 / be.01
+    :ARG2 (v1 / mikä)
+    :ARG1 (v2 / minä
+        :ARG0-of (v4 / say.01)))
+
+(v6 / travel.01
+    :ARG1 (v4 / joka)
+    :ARG0 (v5 / talous)
+    :manner (v7 / eteenpäin)
+    :ARG4 (v9 / laukka
+        :mod (v8 / täysi)))
+
+(v7 / run.02
+    :ARG2 (v8 / acquire.01
+        :ARG1 (v5 / metsä
+            :mod (v4 / yhteinen
+                :mod (v3 / kaikki)))
+        :time (v9 / lisää)
+        :time (v11 / vuosi)))
+
+(v4 / ask.01
+    :ARG0 (v1 / naapuri)
+    :ARG2 (v7 / ystävyys)
+    :ARG1 (v10 / be.01
+        :ARG2 (v9 / mikä)
+        :ARG1 (v11 / kysymys)))
+
+(v3 / solve.01
+    :ARG0 (v2 / Palmu)
+    :ARG1 (v4 / murha)
+    :ARG2 (v7 / hienosto#kaupungin#osa
+        :mod (v6 / idyllinen)))
+
+(v2 / wonder.01
+    :ARG0 (v1 / Himanen)
+    :ARG1 (v4 / mikä
+        :ARG2-of (v5 / be.01
+            :ARG1 (v7 / rooli
+                :mod (v8 / asia)))))
+
+(v5 / bother.01
+    :ARG0 (v2 / kumma)
+    :manner (v4 / oikein))
+
+(v2 / stop.01
+    :ARG0 (v1 / Riitta
+        :ARG0-of (v4 / prepare.02
+            :ARG1 (v5 / aamiainen)))
+    :location (v3 / kotona)
+    :ARG1 v4)
+
+(v4 / buy.01
+    :ARG1 (v3 / asunto)
+    :ARG4 (v7 / käymä))
+
+(v5 / let.01
+    :ARG1 (v2 / direktiivi
+        :mod (v16 / laadinta))
+    :mod (v9 / 1996))
+
+(v6 / take.01
+    :ARG0 (v5 / joka)
+    :ARG2 (v7 / huomio)
+    :ARG1 (v10 / perustaa#sopimus))
+
+(v2 / give.01
+    :ARG1 (v4 / direktiivi))
+
+(v5 / confirm.01
+    :time (v2 / temporal-quantity
+        :unit (vg0 / artikla)
+        :quant 1)
+    :ARG2 (v4 / direktiivi)
+    :ARG1 (v6 / sääntö
+        :ARG0-of (v9 / follow.02
+            :ARG1 (v8 / joka)
+            :mod (v15 / myöntää))))
+
+(v4 / mean.01
+    :time (v1 / 1.)
+    :ARG2 (v3 / direktiivi))
+
+(v3 / touch.01
+    :ARG1 (v2 / eläin#lääkintä#ala))
+
+(v3 / grant.01
+    :ARG1 (v2 / todistus))
+
+(v8 / apply.02
+    :time (v1 / 2.)
+    :ARG2 (v10 / osa
+        :mod (v9 / soveltua))
+    :ARG1 (v18 / määritelmä
+        :ARG1-of (v17 / pretend.01
+            :location (v16 / artikla)))
+    :mod (v6 / määritelmä))
+
+(v4 / worry.02
+    :ARG1 (v1 / 1.)
+    :ARG0 (v2 / viran#omainen)
+    :mod (v5 / se))
+
+(v6 / get.01
+    :time (v1 / 2.)
+    :ARG0 (v4 / viran#omainen
+        :ARG0-of (v7 / write.01
+            :ARG1 (v8 / todistus
+                :mod (v9 / seikka))))
+    :ARG1 v7)
+
+(v6 / get.01
+    :time (v1 / 3.)
+    :ARG0 (v4 / viran#omainen
+        :ARG0-of (v7 / sign.01
+            :ARG1 (v11 / asia#kirja
+                :mod (v8 / tyhjä))))
+    :ARG1 v7)
+
+(v14 / be.01
+    :ARG1 (v16 / asia#kirja
+        :mod (v15 / kyseinen))
+    :ARG2 (v17 / hallussa)
+    :time (v19 / allekirjoittaa))
+
+(v5 / keep.02
+    :time (v1 / 4.)
+    :ARG0 (v3 / säännös)
+    :ARG1 (v6 / virka#eläin#lääkäri
+        :ARG0-of (v7 / sign.01
+            :ARG1 (v8 / todistus
+                :mod (v10 / tieto
+                    :mod (v9 / sellainen)))))
+    :ARG2 v7)
+
+(v10 / give.01
+    :time (v1 / 5.)
+    :ARG1 (v8 / sääntö
+        :mod (v6 / mahdollinen)
+        :mod (v7 / yksityis#kohtainen))
+    :ARG2 (v14 / menettely
+        :ARG1-of (v13 / adjust.01
+            :time (v12 / temporal-quantity
+                :unit (vg0 / artikla)
+                :quant 7))))
+
+(v5 / grant.01
+    :time (v1 / 1.)
+    :ARG0 (v3 / viran#omainen
+        :mod (v2 / toimi#valtainen))
+    :ARG1 (v8 / toimen#pide
+        :mod (v7 / tarvita)
+        :mod (v12 / turvata)))
+
+(v4 / worry.02
+    :ARG0 (v1 / hän)
+    :time (v3 / erityisesti)
+    :mod (v5 / se))
+
+(v4 / write.01
+    :location (v1 / 2.)
+    :ARG1 (v2 / todistus)
+    :ARG2 (v11 / kieli
+        :ARG1-of (v10 / understand.01
+            :ARG0 (v9 / viran#omainen)))
+    :time (v19 / siten))
+
+(v6 / equip.01
+    :time (v1 / 3.)
+    :ARG0 (v4 / viran#omainen
+        :mod (v3 / toimi#valtainen)
+        :ARG0-of (v7 / show.01
+            :ARG1 (v14 / yhteys
+                :mod (v13 / väli))))
+    :ARG1 v7)
+
+(v4 / take.01
+    :time (v1 / 1.)
+    :ARG0 (v2 / jäsen#valtio
+        :ARG0-of (v7 / order.01
+            :ARG1 (v8 / grant.01
+                :ARG1 (v10 / valvonta#toimen#pide
+                    :mod (v9 / tarpeellinen)
+                    :mod (v17 / estää)))))
+    :ARG1 (v5 / käyttö))
+
+(v5 / conduct.01
+    :time (v1 / 2.)
+    :ARG0 (v3 / viran#omainen
+        :mod (v2 / toimi#valtainen))
+    :ARG1 (v7 / tutkimus
+        :mod (v6 / tarpeellinen)))
+
+(v4 / include.01
+    :ARG2 (v2 / toimen#pide)
+    :ARG1 (v10 / lakkauttaa
+        :mod (v9 / tilapäinen)
+        :mod (v12 / aika)))
+
+(v22 / grant.01
+    :ARG0 (v20 / viran#omainen
+        :mod (v19 / toimi#valtainen))
+    :ARG1 (v27 / toimen#pide
+        :mod (v26 / tarpeellinen)))
+
+(v4 / include.01
+    :ARG2 (v2 / toimen#pide
+        :mod (v1 / tällainen)))
+
+(v2 / confirm.01
+    :ARG0 (v1 / komissio)
+    :ARG2 (v20 / yhteys))
+
+(v28 / decide.01
+    :time (v29 / lisä#takuu))
+
+(v16 / decide.01
+    :ARG0 (v15 / eläin#lääkintä#komitea
+        :mod (v14 / pysyvä)
+        :ARG1-of (v13 / start.01
+            :ARG0 (v8 / päätös)))
+    :ARG1 (v17 / asia)
+    :time (v24 / mukaisesti))
+
+(v2 / give_back.03
+    :ARG0 (v1 / komissio)
+    :ARG2 (v3 / neuvosto)
+    :time (v8 / 1998)
+    :ARG1 (v9 / kertomus))
+
+(v2 / decide.01
+    :ARG0 (v1 / neuvosto)
+    :ARG1 (v4 / ehdotus)
+    :time (v5 / määrä#enemmistö))
+
+(v4 / walk.01
+    :time (v1 / 1.)
+    :ARG0 (v2 / jäsen#valtio)
+    :ARG1 (v9 / laki
+        :ARG1-of (v8 / provide.01
+            :ARG0 (v7 / noudattaa)))
+    :ARG2 (v20 / 1998))
+
+(v3 / inform.01
+    :ARG1 (v4 / tämä)
+    :mod (v5 / komissio))
+
+(v6 / refer.01
+    :ARG1 (v4 / säännös
+        :ARG1-of (v3 / let.01
+            :ARG0 (v2 / jäsen#valtio)))
+    :ARG2 (v8 / direktiivi))
+
+(v3 / adjust.01
+    :ARG0 (v1 / jäsen#valtio)
+    :mod (v4 / se))
+
+(v4 / deliver.01
+    :time (v1 / 2.)
+    :ARG0 (v2 / jäsen#valtio)
+    :ARG2 (v5 / komissio)
+    :time (v6 / kirjallinen)
+    :ARG1 (v9 / säännös
+        :mod (v7 / keskeinen)
+        :mod (v8 / kansallinen)))
+
+(v4 / show.01
+    :ARG1 (v2 / direktiivi)
+    :ARG2 (v6 / jäsen#valtio))
+
+(v1 / do.02
+    :ARG2 (v2 / Bryssel)
+    :time (v6 / 1996))
+
+(v2 / explore.01
+    :ARG0 (v1 / File)
+    :ARG1 (v4 / matka
+        :mod (v6 / kulinaria)))
+
+(v4 / do.02
+    :location (v3 / kevät)
+    :ARG2 (v8 / yhteys)
+    :ARG1 (v10 / koe
+        :mod (v9 / käytännöllinen)
+        :mod (v11 / se)))
+
+(v6 / survive.01
+    :location (v2 / lukija)
+    :time (v8 / pian)
+    :ARG1 (v17 / see.01
+        :ARG0 (v12 / neste
+            :mod (v11 / kyseinen))
+        :ARG1 (v16 / juoma
+            :ARG1-of (v15 / want.01
+                :ARG0 (v14 / ihminen)))))
+
+(v6 / be.01
+    :ARG1 (v5 / valmistaa
+        :mod (v2 / koti#kutoinen))
+    :ARG2 (v9 / homma
+        :mod (v8 / vaikea)
+        :ARG0-of (v12 / require.01
+            :ARG1 (v14 / perehtyä
+                :mod (v13 / tarkka)))))
+
+(v5 / do.02
+    :time (v1 / lähellä)
+    :ARG2 (v4 / aines
+        :mod (v3 / kotimainen))
+    :ARG1 (v6 / ruoka
+        :ARG1-of (v9 / be.01
+            :time (v10 / nykyisin)
+            :ARG2 (v11 / trendikäs))))
+
+(v1 / want.01
+    :ARG1 (v2 / luomu))
+
+(v3 / be.01
+    :time (v2 / harvoin)
+    :ARG1 (v5 / vara
+        :mod (v6 / ruoka))
+    :ARG2 (v10 / serve.02
+        :ARG0 (v8 / opinto#tuki)
+        :ARG1 (v13 / illallinen)
+        :time (v16 / harvoin)))
+
+(v9 / come.01
+    :cause (v3 / know.01
+        :ARG0 (v2 / File#lehti)
+        :ARG1 (v4 / vastuu
+            :mod (v7 / ravinto
+                :mod (v6 / hyvä))))
+    :time (v11 / lehti)
+    :ARG1 (v12 / kokeilu
+        :mod (v14 / ruoka#laji
+            :mod (v13 / erilainen))))
+
+(v3 / try.01
+    :ARG1 (v4 / avoid.01
+        :ARG1 (v2 / yli#lyönti
+            :mod (v1 / paha))))
+
+(v2 / be.01
+    :ARG1 (v1 / makkara)
+    :ARG2 (v6 / suosikki#ruoka))
+
+(v5 / eat.01
+    :ARG0 (v1 / makkara
+        :ARG1-of (v7 / be.01
+            :ARG2 (v14 / pötkö
+                :ARG1-of (v13 / prepare.02
+                    :ARG2 (v8 / jauho)))))
+    :ARG1 (v3 / joka)
+    :time (v4 / perinteisesti))
+
+(v2 / be.01
+    :ARG1 (v1 / maku)
+    :ARG2 (v3 / kohtalainen))
+
+(v5 / know.01
+    :ARG0 (v4 / kukaan)
+    :ARG1 (v13 / mikään)
+    :mod (v2 / valmistus))
+
+(v4 / be.01
+    :ARG2 (v6 / tarkoitus)
+    :ARG1 (v7 / come.01
+        :time (v3 / numero)
+        :ARG1 (v8 / katsaus
+            :mod (v9 / se))))
+
+(v13 / publish.01
+    :ARG0 (v3 / gourmet)
+    :time (v14 / kuitenkin)
+    :location (v16 / vuosi
+        :mod (v15 / viime))
+    :ARG1 (v17 / artikkeli
+        :time-of (v20 / cheer.02
+            :ARG1 (v19 / joka)
+            :ARG2 (v22 / valmistaa))))
+
+(v4 / prepare.02
+    :ARG2 (v2 / inspire.01
+        :ARG0 (v1 / tämä))
+    :ARG1 (v5 / makkara))
+
+(v3 / compare.01
+    :ARG2 (v2 / valmistaa))
+
+(v12 / get.03)
+
+(v3 / be.01
+    :ARG2 (v4 / helppo)
+    :ARG1 (v5 / prepare.02
+        :ARG1 (v2 / makkara)))
+
+(v3 / need.01
+    :location (v2 / valmistaa)
+    :ARG1 (v6 / raaka#aine
+        :mod (v5 / monenlainen)))
+
+(v5 / be.01
+    :ARG1 (v3 / ongelma)
+    :time (v6 / kovin)
+    :ARG2 (v7 / vaikea
+        :mod (v1 / raaka#aine)))
+
+(v11 / find.01
+    :ARG1 (v1 / suoli
+        :time-of (v7 / get.01
+            :location (v4 / apu)
+            :ARG0 (v5 / makkara)
+            :time (v6 / lopulta)
+            :ARG1 (v9 / muoto
+                :mod (v8 / lopullinen))))
+    :location (v15 / kauppa
+        :ARG1-of (v14 / equip.01
+            :manner (v13 / hyvin))))
+
+(v5 / want.01
+    :ARG3 (v1 / liha)
+    :time (v4 / kuitenkaan)
+    :ARG1 (v8 / liha))
+
+(v6 / come.01
+    :ARG2 (v4 / juttu))
+
+(v3 / help.01
+    :ARG2 (v1 / raaka#aine)
+    :ARG0 (v5 / luovuus)
+    :ARG1 (v19 / make_up.10
+        :ARG2 (v24 / aine)
+        :ARG1 (v28 / be.01
+            :time (v26 / jolloin)
+            :ARG2 (v27 / loppu#tulos)
+            :ARG1 (v30 / nautinto
+                :mod (v29 / persoonallinen)))))
+
+(v4 / need.01
+    :ARG1 (v1 / väline)
+    :location (v3 / valmistaa)
+    :ARG0 (v6 / jokin))
+
+(v6 / need.01
+    :ARG1 (v1 / kauha)
+    :cause (v11 / prepare.02
+        :ARG1 (v9 / makkara#massa)
+        :manner (v12 / jotenkin)))
+
+(v6 / be.01
+    :ARG1 (v3 / vempain
+        :mod (v2 / toimiva
+            :mod (v1 / erityinen))
+        :mod (v5 / tehtävä))
+    :ARG2 (v7 / moni#toimi#kone))
+
+(v2 / remember.01
+    :ARG1 (v1 / lapsuus))
+
+(v5 / be.01
+    :ARG1 (v2 / minä))
+
+(v6 / talk.01
+    :ARG1 (v2 / onnistua
+        :mod (v4 / moni#toimi#kone)))
+
+(v4 / come.01
+    :ARG1 (v2 / tämä
+        :ARG1-of (v5 / be.01
+            :ARG2 (v6 / kynnys
+                :mod (v7 / tie
+                    :mod (v8 / makkara#valmistus)))))
+    :ARG2 v6)
+
+(v4 / be.01
+    :ARG1 (v3 / puute
+        :mod (v2 / suuri))
+    :ARG2 (v6 / puute))
+
+(v3 / be.01
+    :ARG2 (v2 / liha#mylly)
+    :ARG1 (v5 / torvi)
+    :mod (v4 / vakio#varuste))
+
+(v2 / be.01
+    :ARG1 (v1 / tämä)
+    :time (v3 / varmasti)
+    :ARG2 (v5 / tarve#kalu
+        :mod (v4 / sellainen)))
+
+(v4 / taste.02
+    :ARG2 (v1 / makkara)
+    :time (v3 / välttämättä)
+    :manner (v6 / hyvin)
+    :ARG1 (v8 / meininki))
+
+(v2 / be.01
+    :ARG2 (v1 / maailma)
+    :ARG1 (v5 / objekti))
+
+(v6 / get.01
+    :location (v2 / viritys
+        :mod (v1 / sopiva))
+    :time (v7 / aika)
+    :ARG1 (v8 / kierrätys#makkara#kone))
+
+(v4 / see.01
+    :ARG1 (v6 / onnistua)
+    :ARG2 (v7 / toden#näköinen)
+    :mod (v2 / riski
+        :mod (v1 / tietty)))
+
+(v1 / hope.01
+    :ARG1 (v8 / sama
+        :ARG2-of (v5 / be.01
+            :ARG1 (v4 / todellisuus)
+            :time (v7 / jotakuinkin))))
+
+(v5 / be.01
+    :ARG2 (v3 / suunnitelma
+        :mod (v2 / villi))
+    :ARG1 (v7 / ruoka#juttu))
+
+(v10 / come.01
+    :ARG1 (v7 / niin)
+    :ARG2 (v8 / allekirjoittanut)
+    :direction (v11 / yhteys))
+
+(v7 / need.01
+    :ARG1 (v10 / ihminen
+        :mod (v9 / askartelu#taitoinen))
+    :mod (v2 / apu#leipuri
+        :mod (v1 / erinomainen))
+    :mod (v6 / projekti))
+
+(v3 / bear.02
+    :location (v1 / markkinat)
+    :ARG1 (v7 / tilanne
+        :mod (v6 / paha)))
+
+(v2 / be.01
+    :ARG2 (v1 / markkinat)
+    :ARG1 (v6 / luottamus#pula
+        :mod (v5 / paha)))
+
+(v4 / be.01
+    :ARG1 (v3 / tilanne)
+    :ARG2 (v6 / vaikea
+        :mod (v5 / uskoa))
+    :time (v9 / sanoa
+        :ARG0 (v8 / Grisay)
+        :ARG2 (v11 / puhelin#kokous)
+        :ARG1 (v15 / tell.01
+            :ARG0 (v14 / Bloomberg))))
+
+(v2 / say.01
+    :ARG0 (v1 / Grisay)
+    :ARG1 (v9 / be.01
+        :ARG1 (v8 / uusiutua)
+        :ARG2 (v12 / lähellä)))
+
+(v2 / get.01
+    :time (v3 / nyt)
+    :ARG1 (v4 / prove.01
+        :ARG1 (v5 / luottamus#kriisi)))
+
+(v9 / be.01
+    :ARG1 (v8 / korko
+        :ARG1-of (v7 / insist.01
+            :ARG0 (v1 / sijoittaja)
+            :time (v6 / laina)))
+    :ARG2 (v10 / korkea))
+
+(v2 / say.01
+    :ARG0 (v1 / Grisay)
+    :ARG1 (v9 / väli#aikainen
+        :ARG2-of (v7 / be.01
+            :ARG1 (v6 / velka#katto#sopimus))))
+
+(v2 / say.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v8 / be.01
+        :ARG1 (v7 / sijoittaja
+            :ARG0-of (v9 / turn.02
+                :ARG1 (v10 / katse)
+                :ARG2 (v12 / maa
+                    :mod (v11 / kehittynyt))
+                :location (v14 / maa)
+                :ARG2-of v8))))
+
+(v5 / stay.01
+    :ARG1 (v4 / kieli
+        :mod (v3 / uusi))
+    :time (v7 / järjestelmä))
+
+(v10 / learn.01
+    :ARG1 (v11 / uusi))
+
+(v2 / concentrate.01
+    :time (v1 / symposiumi)
+    :ARG1 (v3 / show.01
+        :ARG1 (v11 / tulos
+            :mod (v14 / muovautuvuus)
+            :ARG1-of (v10 / get.01
+                :location (v5 / heräte#vaste#tutkimus)))))
+
+(v9 / be.01
+    :ARG2 (v10 / show.01
+        :ARG1 (v8 / tutkimus
+            :mod (v7 / ajan#kohtainen)))
+    :ARG1 (v12 / Maija))
+
+(v2 / talk.01
+    :ARG0 (v1 / Peltola)
+    :ARG2 (v3 / otsikko)
+    :mod (v11 / se))
+
+(v2 / tell.01
+    :ARG0 (v1 / hän)
+    :ARG2 (v3 / tutkimus))
+
+(v5 / be.01
+    :time (v2 / tulos)
+    :ARG2 (v8 / puhua)
+    :ARG1 (v12 / järjestelmä
+        :mod (v10 / yhteinen)
+        :mod (v11 / fonologinen)))
+
+(v3 / be.01
+    :ARG2 (v1 / kieli#opiskelija)
+    :time (v2 / taas)
+    :ARG1 (v6 / järjestelmä
+        :mod (v5 / erillinen)))
+
+(v3 / be.01
+    :ARG2 (v4 / helppo)
+    :ARG1 (v5 / understand.01
+        :ARG1 (v2 / tämä)
+        :manner (v6 / oppia#prosessi)))
+
+(v3 / develop.02
+    :ARG0 (v2 / lapsi
+        :mod (v1 / kaksikielinen))
+    :ARG1 (v5 / taito)
+    :mod (v4 / itse))
+
+(v4 / tell.01
+    :ARG0 (v1 / Maija)
+    :ARG1 (v8 / come.01
+        :ARG1 (v7 / kieli#opiskelija)
+        :ARG2 (v9 / kategorisoida)))
+
+(v6 / be.01
+    :time (v5 / kerran)
+    :ARG2 (v7 / mahdollinen)
+    :ARG1 (v8 / get.01
+        :ARG1 (v4 / kieli)
+        :location (v9 / aivot)))
+
+(v2 / hear.01
+    :ARG1 (v1 / symposiumi)
+    :time (v3 / tutkimus))
+
+(v3 / be.01
+    :ARG1 (v2 / kyse)
+    :mod (v5 / se))
+
+(v4 / be.01
+    :ARG1 (v3 / tutkimus#tulos
+        :mod (v2 / mukava
+            :mod (v1 / kieli#opettaja))))
+
+(v4 / do.02
+    :ARG2 (v3 / osa)
+    :ARG1 (v5 / tutkimus
+        :ARG1-of (v10 / continue.01
+            :time (v11 / lapsi))))
+
+(v2 / learn.01
+    :ARG0 (v3 / lapsi)
+    :manner (v4 / nopea))
+
+(v8 / grant.01
+    :ARG0 (v6 / hallitus)
+    :ARG1 (v10 / tunnustus#palkinto)
+    :ARG2 (v13 / Marita)
+    :mod (v17 / väitös#kirja#työ))
+
+(v2 / grant.01
+    :ARG1 (v1 / palkinto)
+    :ARG2 (v5 / toiminta
+        :mod (v4 / ansiokas
+            :mod (v3 / erityinen))
+        :mod (v9 / alue)))
+
+(v7 / handle.01
+    :ARG0 (v6 / väitös#kirja
+        :ARG1-of (v5 / accept.01
+            :time (v3 / temporal-quantity
+                :unit (vg0 / vuosi)
+                :quant 2009)))
+    :ARG1 (v10 / hyväksyntä
+        :mod (v14 / hoito#työ
+            :mod (v13 / psykiatrinen))))
+
+(v3 / do.02
+    :ARG1 (v1 / väitös#kirja)
+    :ARG2 (v9 / hanke
+        :ARG0-of (v14 / finance.01
+            :ARG1 (v11 / joka)
+            :time (v15 / temporal-quantity
+                :unit (vg0 / vuosi)
+                :quant 2004-2007))))
+
+(v3 / work.01
+    :location (v2 / ohjaaja)
+    :ARG0 (v5 / Maritta))
+
+(v3 / say.01
+    :time (v2 / perustelu)
+    :ARG1 (v8 / focus.01
+        :ARG0 (v6 / tutkimus)
+        :ARG2 (v10 / potilas#ryhmä
+            :mod (v9 / merkittävä))))
+
+(v3 / be.01
+    :ARG1 (v2 / tulos)
+    :ARG2 (v4 / ajankohtainen))
+
+(v3 / turn_over.12
+    :ARG1 (v1 / palkinto)
+    :location (v4 / Koivunen)
+    :ARG2 (v10 / seminaari
+        :mod (v6 / kansallinen)
+        :mod (v11 / 8.4.2010)))
+
+(v3 / work.01
+    :ARG0 (v1 / Marita)
+    :location (v4 / kehittää#yli#hoitaja)
+    :location (v6 / sairaan#hoito#piiri))
+
+(v3 / publish.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v6 / artikkeli
+        :mod (v5 / tieteellinen)
+        :mod (v8 / hyödyntää
+            :mod (v9 / hoito#työ))))
+
+(v5 / reward.01
+    :ARG1 (v2 / väitös#kirja#työ)
+    :time (v4 / aiemmin)
+    :ARG2 (v7 / #opin#näyte#palkinto))
+
+(v20 / be.01
+    :ARG1 (v1 / Catherine)
+    :ARG2 (v22 / näyttelijä
+        :mod (v21 / yhdysvaltalainen)))
+
+(v2 / be.01
+    :ARG2 (v1 / hän)
+    :ARG1 (v4 / juuri
+        :mod (v3 / italialainen)))
+
+(v2 / perform.01
+    :ARG0 (v1 / Ballard)
+    :time (v3 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1967–1969)
+    :location (v6 / tilanne#komedia))
+
+(v2 / know.01
+    :ARG1 (v1 / hän)
+    :ARG2 (v5 / musikaali))
+
+(v2 / visit.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v6 / vuosi)
+    :mod (v3 / The))
+
+(v2 / be.01
+    :ARG1 (v1 / Ballard)
+    :ARG2 (v3 / naimaton))
+
+(v3 / live.01
+    :ARG0 (v1 / hän)
+    :time (v4 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1970)
+    :location (v6 / Rancho
+        :mod (v10 / Coachella
+            :mod (v12 / asunto))))
+
+(v2 / be.01
+    :ARG1 (v1 / kappale)
+    :ARG2 (v5 / avaus#raita))
+
+(v2 / be.01
+    :ARG1 (v1 / Pygmalion)
+    :ARG2 (v3 / hahmo
+        :mod (v5 / teos))
+    :location v5)
+
+(v2 / tell.01
+    :ARG0 (v1 / tarina)
+    :ARG1 (v4 / Pygmalion
+        :ARG0-of (v7 / love.01
+            :ARG1 (v10 / nainen#patsas
+                :ARG1-of (v9 / carve.01
+                    :manner (v8 / norsun#luu))))))
+
+(v9 / use.01
+    :ARG2 (v1 / Agalmatofilia)
+    :ARG1 (v11 / nimitys))
+
+(v5 / bear.02
+    :time (v8 / 1938)
+    :location (v9 / Lontoo
+        :mod (v11 / Englanti
+            :mod (v14 / kuningas#kunta
+                :mod (v13 / yhdistyä)))))
+
+(v5 / be.01
+    :ARG1 (v4 / kappale
+        :mod (v2 / tunnettu)
+        :mod (v3 / yksittäinen))
+    :ARG2 (v7 / Walking
+        :mod (v13 / 1982))
+    :location v13)
+
+(v2 / get.01
+    :ARG0 (v1 / Blake)
+    :time (v3 / 18#vuotias)
+    :ARG1 (v4 / stipendi
+        :mod (v5 / Royal)))
+
+(v9 / write.01
+    :ARG2 (v6 / joka)
+    :ARG0 (v7 / hän)
+    :ARG1 (v10 / musiikki))
+
+(v2 / grant.01
+    :ARG2 (v1 / Blake)
+    :time (v3 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1994)
+    :ARG1 (v8 / arvo#nimi))
+
+(v2 / be.01
+    :ARG1 (v1 / hän)
+    :time (v3 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1981)
+    :ARG2 (v8 / ehto
+        :mod (v10 / saaja)
+        :mod (v11 / musiikki
+            :mod (v12 / elo#kuva)))
+    :mod (v6 / jäsen))
+
+(v2 / be.01
+    :ARG1 (v1 / Kra)
+    :ARG2 (v7 / J#rock#yhtye
+        :ARG1-of (v6 / start.01
+            :time (v5 / elo#kuu))))
+
+(v2 / be.01
+    :ARG1 (v1 / kyse))
+
+(v3 / be.01
+    :ARG1 (v2 / musiikki)
+    :ARG2 (v4 / sekoitus
+        :mod (v5 / poppi))
+    :location v5)
+
+(v5 / arrange.01
+    :ARG1 (v4 / maailman#mestaruus#kilpailu)
+    :time (v6 / Ranska)
+    :time (v11 / temporal-quantity
+        :unit (vg0 / heinä#kuu)
+        :quant 12.))
+
+(v4 / participate.01
+    :ARG1 (v6 / kerta
+        :mod (v5 / ensi))
+    :ARG0 (v8 / joukkue)
+    :mod (v1 / vuosi)
+    :mod (v3 / MM#loppu#turnaus))
+
+(v3 / be.01
+    :ARG1 (v2 / uudistus)
+    :ARG2 (v6 / käyttöönotto))
+
+(v2 / win.01
+    :ARG1 (v1 / turnaus)
+    :ARG0 (v4 / Ranska))
+
+(v3 / come.01
+    :ARG4 (v2 / Ranska)
+    :ARG1 (v7 / maa))
+
+(v6 / win.01
+    :location (v2 / avaus#ottelu)
+    :ARG0 (v5 / Brasilia)
+    :ARG1 (v7 / Skotlanti)
+    :location (v8 / 2–1))
+
+(v3 / see.01
+    :ARG1 (v2 / yllätys)
+    :time (v7 / kaataa
+        :ARG0 (v6 / Norja)
+        :ARG1 (v8 / Brasilia)
+        :ARG3 (v11 / rangaistus#potku#maali)))
+
+(v3 / be.01
+    :ARG1 (v2 / pettymys
+        :mod (v1 / suuri))
+    :ARG2 (v6 / Espanja
+        :ARG1-of (v5 / stay.01
+            :time (v4 / alku#lohko))))
+
+(v4 / bring.01
+    :ARG3 (v2 / syy
+        :mod (v1 / maailman#poliittinen))
+    :ARG1 (v3 / huomio)
+    :ARG0 (v6 / voitto
+        :mod (v7 / Yhdysvallat)))
+
+(v4 / win.01
+    :location (v1 / neljännes#väli#erä)
+    :ARG0 (v3 / Ranska)
+    :ARG1 (v5 / Paraguay)
+    :location (v6 / 1–0)
+    :location (v7 / jatko#aika))
+
+(v5 / attack.01
+    :ARG1 (v4 / ottelu
+        :mod (v3 / puhuttu))
+    :time (v6 / kuitenkin)
+    :location (v7 / Argentiina))
+
+(v2 / remember.01
+    :ARG1 (v1 / ottelu)
+    :time (v8 / soolo#maali))
+
+(v2 / proceed.01
+    :ARG0 (v1 / Argentiina)
+    :time (v3 / lopulta)
+    :ARG1 (v4 / jatko)
+    :time (v5 / rangaistus#potku#kilpailu)
+    :time (v8 / temporal-quantity
+        :unit (vg0 / päättyä)
+        :quant 2–2
+        :ARG1 (v7 / ottelu)
+        :time (v9 / 2–2)))
+
+(v3 / win.01
+    :location (v1 / puoli#väli#erä)
+    :ARG0 (v2 / Ranska)
+    :ARG1 (v4 / Italia)
+    :location (v5 / rangaistus#potku)
+    :time (v7 / tasa#peli))
+
+(v3 / pour.01
+    :ARG0 (v1 / Brasilia)
+    :ARG1 (v4 / Tanska)
+    :time (v6 / vaihe)
+    :time (v8 / 3–2))
+
+(v2 / win.01
+    :ARG0 (v1 / Alankomaat)
+    :ARG1 (v3 / Argentiina)
+    :location (v4 / 2–1)
+    :ARG3 (v10 / maali
+        :mod (v7 / upea)))
+
+(v6 / pour.01
+    :ARG0 (v4 / Kroatia
+        :ARG1-of (v3 / rise.01
+            :ARG2 (v2 / yllätys#joukkue)))
+    :ARG1 (v7 / Saksa)
+    :time (v8 / 3–0))
+
+(v3 / win.01
+    :location (v1 / väli#erä)
+    :ARG0 (v2 / Ranska)
+    :ARG1 (v4 / Kroatia)
+    :location (v5 / 2–1))
+
+(v4 / pour.01
+    :time (v2 / temporal-quantity
+        :unit (vg0 / väli#erä)
+        :quant toinen)
+    :ARG0 (v3 / Brasilia)
+    :ARG1 (v5 / Alankomaat)
+    :time (v6 / rangaistus#potku#kilpailu))
+
+(v5 / end.01
+    :ARG1 (v3 / peli#aika
+        :mod (v2 / varsinainen))
+    :time (v6 / 1–1))
+
+(v3 / win.01
+    :location (v1 / pronssi#ottelu)
+    :ARG0 (v2 / Kroatia)
+    :ARG1 (v4 / Alankomaat)
+    :location (v5 / 2–1))
+
+(v4 / let.01
+    :ARG0 (v2 / Davor)
+    :ARG1 (v8 / maali)
+    :mod (v5 / ottelu))
+
+(v5 / wake.01
+    :time (v2 / loppu#ottelu)
+    :ARG1 (v4 / keskustelu
+        :mod (v3 / suuri))
+    :ARG0 (v11 / sairaus#kohtaus
+        :mod (v10 / mystinen)
+        :ARG1-of (v9 / get.01
+            :ARG0 (v7 / tähti#pelaaja))))
+
+(v2 / win.01
+    :ARG0 (v1 / Ranska)
+    :ARG1 (v3 / loppu#ottelu)
+    :time (v4 / vakuuttavasti)
+    :ARG3 (v5 / maali))
+
+(v3 / do.02
+    :ARG0 (v1 / Zinédine)
+    :time (v5 / temporal-quantity
+        :unit (vg0 / puoli#aika)
+        :quant ensimmäinen)
+    :ARG1 (v7 / pusku#maali)
+    :ARG2 (v8 / kulma#potku#tilanne))
+
+(v3 / finish.01
+    :ARG1 (v2 / maali)
+    :location (v6 / loppu#hetki)
+    :ARG0 (v7 / Emmanuel))
+
+(v2 / choose.01
+    :ARG1 (v1 / Ronaldo)
+    :ARG2 (v7 / pelaaja
+        :mod (v6 / hyvä))
+    :mod (v3 / finaali#tappio))
+
+(v5 / be.01
+    :ARG1 (v1 / Trail)
+    :ARG2 (v13 / demo))
+
+(v2 / be.01
+    :ARG1 (v1 / lapsi#klinikka)
+    :ARG2 (v3 / osa
+        :mod (v7 / sairaala))
+    :location v7)
+
+(v2 / locate.01
+    :location (v3 / Helsinki)
+    :location (v6 / kortteli)
+    :location (v8 / osoite))
+
+(v3 / start.01
+    :ARG1 (v4 / 1893)
+    :ARG2 (v5 / promote.02
+        :ARG1 (v10 / opetus
+            :mod (v6 / yli#opistollinen))))
+
+(v2 / be.01
+    :ARG1 (v1 / alku)
+    :ARG2 (v6 / sairaala
+        :mod (v3 / vaatimaton)
+        :mod (v7 / Tehtaankatu))
+    :location v7)
+
+(v4 / give.01
+    :time (v1 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 1946)
+    :ARG0 (v3 / sairaala)
+    :ARG1 (v6 / tila
+        :mod (v5 / nykyinen)))
+
+(v7 / give.01
+    :ARG1 (v2 / tila
+        :mod (v1 / uusi))
+    :mod (v5 / se))
+
+(v9 / start.01
+    :ARG0 (v1 / tila
+        :ARG1-of (v12 / be.01
+            :location (v13 / mitta#suhteet)
+            :time (v14 / kovin)
+            :ARG2 (v15 / ahdas
+                :mod v13)))
+    :ARG2 (v11 / olo)
+    :ARG1 v15)
+
+(v9 / locate.01
+    :ARG1 (v8 / osasto
+        :mod (v3 / osasto))
+    :location (v11 / kiinteistö))
+
+(v3 / locate.01
+    :location (v5 / kortteli)
+    :location (v7 / rakennus))
+
+(v3 / belong.01
+    :ARG1 (v2 / vastuu#alue)
+    :ARG0 (v6 / osasto))
+
+(v12 / be.01
+    :ARG1 (v1 / Helle)
+    :ARG2 (v16 / moniottelija
+        :mod (v13 / virolainen#syntyinen)
+        :mod (v14 / suomalainen)))
+
+(v2 / win.01
+    :ARG0 (v1 / hän)
+    :location (v3 / seitsen#ottelu)
+    :ARG1 (v6 / mestaruus))
+
+(v5 / reach.01
+    :time (v3 / siirtyä)
+    :ARG0 (v4 / hän)
+    :ARG1 (v6 / mitali#sijoitus)
+    :time (v7 / yleis#urheilu)
+    :time (v9 / Viro))
+
+(v4 / be.01
+    :ARG1 (v3 / piste#ennätys
+        :mod (v1 / seitsen#ottelu))
+    :ARG2 (v5 / 6106))
+
+(v3 / represent.01
+    :ARG2 (v1 / seura#taso)
+    :ARG0 (v2 / hän)
+    :ARG1 (v5 / Kenttäurheilijat-58
+        :mod (v4 / Vantaa)))
+
+(v15 / be.01
+    :ARG1 (v1 / Tenshinhan)
+    :ARG2 (v20 / hahmo
+        :mod (v19 / fiktiivinen)
+        :mod (v23 / sarja)
+        :ARG1-of (v18 / create.01
+            :ARG0 (v16 / Akira)))
+    :location v23)
+
+(v2 / be.01
+    :ARG1 (v1 / Tienshinhan)
+    :ARG2 (v3 / kalju))
+
+(v2 / be.01
+    :ARG1 (v1 / Tienshinhan)
+    :location (v3 / ihminen)
+    :ARG2 (v4 / voimakas
+        :mod v3))
+
+(v4 / be.01
+    :ARG1 (v3 / ystävä
+        :mod (v2 / hyvä))
+    :ARG2 (v5 / Chiaotzu))
+
+(v3 / be.01
+    :time (v1 / aluksi)
+    :ARG1 (v2 / hän)
+    :ARG2 (v7 / oppilas))
+
+(v2 / end.01
+    :ARG1 (v1 / turnaus)
+    :ARG2 (v5 / voitto
+        :mod (v4 / täpärä))
+    :cause (v14 / hit.01
+        :location (v9 / fall.01
+            :ARG1 (v8 / molemmat)
+            :ARG2 (v10 / areena))
+        :ARG0 (v12 / Son)
+        :ARG1 (v17 / auto
+            :ARG1-of (v16 / drive.01
+                :location (v15 / lähellä)))))
+
+(v4 / reject.01
+    :time (v1 / turnaus)
+    :ARG0 (v3 / Tienshinhan)
+    :ARG1 (v6 / opetus))
+
+(v7 / face.01
+    :time (v4 / tuhota
+        :ARG1 (v2 / Piccolo))
+    :ARG0 (v6 / Tienshinhan)
+    :manner (v13 / turnaus
+        :mod (v8 / seuraava))
+    :ARG1 (v16 / opettaja
+        :mod (v15 / entinen)))
+
+(v4 / face.01
+    :time (v2 / kierros)
+    :ARG0 (v3 / hän)
+    :ARG1 (v5 / Son))
+
+(v5 / fight.01
+    :location (v1 / Dragon)
+    :ARG0 (v4 / Tienshinhan)
+    :ARG1 (v7 / Nappa))
+
+(v2 / fight.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v4 / Cell))
+
+(v8 / be.01
+    :ARG1 (v1 / Mari)
+    :ARG2 (v10 / lapsi
+        :mod (v9 / suomalainen)))
+
+(v2 / be.01
+    :ARG1 (v1 / hän)
+    :ARG2 (v4 / jatko#opiskelija
+        :mod (v5 / Åbo
+            :mod (v7 / Turku)
+            :location-of v2)))
+
+(v3 / publish.01
+    :ARG0 (v1 / Tammi)
+    :ARG1 (v4 / lapsi#romaani))
+
+(v20 / be.01
+    :ARG1 (v2 / Johannes
+        :mod (v1 / pyhä)
+        :mod (v18 / 749))
+    :ARG2 (v23 / munkki
+        :ARG0-of (v22 / belong.01
+            :ARG1 (v21 / melkiitti))))
+
+(v2 / bear.02
+    :ARG1 (v1 / hän)
+    :location (v5 / Damaskos))
+
+(v2 / put.01
+    :ARG1 (v1 / hän)
+    :time (v3 / usein)
+    :ARG2 (v5 / joukko))
+
+(v13 / base.01
+    :ARG0 (v5 / pääsiäinen#virsi
+        :ARG1-of (v11 / sing.01
+            :time (v8 / nyt)
+            :time (v9 / kansa)))
+    :location (v17 / hymni))
+
+(v11 / be.01
+    :ARG1 (v1 / Stahanov)
+    :ARG2 (v12 / teollisuus#kaupunki
+        :mod (v14 / alue
+            :mod (v15 / Itä#Ukraina)
+            :location-of v11)))
+
+(v4 / be.01
+    :time (v1 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 2001)
+    :ARG2 (v3 / siellä)
+    :ARG1 (v8 / asukas))
+
+(v2 / get.01
+    :ARG0 (v1 / kaupunki)
+    :ARG1 (v3 / nimi)
+    :location (v4 / 1978)
+    :time (v8 / sankari))
+
+(v5 / be.01
+    :ARG1 (v4 / nimi)
+    :ARG2 (v6 / Kadijivka
+        :mod (v1 / se)))
+
+(v3 / base.02
+    :ARG1 (v2 / elin#keino#elämä)
+    :ARG2 (v5 / tuotanto))
+
+(v2 / be.01
+    :ARG1 (v1 / asiakas)
+    :ARG2 (v3 / henkilö
+        :ARG0-of (v12 / order.01
+            :ARG1 (v15 / tuote))))
+
+(v2 / be.01
+    :ARG1 (v1 / asiakas)
+    :ARG2 (v3 / henkilö))
+
+(v3 / run.01
+    :ARG1 (v1 / asiakas)
+    :location (v5 / sana
+        :mod (v4 / vanha)))
+
+(v2 / mean.01
+    :ARG1 (v1 / asia)
+    :ARG2 (v15 / asiuus
+        :mod (v12 / yleinen)
+        :mod (v14 / perimmäinen)))
+
+(v4 / refer.01
+    :ARG0 (v2 / sana)
+    :ARG1 (v8 / sana
+        :ARG1-of (v7 / mean.01
+            :ARG2 (v6 / puku))))
+
+(v8 / refer.01
+    :ARG1 (v9 / seuraaja)
+    :mod (v7 / joka))
+
+(v3 / be.01
+    :ARG1 (v1 / asiakas)
+    :ARG2 (v4 / suora))
+
+(v3 / work.01
+    :ARG0 (v2 / asiakas
+        :mod (v1 / suora))
+    :ARG3 (v5 / yritys))
+
+(v3 / be.01
+    :ARG1 (v2 / tapaus
+        :mod (v1 / yksinkertainen))
+    :ARG2 (v7 / tilaaja))
+
+(v3 / use.01
+    :ARG0 (v2 / asiakas
+        :mod (v1 / epä#suora))
+    :ARG1 (v4 / tuote))
+
+(v3 / sell.01
+    :ARG1 (v1 / tuote)
+    :ARG2 (v4 / asiakas)
+    :manner (v5 / tukku))
+
+(v9 / take.01
+    :ARG1 (v7 / mieli#pide)
+    :ARG2 (v10 / huomio))
+
+(v2 / wither.01
+    :ARG1 (v1 / menekki)
+    :manner (v4 / nopeasti))
+
+(v3 / be.01
+    :ARG1 (v2 / asiakas
+        :mod (v1 / ulkoinen))
+    :ARG2 (v9 / asiakas
+        :mod (v4 / yritys)
+        :mod (v6 / suora)))
+
+(v3 / be.01
+    :ARG1 (v2 / asiakas
+        :mod (v1 / sisäinen))
+    :time (v4 / yritys))
+
+(v6 / share.01
+    :ARG2 (v3 / yritys
+        :mod (v2 / suuri))
+    :ARG1 (v4 / yritys)
+    :time (v7 / tulos#yksikkö))
+
+(v9 / be.01
+    :ARG1 (v2 / kansan#tasa#valta)
+    :ARG2 (v11 / valtio
+        :mod (v12 / 1952-1989))
+    :location v12
+    :time (v19 / muuttaa
+        :ARG1 (v17 / perustus#laki)
+        :ARG2 (v20 / sosialistinen)))
+
+(v3 / end.01
+    :ARG0 (v2 / kansan#tasa#valta)
+    :ARG2 (v5 / muutos)
+    :ARG1 (v9 / come.01
+        :time (v7 / jolloin)
+        :ARG4 (v8 / maa)
+        :time (v10 / jälleen)
+        :ARG1 (v12 / tasa#valta)))
+
+(v9 / stay.01
+    :ARG2 (v10 / pien#tila#muotoinen))
+
+(v9 / remain.01
+    :ARG3 (v1 / samoin)
+    :ARG1 (v8 / asema
+        :mod (v5 / hengellinen))
+    :ARG2 (v10 / vahva))
+
+(v2 / choose.01
+    :location (v1 / Puola)
+    :ARG1 (v3 / paavi)
+    :time (v7 / temporal-quantity
+        :unit (vg0 / paavi)
+        :quant ensimmäinen))
+
+(v2 / start.01
+    :location (v1 / Puola)
+    :ARG1 (v5 / solidaarisuus))
+
+(v11 / be.01
+    :ARG1 (v1 / Do)
+    :ARG2 (v15 / single))
+
+(v2 / be.01
+    :ARG1 (v1 / kyse))
+
+(v10 / do.02
+    :ARG1 (v1 / kappale)
+    :ARG0 (v11 / Brian)
+    :mod (v4 / Sean))
+
+(v3 / be.01
+    :ARG1 (v2 / ensiesitys)
+    :ARG2 (v9 / ohjelma
+        :mod (v10 / KIIS#FM#radio#kanava))
+    :mod (v6 / 2007))
+
+(v2 / ask.01
+    :ARG0 (v1 / Iglesias)
+    :ARG1 (v3 / Do)
+    :time (v9 / temporal-quantity
+        :unit (vg0 / kerta)
+        :quant ensimmäinen)
+    :manner (v10 / live)
+    :ARG2 (v17 / touko#kuu)
+    :mod (v15 / tv#ohjelma))
+
+(v3 / record.01
+    :ARG0 (v1 / Iglesias)
+    :ARG1 (v4 / Do)
+    :time (v10 / espanja))
+
+(v4 / ask.01
+    :ARG0 (v1 / Iglesias)
+    :time (v3 / itse)
+    :ARG1 (v5 / vaatimus)
+    :cause (v22 / add.02
+        :ARG1 (v19 / jälki#liite
+            :ARG1-of (v20 / be.01
+                :ARG2 v22))
+        :ARG0 (v21 / levy#yhtiö)))
+
+(v8 / refer.01
+    :ARG0 (v7 / liite)
+    :ARG1 (v15 / ääni
+        :ARG1-of (v11 / ring.01
+            :location (v10 / tausta))
+        :ARG1-of (v14 / bear.02
+            :time (v13 / pomppu))))
+
+(v2 / do.02
+    :ARG2 (v1 / kappale)
+    :ARG1 (v4 / musiikki#video))
+
+(v14 / reach.01
+    :ARG1 (v16 / sija))
+
+(v4 / rise.01
+    :ARG3 (v2 / iTunes)
+    :ARG2 (v5 / sija))
+
+(v14 / rise.01
+    :time (v16 / viikko)
+    :ARG3 (v17 / kärki#paikka
+        :ARG0-of (v22 / rule.03
+            :ARG1 (v19 / joka)
+            :time (v23 / nyt)
+            :time (v25 / temporal-quantity
+                :unit (vg0 / viikko)
+                :quant kuusi))))
+
+(v2 / be.01
+    :ARG1 (v1 / kyse))
+
+(v3 / publish.01
+    :ARG1 (v1 / single)
+    :time (v4 / varsinainen)
+    :time (v5 / lainkaan)
+    :time (v7 / synnyin#maa))
+
+(v4 / be.01
+    :ARG2 (v5 / mahdollinen)
+    :ARG1 (v6 / load.01
+        :manner (v7 / internet)))
+
+(v4 / die.01
+    :ARG1 (v3 / uiguuri)
+    :location (v6 / pää#kaupunki)
+    :location (v10 / väki#valta)
+    :time (v11 / temporal-quantity
+        :unit (vg0 / heinä#kuu)
+        :quant 2009))
+
+(v9 / arrange.01
+    :time (v1 / Helsinki)
+    :ARG0 (v4 / puolue
+        :mod (v3 / islamilainen))
+    :ARG1 (v12 / kulkue)
+    :ARG2 (v13 / uiguuri))
+
+(v2 / walk.01
+    :ARG0 (v1 / hän)
+    :ARG1 (v3 / Kiasma)
+    :direction (v5 / Pohjoisesplanadi))
+
+(v2 / be.01
+    :ARG1 (v1 / uiguuri)
+    :ARG2 (v3 / muslimi))
+
+(v9 / come.01
+    :ARG1 (v8 / Suomi
+        :ARG0-of (v10 / take.01
+            :ARG1 (v11 / kanta)
+            :ARG2 (v13 / ihmis#oikeus#rikkomus)))
+    :mod (v5 / Abdullah))
+
+(v2 / come.01
+    :ARG1 (v1 / Suomi
+        :ARG0-of (v3 / prove.01
+            :ARG1 (v7 / accept.01
+                :ARG1 (v12 / polkea)))))
+
+(v2 / insist.01
+    :ARG0 (v1 / mielen#osoittaja)
+    :ARG1 (v8 / open.01
+        :ARG0 (v6 / valtio)
+        :ARG1 (v9 / silmä)
+        :manner (v11 / ihmis#oikeus#rikkomus)))
+
+(v8 / require.01
+    :time (v3 / aika)
+    :ARG0 (v7 / lehdistö
+        :mod (v6 / suomalainen))
+    :manner (v9 / laajasti)
+    :ARG1 (v11 / kunnioittaa
+        :mod (v12 / Kiina)))
+
+(v4 / be.01
+    :time (v1 / vastaavasti)
+    :ARG1 (v5 / ihmis#oikeus)
+    :ARG2 (v8 / asia))
+
+(v5 / leave.11
+    :ARG0 (v4 / presidentti)
+    :ARG1 (v7 / kokous)
+    :mod (v1 / levottomuus)
+    :mod (v8 / Italia))
+
+(v4 / tie.01
+    :time (v1 / samanaikaisesti)
+    :ARG0 (v3 / valtuus#kunta)
+    :time (v7 / Suomi)
+    :ARG1 (v8 / kauppa)
+    :ARG2 (v10 / yritys
+        :mod (v9 / suomalainen)))
+
+(v8 / succeed.01
+    :time (v7 / aika))
+
+(v4 / give.01
+    :ARG0 (v2 / Toyota)
+    :ARG2 (v9 / talli
+        :ARG1-of (v8 / compete.01
+            :ARG2 (v7 / sarja)))
+    :ARG1 (v12 / aika
+        :mod (v11 / vuosi)
+        :time-of (v13 / achieve.01
+            :ARG1 (v14 / menestys))))
+
+(v2 / tell.01
+    :ARG2 (v1 / asia)
+    :ARG0 (v4 / Tadashi))
+
+(v3 / drive.01
+    :ARG0 (v1 / Toyota)
+    :ARG1 (v4 / sarja)
+    :time (v5 / temporal-quantity
+        :unit (vg0 / vuosi)
+        :quant 2002))
+
+(v6 / be.01
+    :ARG1 (v4 / budjetti
+        :mod (v1 / kausi)
+        :mod (v5 / F1))
+    :location (v7 / arvio)
+    :ARG2 (v11 / euro
+        :mod v7))
+
+(v4 / strengthen.01
+    :ARG0 (v3 / Toyota#talli))
+
+(v4 / use.01
+    :ARG0 (v2 / työ)
+    :ARG1 (v5 / resurssi)
+    :ARG2-of (v3 / be.01
+        :ARG1 v5)
+    :ARG2 (v7 / saavuttaa))
+
+(v3 / give.01
+    :ARG2 (v1 / minä)
+    :ARG1 (v6 / aika
+        :mod (v5 / vuosi)))
+
+(v1 / work.01
+    :ARG1 (v12 / tell.01
+        :ARG0 (v11 / Yamashina)
+        :ARG2 (v14 / vuosi#raportti))
+    :mod (v2 / se))
+
+(v5 / travel.01
+    :ARG0 (v3 / Tarja)
+    :time (v6 / tänään)
+    :ARG1 (v7 / valtio#vierailu
+        :mod (v8 / Irlanti)))
+
+(v5 / see.01
+    :ARG2 (v3 / aika)
+    :ARG0 (v4 / Halonen)
+    :ARG1 (v7 / presidentti))
+
+(v2 / be.01
+    :ARG2 (v1 / ohjelma)
+    :ARG1 (v3 / tutustua
+        :mod (v5 / laakso)))
+
+(v4 / travel.01
+    :manner (v2 / seurue)
+    :ARG0 (v6 / edustaja))
+
+(v10 / cancel.01
+    :ARG0 (v4 / Tarja
+        :mod (v1 / se))
+    :ARG1 (v11 / osallistua
+        :mod (v12 / matka))
+    :mod (v14 / työ#kiista#tilanne))
+
+(v2 / handle.01
+    :ARG0 (v1 / hallitus)
+    :time (v4 / aika)
+    :ARG1 (v5 / poikkeus#laki))
+
+(v2 / hit.01
+    :ARG0 (v1 / luoti#juna)
+    :ARG1 (v3 / kuorma#auto)
+    :mod (v4 / Ranska))
+
+(v9 / hit.01
+    :ARG0 (v6 / TGV#luoti#juna
+        :mod (v5 / ranskalainen))
+    :ARG1 (v10 / toinen)
+    :time (v11 / aamu)
+    :mod (v12 / Itä#Ranska
+        :mod (v15 / raja)))
+
+(v2 / happen.01
+    :ARG1 (v1 / onnettomuus)
+    :ARG2 (v3 / taso#risteys
+        :mod (v7 / kaupunki
+            :mod (v5 / kilo#metri))))
+
+(v5 / get.01
+    :ARG0 (v4 / kuljettaja)
+    :location (v6 / onnettomuus)
+    :ARG1 (v7 / surma))
+
+(v2 / hurt.01
+    :manner (v1 / vakavasti))
+
+(v10 / drag.01
+    :ARG1 (v11 / kuorma#auto)
+    :ARG2 (v12 / edellä))
+
+(v4 / drive.01
+    :ARG0 (v2 / juna)
+    :direction (v5 / onnettomuus#hetki)
+    :ARG1 (v6 / huippu#nopeus))
+
+(v2 / drive.01
+    :ARG0 (v1 / TGV#juna)
+    :time (v3 / toistaiseksi)
+    :ARG1 (v6 / nopeus
+        :mod (v4 / normaali))
+    :direction (v8 / rata#osuus))
+
+(v8 / renew.01
+    :ARG1 (v1 / onnettomuus#paikka)
+    :time (v7 / vielä)
+    :time (v9 / TGV#juna))
+

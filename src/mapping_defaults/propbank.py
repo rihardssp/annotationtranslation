@@ -19,7 +19,20 @@ DEFAULT_PROP_BANK_ACTION_MAPPING = {
     'AM-CAU': ArgumentDelegate(None, 'cause'),
     'AM-MNR': ArgumentDelegate(None, 'manner'),
     'AM-EXT': ArgumentDelegate(None, 'extent'),
-    'AM-TMP': ArgumentDelegate(time_argument_action, 'time')
+    'AM-TMP': ArgumentDelegate(time_argument_action, 'time'),
+
+    # Merged format mapping (keep in mind we might need additional logic + less complexity if we define them here)
+    'ARG0': ArgumentDelegate(None, 'ARG0'),
+    'ARG1': ArgumentDelegate(None, 'ARG1'),
+    'ARG2': ArgumentDelegate(None, 'ARG2'),
+    'ARG3': ArgumentDelegate(None, 'ARG3'),
+    'ARG4': ArgumentDelegate(None, 'ARG4'),
+    'ARGM-LOC': ArgumentDelegate(None, 'location'),
+  #  'AM-DIR': ArgumentDelegate(None, 'direction'),
+  #  'AM-CAU': ArgumentDelegate(None, 'cause'),
+  #  'AM-MNR': ArgumentDelegate(None, 'manner'),
+    'ARGM-EXT': ArgumentDelegate(None, 'extent'),
+    'ARGM-TMP': ArgumentDelegate(time_argument_action, 'time')
 }
 
 # AM-ADV : genral-purpose

@@ -53,7 +53,10 @@ class SimpleTokenWord:
     id = property(lambda self: self._getitem("id"))
 
     def _getitem(self, key):
-        return self.token[key] if key in self.token else ""
+        if key in self.token and self.token[key] is not None:
+            return self.token[key]
+        else:
+            return ""
 
     def __str__(self):
         return self.lemma

@@ -57,9 +57,9 @@
 # ::text Drīz pēc tam, kad 1944. gada vasarā padomju armija pārgāja Latvijas robežu un sāka pildīt savu "atbrīvošanas" misiju, daudzās vietās pēkšņi sāka pazust cilvēki.
 (v26 / start.01
     :location (v24 / vieta)
-    :ARG2 (v27 / lose.02)
-    :ARG0 (v28 / cilvēks
-        :ARG1-of v27))
+    :ARG2 (v27 / lose.02
+        :ARG1 (v28 / cilvēks))
+    :ARG0 v28)
 
 # ::sent_id a-c18-p3s2
 # ::text Tie, kas bija redzējuši notiekošo, stāstīja, ka ieradušies bruņoti padomju karavīri un aizveduši apcietināto līdzi.

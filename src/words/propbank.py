@@ -3,6 +3,9 @@ from abc import abstractmethod
 from src.words.base import TokenWord, IWord
 
 
+DEFAULT_MERGED_SYNTAX_VERB_SYMBOL = "V"
+
+
 class IPropBankWord(IWord):
     @property
     @abstractmethod
@@ -33,3 +36,45 @@ class PropBankTokenWord(TokenWord, IPropBankWord):
 
     has_verb = property(lambda self: self.misc is not None and self.misc != "")
     has_arg = property(lambda self: self.arg is not None and self.arg != "")
+
+
+class PropBankMergedTokenWord(PropBankTokenWord, IPropBankWord):
+    """Word that is used by merged syntax of conllu. Only difference so far is that it has context for its arguments"""
+
+    def __init__(self, token, current_context: int):
+        # Store the token copied from previous instance
+        super().__init__(token)
+
+        # Store the context
+        self.current_context = current_context
+
+    # To avoid rewriting logic in PropBankTokenSentence we simulate 'contexts' (place in sentence_list array)
+    current_context = 0
+    inner_arg = property(lambda self: self._getitem(f"arg{self.current_context}"))
+    inner_verb = property(lambda self: self._getitem("misc"))
+
+    # The 'V' indicates whether we should return misc (verb), but its not an argument
+    arg = property(lambda self: self.inner_arg if self.inner_arg != "V" else "")
+
+    @property
+    def misc(self):
+        verb = ""
+
+        if self.inner_arg == DEFAULT_MERGED_SYNTAX_VERB_SYMBOL:
+            verb = self.inner_verb
+
+            if verb == "":
+                print(f"Word '{self.token}' has a 'V' argument but no corresponding verb - data is faulty?")
+
+        return verb
+
+    def add_symbol(self, context):
+        key = f"arg{context}"
+        if key not in self.token:
+            raise Exception(f"key '{key}' not found in 'PropBankMergedTokenWord'. That means there are more verbs then verb columns. Wrong format?")
+
+        self.token[key] = DEFAULT_MERGED_SYNTAX_VERB_SYMBOL
+
+    # Context must be immutable otherwise we have to watch the order of operations
+    def switch_context(self, current_context):
+        return PropBankMergedTokenWord(self.token, current_context)
