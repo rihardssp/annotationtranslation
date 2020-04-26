@@ -1,9 +1,10 @@
 import typing
+from io import StringIO
 from os import walk
 from os.path import join
 from abc import ABC, abstractmethod
 
-from conllu import parse_incr
+from conllu import parse_incr, string_to_file
 from conllu.parser import DEFAULT_FIELD_PARSERS
 
 from src.readers.base import parse_string
@@ -18,8 +19,8 @@ class INamedEntitiesAnnotationReaderBase(ABC):
         pass
 
 
-class NamedEntitiesFileAnnotationReader(INamedEntitiesAnnotationReaderBase):
-    """"Implements PropBank reading from file"""
+class NamedEntitiesFilesAnnotationReader(INamedEntitiesAnnotationReaderBase):
+    """Implements Named entities reading from passed path (recursively adding all files under path)"""
 
     def __init__(self, folder_path: str):
         self.__folder_path = folder_path
@@ -32,17 +33,35 @@ class NamedEntitiesFileAnnotationReader(INamedEntitiesAnnotationReaderBase):
         self.DEFAULT_FIELD_PARSERS["misc"] = lambda line, i: parse_string("_", line, i)
 
     def read(self) -> typing.List[INamedEntitiesSentence]:
-        l: typing.List[NamedEntitiesTokenSentence] = []
+        sentence_list: typing.List[NamedEntitiesTokenSentence] = []
 
         for (current_directory, directory_names, file_names) in walk(self.__folder_path):
             for file in file_names:
                 full_file_name = join(current_directory, file)
                 data_file = open(full_file_name, "r", encoding="utf-8")
                 try:
-                    for token_list in parse_incr(data_file, field_parsers=self.DEFAULT_FIELD_PARSERS):
-                        l.append(NamedEntitiesTokenSentence(token_list))
+                    sentence_list += self._get_sentence_list(data_file)
                 finally:
                     if data_file is not None:
                         data_file.close()
 
-        return l
+        return sentence_list
+
+    def _get_sentence_list(self, content: StringIO):
+        sentence_list: typing.List[NamedEntitiesTokenSentence] = []
+
+        for token_list in parse_incr(content, field_parsers=self.DEFAULT_FIELD_PARSERS):
+            sentence_list.append(NamedEntitiesTokenSentence(token_list))
+
+        return sentence_list
+
+
+class NamedEntitiesContentAnnotationReader(NamedEntitiesFilesAnnotationReader, INamedEntitiesAnnotationReaderBase):
+    """Implements Named entities reading from passed string"""
+
+    def __init__(self, content: str):
+        self._content = content
+        super().__init__("")
+
+    def read(self) -> typing.List[INamedEntitiesSentence]:
+        return self._get_sentence_list(string_to_file(self._content))

@@ -1,7 +1,9 @@
+
 import typing
 from abc import ABC, abstractmethod
+from io import StringIO
 
-from conllu import parse_incr
+from conllu import parse_incr, string_to_file
 from conllu.parser import DEFAULT_FIELDS, DEFAULT_FIELD_PARSERS
 
 from src.readers.base import parse_string
@@ -17,34 +19,54 @@ class IPropBankAnnotationReaderBase(ABC):
 
 
 class PropBankFileAnnotationReader(IPropBankAnnotationReaderBase):
-    """"Implements PropBank reading from file"""
+    """"Implements PropBank reading from file.
+    Assumes multiple sentences can have the same sent_id and joins them"""
 
     def __init__(self, file_path: str):
         self.__file_path = file_path
-        print(file_path)
+
         # Custom format for Conllu to parse
         self.DEFAULT_FIELD_PARSERS = DEFAULT_FIELD_PARSERS.copy()
         self.DEFAULT_FIELD_PARSERS['arg'] = lambda line, i: parse_string("_", line, i)
         self.DEFAULT_FIELDS = DEFAULT_FIELDS + ('arg',)
 
     def read(self) -> typing.List[IPropBankSentence]:
-        sentence_list: typing.List[PropBankTokenSentence] = []
         data_file = open(self.__file_path, "r", encoding="utf-8")
 
         try:
-            # defaults are used to get PropBank data, as parse_incr by default is pure conllu
-            for token_list in parse_incr(data_file, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS):
-                sentence = PropBankTokenSentence(token_list)
-
-                # Might want to optimise this in the future, as this is O(n^2)
-                same_sentence = list(x for x in sentence_list if x.sent_id == sentence.sent_id)
-                if len(same_sentence) == 0:
-                    sentence_list.append(sentence)
-                else:
-                    same_sentence[0].add_token(token_list)
-
+            return self._get_sentence_list(data_file)
         finally:
             if data_file is not None:
                 data_file.close()
 
+    def _get_sentence_list(self, content: StringIO):
+        sentence_list: typing.List[PropBankTokenSentence] = []
+
+        # defaults are used to get PropBank data, as parse_incr by default is pure conllu
+        for token_list in parse_incr(content, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS):
+            sentence = PropBankTokenSentence(token_list)
+
+            # Might want to optimise this in the future, as this is O(n^2)
+            same_sentence = list(x for x in sentence_list if x.sent_id == sentence.sent_id)
+            if len(same_sentence) == 0:
+                sentence_list.append(sentence)
+            else:
+                same_sentence[0].add_token(token_list)
+
         return sentence_list
+
+
+class PropBankContentAnnotationReader(PropBankFileAnnotationReader, IPropBankAnnotationReaderBase):
+    """"Implements PropBank reading from passed string.
+    Reuses the file logic because library calls the string_to_file either way when passing string"""
+
+    def __init__(self, content: str):
+        self._content = content
+
+        # init with empty file path
+        super().__init__("")
+
+    def read(self) -> typing.List[IPropBankSentence]:
+        return self._get_sentence_list(string_to_file(self._content))
+
+

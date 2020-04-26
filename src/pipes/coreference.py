@@ -3,7 +3,7 @@ from src.configuration import config_reader
 from src.container import TripletContainer
 from src.mapping_defaults.coreference import ICoReferenceMapping, CoReferenceMapping
 from src.pipes.base import PipeBase
-from src.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFileAnnotationReader
+from src.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFilesAnnotationReader
 
 
 class CoReferencePipe(PipeBase):
@@ -14,7 +14,7 @@ class CoReferencePipe(PipeBase):
         super().__init__(debug_mode)
         self.mapping = mapping if mapping is not None else CoReferenceMapping()
         self.annotation_reader: ICoReferenceAnnotationReaderBase = annotation_reader if annotation_reader is not None \
-            else CoReferenceFileAnnotationReader(config_reader.get_co_reference_resource_folder_path())
+            else CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path())
 
     def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
         for sentence in self.annotation_reader.read():

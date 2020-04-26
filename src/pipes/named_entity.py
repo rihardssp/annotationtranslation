@@ -5,7 +5,7 @@ from src.container import TripletContainer
 from src.external.phrase_normalizer import IPhraseNormalizer
 from src.mapping_defaults.named_entity import INamedEntitiesMapping
 from src.pipes.base import PipeBase
-from src.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFileAnnotationReader
+from src.readers.named_entity import INamedEntitiesAnnotationReaderBase, NamedEntitiesFilesAnnotationReader
 from src.sentences.named_entity import INamedEntitiesWord
 
 
@@ -19,7 +19,7 @@ class NamedEntitiesPipe(PipeBase):
         self.phrase_normalizer: IPhraseNormalizer = phrase_normalizer
         self.mapping = mapping
         self.annotation_reader: INamedEntitiesAnnotationReaderBase = annotation_reader if annotation_reader is not None \
-            else NamedEntitiesFileAnnotationReader(config_reader.get_named_entities_resource_folder_path())
+            else NamedEntitiesFilesAnnotationReader(config_reader.get_named_entities_resource_folder_path())
 
     def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
         """Checks if triplet list has given sentence. If so, separate words by chunks and proceed to mapping_definitions"""

@@ -1,9 +1,10 @@
 import typing
+from io import StringIO
 from os import walk
 from os.path import join
 from abc import ABC, abstractmethod
 
-from conllu import parse_incr
+from conllu import parse_incr, string_to_file
 
 from src.readers.base import parse_string
 from src.sentences.coreference import ICoReferenceSentence, CoReferenceTokenSentence
@@ -17,8 +18,8 @@ class ICoReferenceAnnotationReaderBase(ABC):
         pass
 
 
-class CoReferenceFileAnnotationReader(ICoReferenceAnnotationReaderBase):
-    """"Implements PropBank reading from file"""
+class CoReferenceFilesAnnotationReader(ICoReferenceAnnotationReaderBase):
+    """Implements CoReference reading from files in provided path"""
 
     CO_REFERENCE_SUPPORTED_FORMAT = "#FORMAT=WebAnno TSV 3.2"
 
@@ -32,32 +33,38 @@ class CoReferenceFileAnnotationReader(ICoReferenceAnnotationReaderBase):
         self.default_parsers[self.default_fields[2]] = lambda line, i: str(line[i])
 
     def read(self) -> typing.List[ICoReferenceSentence]:
-        l: typing.List[CoReferenceTokenSentence] = []
+        sentence_list: typing.List[CoReferenceTokenSentence] = []
 
         for (current_directory, directory_names, file_names) in walk(self.__folder_path):
             for file in file_names:
                 full_file_name = join(current_directory, file)
                 data_file = open(full_file_name, "r", encoding="utf-8")
                 try:
-                    fields, parsers = self.read_headers(data_file)
-                    for token_list in parse_incr(data_file, fields=fields, field_parsers=parsers):
-                        sentence = CoReferenceTokenSentence(token_list)
-                        l.append(sentence)
-
-                        # Double-check that this sentence respects format defined in header
-                        if len(fields) != len(sentence.sentence[0].token):
-                            raise Exception(
-                                f"tsv file '{full_file_name}' defines a total of '{len(fields)}' features (including id). "
-                                f"Currently present in the first word of first sentence: {len(sentence.sentence[0].token)}.")
-
+                    sentence_list += self._get_sentence_list(data_file, full_file_name)
 
                 finally:
                     if data_file is not None:
                         data_file.close()
 
-        return l
+        return sentence_list
 
-    def read_headers(self, data_file: typing.TextIO):
+    def _get_sentence_list(self, content: StringIO, file_name: str = ""):
+        sentence_list: typing.List[CoReferenceTokenSentence] = []
+        fields, parsers = self.__read_headers(content)
+
+        for token_list in parse_incr(content, fields=fields, field_parsers=parsers):
+            sentence = CoReferenceTokenSentence(token_list)
+            sentence_list.append(sentence)
+
+            # Double-check that this sentence respects format defined in header
+            if len(fields) != len(sentence.sentence[0].token):
+                raise Exception(
+                    f"provided tsv {file_name} format defines a total of '{len(fields)}' features (including id). "
+                    f"Currently present in the first word of first sentence: {len(sentence.sentence[0].token)} (must be equal!)")
+
+        return sentence_list
+
+    def __read_headers(self, data_file: typing.TextIO):
         """Find out what fields/parsers we need to parse following sentences using conllu.
            later the headers are used as keys to get specific annotation."""
 
@@ -97,3 +104,16 @@ class CoReferenceFileAnnotationReader(ICoReferenceAnnotationReaderBase):
         parsers.update(self.default_parsers)
 
         return fields, parsers
+
+
+class CoReferenceContentAnnotationReader(CoReferenceFilesAnnotationReader, ICoReferenceAnnotationReaderBase):
+    """Implements CoReference reading from string"""
+
+    def __init__(self, content: str):
+        self._content = content
+
+        # init with empty path
+        super().__init__("")
+
+    def read(self) -> typing.List[ICoReferenceSentence]:
+        return self._get_sentence_list(string_to_file(self._content))
