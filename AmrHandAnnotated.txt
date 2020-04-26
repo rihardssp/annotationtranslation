@@ -15,7 +15,7 @@
 		:polarity -
 		:ARG0 (v1 / person
 			:name (v5 / name
-				:op0 "Vida")))
+				:op1 "Vida")))
 	:op2 (v3 / say-01
 		:polarity -
 		:ARG0 v1
@@ -141,3 +141,95 @@
 	:ARG1 (v3 / nepieciešamība
 		:mod (v4 / uzmanība))
 	:time (v5 / šorīt))
+	
+	
+# sent_id = a-p1272-p1s1
+# text = Kurmāles pagasta padome decembra sēdē grozīja šī gada budžetu un sprieda, kā jauno pieņemt jau janvārī.
+(v1 / amend.01
+	:time (v3 / decembra sēdē)
+	:ARG0 (v4 / organization
+		:name (v5 / name
+			op1: "Kurmāles pagasta padome")
+		:ARG0-of (v7 / discuss.01
+			:ARG1 (v8 / accept.01
+				:time (v11 / date-entity
+					:month 9)
+				:ARG0 v4
+				:ARG1 (v9 / budžets
+					:mod (v10 / jauns)))))
+	:ARG1 (v2 / budžets
+		:mod (v6 / šis gads)))
+		
+		
+# sent_id = a-p6228-p3s1
+# text = Dienu pirms Jāņiem Lolita jau ne tikai plānoja, ko likt svētku galdā, bet ķērās pie cepšanas un jau izcepa vairākus gardumus.
+(v1 / plan.01
+	:ARG0 (v2 / person
+		:name (v3 / name
+			:op1 "Lolita")
+		:ARG0-of (v8 / start.01
+			:ARG1 (v9 / fry.01
+				:ARG0 v2
+				:ARG1 (v10 / gardums))))
+	:ARG1 (v4 / put.01
+		:ARG0 (v5 / kas)
+		:ARG1 (v6 / galds
+			:mod (v7 / svētki))))
+			
+			
+# sent_id = a-p10263-p4s1
+# text = Neilgi pēc tam 12:35, VUGD saņēma informāciju, ka Saldus novada, Zirņu pagastā, grāvī atrodas zirgs, kurš saviem spēkiem no tā nevar izkļūt.
+Neilgi pēc tam 12:35, VUGD saņēma informāciju, ka Saldus novada, Zirņu pagastā
+(v1 / locate.01
+	:ARG1 (v2 / zirgs
+		:ARG0-of (v4 / escape.01
+			:polarity -
+			:ARG1 v3
+			:mod (v5 / saviem spēkiem)))
+	:location (v3 / grāvis
+		:mod (v11 / pagasts
+			:name (v12 / name
+				:op1 "Zirņu"))
+		:mod (v13 / novads
+			:name (v14 / name
+				:op1 "Saldus")))
+	:ARG1-of (v6 / learn.01
+		:time (v9 / after
+			:op1 (v10 / 12:35))
+		:ARG0 (v7 / organization
+			:name (v8 / name
+				op1: "VUGD"))))
+				
+
+# sent_id = a-p2968-p5s7
+# text = Misters Rokfellers laika gaitā kļuva par vienu no modernās pasaules bagātākajiem cilvēkiem.
+(v1 / become.01
+	:ARG1 (v2 / person
+		:name (v3 / name
+			op1: "Rokfellers"))
+	:ARG2 (v4 / cilvēks
+		:location (v6 / modernā pasaule)
+		:mod (v5 / bagāts)))
+
+
+# sent_id = a-p3739-p11s3
+# text = "Aparts" arī pieder 25 DUS.
+(v1 / belong.01
+	:ARG0 (v3 / DUS
+		:quant 25)
+	:ARG1 (v2 / organization
+		:name (v5 / name op1: "Aparts"))
+
+
+# sent_id = a-d62-p15s1
+# text = Kaula adatas iet kā kājas, diegi saveļas taciņā un tad spindzami izstiepjas skaņā.
+(v5 / and
+	:op1 (v1 / go.01
+		:manner (v2 / kāja)
+		:ARG1 (v3 / adata
+			:mod (v4 / Kauls)))
+	:op2 (v6 / come.16
+		:ARG1 (v8 / diegs
+			:ARG1-of (v9 / expand.01
+				:mod (v10 / spindzami)))
+		:ARG2 (v7 / taciņa)))
