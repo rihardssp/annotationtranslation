@@ -24,7 +24,7 @@
 # ::sent_id a-c13-p43s2
 # ::text Viņi ir lieli diplomāti, prot būt plastiski.
 (v6 / know.03
-    :ARG0 (v1)
+    :ARG0 (v1 / diplomāti)
     :ARG1 (v8 / plastisks))
 
 # ::sent_id a-c13-p43s4
@@ -122,7 +122,7 @@
 # ::sent_id a-c58-p41s13
 # ::text Rētiņas ir ~ 4 cm garas, tās var paslēpt gan zemkrūts krokā, gan padusē, gan zem areolas.
 (v10 / conceal.01
-    :ARG1 (v8)
+    :ARG1 (v8 / Rētiņas)
     :location (v13 / kroka
         :mod (v12 / zemkrūts)))
 
@@ -795,13 +795,13 @@
 (v2 / shout.01
     :ARG0 (v1 / bārmenis)
     :ARG1 (v11 / drink.01
-        :ARG0 (v9)
+        :ARG0 (v9 / Sanī)
         :ARG1 (v10 / kas)))
 
 # ::sent_id a-d197-p120s1
 # ::text - Bet es taču stāstu tev! - Sanī drusku sadusmota atcirta.
 (v5 / tell.01
-    :ARG0 (v3)
+    :ARG0 (v3 / Sanī)
     :ARG2 (v6 / tu))
 
 # ::sent_id a-d197-p120s2
@@ -959,7 +959,7 @@
 # ::sent_id a-d197-p136s2
 # ::text Sataustījusi vajadzīgo naudaszīmi, uzliku to uz galda.
 (v5 / put.01
-    :ARG1 (v6)
+    :ARG1 (v6 / naudaszīmi)
     :ARG2 (v8 / galds))
 
 # ::sent_id a-d197-p136s3
@@ -1182,7 +1182,7 @@
 # ::sent_id a-d197-p15s1
 # ::text Es šajā vietā biju pirmo un - droši vien - pēdējo reizi, lai gan garām tai gāju katru dienu.
 (v18 / walk.01
-    :ARG2 (v17)
+    :ARG2 (v17 / vietā)
     :time (v20 / diena))
 
 # ::sent_id a-d197-p15s2
@@ -1600,7 +1600,7 @@
         :ARG0-of (v93 / pull.01)
         :ARG1-of (v12 / stand.01)
         :ARG0-of (v84 / grasp.01
-            :ARG1 (v85)
+            :ARG1 (v85 / matus)
             :location (v86 / plauksta))
         :ARG0-of (v65 / look.01
             :direction (v62 / garām))))
@@ -2727,7 +2727,7 @@
 (v10 / know.02
     :ARG0 (v7 / person
         :ARG0-of (v12 / distinguish.01
-            :ARG1 (v9))
+            :ARG1 (v9 / kameņu))
         :name (vg0 / name
             :op0 "Vida"))
     :ARG1 v9)
@@ -2844,7 +2844,7 @@
 # ::sent_id a-d87-p475s2
 # ::text Grīda bija patīkami vēsa, to skarot ar pēdām.
 (v7 / touch.01
-    :ARG1 (v6)
+    :ARG1 (v6 / Grīda)
     :ARG2 (v9 / pēda))
 
 # ::sent_id a-d87-p475s3
@@ -3598,7 +3598,7 @@
 # ::sent_id a-p10147-p6s1
 # ::text * Ieklausieties startera skaņā: ja tas tik tikko pagriež dzinēja kļoķvārpstu un apgriezieni ir vāji, ierīču paneļa apgaismojums satumst līdz sveces blāvumam, iespējams, ir izlādējies akumulators.
 (v10 / turn.01
-    :ARG0 (v7)
+    :ARG0 (v7 / startera)
     :ARG1 (v12 / kļoķvārpsts
         :mod (v11 / dzinējs)))
 
@@ -4240,7 +4240,8 @@
 # ::sent_id a-p12902-p3s2
 # ::text Diemžēl Nitišam pusfināla brauciena starts nebija veiksmīgs, jo viņš zaudēja pozīciju un bija spiests iesaistīties cīņā ar Tūrdu Linnerudu.
 (v11 / lose.02
-    :ARG0 (v10 :ARG0-of (v16 / participate.01
+    :ARG0 (v10 / Nitišam
+        :ARG0-of (v16 / participate.01
             :ARG1 (v17 / cīņa
                 :mod (v19 / Tūrds))))
     :ARG1 (v12 / pozīcija))
@@ -5566,7 +5567,7 @@
 # ::text Ja pastāvīgi ļausim izdevībai paslīdēt garām, necenšoties to satvert, mūsu tieksme uz priekšu kļūst aizvien vārgāka un nevarīgāka.
 (v8 / attempt.01
     :ARG1 (v10 / grasp.01
-        :ARG1 (v9))
+        :ARG1 (v9 / izdevībai))
     :polarity -)
 
 # ::sent_id a-p2968-p5s1
@@ -5822,7 +5823,8 @@
 # ::sent_id a-p3332-p10s2
 # ::text Toreiz viņš bija Liepājas teātra aktieris, turklāt ļoti talantīgs – viņš spēlēja ģitāru, sacerēja dziesmas, zīmēja.
 (v13 / play.01
-    :ARG0 (v12 :ARG0-of (v16 / compose.02
+    :ARG0 (v12 / aktieris
+        :ARG0-of (v16 / compose.02
             :ARG1 (v17 / dziesma))
         :ARG0-of (v19 / draw.01))
     :ARG2 (v14 / ģitāra))
@@ -5830,7 +5832,7 @@
 # ::sent_id a-p3332-p10s3
 # ::text Kad iepazinos ar viņu, Māris bija precējies, viņam bija meita.
 (v11 / have.03
-    :ARG0 (v10)
+    :ARG0 (v10 / Māris)
     :ARG1 (v12 / meita))
 
 # ::sent_id a-p3332-p10s4
@@ -5920,7 +5922,7 @@
 (v13 / understand.01
     :time (v9 / šodien)
     :ARG0 (v11 / es)
-    :ARG1 (v12))
+    :ARG1 (v12 / tēva))
 
 # ::sent_id a-p3332-p7s7
 # ::text Ja mans dēls 15 gadu vecumā būtu aizgājis no mājām, tas būtu ārprāts!
@@ -6014,7 +6016,7 @@
 # ::sent_id a-p3404-p6s4
 # ::text Vīrietis gādā par mājas un ģimenes drošību, viņš ir gatavs sagādāt ģimenei visu nepieciešamo.
 (v12 / provide.01
-    :ARG0 (v9)
+    :ARG0 (v9 / Vīrietis)
     :ARG2 (v13 / ģimene)
     :ARG1 (v15 / nepieciešams))
 
@@ -6555,7 +6557,7 @@
 (v36 / emphasize.01
     :ARG1 (v12 / reside.01
         :ARG1 (v10 / tur)
-        :ARG0 (v11))
+        :ARG0 (v11 / uzņēmējam))
     :ARG2 (v37 / person
         :name (vg0 / name
             :op0 "Semjonovs")))
@@ -8254,7 +8256,7 @@
 # ::sent_id a-p6247-p1s1
 # ::text Britu rokmūziķa Ozija Osborna ģimene no izsoļu nama atpirkusi mantas no smagā metāla grupas «Black Sabbath» sākuma posma, lai nodrošinātos, ka tās nenonāk privāto kolekcionāru rokās.
 (v27 / come.01
-    :ARG1 (v26)
+    :ARG1 (v26 / mantas)
     :ARG4 (v30 / roka
         :mod (v29 / kolekcionārs
             :mod (v28 / privāts)))
@@ -8653,7 +8655,7 @@
 (v8 / render.01
     :ARG0 (v6 / sīrups
         :mod (v5 / apelsīns))
-    :ARG1 (v7)
+    :ARG1 (v7 / Biskvīts)
     :ARG2 (v9 / neparasts))
 
 # ::sent_id a-p9308-p63s3

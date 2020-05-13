@@ -36,7 +36,8 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
         self.sentence_list: typing.List[typing.List[IPropBankWord]] = []
 
     def get_root(self) -> IPropBankWord:
-        """propbank root verb - verb with smallest head number"""
+        """propbank root verb - verb with smallest head number.
+            ToDo: This should be based on either verb with head == 0 OR biggest graph in PropBank!"""
         min_head = sys.maxsize
         root = None
 

@@ -28,8 +28,8 @@ co_reference_debug = False
 # Define the pipeline
 pipe_line = [
     PropBankPipe(PropBankMapping(), debug_mode=True),
-    #NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
-    #CoReferencePipe(debug_mode=co_reference_debug)
+    NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
+    CoReferencePipe(debug_mode=co_reference_debug)
 ]
 
 # The magic

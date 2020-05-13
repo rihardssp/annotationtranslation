@@ -26,11 +26,11 @@ class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
         dictionary = {}
 
         for word in self.sentence:
-            if word.coref != "":
-                if word.coref not in dictionary:
-                    dictionary.update({word.coref: [word]})
+            if word.coreference_group != "":
+                if word.coreference_group not in dictionary:
+                    dictionary.update({word.coreference_group: [word]})
                 else:
-                    dictionary[word.coref].append(word)
+                    dictionary[word.coreference_group].append(word)
             else:
                 # print("corref empty for")
                 pass

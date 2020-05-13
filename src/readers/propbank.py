@@ -1,4 +1,3 @@
-
 import typing
 from abc import ABC, abstractmethod
 from io import StringIO
@@ -93,7 +92,6 @@ class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
 
         self.FIELDS += ("misc",)
 
-
     def read(self) -> typing.List[IPropBankSentence]:
         sentence_list: typing.List[PropBankTokenSentence] = []
 
@@ -122,6 +120,7 @@ class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
 
             if argument_count > 0:
                 entry_io = string_to_file(entry)
-                sentence_list += list(PropBankMergedTokenSentence(x, argument_count) for x in parse_incr(entry_io, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS))
+                sentence_list += list(PropBankMergedTokenSentence(x, argument_count) for x in
+                                      parse_incr(entry_io, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS))
 
         return sentence_list

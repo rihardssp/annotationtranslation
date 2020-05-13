@@ -44,6 +44,7 @@ class IWord(ABC):
     def is_num_type_cardinal(self):
         pass
 
+
 class SimpleTokenWord:
     """The most simple Conllu implementation of a word"""
 
@@ -57,9 +58,6 @@ class SimpleTokenWord:
             return self.token[key]
         else:
             return ""
-
-    def __str__(self):
-        return self.lemma
 
 
 class TokenWord(SimpleTokenWord, IWord):

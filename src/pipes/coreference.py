@@ -56,13 +56,13 @@ class CoReferencePipe(PipeBase):
                             container.replace_instance(reference.id, members_to_keep[0].id)
 
                     # If co reference outside of container - replace the first coreference and proceed
-                    # ToDo: can be more than one non_member word (loop all of them for != "p" check)
+                    # ToDo: update condition above instead of checking here.
                     elif len(non_members_to_keep) == 1 and non_members_to_keep[0].pos_value[0:1] != "p" and \
                             len(members_to_coreference) > 0:
 
                         # ToDo: refactor - need to update id aswell
                         # Replace the first co-reference instance
-                        container.update_instance_value(members_to_coreference[0].id, non_members_to_keep[0].lemma)
+                        container.update_instance_value(members_to_coreference[0].id, non_members_to_keep[0].form)
                         member_id = members_to_coreference[0].id
 
                         # Link the rest to the updated instance

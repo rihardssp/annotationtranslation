@@ -37,6 +37,8 @@ class TokenSentenceBase(ISentence):
             return self.__token_list.metadata["text"]
         if "Text" in self.__token_list.metadata:
             return self.__token_list.metadata["Text"]
+        if "sentence-text" in self.__token_list.metadata:
+            return self.__token_list.metadata["sentence-text"]
         return ""
 
     metadata = property(lambda self: self.__token_list.metadata)

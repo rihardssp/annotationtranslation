@@ -127,12 +127,15 @@ class TripletContainer:
 
     def update_instance_value(self, instance_id: str, instance_value: str):
         """Replaces a value of an instance"""
+        if not instance_value:
+            raise Exception("Can't update container with instance value that is empty!")
+
         instance_alias = get_variable_name(instance_id)
         for i in range(len(self.__g.triples)):
             if self.__g.triples[i][0] == instance_alias and self.__g.triples[i][1] == self.instance_role:
                 self.__g.triples[i] = penman.Triple(instance_alias, self.instance_role, instance_value)
                 return
-        raise Exception(f"Failed to find instance with alias {instance_alias}")
+        raise Exception(f"Failed to find instance with alias '{instance_alias}'")
 
     def replace_instance_left_roles(self, instance_id, old_role, new_role) -> bool:
         instance_alias = get_variable_name(instance_id)

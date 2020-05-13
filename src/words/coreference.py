@@ -1,9 +1,9 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABC
 
 from src.words.base import SimpleTokenWord
 
 
-class ICoReferenceWord:
+class ICoReferenceWord(ABC):
     """Interface for named entities word getters"""
 
     @property
@@ -12,15 +12,14 @@ class ICoReferenceWord:
         pass
 
     # ToDO: its form, not lemma!
-
     @property
     @abstractmethod
-    def lemma(self):
+    def form(self):
         pass
 
     @property
     @abstractmethod
-    def coref(self):
+    def coreference_group(self):
         pass
 
     @property
@@ -36,4 +35,6 @@ class CoReferenceTokenWord(SimpleTokenWord, ICoReferenceWord):
     pos_value = property(lambda self: self._getitem(self.__pos_value_key))
 
     __co_reference_type_key = "de.tudarmstadt.ukp.dkpro.core.api.coref.type.CoreferenceLink_referenceType"
-    coref = property(lambda self: self._getitem(self.__co_reference_type_key))
+    coreference_group = property(lambda self: self._getitem(self.__co_reference_type_key))
+
+    form = property(lambda self: self._getitem("form"))

@@ -2,8 +2,6 @@ from abc import ABC, abstractmethod
 
 from diskcache import Cache
 
-from src.configuration import config_reader
-
 
 class ICache(ABC):
 

@@ -26,7 +26,7 @@ class CoReferenceFilesAnnotationReader(ICoReferenceAnnotationReaderBase):
     def __init__(self, folder_path: str):
         self.__folder_path = folder_path
 
-        self.default_fields = ["id", "range", "lemma"]
+        self.default_fields = ["id", "range", "form"]
         self.default_parsers = dict()
         self.default_parsers[self.default_fields[0]] = lambda line, i: line[i].split('-')[1]
         self.default_parsers[self.default_fields[1]] = lambda line, i: str(line[i])
