@@ -1,3 +1,4 @@
+import logging
 import typing
 
 from src.configuration import config_reader
@@ -14,12 +15,13 @@ class NamedEntitiesPipe(PipeBase):
     and joins chunk parts if necessary"""
 
     def __init__(self, mapping: INamedEntitiesMapping, annotation_reader: INamedEntitiesAnnotationReaderBase = None,
-                 phrase_normalizer: IPhraseNormalizer = None, debug_mode: bool = False):
-        super().__init__(debug_mode)
+                 phrase_normalizer: IPhraseNormalizer = None):
+        super().__init__()
         self.phrase_normalizer: IPhraseNormalizer = phrase_normalizer
         self.mapping = mapping
         self.annotation_reader: INamedEntitiesAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else NamedEntitiesFilesAnnotationReader(config_reader.get_named_entities_resource_folder_path())
+        self.__logger = logging.getLogger(config_reader.get_logger_name("NamedEntitiesPipe"))
 
     def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         """Checks if container list has given sentence. If so,
@@ -30,8 +32,7 @@ class NamedEntitiesPipe(PipeBase):
             potential_containers = list(x for x in container_list if x.sent_id == sentence.sent_id)
             if len(potential_containers) > 0:
                 container = potential_containers[0]
-                if self.debug_mode:
-                    container.has_named_entities_entry = True
+                container.has_named_entities_entry = True
 
                 # Last chunk
                 last_chunk: typing.List[INamedEntitiesWord] = []
@@ -50,8 +51,6 @@ class NamedEntitiesPipe(PipeBase):
 
                 self.map_bio1_chunk(container, last_chunk, container_word_ids)
 
-
-
         return container_list
 
     def map_bio1_chunk(self, container: IContainer, chunk: typing.List[INamedEntitiesWord],
@@ -64,12 +63,11 @@ class NamedEntitiesPipe(PipeBase):
         # Category is the same for every chunk item
         chunk_category = chunk[0].bio_tag1.split('-')[1]
         if chunk_category not in self.mapping.get_iob_action_mapping():
-            if self.debug_mode:
-                print(f"chunk category '{chunk_category}' not recognised, perhaps mappings need update?")
+            self.__logger.info(f"chunk category '{chunk_category}' not recognised, perhaps mappings need update?")
             return
 
-        for id in range(1, len(container_word_ids)):
-            container.replace_instance(container_word_ids[id], container_word_ids[0])
+        for container_word_id in range(1, len(container_word_ids)):
+            container.replace_instance(container_word_ids[container_word_id], container_word_ids[0])
 
         # Evaluate the mapping_definitions action
         mapping_action = self.mapping.iob_action_mapping[chunk_category]

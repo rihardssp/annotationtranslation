@@ -8,9 +8,8 @@ from src.container.base import IContainer
 class PipeBase(ABC):
     """This defines a pipes interface"""
 
-    def __init__(self, debug_mode):
-        self.debug_mode = debug_mode
-        self.last_run_time = 0
+    def __init__(self):
+        self.last_run_time = -1
 
     def process(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         before_calc = time.perf_counter()

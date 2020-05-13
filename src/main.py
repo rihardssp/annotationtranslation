@@ -1,7 +1,13 @@
+import logging
 import typing
 import codecs
 
 from src.configuration import ConfigReader, config_reader
+
+# use to log (can be displayed to user!):
+# log_stream = StringIO() | stream=log_stream, datefmt='%H:%M:%S', | print(log_stream.getvalue())
+logging.basicConfig(level=config_reader.get_logger_severity_level(), format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s')
+
 from src.container.base import IContainer
 from src.external.phrase_normalizer import RestletPhraseNormalizer, PhaseNormalizerCategory
 from src.mapping_defaults.named_entity import NamedEntitiesMapping
@@ -13,23 +19,11 @@ from src.readers.coreference import CoReferenceContentAnnotationReader
 from src.readers.named_entity import NamedEntitiesContentAnnotationReader
 from src.readers.propbank import PropBankContentAnnotationReader, PropBankMergedFormatAnnotationReader
 
-named_entities_debug = False
-co_reference_debug = False
-
-#data_file = open(config_reader.get_propbank_resource_file_path(), "r", encoding="utf-8")
-#content = ""
-#try:
-#    content = data_file.read()
-#finally:
-#    data_file.close()
-#annotation_reader=PropBankMergedFormatAnnotationReader(content)
-
-
 # Define the pipeline
 pipe_line = [
-    PropBankPipe(PropBankMapping(), debug_mode=True),
-    NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer(), debug_mode=named_entities_debug),
-    CoReferencePipe(debug_mode=co_reference_debug)
+    PropBankPipe(PropBankMapping()),
+    NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer()),
+    CoReferencePipe()
 ]
 
 # The magic
@@ -47,17 +41,15 @@ with_co_reference = 0
 with_named_entities = 0
 
 for triplet in triplet_list:
-    triplet.print(f)
+    triplet.print(f, False)
     if triplet.has_co_reference_entry:
         with_co_reference += 1
     if triplet.has_named_entities_entry:
         with_named_entities += 1
 
-if named_entities_debug or co_reference_debug:
+if False:
     f.write("\r\n======= Statistics:\r\n")
     f.write(f"Total PropBank entries: {total}\r\n")
-if named_entities_debug:
     f.write(f"Entries matched with named entities: {with_named_entities}\r\n")
-if co_reference_debug:
     f.write(f"Entries matched with co references: {with_co_reference}\r\n")
 f.close()

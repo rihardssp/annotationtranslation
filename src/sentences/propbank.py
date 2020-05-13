@@ -103,15 +103,14 @@ class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
         for token in token_list:
             word = PropBankMergedTokenWord(token, 0)
 
-            # This word is a propbank verb, so we add a symbol to represent it in the respective context
+            # This word is a PropBank verb, so we add a symbol to represent it in the respective context
             if word.inner_verb != "":
                 word.add_symbol(verb_number)
                 verb_number += 1
 
-
         first_sentence = list(PropBankMergedTokenWord(x, 0) for x in token_list)
         self.sentence_list.append(first_sentence)
 
-        # Emulate the multiple lists of standard propbankToken sentence
+        # Emulate the multiple lists of standard PropBankToken sentence
         for i in range(1, argument_size):
             self.sentence_list.append(list(x.switch_context(i) for x in first_sentence))

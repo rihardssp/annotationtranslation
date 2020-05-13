@@ -1,4 +1,5 @@
 import configparser
+import logging
 
 
 def format_url_ending(value):
@@ -23,6 +24,19 @@ class ConfigReader:
 
     def get_output_file_path(self):
         return self.__get_default_value("OutputFile")
+
+    def get_logger_name(self, child_logger_path: str = None):
+        if child_logger_path:
+            return f"{self.__get_default_value('LoggerName')}.{child_logger_path}"
+
+        return self.__get_default_value('LoggerName')
+
+    def get_logger_severity_level(self):
+        # https://docs.python.org/3/howto/logging.html
+        level = getattr(logging, self.__get_default_value('LoggerSeverityLevel').upper(), None)
+        if not isinstance(level, int):
+            raise ValueError(f"Invalid log level: {level}")
+        return level
 
     # PropBank
     def __get_prop_bank_pipe_value(self, key):

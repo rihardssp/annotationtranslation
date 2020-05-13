@@ -10,8 +10,8 @@ class CoReferencePipe(PipeBase):
     """This is the initial pipe, which creates the base of AMR by using propbank verb and its arguments and adding
     some things from underlying treebank """
 
-    def __init__(self, mapping: ICoReferenceMapping = None, annotation_reader: ICoReferenceAnnotationReaderBase = None,  debug_mode: bool = False):
-        super().__init__(debug_mode)
+    def __init__(self, mapping: ICoReferenceMapping = None, annotation_reader: ICoReferenceAnnotationReaderBase = None):
+        super().__init__()
         self.mapping = mapping if mapping is not None else CoReferenceMapping()
         self.annotation_reader: ICoReferenceAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path())
@@ -24,9 +24,7 @@ class CoReferencePipe(PipeBase):
             # This co reference has a match
             if len(potential_containers) > 0:
                 container = potential_containers[0]
-
-                if self.debug_mode:
-                    container.has_co_reference_entry = True
+                container.has_co_reference_entry = True
 
                 for name, group in sentence.get_co_references().items():
 

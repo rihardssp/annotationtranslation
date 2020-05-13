@@ -1,5 +1,7 @@
+import logging
 from abc import abstractmethod
 
+from src.configuration import config_reader
 from src.words.base import TokenWord, IWord
 
 
@@ -47,6 +49,7 @@ class PropBankMergedTokenWord(PropBankTokenWord, IPropBankWord):
 
         # Store the context
         self.current_context = current_context
+        self.__logger = logging.getLogger(config_reader.get_logger_name("PropBankMergedTokenWord"))
 
     # To avoid rewriting logic in PropBankTokenSentence we simulate 'contexts' (place in sentence_list array)
     current_context = 0
@@ -64,7 +67,7 @@ class PropBankMergedTokenWord(PropBankTokenWord, IPropBankWord):
             verb = self.inner_verb
 
             if verb == "":
-                print(f"Word '{self.token}' has a 'V' argument but no corresponding verb - data is faulty?")
+                self.__logger.fatal(f"Word '{self.token}' has a 'V' argument but no corresponding verb - data is faulty?")
 
         return verb
 

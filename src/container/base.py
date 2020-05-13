@@ -43,7 +43,7 @@ class IContainer(ABC):
         pass
 
     @abstractmethod
-    def print(self, file: typing.TextIO = None):
+    def print(self, file: typing.TextIO = None, include_debug: bool = False):
         """Printing to console/file/etc"""
         pass
 

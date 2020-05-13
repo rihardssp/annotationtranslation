@@ -31,8 +31,5 @@ class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
                     dictionary.update({word.coreference_group: [word]})
                 else:
                     dictionary[word.coreference_group].append(word)
-            else:
-                # print("corref empty for")
-                pass
 
         return dictionary

@@ -1,3 +1,4 @@
+import logging
 from abc import ABC, abstractmethod
 from enum import Enum
 
@@ -26,10 +27,10 @@ class IPhraseNormalizer(ABC):
 
 class RestletPhraseNormalizer(IPhraseNormalizer):
 
-    def __init__(self, cache: ICache = None, debug_mode: bool = False):
+    def __init__(self, cache: ICache = None):
         self.__cache = cache if cache is not None else FileCache(config_reader.get_phrase_normalizer_cache_path())
         self.__base_url = config_reader.get_phrase_normalizer_base_url()
-        self.__debug_mode = debug_mode
+        self.__logger = logging.getLogger(config_reader.get_logger_name("RestletPhraseNormalizer"))
 
     def normalize(self, category: PhaseNormalizerCategory, value: str):
         if category == PhaseNormalizerCategory.NONE:
@@ -39,9 +40,7 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
         cache_key = f"{category}_{value}"
         if self.__cache.has(cache_key):
             item = self.__cache.get(cache_key)
-
-            if self.__debug_mode:
-                print(f"Got value '{item}' with key '{cache_key}' from PhraseNormalizer cache")
+            self.__logger.debug(f"Got value '{item}' with key '{cache_key}' from PhraseNormalizer cache")
 
             return item
 
@@ -58,7 +57,6 @@ class RestletPhraseNormalizer(IPhraseNormalizer):
 
         # Not to forget cache
         self.__cache.put(cache_key, result)
-        if self.__debug_mode:
-            print(f"Got value '{result}' from '{value}' by using phrase normalizer service")
+        self.__logger.debug(f"Got value '{result}' from '{value}' by using phrase normalizer service")
 
         return result

@@ -1,8 +1,12 @@
+import logging
+
+from src.configuration import config_reader
 from src.container.base import IContainer
 from src.localisation import localisation
 from src.words.base import IWord
 from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
+__logger = logging.getLogger(config_reader.get_logger_name("PropBankMappingDefinitions"))
 
 def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBankWord,
                          container: IContainer, sentence: IPropBankSentence):
@@ -35,8 +39,7 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
         # All else has failed, so just treat it as ordinal number
         if len(cardinal_number) == 0:
             cardinal_number = ordinal_number
-            if pipe.debug_mode:
-                print(f"word '{cardinal_number[0].form}' was treated as cardinal number "
+            __logger.warning(f"word '{cardinal_number[0].form}' was treated as cardinal number "
                       f"even though it is ordinal. Perhaps {mapping_keys_template} mapping_definitions needs update?")
 
     # Temporal-quantity
@@ -73,11 +76,6 @@ def related_word_mapping_rule(pipe, word: IWord, container: IContainer, sentence
             container.add_instance(word.id, related_word.id, pipe.mapping.get_deprel_mapping()[related_word.deprel],
                                    related_word.lemma)
             pipe.process_rules(related_word, container, sentence)
-
-        # ToDo: is this necessary? This is pure spam
-        elif pipe.debug_mode:
-            pass
-            # print("Warning: failed to find mapping_definitions for deprel - " + related_word.deprel)
 
 
 # Check every word if it has a polarity flag and translate it to amr

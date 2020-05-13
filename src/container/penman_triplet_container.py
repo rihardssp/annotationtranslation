@@ -1,4 +1,5 @@
-import typing
+import sys
+from io import TextIOBase
 
 import penman
 from src.container.base import get_variable_name, IContainer
@@ -61,17 +62,17 @@ class TripletContainer(IContainer):
         instances = list(x for x in self.__g.triples if x[1] == self.instance_role and x[0] == instance_name)
         return len(instances) > 0
 
-    def print(self, file: typing.TextIO = None):
+    def print(self, text_stream: TextIOBase = None, include_debug: bool = False):
         """Printing to console/file/etc"""
-        result = penman.encode(self.__g, indent=4)
-        if file is not None:
-            if self.has_named_entities_entry:
-                file.write(f"# ::debug_comment_1 = This sentence has respective named entity entry\n")
-            if self.has_co_reference_entry:
-                file.write(f"# ::debug_comment_2 = This sentence has respective co-reference entry\n")
-            file.write(result + '\n\n')
-        else:
-            print(result)
+        if text_stream is None:
+            text_stream = sys.stdout
+
+        if include_debug and self.has_named_entities_entry:
+            text_stream.write(f"# ::debug_comment_1 = This sentence has respective named entity entry\n")
+        if include_debug and self.has_co_reference_entry:
+            text_stream.write(f"# ::debug_comment_2 = This sentence has respective co-reference entry\n")
+        text_stream.write(penman.encode(self.__g, indent=4))
+        text_stream.write("\n\n")
 
     def get_instance_ids(self):
         """Printing to console/file/etc"""

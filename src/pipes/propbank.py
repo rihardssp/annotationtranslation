@@ -1,3 +1,4 @@
+import logging
 import typing
 from src.configuration import config_reader
 from src.container.penman_triplet_container import TripletContainer
@@ -13,14 +14,13 @@ class PropBankPipe(PipeBase):
     """This is the initial pipe, which creates the base of AMR by using propbank verb and its arguments and adding
     some things from underlying treebank """
 
-    def __init__(self, mapping: IPropBankMapping = None, annotation_reader: IPropBankAnnotationReaderBase = None,
-                 debug_mode: bool = False):
-
-        super().__init__(debug_mode)
+    def __init__(self, mapping: IPropBankMapping = None, annotation_reader: IPropBankAnnotationReaderBase = None):
+        super().__init__()
         self.mapping: IPropBankMapping = mapping if mapping is not None \
             else PropBankMapping()
         self.annotation_reader: IPropBankAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else PropBankFileAnnotationReader(config_reader.get_propbank_resource_file_path())
+        self.__logger = logging.getLogger(config_reader.get_logger_name("PropBankPipe"))
 
     # Use the PropBank as base for our amr (root verb and its arguments).
     # Then rules add some additional information from TreeBank that PropBank is basing on
@@ -94,9 +94,8 @@ class PropBankPipe(PipeBase):
 
                     if should_be_added:
                         self.add_root(root, container, sentence)
-
-        elif self.debug_mode:
-            print(f"Failed to find propbank argument role mapping_definitions {argument_word.arg}")
+        else:
+            self.__logger.info(f"Did not find propbank argument role mapping_definitions {argument_word.arg}")
 
     def execute_action_mapping(self, mapping_action: ArgumentDelegate, root_word: IPropBankWord,
                                argument_word: IPropBankWord, container,
