@@ -2306,9 +2306,7 @@
         :quant četri
         :time-of (v9 / bring.01
             :ARG0 (v4 / viņš)
-            :ARG1 (v10 / zivs))
-        :unit (vg1 / diena)
-        :quant četri)
+            :ARG1 (v10 / zivs)))
     :ARG1 v4
     :ARG3 (v6 / zveja))
 
@@ -5616,8 +5614,7 @@
                     :ARG1 (v4 / apsargs
                         :mod (v6 / cehs
                             :mod (v5 / darbgalds)))))
-            :ARG1 (v23 / nafta))
-        :year 1870.)
+            :ARG1 (v23 / nafta)))
     :ARG0 v16
     :ARG1 v22)
 
@@ -10008,8 +10005,7 @@
                 :op1 (vg0 / "Latgale")
                 :wiki "en.wikipedia.org/wiki/Latgale"))
         :ARG1 (v9 / lauks))
-    :location (v2 / "Kopš 1804. gads"
-        :year 1804.))
+    :location (v2 / "Kopš 1804. gads"))
 
 # ::sent_id a-z109-p95s9
 # ::text 1897. gadā ebreji bija 12.8% no iedzīvotāju skaita Latgalē, pirms Pirmā pasaules kara tur dzīvoja ap astoņdesmit tūkstošiem ebreju.

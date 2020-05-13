@@ -1,3 +1,4 @@
+import re
 import sys
 from io import TextIOBase
 
@@ -5,10 +6,17 @@ import penman
 from src.container.base import get_variable_name, IContainer
 
 
+WORD_INSTANCE_REGEX = re.compile("^v\\d+$")
+
+
 class TripletContainer(IContainer):
     """Implementation of intermediate storage using triplets that will be later serializet to graph"""
     sent_id = property(lambda self: self.__g.metadata["sent_id"] if "sent_id" in self.__g.metadata else "")
     text = property(lambda self: self.__get_text())
+
+    @property
+    def sentence_words_added(self):
+        return len(list(x for x in self.__g.triples if WORD_INSTANCE_REGEX.match(x[0]) and x[1] == self.instance_role))
 
     def __get_text(self):
         if "text" in self.__g.metadata:
@@ -57,6 +65,10 @@ class TripletContainer(IContainer):
         instances = list(x for x in self.__g.triples if x[0] == root_name and x[2] == argument_name)
         return len(instances) > 0
 
+    def add_link(self, instance_id: str, role, argument_id):
+        """Add an argument to a instance, for ex., polarity"""
+        self.__inner_add(get_variable_name(instance_id), role, get_variable_name(argument_id))
+
     def has_instance(self, instance_id: str) -> bool:
         instance_name = get_variable_name(instance_id)
         instances = list(x for x in self.__g.triples if x[1] == self.instance_role and x[0] == instance_name)
@@ -67,10 +79,14 @@ class TripletContainer(IContainer):
         if text_stream is None:
             text_stream = sys.stdout
 
-        if include_debug and self.has_named_entities_entry:
-            text_stream.write(f"# ::debug_comment_1 = This sentence has respective named entity entry\n")
-        if include_debug and self.has_co_reference_entry:
-            text_stream.write(f"# ::debug_comment_2 = This sentence has respective co-reference entry\n")
+        if include_debug:
+            if self.has_named_entities_entry:
+                text_stream.write(f"# ::debug_comment_1 = This sentence has respective named entity entry\n")
+            if self.has_co_reference_entry:
+                text_stream.write(f"# ::debug_comment_2 = This sentence has respective co-reference entry\n")
+
+            text_stream.write(f"# ::sentence_word_count = {self.sentence_words_added} out of ###\n")
+
         text_stream.write(penman.encode(self.__g, indent=4))
         text_stream.write("\n\n")
 

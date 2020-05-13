@@ -64,7 +64,7 @@ class PropBankPipe(PipeBase):
 
             # The argument word is already in container, just add link and don't continue
             if container.has_instance(argument_word.id):
-                self.execute_action_mapping(mapping_action, root_word, argument_word, container, sentence)
+                container.add_link(root_word.id, mapping_action.default_mapping, argument_word.id)
                 return
 
             # Mapping action will add argument as a verb if it has one.

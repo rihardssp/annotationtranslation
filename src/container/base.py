@@ -19,6 +19,11 @@ class IContainer(ABC):
     def text(self):
         pass
 
+    @property
+    @abstractmethod
+    def sentence_words_added(self):
+        pass
+
     @abstractmethod
     def add_root(self, root_id: str, name_of_root):
         """Root verb of AMR"""
@@ -36,6 +41,10 @@ class IContainer(ABC):
 
     @abstractmethod
     def has_link(self, root_id: str, argument_id: str) -> bool:
+        pass
+
+    @abstractmethod
+    def add_link(self, instance_id: str, role, argument_id):
         pass
 
     @abstractmethod
