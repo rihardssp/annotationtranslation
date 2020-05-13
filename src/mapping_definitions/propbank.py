@@ -1,11 +1,11 @@
-from src.container import TripletContainer
+from src.container.base import IContainer
 from src.localisation import localisation
 from src.words.base import IWord
 from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
 
 def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBankWord,
-                         container: TripletContainer, sentence: IPropBankSentence):
+                         container: IContainer, sentence: IPropBankSentence):
 
     related_words = sentence.read_words_with_head(argument_word.id)
     mapping_keys_template = "mapping.time_argument_action."
@@ -49,13 +49,13 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
     container.add_instance(root_word.id, argument_word.id, "time", argument_word.lemma)
 
 
-def time_argument_action_date_entity(mapping_value: str, root_id: str, argument_id: str, container: TripletContainer,
+def time_argument_action_date_entity(mapping_value: str, root_id: str, argument_id: str, container: IContainer,
                                      ordinal_value: str):
     container.add_instance(root_id, argument_id, "time", "date-entity")
     container.add(argument_id, mapping_value, ordinal_value)
 
 
-def time_argument_action_card(root_id: str, argument_id: str, container: TripletContainer, cardinal_unit: str,
+def time_argument_action_card(root_id: str, argument_id: str, container: IContainer, cardinal_unit: str,
                               quantity: str):
     container.add_instance(root_id, argument_id, "time", "temporal-quantity")
     container.add_instance(argument_id, container.get_generated_id(), "unit", cardinal_unit)
@@ -63,7 +63,7 @@ def time_argument_action_card(root_id: str, argument_id: str, container: Triplet
 
 
 # Some words with treebank deprel can be mapped, so look if mapping_definitions contains entries and do it
-def related_word_mapping_rule(pipe, word: IWord, container: TripletContainer, sentence: IPropBankSentence):
+def related_word_mapping_rule(pipe, word: IWord, container: IContainer, sentence: IPropBankSentence):
     for related_word in sentence.read_words_with_head(word.id):
         # argument might already have a different role for this word
         if container.has_link(word.id, related_word.id):
@@ -81,6 +81,6 @@ def related_word_mapping_rule(pipe, word: IWord, container: TripletContainer, se
 
 
 # Check every word if it has a polarity flag and translate it to amr
-def polarity_rule(pipe, word: IWord, container: TripletContainer, sentence: IPropBankSentence):
+def polarity_rule(pipe, word: IWord, container: IContainer, sentence: IPropBankSentence):
     if word.feats is not None and 'Polarity' in word.feats and word.feats['Polarity'] == 'Neg':
         container.add(word.id, ':polarity', '-')

@@ -1,5 +1,5 @@
 import typing
-from src.container import TripletContainer
+from src.container.base import IContainer
 
 DEFAULT_DELEGATE_INIT_ERROR = "Delegate initialized with non-callable argument"
 
@@ -13,7 +13,7 @@ class RuleDelegate:
         else:
             raise Exception(DEFAULT_DELEGATE_INIT_ERROR)
 
-    def evaluate(self, pipe, word, container: TripletContainer, sentence):
+    def evaluate(self, pipe, word, container: IContainer, sentence):
         self.delegate(pipe, word, container, sentence)
 
 
@@ -27,7 +27,7 @@ class ArgumentDelegate:
         else:
             raise Exception(DEFAULT_DELEGATE_INIT_ERROR)
 
-    def evaluate(self, pipe, root_word, argument_word, container: TripletContainer, sentence) -> bool:
+    def evaluate(self, pipe, root_word, argument_word, container: IContainer, sentence) -> bool:
         if self.delegate is not None:
             self.delegate(pipe, root_word, argument_word, container, sentence)
 
@@ -42,5 +42,5 @@ class ChunkDelegate:
         else:
             raise Exception(DEFAULT_DELEGATE_INIT_ERROR)
 
-    def evaluate(self, pipe, container_word_id: str, chunk: typing.List, container: TripletContainer):
+    def evaluate(self, pipe, container_word_id: str, chunk: typing.List, container: IContainer):
         self.__delegate(pipe, container_word_id, chunk, container, self.__default_mapping)

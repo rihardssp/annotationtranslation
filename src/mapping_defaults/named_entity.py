@@ -15,12 +15,13 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "organization": ChunkDelegate(concat_chunk_organization_action, "organization"),
     "location": ChunkDelegate(concat_chunk_location_action),
     "GPE": ChunkDelegate(concat_chunk_location_action),
+    # ToDo: Event category
     "event": ChunkDelegate(string_concat_chunk_action),
     "product": ChunkDelegate(instance_with_name_concat_normalised_chunk_action, "product"),
     "money": ChunkDelegate(money_chunk_action),
-    "entity": ChunkDelegate(string_concat_chunk_action, "entity"),
+    # ToDo: Thing category
+    "entity": ChunkDelegate(string_concat_chunk_action, "thing"),
     "time": ChunkDelegate(concat_chunk_time_action, "time"),
-
 }
 
 

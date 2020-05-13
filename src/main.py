@@ -2,7 +2,7 @@ import typing
 import codecs
 
 from src.configuration import ConfigReader, config_reader
-from src.container import TripletContainer
+from src.container.base import IContainer
 from src.external.phrase_normalizer import RestletPhraseNormalizer, PhaseNormalizerCategory
 from src.mapping_defaults.named_entity import NamedEntitiesMapping
 from src.mapping_defaults.propbank import PropBankMapping
@@ -33,7 +33,7 @@ pipe_line = [
 ]
 
 # The magic
-triplet_list: typing.List[TripletContainer] = []
+triplet_list: typing.List[IContainer] = []
 for p in pipe_line:
     triplet_list = p.process(triplet_list)
 

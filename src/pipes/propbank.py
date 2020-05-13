@@ -1,6 +1,7 @@
 import typing
 from src.configuration import config_reader
-from src.container import TripletContainer
+from src.container.penman_triplet_container import TripletContainer
+from src.container.base import IContainer
 from src.delegates import ArgumentDelegate
 from src.mapping_defaults.propbank import IPropBankMapping, PropBankMapping
 from src.pipes.base import PipeBase
@@ -23,25 +24,27 @@ class PropBankPipe(PipeBase):
 
     # Use the PropBank as base for our amr (root verb and its arguments).
     # Then rules add some additional information from TreeBank that PropBank is basing on
-    def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
+    def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
 
         for sentence in self.annotation_reader.read():
             # Add root verb, which is identified by existing PropBank frame verb (only one exists per sentence)
             root_word = sentence.get_root()
 
+            # container = Sentence.GetFrameCount()
             if root_word is not None:
                 container = TripletContainer(sentence.metadata)
                 self.add_root(root_word, container, sentence)
-                triplet_list.append(container)
+                container_list.append(container)
 
-        return triplet_list
+        return container_list
 
-    def add_root(self, root_word: IPropBankWord, container: TripletContainer, sentence: IPropBankSentence):
+    def add_root(self, root_word: IPropBankWord, container: IContainer, sentence: IPropBankSentence):
         """Adds root element and """
         if container.has_instance(root_word.id):
             return
 
         root = root_word.misc_first_value
+        # container.FrameCount++
         container.add_root(root_word.id, root)
 
         # Root word isn't necessary here, as first root definitely has verb definition
@@ -52,7 +55,7 @@ class PropBankPipe(PipeBase):
         # Do some extra processing and get arguments of root
         self.process_rules(root_word, container, sentence)
 
-    def add_argument(self, root_word: IPropBankWord, argument_word: IPropBankWord, container: TripletContainer,
+    def add_argument(self, root_word: IPropBankWord, argument_word: IPropBankWord, container: IContainer,
                      sentence: IPropBankSentence):
         """Recursively inserts arguments based on existing PropBank"""
 
@@ -80,6 +83,7 @@ class PropBankPipe(PipeBase):
                 self.process_rules(argument_to_add, container, sentence)
 
             # If word was added then add all roots pointing to this word
+            # ToDo: The same thing should be done with root, no?!
             if container.has_instance(argument_word.id):
                 roots = sentence.get_roots_of_argument(argument_word.id)
                 for root in list(x for x in roots if x.id != root_word.id):
@@ -107,6 +111,6 @@ class PropBankPipe(PipeBase):
         return False
 
     # All rules are evaluated for every word added, recursive adding is supported here
-    def process_rules(self, word: IPropBankWord, container: TripletContainer, sentence: IPropBankSentence):
+    def process_rules(self, word: IPropBankWord, container: IContainer, sentence: IPropBankSentence):
         for rule in self.mapping.get_rules():
             rule.evaluate(self, word, container, sentence)

@@ -2,7 +2,7 @@ import time
 import typing
 from abc import ABC, abstractmethod
 
-from src.container import TripletContainer
+from src.container.base import IContainer
 
 
 class PipeBase(ABC):
@@ -12,14 +12,14 @@ class PipeBase(ABC):
         self.debug_mode = debug_mode
         self.last_run_time = 0
 
-    def process(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
+    def process(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         before_calc = time.perf_counter()
-        result = self._process_amr(triplet_list)
+        result = self._process_amr(container_list)
         after_calc = time.perf_counter()
         self.last_run_time = after_calc - before_calc
 
         return result
 
     @abstractmethod
-    def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
+    def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         pass

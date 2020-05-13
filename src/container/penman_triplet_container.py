@@ -1,12 +1,10 @@
-import penman
 import typing
 
+import penman
+from src.container.base import get_variable_name, IContainer
 
-def get_variable_name(id: str):
-    return f'v{id}'
 
-
-class TripletContainer:
+class TripletContainer(IContainer):
     """Implementation of intermediate storage using triplets that will be later serializet to graph"""
     sent_id = property(lambda self: self.__g.metadata["sent_id"] if "sent_id" in self.__g.metadata else "")
     text = property(lambda self: self.__get_text())
@@ -137,7 +135,9 @@ class TripletContainer:
                 return
         raise Exception(f"Failed to find instance with alias '{instance_alias}'")
 
-    def replace_instance_left_roles(self, instance_id, old_role, new_role) -> bool:
+    def replace_parents_roles_to_instance(self, instance_id, old_role, new_role) -> bool:
+        """Finds instance with 'instance_id', then finds all instances pointing to it with old_role
+        and changes those roles to new_role"""
         instance_alias = get_variable_name(instance_id)
         for i in range(len(self.__g.triples)):
             if self.__g.triples[i][1] == old_role and self.__g.triples[i][2] == instance_alias:

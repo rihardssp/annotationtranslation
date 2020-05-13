@@ -1,7 +1,7 @@
 import typing
 
 from src.configuration import config_reader
-from src.container import TripletContainer
+from src.container.base import IContainer
 from src.external.phrase_normalizer import IPhraseNormalizer
 from src.mapping_defaults.named_entity import INamedEntitiesMapping
 from src.pipes.base import PipeBase
@@ -21,12 +21,13 @@ class NamedEntitiesPipe(PipeBase):
         self.annotation_reader: INamedEntitiesAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else NamedEntitiesFilesAnnotationReader(config_reader.get_named_entities_resource_folder_path())
 
-    def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
-        """Checks if triplet list has given sentence. If so, separate words by chunks and proceed to mapping_definitions"""
+    def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
+        """Checks if container list has given sentence. If so,
+        separate words by chunks and proceed to mapping_definitions"""
         for sentence in self.annotation_reader.read():
 
             # ToDo: improve sent_id matching so that it isn't O(nm)
-            potential_containers = list(x for x in triplet_list if x.sent_id == sentence.sent_id)
+            potential_containers = list(x for x in container_list if x.sent_id == sentence.sent_id)
             if len(potential_containers) > 0:
                 container = potential_containers[0]
                 if self.debug_mode:
@@ -49,9 +50,11 @@ class NamedEntitiesPipe(PipeBase):
 
                 self.map_bio1_chunk(container, last_chunk, container_word_ids)
 
-        return triplet_list
 
-    def map_bio1_chunk(self, container: TripletContainer, chunk: typing.List[INamedEntitiesWord],
+
+        return container_list
+
+    def map_bio1_chunk(self, container: IContainer, chunk: typing.List[INamedEntitiesWord],
                        container_word_ids: typing.List[str]):
         """Mapping happening here. All wiki from chunk are used on newly created instance in mapping_definitions"""
 
@@ -73,7 +76,6 @@ class NamedEntitiesPipe(PipeBase):
         mapping_action.evaluate(self, container_word_ids[0], chunk, container)
 
         # After dealing with how to format chunk, we know the word the wiki refers to
-        # ToDo: what about wiki2? Its only for outer entities...
         for word in chunk:
             if word.wiki1 != '':
                 container.add(container_word_ids[0], 'wiki', f"\"{word.wiki1}\"")

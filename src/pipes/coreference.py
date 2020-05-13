@@ -1,6 +1,6 @@
 import typing
 from src.configuration import config_reader
-from src.container import TripletContainer
+from src.container.base import IContainer
 from src.mapping_defaults.coreference import ICoReferenceMapping, CoReferenceMapping
 from src.pipes.base import PipeBase
 from src.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFilesAnnotationReader
@@ -16,10 +16,10 @@ class CoReferencePipe(PipeBase):
         self.annotation_reader: ICoReferenceAnnotationReaderBase = annotation_reader if annotation_reader is not None \
             else CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path())
 
-    def _process_amr(self, triplet_list: typing.List[TripletContainer]) -> typing.List[TripletContainer]:
+    def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         for sentence in self.annotation_reader.read():
             # ToDo: improve sent_id matching so that it isn't O(nm)
-            potential_containers = list(x for x in triplet_list if x.text == sentence.text)
+            potential_containers = list(x for x in container_list if x.text == sentence.text)
 
             # This co reference has a match
             if len(potential_containers) > 0:
@@ -74,4 +74,4 @@ class CoReferencePipe(PipeBase):
                         for reference in range(1, len(members_to_coreference)):
                             container.replace_instance(members_to_coreference[reference].id, members_to_coreference[0].id)
 
-        return triplet_list
+        return container_list
