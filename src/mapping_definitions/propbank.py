@@ -62,7 +62,7 @@ def time_argument_action_card(root_id: str, argument_id: str, container: IContai
                               quantity: str):
     container.add_instance(root_id, argument_id, "time", "temporal-quantity")
     container.add_instance(argument_id, container.get_generated_id(), "unit", cardinal_unit)
-    container.add(argument_id, 'quant', quantity)
+    container.add(argument_id, 'quant', f"\"{quantity}\"")
 
 
 # Some words with treebank deprel can be mapped, so look if mapping_definitions contains entries and do it

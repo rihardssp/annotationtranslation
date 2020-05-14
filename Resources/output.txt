@@ -153,7 +153,7 @@
 (v8 / give.01
     :time (v4 / temporal-quantity
         :unit (vg0 / gads)
-        :quant 2)
+        :quant "2")
     :location (v6 / pasaule)
     :ARG0 (v7 / ražotājs)
     :ARG1 (v10 / garantija
@@ -1551,7 +1551,7 @@
             :polarity -))
     :time (v12 / temporal-quantity
         :unit (vg0 / minūte)
-        :quant piecpadsmit))
+        :quant "piecpadsmit"))
 
 # ::sent_id a-d197-p3s2
 # ::text Un viņai nebija somas.
@@ -2303,7 +2303,7 @@
 (v7 / return.01
     :time (v3 / temporal-quantity
         :unit (vg0 / diena)
-        :quant četri
+        :quant "četri"
         :time-of (v9 / bring.01
             :ARG0 (v4 / viņš)
             :ARG1 (v10 / zivs)))
@@ -3677,7 +3677,7 @@
 (v7 / get.01
     :time (v3 / temporal-quantity
         :unit (vg0 / tas)
-        :quant 12:35)
+        :quant "12:35")
     :ARG0 (v6 / organization
         :name (vg1 / name
             :op1 "VUGD"))
@@ -4413,7 +4413,7 @@
 (v11 / come.01
     :time (v5 / temporal-quantity
         :unit (vg0 / gads)
-        :quant divi
+        :quant "divi"
         :ARG1-of (v4 / spend.02
             :location (v3 / tur)))
     :manner (v12 / kāja)
@@ -9370,7 +9370,7 @@
 (v6 / earn.01
     :time (v3 / temporal-quantity
         :unit (vg0 / gads)
-        :quant 10)
+        :quant "10")
     :ARG0 (v4 / name
         :op1 (vg1 / "Nīderlande")
         :wiki "en.wikipedia.org/wiki/Netherlands")
@@ -10113,7 +10113,7 @@
         :mod (v1 / ātrs))
     :time (v8 / temporal-quantity
         :unit (vg0 / mēnesis)
-        :quant 18))
+        :quant "18"))
 
 # ::sent_id a-z22-p42s4
 # ::text Bērns ir spējīgs piecelties pret gravitātes spēku, staigāt ar zināmu stabilitāti un pielietot savas rokas manipulāciju veikšanai, lai gan vēl diezgan neveikli.
