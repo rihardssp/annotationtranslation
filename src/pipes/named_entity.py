@@ -2,7 +2,7 @@ import logging
 import typing
 
 from src.configuration import config_reader
-from src.container.base import IContainer
+from src.container.base import IContainer, ContainerStatistic, stat_incr
 from src.external.phrase_normalizer import IPhraseNormalizer
 from src.mapping_defaults.named_entity import INamedEntitiesMapping
 from src.pipes.base import PipeBase
@@ -32,12 +32,16 @@ class NamedEntitiesPipe(PipeBase):
             potential_containers = list(x for x in container_list if x.sent_id == sentence.sent_id)
             if len(potential_containers) > 0:
                 container = potential_containers[0]
-                container.has_named_entities_entry = True
+                container.set_stat(ContainerStatistic.HAS_NAMED_ENTITIES, True)
+                container.set_stat(ContainerStatistic.NAMED_ENTITIES_TOTAL_COUNT, sentence.bio1_count)
+                container.set_stat(ContainerStatistic.NAMED_ENTITIES_COUNT, 0)
+                container.set_stat(ContainerStatistic.WIKI_TOTAL_COUNT, sentence.wiki1_count)
+                container.set_stat(ContainerStatistic.WIKI_COUNT, 0)
 
                 # Last chunk
                 last_chunk: typing.List[INamedEntitiesWord] = []
                 container_word_ids = []
-                for word in sentence.get_bio1():
+                for word in sentence.bio1:
                     # ToDo: exclude punctuation?
                     if word.bio_tag1[0] == 'B':
                         self.map_bio1_chunk(container, last_chunk, container_word_ids)
@@ -66,6 +70,9 @@ class NamedEntitiesPipe(PipeBase):
             self.__logger.info(f"chunk category '{chunk_category}' not recognised, perhaps mappings need update?")
             return
 
+        container.update_stat(ContainerStatistic.NAMED_ENTITIES_COUNT, stat_incr)
+
+        # Merge the words of chunk into a single instance
         for container_word_id in range(1, len(container_word_ids)):
             container.replace_instance(container_word_ids[container_word_id], container_word_ids[0])
 
@@ -75,5 +82,6 @@ class NamedEntitiesPipe(PipeBase):
 
         # After dealing with how to format chunk, we know the word the wiki refers to
         for word in chunk:
-            if word.wiki1 != '':
+            if word.wiki1:
+                container.update_stat(ContainerStatistic.WIKI_COUNT, stat_incr)
                 container.add(container_word_ids[0], 'wiki', f"\"{word.wiki1}\"")

@@ -39,10 +39,7 @@ class TokenSentenceBase(ISentence):
             return self.__token_list.metadata["Text"]
         if "sentence-text" in self.__token_list.metadata:
             return self.__token_list.metadata["sentence-text"]
+        # ToDo: Or just concat tokens?
         return ""
 
     metadata = property(lambda self: self.__token_list.metadata)
-
-    def __str__(self):
-        """Doesnt use text metadata because that makes it a requirement. This is mostly for debug anyway"""
-        return str(self.token_list)

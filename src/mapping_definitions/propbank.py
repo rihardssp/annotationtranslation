@@ -32,7 +32,7 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
         # This is the 'september 22nd' format
         for key in mapping_value_month:
             if argument_word.lemma.lower() in localisation.get_localised_list(f"{mapping_keys_template}month_{key}"):
-                time_argument_action_date_entity('month', root_word.id, argument_word.id, container, key)
+                time_argument_action_date_entity('month', root_word.id, argument_word.id, container, str(key))
                 container.add(argument_word.id, ':day', ordinal_number[0].lemma)
                 return
 

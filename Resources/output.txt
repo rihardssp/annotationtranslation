@@ -10146,3 +10146,14 @@
         :ARG0-of (v3 / walk.01))
     :ARG1 v3)
 
+
+======= Statistics:
+Total AMR property count: 626
+AMR token count: 5266 out of total: 22565
+PropBank frame count in AMR: 1695 out of total: 2518
+Named entity count in AMR: 439 out of total: 907
+Wiki count in AMR: 113 out of total: 270
+Coreference count in AMR: 43 out of total: 1049
+Number of AMR sentences generated from PropBank: 1259
+Entries matched with named entities: 1172
+Entries matched with co references: 1171

@@ -1,12 +1,13 @@
 import re
 import sys
+import typing
 from io import TextIOBase
 
 import penman
-from src.container.base import get_variable_name, IContainer
-
+from src.container.base import get_variable_name, IContainer, VARIABLE_NAME_SYMBOL, ContainerStatistic
 
 WORD_INSTANCE_REGEX = re.compile("^v\\d+$")
+FRAME_INSTANCE_REGEX = re.compile("^[A-z]+\\.\\d+$")
 
 
 class TripletContainer(IContainer):
@@ -15,8 +16,35 @@ class TripletContainer(IContainer):
     text = property(lambda self: self.__get_text())
 
     @property
-    def sentence_words_added(self):
+    def property_count(self):
+        """Counts all triplets that are not instance declarations but are in the form
+        (instance_name, role, not_instance_name) """
+        return len(list(x for x in self.__g.triples if
+                        x[0][0] == VARIABLE_NAME_SYMBOL and x[1] != self.instance_role and x[2][
+                            0] != VARIABLE_NAME_SYMBOL))
+
+    @property
+    def token_count(self):
+        """Counts all triplets that are have a non-generated id and instance role"""
+        # ToDo: split word with space to account for Named Entities and such
         return len(list(x for x in self.__g.triples if WORD_INSTANCE_REGEX.match(x[0]) and x[1] == self.instance_role))
+
+    @property
+    def frame_count(self):
+        """Counts all frames by using frame identifying regex and instance role"""
+        return len(list(x for x in self.__g.triples if x[1] == self.instance_role and FRAME_INSTANCE_REGEX.match(x[2])))
+
+    def get_stat(self, statistic: ContainerStatistic, default_value=None):
+        """Gets statistic from container"""
+        return self.__statistics[statistic] if statistic in self.__statistics else default_value
+
+    def set_stat(self, statistic: ContainerStatistic, value):
+        """Sets statistic for container"""
+        self.__statistics[statistic] = value
+
+    def update_stat(self, statistic: ContainerStatistic, func: typing.Callable):
+        """Updates statistic according to what function returns after passing the current value to it"""
+        self.set_stat(statistic, func(self.get_stat(statistic)))
 
     def __get_text(self):
         if "text" in self.__g.metadata:
@@ -30,22 +58,19 @@ class TripletContainer(IContainer):
         self.__g = penman.Graph()
         self.__g.metadata = metadata
         self.instance_role = ':instance'
+        self.__statistics = {}
         self.__generated_id = 0
-
-        # For debug
-        self.has_named_entities_entry = False
-        self.has_co_reference_entry = False
 
     def add_root(self, root_id: str, name_of_root):
         """Root verb of AMR"""
         root_alias = get_variable_name(root_id)
         self.__g.triples.append(penman.Triple(root_alias, self.instance_role, name_of_root))
 
-    def add(self, instance_id: str, role, argument):
+    def add(self, instance_id: str, role, argument: str):
         """Add an argument to a instance, for ex., polarity"""
         self.__inner_add(get_variable_name(instance_id), role, argument)
 
-    def __inner_add(self, instance_alias: str, role, argument):
+    def __inner_add(self, instance_alias: str, role, argument: str):
         """Add an argument to a instance, for ex., polarity"""
         self.__g.triples.append(penman.Triple(instance_alias, role, argument))
 
@@ -80,12 +105,16 @@ class TripletContainer(IContainer):
             text_stream = sys.stdout
 
         if include_debug:
-            if self.has_named_entities_entry:
+            if self.get_stat(ContainerStatistic.HAS_NAMED_ENTITIES, False):
                 text_stream.write(f"# ::debug_comment_1 = This sentence has respective named entity entry\n")
-            if self.has_co_reference_entry:
+            if self.get_stat(ContainerStatistic.HAS_COREFERENCE, False):
                 text_stream.write(f"# ::debug_comment_2 = This sentence has respective co-reference entry\n")
 
-            text_stream.write(f"# ::sentence_word_count = {self.sentence_words_added} out of ###\n")
+            text_stream.write(f"# ::amr_property_count = {self.property_count}\n")
+            text_stream.write(f"# ::token_count = in amr {self.token_count} "
+                              f"out of {self.get_stat(ContainerStatistic.SENTENCE_TOKEN_TOTAL_COUNT, 0)}\n")
+            text_stream.write(f"# ::frame_count = in amr {self.frame_count} "
+                              f"out of {self.get_stat(ContainerStatistic.FRAME_TOTAL_COUNT, 0)}\n")
 
         text_stream.write(penman.encode(self.__g, indent=4))
         text_stream.write("\n\n")

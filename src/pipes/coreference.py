@@ -1,6 +1,6 @@
 import typing
 from src.configuration import config_reader
-from src.container.base import IContainer
+from src.container.base import IContainer, ContainerStatistic, stat_incr
 from src.mapping_defaults.coreference import ICoReferenceMapping, CoReferenceMapping
 from src.pipes.base import PipeBase
 from src.readers.coreference import ICoReferenceAnnotationReaderBase, CoReferenceFilesAnnotationReader
@@ -24,9 +24,11 @@ class CoReferencePipe(PipeBase):
             # This co reference has a match
             if len(potential_containers) > 0:
                 container = potential_containers[0]
-                container.has_co_reference_entry = True
+                container.set_stat(ContainerStatistic.HAS_COREFERENCE, True)
+                container.set_stat(ContainerStatistic.COREFERENCE_TOTAL_COUNT, sentence.co_reference_count)
+                container.set_stat(ContainerStatistic.COREFERENCE_COUNT, 0)
 
-                for name, group in sentence.get_co_references().items():
+                for name, group in sentence.co_references.items():
 
                     # Not all group members may be in container
                     members_to_keep = []
@@ -48,8 +50,11 @@ class CoReferencePipe(PipeBase):
                         elif group_word.pos_value[0:2] not in self.mapping.get_replaceable_pos_values():
                             non_members_to_keep.append(group_word)
 
-                    # Standard scenario -
+                    is_reference_added = False
+
+                    # Standard scenario
                     if len(members_to_keep) > 0 and len(members_to_coreference) > 0:
+                        is_reference_added = True
                         for reference in members_to_coreference:
                             container.replace_instance(reference.id, members_to_keep[0].id)
 
@@ -57,6 +62,7 @@ class CoReferencePipe(PipeBase):
                     # ToDo: update condition above instead of checking here.
                     elif len(non_members_to_keep) == 1 and non_members_to_keep[0].pos_value[0:1] != "p" and \
                             len(members_to_coreference) > 0:
+                        is_reference_added = True
 
                         # ToDo: refactor - need to update id aswell
                         # Replace the first co-reference instance
@@ -69,7 +75,11 @@ class CoReferencePipe(PipeBase):
 
                     # There is more than one word pointing to the same thing, so we reference them to the first instance
                     elif len(members_to_coreference) > 1:
+                        is_reference_added = True
                         for reference in range(1, len(members_to_coreference)):
                             container.replace_instance(members_to_coreference[reference].id, members_to_coreference[0].id)
+
+                    if is_reference_added:
+                        container.update_stat(ContainerStatistic.COREFERENCE_COUNT, stat_incr)
 
         return container_list

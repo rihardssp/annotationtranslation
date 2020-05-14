@@ -27,6 +27,15 @@ class IPropBankSentence(ISentence):
     def get_roots_of_argument(self, argument_id) -> typing.List[IPropBankWord]:
         pass
 
+    @property
+    @abstractmethod
+    def word_list(self) -> typing.List[IPropBankWord]:
+        pass
+
+    @property
+    @abstractmethod
+    def frame_count(self) -> int:
+        pass
 
 class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
     """Propbank specific logic for reading sentences from Conllu"""
@@ -92,13 +101,22 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
         """This will contain all token_lists that belong to a single sentence"""
         self.sentence_list.append(list(PropBankTokenWord(x) for x in token_list))
 
+    @property
+    def word_list(self) -> typing.List[IPropBankWord]:
+        """Gets a sentence with PropBank words. Note: not all verbs might be present"""
+        return self.sentence_list[0]
+
+    @property
+    def frame_count(self) -> int:
+        """Gets a sentence with PropBank words. Note: not all verbs might be present"""
+        return len(self.sentence_list)
+
 
 class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
     """ Uses the super class logic and transforms the merged format into logical structure that would be perceived as superclasses case"""
 
     def __init__(self, token_list: TokenList, argument_size: int):
         super().__init__(token_list)
-        first_sentence = typing.List[PropBankMergedTokenWord]
         verb_number = 0
         for token in token_list:
             word = PropBankMergedTokenWord(token, 0)
@@ -107,10 +125,8 @@ class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
             if word.inner_verb != "":
                 word.add_symbol(verb_number)
                 verb_number += 1
-
-        first_sentence = list(PropBankMergedTokenWord(x, 0) for x in token_list)
-        self.sentence_list.append(first_sentence)
+        self.sentence_list.append(list(PropBankMergedTokenWord(x, 0) for x in token_list))
 
         # Emulate the multiple lists of standard PropBankToken sentence
         for i in range(1, argument_size):
-            self.sentence_list.append(list(x.switch_context(i) for x in first_sentence))
+            self.sentence_list.append(list(x.switch_context(i) for x in self.sentence_list[0]))

@@ -1,9 +1,30 @@
 from abc import ABC, abstractmethod
 import typing
+from enum import Enum
+
+VARIABLE_NAME_SYMBOL = 'v'
+
+
+def stat_incr(x: int):
+    return x + 1
 
 
 def get_variable_name(id: str):
-    return f'v{id}'
+    return f'{VARIABLE_NAME_SYMBOL}{id}'
+
+
+class ContainerStatistic(Enum):
+    """Defines the available opetaion categories of phrase normalizer"""
+    COREFERENCE_TOTAL_COUNT = 1,
+    COREFERENCE_COUNT = 2,
+    HAS_COREFERENCE = 3,
+    HAS_NAMED_ENTITIES = 4,
+    WIKI_COUNT = 5,
+    WIKI_TOTAL_COUNT = 6,
+    NAMED_ENTITIES_COUNT = 7,
+    NAMED_ENTITIES_TOTAL_COUNT = 8,
+    SENTENCE_TOKEN_TOTAL_COUNT = 9,
+    FRAME_TOTAL_COUNT = 10,
 
 
 class IContainer(ABC):
@@ -20,8 +41,33 @@ class IContainer(ABC):
         pass
 
     @property
+    def property_count(self):
+        """Counts all properties in AMR"""
+        pass
+
+    @property
+    def token_count(self):
+        """Counts all words found in sentence that AMR was generated from"""
+        pass
+
+    @property
+    def frame_count(self):
+        """Counts number of PropBank frames in AMR"""
+        pass
+
     @abstractmethod
-    def sentence_words_added(self):
+    def get_stat(self, statistic: ContainerStatistic, default_value=None):
+        """Gets statistic from container"""
+        pass
+
+    @abstractmethod
+    def set_stat(self, statistic: ContainerStatistic, value):
+        """Sets statistic for container"""
+        pass
+
+    @abstractmethod
+    def update_stat(self, statistic: ContainerStatistic, func: typing.Callable):
+        """Updates statistic according to what function returns after passing the current value to it"""
         pass
 
     @abstractmethod
@@ -96,5 +142,3 @@ class IContainer(ABC):
         """Replaces an instance and all its references. Resource-consuming operation,
         however acceptable if low number of references"""
         pass
-
-

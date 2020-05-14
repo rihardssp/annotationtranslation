@@ -7,7 +7,7 @@ DEFAULT_DELEGATE_INIT_ERROR = "Delegate initialized with non-callable argument"
 class RuleDelegate:
     """These rules are run for each word to look for additional things to add, for example, nmod, polarity, etc"""
 
-    def __init__(self, delegate):
+    def __init__(self, delegate: typing.Callable):
         if callable(delegate):
             self.delegate = delegate
         else:
@@ -20,7 +20,7 @@ class RuleDelegate:
 class ArgumentDelegate:
     """Rules for adding an argument. Default is simply using the default mapping_definitions available"""
 
-    def __init__(self, delegate, default_mapping: str):
+    def __init__(self, delegate: typing.Callable, default_mapping: str):
         if delegate is None or callable(delegate):
             self.delegate = delegate
             self.default_mapping = default_mapping

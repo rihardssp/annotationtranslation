@@ -8,7 +8,7 @@ from src.configuration import ConfigReader, config_reader
 # log_stream = StringIO() | stream=log_stream, datefmt='%H:%M:%S', | print(log_stream.getvalue())
 logging.basicConfig(level=config_reader.get_logger_severity_level(), format='%(asctime)s,%(msecs)d %(name)s %(levelname)s %(message)s')
 
-from src.container.base import IContainer
+from src.container.base import IContainer, ContainerStatistic
 from src.external.phrase_normalizer import RestletPhraseNormalizer, PhaseNormalizerCategory
 from src.mapping_defaults.named_entity import NamedEntitiesMapping
 from src.mapping_defaults.propbank import PropBankMapping
@@ -36,20 +36,35 @@ for p in pipe_line:
 
 # Store in file
 f = codecs.open(ConfigReader().get_output_file_path(), "w", "utf-8")
-total = len(triplet_list)
-with_co_reference = 0
-with_named_entities = 0
-
 for triplet in triplet_list:
     triplet.print(f, False)
-    if triplet.has_co_reference_entry:
-        with_co_reference += 1
-    if triplet.has_named_entities_entry:
-        with_named_entities += 1
 
-if False:
-    f.write("\r\n======= Statistics:\r\n")
-    f.write(f"Total PropBank entries: {total}\r\n")
-    f.write(f"Entries matched with named entities: {with_named_entities}\r\n")
-    f.write(f"Entries matched with co references: {with_co_reference}\r\n")
+
+# Some additional data
+propbank_sentence_count = len(triplet_list)
+with_co_reference = len(list(x for x in triplet_list if x.get_stat(ContainerStatistic.HAS_COREFERENCE, False)))
+with_named_entities = len(list(x for x in triplet_list if x.get_stat(ContainerStatistic.HAS_NAMED_ENTITIES, False)))
+property_count = sum(list(x.property_count for x in triplet_list))
+sentence_token_count = sum(list(x.token_count for x in triplet_list))
+sentence_token_total_count = sum(list(x.get_stat(ContainerStatistic.SENTENCE_TOKEN_TOTAL_COUNT, 0) for x in triplet_list))
+frame_count = sum(list(x.frame_count for x in triplet_list))
+frame_total_count = sum(list(x.get_stat(ContainerStatistic.FRAME_TOTAL_COUNT, 0) for x in triplet_list))
+named_entities_total_count = sum(list(x.get_stat(ContainerStatistic.NAMED_ENTITIES_TOTAL_COUNT, 0) for x in triplet_list))
+named_entities_count = sum(list(x.get_stat(ContainerStatistic.NAMED_ENTITIES_COUNT, 0) for x in triplet_list))
+wiki_total_count = sum(list(x.get_stat(ContainerStatistic.WIKI_TOTAL_COUNT, 0) for x in triplet_list))
+wiki_count = sum(list(x.get_stat(ContainerStatistic.WIKI_COUNT, 0) for x in triplet_list))
+coreference_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_COUNT, 0) for x in triplet_list))
+coreference_total_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_TOTAL_COUNT, 0) for x in triplet_list))
+
+f.write("\n======= Statistics:\n")
+f.write(f"Total AMR property count: {property_count}\n")
+f.write(f"AMR token count: {sentence_token_count} out of total: {sentence_token_total_count}\n")
+f.write(f"PropBank frame count in AMR: {frame_count} out of total: {frame_total_count}\n")
+f.write(f"Named entity count in AMR: {named_entities_count} out of total: {named_entities_total_count}\n")
+f.write(f"Wiki count in AMR: {wiki_count} out of total: {wiki_total_count}\n")
+f.write(f"Coreference count in AMR: {coreference_count} out of total: {coreference_total_count}\n")
+
+f.write(f"Number of AMR sentences generated from PropBank: {propbank_sentence_count}\n")
+f.write(f"Entries matched with named entities: {with_named_entities}\n")
+f.write(f"Entries matched with co references: {with_co_reference}\n")
 f.close()

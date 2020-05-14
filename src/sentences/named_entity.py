@@ -10,20 +10,18 @@ from src.words.named_entity import INamedEntitiesWord, NamedEntitiesTokenWord
 class INamedEntitiesSentence(ISentence):
     """Interface for Named Entities sentence logic"""
 
+    @property
     @abstractmethod
-    def get_wiki1(self) -> typing.List[INamedEntitiesWord]:
+    def bio1(self) -> typing.List[INamedEntitiesWord]:
         pass
 
+    @property
     @abstractmethod
-    def get_wiki2(self) -> typing.List[INamedEntitiesWord]:
+    def bio1_count(self) -> int:
         pass
 
-    @abstractmethod
-    def get_bio1(self) -> typing.List[INamedEntitiesWord]:
-        pass
-
-    @abstractmethod
-    def get_bio2(self) -> typing.List[INamedEntitiesWord]:
+    @property
+    def wiki1_count(self) -> int:
         pass
 
 
@@ -34,14 +32,15 @@ class NamedEntitiesTokenSentence(TokenSentenceBase, INamedEntitiesSentence):
         super().__init__(token_list)
         self.sentence: typing.List[NamedEntitiesTokenWord] = list(NamedEntitiesTokenWord(x) for x in token_list)
 
-    def get_wiki1(self) -> typing.List[INamedEntitiesWord]:
-        return list(x for x in self.sentence if x.wiki1 != '')
-
-    def get_wiki2(self) -> typing.List[INamedEntitiesWord]:
-        return list(x for x in self.sentence if x.wiki2 != '')
-
-    def get_bio1(self) -> typing.List[INamedEntitiesWord]:
+    @property
+    def bio1(self) -> typing.List[INamedEntitiesWord]:
+        """Gets tokens with bio-tags in sentence token order"""
         return list(x for x in self.sentence if x.bio_tag1 != '')
 
-    def get_bio2(self) -> typing.List[INamedEntitiesWord]:
-        return list(x for x in self.sentence if x.bio_tag2 != '')
+    @property
+    def bio1_count(self) -> int:
+        return len(list(x for x in self.sentence if x.bio_tag1 and x.bio_tag1[0] == 'B'))
+
+    @property
+    def wiki1_count(self) -> int:
+        return len(list(x for x in self.sentence if x.wiki1))

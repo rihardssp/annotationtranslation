@@ -49,8 +49,12 @@ def money_chunk_action(pipe, root_id: str, chunk: typing.List[INamedEntitiesWord
     else:
         string_concat_chunk_action(pipe, root_id, chunk, container, default_mapping)
 
-def instance_with_name_concat_chunk_action(pipe, root_id: str, chunk: typing.List[INamedEntitiesWord], container: IContainer,
-                                           default_mapping: str, action: PhaseNormalizerCategory = PhaseNormalizerCategory.NONE):
+
+def instance_with_name_concat_chunk_action(pipe, root_id: str,
+                                           chunk: typing.List[INamedEntitiesWord],
+                                           container: IContainer,
+                                           default_mapping: str,
+                                           action: PhaseNormalizerCategory = PhaseNormalizerCategory.NONE):
     """Create an object with default mapping and adds chunk as name"""
     container.update_instance_value(root_id, default_mapping)
     name_id = container.get_generated_id()

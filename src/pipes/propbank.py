@@ -2,7 +2,7 @@ import logging
 import typing
 from src.configuration import config_reader
 from src.container.penman_triplet_container import TripletContainer
-from src.container.base import IContainer
+from src.container.base import IContainer, ContainerStatistic
 from src.delegates import ArgumentDelegate
 from src.mapping_defaults.propbank import IPropBankMapping, PropBankMapping
 from src.pipes.base import PipeBase
@@ -33,9 +33,12 @@ class PropBankPipe(PipeBase):
             # container = Sentence.GetFrameCount()
             if root_word is not None:
                 container = TripletContainer(sentence.metadata)
+                container.set_stat(ContainerStatistic.SENTENCE_TOKEN_TOTAL_COUNT, len(sentence.word_list))
+                container.set_stat(ContainerStatistic.FRAME_TOTAL_COUNT, sentence.frame_count)
                 self.add_root(root_word, container, sentence)
                 container_list.append(container)
-
+            else:
+                self.__logger.info(f"Sentence '{sentence.text}' does not have a root")
         return container_list
 
     def add_root(self, root_word: IPropBankWord, container: IContainer, sentence: IPropBankSentence):
