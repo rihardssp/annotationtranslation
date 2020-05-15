@@ -22,7 +22,7 @@ class ConfigReader:
     def __get_default_value(self, key):
         return self.__get_value("Default", key)
 
-    def get_output_file_path(self):
+    def get_output_file_path(self) -> str:
         return self.__get_default_value("OutputFile")
 
     def get_logger_name(self, child_logger_path: str = None):

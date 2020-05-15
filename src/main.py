@@ -19,6 +19,7 @@ from src.readers.coreference import CoReferenceContentAnnotationReader
 from src.readers.named_entity import NamedEntitiesContentAnnotationReader
 from src.readers.propbank import PropBankContentAnnotationReader, PropBankMergedFormatAnnotationReader
 
+
 # Define the pipeline
 pipe_line = [
     PropBankPipe(PropBankMapping()),
@@ -56,7 +57,10 @@ wiki_count = sum(list(x.get_stat(ContainerStatistic.WIKI_COUNT, 0) for x in trip
 coreference_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_COUNT, 0) for x in triplet_list))
 coreference_total_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_TOTAL_COUNT, 0) for x in triplet_list))
 
-f.write("\n======= Statistics:\n")
+f.close()
+f = codecs.open(ConfigReader().get_output_file_path().replace(".txt", "") + "_statistics.txt", "w", "utf-8")
+
+f.write("======= Statistics:\n")
 f.write(f"Total AMR property count: {property_count}\n")
 f.write(f"AMR token count: {sentence_token_count} out of total: {sentence_token_total_count}\n")
 f.write(f"PropBank frame count in AMR: {frame_count} out of total: {frame_total_count}\n")
@@ -67,4 +71,5 @@ f.write(f"Coreference count in AMR: {coreference_count} out of total: {coreferen
 f.write(f"Number of AMR sentences generated from PropBank: {propbank_sentence_count}\n")
 f.write(f"Entries matched with named entities: {with_named_entities}\n")
 f.write(f"Entries matched with co references: {with_co_reference}\n")
+
 f.close()
