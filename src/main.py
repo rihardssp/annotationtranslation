@@ -68,7 +68,7 @@ f.write(f"Named entity count in AMR: {named_entities_count} out of total: {named
 f.write(f"Wiki count in AMR: {wiki_count} out of total: {wiki_total_count}\n")
 f.write(f"Coreference count in AMR: {coreference_count} out of total: {coreference_total_count}\n")
 
-f.write(f"Number of AMR sentences generated from PropBank: {propbank_sentence_count}\n")
+f.write(f"Number of AMR graphs generated from PropBank: {propbank_sentence_count}\n")
 f.write(f"Entries matched with named entities: {with_named_entities}\n")
 f.write(f"Entries matched with co references: {with_co_reference}\n")
 

@@ -5,6 +5,6 @@ PropBank frame count in AMR: 10363 out of total: 15503
 Named entity count in AMR: 3262 out of total: 6553
 Wiki count in AMR: 1247 out of total: 2668
 Coreference count in AMR: 341 out of total: 6754
-Number of AMR sentences generated from PropBank: 7778
+Number of AMR graphs generated from PropBank: 7778
 Entries matched with named entities: 7197
 Entries matched with co references: 7110
