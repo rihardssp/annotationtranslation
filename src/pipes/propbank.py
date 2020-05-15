@@ -50,10 +50,13 @@ class PropBankPipe(PipeBase):
         # container.FrameCount++
         container.add_root(root_word.id, root)
 
-        # Root word isn't necessary here, as first root definitely has verb definition
+        # add arguments of this root
         argument_words = sentence.get_arguments(root_word.id)[1]
         for argument_word in argument_words:
             self.add_argument(root_word, argument_word, container, sentence)
+
+        # add roots pointing to this root
+        self.back_track(root_word, container, sentence)
 
         # Do some extra processing and get arguments of root
         self.process_rules(root_word, container, sentence)
@@ -86,19 +89,26 @@ class PropBankPipe(PipeBase):
                 self.process_rules(argument_to_add, container, sentence)
 
             # If word was added then add all roots pointing to this word
-            # ToDo: The same thing should be done with root, no?!
             if container.has_instance(argument_word.id):
-                roots = sentence.get_roots_of_argument(argument_word.id)
-                for root in list(x for x in roots if x.id != root_word.id):
-                    should_be_added = len(list(
-                        x for x in sentence.get_arguments(root.id)[1]
-                        if x.arg in self.mapping.get_argument_action_mapping()
-                        and container.has_instance(x.id))) > 0
-
-                    if should_be_added:
-                        self.add_root(root, container, sentence)
+                self.back_track(argument_word, container, sentence, root_word.id)
         else:
             self.__logger.info(f"Did not find propbank argument role mapping_definitions {argument_word.arg}")
+
+    def back_track(self, child_word: IPropBankWord, container: IContainer, sentence: IPropBankSentence,
+                   argument_parent_word_id: int = -1):
+        """Goes back one level if there's a mapping between new parent and root"""
+
+        roots = sentence.get_roots_of_argument(child_word.id)
+        for root in list(x for x in roots if x.id != argument_parent_word_id):
+
+            # Verify that root will be connected to an existing instance in some way
+            root_link_to_graph = next((x for x in sentence.get_arguments(root.id)[1]
+                                       if x.arg in self.mapping.get_argument_action_mapping()
+                                       and container.has_instance(x.id)),
+                                      None)
+
+            if root_link_to_graph is not None:
+                self.add_root(root, container, sentence)
 
     def execute_action_mapping(self, mapping_action: ArgumentDelegate, root_word: IPropBankWord,
                                argument_word: IPropBankWord, container,

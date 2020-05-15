@@ -1470,7 +1470,9 @@
 # ::text Pāris apsēdās nostāk, abi tādi jau krietni gados, starp piecdesmit un piecdesmit pieci, nesaderīgi, kā caur iepazīšanās dienestu satikušies, - es nodomāju, - un atnākuši uz pirmo randiņu.
 (v2 / sit_down.02
     :ARG1 (v1 / pāris
-        :ARG0-of (v23 / meet.02))
+        :ARG0-of (v23 / meet.02
+            :ARG1-of (v27 / think.01
+                :ARG0 (v26 / es))))
     :location (v3 / nostāk))
 
 # ::sent_id a-d197-p34s10
@@ -1637,7 +1639,9 @@
     :ARG0 (v3 / dažs
         :ARG1-of (v5 / sit.01
             :ARG2 (v2 / te)))
-    :ARG1 v5)
+    :ARG1 v5
+    :ARG1-of (v9 / say.01
+        :ARG0 (v8 / es)))
 
 # ::sent_id a-d197-p48s2
 # ::text Meitene apsēdās.
@@ -2221,7 +2225,8 @@
 # ::text Lai būtu ko ēst, viņš saka.
 (v7 / say.01
     :ARG1 (v3 / kas
-        :ARG1-of (v4 / eat.01))
+        :ARG1-of (v4 / eat.01
+            :ARG1-of (v2 / have.03)))
     :ARG0 (v6 / viņš))
 
 # ::sent_id a-d29-p82s19
@@ -2930,7 +2935,8 @@
 (v6 / lead.01
     :ARG0 (v2 / es)
     :ARG1 (v3 / tu)
-    :ARG4 (v5 / lauks))
+    :ARG4 (v5 / lauks)
+    :ARG1-of (v8 / understand.01))
 
 # ::sent_id a-d87-p90s3
 # ::text Es nopirkšu tev šķūni.
@@ -3406,7 +3412,9 @@
     :time (v4 / brīdis)
     :ARG1 (v9 / kaimiņiene
         :ARG0-of (v15 / remember.01
-            :ARG1 (v22 / uzsist))))
+            :ARG1 (v22 / uzsist)
+            :ARG1-of (v14 / want.01
+                :polarity -))))
 
 # ::sent_id a-p10100-p6s3
 # ::text Tāpēc es diemžēl arī ar šo paņēmienu neuzzināju, vai man jaunajā gadā lemts atrast vīru.
@@ -4546,7 +4554,8 @@
     :location (v5 / zāle)
     :ARG1 (v15 / grozs
         :mod (v14 / basketbols)
-        :mod (v16 / gals)))
+        :mod (v16 / gals))
+    :ARG1-of (v3 / report.01))
 
 # ::sent_id a-p1299-p4s6
 # ::text A.Matevičs, kurš ir arī pagasta deputāts, uzskata: kad zāle būs gatava, bez diviem tehniskajiem darbiniekiem vēl būs vajadzīgs sporta organizators – nozares entuziasts (pašlaik šos pienākumus ar savējiem apvieno kultūras organizatore).
@@ -4812,7 +4821,8 @@
 (v3 / create.01
     :ARG1 (v4 / abažūrs
         :mod (v6 / stils
-            :mod (v5 / jauns))))
+            :mod (v5 / jauns)))
+    :ARG2-of (v2 / start.01))
 
 # ::sent_id a-p14117-p9s1
 # ::text Pirmo reizi poliuretāna putas kā siltinātāju izmantoja Amerikas Savienotajās Valstīs un Kanādā.
@@ -5220,6 +5230,9 @@
 (v17 / find.01
     :ARG0 (v7 / draugs)
     :ARG1 (v18 / nūja)
+    :ARG1-of (v2 / tell.01
+        :location (v4 / sižets
+            :mod (v3 / televīzija)))
     :location (v14 / name
         :op1 (vg0 / "Tunošonkas upes pieteka")))
 
@@ -5228,7 +5241,12 @@
 (v6 / arise.02
     :ARG1 (v7 / satraukums
         :mod (v10 / uzņemšana
-            :mod (v9 / bēglis))))
+            :mod (v9 / bēglis)))
+    :ARG1-of (v2 / explain.01
+        :ARG0 (v12 / person
+            :name (vg0 / name
+                :op0 "Rasnačs")
+            :wiki "en.wikipedia.org/wiki/Dzintars_Rasnačs")))
 
 # ::sent_id a-p14453-p4s2
 # ::text Pamatojot šo argumentu, viņš atgādināja, ka tie, kas mitinās bēgļu centrā Muceniekos, neviens nav iemācījies latviešu valodu - tas liecinot par noslēgtas kopienas veidošanos.
@@ -5896,7 +5914,8 @@
 (v5 / go.02
     :ARG0 (v2 / es
         :ARG1-of (v14 / be.02
-            :location (v15 / teātris)))
+            :location (v15 / teātris)
+            :ARG2-of (v13 / able.01)))
     :ARG3 (v7 / name
         :op1 (vg0 / "Durbe")
         :wiki "en.wikipedia.org/wiki/Durbe")
@@ -6153,7 +6172,16 @@
                 :op1 (vg1 / "Jelgava")))
         :name (vg2 / name
             :op0 "Andris"
-            :op1 "Rāviņš")))
+            :op1 "Rāviņš"))
+    :ARG2-of (v39 / inform.01
+        :ARG1 (v38 / organization
+            :mod (v37 / aģentūra)
+            :name (vg3 / name
+                :op1 "LETA"))
+        :location (v43 / nodaļa
+            :mod (v40 / ministrija)
+            :mod (v42 / informēšana
+                :mod (v41 / sabiedrība)))))
 
 # ::sent_id a-p3732-p3s1
 # ::text Jau ziņots, ka Valsts kontrole revīzijā Jelgavas pilsētas pašvaldības aģentūrās konstatējusi nepamatotus tēriņus vairāk nekā 50 000 latu apmērā.
@@ -6232,11 +6260,15 @@
 (v11 / use_up.04
     :ARG0 (v8 / organization
         :mod (v6 / aģentūra)
-        :name (vg0 / name
+        :name (vg1 / name
             :op1 "Pilsētsaimniecība"))
     :ARG1 (v13 / lats)
     :ARG2 (v14 / atlīdzība
-        :mod (v21 / laiks)))
+        :mod (v21 / laiks))
+    :ARG1-of (v2 / discover.01
+        :ARG0 (v3 / organization
+            :name (vg0 / name
+                :op1 "Valsts kontrole"))))
 
 # ::sent_id a-p3732-p8s2
 # ::text Bet vairāk nekā 3500 latu "Pilsētsaimniecība" izlietojusi, samaksājot par tādu ielu labošanas darbu veikšanu, kuri komersantam saskaņā ar līgumu bija jāveic par saviem līdzekļiem.
@@ -6760,9 +6792,18 @@
     :ARG1 (v28 / skaits
         :mod (v27 / klients
             :mod (v25 / organization
-                :name (vg0 / name
+                :name (vg2 / name
                     :op1 "LMT"))))
-    :ARG2 (v32 / tūkstotis))
+    :ARG2 (v32 / tūkstotis)
+    :ARG1-of (v4 / indicate.01
+        :ARG0 (v9 / person
+            :mod (v8 / izpilddirektors
+                :mod (v5 / organization
+                    :name (vg0 / name
+                        :op1 "Latvijas Telekomunikāciju asociācija")))
+            :name (vg1 / name
+                :op0 "Jānis"
+                :op1 "Lelis"))))
 
 # ::sent_id a-p3754-p10s1
 # ::text „ZAAO" veic arī sabiedrības izglītošanu.
@@ -7933,7 +7974,8 @@
     :ARG2 (v1 / cilvēks
         :mod (v5 / talants
             :mod (v4 / liels)))
-    :ARG1 (v9 / izdaiļot))
+    :ARG1 (v9 / izdaiļot)
+    :ARG2-of (v6 / able.01))
 
 # ::sent_id a-p5456-p4s1
 # ::text Tā kā ne Viljamam, ne Keitai līdz pat pirmdienas vakaram nav jāpilda nekādi valstij būtiski pienākumi, viņi plāno uz nedēļas nogali izrauties no mājām.
@@ -10148,11 +10190,11 @@
 
 
 ======= Statistics:
-Total AMR property count: 626
-AMR token count: 5266 out of total: 22565
-PropBank frame count in AMR: 1695 out of total: 2518
-Named entity count in AMR: 439 out of total: 907
-Wiki count in AMR: 113 out of total: 270
+Total AMR property count: 634
+AMR token count: 5295 out of total: 22565
+PropBank frame count in AMR: 1709 out of total: 2518
+Named entity count in AMR: 444 out of total: 907
+Wiki count in AMR: 114 out of total: 270
 Coreference count in AMR: 43 out of total: 1049
 Number of AMR sentences generated from PropBank: 1259
 Entries matched with named entities: 1172

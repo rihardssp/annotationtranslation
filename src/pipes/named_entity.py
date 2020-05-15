@@ -29,31 +29,33 @@ class NamedEntitiesPipe(PipeBase):
         for sentence in self.annotation_reader.read():
 
             # ToDo: improve sent_id matching so that it isn't O(nm)
-            potential_containers = list(x for x in container_list if x.sent_id == sentence.sent_id)
-            if len(potential_containers) > 0:
-                container = potential_containers[0]
-                container.set_stat(ContainerStatistic.HAS_NAMED_ENTITIES, True)
-                container.set_stat(ContainerStatistic.NAMED_ENTITIES_TOTAL_COUNT, sentence.bio1_count)
-                container.set_stat(ContainerStatistic.NAMED_ENTITIES_COUNT, 0)
-                container.set_stat(ContainerStatistic.WIKI_TOTAL_COUNT, sentence.wiki1_count)
-                container.set_stat(ContainerStatistic.WIKI_COUNT, 0)
+            potential_container = next((x for x in container_list if x.sent_id == sentence.sent_id), None)
+            if not potential_container:
+                continue
 
-                # Last chunk
-                last_chunk: typing.List[INamedEntitiesWord] = []
-                container_word_ids = []
-                for word in sentence.bio1:
-                    # ToDo: exclude punctuation?
-                    if word.bio_tag1[0] == 'B':
-                        self.map_bio1_chunk(container, last_chunk, container_word_ids)
-                        last_chunk = [word]
-                        container_word_ids = []
-                    elif word.bio_tag1[0] == 'I':
-                        last_chunk.append(word)
+            container = potential_container
+            container.set_stat(ContainerStatistic.HAS_NAMED_ENTITIES, True)
+            container.set_stat(ContainerStatistic.NAMED_ENTITIES_TOTAL_COUNT, sentence.bio1_count)
+            container.set_stat(ContainerStatistic.NAMED_ENTITIES_COUNT, 0)
+            container.set_stat(ContainerStatistic.WIKI_TOTAL_COUNT, sentence.wiki1_count)
+            container.set_stat(ContainerStatistic.WIKI_COUNT, 0)
 
-                    if container.has_instance(word.id):
-                        container_word_ids.append(word.id)
+            # Last chunk
+            last_chunk: typing.List[INamedEntitiesWord] = []
+            container_word_ids = []
+            for word in sentence.bio1:
+                # ToDo: exclude punctuation?
+                if word.bio_tag1[0] == 'B':
+                    self.map_bio1_chunk(container, last_chunk, container_word_ids)
+                    last_chunk = [word]
+                    container_word_ids = []
+                elif word.bio_tag1[0] == 'I':
+                    last_chunk.append(word)
 
-                self.map_bio1_chunk(container, last_chunk, container_word_ids)
+                if container.has_instance(word.id):
+                    container_word_ids.append(word.id)
+
+            self.map_bio1_chunk(container, last_chunk, container_word_ids)
 
         return container_list
 
