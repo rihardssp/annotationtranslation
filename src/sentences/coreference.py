@@ -20,12 +20,23 @@ class ICoReferenceSentence(ISentence):
     def co_reference_count(self) -> int:
         pass
 
+    @property
+    @abstractmethod
+    def additional_context_references(self) -> typing.Dict[str, typing.List[ICoReferenceWord]]:
+        pass
+
+    @additional_context_references.setter
+    @abstractmethod
+    def additional_context_references(self, context_references: typing.Dict[str, typing.List[ICoReferenceWord]]):
+        pass
+
 
 class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
     """CoReference specific logic for reading sentences from Conllu"""
 
     def __init__(self, token_list: TokenList):
         super().__init__(token_list)
+        self.__additional_context_references = None
         self.sentence: typing.List[CoReferenceTokenWord] = list(CoReferenceTokenWord(x) for x in token_list)
         self.__co_reference_dictionary = None
 
@@ -42,6 +53,14 @@ class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
                         self.__co_reference_dictionary[word.coreference_group].append(word)
 
         return self.__co_reference_dictionary
+
+    @property
+    def additional_context_references(self) -> typing.Dict[str, typing.List[ICoReferenceWord]]:
+        return self.__additional_context_references
+
+    @additional_context_references.setter
+    def additional_context_references(self, context_references: typing.Dict[str, typing.List[ICoReferenceWord]]):
+        self.__additional_context_references = context_references
 
     @property
     def co_reference_count(self) -> int:

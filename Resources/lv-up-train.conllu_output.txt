@@ -157,7 +157,7 @@
 # ::sent_id a-c15-p9s2
 # ::text Viņa dod laulātajiem draugiem daudz pēcnācēju un, bērnam dzimstot, dod mātei svētību.
 (v2 / give.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Hēra
         :ARG0-of (v12 / give.01
             :ARG2 (v13 / māte)
             :ARG1 (v14 / svētība)))
@@ -338,7 +338,7 @@
 # ::text Jums nav sveša vilšanās, taču spējat par to ātri aizmirst.
 (v7 / able.01
     :ARG2 (v11 / forget.01
-        :ARG1 (v9 / vilšanās)))
+        :ARG1 (v9 / tas)))
 
 # ::sent_id a-c23-p13s9
 # ::text Pār jums valda slēpta vainas apziņa.
@@ -391,7 +391,7 @@
 # ::sent_id a-c26-p57s4
 # ::text Viņi zina, kuru skolotājs vērtē augstu un kuru ignorē.
 (v2 / know.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / bērni)
     :ARG1 (v6 / vērtēt))
 
 # ::sent_id a-c3-p12s2
@@ -758,7 +758,7 @@
 # ::sent_id a-c36-p59s4
 # ::text Viņš labprāt pastāstīs par jūs ieinteresējošo preci, organizēs degustāciju, sniegs rekomendācijas, ieteiks labu recepti.
 (v3 / tell.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Pārdevējs
         :ARG0-of (v15 / advise.01
             :ARG2 (v17 / recepte
                 :mod (v16 / labs)))
@@ -981,7 +981,7 @@
 # ::sent_id a-c47-p9s10
 # ::text Lai kur es būtu, viņi, šīs garās dzīves liecinieki, nākuši man pretī.
 (v13 / come.01
-    :ARG1 (v6 / liecinieki))
+    :ARG1 (v6 / viņš))
 
 # ::sent_id a-c47-p9s2
 # ::text Tepat netālu bijušās baznīcas pagrabā ir veco ļaužu saieta nams jeb senioru centrs, kā to parasts te saukt.
@@ -1203,7 +1203,7 @@
 # ::sent_id a-c57-p4s10
 # ::text Viņai ir tikai viena iespēja sadarboties ar bērnu - mātei ir jāpakļaujas bērna pētniecības tieksmei.
 (v2 / have.03
-    :ARG0 (v1 / mātei)
+    :ARG0 (v1 / viņa)
     :ARG1 (v5 / iespēja))
 
 # ::sent_id a-c57-p4s11
@@ -1217,7 +1217,7 @@
 # ::sent_id a-c57-p4s12
 # ::text Atvilknēm jābūt stabilām, tajās jāievieto priekšmeti, kas bērnu interesē, bet nesaplīst, ja bērns tos pēta vai spēlējas.
 (v6 / put.01
-    :ARG2 (v5 / Atvilknēm))
+    :ARG2 (v5 / tā))
 
 # ::sent_id a-c57-p4s13
 # ::text Elektriskām iekārtām ir jābūt piestiprinātām tā, lai bērns savā darbošanās tieksmē tās nevarētu aizsniegt.
@@ -1728,7 +1728,7 @@
 # ::text Kopti un veseli nagi ir svarīgs faktors, lai rokas būtu vizuāli pievilcīgas, tāpēc ir svarīgi, kā mēs tās kopjam.
 (v22 / look_after.07
     :ARG0 (v20 / mēs)
-    :ARG1 (v21 / rokas))
+    :ARG1 (v21 / tā))
 
 # ::sent_id a-c60-p1s8
 # ::text Gan sievietēm, gan vīriešiem svarīgi veikt manikīru, kura mērķis ir viens – koptas rokas.
@@ -1831,7 +1831,7 @@
 # ::sent_id a-c60-p26s4
 # ::text Piesūciniet kokvilnas zeķes ar siltu augu eļļu un uzvelciet tās kājās, un virsū uzvelciet plastikāta maisiņus, bet uz tiem uzvelciet vēl vienu zeķu pāri.
 (v9 / put_on.08
-    :ARG1 (v10 / zeķes))
+    :ARG1 (v10 / tā))
 
 # ::sent_id a-c60-p26s5
 # ::text No rīta noņemiet kompresi, noskalojiet kājas siltā ūdenī un paberzējiet pārakmeņojušos ādu ar cietu birstīti.
@@ -1853,7 +1853,7 @@
 # ::sent_id a-c60-p27s4
 # ::text Nagu kopšanas nav sarežģīta, ar nosacījumu, ka to veiksiet regulāri.
 (v11 / do.02
-    :ARG1 (v10 / kopšanas))
+    :ARG1 (v10 / tā))
 
 # ::sent_id a-c60-p28s1
 # ::text Netīrumus un sakrājušās mirušās ādas šūnas regulāri notīriet no nagu apakšas ar neasu kociņu, to ir jādara ļoti uzmanīgi, lai netraumētu naga iekšpusi.
@@ -2220,7 +2220,7 @@
 # ::sent_id a-c61-p41s2
 # ::text Ledājam uzvirzoties tas ierāva sevī iežus un minerālus no teritorijas, kam virzījās pāri.
 (v4 / drag.01
-    :ARG0 (v3 / Ledājam)
+    :ARG0 (v3 / tas)
     :ARG1 (v6 / iezis)
     :location (v10 / teritorija)
     :ARG2 v3)
@@ -2583,7 +2583,7 @@
 # ::sent_id a-d102-p66s6
 # ::text Viņa gribēja saukt policiju, bet Francim acis iezvērojās naidā, viņš norāva telefonam klausuli un parādīja viņai kulaku.
 (v2 / want.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Ella
         :ARG0-of (v3 / call.02
             :ARG1 (v4 / policija)
             :ARG1-of v2)))
@@ -2676,8 +2676,8 @@
 # ::sent_id a-d106-p18s1
 # ::text "Tu, Augustīn, esi pavisam no citurienes, tev es varu stāstīt.
 (v14 / tell.01
-    :ARG2 (v11 / Augustīn)
-    :ARG0 (v12 / es))
+    :ARG2 (v11 / tu)
+    :ARG0 (v12 / Baraba))
 
 # ::sent_id a-d106-p18s2
 # ::text Tā ceļi ir īsāki, lai arī tu esi pieradis klejot viens.
@@ -2699,7 +2699,7 @@
 # ::sent_id a-d107-p118s2
 # ::text Viņa peld lieliem, rimtiem vēzieniem.
 (v2 / swim.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Mia)
     :manner (v6 / vēziens
         :mod (v3 / liels)))
 
@@ -2720,14 +2720,14 @@
 # ::sent_id a-d107-p136s3
 # ::text Kad Mia atgriežas no peldes, viņa redz, ka tēvs mātes istabā sanesis visādus ziedošus zarus.
 (v8 / see.01
-    :ARG0 (v7 / Mia)
+    :ARG0 (v7 / viņa)
     :ARG1 (v14 / sanest))
 
 # ::sent_id a-d107-p136s4
 # ::text Rīt viņa būs mājās.
 (v3 / be.02
     :time (v1 / rīt)
-    :ARG1 (v2 / viņa)
+    :ARG1 (v2 / mātes)
     :location (v4 / māja))
 
 # ::sent_id a-d107-p77s1
@@ -2798,12 +2798,12 @@
 # ::sent_id a-d107-p97s3
 # ::text Bet viņa tik un tā peldēs.
 (v6 / swim.01
-    :ARG0 (v2 / viņa))
+    :ARG0 (v2 / Mia))
 
 # ::sent_id a-d107-p97s4
 # ::text Ja cilvēki būtu bijuši gudrāki, viņi būtu palikuši uz dzīvi ūdenī.
 (v9 / remain.01
-    :ARG1 (v7 / cilvēki)
+    :ARG1 (v7 / viņš)
     :ARG3 (v12 / ūdens))
 
 # ::sent_id a-d108-p42s1
@@ -2838,7 +2838,7 @@
 # ::sent_id a-d108-p9s2
 # ::text Viņa ļoti negribēja braukt, bet kurš viņai ko prasīja.
 (v3 / want.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / vācieti
         :ARG0-of (v4 / go.02))
     :ARG1 v4
     :polarity -)
@@ -2912,7 +2912,7 @@
 # ::sent_id a-d112-p32s2
 # ::text Caur kluso, pielijušo dārzu tās aicina pirtī.
 (v7 / invite.01
-    :ARG0 (v6 / tā)
+    :ARG0 (v6 / dziesmām)
     :ARG2 (v8 / pirts))
 
 # ::sent_id a-d112-p32s3
@@ -3192,7 +3192,7 @@
 # ::sent_id a-d117-p383s1
 # ::text Kad autovadītāju ceļā pārsteidz lietus gāziens, viņš ieslēdz stikla tīrītājus.
 (v9 / turn_on.13
-    :ARG0 (v8 / autovadītāju)
+    :ARG0 (v8 / viņš)
     :ARG1 (v11 / tīrītājs
         :mod (v10 / stikls)))
 
@@ -3218,7 +3218,7 @@
 # ::text Kur lai viņš pavada nakti?
 (v4 / spend.02
     :location (v1 / kur)
-    :ARG0 (v3 / viņš)
+    :ARG0 (v3 / Aleksis)
     :ARG1 (v5 / nakts))
 
 # ::sent_id a-d117-p385s3
@@ -3445,7 +3445,7 @@
 # ::sent_id a-d120-p58s2
 # ::text Puisis palēcās, laipiņa sašūpojās, kājas atgrūdās, un viņš izstieptām rokām traucās pretim melnajam atvaram.
 (v14 / rush.01
-    :ARG1 (v11 / Puisis)
+    :ARG1 (v11 / viņš)
     :direction (v17 / atvars
         :mod (v16 / melns)))
 
@@ -3484,7 +3484,7 @@
         :ARG1-of (v11 / go.01
             :ARG4 (v8 / nekur))
         :ARG0-of (v19 / squeeze.01
-            :ARG1 (v20 / ceļgaliem))
+            :ARG1 (v20 / tas))
         :ARG0-of (v9 / walk.01))
     :ARG2 (v3 / gulta))
 
@@ -3503,7 +3503,7 @@
 # ::sent_id a-d121-p207s1
 # ::text Viņa nomazgāja seju, uzvilka kleitu un kurpes.
 (v2 / wash.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Florence
         :ARG1-of (v5 / put_on.08
             :ARG1 (v6 / kleita)))
     :ARG1 (v3 / seja))
@@ -3518,7 +3518,7 @@
 # ::sent_id a-d121-p207s3
 # ::text Viņa nokāpa pa kāpnēm un izgāja uz ielas.
 (v2 / climb.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Florence
         :ARG0-of (v6 / walk.01))
     :ARG1 (v4 / kāpnes))
 
@@ -3722,7 +3722,7 @@
 # ::sent_id a-d122-p165s3
 # ::text Debesis bija noskaidrojušās, tās izskatījās dzidras kā sniegūdens.
 (v6 / look.02
-    :ARG0 (v5 / Debesis)
+    :ARG0 (v5 / tā)
     :ARG1 (v7 / dzidrs))
 
 # ::sent_id a-d122-p165s4
@@ -3811,7 +3811,7 @@
 # ::sent_id a-d124-p230s2
 # ::text Taču viņš nebija paredzējis, ka novērotājs metīsies bēgt.
 (v4 / expect.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / Milzenis)
     :ARG1 (v8 / start.01
         :ARG0 (v7 / novērotājs
             :ARG0-of (v9 / flee.05))
@@ -3855,7 +3855,7 @@
 # ::sent_id a-d124-p74s4
 # ::text Viņš noraustījās, tomēr neko neteica.
 (v6 / say.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / barvedim)
     :ARG1 (v5 / nekas)
     :polarity -)
 
@@ -3913,7 +3913,7 @@
 # ::text Tas, ko viņš noturēja par vecu grāvi, tiešām nebija rakts taisnā līnijā, kā grāvjus parasti rok, bet haotiski locījās.
 (v5 / mistake.01
     :ARG0 (v3 / kas)
-    :ARG0 (v4 / viņš)
+    :ARG0 (v4 / Māris)
     :ARG2 (v8 / grāvis
         :mod (v7 / vecs)))
 
@@ -3937,14 +3937,14 @@
 # ::sent_id a-d125-p15s2
 # ::text Tā izveda uz lielāka ceļa, tālumā kļuva dzirdamas balsis un traktora rūkoņa.
 (v2 / lead.01
-    :ARG0 (v1 / tā)
+    :ARG0 (v1 / takai)
     :ARG4 (v5 / ceļš
         :mod (v4 / liels)))
 
 # ::sent_id a-d125-p15s3
 # ::text Izgājis cauri vēl vienam šķidram alksnājam, viņš atradās tieši pretī slaucēju mājai.
 (v9 / locate.01
-    :ARG1 (v8 / viņš)
+    :ARG1 (v8 / Māris)
     :location (v13 / māja
         :mod (v12 / slaucējs)))
 
@@ -4049,7 +4049,7 @@
     :ARG0 (v5 / person
         :name (vg0 / name
             :op0 "Māris"))
-    :ARG1 (v6 / Vilnis))
+    :ARG1 (v6 / viņa))
 
 # ::sent_id a-d125-p267s7
 # ::text Vienīgi tad, ja Vilnim nebūtu spēka uzrāpties līdz augšai, viņš iemauktu roku cilpā, saliektu elkonī, un Māris viņu uzvilktu augšā.
@@ -4057,7 +4057,7 @@
     :ARG0 (v21 / person
         :name (vg0 / name
             :op0 "Māris"))
-    :ARG1 (v22 / Vilnim)
+    :ARG1 (v22 / viņš)
     :ARG2 (v24 / augšā))
 
 # ::sent_id a-d125-p268s1
@@ -4423,7 +4423,7 @@
 # ::sent_id a-d130-p50s4
 # ::text Tās varēja arī nopirkt.
 (v4 / buy.01
-    :ARG1 (v1 / tā))
+    :ARG1 (v1 / fotogrāfijām))
 
 # ::sent_id a-d130-p50s5
 # ::text Fanija dalīja autogrāfus.
@@ -4496,7 +4496,7 @@
 # ::sent_id a-d132-p264s2
 # ::text Viņš izkāpa un Federikai aiz muguras aši uz lūpām nobučoja Helēnu.
 (v2 / disembark.01
-    :ARG0 (v1 / viņš))
+    :ARG0 (v1 / Anselms))
 
 # ::sent_id a-d132-p264s3
 # ::text Federika veda Helēnu mājās.
@@ -4721,7 +4721,7 @@
 (v1 / emerge.01
     :ARG1 (v4 / istaba
         :mod (v3 / vanna))
-    :ARG0 (v7 / viņš
+    :ARG0 (v7 / Šternkopfs
         :ARG1-of (v12 / approach.01
             :ARG2 (v13 / person
                 :name (vg0 / name
@@ -4938,7 +4938,7 @@
         :ARG0-of (v9 / search.01)
         :ARG0-of (v7 / run.02
             :direction (v8 / atpakaļ)))
-    :ARG1 (v4 / viņa))
+    :ARG1 (v4 / Gastons))
 
 # ::sent_id a-d135-p266s4
 # ::text Gastons spirināja kājas, viņš skrēja, — pie pakaļas spiedās šķidra kaka, un pavisam drīz tā kāpa augšup pa muguru un atdzisa tik slapja un auksta —, kā lai nebēg.
@@ -4956,7 +4956,7 @@
 # ::text Nevienu no tām viņš nebija pircis.
 (v6 / buy.01
     :ARG1 (v1 / neviens
-        :mod (v3 / tā))
+        :mod (v3 / krūzes))
     :ARG0 (v4 / viņš))
 
 # ::sent_id a-d135-p35s4
@@ -4993,7 +4993,7 @@
 # ::sent_id a-d135-p88s1
 # ::text Viņš iegāja istabā, kur stāvēja redeļgultiņa.
 (v2 / enter.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Gastons)
     :ARG1 (v3 / istaba))
 
 # ::sent_id a-d135-p88s2
@@ -5029,7 +5029,7 @@
 # ::sent_id a-d135-p91s2
 # ::text Viņš ieliecās gultā tuvāk sienai, lai vismaz varētu paskatīties dziļāk un tālāk, kas ir aiz šī loga, bet atsitās pret sienu ar pieri.
 (v10 / look.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Gastons)
     :direction (v11 / dziļi)
     :ARG1 (v16 / būt))
 
@@ -5280,7 +5280,7 @@
 # ::sent_id a-d137-p1234s2
 # ::text Viņa ierauga abus un apsēžas pie viņiem.
 (v2 / see.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Laura
         :ARG1-of (v5 / sit_down.02
             :location v3))
     :ARG1 (v3 / abi))
@@ -5299,7 +5299,7 @@
 # ::text Bērnībā man palika slikti, pat šūpojoties uz koka zirdziņa.
 (v3 / get.03
     :time (v1 / bērnība)
-    :ARG1 (v2 / es
+    :ARG1 (v2 / Verdi
         :ARG1-of (v7 / swing.01
             :location (v10 / zirdziņš
                 :mod (v9 / koks)))))
@@ -5307,7 +5307,7 @@
 # ::sent_id a-d137-p1411s4
 # ::text Bet no krasta — jā, man patīk vērot, cik cēli kuģi peld.
 (v8 / like.01
-    :ARG0 (v7 / es
+    :ARG0 (v7 / Verdi
         :ARG0-of (v9 / watch.01
             :ARG1 (v14 / swim.01
                 :ARG0 (v13 / kuģis))))
@@ -5316,7 +5316,7 @@
 # ::sent_id a-d137-p1420s2
 # ::text Es nezinu.
 (v2 / know.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / Mihaels)
     :polarity -)
 
 # ::sent_id a-d137-p1437s1
@@ -5343,7 +5343,7 @@
 # ::sent_id a-d137-p1519s2
 # ::text Tas atskatās un atiež zobus.
 (v2 / look.01
-    :ARG0 (v1 / tas))
+    :ARG0 (v1 / Makša))
 
 # ::sent_id a-d137-p1536s2
 # ::text Pie galda sēž vecmamma un skatās tālumā.
@@ -5618,13 +5618,13 @@
     :ARG0 (v1 / person
         :name (vg0 / name
             :op0 "Lana"))
-    :ARG3 (v3 / Artis)
+    :ARG3 (v3 / viņš)
     :ARG1 (v4 / roka))
 
 # ::sent_id a-d137-p2078s2
 # ::text Viņš apķer viņu, viegli noskūpsta uz pieres, tad saliek rokas kabatās un aiziet uz māju.
 (v15 / go.02
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Artis
         :ARG0-of (v6 / kiss.01
             :location (v8 / piere))
         :ARG0-of (v11 / place.01
@@ -5660,7 +5660,7 @@
 # ::sent_id a-d137-p246s3
 # ::text Viņš pieiet pie Jasmīnes, tad pie loga, paskatās lejā, pieiet pie Ģertrūdes, sažņaudz dūres, apsēžas pie galda, grib iezvelt pa to, bet apraujas.
 (v2 / walk.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Artis
         :ARG1-of (v20 / sit_down.02
             :location (v22 / galds))
         :ARG0-of (v24 / want.01
@@ -5679,7 +5679,7 @@
 (v4 / tell.01
     :ARG1 (v1 / tas)
     :ARG0 (v2 / tu)
-    :ARG2 (v3 / es)
+    :ARG2 (v3 / Jasmīne)
     :time (v8 / temporal-quantity
         :unit (vg0 / nedēļa)
         :quant "divi"))
@@ -5735,7 +5735,7 @@
     :ARG0 (v1 / person
         :name (vg0 / name
             :op0 "Mihaels"))
-    :ARG2 (v3 / tas)
+    :ARG2 (v3 / Sū)
     :ARG1 (v5 / kukulis
         :mod (v4 / maize)))
 
@@ -5791,7 +5791,7 @@
 # ::sent_id a-d137-p869s2
 # ::text Tikai šoreiz to lāgiem aizsedz samilzušu mākoņu ēnas.
 (v5 / conceal.01
-    :ARG1 (v3 / tas)
+    :ARG1 (v3 / saule)
     :ARG0 (v8 / ēna
         :mod (v7 / mākonis
             :mod (v6 / samilzt))))
@@ -5807,7 +5807,7 @@
 # ::sent_id a-d137-p869s4
 # ::text Viņa ir vieglā zīda kreklā, smēķē un klausās popsi.
 (v9 / listen.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Lana
         :ARG0-of (v7 / smoke.02))
     :ARG1 (v10 / popsis))
 
@@ -5830,7 +5830,7 @@
 # ::sent_id a-d137-p869s6
 # ::text Lāgiem viņa gandrīz automātiski iešūpina krēslu un, kad tas norimst, atkal.
 (v11 / abate.01
-    :ARG1 (v10 / krēslu))
+    :ARG1 (v10 / tas))
 
 # ::sent_id a-d139-p1215s1
 # ::text Tad puika pēkšņi, kā elpu atguvis, iekliedzās.
@@ -5974,7 +5974,7 @@
 # ::sent_id a-d140-p32s18
 # ::text Es zinu: viņš mani mīl, tāpēc arī tā rūpējas par mani.
 (v2 / know.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / VERONIKA)
     :ARG1 (v6 / love.01
         :ARG0 (v4 / viņš)
         :ARG1 v1))
@@ -5998,7 +5998,7 @@
 # ::sent_id a-d140-p32s5
 # ::text Kāpēc es nevaru viņu saukt īstajā vārdā?
 (v5 / call.01
-    :ARG0 (v2 / es)
+    :ARG0 (v2 / VERONIKA)
     :ARG1 (v4 / viņš)
     :ARG2 (v7 / vārds
         :mod (v6 / īsts)))
@@ -6111,14 +6111,14 @@
 # ::text Un rīt manis te vairs nebūs.
 (v6 / be.02
     :time (v2 / rīt)
-    :ARG1 (v3 / es)
+    :ARG1 (v3 / ELĪZA)
     :location (v4 / te)
     :polarity -)
 
 # ::sent_id a-d140a-p286s5
 # ::text Es tevi ienīstu!
 (v3 / hate.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / ELĪZA)
     :ARG1 (v2 / tu))
 
 # ::sent_id a-d140a-p562s1
@@ -6134,7 +6134,7 @@
     :ARG0 (v1 / viņa
         :ARG1-of (v7 / remain.01
             :ARG3 (v8 / turpat)))
-    :ARG1 (v3 / tas))
+    :ARG1 (v3 / Eduards))
 
 # ::sent_id a-d140a-p60s3
 # ::text Labāk izejam pastaigāties, tev vajag izvēdināt galvu.
@@ -6150,7 +6150,7 @@
 # ::sent_id a-d140a-p653s3
 # ::text Viņai ir negatīvais rēzuss, tā ka jūs nākat kā saukts.
 (v2 / have.03
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / meitene)
     :ARG1 (v4 / rēzuss
         :mod (v3 / negatīvs)))
 
@@ -6158,12 +6158,12 @@
 # ::text Jūs varētu viņu glābt.
 (v4 / save.02
     :ARG0 (v1 / jūs)
-    :ARG1 (v3 / viņa))
+    :ARG1 (v3 / meitene))
 
 # ::sent_id a-d140a-p653s5
 # ::text Ved viņu sev līdzi.
 (v1 / lead.01
-    :ARG1 (v2 / viņa)
+    :ARG1 (v2 / meitene)
     :ARG4 (v3 / sevis))
 
 # ::sent_id a-d140a-p670s2
@@ -6310,7 +6310,7 @@
 # ::sent_id a-d16-p8s4
 # ::text Viņi, kastaņetes klaudzinādami, izstaigāja istabas, apskatīja guļošos un ilgi nevarēja izdomāt, kuru no šīm dvēselēm nomaitāt.
 (v9 / view.01
-    :ARG0 (v1 / ,
+    :ARG0 (v1 / viņš
         :ARG0-of (v14 / decide.01
             :ARG1 (v20 / nomaitāt))
         :ARG1-of (v13 / able.01
@@ -6339,7 +6339,7 @@
 # ::sent_id a-d16-p93s10
 # ::text Viņi apgāza visas pilnās degvīna glāzes, tās krita, plīsa, pa grīdu tecēja nevis caurspīdīgs šķidrums, bet zaļš lipeklis.
 (v9 / fall.01
-    :ARG1 (v8 / glāzes))
+    :ARG1 (v8 / tā))
 
 # ::sent_id a-d16-p93s11
 # ::text Sākumā skanēja vaimanas, tad apklusa.
@@ -6433,14 +6433,14 @@
 # ::sent_id a-d199-p12s1
 # ::text Tiklīdz Sofija bija aizvērusi aiz sevis dārza vārtiņus, viņa atvēra aploksni.
 (v11 / open.01
-    :ARG0 (v10 / Sofija)
+    :ARG0 (v10 / viņa)
     :ARG1 (v12 / aploksne))
 
 # ::sent_id a-d199-p12s2
 # ::text Vienīgais, ko viņa tajā atrada, bija maza zīmīte, ne lielāka par aploksni, kurā tā atradās.
 (v19 / locate.01
     :location (v17 / kura)
-    :ARG1 (v18 / zīmīte))
+    :ARG1 (v18 / tā))
 
 # ::sent_id a-d199-p13s1
 # ::text Zīmītē stāvēja rakstīts: Kas Tu esi?
@@ -6458,7 +6458,7 @@
 # ::text Bet kas to bija iemetis vēstuļkastē?
 (v5 / cast.01
     :ARG0 (v2 / kas)
-    :ARG1 (v3 / tā)
+    :ARG1 (v3 / vēstule)
     :ARG2 (v6 / vēstuļkaste))
 
 # ::sent_id a-d199-p16s2
@@ -6517,7 +6517,7 @@
 # ::sent_id a-d199-p19s2
 # ::text Pēc tam viņa nosēdās uz virtuves ķeblīša, turēdama noslēpumaino vēstuli rokā.
 (v9 / hold.01
-    :ARG0 (v3 / viņa)
+    :ARG0 (v3 / Sofija)
     :ARG1 (v11 / vēstule
         :mod (v10 / noslēpumains))
     :location (v12 / roka))
@@ -6672,7 +6672,7 @@
 # ::sent_id a-d199-p33s3
 # ::text Visļaunāk bija ar matiem — tie bija tik taisni, ka tos nekādi nebija iespējams sakārtot.
 (v16 / arrange.01
-    :ARG1 (v12 / matiem))
+    :ARG1 (v12 / tas))
 
 # ::sent_id a-d199-p33s4
 # ::text Dažreiz tētis noglāstīja viņas matus un sauca viņu par savu «meiteni ar linukrāsas matiem» kā Kloda Debisī klaviergabalu.
@@ -6799,7 +6799,7 @@
 # ::sent_id a-d199-p3s5
 # ::text Sofija nebija īsti droša, ka viņa tam piekrīt.
 (v9 / agree.01
-    :ARG0 (v7 / Sofija)
+    :ARG0 (v7 / viņa)
     :ARG1 (v8 / tas))
 
 # ::sent_id a-d199-p40s1
@@ -6951,7 +6951,7 @@
 # ::sent_id a-d199-p50s2
 # ::text Viņa visiem spēkiem mēģināja domāt par to, ka viņa pašlaik ir, lai tādā veidā aizmirstu, ka vienmēr tas tā nebūs.
 (v4 / attempt.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Sofija
         :ARG0-of (v17 / forget.01
             :ARG1 (v22 / tā))
         :ARG0-of (v5 / think.01
@@ -7014,7 +7014,7 @@
 (v16 / say.01
     :time (v2 / tagad
         :time-of (v6 / understand.01
-            :ARG0 (v4 / es)
+            :ARG0 (v4 / vecmāmiņa)
             :ARG1 (v9 / bagātība)
             :ARG1-of v16))
     :ARG0 v4)
@@ -7032,7 +7032,7 @@
 # ::sent_id a-d199-p55s1
 # ::text Varbūt viņai vajadzētu vēlreiz apskatīties, vai tur neatrodas vēl kaut kas?
 (v5 / look.01
-    :ARG0 (v2 / viņa)
+    :ARG0 (v2 / Sofija)
     :ARG1 (v9 / locate.01
         :location (v8 / tur)
         :ARG1 (v12 / kas)
@@ -7053,7 +7053,7 @@
 # ::sent_id a-d199-p55s3
 # ::text Viņa sarāvās, ieraugot tajā pamatīgu aploksni.
 (v2 / flinch.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Sofija
         :ARG0-of (v4 / see.01
             :location (v5 / tā)
             :ARG1 (v7 / aploksne
@@ -7062,7 +7062,7 @@
 # ::sent_id a-d199-p55s4
 # ::text Vai viņa patiešām nebija pilnīgi pārliecinājusies par to, ka vēstuļu kastīte palika gluži tukša, kad viņa no tās izņēma pirmo aploksni?
 (v6 / verify.01
-    :ARG0 (v2 / viņa)
+    :ARG0 (v2 / Sofija)
     :ARG1 (v8 / tas))
 
 # ::sent_id a-d199-p56s1
@@ -7114,7 +7114,7 @@
 # ::sent_id a-d199-p58s1
 # ::text Noslēpumaino vēstuļu dēļ Sofijai gandrīz vai apreiba galva, un viņa nolēma doties uz Slēpni.
 (v12 / decide.01
-    :ARG0 (v11 / Sofijai
+    :ARG0 (v11 / viņa
         :ARG1-of (v13 / go.01
             :ARG4 (v15 / name
                 :op1 (vg0 / "Slēpnis"))
@@ -7124,7 +7124,7 @@
 # ::text Turp viņa devās vienīgi tad, ja bija ārkārtīgi sadusmojusies, ārkārtīgi nogurusi vai ārkārtīgi laimīga.
 (v3 / go.01
     :ARG4 (v1 / turp)
-    :ARG1 (v2 / viņa
+    :ARG1 (v2 / Sofijas
         :ARG1-of (v13 / tire.01)))
 
 # ::sent_id a-d199-p5s1
@@ -7230,7 +7230,7 @@
 # ::text Viņa varēja būt pilnīgi droša, ka te viņu neviens neatradīs.
 (v11 / find.01
     :location (v8 / te)
-    :ARG1 (v9 / viņa)
+    :ARG1 (v9 / Sofija)
     :ARG0 (v10 / neviens)
     :polarity -)
 
@@ -7247,7 +7247,7 @@
 # ::sent_id a-d199-p64s3
 # ::text No šejienes viņa varēja paskatīties ārā pa dažām mazītiņām spraudziņām visā tajā zaru un lapu jūklī.
 (v5 / look.01
-    :ARG0 (v3 / viņa)
+    :ARG0 (v3 / Sofija)
     :direction (v6 / ārā))
 
 # ::sent_id a-d199-p64s5
@@ -7255,7 +7255,7 @@
 (v3 / like.01
     :time (v1 / mazotne
         :time-of (v4 / watch.01
-            :ARG0 (v2 / viņa)
+            :ARG0 (v2 / Sofija)
             :ARG1 (v10 / walk.01
                 :ARG0 (v7 / māte
                     :ARG0-of (v15 / search.01
@@ -7290,7 +7290,7 @@
 # ::sent_id a-d199-p67s1
 # ::text Jā, bet vai viņa to zina?
 (v7 / know.01
-    :ARG0 (v5 / viņa)
+    :ARG0 (v5 / Sofijai)
     :ARG1 (v6 / tas))
 
 # ::sent_id a-d199-p67s3
@@ -7488,7 +7488,7 @@
 # ::sent_id a-d199-p79s4
 # ::text Viņa pagrieza kartītes otru pusi.
 (v2 / turn.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Sofija)
     :ARG1 (v5 / puse
         :mod (v3 / kartīte)))
 
@@ -7563,7 +7563,7 @@
 # ::sent_id a-d199-p84s2
 # ::text Viņa juta, ka viņai kaut kā jātiek galā ar vētru, kas viņā plosījās.
 (v2 / feel.02
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Sofija)
     :ARG1 (v8 / deal.01
         :ARG2 (v11 / vētra)
         :ARG0 v1))
@@ -7624,7 +7624,7 @@
 # ::text Kuram tēvam bija vajadzība mānīt savu paša meitu, sūtot viņai dzimšanas dienas apsveikumu pa šādiem apkārtceļiem?
 (v10 / send.01
     :ARG0 (v2 / tēvs)
-    :ARG2 (v11 / meitu)
+    :ARG2 (v11 / viņa)
     :ARG1 (v14 / apsveikums
         :mod (v13 / diena
             :mod (v12 / dzimšana)))
@@ -7709,7 +7709,7 @@
 # ::sent_id a-d199-p9s4
 # ::text Bet, kad tētis bija prom jūrā, tad viņš reizēm kļuva pavisam tāls.
 (v12 / become.01
-    :ARG1 (v10 / tētis)
+    :ARG1 (v10 / viņš)
     :ARG2 (v14 / tāls))
 
 # ::sent_id a-d2-p113s2
@@ -7895,12 +7895,12 @@
 # ::sent_id a-d20-p36s4
 # ::text Patiesībā tās tikai pieauga.
 (v4 / grow.01
-    :ARG1 (v2 / tā))
+    :ARG1 (v2 / Skumjas))
 
 # ::sent_id a-d200-p100s1
 # ::text Un nu Tev jāizvēlas, mīļo Sofij!
 (v4 / choose.01
-    :ARG0 (v3 / Sofij))
+    :ARG0 (v3 / tu))
 
 # ::sent_id a-d200-p100s2
 # ::text Vai Tu esi bērns, kas vēl nav paspējis pierast pie "pasaules lietu kārtības"?
@@ -8022,7 +8022,7 @@
 # ::sent_id a-d200-p103s5
 # ::text Tāpēc viņi spēj brīnīties par neparasto burvju mākslu.
 (v3 / able.01
-    :ARG1 (v2 / viņš
+    :ARG1 (v2 / cilvēkbērni
         :ARG0-of (v4 / marvel.01
             :ARG1 (v8 / māksla
                 :mod (v6 / neparasts)
@@ -8032,7 +8032,7 @@
 # ::sent_id a-d200-p103s6
 # ::text Bet, kļūdami vecāki, viņi lien arvien dziļāk truša kažociņā.
 (v7 / creep.01
-    :ARG0 (v6 / viņš
+    :ARG0 (v6 / cilvēkbērni
         :ARG1-of (v3 / become.01
             :ARG2 (v4 / vecs)))
     :direction (v9 / dziļi)
@@ -8043,12 +8043,12 @@
 # ::text Tur viņi arī paliek.
 (v4 / remain.01
     :ARG3 (v1 / tur)
-    :ARG1 (v2 / viņš))
+    :ARG1 (v2 / cilvēkbērni))
 
 # ::sent_id a-d200-p103s8
 # ::text Viņiem tur ir tik ērti un patīkami, ka viņi nekad nesaņemas izlīst atkal ārpusē līdz smalko spalviņu galiem.
 (v13 / creep.01
-    :ARG0 (v10 / viņš))
+    :ARG0 (v10 / cilvēkbērni))
 
 # ::sent_id a-d200-p103s9
 # ::text Vienīgi filosofi uzņemas riskanto ceļojumu uz valodas un esamības ārējām robežām.
@@ -8134,7 +8134,7 @@
 # ::sent_id a-d200-p109s1
 # ::text Tik daudz viņa nekad agrāk nebija domājusi!
 (v7 / think.01
-    :ARG0 (v3 / viņa)
+    :ARG0 (v3 / Sofija)
     :time (v4 / nekad)
     :time (v5 / agrāk))
 
@@ -8157,13 +8157,13 @@
 # ::sent_id a-d200-p109s5
 # ::text Viņš — bet varbūt tā bija viņa? — saņēma viņu stingri aiz skausta un pavilka atkal uz augšu truša kažoka virspusē, kur viņa bērnībā bija rotaļājusies.
 (v10 / grasp.01
-    :ARG0 (v1 / viņš)
-    :ARG1 (v11 / viņa))
+    :ARG0 (v1 / filosofs)
+    :ARG1 (v11 / Sofija))
 
 # ::sent_id a-d200-p109s6
 # ::text Tur ārpusē, smalko spalviņu galā, viņa bija ieraudzījusi pasauli tā, it kā skatītu to pirmoreiz.
 (v10 / see.01
-    :ARG0 (v8 / viņa
+    :ARG0 (v8 / Sofija
         :ARG0-of (v16 / look.01
             :ARG1 v11))
     :ARG1 (v11 / pasaule))
@@ -8200,14 +8200,14 @@
     :ARG0 (v8 / person
         :name (vg0 / name
             :op0 "Sofija"))
-    :ARG1 (v10 / māte)
+    :ARG1 (v10 / viņa)
     :ARG2 (v12 / istaba
         :mod (v11 / liels)))
 
 # ::sent_id a-d200-p112s1
 # ::text „Mammuci, vai tev neliekas, ka dzīvot ir savādi?” viņa iesāka.
 (v15 / start.01
-    :ARG0 (v14 / viņa))
+    :ARG0 (v14 / Sofija))
 
 # ::sent_id a-d200-p112s2
 # ::text Māte no pārsteiguma nezināja, ko atbildēt.
@@ -8245,7 +8245,7 @@
 # ::sent_id a-d200-p115s1
 # ::text „Bet, Sofij, kāpēc tu tā runā?”
 (v9 / speak.01
-    :ARG0 (v7 / Sofij))
+    :ARG0 (v7 / tu))
 
 # ::sent_id a-d200-p116s2
 # ::text Tev varbūt šķiet, ka pasaule ir pilnīgi normāla, ko?”
@@ -8302,7 +8302,7 @@
 # ::sent_id a-d200-p122s1
 # ::text „Bet, Sofij, tā tu nedrīksti ar mani runāt.”
 (v11 / speak.01
-    :ARG0 (v7 / Sofij)
+    :ARG0 (v7 / tu)
     :ARG2 (v10 / es))
 
 # ::sent_id a-d200-p123s1
@@ -8357,7 +8357,7 @@
 # ::sent_id a-d200-p126s1
 # ::text „Nevar taču būt, ka tu būtu sākusi izmēģināt narkotikas, manu draudzenīt?”
 (v9 / start.01
-    :ARG0 (v7 / draudzenīt
+    :ARG0 (v7 / tu
         :ARG0-of (v10 / try_out.05
             :ARG1 (v11 / narkotika)
             :ARG2-of v9)))
@@ -8456,7 +8456,7 @@
 # ::text «Pāri laukumam» Jūrunai bija taisnākais ceļš, bet pa to viņa gāja vienīgi tad, ja bija sevišķi jāsteidzas uz mājām, lai paspētu, piemēram, uz kādām viesībām vai noteiktā laikā pie zobārsta.
 (v14 / walk.01
     :ARG2 (v12 / tas)
-    :ARG0 (v13 / Jūrunai
+    :ARG0 (v13 / viņa
         :ARG1-of (v21 / hurry.01))
     :time (v16 / tad))
 
@@ -8553,7 +8553,7 @@
 # ::sent_id a-d200-p27s2
 # ::text Viņa pastūma pārējās vēstules zem kājslauķa, aizskrēja dārzā aiz mājas un uzmeklēja patvērumu Slēpnī.
 (v8 / run.02
-    :ARG0 (v1 / viņa))
+    :ARG0 (v1 / Sofija))
 
 # ::sent_id a-d200-p27s3
 # ::text Lielā vēstule bija jāatver tur.
@@ -8568,13 +8568,13 @@
     :ARG1 (v1 / person
         :name (vg0 / name
             :op0 "Šerekāns"))
-    :ARG2 (v4 / viņa))
+    :ARG2 (v4 / Sofija))
 
 # ::sent_id a-d200-p28s2
 # ::text Sofija bija droša, ka kaķis viņu nenodos.
 (v8 / betray.01
     :ARG0 (v6 / kaķis)
-    :ARG1 (v7 / Sofija)
+    :ARG1 (v7 / viņa)
     :polarity -)
 
 # ::sent_id a-d200-p29s1
@@ -8691,7 +8691,7 @@
 # ::sent_id a-d200-p36s3
 # ::text Viņi uzskata, ka cilvēks nevar dzīvot tikai no maizes vien.
 (v2 / think.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / filosofi)
     :ARG1 (v6 / varēt
         :polarity -))
 
@@ -8743,7 +8743,7 @@
 # ::sent_id a-d200-p3s2
 # ::text Viņa nosprieda nevienam pagaidām nestāstīt par vēstulēm.
 (v2 / decide.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Sofija
         :ARG0-of (v5 / tell.01
             :ARG2 (v3 / neviens)
             :ARG1 (v7 / vēstule)
@@ -8798,7 +8798,7 @@
 # ::sent_id a-d200-p46s1
 # ::text Uzdot filosofiskus jautājumus ir nesalīdzināmi vieglāk nekā uz tiem atbildēt.
 (v10 / reply.01
-    :ARG1 (v9 / jautājumus))
+    :ARG1 (v9 / tas))
 
 # ::sent_id a-d200-p47s1
 # ::text Arī mūsu dienās ikvienam ir jārod sava atbilde uz šiem jautājumiem.
@@ -8852,7 +8852,7 @@
         :time (v14 / diena
             :time-of (v18 / solve.01
                 :ARG0 (v15 / policija)
-                :ARG1 (v17 / kriminālmīklu)))
+                :ARG1 (v17 / tā)))
         :ARG0 v15
         :ARG1 v18))
 
@@ -8872,13 +8872,13 @@
 # ::sent_id a-d200-p4s3
 # ::text Kāpēc viņš nevarētu runāt par to, kas ir cilvēks vai kas ir pasaule un kā tā radusies?
 (v4 / speak.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / skolotāja)
     :ARG1 (v6 / tas))
 
 # ::sent_id a-d200-p4s4
 # ::text Viņa jutās tā kā nekad agrāk: gan skolā, gan visur citur cilvēkus nodarbināja gadījuma rakstura lietas.
 (v2 / feel.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Sofijai)
     :ARG1 (v3 / tā))
 
 # ::sent_id a-d200-p4s5
@@ -8993,7 +8993,7 @@
 # ::text Tā tas ir, triks viņam izdevies tikai ar acu apmānīšanu, to mēs labprāt atzīstam.
 (v7 / succeed.01
     :ARG1 (v5 / triks)
-    :ARG0 (v6 / viņš))
+    :ARG0 (v6 / mākslinieks))
 
 # ::sent_id a-d200-p56s3
 # ::text Stāvoklis ir nedaudz citāds, kad runājam par pasauli.
@@ -9047,7 +9047,7 @@
 # ::sent_id a-d200-p58s1
 # ::text Vai Tu domā līdzi, Sofij?
 (v3 / think.01
-    :ARG0 (v2 / Sofij))
+    :ARG0 (v2 / tu))
 
 # ::sent_id a-d200-p5s1
 # ::text Vai ir kāds, kas zinātu atbildes uz šiem jautājumiem?
@@ -9067,12 +9067,12 @@
 # ::sent_id a-d200-p60s2
 # ::text Vai viņa domājot līdzi?
 (v3 / think.01
-    :ARG0 (v2 / viņa))
+    :ARG0 (v2 / Sofija))
 
 # ::sent_id a-d200-p60s3
 # ::text Viņa nevarēja pateikt pat, vai maz viņai bija atlicis laika ievilkt elpu lasīšanas laikā.
 (v3 / find.02
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Sofija)
     :ARG1 (v10 / remain.01
         :ARG1 (v11 / laiks)))
 
@@ -9211,7 +9211,7 @@
 (v2 / start.01
     :ARG0 (v1 / viņa
         :ARG0-of (v4 / read.01
-            :ARG1 (v3 / tā)
+            :ARG1 (v3 / lapas)
             :ARG2-of v2)))
 
 # ::sent_id a-d200-p72s1
@@ -9293,7 +9293,7 @@
 (v11 / see.01
     :ARG0 (v10 / mēs)
     :ARG1 (v17 / point.01
-        :ARG0 (v14 / bērns)
+        :ARG0 (v14 / viņš)
         :ARG2 (v16 / viss)))
 
 # ::sent_id a-d200-p76s1
@@ -9395,7 +9395,7 @@
 # ::sent_id a-d200-p80s3
 # ::text No tā izkāpj kāds mazs marsietis, kas paliek stāvam un nekustīgi lūkojamies Tevī...
 (v3 / disembark.01
-    :ARG1 (v2 / tas)
+    :ARG1 (v2 / kuģi)
     :ARG0 (v6 / marsietis
         :mod (v5 / mazs)))
 
@@ -9536,7 +9536,7 @@
 # ::sent_id a-d200-p88s2
 # ::text Varbūt viņš rāda uz tēti un saka: „Tētis lido!”
 (v3 / show.01
-    :ARG0 (v2 / viņš
+    :ARG0 (v2 / Tomass
         :ARG0-of (v7 / say.01
             :ARG1 (v11 / fly.01
                 :ARG0 (v10 / tētis))))
@@ -9551,7 +9551,7 @@
 # ::sent_id a-d200-p89s3
 # ::text Tētis katru dienu skujas ar tādu jocīgu aparātu, dažreiz viņš uzkāpj uz jumta un groza televizora antenu vai atkal iebāž galvu automašīnas motorā un, kad atliecas taisns, ir melns kā moris.
 (v12 / climb.01
-    :ARG0 (v11 / Tētis
+    :ARG0 (v11 / viņš
         :ARG0-of (v16 / turn.01
             :ARG1 (v18 / antena
                 :mod (v17 / televizors)))
@@ -9572,7 +9572,7 @@
 # ::sent_id a-d200-p90s2
 # ::text Viņa ir sadzirdējusi, ko Tomass saka, un strauji pagriežas.
 (v3 / hear.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / māmiņas
         :ARG1-of (v11 / turn.01))
     :ARG1 (v7 / say.01
         :ARG1 (v5 / kas)
@@ -9633,7 +9633,7 @@
 # ::sent_id a-d200-p93s5
 # ::text Viņam vēl joprojām nav pilnīgas skaidrības par to, kas šai pasaulē mēdz notikt un kas nemēdz.
 (v4 / have.03
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Tomass)
     :ARG1 (v6 / skaidrība
         :mod (v5 / pilnīgs))
     :polarity -)
@@ -9641,7 +9641,7 @@
 # ::sent_id a-d200-p94s2
 # ::text Vai Tev šķiet, ka ar to ir viss, kā nākas?
 (v3 / seem.01
-    :ARG2 (v2 / tu)
+    :ARG2 (v2 / Sofij)
     :ARG1 (v8 / būt))
 
 # ::sent_id a-d200-p95s1
@@ -9830,7 +9830,7 @@
 # ::sent_id a-d25-p18s5
 # ::text Viņa miegā jauki smaidīja, viegli kustinādama skaistās aveņkrāsas lūpas.
 (v4 / smile.01
-    :ARG0 (v1 / viņa))
+    :ARG0 (v1 / sievieti))
 
 # ::sent_id a-d25-p18s6
 # ::text Āda, cik bezgalīgi skaista, gluda āda, un kāds skropstu izliekums, un vispār — cik gan pareizi viss veidots.
@@ -9843,7 +9843,7 @@
 (v14 / come.01
     :ARG1 (v13 / smarža
         :mod (v12 / salds))
-    :ARG3 (v16 / ādu))
+    :ARG3 (v16 / tā))
 
 # ::sent_id a-d25-p18s8
 # ::text Tad es uzmanīgi paņēmu viņas glezno, slaido plaukstu un iekodos mazajā pirkstiņā.
@@ -9966,7 +9966,7 @@
 # ::sent_id a-d27-p14s3
 # ::text Šobrīd Luīze atkal ir viņa pati, tikai diemžēl no tā nav daudz labuma lielāko dienas daļu viņa guļ, ēd vai mokās ar vēdergraizēm.
 (v19 / sleep.01
-    :ARG0 (v18 / Luīze
+    :ARG0 (v18 / viņa
         :ARG0-of (v21 / eat.01
             :time (v17 / daļa))))
 
@@ -10061,7 +10061,7 @@
 # ::sent_id a-d27-p19s1
 # ::text Vispārējais dzīves-pēc-septiņdesmit princips ir tāds: tā kā šajā vecumā cilvēka ķermenis prasa pārāk daudz aprūpes un ir objektīvi nolietojies, tas stipri palielina sociālās izmaksas, un tādēļ izdevīgāk ir nomainīt ķermeni uz jaunāku.
 (v24 / increase.01
-    :ARG0 (v22 / ķermenis)
+    :ARG0 (v22 / tas)
     :ARG1 (v26 / izmaksa
         :mod (v25 / sociāls)))
 
@@ -10437,7 +10437,7 @@
 # ::sent_id a-d27-p6s1
 # ::text –– Es tevi nesaprotu, Patrīcija attrauc.
 (v5 / understand.01
-    :ARG0 (v3 / Patrīcija)
+    :ARG0 (v3 / es)
     :ARG1 (v4 / tu)
     :polarity -)
 
@@ -10465,7 +10465,7 @@
 # ::sent_id a-d27-p8s2
 # ::text Patrīcijai ir jau divdesmit viens, bet, manuprāt, viņa vēl ne tuvu nav izaugusi no agrīnā pusaudža vecuma.
 (v16 / grow_up.04
-    :ARG1 (v11 / Patrīcijai)
+    :ARG1 (v11 / viņa)
     :direction (v20 / vecums
         :mod (v18 / agrīns)
         :mod (v19 / pusaudzis)))
@@ -10679,7 +10679,7 @@
 (v3 / open.01
     :time (v1 / tūlīt
         :time-of (v6 / see.01
-            :ARG0 (v2 / Helēnai)
+            :ARG0 (v2 / viņa)
             :ARG1 (v7 / person
                 :name (vg0 / name
                     :op0 "Eleonora"))))
@@ -10888,7 +10888,7 @@
 # ::sent_id a-d30-p418s1
 # ::text Kad puisis pacēla galvu, viņš skatījās tumsā, līdz no gaisa trūkuma sajuta sāpes plaušās.
 (v7 / look.01
-    :ARG0 (v6 / puisis
+    :ARG0 (v6 / viņš
         :ARG0-of (v14 / feel.01
             :ARG1 (v15 / sāpes
                 :mod (v16 / plaušas))))
@@ -10897,14 +10897,14 @@
 # ::sent_id a-d30-p418s2
 # ::text Viņš izberzēja acis un tālumā pamanīja zemi.
 (v6 / notice.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / puisis)
     :location (v5 / tālums)
     :ARG1 (v7 / zeme))
 
 # ::sent_id a-d30-p418s3
 # ::text Tad viņš pastiepa meitenei roku, un sāka irties uz krasta pusi.
 (v3 / stretch.01
-    :ARG0 (v2 / viņš
+    :ARG0 (v2 / puisis
         :ARG0-of (v8 / start.01
             :ARG2 (v9 / irties)))
     :ARG1 (v5 / roka))
@@ -10922,7 +10922,7 @@
 # ::sent_id a-d30-p43s2
 # ::text Viņš bija dusmīgs uz sievu, ka tā nav viņu pamodinājusi, kad devās atpakaļ.
 (v11 / wake.01
-    :ARG0 (v8 / sievu)
+    :ARG0 (v8 / tā)
     :ARG1 (v10 / viņš))
 
 # ::sent_id a-d30-p43s3
@@ -10936,7 +10936,7 @@
     :ARG0 (v1 / viņš
         :ARG1-of (v5 / go.01
             :ARG4 (v7 / māja)))
-    :ARG1 (v2 / tā))
+    :ARG1 (v2 / drēbes))
 
 # ::sent_id a-d30-p49s1
 # ::text Tikai tagad vīrietis iedomājās par nelaimes gadījumu.
@@ -10949,7 +10949,7 @@
 # ::sent_id a-d30-p49s3
 # ::text Viņš bija pārliecināts, ka mājās tās nav.
 (v3 / convince.01
-    :ARG1 (v1 / viņš)
+    :ARG1 (v1 / vīrietis)
     :ARG2 (v8 / be.02
         :location (v6 / māja)
         :ARG1 (v7 / tā)
@@ -11023,7 +11023,7 @@
 # ::sent_id a-d30-p88s2
 # ::text Tā bija darināta no metāla un, šķiet, varētu noturēt pat tīģeri.
 (v3 / make.01
-    :ARG1 (v1 / tā
+    :ARG1 (v1 / siksnu
         :ARG0-of (v11 / hold.02
             :ARG1 (v13 / tīģeris)))
     :ARG2 (v5 / metāls))
@@ -11066,9 +11066,9 @@
 # ::sent_id a-d4-p458s3
 # ::text Viņa gribēja, lai es mirstu!
 (v2 / want.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Laumu)
     :ARG1 (v6 / die.01
-        :ARG1 (v5 / es)))
+        :ARG1 (v5 / Elīne)))
 
 # ::sent_id a-d4-p458s5
 # ::text Mēs taču šovakar gājām kopā!
@@ -11081,20 +11081,20 @@
 # ::text Un tad es iekritu bedrē, un viņa aizgāja!
 (v4 / fall.01
     :time (v2 / tad)
-    :ARG1 (v3 / es)
+    :ARG1 (v3 / Elīne)
     :ARG4 (v5 / bedre))
 
 # ::sent_id a-d4-p458s7
 # ::text Pameta mani tur vienu, pat atpakaļ nepaskatījās!
 (v1 / abandon.01
-    :ARG1 (v2 / es)
+    :ARG1 (v2 / Elīne)
     :location (v3 / tur))
 
 # ::sent_id a-d4-p458s8
 # ::text Viņa mani ienīst!
 (v3 / hate.01
-    :ARG0 (v1 / viņa)
-    :ARG1 (v2 / es))
+    :ARG0 (v1 / Laumu)
+    :ARG1 (v2 / Elīne))
 
 # ::sent_id a-d4-p462s3
 # ::text (Aizvainota piepūšas un, cik vien cēli iespējams, slīd uz savu istabu.)
@@ -11107,7 +11107,7 @@
 # ::sent_id a-d4-p462s5
 # ::text Es nekā vairs negribu dzirdēt!
 (v4 / want.01
-    :ARG0 (v1 / es
+    :ARG0 (v1 / Elīne
         :ARG0-of (v5 / hear.01
             :ARG1 (v2 / nekas)
             :ARG1-of v4))
@@ -11117,13 +11117,13 @@
 # ::text Man prieks, ka tu tomēr esi tieši tāds, par kādu es tevi uzskatīju — godīgs, augstsirdīgs un apņēmīgs.
 (v15 / regard.01
     :ARG2 (v12 / kāds)
-    :ARG0 (v13 / es)
+    :ARG0 (v13 / Lauma)
     :ARG1 (v14 / tu))
 
 # ::sent_id a-d4-p543s3
 # ::text Un es ticu, ka tu izdarīsi to, ko solīji — tu precēsi Elīni.
 (v3 / believe.01
-    :ARG0 (v2 / es)
+    :ARG0 (v2 / Lauma)
     :ARG1 (v7 / do.02
         :ARG0 (v6 / tu
             :ARG0-of (v11 / promise.01
@@ -11133,7 +11133,7 @@
 # ::sent_id a-d4-p554s2
 # ::text Bet es nemaz negribu viņu precēt!
 (v4 / want.01
-    :ARG0 (v2 / es
+    :ARG0 (v2 / Elīne
         :ARG1-of (v6 / marry.01
             :ARG2 (v5 / viņš)
             :ARG1-of v4))
@@ -11142,7 +11142,7 @@
 # ::sent_id a-d4-p554s3
 # ::text Man viņš nepatīk.
 (v3 / like.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / Elīne)
     :ARG1 (v2 / viņš)
     :polarity -)
 
@@ -11474,7 +11474,7 @@
 (v2 / want.01
     :ARG0 (v1 / es
         :ARG0-of (v3 / breathe.01
-            :ARG1 (v4 / tas)
+            :ARG1 (v4 / smaržu)
             :ARG1-of v2)))
 
 # ::sent_id a-d59-p175s1
@@ -11489,7 +11489,7 @@
 # ::sent_id a-d59-p175s3
 # ::text Viņa īstenībā ļoti mīlot Teo, taču nespējot viņu ar kādu dalīt.
 (v4 / love.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Bite
         :ARG0-of (v12 / share.01
             :ARG2 (v11 / kāds)
             :ARG1 v5)
@@ -11503,7 +11503,7 @@
 # ::sent_id a-d59-p175s4
 # ::text Bet viņa neko nenožēlo un vienmēr Teo atcerēsies.
 (v4 / regret.01
-    :ARG0 (v2 / viņa
+    :ARG0 (v2 / Bite
         :ARG0-of (v8 / remember.01
             :time (v6 / vienmēr)
             :ARG1 (v7 / person
@@ -11550,7 +11550,7 @@
 (v2 / stop.01
     :ARG0 (v1 / meitene)
     :ARG1 (v3 / krēsls)
-    :location (v4 / viņš))
+    :location (v4 / Vīrietis))
 
 # ::sent_id a-d63-p18s1
 # ::text Vagaram palika vieglāk, un viņš sāka pat smaidīt.
@@ -11636,7 +11636,7 @@
 # ::sent_id a-d65-p106s6
 # ::text Viņš uzlika meitai glumu buču uz auss, un pēc tam noslaucīja lūpas ar audekla piedurkni.
 (v2 / put.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / virsaitis
         :ARG0-of (v12 / wipe.01
             :ARG2 (v13 / lūpa)))
     :ARG1 (v5 / buča
@@ -11687,7 +11687,7 @@
 # ::sent_id a-d67-p12s8
 # ::text Izlūgusies atļauju Klāvam, viņa aizgāja.
 (v6 / depart.01
-    :ARG0 (v5 / viņa))
+    :ARG0 (v5 / Laura))
 
 # ::sent_id a-d7-p25s1
 # ::text Nākamajā rītā pamostos un ēdu tikai gaļu, kā suns.
@@ -11760,7 +11760,7 @@
 # ::sent_id a-d70-p27s4
 # ::text Un viņš turēja rokā veselu pasauli.
 (v3 / hold.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / vīrelis)
     :location (v4 / roka)
     :ARG1 (v6 / pasaule
         :mod (v5 / vesels)))
@@ -12033,7 +12033,7 @@
 # ::sent_id a-d83-p109s2
 # ::text Un pēc laika, kad brālis vēl aizvien nekustas: es tev gribēju jautāt — vai tu vēl aizvien dzirdi tās balsis?
 (v13 / want.01
-    :ARG0 (v11 / es)
+    :ARG0 (v11 / Bērts)
     :ARG1 (v14 / jautāt))
 
 # ::sent_id a-d83-p109s3
@@ -12051,7 +12051,7 @@
 (v3 / turn.01
     :ARG1 (v2 / acs
         :mod (v1 / apkārtējs))
-    :location (v4 / viņš))
+    :location (v4 / Tēvs))
 
 # ::sent_id a-d83-p133s4
 # ::text Kāds bērns krita histērijā, jo zem galda viņa ceļgaliem pēkšņi bija pieskāries izsalcis kaķis.
@@ -12105,7 +12105,7 @@
 # ::sent_id a-d83-p155s2
 # ::text Viņš ieskatījās spogulī un, klibodams gar sienām, virzījās ārā.
 (v2 / look.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Tēvs
         :ARG0-of (v10 / head.02
             :ARG1 (v11 / ārā)))
     :ARG1 (v3 / spogulis))
@@ -12143,14 +12143,14 @@
 # ::sent_id a-d83-p250s2
 # ::text Man patīk, ja viss apkārt ir tīrs un smaržīgs!
 (v2 / like.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / bērns)
     :ARG1 (v8 / tīrs))
 
 # ::sent_id a-d83-p250s3
 # ::text Te man ir auksti un nepatīk!
 (v6 / like.01
     :location (v1 / te)
-    :ARG0 (v2 / es)
+    :ARG0 (v2 / bērns)
     :polarity -)
 
 # ::sent_id a-d83-p250s4
@@ -12161,13 +12161,13 @@
 # ::sent_id a-d83-p250s6
 # ::text Man nāk vēmiens no šitās smakas!
 (v2 / sick.05
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / bērns)
     :ARG0 (v3 / vēmiens))
 
 # ::sent_id a-d83-p250s7
 # ::text Es varu pierast pie kūts smakas lauciņos, bet pie šitās smakas es nekad nepieradīšu.
 (v2 / able.01
-    :ARG1 (v1 / es
+    :ARG1 (v1 / bērns
         :ARG0-of (v3 / use.02
             :ARG1 (v6 / smaka
                 :mod (v5 / kūts)
@@ -12177,7 +12177,7 @@
 # ::sent_id a-d83-p250s8
 # ::text Es negribu, lai kājas pēc tam smird!
 (v2 / want.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / bērns)
     :ARG1 (v8 / stink.01
         :ARG1 (v5 / kāja))
     :polarity -)
@@ -12205,8 +12205,8 @@
 # ::sent_id a-d83-p40s6
 # ::text Viņš, klusi lādēdamies, brida to cauri.
 (v6 / wade.01
-    :ARG0 (v1 / viņš)
-    :ARG1 (v7 / tā)
+    :ARG0 (v1 / Tēvs)
+    :ARG1 (v7 / Jūra)
     :direction (v8 / cauri))
 
 # ::sent_id a-d85-p118s1
@@ -12263,12 +12263,12 @@
 # ::sent_id a-d85-p142s7
 # ::text Un viņai šķita, ka mežs pats stāv viņai blakus, viņa juta tā smago, trūdu pilno elpu sev sejā.
 (v3 / seem.01
-    :ARG2 (v2 / viņa))
+    :ARG2 (v2 / Ieva))
 
 # ::sent_id a-d85-p142s8
 # ::text Viņa iedomājās rudeni, iedomājās iekāri, ārprātu un slepkavību, sarkanās debesis pār Ķurbes melnajiem siliem, pelēkos zirnājus un sakritušās lāgu sētas, iedomājās ugunskuru.
 (v2 / imagine.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Ieva
         :ARG0-of (v5 / imagine.01
             :ARG1 (v6 / iekāre))
         :ARG0-of (v26 / imagine.01
@@ -12278,7 +12278,7 @@
 # ::sent_id a-d85-p142s9
 # ::text Tālāk viņa nedomāja, bet vārds Ķurbe viņai turpmāk vienmēr saistījās ar nolādētu pamestību, kas velk un vilina kā dīķī trūdoši indīgi ziedi.
 (v3 / think.01
-    :ARG0 (v2 / viņa)
+    :ARG0 (v2 / Ieva)
     :polarity -)
 
 # ::sent_id a-d85-p17s1
@@ -12401,7 +12401,7 @@
 # ::sent_id a-d9-p57s3
 # ::text Viņa sāka soļot, uzmanīgi liekot kājas, lai nepaslīdētu slapjajā sniegā, kungs sekoja, maigi, gandrīz nepieskaroties vadīja viņu zem elkoņa.
 (v2 / start.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Veronika
         :ARG0-of (v6 / put.01
             :ARG1 (v7 / kāja))
         :ARG0-of (v3 / march.01))
@@ -12418,7 +12418,7 @@
 # ::sent_id a-d90-p16s10
 # ::text Arī Margarita nu ir pāri, viņa ir to izdarījusi, un tūlīt aiz viņas muguras mašīnas nosvītro izdarīto.
 (v10 / do.02
-    :ARG0 (v7 / Margarita)
+    :ARG0 (v7 / viņa)
     :ARG1 (v9 / tas))
 
 # ::sent_id a-d90-p16s3
@@ -12540,7 +12540,7 @@
 # ::text Es nevaru no tās izkāpt pati, lai kādi būtu loģikas likumi, es varu vienīgi tapt apstādināta.
 (v5 / exit.01
     :ARG0 (v1 / es)
-    :ARG1 (v4 / tā))
+    :ARG1 (v4 / straumē))
 
 # ::sent_id a-d91-p170s5
 # ::text Apstādini mani, ja vari!
@@ -12550,7 +12550,7 @@
 # ::sent_id a-d91-p220s2
 # ::text Patiesi, viņš sāk krist uz nerviem.
 (v4 / start.01
-    :ARG0 (v3 / viņš
+    :ARG0 (v3 / nēģera
         :ARG0-of (v5 / annoy.01))
     :ARG2 v5)
 
@@ -12669,14 +12669,14 @@
 # ::sent_id a-d93-p105s1
 # ::text Viņš norāva nost kārtējo džemperi.
 (v2 / tear.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Oto)
     :ARG1 (v5 / džemperis
         :mod (v4 / kārtējs)))
 
 # ::sent_id a-d93-p105s2
 # ::text Ar niknāko skubu viņš zīmēja akmens laikmeta Afrodīti, indīgi pablenzdams uz Annu.
 (v5 / draw.01
-    :ARG0 (v4 / viņš)
+    :ARG0 (v4 / Oto)
     :ARG1 (v8 / person
         :mod (v7 / laikmets
             :mod (v6 / akmens))
@@ -12814,7 +12814,7 @@
 # ::sent_id a-n136-p13s2
 # ::text Šim nolūkam tā uzliek dalībvalstīm par pienākumu izveidot iestādi, kas garantē attiecīgo darbinieku prasījumu attiecībā uz darba samaksu apmierināšanu.
 (v4 / impose.01
-    :ARG0 (v3 / tā)
+    :ARG0 (v3 / Direktīvas)
     :ARG2 (v5 / dalībvalsts
         :ARG0-of (v8 / create.01
             :ARG1 (v9 / iestāde)
@@ -12982,7 +12982,7 @@
     :ARG0 (v2 / dalībvalsts
         :ARG0-of (v24 / ascertain.01
             :ARG1 (v28 / provide.01
-                :ARG0 (v27 / garantijām)
+                :ARG0 (v27 / tā)
                 :ARG2 (v30 / persona
                     :mod (v29 / attiecīgs))
                 :ARG1 (v33 / nodrošinājums
@@ -12998,7 +12998,7 @@
 # ::sent_id a-n136-p35s1
 # ::text 3. Ja šāds noteikums jau ir spēkā dalībvalstu tiesību aktos, tās var turpināt neattiecināt šīs direktīvas piemērošanas jomu:
 (v14 / continue.01
-    :ARG0 (v12 / dalībvalstu
+    :ARG0 (v12 / tā
         :ARG0-of (v15 / apply.02
             :ARG1 (v19 / joms
                 :mod (v18 / piemērošana
@@ -13104,7 +13104,7 @@
 # ::sent_id a-n136-p56s1
 # ::text 2. Ja dalībvalstis izmanto 1. punktā minēto izvēli, tās nosaka laikposma ilgumu, par kuru garantiju iestādei jāapmierina neapmaksātie prasījumi.
 (v11 / set.02
-    :ARG0 (v10 / dalībvalstis)
+    :ARG0 (v10 / tā)
     :ARG1 (v13 / ilgums
         :mod (v12 / laikposms)))
 
@@ -13342,7 +13342,7 @@
 # ::sent_id a-n136-p83s1
 # ::text Šī direktīva stājas spēkā dienā, kad to publicē Eiropas Kopienu Oficiālajā Vēstnesī.
 (v9 / publish.01
-    :ARG1 (v8 / direktīva)
+    :ARG1 (v8 / tā)
     :location (v10 / product
         :name (vg0 / name
             :op1 "Eiropas Kopienu Oficiālais Vēstnesis")))
@@ -13726,7 +13726,7 @@
 # ::sent_id a-n29-p48s1
 # ::text (2) Ja zemes un būves kopīpašumā esoša būve nav sadalāma, no zemes un būves kopīpašuma var nodalīt būvi kopā ar tās uzturēšanai nepieciešamo zemesgabalu, ja tas atbilst vietējā pašvaldībā noteiktajiem teritorijas izmantošanas un apbūves noteikumiem.
 (v31 / comply.01
-    :ARG0 (v30 / zemesgabalu)
+    :ARG0 (v30 / tas)
     :ARG1 (v39 / noteikums
         :mod (v34 / noteikt)
         :mod (v36 / izmantošana
@@ -13882,7 +13882,7 @@
 # ::sent_id a-n37-p144s2
 # ::text Ja neizmaksāto pabalsta summu pieprasa vairākas personas, to izmaksā vienādās daļās visām pieprasījumu iesniegušajām personām, kurām uz to ir tiesības.
 (v10 / payout.01
-    :ARG1 (v9 / summu)
+    :ARG1 (v9 / tas)
     :ARG2 (v16 / persona
         :mod (v15 / iesniegt)))
 
@@ -14177,7 +14177,7 @@
 # ::sent_id a-n45-p63s1
 # ::text (4) Augstākās tiesas Senāts, atceļot spriedumu lietā, nodod to jaunai izskatīšanai tiesā atbilstoši Administratīvā procesa likumā noteiktajai piekritībai.
 (v12 / hand_over.02
-    :ARG1 (v13 / spriedumu)
+    :ARG1 (v13 / tas)
     :ARG2 (v15 / izskatīšana
         :mod (v14 / jauns)
         :mod (v16 / tiesa))
@@ -14232,7 +14232,7 @@
 # ::sent_id a-n465-p5s1
 # ::text Likuma mērķis ir nodrošināt valsts drošības iestāžu amatpersonām Valsts drošības iestāžu likumā noteiktās tiesības uz izdienas pensiju un reglamentēt kārtību, kādā tā tiek piešķirta, aprēķināta un izmaksāta.
 (v25 / give.01
-    :ARG1 (v23 / pensiju
+    :ARG1 (v23 / tā
         :ARG1-of (v29 / payout.01)))
 
 # ::sent_id a-n465-p71s1
@@ -16556,7 +16556,7 @@
     :ARG0 (v7 / person
         :name (vg0 / name
             :op0 "Gundega"))
-    :ARG1 (v9 / problēmas)
+    :ARG1 (v9 / tā)
     :location (v15 / loks
         :mod (v12 / paziņa))
     :polarity -)
@@ -17415,9 +17415,9 @@
     :time (v12 / temporal-quantity
         :unit (vg0 / gads)
         :quant "divi")
-    :ARG0 (v13 / Sanita
+    :ARG0 (v13 / viņa
         :ARG0-of (v24 / grow.03
-            :ARG1 (v23 / zemenes)
+            :ARG1 (v23 / tā)
             :location (v25 / siltumnīca))
         :ARG0-of (v22 / start.01
             :ARG2 v24))
@@ -17819,7 +17819,7 @@
 # ::sent_id a-p11560-p6s4
 # ::text Man gribas parādīt mūsdienu tehnoloģiju iespējas.
 (v2 / want.01
-    :ARG0 (v1 / es
+    :ARG0 (v1 / meistars
         :ARG0-of (v3 / show.01
             :ARG1 (v6 / iespēja
                 :mod (v5 / tehnoloģija
@@ -17838,7 +17838,7 @@
 # ::text Vasarā tos sagatavojām, mēģinājām izzāģēt, taču sapratām, ka mūsu zināšanas par vāju, jo bluķi sāka plaisāt.
 (v3 / prepare.01
     :time (v1 / vasara)
-    :ARG1 (v2 / bluķi))
+    :ARG1 (v2 / tas))
 
 # ::sent_id a-p11560-p6s8
 # ::text Muzikantiem patika, un pierādījās, ka skaņu mūsdienu tehnoloģijas neietekmē,” stāsta meistars.
@@ -17995,7 +17995,7 @@
 # ::sent_id a-p116-p11s8
 # ::text No tās izkāpj Julgi un Helmi Staltes un viena caur otru sāk stāstīt, kā nosaukumi pareizi būtu rakstāmi un lasāmi līvu valodā.
 (v3 / disembark.01
-    :ARG1 (v2 / tā)
+    :ARG1 (v2 / automašīna)
     :ARG0 (v4 / person
         :ARG0-of (v13 / tell.01
             :ARG1 (v19 / rakstīt)
@@ -18395,7 +18395,7 @@
     :ARG1 (v12 / store.01
         :ARG2 (v9 / vieta
             :mod (v8 / tirdzniecība))
-        :ARG1 (v10 / pārtiku)))
+        :ARG1 (v10 / tā)))
 
 # ::sent_id a-p12310-p3s1
 # ::text Steponas Jucevičius-Darašius ir dzimis 1896. gadā Rubiškejes viensētā, Kauņas guberņā.
@@ -18886,7 +18886,7 @@
 # ::sent_id a-p12466-p1s15
 # ::text Tēvs sacīja tā -- ja tev uzdeva darbu, tad izdari to.
 (v11 / accomplish.01
-    :ARG1 (v12 / darbu))
+    :ARG1 (v12 / tas))
 
 # ::sent_id a-p12466-p1s18
 # ::text Dzīvojām pie Vidzemes šosejas.
@@ -19478,7 +19478,7 @@
 # ::sent_id a-p12713-p20s1
 # ::text Pēc kara Jašu iesauca armijā, viņš dienēja flotē, pēc tam dzīvoja Rīgā.
 (v13 / reside.01
-    :ARG0 (v7 / Jašu)
+    :ARG0 (v7 / viņš)
     :ARG1 (v14 / name
         :op1 (vg0 / "Rīga")
         :wiki "en.wikipedia.org/wiki/Riga"))
@@ -19488,7 +19488,7 @@
 (v6 / leave.11
     :time (v2 / date-entity
         :year astoņdesmitais)
-    :ARG0 (v3 / viņš
+    :ARG0 (v3 / Jašu
         :mod (v5 / ģimene))
     :ARG2 (v8 / name
         :op1 (vg0 / "Izraēla")
@@ -19647,7 +19647,7 @@
 # ::sent_id a-p12783-p5s4
 # ::text Vai var saskaitīt, cik cilvēku bijis pie Elijas ar savām vajadzībām, un viņa katram sniegusi padomu: kas tieši jādara, uz kādu kantori jādodas tālāk, ja uz vietas līdzēt nevar.
 (v17 / give.01
-    :ARG0 (v15 / Elijas)
+    :ARG0 (v15 / viņa)
     :ARG2 (v16 / katrs)
     :ARG1 (v18 / padoms))
 
@@ -19720,7 +19720,7 @@
 # ::sent_id a-p12800-p15s3
 # ::text Un kāpēc viņiem būtu jāmaksā par stabu, kas piederēja viņiem, nevis domei vai “Namsaimniekam”, un kuru “ļoti demokrātiskās” valsts ierēdņi nu grasās pārdot viņiem par naudu.
 (v5 / pay.01
-    :ARG0 (v3 / viņš)
+    :ARG0 (v3 / iedzīvotāji)
     :ARG3 (v7 / stabs))
 
 # ::sent_id a-p12800-p6s2
@@ -20665,7 +20665,7 @@
 # ::text Iemesli var būt visdažādākie, taču fakts, ka kāds blenž uz tavu intīmāko vietu tuvplānā, smaržo un izgaršo to, prasa zināmu pašpārliecinātību, un ne visām meitenēm tā piemīt.
 (v32 / belong.01
     :ARG1 (v30 / meitene)
-    :ARG0 (v31 / pašpārliecinātību))
+    :ARG0 (v31 / tā))
 
 # ::sent_id a-p13259-p22s1
 # ::text Sarkanā gaisma: Ja draudzene nevēlas mīlēties mēneša „grūtajās dienās”, neuzbāzies.
@@ -20691,7 +20691,7 @@
     :ARG0 (v11 / līmenis
         :mod (v9 / augsts)
         :mod (v10 / estrogēns))
-    :ARG1 (v13 / sievietes)
+    :ARG1 (v13 / viņa)
     :ARG2 (v15 / jutīgs))
 
 # ::sent_id a-p13259-p22s6
@@ -21029,7 +21029,7 @@
 # ::sent_id a-p13480-p23s3
 # ::text Kamēr medus ir iepildīts šūnās, tajā notiek ne tikai fermentācijas procesi, bet arī izgaro liekais ūdens.
 (v8 / happen.01
-    :location (v7 / medus)
+    :location (v7 / tā)
     :ARG1 (v12 / process
         :mod (v11 / fermentācija)))
 
@@ -21051,7 +21051,7 @@
 # ::sent_id a-p13480-p7s3
 # ::text Atkarībā no medus šķirnes tas līdz pat 80% sastāv no saharozes, fruktozes un glikozes.
 (v10 / consist.01
-    :ARG1 (v5 / medus)
+    :ARG1 (v5 / tas)
     :ARG2 (v12 / saharoze))
 
 # ::sent_id a-p13480-p7s4
@@ -21114,7 +21114,7 @@
 # ::sent_id a-p13542-p10s1
 # ::text Pirms katras ārsta vizītes pavaicā vīram, vai viņam nav kādi jautājumi, ko arī viņš vēlētos uzzināt.
 (v17 / desire.01
-    :ARG0 (v16 / vīram
+    :ARG0 (v16 / viņš
         :ARG0-of (v18 / discover.01
             :ARG1 (v14 / kas)))
     :ARG1 v18)
@@ -22027,7 +22027,7 @@
 (v12 / talk.01
     :ARG0 (v9 / personāžs
         :mod (v8 / redzams))
-    :ARG2 (v11 / personāžu))
+    :ARG2 (v11 / viņš))
 
 # ::sent_id a-p13842-p18s6
 # ::text Tās būs reālas, nevis ierakstītas sarunas – aktieris Jānis Vimba atradīsies citā telpā, viņš ekrānā redzēs, kas notiek spēles laukumā, un runās ar to vai citu personāžu.
@@ -22948,7 +22948,7 @@
 # ::sent_id a-p1396-p6s1
 # ::text Jautāju: — Kāda raža šogad un kā to realizēsiet?
 (v10 / sell.01
-    :ARG1 (v9 / raža))
+    :ARG1 (v9 / tā))
 
 # ::sent_id a-p1396-p7s1
 # ::text — Raža ļoti laba, domāju, novāksim 50 – 60 tonnas ābolu (tādu, kas atbilst standartam, ko var pat importēt uz citām valstīm).
@@ -22974,7 +22974,7 @@
 # ::sent_id a-p1396-p8s1
 # ::text — Dmitrij, kā jūs izvēlējāties šķirnes un cik jums to ir?
 (v6 / choose.01
-    :ARG0 (v5 / Dmitrij)
+    :ARG0 (v5 / jūs)
     :ARG1 (v7 / šķirne))
 
 # ::sent_id a-p1396-p9s1
@@ -23008,7 +23008,7 @@
 # ::sent_id a-p13981-p1s2
 # ::text Tas var ne tikai negatīvi ietekmēt veselību, bet arī ātri izplatīties, radot lielus finansiālus zaudējumus un pazeminot īpašuma vērtību.
 (v6 / influence.01
-    :ARG0 (v1 / tas
+    :ARG0 (v1 / mitrumā
         :ARG1-of (v12 / spread.03)
         :ARG0-of (v19 / diminish.01
             :ARG1 (v21 / vērtība
@@ -23023,7 +23023,7 @@
 # ::text Ja nesen esi iegādājies jaunu māju, pārliecinies, ka tajā jau nedzīvo mitrums!
 (v8 / verify.01
     :ARG1 (v13 / live.01
-        :location (v11 / māju)
+        :location (v11 / tā)
         :ARG0 (v14 / mitrums)
         :polarity -))
 
@@ -23616,7 +23616,7 @@
 # ::sent_id a-p14163-p15s2
 # ::text To pārbauda ar neirologa āmuriņu, uzsitot pa dažādu muskuļu cīpslām.
 (v2 / verify.01
-    :ARG1 (v1 / tas))
+    :ARG1 (v1 / hiperrefleksija))
 
 # ::sent_id a-p14163-p15s4
 # ::text Mediķu valodā tos sauc par augstiem refleksiem.
@@ -23680,7 +23680,7 @@
 # ::sent_id a-p14165-p7s1
 # ::text Ja ērce tomēr ir piesūkusies, tā iespējami ātrāk jānoņem.
 (v10 / remove.01
-    :ARG1 (v7 / ērce))
+    :ARG1 (v7 / tā))
 
 # ::sent_id a-p14165-p7s2
 # ::text To var izdarīt medicīnas iestādē vai mājas apstākļos: ērcei uzliek spirtā vai degvīnā samērcētu vati; pēc 10 minūtēm ap ērces snuķīti apsien stipru diegu un, velkot aiz galiem, ērci izņem.
@@ -23840,7 +23840,7 @@
 # ::sent_id a-p1425-p10s4
 # ::text Viņi dziedāja mums līdzi.
 (v2 / sing.01
-    :ARG0 (v1 / viņš))
+    :ARG0 (v1 / Skatītājiem))
 
 # ::sent_id a-p1425-p11s1
 # ::text Jāpiebilst, ka žūrija bija kompetenta.
@@ -23945,7 +23945,7 @@
     :time (v14 / beigas
         :time-of (v19 / push.01
             :ARG0 (v15 / pretinieks)
-            :ARG1 (v18 / Mihailovs)
+            :ARG1 (v18 / viņš)
             :ARG2 (v21 / paklājs))
         :time-of (v23 / take.01
             :ARG0 v15
@@ -24061,7 +24061,7 @@
 (v5 / go.02
     :ARG4 (v3 / vieta
         :mod (v2 / fotografēšana))
-    :ARG0 (v4 / viņš)
+    :ARG0 (v4 / Gatis)
     :manner (v7 / automašīna))
 
 # ::sent_id a-p1450-p14s4
@@ -24580,7 +24580,7 @@
 # ::sent_id a-p1472-p3s4
 # ::text Viņš var tik ļoti pierast nemitīgi risināt šīs ģimenes problēmas, ka ieiet tajā par dziļu un nemanot kļūst līdzatkarīgs.
 (v2 / able.01
-    :ARG1 (v1 / viņš
+    :ARG1 (v1 / darbinieks
         :ARG0-of (v13 / enter.01
             :ARG1 (v14 / tas))
         :ARG1-of (v19 / become.01
@@ -24623,7 +24623,7 @@
 # ::sent_id a-p14724-p6s3
 # ::text Viņi bija to Latvijas 15 424 iedzīvotāju skaitā, kas tika deportēti.
 (v2 / locate.01
-    :ARG1 (v1 / viņš)
+    :ARG1 (v1 / iedzīvotāju)
     :location (v7 / skaits
         :mod (v6 / iedzīvotājs
             :location (v4 / name
@@ -24782,7 +24782,7 @@
 # ::sent_id a-p14781-p8s1
 # ::text Viņa uzskata, ka valstī būtu nepieciešama vienota metodoloģija par finansējuma aprēķināšanas kārtību gan pašvaldību, gan privātajos dārziņos.
 (v2 / think.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Kājiņa)
     :ARG1 (v7 / nepieciešams))
 
 # ::sent_id a-p14781-p8s2
@@ -25099,7 +25099,7 @@
 # ::sent_id a-p1494-p5s18
 # ::text Tagad siltuma uzskaite ir obligāta, tāpēc tas uzstādīts atkal.
 (v9 / install.01
-    :ARG1 (v8 / tas))
+    :ARG1 (v8 / siltumskaitītājs))
 
 # ::sent_id a-p1494-p5s19
 # ::text Arī M. Bērzlaps aicināja saprast, ka tā, kā agrāk, vairs nebūs.
@@ -25140,7 +25140,7 @@
 # ::sent_id a-p1494-p5s5
 # ::text Ja mājas vecākais labi orientējas šajos jautājumos, viņš uzmanīgi rēķina līdzi, un plūsmas apjomu maina katru dienu.
 (v17 / change.01
-    :ARG0 (v9 / vecākais)
+    :ARG0 (v9 / viņš)
     :ARG1 (v16 / apjoms
         :mod (v15 / plūsma)))
 
@@ -25282,7 +25282,7 @@
 # ::sent_id a-p1499-p3s2
 # ::text Taču, kā paskaidroja domes jurists, šis fakts cilvēku nebūt neatbrīvo no atbildības, jo tas tiek kvalificēts kā nolaidīga dokumenta glabāšana.
 (v19 / define.01
-    :ARG1 (v17 / fakts)
+    :ARG1 (v17 / tas)
     :ARG2 (v23 / glabāšana
         :mod (v22 / dokuments
             :mod (v21 / nolaidīgs))))
@@ -25306,7 +25306,7 @@
 # ::sent_id a-p1499-p3s5
 # ::text Tāpēc viņa labāk piekrīt administratīvai atbildībai par pases nolaidīgu glabāšanu, samaksājot komisijas noteikto soda naudu (šajā gadījumā trīs lati), nekā lūdz policijas palīdzību.
 (v4 / agree.01
-    :ARG0 (v2 / viņa
+    :ARG0 (v2 / saimniece
         :ARG0-of (v25 / ask.02
             :ARG1 (v27 / palīdzība
                 :mod (v26 / policija)))
@@ -25535,7 +25535,7 @@
 # ::sent_id a-p15255-p5s2
 # ::text Es esmu Montekarlo un filmējos franču filmā.
 (v2 / locate.01
-    :ARG1 (v1 / es)
+    :ARG1 (v1 / Hepbērna)
     :location (v3 / name
         :op1 (vg0 / "Montekarlo")
         :wiki "en.wikipedia.org/wiki/Monte_Carlo"))
@@ -25952,7 +25952,7 @@
 # ::sent_id a-p1550-p3s11
 # ::text Tos pasūta galvenokārt atkritumu apsaimniekotājfirmas.
 (v2 / order.02
-    :ARG1 (v1 / tas)
+    :ARG1 (v1 / konteinerus)
     :ARG0 (v5 / apsaimniekotājfirma
         :mod (v4 / atkritumi)))
 
@@ -26557,7 +26557,7 @@
 # ::sent_id a-p15813-p5s2
 # ::text To uzrauga vairāki desmiti Valsts un Rīgas Pašvaldības policijas darbinieku.
 (v2 / watch.03
-    :ARG1 (v1 / tas)
+    :ARG1 (v1 / pikets)
     :ARG0 (v4 / desmits
         :mod (v10 / darbinieks
             :mod (v5 / organization
@@ -27169,7 +27169,7 @@
 # ::text 2010.gada sākumā viņš atgriezās Latvijā un kopš tā laika cīnījās Rīgas "Skonto" sastāvā.
 (v5 / return.01
     :time (v3 / "2010. gada sākums")
-    :ARG1 (v4 / viņš
+    :ARG1 (v4 / Maksimenko
         :ARG0-of (v11 / fight.01
             :time (v10 / laiks)))
     :ARG4 (v6 / name
@@ -27396,7 +27396,7 @@
 # ::text Pasākuma mērķis ir popularizēt Ciemgaļu mežābeli, un tajā aicināts piedalīties ikviens radoši noskaņots cilvēks, kurš dzejo, glezno, komponē, ada, auž, izšuj, fotografē vai ir kā citādi radošs.
 (v10 / invite.01
     :ARG2 (v11 / participate.01
-        :ARG1 (v9 / Pasākuma)
+        :ARG1 (v9 / tā)
         :ARG0 (v15 / cilvēks
             :mod (v14 / noskaņot)
             :ARG1-of v10)))
@@ -27865,7 +27865,7 @@
     :time (v14 / temporal-quantity
         :unit (vg0 / minūte)
         :quant "49.")
-    :ARG0 (v15 / Agvero)
+    :ARG0 (v15 / viņš)
     :ARG1 (v18 / 3))
 
 # ::sent_id a-p16452-p12s1
@@ -28074,7 +28074,7 @@
 # ::sent_id a-p16679-p6s3
 # ::text Uz mani tomēr skatās visa Ukraina," atzina Dolgopolovs.
 (v4 / look.01
-    :ARG1 (v2 / Dolgopolovs)
+    :ARG1 (v2 / es)
     :ARG0 (v6 / name
         :op1 (vg0 / "Ukraina")
         :wiki "en.wikipedia.org/wiki/Ukraine"))
@@ -28284,7 +28284,7 @@
 # ::sent_id a-p16786-p5s1
 # ::text Viņš norādīja, ka EDSO esot saņēmusi informāciju par mazākumtautību skolām.
 (v2 / note.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Jansons)
     :ARG1 (v7 / get.01
         :ARG0 (v5 / organization
             :name (vg0 / name
@@ -28562,7 +28562,7 @@
 # ::sent_id a-p16906-p12s3
 # ::text "Es tiku arestēts, jo vēlējos atgriezties mājās.
 (v4 / arrest.01
-    :ARG1 (v2 / es)
+    :ARG1 (v2 / Raufeizens)
     :ARG2 (v7 / desire.01
         :ARG1 (v8 / return.01
             :ARG4 (v9 / māja))))
@@ -28724,7 +28724,7 @@
 # ::sent_id a-p16937-p7s2
 # ::text Sākotnēji viņš bija iecerējis mainīt visiem zināmā stāsta beigas un ļaut jaunajiem mīlētājiem laimīgi turpināt dzīvi, taču Staļina laika represiju atmosfēras iespaidā Prokofjevs nolēma pieturēties pie tradicionālā noslēguma.
 (v4 / plan.01
-    :ARG0 (v2 / Prokofjevs
+    :ARG0 (v2 / viņš
         :ARG0-of (v5 / change.01
             :ARG1 (v9 / beigas
                 :mod (v8 / stāsts
@@ -29004,7 +29004,7 @@
 # ::sent_id a-p17075-p2s4
 # ::text Parasti viņi izvēlas gultu.
 (v3 / choose.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / Cilvēks)
     :ARG1 (v4 / gulta))
 
 # ::sent_id a-p17075-p2s5
@@ -29891,7 +29891,7 @@
     :ARG0 (v1 / apsūdzēt
         :ARG0-of (v3 / realize.01
             :ARG1 (v10 / varēt)))
-    :ARG2 (v14 / sieviete)
+    :ARG2 (v14 / viņa)
     :ARG1 (v15 / drauds))
 
 # ::sent_id a-p17708-p7s2
@@ -29935,7 +29935,7 @@
 # ::sent_id a-p17746-p3s1
 # ::text "Žēl, ka viņš nolēma doties projām, jo mums patika, kā viņš strādā treniņos," atzina kluba prezidents Stefans Nīmeijers, piebilstot, ka Blumbergs piektdien izlido uz Latviju.
 (v6 / decide.01
-    :ARG0 (v5 / Blumbergs)
+    :ARG0 (v5 / viņš)
     :ARG1 (v7 / doties))
 
 # ::sent_id a-p17757-p3s1
@@ -30234,7 +30234,7 @@
 # ::sent_id a-p17948-p2s2
 # ::text Viņš ir tulkojis arī pāvesta tikšanos ar Lietuvas prezidenti Daļu Grībauskaiti un Krievijas prezidentu Vladimiru Putinu.
 (v3 / translate.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Kulboks)
     :ARG1 (v6 / tikšanās
         :mod (v5 / pāvests)
         :mod (v10 / person
@@ -30312,7 +30312,7 @@
 (v11 / succeed.01
     :ARG0 (v9 / vairums
         :ARG0-of (v13 / find.01
-            :ARG1 (v12 / darba)
+            :ARG1 (v12 / tas)
             :location (v15 / rajons)
             :ARG1-of v11)))
 
@@ -30431,7 +30431,7 @@
 # ::text Viņi vēlas, lai mēs tos novērtējam, lai padodamies bailēm, lai pakļaujamies naidam, lai uzlūkojam viens otru ar aizdomām," norādīja premjers.
 (v25 / note.01
     :ARG1 (v2 / desire.01
-        :ARG0 (v1 / viņš)
+        :ARG0 (v1 / ienaidnieki)
         :ARG1 (v7 / appreciate.02
             :ARG0 (v5 / mēs)
             :ARG1 v1))
@@ -31193,7 +31193,7 @@
 # ::sent_id a-p18323-p4s2
 # ::text Tos apņēma smiltis un dubļi, no kuriem vēlāk izveidojās fosilijas.
 (v2 / surround.01
-    :ARG2 (v1 / tas)
+    :ARG2 (v1 / koki)
     :ARG1 (v3 / smiltis))
 
 # ::sent_id a-p18325-p7s1
@@ -31326,7 +31326,7 @@
 # ::sent_id a-p1839-p1s1
 # ::text Sporta kluba «SAM-KAN-TKD» dalībniekiem īpašas ir tās reizes, kad viņi tiekas ar teikvondo lielmeistaru Dae Džinu Hvangu.
 (v14 / meet.03
-    :ARG0 (v13 / dalībniekiem)
+    :ARG0 (v13 / viņš)
     :ARG1 (v18 / person
         :mod (v17 / lielmeistars
             :mod (v16 / teikvondo))
@@ -31983,7 +31983,7 @@
 # ::sent_id a-p18657-p5s2
 # ::text Kvalifikācijā viņš uzrādīja sesto rezultātu, bet finālā spēja par pozīciju pakāpties.
 (v9 / able.01
-    :ARG1 (v2 / viņš
+    :ARG1 (v2 / Vasermanis
         :ARG1-of (v12 / rise.01))
     :ARG2 v12)
 
@@ -32116,7 +32116,7 @@
 (v12 / have.03
     :time (v10 / date-entity
         :year 2018.)
-    :ARG0 (v11 / Levits)
+    :ARG0 (v11 / viņš)
     :ARG1 (v16 / statuss
         :mod (v15 / tiesnesis
             :mod (v13 / organization
@@ -32146,7 +32146,7 @@
 (v13 / desire.01
     :ARG1 (v14 / see.01
         :ARG0 v9
-        :ARG1 (v11 / Levits)
+        :ARG1 (v11 / viņš)
         :location (v17 / pulka
             :mod (v16 / domubiedrs)))
     :ARG0 (v9 / organization
@@ -32333,7 +32333,7 @@
 # ::sent_id a-p18723-p4s2
 # ::text Viņš akcentēja, ka Latvijā vēl aizvien bieži vairās apspriest vēsturiski sāpīgas un asas tēmas, izvēloties tās noklusēt.
 (v2 / stress.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Hanovs)
     :ARG1 (v9 / vairīties))
 
 # ::sent_id a-p18728-p6s1
@@ -32368,7 +32368,7 @@
 # ::text Viņa atzina, ka bojāeja lidmašīnas avārijā esot viņu biedējusi jau kopš bērnības.
 (v10 / scare.01
     :ARG0 (v5 / bojāeja)
-    :ARG1 (v9 / viņš)
+    :ARG1 (v9 / Hiltonei)
     :time (v13 / bērnība))
 
 # ::sent_id a-p18739-p4s1
@@ -33096,7 +33096,7 @@
 (v11 / claim.01
     :ARG0 (v10 / varasiestāde)
     :ARG1 (v15 / intend.01
-        :ARG0 (v14 / atbalstītāji
+        :ARG0 (v14 / viņš
             :ARG0-of (v17 / capture.01
                 :location (v16 / name
                     :op1 (vg0 / "Erevāna")
@@ -33835,7 +33835,7 @@
 # ::sent_id a-p19601-p8s2
 # ::text Prezidentūra, ja tā vēlas, var īstenot idejas un organizēt tālāku darbu dažāda veida formātos, un censties, lai šīs idejas materializējas konkrētos lēmumos un konkrētās problēmās.
 (v5 / desire.01
-    :ARG0 (v4 / Prezidentūra))
+    :ARG0 (v4 / tā))
 
 # ::sent_id a-p19601-p8s3
 # ::text Tas nav stāsts, ka Latvija no kaut kā nobijās un valstij nebūs viedokļa visu prezidentūras laiku.
@@ -34313,7 +34313,7 @@
             :mod (v12 / administrācija))
         :op1 (vg0 / "Doņecks")
         :wiki "lv.wikipedia.org/wiki/Doņecka")
-    :ARG0 (v14 / separātisti)
+    :ARG0 (v14 / viņš)
     :ARG1 (v16 / barikāde
         :mod (v18 / riepa)))
 
@@ -34603,7 +34603,7 @@
         :ARG0 (v3 / mēs
             :ARG0-of (v9 / work.01))
         :ARG1 (v7 / informācija))
-    :ARG0 (v19 / viņš))
+    :ARG0 (v19 / Okaups))
 
 # ::sent_id a-p2082-p10s1
 # ::text Putins, kurš neatbalsta Rietumu aicinājumus noteikt Irānai jaunas ANO sankcijas, nākamnedēļ dodas uz Teherānu, kur viņš tiksies ar Irānas prezidentu Mahmudu Ahmadinedžadu.
@@ -34675,7 +34675,7 @@
     :ARG0 (v2 / viņš)
     :ARG1 (v9 / discuss.01
         :location (v6 / štābs)
-        :ARG1 (v7 / tā)))
+        :ARG1 (v7 / prasības)))
 
 # ::sent_id a-p21-p10s3
 # ::text Arī no Maskavas tuvākajās dienās atbilde netika atsūtīta.
@@ -34711,7 +34711,7 @@
 # ::sent_id a-p21-p10s5
 # ::text Tās esot bijušas pavisam reālas un ļautu izvairīties no upuriem.
 (v7 / let.01
-    :ARG0 (v1 / tā)
+    :ARG0 (v1 / sarunām)
     :ARG1 (v8 / avoid.01
         :ARG1 (v10 / upuris)))
 
@@ -35249,13 +35249,13 @@
 # ::sent_id a-p2379-p9s2
 # ::text Viņa informēja, ka Latvijā patlaban ir recepšu medikaments «Champix», kas efektīgi palīdz smēķētājam atmest kaitīgo ieradumu.
 (v2 / inform.01
-    :ARG0 (v1 / viņa))
+    :ARG0 (v1 / Grīsle))
 
 # ::sent_id a-p2379-p9s3
 # ::text Tai pašā laikā viņa piebilda, ka nav vienas universālas metodes, kā atmest smēķēšanu.
 (v5 / add.01
     :time (v3 / laiks)
-    :ARG0 (v4 / viņa)
+    :ARG0 (v4 / Grīsle)
     :ARG1 (v8 / be.02
         :ARG1 (v11 / metode
             :mod (v10 / universāls))
@@ -35360,7 +35360,7 @@
 # ::sent_id a-p2448-p5s1
 # ::text Ja likumprojekts tiks apstiprināts, to nodos referendumam.
 (v7 / hand_over.02
-    :ARG1 (v6 / likumprojekts)
+    :ARG1 (v6 / tas)
     :ARG2 (v8 / referendums))
 
 # ::sent_id a-p2462-p14s1
@@ -35376,7 +35376,7 @@
 # ::sent_id a-p2462-p14s2
 # ::text Tā tiek organizēta ar Eiropas Sociālā fonda (ESF) atbalstu.
 (v3 / organize.01
-    :ARG1 (v1 / tā))
+    :ARG1 (v1 / kampaņu))
 
 # ::sent_id a-p2466-p5s1
 # ::text Latvijas Mūzikas akadēmijas Studentu kluba vadītāja Anita Alksne gan atzīst, ka cilvēki rūpīgāk apsver, kurus koncertus apmeklēt.
@@ -36028,7 +36028,7 @@
 # ::sent_id a-p2801-p3s5
 # ::text Bail pieņemt izaicinājumu, jo tas neietilpst manā plānā, lai gan veidojot karjeru esmu bijusi spontāna, bet jo vecāka es kļūstu, jo lielākas bailes manī rodas.
 (v7 / contain.01
-    :ARG0 (v6 / izaicinājumu)
+    :ARG0 (v6 / tas)
     :ARG1 (v9 / plāns)
     :polarity -)
 
@@ -36418,7 +36418,7 @@
 # ::text Arī mitrums, kas palicis uz tās, pēc peldes nenoslaukoties, var veicināt sēnīšu infekciju rašanos ādas ielokos.
 (v5 / remain.01
     :ARG1 (v4 / kas)
-    :ARG3 (v7 / ādas))
+    :ARG3 (v7 / tā))
 
 # ::sent_id a-p2952-p25s4
 # ::text Īpaši tas attiecas uz korpulentiem cilvēkiem.
@@ -36611,7 +36611,7 @@
 # ::sent_id a-p2993-p9s1
 # ::text Lai palutinātu ķermeņa ādu un tā nezaudētu elastību, vislabāk ieteicams izmantot sezama eļļu, kas ajūrvēdā ir pazīstama kā universāls līdzeklis gan ārīgai, gan iekšķīgai lietošanai.
 (v7 / lose.02
-    :ARG0 (v6 / ādu)
+    :ARG0 (v6 / tā)
     :ARG1 (v8 / elastība)
     :polarity -)
 
@@ -36702,12 +36702,12 @@
 # ::text Pirms pērc kādu produktu, pārdomā, kā tas tiks izlietots.
 (v6 / consider.02
     :ARG1 (v11 / expend.01
-        :ARG1 (v9 / produktu)))
+        :ARG1 (v9 / tas)))
 
 # ::sent_id a-p3005-p24s2
 # ::text Ja pēc maltītes pāri paliek kādi gatavi produkti, nemet tos laukā!
 (v10 / discard.01
-    :ARG1 (v11 / produkti)
+    :ARG1 (v11 / tas)
     :polarity -)
 
 # ::sent_id a-p3005-p24s3
@@ -36808,7 +36808,7 @@
 # ::sent_id a-p3084-p9s1
 # ::text Dailes teātra aktieris Ģirts Ķesteris ir kā labs vīns – jo ilgāk tas gatavojas, jo izcilāks un gardāks top!
 (v14 / age.01
-    :ARG1 (v13 / vīns
+    :ARG1 (v13 / tas
         :ARG1-of (v20 / get.03
             :ARG2 (v17 / izcils))))
 
@@ -36911,7 +36911,7 @@
 # ::sent_id a-p3091-p1s2
 # ::text Tā izstaro gatavotāja labos nodomus un roku siltumu.
 (v2 / emit.01
-    :ARG0 (v1 / tā)
+    :ARG0 (v1 / dāvanas)
     :ARG1 (v5 / nodoms
         :mod (v3 / gatavotājs)
         :mod (v4 / labs)))
@@ -37070,7 +37070,7 @@
 # ::sent_id a-p3119-p8s7
 # ::text Viņš ir spiests vai nu operatīvi reaģēt un pielāgoties, vai arī iet bojā.
 (v3 / force.01
-    :ARG1 (v1 / viņš
+    :ARG1 (v1 / organisms
         :ARG0-of (v13 / perish.01)
         :ARG0-of (v7 / respond.01))
     :ARG2 v7)
@@ -37145,7 +37145,7 @@
 # ::sent_id a-p3135-p11s2
 # ::text Ja tomēr tas kļūst kādam no partneriem par apgrūtinājumu, par to nedrīkst klusēt!
 (v4 / become.01
-    :ARG1 (v3 / tas)
+    :ARG1 (v3 / sekss)
     :ARG2 (v9 / apgrūtinājums))
 
 # ::sent_id a-p3135-p11s3
@@ -37380,7 +37380,7 @@
 # ::sent_id a-p319-p10s4
 # ::text Tā pavēstījusi arī par plašāku sadarbību ar starptautiski neatzīto Abhāziju un Dienvidosetiju.
 (v2 / announce.01
-    :ARG0 (v1 / tā)
+    :ARG0 (v1 / Krievija)
     :ARG1 (v6 / sadarbība
         :mod (v5 / plašs)
         :location (v10 / name
@@ -37615,7 +37615,7 @@
     :ARG0 (v4 / person
         :name (vg0 / name
             :op0 "Jēkabs"))
-    :ARG2 (v16 / domubiedrus)
+    :ARG2 (v16 / viņš)
     :ARG1 (v17 / kokaīns))
 
 # ::sent_id a-p3256-p1s1
@@ -37638,7 +37638,7 @@
 (v3 / imitate.01
     :time (v1 / vēlu
         :time-of (v10 / adopt.01
-            :ARG0 (v2 / viņš)
+            :ARG0 (v2 / Zēnam)
             :ARG1 (v12 / vērtība)))
     :ARG0 v2
     :ARG1 (v6 / gaita
@@ -38141,21 +38141,21 @@
 # ::sent_id a-p3302-p74s1
 # ::text Kad notiek intensīvi mēģinājumi, es neko apkārt neredzu.
 (v9 / see.01
-    :ARG0 (v6 / es)
+    :ARG0 (v6 / stjuarti)
     :ARG1 (v7 / nekas)
     :polarity -)
 
 # ::sent_id a-p3302-p74s10
 # ::text Skolas laikā mani dzina ārā no klases, jo es, kad sāku smieties, nevaru apstāties.
 (v14 / laugh.01
-    :ARG0 (v10 / es
+    :ARG0 (v10 / stjuarti
         :ARG0-of (v17 / stop.01))
     :ARG2-of (v13 / start.01))
 
 # ::sent_id a-p3302-p74s2
 # ::text Mājās meita kaut ko jautā, bet es pat nesadzirdu.
 (v10 / hear.01
-    :ARG0 (v8 / es)
+    :ARG0 (v8 / stjuarti)
     :polarity -)
 
 # ::sent_id a-p3302-p74s3
@@ -38166,7 +38166,7 @@
 # ::sent_id a-p3302-p74s4
 # ::text Tāpēc es lasu visādus muļķīgus detektīvus.
 (v3 / read.01
-    :ARG0 (v2 / es)
+    :ARG0 (v2 / stjuarti)
     :ARG1 (v6 / detektīvs
         :mod (v4 / visāds)
         :mod (v5 / muļķīgs)))
@@ -38190,7 +38190,7 @@
 # ::sent_id a-p3302-p74s9
 # ::text Es vispār daudz smejos.
 (v4 / laugh.01
-    :ARG0 (v1 / es))
+    :ARG0 (v1 / stjuarti))
 
 # ::sent_id a-p3307-p16s1
 # ::text Pēc straujas augšupejas gadiem pagājušajā - 2008. gadā - sākās krīze, kas iespaidoja gan uzņēmuma apgrozījumu, gan peļņu.
@@ -38610,7 +38610,7 @@
 # ::sent_id a-p3312-p14s2
 # ::text Paps bija ļoti godīgs cilvēks, viņš negribēja iet un lūgt mums atsevišķu dzīvokli.
 (v8 / want.01
-    :ARG0 (v7 / Paps
+    :ARG0 (v7 / viņš
         :ARG1-of (v9 / go.01)
         :ARG0-of (v11 / ask.02
             :ARG1 (v14 / dzīvoklis
@@ -38621,7 +38621,7 @@
 # ::sent_id a-p3312-p14s3
 # ::text Vienreiz viņš pat raudāja aiz izmisuma.
 (v4 / cry.02
-    :ARG0 (v2 / viņš))
+    :ARG0 (v2 / Paps))
 
 # ::sent_id a-p3312-p14s4
 # ::text Nevarēdamas vairs izturēt komunālās šausmas, mēs ar mammu apņēmāmies darīt visu, lai tiktu laukā no tās pekles.
@@ -39710,7 +39710,7 @@
 (v12 / able.01
     :time (v11 / vēlu)
     :ARG2 (v13 / revise.01
-        :ARG1 (v10 / projekts)))
+        :ARG1 (v10 / tas)))
 
 # ::sent_id a-p3432-p11s6
 # ::text Lai kā dzīvē veiktos, pārim jābūt abpusējai skaidrībai, kā viņi plāno tālāk dzīvot, kādu iedomājas kopdzīvi.
@@ -39758,7 +39758,7 @@
         :ARG0-of (v6 / go.02
             :ARG4 (v7 / pakaļ)
             :time (v2 / tas)))
-    :ARG3 (v5 / viņa)
+    :ARG3 (v5 / sieva)
     :ARG1 v6)
 
 # ::sent_id a-p3432-p36s6
@@ -39933,7 +39933,7 @@
 # ::sent_id a-p3466-p25s6
 # ::text Tie darbojās tā, lai laistu caur sevi maksimālo dienas gaismas daudzumu (Tv = 38%) pie paaugstināta mākoņainuma un minimālu dienas gaismas daudzumu saulainā laikā (Tv = 11%).
 (v2 / function.01
-    :ARG0 (v1 / tas)
+    :ARG0 (v1 / Paneļi)
     :ARG1 (v6 / laist))
 
 # ::sent_id a-p3466-p25s7
@@ -40316,7 +40316,7 @@
 # ::sent_id a-p3533-p3s8
 # ::text Ja pupas novāra sālsūdenī, tās labi garšo ar sieru.
 (v8 / taste.02
-    :ARG1 (v6 / pupas)
+    :ARG1 (v6 / tā)
     :ARG2 (v7 / labi))
 
 # ::sent_id a-p354-p14s2
@@ -40397,7 +40397,7 @@
 (v9 / permit.01
     :ARG2 (v8 / cilvēks
         :ARG0-of (v10 / reside.01
-            :ARG1 (v7 / torņi)))
+            :ARG1 (v7 / tas)))
     :ARG1 v10
     :polarity -)
 
@@ -40437,7 +40437,7 @@
 # ::sent_id a-p354-p39s14
 # ::text Viņam interesē lieli apjomi, lieli objekti – neviens netaisās vairumā uzpirkt dzīvokļus vecajās sērijveida mājās.
 (v2 / interest.01
-    :ARG1 (v1 / viņš)
+    :ARG1 (v1 / onkulis)
     :ARG0 (v4 / apjoms
         :mod (v3 / liels)))
 
@@ -40455,7 +40455,7 @@
 # ::text Tādējādi var teikt, ka tā ir veicinājusi krīzi.
 (v3 / say.01
     :ARG1 (v8 / promote.02
-        :ARG0 (v6 / tā)
+        :ARG0 (v6 / valdību)
         :ARG1 (v9 / krīze)))
 
 # ::sent_id a-p354-p39s4
@@ -42975,7 +42975,7 @@
 # ::text Kaut vai Dienas balva ir viens normāls mehānisms, kur darbi iet caur kaut kādu sietu un cilvēki to vērtē.
 (v20 / evaluate.01
     :ARG0 (v18 / cilvēks)
-    :ARG1 (v19 / darbi))
+    :ARG1 (v19 / tas))
 
 # ::sent_id a-p3762-p48s13
 # ::text Tas, kurš to saņem, piemēram, Uldis Bērziņš, tā ir ļoti adekvāta lieta.
@@ -43103,7 +43103,7 @@
 # ::sent_id a-p3762-p52s4
 # ::text Bet vēl svarīgāk bija tas, ka viņa kabinetā panāca to, ka sakarā ar jauno bibliotēku ir palielināts finansējums arī pašas bibliotēkas funkcionēšanai.
 (v10 / achieve.01
-    :ARG0 (v8 / viņa)
+    :ARG0 (v8 / ministre)
     :location (v9 / kabinets)
     :ARG1 (v11 / tas))
 
@@ -43174,7 +43174,7 @@
 # ::sent_id a-p3762-p58s3
 # ::text Tā paaudze, kas dzimst un ir zīdaiņi tagad, tie varbūt ļoti reti redzēs grāmatas.
 (v15 / see.01
-    :ARG0 (v11 / zīdaiņi)
+    :ARG0 (v11 / tas)
     :ARG1 (v16 / grāmata))
 
 # ::sent_id a-p3762-p58s6
@@ -43645,7 +43645,7 @@
 # ::sent_id a-p3766-p4s2
 # ::text "Andris ir liela personība, vārdu sakot, viņš man neuzticējās.
 (v12 / trust.02
-    :ARG0 (v10 / Andris)
+    :ARG0 (v10 / viņš)
     :ARG1 (v11 / es)
     :polarity -)
 
@@ -43727,7 +43727,7 @@
 # ::sent_id a-p3766-p6s11
 # ::text Tomēr es pieļauju, ka Andris to izlasīs.
 (v3 / assume.02
-    :ARG0 (v2 / es)
+    :ARG0 (v2 / autors)
     :ARG1 (v8 / read.01
         :ARG0 (v6 / person
             :name (vg0 / name
@@ -43737,7 +43737,7 @@
 # ::sent_id a-p3766-p6s12
 # ::text Es ļoti vēlētos, lai mūsu attiecības uzlabotos.
 (v3 / desire.01
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / autors)
     :ARG1 (v8 / improve.01
         :ARG1 (v7 / attiecības)))
 
@@ -43766,8 +43766,8 @@
 # ::sent_id a-p3766-p6s6
 # ::text Jāatzīst, ka Andris ir viltīgs – viņš ievilina slazdā, aizver to ciet un uzreiz brūk virsū par nevainīgiem jautājumiem.
 (v12 / close.01
-    :ARG0 (v8 / Andris)
-    :ARG1 (v13 / slazdā))
+    :ARG0 (v8 / viņš)
+    :ARG1 (v13 / tas))
 
 # ::sent_id a-p3766-p6s7
 # ::text Lai Andris man piedod, bet es atklāšu vienu epizodi.
@@ -43775,13 +43775,13 @@
     :ARG0 (v2 / person
         :name (vg0 / name
             :op0 "Andris"))
-    :ARG1 (v3 / es))
+    :ARG1 (v3 / autors))
 
 # ::sent_id a-p3766-p6s8
 # ::text Andrim nevainīgi pajautāju, kas viņu ieteica par biedru Rakstnieku savienībā.
 (v7 / advise.01
     :ARG0 (v5 / kas)
-    :ARG2 (v6 / Andrim
+    :ARG2 (v6 / viņš
         :mod (v9 / biedrs
             :mod (v10 / organization
                 :name (vg0 / name
@@ -43793,7 +43793,7 @@
     :ARG0 (v8 / es)
     :ARG1 (v10 / darbs)
     :ARG1-of (v5 / think.01
-        :ARG0 (v4 / tu))
+        :ARG0 (v4 / autors))
     :polarity -)
 
 # ::sent_id a-p3766-p7s1
@@ -43816,7 +43816,7 @@
 # ::sent_id a-p3766-p7s3
 # ::text Lai tvertu Grūtupu pilnībā, viņš ir labi jāpazīst un ne katram tas ir lemts.
 (v9 / know.02
-    :ARG1 (v6 / Grūtupu)
+    :ARG1 (v6 / viņš)
     :manner (v8 / labi))
 
 # ::sent_id a-p3768-p10s1
@@ -45150,7 +45150,7 @@
     :ARG1 (v5 / have.03
         :ARG0 (v4 / es
             :ARG0-of (v8 / listen.01
-                :ARG1 (v7 / tas)))
+                :ARG1 (v7 / albumu)))
         :ARG1 (v6 / kauns)
         :polarity -))
 
@@ -45680,7 +45680,7 @@
 (v4 / forbid.01
     :ARG0 (v1 / mēs)
     :time (v2 / tagad)
-    :ARG1 (v3 / tā))
+    :ARG1 (v3 / reklāmas))
 
 # ::sent_id a-p429-p48s6
 # ::text Tāpēc aicinām cilvēkus ziņot par šādām situācijām.
@@ -45808,7 +45808,7 @@
 # ::sent_id a-p477-p16s10
 # ::text Deķīšu kalpošanas laiks ir ilgs, tos ir ērti mazgāt – drīkstot likt arī veļas mašīnā, ja vien svars atļauj.
 (v10 / wash.01
-    :ARG1 (v7 / Deķīšu
+    :ARG1 (v7 / tas
         :ARG1-of (v13 / put.01
             :ARG2 (v16 / mašīna
                 :mod (v15 / veļa)))))
@@ -46323,7 +46323,7 @@
 # ::sent_id a-p528-p18s2
 # ::text To finansē Alūksnes rajona padome.
 (v2 / finance.01
-    :ARG1 (v1 / tas)
+    :ARG1 (v1 / uzturēšana)
     :ARG0 (v3 / organization
         :name (vg0 / name
             :op1 "Alūksnes rajona padome")))
@@ -46666,7 +46666,7 @@
 # ::sent_id a-p532-p8s9
 # ::text “Datorspēles cilvēkiem aizņem daudz laika, tās vajadzētu spēlēt tikai tad, kad nav citu svarīgāku darbu.
 (v10 / play.01
-    :ARG1 (v8 / Datorspēles)
+    :ARG1 (v8 / tā)
     :time (v12 / tad))
 
 # ::sent_id a-p5321-p11s1
@@ -46908,7 +46908,7 @@
     :ARG0 (v1 / es)
     :ARG2 (v2 / viņa
         :ARG0-of (v6 / do.02
-            :ARG1 (v3 / tas))
+            :ARG1 (v3 / bakstītu))
         :ARG0-of (v5 / stop.01
             :ARG1 v6
             :ARG1-of v4)))
@@ -46998,7 +46998,7 @@
 # ::sent_id a-p5362-p4s1
 # ::text Viņš sacīja, ka pēc seriāla beigām 2018.gadā varētu uzņemt no tā atvasinātus seriālus vai filmas.
 (v2 / say.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Blojs
         :ARG0-of (v11 / film.01
             :time (v9 / date-entity
                 :year 2018.)
@@ -47523,7 +47523,7 @@
 # ::sent_id a-p5683-p3s2
 # ::text Jaunībā viņam tur ārkārtīgi paticis, jo vienmēr kāds uzklausījis un bija iespēja no sirds izrunāties.
 (v5 / like.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / Rītiņš)
     :location (v3 / tur))
 
 # ::sent_id a-p5699-p3s1
@@ -47620,7 +47620,7 @@
 # ::sent_id a-p5717-p4s3
 # ::text Luisam rūp Briana un viņš domā, ka viņa būs lieliska māte.
 (v6 / think.01
-    :ARG0 (v5 / Luisam)
+    :ARG0 (v5 / viņš)
     :ARG1 (v12 / māte
         :mod (v11 / lielisks)))
 
@@ -47660,20 +47660,20 @@
 # ::sent_id a-p576-p20s2
 # ::text Pašlaik, kamēr bērnudārzā vasaras atvaļinājums, viņa dzīvo pa māju kopā ar vecmāmiņu.
 (v9 / reside.01
-    :ARG0 (v8 / viņa)
+    :ARG0 (v8 / Airisai)
     :ARG1 (v11 / māja))
 
 # ::sent_id a-p576-p20s3
 # ::text Viņai bērnudārzā ļoti patīk, jo tur ir draudzenes Šeila, Karīna, draugs Arnis, tur viņa kopā ar bērniem spēlējas, dzied un zīmē.
 (v4 / like.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Airisai)
     :location (v2 / bērnudārzs))
 
 # ::sent_id a-p576-p20s4
 # ::text Un tad vēl bijis interesanti, kad kopā vienā grupiņā viņa bija ar lielākiem bērniem.
 (v12 / be.02
     :location (v10 / grupiņa)
-    :ARG1 (v11 / viņa))
+    :ARG1 (v11 / Airisai))
 
 # ::sent_id a-p5760-p1s1
 # ::text Realitātes šovu zvaigzne Kima Kardašjana un reperis Kanje Vests pastiprināti uzmana, lai viņu dēlu neredz ģimenei nepiederoši cilvēki.
@@ -48223,7 +48223,7 @@
 # ::sent_id a-p589-p15s16
 # ::text Man pat uz tirgu nepatīk iet, jo izsūc enerģiju, kad aiz muguras visur skan – re, kur Strode iet!
 (v5 / like.01
-    :ARG0 (v1 / Strode
+    :ARG0 (v1 / es
         :ARG1-of (v6 / go.01
             :ARG4 (v4 / tirgus)
             :ARG1-of v5))
@@ -48359,7 +48359,7 @@
 # ::sent_id a-p595-p8s1
 # ::text Lai viesi pa īstam izjustu maizes burvību, viņiem vispirms ļauj pataustīt un izmēģināt uz zoba rudzu graudus, tikai tad var izgaršot maizi.
 (v11 / permit.01
-    :ARG2 (v9 / viesi
+    :ARG2 (v9 / viņš
         :ARG0-of (v14 / try_out.05
             :ARG1 (v18 / grauds
                 :mod (v17 / rudzi))))
@@ -48581,7 +48581,7 @@
 (v17 / support.01
     :location (v1 / kur
         :location-of (v11 / give.01
-            :ARG2 (v5 / bezdarbniekus)
+            :ARG2 (v5 / viņš)
             :ARG1 (v12 / iespēja)))
     :ARG1 v5)
 
@@ -48782,7 +48782,7 @@
 # ::text Klipa lielākā vērtība ir Latvijas porno zvaigznes Violas Bailey piedalīšanās, kura atsvaidzina video un padara to baudāmāku un pietuvina ballīšu patiesajai noskaņai.
 (v16 / render.01
     :ARG0 (v12 / kura)
-    :ARG1 (v17 / video)
+    :ARG1 (v17 / tas)
     :ARG2 (v18 / baudāmāku))
 
 # ::sent_id a-p6137-p2s1
@@ -49013,7 +49013,7 @@
 # ::sent_id a-p622-p11s9
 # ::text Viņš steigšus nokāpa patiltē un brida upē, lai palīdzētu izvilkt manu lomu.
 (v3 / climb.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / brālis
         :ARG0-of (v6 / wade.01)
         :ARG0-of (v10 / help.01
             :ARG1 (v11 / remove.01
@@ -49388,7 +49388,7 @@
             :name (vg0 / name
                 :op0 "Deps")
             :wiki "en.wikipedia.org/wiki/Johnny_Depp")
-        :ARG1 (v9 / Hērdas)
+        :ARG1 (v9 / viņa)
         :location (v16 / dzīvoklis
             :mod (v14 / pāris)
             :mod (v15 / kopīgs))))
@@ -49840,7 +49840,7 @@
 # ::sent_id a-p6755-p11s1
 # ::text Man bija lieli kompleksi, bieži vien dienas gaismā nespēju parādīties apakšveļā.
 (v2 / have.03
-    :ARG0 (v1 / es)
+    :ARG0 (v1 / Katy)
     :ARG1 (v4 / komplekss
         :mod (v3 / liels)))
 
@@ -49852,7 +49852,7 @@
 # ::sent_id a-p6755-p11s3
 # ::text Sports man ļauj justies pārliecinātai un seksīgai,» ir pārliecināta Katy.
 (v4 / feel.01
-    :ARG0 (v2 / Katy)
+    :ARG0 (v2 / es)
     :ARG1 (v5 / pārliecināt)
     :ARG1-of (v3 / let.01
         :ARG0 (v1 / sports)))
@@ -49924,9 +49924,9 @@
 # ::sent_id a-p6768-p6s1
 # ::text Glorijai nebija ne jausmas, ka viņas sievu māc šaubas un viņa vēlas anulēt laulību un to pamest.
 (v13 / desire.01
-    :ARG0 (v12 / sievu
+    :ARG0 (v12 / viņa
         :ARG0-of (v18 / leave.15
-            :ARG1 (v17 / Glorijai)))
+            :ARG1 (v17 / tas)))
     :ARG1 (v14 / anulēt))
 
 # ::sent_id a-p6775-p3s1
@@ -50128,7 +50128,7 @@
 # ::sent_id a-p6820-p8s1
 # ::text «Man tiešām ļoti patīk ātrums, dievinu, braucot ar automašīnu, sacensties ar kādu pie luksofora.
 (v5 / like.01
-    :ARG0 (v2 / es
+    :ARG0 (v2 / Viola
         :ARG0-of (v10 / go.02
             :manner (v12 / automašīna)))
     :ARG1 (v6 / ātrums))
@@ -50270,7 +50270,7 @@
 # ::sent_id a-p691-p13s2
 # ::text Viņu pavada mārtiņbērni, kas nes svētību un auglību sētām, laukiem un lopiem.
 (v2 / accompany.01
-    :ARG1 (v1 / viņš)
+    :ARG1 (v1 / Mārtiņš)
     :ARG0 (v3 / mārtiņbērns))
 
 # ::sent_id a-p691-p16s1
@@ -50285,7 +50285,7 @@
 # ::text Katrā sētā viņi ierodas ar jautriem priekšnesumiem, dejām, rotaļām un dziesmām, par ko saņem no saimnieces cienastu.
 (v4 / arrive.01
     :ARG4 (v2 / sēta)
-    :ARG1 (v3 / viņš
+    :ARG1 (v3 / Budēļi
         :ARG0-of (v17 / receive.01
             :ARG2 (v19 / saimniece)
             :ARG1 (v20 / cienasts))))
@@ -50298,7 +50298,7 @@
 # ::sent_id a-p6923-p4s1
 # ::text «Mani uzaicināja uzstāties kubā «Golden», un es uzreiz piekritu, jo šķita, ka tur būs daudz cilvēku, kuriem patīku, kuri mani uztvers pozitīvi.
 (v3 / invite.01
-    :ARG1 (v2 / es
+    :ARG1 (v2 / MNTHA
         :ARG0-of (v4 / perform.01
             :location (v7 / organization
                 :mod (v5 / kubs)
@@ -50659,7 +50659,7 @@
 # ::sent_id a-p71-p13s3
 # ::text Baidīdamies kļūdīties, viņi nodarbojas ar sīkumiem, nevis sāk būtiskus projektus.
 (v2 / screw_up.01
-    :ARG0 (v4 / viņš
+    :ARG0 (v4 / Perfekcionisti
         :ARG0-of (v10 / start.01
             :ARG2 (v12 / projekts
                 :mod (v11 / būtisks))))
@@ -50668,7 +50668,7 @@
 # ::sent_id a-p71-p13s4
 # ::text Viņi pārāk daudz laika velta nenozīmīgām detaļām nevis tādēļ, ka pietrūktu intelekta nozīmīgiem darbiem, bet tādēļ, ka baidās no neveiksmes.
 (v12 / lack.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Perfekcionisti
         :ARG0-of (v21 / fear.01
             :ARG1 (v23 / neveiksme)))
     :ARG1 (v13 / intelekts))
@@ -50697,7 +50697,7 @@
 # ::sent_id a-p71-p15s4
 # ::text Ja tu nepārtraukti kritizēsi savu partneri, viņš sāks justies demoralizēts.
 (v9 / start.01
-    :ARG0 (v8 / partneri
+    :ARG0 (v8 / viņš
         :ARG0-of (v10 / feel.01
             :ARG1 (v11 / demoralizēt)
             :ARG2-of v9)))
@@ -51057,7 +51057,7 @@
 # ::sent_id a-p7202-p4s1
 # ::text 2009.gadā Brauns piekāva dziedātāju Rianu, ar kuru viņam tolaik bija attiecības.
 (v12 / have.03
-    :ARG0 (v10 / Brauns)
+    :ARG0 (v10 / viņš)
     :time (v11 / tolaik)
     :ARG1 (v13 / attiecība))
 
@@ -51809,7 +51809,7 @@
 # ::text Tāda mērķa man nav, dzīvojot Latvijā es jebkurā mirklī varu iekāpt automašīnā un trīs stundu laikā jau atrasties Lietuvā,» smejas Samanta.
 (v6 / reside.01
     :ARG1 (v7 / Latvija)
-    :ARG0 (v8 / Samanta
+    :ARG0 (v8 / es
         :ARG0-of (v12 / board.01
             :time (v10 / mirklis)
             :ARG1 (v13 / automašīna))))
@@ -51830,7 +51830,7 @@
 # ::sent_id a-p7692-p11s2
 # ::text Dziedātājai ir labi tāpat, viņa tver mirkļus, bauda emocijas un adrenalīnu.
 (v10 / revel.01
-    :ARG0 (v6 / Dziedātājai)
+    :ARG0 (v6 / viņa)
     :ARG1 (v11 / emocijas))
 
 # ::sent_id a-p7693-p1s1
@@ -51863,7 +51863,7 @@
 # ::sent_id a-p77-p12s2
 # ::text To noteiks Ministru kabineta noteikumi, kas taps pēc likuma pieņemšanas.
 (v2 / determine.01
-    :ARG1 (v1 / tas))
+    :ARG1 (v1 / summa))
 
 # ::sent_id a-p77-p12s3
 # ::text Taču paredzēta arī iespēja izvēlēties zemi citā vietā, kur saimniekot var brīvi.
@@ -52008,7 +52008,7 @@
 # ::sent_id a-p7773-p2s1
 # ::text Par spīti runām par mākslinieces neprofesionālajiem miesassargiem, šoreiz tie bija uzdevumu augstumos un reaģēja pāris sekundēs, aizvedot zvaigzni uz drošu vietu, bet agresoru izvadot no koncerta vietas.
 (v11 / locate.01
-    :ARG1 (v10 / miesassargiem
+    :ARG1 (v10 / tas
         :ARG0-of (v19 / transport.01
             :ARG1 (v20 / zvaigzne)
             :ARG3 (v23 / vieta
@@ -52281,7 +52281,7 @@
 # ::sent_id a-p793-p3s2
 # ::text Kad Neatkarīgā sazinājās ar pārdevēju, lai precizētu notikuma vietu, tas lika doties uz Liepāju.
 (v13 / order.01
-    :ARG0 (v12 / pārdevēju)
+    :ARG0 (v12 / tas)
     :ARG2 (v14 / go.01
         :ARG4 (v16 / name
             :op1 (vg0 / "Liepājs")
@@ -52419,7 +52419,7 @@
 # ::text “Katrs cilvēks ir tik vecs, cik vecs viņš jūtas un gadu skaits ir domāti tikai pozitīvām statistikām.”
 (v11 / feel.01
     :ARG1 (v9 / vecs)
-    :ARG0 (v10 / cilvēks))
+    :ARG0 (v10 / viņš))
 
 # ::sent_id a-p8032-p18s1
 # ::text 2011.gada nogalē pēc AS «Latvijas Krājbanka» darbības apturēšanas Latvijas valsts no bankas pilnvarnieka par akciju nominālvērtību 224 000 latu iegādājās 47,2% «airBaltic» akciju, kuras bija ieķīlājis aviokompānijas privātais akcionārs BAS.
@@ -52527,7 +52527,7 @@
     :ARG0 (v1 / person
         :ARG0-of (v14 / conclude.01
             :ARG1 (v20 / have.03
-                :ARG0 (v17 / cilvēkus)
+                :ARG0 (v17 / viņš)
                 :ARG1 (v21 / iebildums
                     :mod (v19 / tas))))
         :name (vg0 / name
@@ -53051,7 +53051,7 @@
 # ::sent_id a-p8293-p10s4
 # ::text «Viņš ļoti daudz ko sevī ir izsāpējis, nevienam neko nestāstot.
 (v12 / tell.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / Harijs)
     :ARG2 (v10 / neviens)
     :ARG1 (v11 / nekas)
     :polarity -)
@@ -53059,7 +53059,7 @@
 # ::sent_id a-p8293-p10s5
 # ::text Viņš iekšēji sadega.
 (v3 / burn_up.02
-    :ARG1 (v1 / viņš))
+    :ARG1 (v1 / Harijs))
 
 # ::sent_id a-p8293-p10s6
 # ::text Tāpēc arī progresēja slimība, un viņš aizgāja mūžības ceļu,» stāsta Santa.
@@ -53197,7 +53197,7 @@
 # ::sent_id a-p8385-p3s3
 # ::text Es steidzināju vīru, bet viņš atcirta, ka, viņam jānes maisi, tāpēc saliks visu, kā viņam ir ērti.
 (v12 / carry.01
-    :ARG0 (v11 / vīru)
+    :ARG0 (v11 / viņš)
     :ARG1 (v13 / maiss))
 
 # ::sent_id a-p8385-p3s4
@@ -53250,7 +53250,7 @@
 # ::sent_id a-p8390-p4s1
 # ::text Kad atbrauca policija, tā atklāja, ka durvis uz guļamistabu ir aizslēgtas.
 (v6 / discover.01
-    :ARG0 (v5 / policija)
+    :ARG0 (v5 / tā)
     :ARG1 (v13 / lock.01
         :ARG1 (v9 / durvis
             :mod (v11 / guļamistaba))))
@@ -53750,7 +53750,7 @@
 # ::sent_id a-p8605-p4s2
 # ::text Pēc Rokko pārstāvju teiktā, viņš ļoti vēlas, lai viņu liek mierā un lai tiesas lēmums netiek iztirzāts publiski.
 (v8 / desire.01
-    :ARG0 (v6 / Rokko)
+    :ARG0 (v6 / viņš)
     :ARG1 (v12 / likt))
 
 # ::sent_id a-p8622-p2s1
@@ -53855,7 +53855,7 @@
 # ::text Pēc pirmās izbalsošanas bija skumīgi visi, bet tēvs bija tas, kurš teica: ja Zigis tiks atpakaļ, tad traktors būs viņa!
 (v14 / say.01
     :ARG0 (v13 / kurš)
-    :ARG1 (v24 / Zigis))
+    :ARG1 (v24 / viņš))
 
 # ::sent_id a-p8647-p15s8
 # ::text Pēdējo šova sēriju arī skatījāmies kopā, un prieks bija neviltots, jo traktors viņu sētā ir ļoti vajadzīgs,» stāsta Bērzkalns.
@@ -54411,7 +54411,7 @@
 # ::text Kad Tonijs Sellers devās uz pansionātu apciemot savu mammu, izrādījās, ka viņas tur nav.
 (v11 / turn_out.11
     :ARG2 (v16 / locate.01
-        :ARG1 (v14 / mammu)
+        :ARG1 (v14 / viņa)
         :location (v15 / tur)
         :polarity -))
 
@@ -54805,7 +54805,7 @@
     :ARG0 (v15 / organisms
         :ARG0-of (v22 / take.01
             :ARG1 (v23 / barība)))
-    :ARG1 (v16 / uzturvielu)
+    :ARG1 (v16 / tā)
     :ARG2 (v20 / sagremot))
 
 # ::sent_id a-p9078-p8s4
@@ -54978,7 +54978,7 @@
 # ::sent_id a-p9196-p7s2
 # ::text Ja tā notiek tikai ķeksīša pēc, tā vairs nav kaifa ķeršana.
 (v3 / happen.01
-    :ARG1 (v2 / tā))
+    :ARG1 (v2 / mīlēšanās))
 
 # ::sent_id a-p9196-p7s3
 # ::text Ja viņš necenšas seksā ieviest ko jaunu vai aizraujošu, zūd tava sajūsma par gaidāmo.
@@ -54989,7 +54989,7 @@
 # ::sent_id a-p9196-p7s5
 # ::text Ja puisis ir atklājis, kuras vietas tavā ķermenī ir jūtīgākās, zina īstās pozas un paņēmienus, kā panākt tev kāroto baudas mirkli, viņš baidās mainīt ieradumus un tādējādi nesagādāt tev orgasmu.
 (v27 / fear.01
-    :ARG0 (v26 / puisis
+    :ARG0 (v26 / viņš
         :ARG0-of (v28 / change.01
             :ARG1 (v29 / ieradums))
         :ARG0-of (v32 / cause.01
@@ -55749,7 +55749,7 @@
 # ::sent_id a-p9774-p6s1
 # ::text Medūzas parasti augustā un septembra sākumā tiek izskalotas krastā, jo tās pabeigušas dzīves galveno misiju - vairošanos - un iet bojā.
 (v13 / complete.01
-    :ARG0 (v12 / Medūzas
+    :ARG0 (v12 / tā
         :ARG0-of (v21 / perish.01))
     :ARG1 (v16 / misija
         :mod (v14 / dzīve)
@@ -56088,7 +56088,7 @@
 # ::sent_id a-p9925-p10s1
 # ::text Viena no manām bērnunama meitām man reiz vaicāja: „Mammu, vai vari man pateikt, kas ar tiem cilvēkiem notiek Ziemassvētkos?
 (v16 / tell.01
-    :ARG2 (v15 / meitām)
+    :ARG2 (v15 / es)
     :ARG1 (v22 / happen.01
         :ARG1 (v18 / kas)
         :ARG2 (v21 / cilvēks)
@@ -56099,7 +56099,7 @@
 # ::text Viņi kļūst traki, grūž mums tās mantas, bet mēs tās saplēšam.
 (v13 / damage.01
     :ARG0 (v11 / mēs)
-    :ARG1 (v12 / mantas))
+    :ARG1 (v12 / tā))
 
 # ::sent_id a-p9925-p10s3
 # ::text ” Cilvēki atnāk, noliek mantas, liela daļa pat neieiet bērnunamā, bet bērniem mantas nudien nav vajadzīgas!
@@ -56290,7 +56290,7 @@
 # ::sent_id a-p9969-p17s2
 # ::text Un mazgājamies mēs katru nedēļu.”
 (v2 / bathe.01
-    :ARG0 (v3 / mēs)
+    :ARG0 (v3 / Puikas)
     :time (v5 / nedēļa))
 
 # ::sent_id a-p9969-p17s3
@@ -56725,7 +56725,7 @@
 # ::sent_id a-s121-p5s8
 # ::text Viņi zina, ar ko tas beigsies.
 (v2 / know.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / SASKAŅA)
     :ARG1 (v7 / result.01
         :ARG2 (v5 / kas)
         :ARG1 (v6 / tas)))
@@ -56940,7 +56940,7 @@
 # ::sent_id a-s143-p7s2
 # ::text Piedāvātā redakcija ir tik diskutabla, ka tā prasa nopietnu revīziju un analīzi.
 (v9 / require.01
-    :ARG0 (v8 / redakcija)
+    :ARG0 (v8 / tā)
     :ARG1 (v11 / revīzija
         :mod (v10 / nopietns)))
 
@@ -57483,7 +57483,7 @@
 # ::sent_id a-s25-p10s14
 # ::text Viņi raugās uz ķermeni kā transportlīdzekli savām galvām.
 (v2 / see.01
-    :ARG0 (v1 / savām)
+    :ARG0 (v1 / viņš)
     :ARG1 (v4 / ķermenis
         :mod (v6 / transportlīdzeklis
             :mod (v8 / galva)
@@ -58279,7 +58279,7 @@
 # ::text Redzot vien, ko viņa spēj paveikt.
 (v1 / see.01
     :ARG1 (v6 / able.01
-        :ARG1 (v5 / viņa
+        :ARG1 (v5 / Sirena
             :ARG0-of (v7 / accomplish.01
                 :ARG1 (v4 / kas)))
         :ARG2 v7))
@@ -58308,7 +58308,7 @@
 # ::text Un mēs tos gaužām bezatbildīgi izšķiežam.
 (v6 / waste.01
     :ARG0 (v2 / mēs)
-    :ARG1 (v3 / tas))
+    :ARG1 (v3 / talanti))
 
 # ::sent_id a-s25-p3s8
 # ::text Tad nu es vēlos runāt par izglītību un es vēlos runāt par radošumu.
@@ -58684,7 +58684,7 @@
 # ::sent_id a-s25-p7s20
 # ::text Kā tēvs viņu sūta gulēt, sakot Šekspīram: „Tagad ej gulēt!
 (v5 / sleep.01
-    :ARG0 (v3 / Šekspīram))
+    :ARG0 (v3 / viņš))
 
 # ::sent_id a-s25-p7s21
 # ::text Un noliec zīmuli.”
@@ -58749,7 +58749,7 @@
 # ::sent_id a-s25-p8s12
 # ::text Viņš lidmašīnā bija ļoti apbēdināts un teica: „Es nekad vairs nesatikšu tādu meiteni kā Sāra.”
 (v5 / upset.01
-    :ARG1 (v1 / viņš
+    :ARG1 (v1 / dēls
         :ARG0-of (v7 / say.01
             :ARG1 (v13 / meet.02
                 :time (v11 / nekad)
@@ -58786,7 +58786,7 @@
 # ::sent_id a-s25-p8s6
 # ::text Viņš negribēja braukt uz Losandželosu.
 (v2 / want.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / dēls
         :ARG0-of (v3 / go.02
             :ARG4 (v5 / Losandželosa)
             :ARG1-of v2))
@@ -58795,7 +58795,7 @@
 # ::sent_id a-s25-p8s7
 # ::text Viņam tā patika, bet viņam Anglijā bija draudzene.
 (v3 / like.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / dēls)
     :ARG1 (v2 / tā))
 
 # ::sent_id a-s25-p9s1
@@ -58829,7 +58829,7 @@
 (v7 / start.01
     :ARG0 (v6 / mēs
         :ARG0-of (v9 / educate.01
-            :ARG1 (v8 / bērniem)
+            :ARG1 (v8 / viņš)
             :ARG2-of v7)))
 
 # ::sent_id a-s25-p9s20
@@ -59786,7 +59786,7 @@
 # ::sent_id a-s93-p5s2
 # ::text Viņš atsauksies uz neesošām Briseles direktīvām, lai tikai nekas nebūtu jādara, vai teiks, ka atļauja izvietot reklāmas tikai Latvijā un Eiropas Savienībā veidotās programmās ir rupjš, teiksim, Konkurences likuma pārkāpums.
 (v2 / refer.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Latvietis
         :ARG0-of (v15 / say.01
             :ARG1 (v35 / pārkāpums
                 :mod (v29 / rupjš)
@@ -59945,7 +59945,7 @@
 (v19 / earn.01
     :time (v17 / tagad
         :time-of (v22 / learn.01
-            :ARG0 (v18 / iedzīvotāji)
+            :ARG0 (v18 / viņš)
             :ARG1 (v24 / iemaņas
                 :mod (v23 / noderīgs))))
     :ARG0 v18
@@ -61089,7 +61089,7 @@
 # ::sent_id a-z106-p257s12
 # ::text Tad 10. klasē nemaz nebūtu vajadzīga bilingvālā izglītība, viņi varētu mācīties latviešu valodā.
 (v12 / learn.01
-    :ARG0 (v10 / viņš))
+    :ARG0 (v10 / Jaunieši))
 
 # ::sent_id a-z106-p257s2
 # ::text Kad skolotāja paskaidroja teorēmu manā dzimtajā valodā, bija liels daudzums skolēnu, kuri to saprata tikai ar otro, trešo reizi.
@@ -61115,14 +61115,14 @@
 # ::sent_id a-z106-p257s5
 # ::text 12-15 gadu vecumā viņi to nesaprot.
 (v8 / understand.01
-    :ARG0 (v6 / viņš)
+    :ARG0 (v6 / Jaunieši)
     :ARG1 (v7 / tas)
     :polarity -)
 
 # ::sent_id a-z106-p257s6
 # ::text Tāpēc viņi necenšas mācīties, bet te vēl arī mācīties grūti, tālab viss pasliktinās...
 (v3 / attempt.01
-    :ARG0 (v2 / viņš
+    :ARG0 (v2 / Jaunieši
         :ARG0-of (v4 / learn.01))
     :ARG1 v4
     :polarity -)
@@ -61557,7 +61557,7 @@
 # ::sent_id a-z107-p167s5
 # ::text Projekts tiek vērtēts kā veiksmīgs, jo tas bija veicinājis Baltijas valstu savstarpējo militāro integrāciju un nodrošinājis nepieciešamo apmācību un personāla kvalifikāciju, lai piedalītos starptautiskajās operācijās.
 (v10 / promote.02
-    :ARG0 (v8 / Projekts)
+    :ARG0 (v8 / tas)
     :ARG1 (v15 / integrācija
         :mod (v13 / savstarpējs)
         :mod (v14 / militārs)
@@ -61924,7 +61924,7 @@
 (v2 / conclude.01
     :ARG0 (v1 / autors)
     :ARG1 (v6 / have.03
-        :ARG0 (v5 / tas)
+        :ARG0 (v5 / uzskati)
         :ARG1 (v8 / atšķirība
             :mod (v7 / būtisks))
         :polarity -))
@@ -63780,7 +63780,7 @@
 # ::sent_id a-z81-p56s3
 # ::text Pretējā gadījumā neuzticēšanās ir pat ļoti nepieciešama, jo tā pasargā no zaudējuma.
 (v11 / protect.01
-    :ARG0 (v10 / neuzticēšanās)
+    :ARG0 (v10 / tā)
     :ARG2 (v13 / zaudējums))
 
 # ::sent_id a-z81-p56s5
@@ -63807,7 +63807,7 @@
 # ::sent_id a-z81-p57s3
 # ::text Šī iemesla dēļ viņiem ir grūtāk novērtēt uzticamību un pieņemt pareizu lēmumu uzticēties vai neuzticēties.
 (v7 / evaluate.01
-    :ARG0 (v4 / viņš)
+    :ARG0 (v4 / cilvēki)
     :ARG1 (v8 / uzticamība))
 
 # ::sent_id a-z81-p57s4
@@ -63832,7 +63832,7 @@
 (v8 / desire.01
     :ARG0 (v7 / viņš
         :ARG0-of (v10 / delegate.01
-            :ARG2 (v9 / tiesai)
+            :ARG2 (v9 / tā)
             :ARG1 (v13 / risināšana
                 :mod (v12 / konflikts))))
     :ARG1 v10
@@ -64107,7 +64107,7 @@
 # ::sent_id a-z83-p126s6
 # ::text Tas pieceļas un abi kādu brīdi pastaigājas pa paaugstinājumu, it kā atspoguļodami viens otra kustības, tad apsēžas, bez tam – spoguļattēls šai gadījumā ir Vailds.
 (v2 / stand.01
-    :ARG1 (v1 / Vailds))
+    :ARG1 (v1 / tas))
 
 # ::sent_id a-z83-p126s7
 # ::text Uznākot Inta Jurjāna Bazilam, abi jūtas it kā iztraucēti savā nodarbē – viņi iegrimst katrs sevī, Ģ. Krūmiņa sejā atspoguļojas groteskas svētlaimes grimase, R. Razumas – ironisks atsvešinājums.
@@ -64856,7 +64856,7 @@
 # ::sent_id a-z90-p219s1
 # ::text Lai labāk ilustrētu iegūto skaitļu nozīmi, tie ir jāpaskaidro reālos un ar pētāmo jautājumu saistītos lielumos.
 (v10 / explain.01
-    :ARG1 (v8 / skaitļu))
+    :ARG1 (v8 / tas))
 
 # ::sent_id a-z90-p219s2
 # ::text Tā kā tiek pētīts okupētās Latvijas devums Vācijas kara ekonomikā, šāds lielums varētu būt Vācijas bruņoto spēku kājnieku divīzijas 2. pasaules karā, t.i., cik divīzijas un cik ilgā laika posmā varēja apgādāt ar Latvijā iegūtajiem produktiem.
@@ -64954,7 +64954,7 @@
 # ::sent_id a-z98-p100s1
 # ::text Ja saņemtais ziņojums attiecas uz jau strādājošu procesa verificēšanas instanci, tas tiek "nosūtīts" attiecīgajai instancei apstrādei.
 (v15 / send.01
-    :ARG1 (v12 / ziņojums)
+    :ARG1 (v12 / tas)
     :ARG2 (v18 / instance
         :mod (v17 / attiecīgs)))
 

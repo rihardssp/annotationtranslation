@@ -543,7 +543,7 @@
 # ::sent_id a-d131-p23s3
 # ::text Ja ārsti novērotu viņa miegu, viņi konstatētu, ka Morics miegā bieži vien iekrīt bezsamaņā, kas dažreiz ilgst pat vairākas diennaktis.
 (v8 / ascertain.01
-    :ARG0 (v7 / ārsti)
+    :ARG0 (v7 / viņš)
     :ARG1 (v15 / fall.07
         :ARG1 (v11 / person
             :name (vg0 / name
@@ -582,7 +582,7 @@
 # ::sent_id a-d144-p136s5
 # ::text Šī tik pa istabu, rakstīja ansambļiem dziesmu tekstus.
 (v6 / write.01
-    :ARG0 (v1 / šī)
+    :ARG0 (v1 / māsai)
     :ARG1 (v9 / teksts
         :mod (v8 / dziesma)))
 
@@ -609,7 +609,7 @@
 # ::text Uz tāfeles viņa zīmēja zvaigznājus, virpuļu apļus, asinīm nošķiestus.
 (v4 / draw.01
     :manner (v2 / tāfele)
-    :ARG0 (v3 / viņa)
+    :ARG0 (v3 / Ilzīte)
     :ARG1 (v5 / zvaigznājs))
 
 # ::sent_id a-d144-p198s5
@@ -902,7 +902,7 @@
 # ::sent_id a-d21-p19s1
 # ::text Aizvedu viņu līdz mājām.
 (v1 / lead.01
-    :ARG1 (v2 / viņa)
+    :ARG1 (v2 / Daiga)
     :ARG4 (v4 / māja))
 
 # ::sent_id a-d21-p19s4
@@ -968,7 +968,7 @@
     :ARG1 (v3 / varbūt)
     :ARG0 (v6 / es
         :ARG1-of (v11 / marry.01
-            :ARG2 (v12 / viņa)
+            :ARG2 (v12 / kasieri)
             :ARG1-of (v14 / intend.01
                 :polarity -))))
 
@@ -1003,7 +1003,7 @@
 # ::sent_id a-d21-p26s4
 # ::text Viņas teica, ka Daiga pēc pārbaudes laika beigām nolēmusi vairs neturpināt.
 (v2 / say.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / pārdevējām)
     :ARG1 (v10 / decide.01
         :ARG0 (v5 / person
             :ARG0-of (v12 / continue.01
@@ -1153,13 +1153,13 @@
 # ::text Varētu teikt, ka viņas nemaz nebija.
 (v2 / say.01
     :ARG1 (v7 / be.02
-        :ARG1 (v5 / viņa)
+        :ARG1 (v5 / meitene)
         :polarity -))
 
 # ::sent_id a-d21-p3s3
 # ::text Nu tādā nozīmē, ka viņa man nepiederēja.
 (v8 / belong.01
-    :ARG0 (v6 / viņa)
+    :ARG0 (v6 / meitene)
     :ARG1 (v7 / es)
     :polarity -)
 
@@ -1167,7 +1167,7 @@
 # ::text Un es nepiederēju viņai.
 (v3 / belong.01
     :ARG0 (v2 / es)
-    :ARG1 (v4 / viņa)
+    :ARG1 (v4 / meitene)
     :polarity -)
 
 # ::sent_id a-d21-p3s5
@@ -1184,7 +1184,7 @@
 # ::sent_id a-d21-p3s9
 # ::text Un pēc tam viņa pazuda.
 (v5 / vanish.01
-    :ARG1 (v4 / viņa))
+    :ARG1 (v4 / meitene))
 
 # ::sent_id a-d21-p4s1
 # ::text Daiga viņu sauca, viņas vārds bija rakstīts uz zīmītes, kas piesprausta pie darba tērpa atloka.
@@ -1296,13 +1296,13 @@
 # ::text Gan jau kaut kā, viņa teica.
 (v7 / say.01
     :ARG1 (v4 / kā)
-    :ARG0 (v6 / viņa))
+    :ARG0 (v6 / Daiga))
 
 # ::sent_id a-d21-p8s1
 # ::text Lielveikalā viņa bija pieņemta uz pārbaudes laiku.
 (v4 / hire.01
     :location (v1 / lielveikals)
-    :ARG1 (v2 / viņa))
+    :ARG1 (v2 / zaķiem))
 
 # ::sent_id a-d21-p8s2
 # ::text Gribējās viņu brīdināt, ka no tādiem zaķiem kā viņa lielveikali arī pārtiek.
@@ -1322,7 +1322,7 @@
 (v5 / say.01
     :ARG1 (v2 / tā)
     :ARG0 (v3 / es)
-    :ARG2 (v4 / viņa)
+    :ARG2 (v4 / zaķiem)
     :polarity -)
 
 # ::sent_id a-d21-p8s5
@@ -1341,7 +1341,7 @@
 (v7 / desire.01
     :ARG0 (v6 / es
         :ARG0-of (v8 / tell.01
-            :ARG1 (v5 / viņa)))
+            :ARG1 (v5 / Daiga)))
     :ARG1 v8)
 
 # ::sent_id a-d21-p9s2
@@ -1396,7 +1396,7 @@
         :name (vg0 / name
             :op0 "Ieva"))
     :ARG1 (v7 / able.01
-        :ARG1 (v6 / viņš)
+        :ARG1 (v6 / Tēvs)
         :ARG2 (v10 / aktieris
             :mod (v9 / labs))))
 
@@ -1521,7 +1521,7 @@
 # ::text Vārdu sakot, kopābūšana ar viņu prasīja zināmu mākslu.
 (v7 / require.01
     :ARG0 (v4 / kopābūšana
-        :mod (v6 / viņš))
+        :mod (v6 / Māte))
     :ARG1 (v9 / māksla
         :mod (v8 / zināt)))
 
@@ -1562,7 +1562,7 @@
     :ARG1 (v1 / person
         :name (vg0 / name
             :op0 "Odrija"))
-    :ARG2 (v2 / viņa))
+    :ARG2 (v2 / Ieva))
 
 # ::sent_id a-n181-p68s2
 # ::text Finanšu ministram ir tiesības Eiropas Savienības politiku instrumentu un pārējās ārvalstu finanšu palīdzības līdzfinansēto projektu un pasākumu, Klimata pārmaiņu finanšu instrumenta un Emisijas kvotu izsolīšanas instrumenta projektu īstenošanai budžeta resoram likumā noteiktās apropriācijas ietvaros pārdalīt apropriāciju starp programmām, apakšprogrammām un budžeta izdevumu kodiem atbilstoši ekonomiskajām kategorijām.
@@ -1942,7 +1942,7 @@
 # ::sent_id a-p11517-p1s2
 # ::text To saimnieki Daiga un Vsevolods Dmitrijevi pērn saņēmuši par sakopto sētu.
 (v8 / get.01
-    :ARG1 (v1 / sētu)
+    :ARG1 (v1 / tas)
     :ARG0 (v3 / person
         :mod (v2 / saimnieks)
         :name (vg0 / name
@@ -3067,7 +3067,7 @@
 # ::sent_id a-p14934-p4s1
 # ::text "Atvainojos, taču pirms došanās uz Ameriku man vēl dažas nedēļas vajadzēs atpūsties.
 (v13 / need.01
-    :ARG0 (v9 / es)
+    :ARG0 (v9 / Makartnijs)
     :ARG1 (v14 / atpūsties))
 
 # ::sent_id a-p14934-p4s2
@@ -3149,7 +3149,7 @@
 # ::sent_id a-p15096-p9s3
 # ::text Komisija pieņēma lēmumu, ka koki ir jānocērt, jo tie ir kalstoši un bojāti, kā arī var apdraudēt gājējus.
 (v15 / damage.01
-    :ARG1 (v11 / koki
+    :ARG1 (v11 / tas
         :ARG0-of (v20 / endanger.01
             :ARG1 (v21 / gājējs))))
 
@@ -3561,7 +3561,7 @@
 # ::sent_id a-p18599-p11s1
 # ::text Deputātiem balsojot par Zaķa priekšlikumu, atklājās, ka sēdē nav kvoruma, un tā tika slēgta.
 (v17 / close.02
-    :ARG1 (v15 / sēdē))
+    :ARG1 (v15 / tā))
 
 # ::sent_id a-p18932-p6s1
 # ::text Pirms 100 gadiem svarīga nozīme kā peldvietai bija arī Liepājai.
@@ -3829,7 +3829,7 @@
 # ::sent_id a-p2160-p3s2
 # ::text Kad kārtības uzraugi centās tanka ceļu aizšķērsot, tas ietriecās ceļmalas kokā, un ar to šīs nakts izpriecas bija beigušās.
 (v10 / crash.01
-    :ARG1 (v9 / tanka))
+    :ARG1 (v9 / tas))
 
 # ::sent_id a-p2516-p2s1
 # ::text 49 zivis tika ievietotas nelielā akvārijā un paceltas gaisā lidmašīnā, kas vēlāk strauji laidās lejā, tā imitējot bezsvara stāvokli, ko astronauti piedzīvo kosmosā.
@@ -3860,7 +3860,7 @@
 # ::sent_id a-p2743-p6s4
 # ::text Vai tiešām ir tik grūti klientiem, kas vienkārši ieradušies saņemt savus sūtījumus, tos izsniegt, neizsakot nejaukas piezīmes?
 (v16 / hand_out.03
-    :ARG1 (v15 / sūtījumus))
+    :ARG1 (v15 / tas))
 
 # ::sent_id a-p2751-p5s1
 # ::text Šodien TVNETā atkal bija ziņa: cilvēki neiet pie ārstiem.
@@ -3919,7 +3919,7 @@
 # ::sent_id a-p2963-p10s2
 # ::text Tie ir iecienīti Eiropā, Ēģiptē, Grieķijā, Ķīnā un Japānā.
 (v3 / fond.01
-    :ARG1 (v1 / tas)
+    :ARG1 (v1 / Ķiploki)
     :location (v4 / name
         :op1 (vg0 / "Eiropa")
         :wiki "en.wikipedia.org/wiki/Europe"))
@@ -3927,7 +3927,7 @@
 # ::sent_id a-p2963-p10s3
 # ::text Tie veicina kuņģa sulas izdalīšanos un asinsriti.
 (v2 / promote.02
-    :ARG0 (v1 / tas)
+    :ARG0 (v1 / Ķiploki)
     :ARG1 (v5 / izdalīšanās
         :mod (v4 / sula
             :mod (v3 / kuņģis)))
@@ -4307,7 +4307,7 @@
 # ::sent_id a-p3733-p6s2
 # ::text Tomēr arī viņš neizslēdza, ka ir iespējami sodi.
 (v4 / rule_out.02
-    :ARG0 (v3 / viņš)
+    :ARG0 (v3 / ministrs)
     :ARG1 (v8 / iespējams)
     :polarity -)
 
@@ -4439,7 +4439,7 @@
 # ::sent_id a-p3738-p5s2
 # ::text Tāpat viņš arī norādīja, ka 2013.gada peļņa varētu būt ne mazāka par 12 miljoniem latu, ko varētu veicināt ar produktu portfeļa papildināšanu un jaunu tirgu apguvi.
 (v4 / indicate.01
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / Lipmans)
     :ARG1 (v10 / varēt))
 
 # ::sent_id a-p3738-p5s3
@@ -4744,7 +4744,7 @@
 # ::sent_id a-p3753-p17s1
 # ::text Un, ja mobilam telefonam vai citai ierīcei ir piesaistīts "Lattelecom" telefona numurs un cilvēks ar to pieslēdzas internetam Londonā, viņš tur saņems sarunu no Latvijas kā vietējo zvanu?
 (v26 / get.01
-    :ARG0 (v24 / cilvēks)
+    :ARG0 (v24 / viņš)
     :location (v25 / tur)
     :ARG1 (v27 / saruna
         :location (v29 / name
@@ -5130,7 +5130,7 @@
 # ::sent_id a-p3753-p34s3
 # ::text To pieprasa starptautiski atzīti fotogrāfi, kuri ražo ļoti augstas izšķirtspējas un ietilpīgas digitālas fotogrāfijas.
 (v2 / request.01
-    :ARG1 (v1 / tas)
+    :ARG1 (v1 / ātruma)
     :ARG0 (v5 / fotogrāfs
         :mod (v4 / atzīt)))
 
@@ -5687,7 +5687,7 @@
 # ::sent_id a-p3756-p5s3
 # ::text Viņa varēja izvēlēties daudz dogmatiskāku autoru.
 (v3 / choose.01
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Ēlerte)
     :ARG1 (v6 / autors
         :mod (v5 / dogmatisks)))
 
@@ -5706,7 +5706,7 @@
         :name (vg0 / name
             :op0 "Stefanovs"))
     :ARG1 (v25 / give.01
-        :ARG2 (v17 / viņa)
+        :ARG2 (v17 / Ēlerte)
         :ARG1 (v20 / harakteristika
             :mod (v18 / obligāts))
         :ARG0 (v33 / person
@@ -6111,7 +6111,7 @@
 # ::sent_id a-p5535-p7s1
 # ::text «Protams, man ir sapņi, kurus vēlos realizēt, bet saprotu, ka ne vienmēr tas strādā.
 (v5 / have.03
-    :ARG0 (v4 / es)
+    :ARG0 (v4 / Aija)
     :ARG1 (v6 / sapnis))
 
 # ::sent_id a-p5535-p7s2
@@ -6204,7 +6204,7 @@
 # ::text Marina ir talantīga, bet tas neliek viņai justies kaut kā īpaši.
 (v7 / induce.01
     :ARG0 (v6 / tas)
-    :ARG1 (v8 / Marina
+    :ARG1 (v8 / viņa
         :ARG0-of (v9 / feel.01
             :ARG1 (v12 / īpaši)
             :ARG2-of v7))
@@ -6659,7 +6659,7 @@
 (v10 / arrive.01
     :ARG1 (v9 / person
         :ARG0-of (v12 / call.16
-            :ARG1 (v11 / Kardašjana))
+            :ARG1 (v11 / viņa))
         :ARG0-of (v14 / carry.01
             :ARG1 (v16 / grozs
                 :mod (v15 / dāvana)))
@@ -7741,7 +7741,7 @@
 # ::text Cilvēka izcelsme parasti determinē viņa personīgo identitāti, tātad arī nacionālo identitāti, kura viņu ietver savā tautā kā komunikācijas pamatkopienā.
 (v16 / include.01
     :ARG0 (v14 / kura)
-    :ARG1 (v15 / Cilvēka)
+    :ARG1 (v15 / viņš)
     :ARG2 (v18 / tauta
         :mod (v21 / pamatkopiena
             :mod (v20 / komunikācija))))
@@ -8163,7 +8163,7 @@
 # ::sent_id a-z105-p48s2
 # ::text Turklāt tie ir bijuši pietiekami plaši atspoguļoti ASV laikrakstos, kas ļauj apkopot nepieciešamos datus sekundāro avotu trūkuma apstākļos.
 (v7 / reflect.01
-    :ARG2 (v2 / tas)
+    :ARG2 (v2 / protesti)
     :location (v9 / laikraksts
         :location (v8 / name
             :op1 (vg0 / "ASV")
@@ -8233,7 +8233,7 @@
 # ::sent_id a-z110-p196s8
 # ::text Viņi uzskata, ka pilsētu viesnīcās nav iespējas izvērsties ar jauno produktu attīstīšanu, kā arī investīcijas jaunajās tehnoloģijās diez vai sniegs papildu peļņu.
 (v2 / think.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Īpašnieku)
     :ARG1 (v7 / be.02
         :location (v6 / viesnīca
             :mod (v5 / pilsēta))
@@ -8259,7 +8259,7 @@
 # ::sent_id a-z110-p59s4
 # ::text Proti, tikai tajā brīdī, kad izgudrojums nonāk tirgū, tas pārvēršas par inovāciju.
 (v13 / transform.01
-    :ARG1 (v12 / izgudrojums)
+    :ARG1 (v12 / tas)
     :ARG2 (v15 / inovācija))
 
 # ::sent_id a-z110-p59s5

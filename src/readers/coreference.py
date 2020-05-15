@@ -8,6 +8,7 @@ from conllu import parse_incr, string_to_file
 
 from src.readers.base import parse_string
 from src.sentences.coreference import ICoReferenceSentence, CoReferenceTokenSentence
+from src.words.coreference import ICoReferenceWord
 
 
 class ICoReferenceAnnotationReaderBase(ABC):
@@ -48,12 +49,26 @@ class CoReferenceFilesAnnotationReader(ICoReferenceAnnotationReaderBase):
 
         return sentence_list
 
-    def _get_sentence_list(self, content: StringIO, file_name: str = ""):
+    def _get_sentence_list(self, content: StringIO, file_name: str = None):
         sentence_list: typing.List[CoReferenceTokenSentence] = []
+        entire_file_co_reference_group: typing.Dict[str, typing.List[ICoReferenceWord]] = {}
+
         fields, parsers = self.__read_headers(content)
 
         for token_list in parse_incr(content, fields=fields, field_parsers=parsers):
             sentence = CoReferenceTokenSentence(token_list)
+
+            # give each sentence inside the same file reference to a complete co reference dictionary
+            if file_name:
+                co_references = sentence.co_references
+                for group in co_references:
+                    if group in entire_file_co_reference_group:
+                        entire_file_co_reference_group[group] += co_references[group]
+                    else:
+                        entire_file_co_reference_group[group] = co_references[group].copy()
+
+                sentence.additional_context_references = entire_file_co_reference_group
+
             sentence_list.append(sentence)
 
             # Double-check that this sentence respects format defined in header

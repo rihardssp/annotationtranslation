@@ -52,6 +52,11 @@ class CoReferencePipe(PipeBase):
                     elif group_word.pos_value[0:2] not in self.mapping.get_replaceable_pos_values():
                         non_members_to_keep.append(group_word)
 
+                # in case there is some additional context for our coreference group
+                for context_group_words in sentence.additional_context_references[name]:
+                    if context_group_words.pos_value[0:2] not in self.mapping.get_replaceable_pos_values():
+                        non_members_to_keep.append(context_group_words)
+
                 is_reference_added = False
 
                 # Standard scenario
