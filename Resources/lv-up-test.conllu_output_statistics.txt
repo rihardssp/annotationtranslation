@@ -1,6 +1,6 @@
 ======= Statistics:
 Total AMR property count: 642
-AMR token count: 4215 out of total: 18492
+AMR token count: 4563 out of total: 18492
 PropBank frame count in AMR: 1367 out of total: 2034
 Named entity count in AMR: 472 out of total: 889
 Wiki count in AMR: 132 out of total: 266

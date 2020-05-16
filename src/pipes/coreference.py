@@ -65,6 +65,7 @@ class CoReferencePipe(PipeBase):
                 if len(members_to_coreference) > 0:
                     for reference in range(1, len(members_to_coreference)):
                         container.replace_instance(members_to_coreference[reference].id, members_to_coreference[0].id)
+                        container.update_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, stat_incr)
                         is_reference_added = True
 
                     last_member_to_coreference = members_to_coreference[0]
@@ -73,6 +74,7 @@ class CoReferencePipe(PipeBase):
                 if len(members_to_keep) > 0:
                     for reference in range(1, len(members_to_keep)):
                         container.replace_instance(members_to_keep[reference].id, members_to_keep[0].id)
+                        container.update_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, stat_incr)
                         is_reference_added = True
 
                     last_member_to_keep = members_to_keep[0]
@@ -81,6 +83,7 @@ class CoReferencePipe(PipeBase):
                 if last_member_to_coreference and last_member_to_keep:
                     is_reference_added = True
                     container.replace_instance(last_member_to_coreference.id, last_member_to_keep.id)
+                    container.update_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, stat_incr)
 
                 # update with value of first non-member desireable word 1-1
                 elif last_member_to_coreference and len(non_members_to_keep) > 0 and non_members_to_keep[0].pos_value[0:1] != "p":

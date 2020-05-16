@@ -26,8 +26,9 @@ class TripletContainer(IContainer):
     @property
     def token_count(self):
         """Counts all triplets that are have a non-generated id and instance role"""
-        # ToDo: split word with space to account for Named Entities and such
-        return len(list(x for x in self.__g.triples if WORD_INSTANCE_REGEX.match(x[0]) and x[1] == self.instance_role))
+        return len(list(x for x in self.__g.triples if WORD_INSTANCE_REGEX.match(x[0]) and x[1] == self.instance_role)) + \
+           self.get_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, 0)
+
 
     @property
     def frame_count(self):
@@ -60,6 +61,7 @@ class TripletContainer(IContainer):
         self.instance_role = ':instance'
         self.__statistics = {}
         self.__generated_id = 0
+        self.set_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, 0)
 
     def add_root(self, root_id: str, name_of_root):
         """Root verb of AMR"""

@@ -25,6 +25,7 @@ class ContainerStatistic(Enum):
     NAMED_ENTITIES_TOTAL_COUNT = 8,
     SENTENCE_TOKEN_TOTAL_COUNT = 9,
     FRAME_TOTAL_COUNT = 10,
+    SENTENCE_TOKEN_REMOVED_COUNT = 11,
 
 
 class IContainer(ABC):

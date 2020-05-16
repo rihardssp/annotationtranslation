@@ -77,6 +77,7 @@ class NamedEntitiesPipe(PipeBase):
         # Merge the words of chunk into a single instance
         for container_word_id in range(1, len(container_word_ids)):
             container.replace_instance(container_word_ids[container_word_id], container_word_ids[0])
+            container.update_stat(ContainerStatistic.SENTENCE_TOKEN_REMOVED_COUNT, stat_incr)
 
         # Evaluate the mapping_definitions action
         mapping_action = self.mapping.iob_action_mapping[chunk_category]
