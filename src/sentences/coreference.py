@@ -64,4 +64,4 @@ class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
 
     @property
     def co_reference_count(self) -> int:
-        return len(self.co_references)
+        return len(self.co_references.keys())

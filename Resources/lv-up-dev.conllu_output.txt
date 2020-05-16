@@ -24,13 +24,13 @@
 # ::sent_id a-c13-p43s2
 # ::text Viņi ir lieli diplomāti, prot būt plastiski.
 (v6 / know.03
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / diplomāti)
     :ARG1 (v8 / plastisks))
 
 # ::sent_id a-c13-p43s4
 # ::text Viņi ir saņēmuši daudz uzmanības, piedošanas, vairāk pieraduši gan gaidīt, gan saņemt labo – tātad optimistiskāki.
 (v3 / receive.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Jaunākie
         :ARG0-of (v12 / expect.01
             :ARG1 (v16 / labs))
         :ARG0-of (v15 / receive.01
@@ -50,7 +50,7 @@
 (v1 / know.03
     :ARG1 (v2 / achieve.01
         :ARG1 (v7 / love.01
-            :ARG1 (v5 / viņš)
+            :ARG1 (v5 / Jaunākie)
             :ARG0 (v6 / viss))))
 
 # ::sent_id a-c18-p3s1
@@ -122,7 +122,7 @@
 # ::sent_id a-c58-p41s13
 # ::text Rētiņas ir ~ 4 cm garas, tās var paslēpt gan zemkrūts krokā, gan padusē, gan zem areolas.
 (v10 / conceal.01
-    :ARG1 (v8 / tā)
+    :ARG1 (v8 / Rētiņas)
     :location (v13 / kroka
         :mod (v12 / zemkrūts)))
 
@@ -208,8 +208,7 @@
         :name (vg0 / name
             :op0 "Tia"))
     :direction (v7 / logs)
-    :ARG1 (v11 / pļava
-        :mod (v10 / liels)))
+    :ARG1 (v10 / liels))
 
 # ::sent_id a-d119-p268s4
 # ::text Aiz tās bija augļu koki – senos laikos tas droši vien bija iekopts dārzs, bet tagad tas bija nolaists mežs, kurā gan varēja atrast pietiekami daudz ēdamu augļu.
@@ -223,9 +222,8 @@
 # ::text Pēkšņi viņa satrūkās – izskatījās, ka pa šo mežonīgo dārzu kāds staigā.
 (v5 / look.02
     :ARG1 (v13 / walk.01
-        :ARG2 (v11 / dārzs
-            :mod (v10 / mežonīgs))
-        :ARG0 (v12 / kāds)))
+        :ARG0 (v12 / kāds)
+        :ARG2 (v10 / mežonīgs)))
 
 # ::sent_id a-d119-p268s6
 # ::text Nevar būt, tur neviens nevar staigāt, viņa sev teica un ielūkojās uzmanīgāk.
@@ -233,14 +231,13 @@
     :ARG1 (v1 / able.01
         :ARG2 (v2 / be.02)
         :polarity -)
-    :ARG0 (v9 / viņa)
+    :ARG0 (v9 / Tia)
     :ARG2 v9)
 
 # ::sent_id a-d119-p268s7
 # ::text Nudien, augļu dārzā kaut kas kustējās – šķiet, ka tas bija cilvēks, bet tā aprises neatgādināja ne Raitu, ne Ze.
 (v7 / move.01
-    :location (v4 / dārzs
-        :mod (v3 / auglis)))
+    :location (v3 / auglis))
 
 # ::sent_id a-d119-p273s1
 # ::text "Tur kāds ir un nāk tieši šurp," viņa satraukti iesaucās.
@@ -287,9 +284,8 @@
         :name (vg0 / name
             :op0 "Tia"))
     :ARG1 (v3 / svešiniece)
-    :ARG4 (v9 / puse
-        :mod (v8 / pagrabs
-            :mod (v5 / pamests))))
+    :ARG4 (v8 / pagrabs
+        :mod (v5 / pamests)))
 
 # ::sent_id a-d123-p61s1
 # ::text Reiz es pats dzirdēju, kā viņa sarunājās ar mirušajiem, un man kļuva baigi.
@@ -654,7 +650,7 @@
 # ::text Cigareti viņa uzreiz iebāza mutē, bez kādas grācijas, bez žesta, sakoda zobos kā vecis, lietišķi un kāri, nosalušām rokām sameklēja šķiltavas slapjā kažoka kabatā, - lai to izdarītu, viņai bija uz krēsla jāsaliecas sānis, un kažoks atsedza kāju līdz tumšbrūnai zeķes malai, - man izskatījās, ka zem kažoka viņai nav svārku.
 (v4 / thrust.01
     :ARG1 (v1 / cigarete)
-    :ARG0 (v2 / viņa
+    :ARG0 (v2 / Meitene
         :ARG0-of (v14 / grit.01
             :ARG1 (v15 / zobs))
         :ARG0-of (v25 / find.01
@@ -734,7 +730,7 @@
 # ::text Pēdējos mēnešos viņš pavadījis tēvu pastaigās.
 (v4 / accompany.01
     :time (v2 / mēnesis)
-    :ARG0 (v3 / viņš)
+    :ARG0 (v3 / draugu)
     :ARG1 (v5 / tēvs)
     :location (v6 / pastaiga))
 
@@ -795,13 +791,13 @@
 (v2 / shout.01
     :ARG0 (v1 / bārmenis)
     :ARG1 (v11 / drink.01
-        :ARG0 (v9 / tu)
+        :ARG0 (v9 / Sanī)
         :ARG1 (v10 / kas)))
 
 # ::sent_id a-d197-p120s1
 # ::text - Bet es taču stāstu tev! - Sanī drusku sadusmota atcirta.
 (v5 / tell.01
-    :ARG0 (v3 / es)
+    :ARG0 (v3 / Sanī)
     :ARG2 (v6 / tu))
 
 # ::sent_id a-d197-p120s2
@@ -959,7 +955,7 @@
 # ::sent_id a-d197-p136s2
 # ::text Sataustījusi vajadzīgo naudaszīmi, uzliku to uz galda.
 (v5 / put.01
-    :ARG1 (v6 / tā)
+    :ARG1 (v6 / naudaszīmi)
     :ARG2 (v8 / galds))
 
 # ::sent_id a-d197-p136s3
@@ -1182,7 +1178,7 @@
 # ::sent_id a-d197-p15s1
 # ::text Es šajā vietā biju pirmo un - droši vien - pēdējo reizi, lai gan garām tai gāju katru dienu.
 (v18 / walk.01
-    :ARG2 (v17 / tā)
+    :ARG2 (v17 / vietā)
     :time (v20 / diena))
 
 # ::sent_id a-d197-p15s2
@@ -1313,7 +1309,7 @@
 # ::sent_id a-d197-p19s3
 # ::text Viņš noskurinājās un nosprauslājās kā liels suns un apsēdās starp durvīm un bāru.
 (v9 / sit_down.02
-    :ARG1 (v1 / viņš)
+    :ARG1 (v1 / džeks)
     :location (v11 / durvis))
 
 # ::sent_id a-d197-p19s4
@@ -1321,7 +1317,7 @@
 (v3 / stop.01
     :ARG0 (v1 / bārmenis
         :ARG0-of (v16 / take.01
-            :ARG3 (v17 / viņš))
+            :ARG3 (v17 / džeks))
         :ARG0-of (v6 / pour.01
             :ARG3 (v7 / glāze)
             :ARG1 (v12 / grams
@@ -1602,7 +1598,7 @@
         :ARG0-of (v93 / pull.01)
         :ARG1-of (v12 / stand.01)
         :ARG0-of (v84 / grasp.01
-            :ARG1 (v85 / tas)
+            :ARG1 (v85 / matus)
             :location (v86 / plauksta))
         :ARG0-of (v65 / look.01
             :direction (v62 / garām))))
@@ -2189,7 +2185,7 @@
 # ::sent_id a-d29-p82s13
 # ::text Dažkārt viņa tos izārda, sagriež un pāršuj.
 (v6 / cut_up.08
-    :ARG0 (v2 / viņa)
+    :ARG0 (v2 / Sievai)
     :ARG1 (v3 / apģērbus))
 
 # ::sent_id a-d29-p82s14
@@ -2200,7 +2196,7 @@
 # ::sent_id a-d29-p82s15
 # ::text Kādreiz viņa sapņoja kļūt par apģērbu modelētāju, pēc tam par konditori.
 (v3 / dream.01
-    :ARG0 (v2 / viņa
+    :ARG0 (v2 / Sievai
         :ARG1-of (v4 / become.01
             :ARG2 (v7 / modelētāja
                 :mod (v6 / apģērbs)
@@ -2211,7 +2207,7 @@
 # ::text Arī par bērnudārzu un skolu maksā viņa.
 (v6 / pay.01
     :ARG3 (v3 / bērnudārzs)
-    :ARG0 (v7 / viņa))
+    :ARG0 (v7 / Sievai))
 
 # ::sent_id a-d29-p82s17
 # ::text Vīrs reizi mēnesī no «Rimi» vai «Maximas» atved maisiņu ar pārtiku.
@@ -2227,7 +2223,7 @@
     :ARG1 (v3 / kas
         :ARG1-of (v4 / eat.01
             :ARG1-of (v2 / have.03)))
-    :ARG0 (v6 / viņš))
+    :ARG0 (v6 / vīrs))
 
 # ::sent_id a-d29-p82s19
 # ::text Par pensiju un vecumdienām galvu nelauza.
@@ -2244,7 +2240,7 @@
 # ::sent_id a-d29-p82s20
 # ::text Viņš nedzer.
 (v2 / drink.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / vīrs)
     :polarity -)
 
 # ::sent_id a-d29-p82s22
@@ -2256,14 +2252,14 @@
 # ::sent_id a-d29-p82s23
 # ::text Viņš vēlas siltu ēdienu un ceptu gaļu.
 (v2 / desire.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / vīrs)
     :ARG1 (v4 / ēdiens
         :mod (v3 / silts)))
 
 # ::sent_id a-d29-p82s25
 # ::text Kad vien viņš nav darbā, viņš ir savā istabā.
 (v8 / be.02
-    :ARG1 (v7 / viņš)
+    :ARG1 (v7 / vīrs)
     :location (v10 / istaba))
 
 # ::sent_id a-d29-p82s26
@@ -2279,7 +2275,7 @@
 # ::sent_id a-d29-p82s29
 # ::text Ar tiem pašiem draugiem, ar kuriem kopā kādreiz, pirms daudziem gadiem, viņš kultūras namos spēlēja diskotēkas.
 (v18 / play.01
-    :ARG0 (v15 / viņš)
+    :ARG0 (v15 / vīrs)
     :location (v17 / nams
         :mod (v16 / kultūra))
     :ARG2 (v19 / diskotēka))
@@ -2294,7 +2290,7 @@
 # ::sent_id a-d29-p82s30
 # ::text Viņš sapņoja kļūt par slavenu un iemīļotu dīdžeju, strādāt kādā no lielajiem radio.
 (v2 / dream.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / vīrs
         :ARG1-of (v3 / become.01
             :ARG2 (v8 / dīdžejs
                 :mod (v5 / slavens)))
@@ -2310,7 +2306,7 @@
         :unit (vg0 / diena)
         :quant "četri"
         :time-of (v9 / bring.01
-            :ARG0 (v4 / viņš)
+            :ARG0 (v4 / vīrs)
             :ARG1 (v10 / zivs)))
     :ARG1 v4
     :ARG3 (v6 / zveja))
@@ -2327,13 +2323,12 @@
 # ::sent_id a-d29-p82s5
 # ::text Viņš tirgū «Latgalīte» pārdod pirātiskos kompaktdiskus.
 (v6 / sell.01
-    :ARG0 (v1 / viņš)
-    :location (v4 / organization
-        :mod (v2 / tirgus)
-        :name (vg0 / name
-            :op1 "Latgalīte"))
+    :ARG0 (v1 / vīrs)
     :ARG1 (v8 / kompaktdisks
-        :mod (v7 / pirātisks)))
+        :mod (v7 / pirātisks))
+    :location (v2 / tirgus
+        :name (vg0 / name
+            :op1 "Latgalīte")))
 
 # ::sent_id a-d29-p82s7
 # ::text Vairākkārt ticis arestēts, diski konfiscēti, īpašnieks viņu tādās reizēs izpērk.
@@ -2343,7 +2338,7 @@
 # ::text Sievai viņš apgalvo, ka mēnesī nopelnot apmēram trīssimt latu.
 (v3 / claim.01
     :ARG2 (v1 / sieva)
-    :ARG0 (v2 / viņš
+    :ARG0 (v2 / vīrs
         :ARG0-of (v7 / earn.01
             :ARG1 (v10 / lats)
             :ARG1-of v3)))
@@ -2410,7 +2405,7 @@
             :ARG1 (v11 / vārds)
             :polarity -)
         :ARG0-of (v7 / lead.01
-            :ARG1 (v5 / viņa)
+            :ARG1 (v5 / Vidu)
             :ARG4 (v8 / prom)
             :polarity -))
     :ARG1 v5
@@ -2598,7 +2593,7 @@
 # ::text Agrāk viņi pārtika no svaiga gaisa un lietus.
 (v3 / subsist.01
     :time (v1 / agri)
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / klaidoņi)
     :ARG1 (v6 / gaiss
         :mod (v5 / svaigs)))
 
@@ -2675,7 +2670,7 @@
 # ::sent_id a-d62-p33s8
 # ::text Viņa saņēmās ļaunu darīt sev.
 (v4 / do.02
-    :ARG0 (v1 / viņa)
+    :ARG0 (v1 / Vida)
     :ARG1 (v3 / ļauns)
     :ARG2 v1)
 
@@ -2730,7 +2725,7 @@
 (v10 / know.02
     :ARG0 (v7 / person
         :ARG0-of (v12 / distinguish.01
-            :ARG1 (v9 / tā))
+            :ARG1 (v9 / kameņu))
         :name (vg0 / name
             :op0 "Vida"))
     :ARG1 v9)
@@ -2847,7 +2842,7 @@
 # ::sent_id a-d87-p475s2
 # ::text Grīda bija patīkami vēsa, to skarot ar pēdām.
 (v7 / touch.01
-    :ARG1 (v6 / tas)
+    :ARG1 (v6 / Grīda)
     :ARG2 (v9 / pēda))
 
 # ::sent_id a-d87-p475s3
@@ -2888,7 +2883,7 @@
 # ::sent_id a-d87-p7s2
 # ::text Viņa sakārtoja uz pleca somiņas siksnu un palūkojās uz savrupmājas jumtu pāri zaļajam žogam.
 (v2 / arrange.01
-    :ARG0 (v1 / viņa
+    :ARG0 (v1 / Ilze
         :ARG0-of (v8 / look.01
             :ARG1 (v11 / jumts
                 :mod (v10 / savrupmāja))
@@ -2903,7 +2898,7 @@
 (v3 / succeed.01
     :ARG0 (v1 / māte
         :ARG1-of (v4 / get.05
-            :ARG2 (v5 / viņa)))
+            :ARG2 (v5 / Ilze)))
     :time (v2 / allaž)
     :ARG1 v4)
 
@@ -2990,13 +2985,13 @@
 # ::sent_id a-d94-p25s1
 # ::text Lēnām un cienīgi viņš kāpa pa trapu uz kuģa, no kurienes smaidīgi tautieši māja ardievas, sūtīja gaisa skūpstus palicējiem un arī skūpstījās pa īstam.
 (v5 / board.01
-    :ARG0 (v4 / viņš)
+    :ARG0 (v4 / Žana)
     :ARG1 (v9 / kuģis))
 
 # ::sent_id a-d94-p25s2
 # ::text Žana Pjēra kājas stinga pie katra soļa, ko viņš spēra, ejot pa kuģi.
 (v13 / walk.01
-    :ARG0 (v10 / viņš)
+    :ARG0 (v10 / Žana)
     :ARG2 (v15 / kuģis))
 
 # ::sent_id a-d94-p4s1
@@ -3030,7 +3025,7 @@
 # ::text Tieši šorīt viņš sevī bija sajutis uzmanības nepieciešamību.
 (v6 / feel.01
     :time (v2 / šorīt)
-    :ARG0 (v3 / viņš)
+    :ARG0 (v3 / Žans)
     :ARG1 (v8 / nepieciešamība
         :mod (v7 / uzmanība)))
 
@@ -3089,7 +3084,7 @@
 # ::sent_id a-n281-p132s1
 # ::text 48. Ja nosacīti notiesātajam vai nosacīti atbrīvotajam noteikts aizliegums atstāt dzīvesvietu noteiktā diennakts laikā, viņam jānovērš iespējamie šķēršļi, kas varētu traucēt amatpersonai piekļūt dzīvesvietai noteiktajā laikā.
 (v17 / eliminate.01
-    :ARG0 (v16 / viņš)
+    :ARG0 (v16 / nosacīti)
     :ARG1 (v19 / šķērslis
         :mod (v18 / iespējams)))
 
@@ -3249,12 +3244,11 @@
 (v3 / lead.01
     :time (v1 / šogad)
     :ARG0 (v2 / ceļš)
-    :ARG4 (v10 / name
-        :location (v5 / name
-            :op1 (vg0 / "Padure")
-            :wiki "en.wikipedia.org/wiki/Padure_Parish")
+    :ARG4 (v5 / name
         :op1 (vg1 / "Ēdoles pagasti")
-        :wiki "en.wikipedia.org/wiki/Ēdole_Parish"))
+        :wiki "en.wikipedia.org/wiki/Ēdole_Parish"
+        :op1 (vg0 / "Padure")
+        :wiki "en.wikipedia.org/wiki/Padure_Parish"))
 
 # ::sent_id a-p10011-p70s3
 # ::text Īvandē velobraucēji uzzinās, kur dzimis un skolojies rakstnieks Mārtiņš Kalndruva, izstaigās muižu, dosies uz ūdensdzirnavām un apskatīs 1816. gadā celto luterāņu baznīcu.
@@ -3268,8 +3262,7 @@
                 :mod (v24 / luterāne))))
     :ARG1 (v6 / bear.02
         :location (v5 / kur)
-        :ARG1 (v10 / person
-            :mod (v9 / rakstnieks)
+        :ARG1 (v9 / rakstnieks
             :name (vg1 / name
                 :op0 "Mārtiņš"
                 :op1 "Kalndruva"))))
@@ -3316,16 +3309,15 @@
 # ::sent_id a-p10030-p7s2
 # ::text Slavenā pianiste K.Dakša savās atmiņās rakstījusi, ka spēlējusi visās ballēs līdz pat 1940. gadam.
 (v7 / write.01
-    :ARG0 (v3 / person
-        :mod (v2 / pianiste
-            :mod (v1 / slavens))
-        :ARG0-of (v10 / play.01
-            :time (v12 / balle))
+    :location (v6 / atmiņa)
+    :ARG1 (v10 / play.01
+        :ARG0 v2
+        :time (v12 / balle))
+    :ARG0 (v2 / pianiste
         :name (vg0 / name
             :op0 "K."
-            :op1 "Dakša"))
-    :location (v6 / atmiņa)
-    :ARG1 v10)
+            :op1 "Dakša")
+        :mod (v1 / slavens)))
 
 # ::sent_id a-p10030-p7s3
 # ::text Balles tad notikušas tieši līdz trijiem naktī, kad policists visus izvadījis pa durvīm.
@@ -3344,16 +3336,14 @@
 # ::text Šonedēļ Kuldīgas slimnīcas radioloģijas nodaļā, kurā kopš janvāra telpas nomā SIA Vizuālā diagnostika, testa režīmā sācis darboties jaunais magnētiskās rezonanses aparāts.
 (v18 / start.01
     :time (v1 / "Šonedēļ")
-    :location (v5 / nodaļa
-        :mod (v4 / radioloģija)
-        :mod (v2 / organization
-            :name (vg0 / name
-                :op1 "Kuldīgas slimnīca")))
     :ARG2 (v19 / darboties)
     :ARG0 (v23 / aparāts
         :mod (v20 / jauns)
         :mod (v22 / rezonanse
-            :mod (v21 / magnētisks))))
+            :mod (v21 / magnētisks)))
+    :location (v2 / organization
+        :name (vg0 / name
+            :op1 "Kuldīgas slimnīca")))
 
 # ::sent_id a-p10039-p13s2
 # ::text K.Silvestrova norādīja, ka Rendā daudzi izmanto maisus, kurus līdz piepildīšanai tur dzīvoklī vai uz balkona, tā radot antisanitāru vidi.
@@ -3371,8 +3361,8 @@
                 :ARG1 (v23 / vide
                     :mod (v22 / antisanitārs)))
             :ARG0-of (v14 / store.01
-                :ARG1 (v11 / kurš)
-                :ARG2 (v15 / dzīvoklis)))
+                :ARG2 (v15 / dzīvoklis)
+                :ARG1 v9))
         :ARG1 (v9 / maiss)))
 
 # ::sent_id a-p10039-p13s3
@@ -3385,8 +3375,7 @@
 # ::sent_id a-p10039-p13s5
 # ::text Var ierīkot mājai kopīgu tvertni, to aizslēgt, atslēgas izsniedzot katram dzīvoklim.
 (v2 / set_up.03
-    :ARG1 (v5 / tvertne
-        :mod (v4 / kopīgs)))
+    :ARG1 (v4 / kopīgs))
 
 # ::sent_id a-p10039-p13s6
 # ::text Dažās mājās šāda prakse ir, cilvēki esot apmierināti.
@@ -3567,21 +3556,16 @@
 # ::text Piedzīvojumu tūrisma filmu kategorijā balva tika taizemiešu videofilmai «Es nīstu Taizemi» («I Hate Thailand»), eko tūrisma filmu kategorijā vispārliecinošākā bija arī «Grand Prix» nopelnījusī somu «Baltās nakts maģija», bet komerciālā tūrisma kategorijā uzvarēja britu iesūtītā videofilma «Lielbritānijas skaņas» («Sounds of Great Britain»), kur Apvienotā Karaliste reklamēta kā pievilcīgs tūrisma galamērķis cilvēkiem ar netradicionālu seksuālo orientāciju.
 (v6 / get.01
     :ARG1 (v5 / balva)
-    :ARG0 (v11 / product
-        :mod (v8 / videofilma
-            :mod (v7 / taizemietis))
+    :ARG0 (v7 / taizemietis
         :name (vg0 / name
             :op1 "Es nīstu Taizeme")))
 
 # ::sent_id a-p10138-p1s1
 # ::text Pagājušajā nedēļā, lasot ziņu par Briseles centrā manītu aizdomīgu personu ziemas mētelī, no kura ārā karājās vadi, atcerējos bērnībā dzirdēto šausmu stāstu par cilvēku sarkanā mētelī.
 (v21 / remember.01
-    :ARG1 (v25 / stāsts
+    :ARG1 (v24 / šausmas
         :mod (v23 / dzirdēt)
-        :mod (v24 / šausmas)
-        :mod (v27 / cilvēks
-            :mod (v29 / mētelis
-                :mod (v28 / sarkans)))))
+        :mod (v27 / cilvēks)))
 
 # ::sent_id a-p10138-p1s2
 # ::text Viņš nez no kurienes bija ieradies manā pilsētā, soļoja pa manu ielu, tuvojās manam namam, klauvēja pie manām durvīm…
@@ -3604,7 +3588,7 @@
 # ::sent_id a-p10147-p6s1
 # ::text * Ieklausieties startera skaņā: ja tas tik tikko pagriež dzinēja kļoķvārpstu un apgriezieni ir vāji, ierīču paneļa apgaismojums satumst līdz sveces blāvumam, iespējams, ir izlādējies akumulators.
 (v10 / turn.01
-    :ARG0 (v7 / tas)
+    :ARG0 (v7 / startera)
     :ARG1 (v12 / kļoķvārpsts
         :mod (v11 / dzinējs)))
 
@@ -3646,12 +3630,11 @@
 # ::sent_id a-p10252-p1s3
 # ::text Pa tam latviešu mēle – pati attīstījusies un citu attīstīta – nodzīvojusi līdz 21. gadsimtam.
 (v12 / live.01
-    :ARG0 (v4 / mēle
-        :mod (v3 / latvietis)
-        :ARG1-of (v10 / develop.02)
-        :ARG1-of (v7 / develop.02))
     :time (v15 / date-entity
-        :century 21.))
+        :century 21.)
+    :ARG0 (v3 / latvietis
+        :ARG1-of (v10 / develop.02)
+        :ARG1-of (v7 / develop.02)))
 
 # ::sent_id a-p10257-p6s1
 # ::text 12.00 Tukumā, Brīvības laukumā, kāds 1980. gadā dzimis vīrietis pārkāpa Tiesas lēmumu par pagaidu aizsardzību pret vardarbību – pietuvojās aizsargājamai personai.
@@ -3749,11 +3732,10 @@
 # ::text Īpaši tās iecienījuši Bauskas jaunie vieglatlēti, būdami nopietni pretendenti arī uz vietām labāko trijniekā.
 (v3 / fond.01
     :ARG1 (v2 / sacensībām)
-    :ARG0 (v6 / vieglatlēts
+    :ARG0 (v5 / jauns
         :location (v4 / name
             :op1 (vg0 / "Bauska")
-            :wiki "en.wikipedia.org/wiki/Bauska")
-        :mod (v5 / jauns)))
+            :wiki "en.wikipedia.org/wiki/Bauska")))
 
 # ::sent_id a-p10389-p1s1
 # ::text Piekto gadu pēc kārtas jūlija pirmā nedēļa Jelgavas novadam iezīmējas ar novada svētkiem, kas šogad ikvienu uz Elejas muižas parku aicinās 5. jūlijā.
@@ -3786,17 +3768,13 @@
 (v24 / discover.01
     :ARG1 (v3 / varēt
         :ARG1-of (v10 / think.01
-            :ARG0 (v15 / person
-                :mod (v14 / deputāts
-                    :mod (v13 / opozīcija)
-                    :location (v11 / name
-                        :op1 (vg0 / "Jelgavas novads")
-                        :wiki "en.wikipedia.org/wiki/Jelgava_Municipality"))
+            :ARG0 (v11 / name
                 :name (vg1 / name
                     :op0 "Kārlis"
-                    :op1 "Rimša"))))
-    :ARG0 (v26 / organization
-        :mod (v25 / portāls)
+                    :op1 "Rimša")
+                :op1 (vg0 / "Jelgavas novads")
+                :wiki "en.wikipedia.org/wiki/Jelgava_Municipality")))
+    :ARG0 (v25 / portāls
         :name (vg2 / name
             :op1 "Lsm.lv")))
 
@@ -3807,8 +3785,7 @@
         :ARG0-of (v14 / entrust.01
             :ARG1 (v11 / apsējs
                 :mod (v10 / kapteinis))
-            :ARG2 (v16 / person
-                :mod (v15 / vārtsargs)
+            :ARG2 (v15 / vārtsargs
                 :name (vg2 / name
                     :op0 "Kaspars"
                     :op1 "Ikstens")
@@ -3852,18 +3829,6 @@
 # ::sent_id a-p10677-p2s1
 # ::text Valsts ugunsdzēsības un glābšanas dienesta Bauskas daļas komandieris Vadims Kuzmičs «Bauskas Dzīvei» pastāstīja, ka izsaukums uz Iecavu saņemts naktī no svētdienas, 10. jūlija, uz pirmdienu.
 (v15 / tell.01
-    :ARG0 (v9 / person
-        :mod (v8 / komandieris
-            :mod (v7 / daļa
-                :location (v6 / name
-                    :op1 (vg1 / "Bauska"))
-                :mod (v1 / organization
-                    :name (vg0 / name
-                        :op1 "Valsts ugunsdzēsības un glābšanas dienests")
-                    :wiki "lv.wikipedia.org/wiki/Valsts_ugunsdzēsības_un_glābšanas_dienests")))
-        :name (vg2 / name
-            :op0 "Vadims"
-            :op1 "Kuzmičs"))
     :ARG1 (v21 / get.01
         :ARG1 (v18 / izsaukums
             :location (v20 / name
@@ -3872,7 +3837,15 @@
         :time (v22 / "naktī no svētdienas 10. jūlija uz pirmdiena"))
     :ARG2 (v12 / product
         :name (vg3 / name
-            :op1 "Bauskas Dzīve")))
+            :op1 "Bauskas Dzīve"))
+    :ARG0 (v1 / organization
+        :name (vg2 / name
+            :op0 "Vadims"
+            :op1 "Kuzmičs")
+        :name (vg0 / name
+            :op1 "Valsts ugunsdzēsības un glābšanas dienests")
+        :wiki "lv.wikipedia.org/wiki/Valsts_ugunsdzēsības_un_glābšanas_dienests"
+        :op1 (vg1 / "Bauska")))
 
 # ::sent_id a-p10680-p6s1
 # ::text Vecumnieku novada Vecumniekos kādu 52 gadus vecu vīrieti apakšdelmā sakoda odze, savukārt tā paša novada Stelpes pagastā 74 gadus vecai kundzei mēlē iekoda lapsene.
@@ -3993,13 +3966,12 @@
             :op1 "VUGD")
         :wiki "lv.wikipedia.org/wiki/Valsts_ugunsdzēsības_un_glābšanas_dienests")
     :ARG1 (v8 / prohibit.01
-        :ARG1 (v6 / dedzināšana
-            :mod (v5 / kūla))))
+        :ARG1 (v5 / kūla)))
 
 # ::sent_id a-p10696-p5s2
 # ::text Tā apdraud cilvēku īpašumus, veselību un dzīvību.
 (v2 / endanger.01
-    :ARG0 (v1 / tā)
+    :ARG0 (v1 / kūlas)
     :ARG1 (v4 / īpašums
         :mod (v3 / cilvēks)))
 
@@ -4012,26 +3984,13 @@
 # ::sent_id a-p10696-p5s4
 # ::text Kūlas dedzināšana nodara kaitējumu dabai un bioloģiskajai daudzveidībai.
 (v3 / inflict.01
-    :ARG0 (v2 / dedzināšana
-        :mod (v1 / kūla))
     :ARG1 (v4 / kaitējums)
-    :ARG2 (v5 / daba))
+    :ARG2 (v5 / daba)
+    :ARG0 (v1 / kūla))
 
 # ::sent_id a-p10746-p4s1
 # ::text Ģenerālprokuratūras preses pārstāve Una Rēķe aģentūru LETA iepriekš informēja, ka apsūdzētais bija iegājis kādā tirdzniecības centrā, kur no somas izņēma āmuru un izsita divu juvelierizstrādājumu vitrīnu stiklus.
 (v9 / inform.01
-    :ARG0 (v4 / person
-        :mod (v3 / pārstāve
-            :mod (v1 / ģenerālprokuratūra)
-            :mod (v2 / prese))
-        :name (vg0 / name
-            :op0 "Una"
-            :op1 "Rēķe"))
-    :ARG1 (v7 / organization
-        :mod (v6 / aģentūra)
-        :name (vg1 / name
-            :op1 "LETA")
-        :wiki "en.wikipedia.org/wiki/LETA")
     :time (v8 / iepriekš)
     :ARG2 (v14 / enter.01
         :ARG0 (v12 / apsūdzēt
@@ -4040,11 +3999,18 @@
                     :mod (v28 / vitrīna
                         :mod (v27 / juvelierizstrādājums))))
             :ARG0-of (v22 / take.01
-                :location (v19 / kur)
                 :ARG2 (v21 / soma)
-                :ARG1 (v23 / āmurs)))
-        :ARG1 (v17 / centrs
-            :mod (v16 / tirdzniecība))))
+                :ARG1 (v23 / āmurs)
+                :location v16))
+        :ARG1 (v16 / tirdzniecība))
+    :ARG0 (v1 / ģenerālprokuratūra
+        :name (vg0 / name
+            :op0 "Una"
+            :op1 "Rēķe"))
+    :ARG1 (v6 / aģentūra
+        :name (vg1 / name
+            :op1 "LETA")
+        :wiki "en.wikipedia.org/wiki/LETA"))
 
 # ::sent_id a-p12694-p1s2
 # ::text Četrus mēnešus meistara Jāņa Igovena vadībā viņa akadēmiskajā meistardarbnīcā (Līkā ielā 11) sadarbībā ar Nodarbinātības valsts aģentūru (NVA) bezdarbnieku grupa apguva kokapstrādes un metālkalšanas prasmes, mācījās restaurēt, rasēt, zīmēt skices.
@@ -4094,8 +4060,7 @@
     :ARG0 (v5 / amatpersona
         :mod (v4 / augsts)
         :ARG0-of (v10 / hand_over.02
-            :ARG1 (v15 / gariņš
-                :mod (v14 / mazs)))
+            :ARG1 (v14 / mazs))
         :mod (v1 / organization
             :name (vg0 / name
                 :op1 "Valsts ieņēmumu dienests")
@@ -4106,28 +4071,26 @@
 # ::text Runā, ka arī Daugavpils nodaļas darbinieču vidū, kuras Latgales nodokļu maksātāji raksturo kā īpaši savtīgas un netaisnīgas, atrasti daži upurjēri.
 (v1 / speak.01
     :ARG1 (v21 / find.01
-        :location (v8 / vidus
-            :mod (v7 / darbiniece
-                :mod (v6 / nodaļa
-                    :location (v5 / name
-                        :op1 (vg0 / "Daugavpils")
-                        :wiki "en.wikipedia.org/wiki/Daugavpils"))))
-        :ARG1 (v23 / upurjērs)))
+        :ARG1 (v23 / upurjērs)
+        :location (v7 / darbiniece
+            :mod (v6 / nodaļa
+                :location (v5 / name
+                    :op1 (vg0 / "Daugavpils")
+                    :wiki "en.wikipedia.org/wiki/Daugavpils")))))
 
 # ::sent_id a-p12700-p1s4
 # ::text VID vadītājai Pētersonei taču jādemonstrē centība savu rindu tīrīšanā.
 (v5 / demonstrate.01
-    :ARG0 (v3 / person
-        :mod (v2 / vadītāja
-            :mod (v1 / organization
-                :name (vg0 / name
-                    :op1 "VID")
-                :wiki "lv.wikipedia.org/wiki/Valsts_ieņēmumu_dienests"))
-        :name (vg1 / name
-            :op0 "Pētersone"))
     :ARG1 (v6 / centība
         :mod (v9 / tīrīšana
-            :mod (v8 / rinda))))
+            :mod (v8 / rinda)))
+    :ARG0 (v2 / vadītāja
+        :name (vg1 / name
+            :op0 "Pētersone")
+        :mod (v1 / organization
+            :name (vg0 / name
+                :op1 "VID")
+            :wiki "lv.wikipedia.org/wiki/Valsts_ieņēmumu_dienests")))
 
 # ::sent_id a-p12700-p1s5
 # ::text Lai glābtu savu ādu, lai pasargātu augstākus priekšniekus ministrijās, Saeimā, partiju valdēs, kuri nu tēlo izbrīnu: sak, pat iedomāties nevarējām, ka tādā godīgā iestādē kā Valsts ieņēmumu dienests ieperinājušies daži (tikai daži!) zagļi un nagu maucēji, kuri bez žēlastības un līdzjūtības terorizēja iedzīvotājus par nelieliem vai vispār izdomātiem nodokļu parādiem: ak, tev ir parāds?
@@ -4137,7 +4100,7 @@
 # ::sent_id a-p12700-p1s6
 # ::text Mēs tev dzīvokli atsavināsim, zemīti atņemsim, lasies uz ārzemēm, plikadīda!
 (v7 / confiscate.01
-    :ARG0 (v1 / mēs)
+    :ARG0 (v1 / darbinieču)
     :ARG2 (v2 / tu)
     :ARG1 (v6 / zemīte))
 
@@ -4225,9 +4188,7 @@
         :mod (v2 / sacensība)
         :ARG0-of (v7 / meet.03
             :time (v4 / šonedēļ)
-            :ARG1 (v11 / person
-                :mod (v10 / vadītājs
-                    :mod (v9 / čempionāts))
+            :ARG1 (v9 / čempionāts
                 :name (vg0 / name
                     :op0 "Bērnijs"
                     :op1 "Eklstouns")
@@ -4246,7 +4207,7 @@
 # ::sent_id a-p12902-p3s2
 # ::text Diemžēl Nitišam pusfināla brauciena starts nebija veiksmīgs, jo viņš zaudēja pozīciju un bija spiests iesaistīties cīņā ar Tūrdu Linnerudu.
 (v11 / lose.02
-    :ARG0 (v10 / viņš
+    :ARG0 (v10 / Nitišam
         :ARG0-of (v16 / participate.01
             :ARG1 (v17 / cīņa
                 :mod (v19 / Tūrds))))
@@ -4270,11 +4231,9 @@
 # ::sent_id a-p12902-p3s5
 # ::text Finālbraucienā pārliecinošu sniegumu demonstrēja Nitiša komandas biedrs Andrēass Bakeruds, izcīnot uzvaru Itālijas posmā – pirmo Olsbergs MSE komandai šosezon.
 (v11 / win.01
-    :ARG0 (v8 / Andrēass
-        :mod (v7 / biedrs
-            :mod (v5 / Nitišs)
-            :mod (v6 / komanda)))
-    :ARG1 (v12 / uzvara))
+    :ARG1 (v12 / uzvara)
+    :ARG0 (v6 / komanda
+        :mod (v5 / Nitišs)))
 
 # ::sent_id a-p12902-p3s6
 # ::text Savukārt Peters Sūlbergs finišēja trešajā pozīcijā un tādejādi 2015. gada Pasaules RX čempiona titula ieguvējs tiks noskaidrots pēdējā posmā Argentīnā.
@@ -4328,16 +4287,15 @@
 (v3 / die.01
     :ARG1 (v2 / biedrs
         :ARG0-of (v9 / enjoy.01
-            :ARG1 (v8 / kas)
-            :time (v13 / diena)))
+            :time (v13 / diena)
+            :ARG1 v6))
     :time (v6 / maltīte))
 
 # ::sent_id a-p1297-p4s12
 # ::text Ja katram līdzi iedots maizes kukulītis, tad viņam tas vēl bijis pusē, kad citiem jau notiesāts.
 (v4 / give.01
     :ARG2 (v2 / katrs)
-    :ARG1 (v6 / kukulītis
-        :mod (v5 / maize)))
+    :ARG1 (v5 / maize))
 
 # ::sent_id a-p1297-p4s13
 # ::text Pēc kara Jēkabs apprecējies, bet, kad sieva aizgājusi aizsaulē, tika apņemta otra, kura nu jau arī atdusas Dieva valstībā.
@@ -4434,12 +4392,9 @@
 # ::text Piektdien ielikti Ēdoles pamatskolas sporta zāles pamati, bet tajos – kapsula ar veselīga dzīvesveida vēlējumu nākamajām paaudzēm un skolas bukletu.
 (v2 / insert.01
     :time (v1 / "Piektdien")
-    :ARG1 (v7 / pamats
-        :mod (v6 / zāle
-            :mod (v5 / sports)
-            :mod (v3 / organization
-                :name (vg0 / name
-                    :op1 "Ēdoles pamatskola")))))
+    :ARG1 (v3 / organization
+        :name (vg0 / name
+            :op1 "Ēdoles pamatskola")))
 
 # ::sent_id a-p1299-p2s1
 # ::text „Tas, kas dziļi iecerēts, pārņem visas mūsu domas un darbus, un agri vai vēlu mēs redzam to piepildāmies,” teikts vēstījumā, kuru parakstījušas amatpersonas un citi tā brīža liecinieki.
@@ -4458,23 +4413,20 @@
 # ::sent_id a-p1299-p2s3
 # ::text „Tagad galvenais ir jauno zāli dabūt zem jumta.
 (v7 / make.02
-    :ARG1 (v6 / zāle
-        :mod (v5 / jauns)))
+    :ARG1 (v5 / jauns))
 
 # ::sent_id a-p1299-p2s4
 # ::text Un vēl – lai tā ir uzcelta kvalitatīvi.
 (v7 / build.01
-    :ARG1 (v5 / tā))
+    :ARG1 (v5 / jauno))
 
 # ::sent_id a-p1299-p2s5
 # ::text Kolektīvs to ļoti gaida,” saka skolas direktors Aigars Matevičs.
 (v7 / say.01
     :ARG1 (v4 / wait.01
         :ARG1 (v1 / kolektīvs)
-        :ARG2 (v2 / tā))
-    :ARG0 (v10 / person
-        :mod (v9 / direktors
-            :mod (v8 / skola))
+        :ARG2 (v2 / jauno))
+    :ARG0 (v8 / skola
         :name (vg0 / name
             :op0 "Aigars"
             :op1 "Matevičs")))
@@ -4505,8 +4457,7 @@
 (v11 / explain.01
     :ARG1 (v4 / cancel.01
         :ARG1 (v3 / sūdzību))
-    :ARG0 (v13 / person
-        :mod (v12 / būvuzraugs)
+    :ARG0 (v12 / būvuzraugs
         :name (vg0 / name
             :op0 "Raimonds"
             :op1 "Kalējs")))
@@ -4514,7 +4465,7 @@
 # ::sent_id a-p1299-p3s4
 # ::text Pamatu liešanas dienā viņš ar fotoaparātu bija klāt un pārbaudīja, vai pareizi ielikta armatūra.
 (v7 / be.02
-    :ARG1 (v4 / viņš
+    :ARG1 (v4 / būvuzraugs
         :ARG0-of (v10 / check.01
             :ARG2 (v14 / insert.01
                 :ARG1 (v15 / armatūra)))))
@@ -4623,12 +4574,11 @@
 # ::sent_id a-p1309-p8s1
 # ::text Apgādam Jumava pieder arī grāmatu izdevniecība, kas ļaus veidot ciešāku saikni starp lasītājiem un autoriem, rīkojot tikšanās ne vien Rīgā, bet arī rajonu grāmatnīcās un attīstot aktīvāku viedokļu apmaiņu.
 (v3 / belong.01
-    :ARG1 (v2 / organization
-        :mod (v1 / apgāds)
-        :name (vg0 / name
-            :op1 "Jumava"))
     :ARG0 (v6 / izdevniecība
-        :mod (v5 / grāmata)))
+        :mod (v5 / grāmata))
+    :ARG1 (v1 / apgāds
+        :name (vg0 / name
+            :op1 "Jumava")))
 
 # ::sent_id a-p1309-p8s2
 # ::text Tagad arī Kuldīgā pusaudži varēs apmeklēt Potera klubiņu.
@@ -4648,13 +4598,12 @@
 # ::text Drīzumā klajā nāks apvienoto grāmatnīcu pirmā avīze Juze, kas informēs par jaunumiem.
 (v3 / come_out.09
     :time (v1 / drīzumā)
-    :ARG1 (v8 / product
-        :mod (v7 / avīze
-            :mod (v5 / grāmatnīca
-                :mod (v4 / apvienot))
-            :mod (v6 / pirmais))
+    :ARG1 (v7 / avīze
         :name (vg0 / name
-            :op1 "Juze")))
+            :op1 "Juze")
+        :mod (v5 / grāmatnīca
+            :mod (v4 / apvienot))
+        :mod (v6 / pirmais)))
 
 # ::sent_id a-p1309-p9s1
 # ::text Ieguvēji būs lasītāji, sola gan J.Visockis, gan V.Gobzeme.
@@ -4707,23 +4656,18 @@
 # ::sent_id a-p13504-p2s4
 # ::text Šķidrās ziepes rokām Kitchen satur dabīgu citruseļļu, kas piešķir produktam svaigu aromātu.
 (v5 / contain.01
-    :ARG0 (v4 / product
-        :mod (v2 / ziepes
-            :mod (v1 / šķidrs)
-            :mod (v3 / roka))
-        :name (vg0 / name
-            :op1 "Kitchen"))
     :ARG1 (v7 / citruseļļa
-        :mod (v6 / dabīgs)))
+        :mod (v6 / dabīgs))
+    :ARG0 (v1 / šķidrs
+        :name (vg0 / name
+            :op1 "Kitchen")))
 
 # ::sent_id a-p13504-p2s5
 # ::text Savukārt virtuves ziepēm ar salviju piemīt svaiga smarža, kurā jūtams ārstniecības augu aromāts.
 (v6 / belong.01
-    :ARG1 (v3 / ziepes
-        :mod (v2 / virtuve)
-        :mod (v5 / salvija))
     :ARG0 (v8 / smarža
-        :mod (v7 / svaigs)))
+        :mod (v7 / svaigs))
+    :ARG1 (v2 / virtuve))
 
 # ::sent_id a-p13504-p2s6
 # ::text Šīs abas roku ziepes no rokām likvidē zivju un sīpolu aromātu.
@@ -4773,8 +4717,7 @@
     :ARG0 (v2 / vecāki
         :ARG0-of (v6 / give.01
             :ARG2 (v5 / bērns)
-            :ARG1 (v10 / dārzenis
-                :mod (v7 / marinēt)))
+            :ARG1 (v7 / marinēt))
         :ARG0-of (v12 / think.01
             :ARG1 (v20 / nobriest)))
     :ARG1 v6)
@@ -4782,10 +4725,9 @@
 # ::sent_id a-p13598-p11s2
 # ::text Patiesībā nelielos daudzumos marinēta un konservēta pārtika nenodarīs kaitējumu – bērns, sākot no aptuveni 2 gadu vecuma, droši var apēst, piemēram, mazu, konservētu gurķīti.
 (v8 / inflict.01
-    :ARG0 (v7 / pārtika
-        :mod (v4 / marinēt))
     :ARG1 (v9 / kaitējums)
-    :polarity -)
+    :polarity -
+    :ARG0 (v4 / marinēt))
 
 # ::sent_id a-p13598-p11s4
 # ::text Tiklīdz produkts tiek marinēts vai konservēts, tam strauji zūd vitamīnu un minerālvielu daudzums.
@@ -4827,33 +4769,30 @@
 # ::sent_id a-p14117-p9s1
 # ::text Pirmo reizi poliuretāna putas kā siltinātāju izmantoja Amerikas Savienotajās Valstīs un Kanādā.
 (v7 / use.01
-    :ARG1 (v4 / putas
-        :mod (v3 / poliuretāns))
     :ARG2 (v6 / siltinātājs)
     :location (v9 / name
         :op1 (vg0 / "Amerikas Savienotās Valstis")
-        :wiki "en.wikipedia.org/wiki/United_States"))
+        :wiki "en.wikipedia.org/wiki/United_States")
+    :ARG1 (v3 / poliuretāns))
 
 # ::sent_id a-p14117-p9s2
 # ::text Poliuretāna putas var izmantot grūti sasniedzamo vietu siltināšanai.
 (v4 / use.01
-    :ARG1 (v2 / putas
-        :mod (v1 / poliuretāns))
     :ARG2 (v8 / siltināšana
         :mod (v7 / vieta
-            :mod (v6 / sasniegt))))
+            :mod (v6 / sasniegt)))
+    :ARG1 (v1 / poliuretāns))
 
 # ::sent_id a-p14117-p9s3
 # ::text Gadījumā, ja mājas jumts ir vecs un noklāts ar ruberoīdu, to var savest kārtībā, izmantojot izsmidzināmās poliuretāna putas.
 (v18 / use.01
-    :ARG1 (v21 / putas
-        :mod (v19 / izsmidzināt)
-        :mod (v20 / poliuretāns)))
+    :ARG1 (v20 / poliuretāns
+        :mod (v19 / izsmidzināt)))
 
 # ::sent_id a-p14117-p9s5
 # ::text Tieši šā iemesla dēļ tās izmanto arī hidroizolācijas darbiem bēniņos vai pagrabā.
 (v6 / use.01
-    :ARG1 (v5 / tā)
+    :ARG1 (v5 / poliuretāna)
     :ARG2 (v9 / darbs
         :mod (v8 / hidroizolācija)
         :mod (v10 / bēniņi)))
@@ -5171,8 +5110,7 @@
         :ARG0 (v7 / darbinieks
             :mod (v6 / sektors
                 :mod (v5 / valsts)))
-        :ARG1 (v12 / prēmija
-            :mod (v11 / "Ziemassvētks"))))
+        :ARG1 (v11 / "Ziemassvētks")))
 
 # ::sent_id a-p14382-p3s2
 # ::text Šis pasākums savulaik izraisīja neapmierināto protestus ielās.
@@ -5186,11 +5124,8 @@
 # ::sent_id a-p14382-p5s1
 # ::text Valsts sektora darbinieku algas tika samazinātas 2010.gadā sociālistu valdības laikā.
 (v6 / diminish.01
-    :ARG1 (v4 / alga
-        :mod (v3 / darbinieks
-            :mod (v2 / sektors
-                :mod (v1 / valsts))))
-    :time (v11 / laiks))
+    :time (v11 / laiks)
+    :ARG1 (v1 / valsts))
 
 # ::sent_id a-p14382-p5s2
 # ::text Nākamajos gados tās tika iesaldētas, jo Spānijā turpinājās recesija, kuru izraisīja celtniecības nozares sabrukums.
@@ -5218,8 +5153,7 @@
             :ARG0-of (v11 / strengthen.01
                 :ARG1 (v12 / neatkarība)))
         :ARG2 v5)
-    :ARG2 (v17 / person
-        :mod (v16 / prezidente)
+    :ARG2 (v16 / prezidente
         :name (vg0 / name
             :op0 "Daļa"
             :op1 "Grībauskaite")
@@ -5263,22 +5197,19 @@
 # ::text Precēts pāris no Rīgas "Viking Lotto" 29.jūlija izlozē, uzminot piecus skaitļus un papildskaitli ("5+1"), laimēja 20 651 eiro, aģentūru LETA informēja VAS "Latvijas Loto" Mārketinga daļas vadītāja Aiga Roziņa.
 (v32 / inform.01
     :ARG2 (v26 / laimēt)
-    :ARG1 (v31 / organization
-        :mod (v30 / aģentūra)
+    :ARG1 (v30 / aģentūra
         :name (vg0 / name
             :op1 "LETA"))
-    :ARG0 (v41 / person
-        :mod (v40 / vadītāja
-            :mod (v38 / organization
-                :mod (v33 / organization
-                    :name (vg1 / name
-                        :op1 "VAS Latvijas Loto")
-                    :wiki "lv.wikipedia.org/wiki/Latvijas_Loto")
-                :name (vg2 / name
-                    :op1 "Mārketinga daļa")))
+    :ARG0 (v38 / organization
         :name (vg3 / name
             :op0 "Aiga"
-            :op1 "Roziņa")))
+            :op1 "Roziņa")
+        :mod (v33 / organization
+            :name (vg1 / name
+                :op1 "VAS Latvijas Loto")
+            :wiki "lv.wikipedia.org/wiki/Latvijas_Loto")
+        :name (vg2 / name
+            :op1 "Mārketinga daļa")))
 
 # ::sent_id a-p14462-p3s1
 # ::text Roziņa atzīmēja, ka tā ir devītā reize šogad, kad kādam ir izdevies uzminēt piecus skaitļus un papildskaitli, laimējot vairāk nekā 20 000 eiro vērtu laimestu.
@@ -5293,19 +5224,16 @@
 # ::text Jūrmalā, Kauguros, pagaidām nenoskaidroti vandaļi nolauzuši 13 liepiņas, kas nesen bija iestādītas gar jaunbūvējamo gājēju ietvi un veloceliņu, aģentūrai LETA pastāstīja Jūrmalas Pašvaldības policijas priekšnieks Valdis Kivkucāns.
 (v25 / tell.01
     :ARG1 (v8 / nolauzt)
-    :ARG2 (v24 / organization
-        :mod (v23 / aģentūra)
+    :ARG2 (v23 / aģentūra
         :name (vg0 / name
             :op1 "LETA")
         :wiki "en.wikipedia.org/wiki/LETA")
-    :ARG0 (v30 / person
-        :mod (v29 / priekšnieks
-            :mod (v26 / organization
-                :name (vg1 / name
-                    :op1 "Jūrmalas Pašvaldības policija")))
+    :ARG0 (v26 / organization
         :name (vg2 / name
             :op0 "Valdis"
-            :op1 "Kivkucāns")))
+            :op1 "Kivkucāns")
+        :name (vg1 / name
+            :op1 "Jūrmalas Pašvaldības policija")))
 
 # ::sent_id a-p14477-p10s2
 # ::text Raimonds Graumanis svara kategorijā līdz 81 kilogramam cieta zaudējumu jau pirmajā cīņā.
@@ -5328,10 +5256,9 @@
 # ::sent_id a-p14477-p10s4
 # ::text Tiesa, arī tajā Latvijas sportiste zaudēja.
 (v7 / lose.03
-    :ARG1 (v4 / tā)
-    :ARG0 (v6 / sportiste
-        :location (v5 / name
-            :op1 (vg0 / "Latvija"))))
+    :ARG1 (v4 / gandarījuma)
+    :ARG0 (v5 / name
+        :op1 (vg0 / "Latvija")))
 
 # ::sent_id a-p14477-p4s2
 # ::text Tikmēr 13 punktus guva un piecas bumbas zem groziem izcīnīja Artūrs Kurucs.
@@ -5380,9 +5307,8 @@
 # ::sent_id a-p17261-p4s1
 # ::text Mājās, kurās visi dzīvokļi ir privatizēti vai privatizēta ir daļa dzīvokļu un pārējie ir Kuldīgas novada pašvaldības īpašums, dzīvokļu īpašniekiem būs jāsasauc kopsapulce, kurā kopīgi jāizlemj par savas mājas turpmāko apsaimniekošanu.
 (v24 / summon.01
-    :ARG0 (v22 / īpašnieks
-        :mod (v21 / dzīvoklis))
-    :ARG1 (v25 / kopsapulce))
+    :ARG1 (v25 / kopsapulce)
+    :ARG0 (v21 / dzīvoklis))
 
 # ::sent_id a-p17261-p4s2
 # ::text Iespējamie varianti ir slēgt pilnvarojuma līgumu ar "Kuldīgas komunālajiem pakalpojumiem", dibināt dzīvokļu īpašnieku biedrību, pilnvarot māju apsaimniekot kādam no dzīvokļu īpašniekiem (tikai tajās mājās, kurās kopējā platība nav lielāka par 1500 kvadrātmetriem) vai slēgt pilnvarojuma līgumu ar kādu citu apsaimniekotāju uzņēmumu.
@@ -5564,7 +5490,7 @@
 # ::sent_id a-p2968-p10s1
 # ::text Ja cilvēks necenšas realizēt savus mērķus, tie zaudē savu aktualitāti un noteiktību.
 (v9 / lose.02
-    :ARG0 (v8 / tas)
+    :ARG0 (v8 / mērķus)
     :ARG1 (v11 / aktualitāte))
 
 # ::sent_id a-p2968-p10s2
@@ -5583,7 +5509,7 @@
 # ::text Ja pastāvīgi ļausim izdevībai paslīdēt garām, necenšoties to satvert, mūsu tieksme uz priekšu kļūst aizvien vārgāka un nevarīgāka.
 (v8 / attempt.01
     :ARG1 (v10 / grasp.01
-        :ARG1 (v9 / tas))
+        :ARG1 (v9 / izdevībai))
     :polarity -)
 
 # ::sent_id a-p2968-p5s1
@@ -5601,7 +5527,7 @@
 # ::sent_id a-p2968-p5s2
 # ::text Viņš ievēroja, ka valstī dzīvo ļoti daudz cilvēku, kuru mājās ir ļoti trūcīgs apgaismojums.
 (v2 / notice.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Džons)
     :ARG1 (v6 / reside.01
         :ARG1 (v5 / valsts)
         :ARG0 (v9 / cilvēks)))
@@ -5623,7 +5549,7 @@
     :time (v15 / date-entity
         :year 1870.
         :time-of (v22 / sell.01
-            :ARG0 (v16 / viņš
+            :ARG0 (v16 / Džons
                 :ARG0-of (v28 / use.01
                     :ARG1 (v30 / process
                         :mod (v29 / rafinēšana)))
@@ -5644,8 +5570,7 @@
     :ARG1 (v5 / process
         :mod (v3 / maztilpuma)
         :mod (v4 / rafinēšana))
-    :ARG4 (v20 / organization
-        :mod (v19 / kompānija)
+    :ARG4 (v19 / kompānija
         :name (vg0 / name
             :op1 "Standart Oil")
         :wiki "en.wikipedia.org/wiki/Standard_Oil"))
@@ -5653,16 +5578,15 @@
 # ::sent_id a-p2968-p5s7
 # ::text Misters Rokfellers laika gaitā kļuva par vienu no modernās pasaules bagātākajiem cilvēkiem.
 (v5 / become.01
-    :ARG1 (v2 / person
-        :mod (v1 / misters)
-        :name (vg0 / name
-            :op0 "Rokfellers")
-        :wiki "en.wikipedia.org/wiki/John_D._Rockefeller")
     :ARG2 (v7 / viens
         :mod (v12 / cilvēks
             :mod (v10 / pasaule
                 :mod (v9 / moderns))
-            :mod (v11 / bagāts))))
+            :mod (v11 / bagāts)))
+    :ARG1 (v1 / misters
+        :name (vg0 / name
+            :op0 "Rokfellers")
+        :wiki "en.wikipedia.org/wiki/John_D._Rockefeller"))
 
 # ::sent_id a-p2969-p6s1
 # ::text Tikai tas komandieris uzvar karā, kas jau labu laiku iepriekš ir nostādījis skaidrus mērķus.
@@ -5688,7 +5612,7 @@
 # ::sent_id a-p2969-p6s4
 # ::text Napoleona Bonaparta pārliecinošās uzvaras iemesls bija koncentrācija un mērķa skaidrība, protams, viņam piemita arī milzīga drosme.
 (v15 / belong.01
-    :ARG1 (v14 / viņš)
+    :ARG1 (v14 / Napoleona)
     :ARG0 (v18 / drosme
         :mod (v17 / milzīgs)))
 
@@ -5782,7 +5706,7 @@
 # ::sent_id a-p3330-p2s6
 # ::text Īpaši viņa tam pievērsās, kad aizgāja pensijā.
 (v4 / take_up.31
-    :ARG0 (v2 / viņa)
+    :ARG0 (v2 / vecmāmiņa)
     :ARG1 (v3 / tas))
 
 # ::sent_id a-p3330-p2s8
@@ -5804,12 +5728,11 @@
 # ::text Liepājas teātris man ir ļoti būtisks arī tāpēc, ka tur satiku savu pirmo vīru Māri Putniņu – scenāristu, producentu, multiplikāciju filmu mākslinieku.
 (v12 / meet.02
     :location (v11 / tur)
-    :ARG1 (v16 / person
-        :mod (v15 / vīrs
-            :mod (v14 / pirmais))
+    :ARG1 (v15 / vīrs
         :name (vg0 / name
             :op0 "Māris"
-            :op1 "Putniņš")))
+            :op1 "Putniņš")
+        :mod (v14 / pirmais)))
 
 # ::sent_id a-p3332-p10s10
 # ::text Bet kā lai es turos pretī?!
@@ -5838,7 +5761,7 @@
 # ::sent_id a-p3332-p10s2
 # ::text Toreiz viņš bija Liepājas teātra aktieris, turklāt ļoti talantīgs – viņš spēlēja ģitāru, sacerēja dziesmas, zīmēja.
 (v13 / play.01
-    :ARG0 (v12 / viņš
+    :ARG0 (v12 / aktieris
         :ARG0-of (v16 / compose.02
             :ARG1 (v17 / dziesma))
         :ARG0-of (v19 / draw.01))
@@ -5847,7 +5770,7 @@
 # ::sent_id a-p3332-p10s3
 # ::text Kad iepazinos ar viņu, Māris bija precējies, viņam bija meita.
 (v11 / have.03
-    :ARG0 (v10 / viņš)
+    :ARG0 (v10 / Māris)
     :ARG1 (v12 / meita))
 
 # ::sent_id a-p3332-p10s4
@@ -5859,7 +5782,7 @@
 # ::sent_id a-p3332-p10s5
 # ::text Un, kad mēs iepazināmies, viņš sāka mani lenkt.
 (v8 / start.01
-    :ARG0 (v7 / viņš)
+    :ARG0 (v7 / vīru)
     :ARG2 (v10 / lenkt))
 
 # ::sent_id a-p3332-p10s6
@@ -5871,7 +5794,7 @@
 # ::sent_id a-p3332-p10s8
 # ::text Turklāt viņš ļoti labi mācēja “pūderēt smadzenes”.
 (v5 / know.03
-    :ARG0 (v2 / viņš)
+    :ARG0 (v2 / vīru)
     :ARG1 (v7 / pūderēt))
 
 # ::sent_id a-p3332-p10s9
@@ -5938,7 +5861,7 @@
 (v13 / understand.01
     :time (v9 / šodien)
     :ARG0 (v11 / es)
-    :ARG1 (v12 / viņš))
+    :ARG1 (v12 / tēva))
 
 # ::sent_id a-p3332-p7s7
 # ::text Ja mans dēls 15 gadu vecumā būtu aizgājis no mājām, tas būtu ārprāts!
@@ -6032,7 +5955,7 @@
 # ::sent_id a-p3404-p6s4
 # ::text Vīrietis gādā par mājas un ģimenes drošību, viņš ir gatavs sagādāt ģimenei visu nepieciešamo.
 (v12 / provide.01
-    :ARG0 (v9 / viņš)
+    :ARG0 (v9 / Vīrietis)
     :ARG2 (v13 / ģimene)
     :ARG1 (v15 / nepieciešams))
 
@@ -6041,16 +5964,14 @@
 (v4 / attend.01
     :ARG0 (v2 / vīrietis
         :ARG0-of (v18 / use.01
-            :ARG1 (v22 / spēja
-                :mod (v21 / uztvere
-                    :mod (v20 / telpisks)))))
+            :ARG1 (v20 / telpisks)))
     :ARG1 (v5 / medības))
 
 # ::sent_id a-p3404-p6s6
 # ::text Vīrietim ļoti svarīgs ir iznākums, tāpēc vīriešiem arī hobiji ir tādi, kur viņi var ieraudzīt rezultātu un to salīdzināt ar pārējo vīriešu rezultātiem.
 (v16 / able.01
     :location (v14 / kur)
-    :ARG1 (v15 / viņš
+    :ARG1 (v15 / vīriešiem
         :ARG0-of (v17 / see.01
             :ARG1 (v18 / rezultāts)
             :ARG2-of v16)))
@@ -6116,14 +6037,12 @@
 # ::sent_id a-p3732-p10s1
 # ::text Savukārt pašvaldības aģentūrā "Kultūra" ir konstatēts, ka 8000 latu ir izlietoti atlīdzībai saskaņā ar uzņēmuma līgumu par sabiedrisko attiecību speciālista pienākumu veikšanu, nenodrošinot darbu izpildes apjoma un kvalitātes kontroli.
 (v8 / ascertain.01
-    :location (v5 / organization
-        :mod (v3 / aģentūra
-            :mod (v2 / pašvaldība))
-        :name (vg0 / name
-            :op1 "Kultūra"))
     :ARG1 (v14 / use_up.04
         :ARG1 (v12 / lats)
-        :ARG2 (v15 / atlīdzība)))
+        :ARG2 (v15 / atlīdzība))
+    :location (v2 / pašvaldība
+        :name (vg0 / name
+            :op1 "Kultūra")))
 
 # ::sent_id a-p3732-p10s2
 # ::text Aģentūra ir veikusi arī samaksu par darbinieku atvaļinājuma un brīvdienu laikā izlietoto degvielu 300 latu apmērā.
@@ -6153,10 +6072,15 @@
 # ::sent_id a-p3732-p2s2
 # ::text Vides aizsardzības un reģionālās attīstības ministrs Edmunds Sprūdžs (RP) rīt tiksies ar Jelgavas mēru Andri Rāviņu (ZZS), lai uzklausītu skaidrojumus par Valsts kontroles revīzijā atklātajiem normatīvo aktu pārkāpumiem un nepilnībām, aģentūru LETA informēja ministrijas sabiedrības informēšanas nodaļā.
 (v13 / meet.03
-    :ARG0 (v7 / person
-        :mod (v6 / ministrs
-            :mod (v2 / aizsardzība
-                :mod (v1 / vide)))
+    :ARG2-of (v39 / inform.01
+        :location (v43 / nodaļa
+            :mod (v40 / ministrija)
+            :mod (v42 / informēšana
+                :mod (v41 / sabiedrība)))
+        :ARG1 (v37 / aģentūra
+            :name (vg3 / name
+                :op1 "LETA")))
+    :ARG0 (v1 / vide
         :ARG0-of (v24 / listen.01
             :ARG1 (v25 / skaidrojums
                 :mod (v33 / pārkāpums
@@ -6166,22 +6090,11 @@
         :name (vg0 / name
             :op0 "Edmunds"
             :op1 "Sprūdžs"))
-    :ARG1 (v17 / person
-        :mod (v16 / mērs
-            :location (v15 / name
-                :op1 (vg1 / "Jelgava")))
+    :ARG1 (v15 / name
         :name (vg2 / name
             :op0 "Andris"
-            :op1 "Rāviņš"))
-    :ARG2-of (v39 / inform.01
-        :ARG1 (v38 / organization
-            :mod (v37 / aģentūra)
-            :name (vg3 / name
-                :op1 "LETA"))
-        :location (v43 / nodaļa
-            :mod (v40 / ministrija)
-            :mod (v42 / informēšana
-                :mod (v41 / sabiedrība)))))
+            :op1 "Rāviņš")
+        :op1 (vg1 / "Jelgava")))
 
 # ::sent_id a-p3732-p3s1
 # ::text Jau ziņots, ka Valsts kontrole revīzijā Jelgavas pilsētas pašvaldības aģentūrās konstatējusi nepamatotus tēriņus vairāk nekā 50 000 latu apmērā.
@@ -6206,9 +6119,7 @@
 (v4 / use.01
     :ARG1 (v2 / līdzeklis
         :mod (v1 / finanses))
-    :location (v8 / organization
-        :mod (v6 / aģentūra
-            :mod (v5 / pašvaldība))
+    :location (v5 / pašvaldība
         :name (vg0 / name
             :op1 "Pilsētsaimniecība")))
 
@@ -6258,17 +6169,16 @@
 # ::sent_id a-p3732-p8s1
 # ::text Kā atklājusi Valsts kontrole, aģentūra "Pilsētsaimniecība" ir izlietojusi 36 000 latu atlīdzībai un valsts sociālās apdrošināšanas iemaksām par laiku, kurā darbinieki neveica pamatdarba pienākumus, bet piedalījās projekta "Pašvaldības un privātās partnerības veicināšana Jelgavas pilsētas ielu apsaimniekošanā" īstenošanā, par ko saņēma atlīdzību no projekta līdzekļiem.
 (v11 / use_up.04
-    :ARG0 (v8 / organization
-        :mod (v6 / aģentūra)
-        :name (vg1 / name
-            :op1 "Pilsētsaimniecība"))
     :ARG1 (v13 / lats)
     :ARG2 (v14 / atlīdzība
         :mod (v21 / laiks))
     :ARG1-of (v2 / discover.01
         :ARG0 (v3 / organization
             :name (vg0 / name
-                :op1 "Valsts kontrole"))))
+                :op1 "Valsts kontrole")))
+    :ARG0 (v6 / aģentūra
+        :name (vg1 / name
+            :op1 "Pilsētsaimniecība")))
 
 # ::sent_id a-p3732-p8s2
 # ::text Bet vairāk nekā 3500 latu "Pilsētsaimniecība" izlietojusi, samaksājot par tādu ielu labošanas darbu veikšanu, kuri komersantam saskaņā ar līgumu bija jāveic par saviem līdzekļiem.
@@ -6342,13 +6252,12 @@
     :ARG1 (v4 / kandidatūra
         :mod (v3 / person
             :name (vg0 / name
-                :op0 "Kūtris")))
-    :ARG0 (v7 / person
-        :mod (v6 / tiesnesis)
-        :ARG0-of (v10 / indicate.01
-            :ARG1 (v16 / get.01
-                :ARG1 (v17 / atsaucība)
-                :ARG0 v3))
+                :op0 "Kūtris")
+            :ARG0-of (v16 / get.01
+                :ARG1-of v10
+                :ARG1 (v17 / atsaucība))))
+    :ARG0 (v6 / tiesnesis
+        :ARG0-of (v10 / indicate.01)
         :name (vg1 / name
             :op0 "Uldis"
             :op1 "Ķinis")))
@@ -6555,7 +6464,7 @@
 # ::sent_id a-p3739-p4s2
 # ::text Viņš gan atturas prognozēt, vai šogad gaidāms vēl kāds apvienošanās darījums.
 (v3 / refrain.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / Semjonovs
         :ARG0-of (v4 / forecast.01
             :ARG1 (v8 / expect.01
                 :time (v7 / šogad)
@@ -6574,7 +6483,7 @@
 # ::text Viņi vērtē piegādes loģistiku, degvielas krājumu uzglabāšanas izmaksas un citus faktorus un problēmas redz citā rakursā," uzsver eksperts.
 (v20 / emphasize.01
     :ARG1 (v2 / evaluate.01
-        :ARG0 (v1 / viņš
+        :ARG0 (v1 / uzņēmēji
             :ARG0-of (v15 / see.01
                 :ARG1 (v14 / problēma)))
         :ARG1 (v4 / loģistika
@@ -6586,7 +6495,7 @@
 (v36 / emphasize.01
     :ARG1 (v12 / reside.01
         :ARG1 (v10 / tur)
-        :ARG0 (v11 / viņš))
+        :ARG0 (v11 / uzņēmējam))
     :ARG2 (v37 / person
         :name (vg0 / name
             :op0 "Semjonovs")))
@@ -6616,36 +6525,31 @@
         :ARG1-of (v2 / report.01)
         :ARG0 (v6 / organization
             :name (vg0 / name
-                :op1 "Konkurences padome")))
-    :ARG0 (v39 / informācija
-        :mod (v38 / organization
+                :op1 "Konkurences padome")
             :name (vg2 / name
-                :op1 "KP"))))
+                :op1 "KP")))
+    :ARG0 (v39 / informācija
+        :mod v6))
 
 # ::sent_id a-p3739-p6s2
 # ::text Apvienojoties šo mazumtirgotāju degvielas uzpildes staciju (DUS) tīkls sasniegtu 57 stacijas, savukārt patlaban pēc skaita otrs lielākais DUS tīkls Latvijā - 56 stacijas - ir "Neste Oil".
 (v11 / reach.01
     :ARG0 (v10 / tīkls
         :mod (v3 / mazumtirgotājs)
-        :mod (v6 / stacija
-            :mod (v5 / uzpilde
-                :mod (v4 / degviela))))
+        :mod (v4 / degviela))
     :ARG1 (v13 / stacija))
 
 # ::sent_id a-p3739-p7s1
 # ::text Latvijas Degvielas tirgotāju asociācijas padomes priekšsēdētājs Ojārs Karčevskis biznesa portālam "Nozare.lv" iepriekš jau uzsvēra, ka kompāniju paplašināšanās process ir nepārtraukts, jo savulaik DUS piederējušas vairāk nekā 200 juridisku personu.
 (v16 / emphasize.01
-    :ARG2 (v7 / person
-        :mod (v6 / priekšsēdētājs
-            :mod (v5 / padome
-                :mod (v1 / organization
-                    :name (vg0 / name
-                        :op1 "Latvijas Degvielas tirgotāju asociācija"))))
+    :ARG1 (v23 / pārtraukt
+        :polarity -)
+    :ARG2 (v1 / organization
         :name (vg1 / name
             :op0 "Ojārs"
-            :op1 "Karčevskis"))
-    :ARG1 (v23 / pārtraukt
-        :polarity -))
+            :op1 "Karčevskis")
+        :name (vg0 / name
+            :op1 "Latvijas Degvielas tirgotāju asociācija")))
 
 # ::sent_id a-p3739-p8s1
 # ::text Kā liecina Valsts ieņēmumu dienesta Akcīzes pārvaldes apkopotie rādītāji par akcīzes preču apriti 2012.gada pirmajā ceturksnī, pēc degvielas mazumtirdzniecības pārdošanas datiem "Aparts" ierindota 7.vietā, "Ruslatnafta" - 11.vietā, bet "Akselss" - 13.vietā.
@@ -6679,12 +6583,10 @@
         :ARG1 (v7 / piekļuve
             :mod (v6 / brīvs)
             :mod (v14 / manta
-                :mod (v11 / organization
-                    :mod (v9 / fabrika
-                        :mod (v8 / putns))
+                :mod (v13 / kustēt)
+                :mod (v8 / putns
                     :name (vg1 / name
-                        :op1 "Ķekava"))
-                :mod (v13 / kustēt)))
+                        :op1 "Ķekava"))))
         :ARG0 (v2 / organization
             :name (vg0 / name
                 :op1 "Nordea banka")))
@@ -6743,12 +6645,11 @@
 # ::sent_id a-p3745-p2s5
 # ::text Vaicāts, kas šajā biznesā ir aizraujošākais, dibinātājs Kaspars Ritums saka katru reizi cits klients un atšķirīgas vajadzības.
 (v12 / say.01
-    :ARG0 (v10 / person
-        :mod (v9 / dibinātājs)
+    :ARG1 (v16 / klients)
+    :ARG0 (v9 / dibinātājs
         :name (vg0 / name
             :op0 "Kaspars"
-            :op1 "Ritums"))
-    :ARG1 (v16 / klients))
+            :op1 "Ritums")))
 
 # ::sent_id a-p3752-p2s1
 # ::text "Dienas Bizness" vēsta, ka "LMT" klientu bāze samazinājusies par 22,5 tūkstošiem, bet sīvais konkurents "Tele2" par 22,8 tūkstošiem lietotāju piepulcinājis.
@@ -6775,16 +6676,13 @@
 # ::sent_id a-p3752-p2s3
 # ::text "LMT" preses sekretāre Elīna Lidere norāda, ka pēdējos gados uzņēmuma klientu skaits ir bijis stabils, lai gan to ik pa laikam ietekmē priekšapmaksas karšu lietotāji.
 (v8 / indicate.01
-    :ARG0 (v6 / person
-        :mod (v5 / sekretāre
-            :mod (v2 / organization
-                :name (vg0 / name
-                    :op1 "LMT"))
-            :mod (v4 / prese))
+    :ARG1 (v18 / stabils)
+    :ARG0 (v2 / organization
         :name (vg1 / name
             :op0 "Elīna"
-            :op1 "Lidere"))
-    :ARG1 (v18 / stabils))
+            :op1 "Lidere")
+        :name (vg0 / name
+            :op1 "LMT")))
 
 # ::sent_id a-p3752-p2s4
 # ::text Tomēr, kā norāda Latvijas Telekomunikāciju asociācijas izpilddirektors Jānis Lelis, trīs gadu perspektīvā, salīdzinot šā brīža datus ar 2010. gadu, "LMT" klientu skaits palielinājies par 1,8 tūkstošiem, bet "Tele2" par 16,6 tūkstošiem lietotāju.
@@ -6796,14 +6694,12 @@
                     :op1 "LMT"))))
     :ARG2 (v32 / tūkstotis)
     :ARG1-of (v4 / indicate.01
-        :ARG0 (v9 / person
-            :mod (v8 / izpilddirektors
-                :mod (v5 / organization
-                    :name (vg0 / name
-                        :op1 "Latvijas Telekomunikāciju asociācija")))
+        :ARG0 (v5 / organization
             :name (vg1 / name
                 :op0 "Jānis"
-                :op1 "Lelis"))))
+                :op1 "Lelis")
+            :name (vg0 / name
+                :op1 "Latvijas Telekomunikāciju asociācija"))))
 
 # ::sent_id a-p3754-p10s1
 # ::text „ZAAO" veic arī sabiedrības izglītošanu.
@@ -6869,9 +6765,7 @@
 # ::text To veido pamatā dabas resursu nodoklis, kas ar katru gadu palielinās, izmaksas par atkritumu savākšanu un transportēšanu, izmaksas par dalīto atkritumu infrastruktūras ieviešanu un uzturēšanu, kā arī par atkritumu noglabāšanu attiecīgā reģiona poligonā.
 (v2 / consist.01
     :ARG1 (v1 / Maksa)
-    :ARG2 (v6 / nodoklis
-        :mod (v4 / daba)
-        :mod (v5 / resursi)))
+    :ARG2 (v4 / daba))
 
 # ::sent_id a-p3754-p13s1
 # ::text Ģirts Kuplais: Ja runājam konkrēti par poligoniem, piemēram, „Daibē" ir attīrīšanas iekārtas un tās attīra infiltrātu, kas veidojas no noglabātajiem atkritumiem.
@@ -7091,7 +6985,7 @@
 # ::sent_id a-p3754-p21s1
 # ::text Ģirts Kuplais: Es domāju, ka vismaz pusmiljonu latu.
 (v5 / think.01
-    :ARG0 (v4 / es)
+    :ARG0 (v4 / Ģirts)
     :ARG1 (v9 / pusmiljons
         :mod (v10 / lats)))
 
@@ -7262,25 +7156,18 @@
 # ::text Atkritumu apsaimniekošanas pakalpojumi Latvijā ir lēti, tāpēc nozarē strādājošiem uzņēmumiem ir neiespējami uzbūvēt pārstrādes rūpnīcu, intervijā aģentūrai LETA apgalvo Ziemeļvidzemes atkritumu apsaimniekošanas uzņēmuma SIA „ZAAO" Attīstības daļas vadītāja, Kvalitātes vadītāja Ingrīda Gubernatorova un Atkritumu noglabāšanas daļas vadītājs Ģirts Kuplais.
 (v21 / claim.01
     :ARG1 (v6 / lēts)
-    :ARG2 (v20 / organization
-        :mod (v19 / aģentūra)
+    :ARG2 (v19 / aģentūra
         :name (vg0 / name
             :op1 "LETA"))
-    :ARG0 (v36 / person
-        :mod (v32 / vadītāja
-            :mod (v31 / daļa
-                :mod (v30 / attīstība))
-            :mod (v26 / organization
-                :mod (v25 / uzņēmums
-                    :location (v22 / name
-                        :op1 (vg1 / "Ziemeļvidzemes"))
-                    :mod (v24 / apsaimniekošana
-                        :mod (v23 / atkritumi)))
-                :name (vg2 / name
-                    :op1 "SIA ZAAO")))
+    :ARG0 (v30 / attīstība
         :name (vg3 / name
             :op0 "Ingrīda"
-            :op1 "Gubernatorova")))
+            :op1 "Gubernatorova")
+        :mod (v26 / organization
+            :name (vg2 / name
+                :op1 "SIA ZAAO")
+            :mod (v22 / name
+                :op1 (vg1 / "Ziemeļvidzemes")))))
 
 # ::sent_id a-p3754-p2s2
 # ::text Līdz ar to ilgtermiņā Latviju klās lielas atkritumu kaudzes, lai gan, atkritumus veiksmīgi pārstrādājot, pāri varētu palikt vien smaka un pelni.
@@ -7308,14 +7195,13 @@
 # ::sent_id a-p3754-p30s3
 # ::text Valsts plānam nākamajam periodam būtu jāsāk darboties ar 2013.gadu, jo esošais beidzās pagājušajā gadā.
 (v6 / start.01
-    :ARG0 (v2 / plāns
-        :mod (v1 / valsts)
+    :ARG2 (v7 / work.09)
+    :time (v10 / date-entity
+        :year 2013.)
+    :ARG0 (v1 / valsts
         :mod (v4 / periods
             :mod (v3 / nākamais))
-        :ARG1-of (v7 / work.09))
-    :ARG2 v7
-    :time (v10 / date-entity
-        :year 2013.))
+        :ARG1-of v7))
 
 # ::sent_id a-p3754-p30s4
 # ::text Pašlaik plāns ir apstiprināšanas procesā un tajā nav noteikts, ka reģionālo plānu izstrāde ir obligāta.
@@ -7397,12 +7283,11 @@
 (v5 / plan.01
     :ARG0 (v4 / ministrija
         :ARG0-of (v6 / permit.01
-            :ARG2 (v8 / radītājs
-                :mod (v7 / atkritumi)
-                :ARG0-of (v29 / choose.01
-                    :ARG1 (v31 / apsaimniekotājs
-                        :mod (v30 / atkritumi))))
-            :ARG1 v29)))
+            :ARG1 (v29 / choose.01
+                :ARG0 v7
+                :ARG1 (v31 / apsaimniekotājs
+                    :mod (v30 / atkritumi)))
+            :ARG2 (v7 / atkritumi))))
 
 # ::sent_id a-p3754-p36s3
 # ::text Tas nozīmē, ka, piemēram, lielveikali varētu slēgt līgumu ar sevis izvēlētu apsaimniekotāju.
@@ -7413,9 +7298,7 @@
 # ::sent_id a-p3754-p36s4
 # ::text Šādu izmaiņu rezultātā varētu samazināties „ZAAO" savākto atkritumu apjoms, kas varētu atsaukties uz maksu par atkritumu apsaimniekošanu iedzīvotājiem, īpaši lauku teritorijās.
 (v5 / decrease.01
-    :ARG1 (v11 / apjoms
-        :mod (v10 / atkritumi
-            :mod (v9 / savākt))))
+    :ARG1 (v9 / savākt))
 
 # ::sent_id a-p3754-p36s5
 # ::text Proti, saskaņojot ar pašvaldībām cenu aprēķinus, esam rēķinājušies ar noteiktu atkritumu apjomu kopumā, taču likumdošanas izmaiņu gadījumā nespētu segt plānotās izmaksas.
@@ -7438,12 +7321,9 @@
 # ::sent_id a-p3754-p36s7
 # ::text Proti, dalīti vākto atkritumu apjoms, ko veido lielveikali, nenonāktu tajās šķirošanas līnijās, kas savulaik tika izbūvētas poligonos, pamatojoties uz Vides aizsardzības un reģionālās attīstības ministrijas plāniem un spēkā esošajiem normatīviem.
 (v12 / come.01
-    :ARG1 (v6 / apjoms
-        :mod (v5 / atkritumi
-            :mod (v4 / vākt)))
-    :ARG4 (v15 / līnija
-        :mod (v14 / šķirošana))
-    :polarity -)
+    :polarity -
+    :ARG1 (v4 / vākt)
+    :ARG4 (v14 / šķirošana))
 
 # ::sent_id a-p3754-p38s1
 # ::text Ģirts Kuplais: Jāņem vērā kvalitāte, jo labi un lēti ir nesavienojami jēdzieni.
@@ -7484,8 +7364,7 @@
 (v3 / happen.01
     :ARG1 (v1 / kas)
     :time (v2 / pašlaik)
-    :location (v6 / "Daibe"
-        :mod (v4 / poligons)))
+    :location (v4 / poligons))
 
 # ::sent_id a-p3754-p40s1
 # ::text Kādas priekšrocības iedzīvotājiem sniedz modernākas tehnoloģijas atkritumu savākšanā un pārstrādē?
@@ -7623,8 +7502,7 @@
     :ARG1 (v1 / tas)
     :ARG2 (v9 / grind.01
         :location (v5 / poligons)
-        :ARG1 (v8 / atkritumi
-            :mod (v7 / sadzīve))))
+        :ARG1 (v7 / sadzīve)))
 
 # ::sent_id a-p3754-p8s4
 # ::text To dara ar speciālām iekārtām, kuras vienā maiņā apkalpo četri darbinieki.
@@ -7654,10 +7532,7 @@
 # ::text Poligonu varam saukt par reģionālās atkritumu apsaimniekošanas centru, kurā notiek atkritumu sagatavošana un apstrāde pirms apglabāšanas, otrreizēji izmantojamo materiālu sagatavošana un nodošana pārstrādei, bioloģiski noārdāmo atkritumu kompostēšana, infiltrāta apsaimniekošana, biogāzes apsaimniekošana un vides kvalitātes monitorings.
 (v3 / call.01
     :ARG1 (v1 / poligons)
-    :ARG2 (v8 / centrs
-        :mod (v7 / apsaimniekošana
-            :mod (v5 / reģionāls)
-            :mod (v6 / atkritumi))))
+    :ARG2 (v5 / reģionāls))
 
 # ::sent_id a-p3757-p1s1
 # ::text Neatkarīgā Rīta Avīze Latvijai: Nespēj kontrolēt valsts galvotu naudu
@@ -7727,9 +7602,8 @@
 (v9 / create.01
     :ARG1 (v2 / tiesības
         :mod (v1 / valsts))
-    :ARG0 (v22 / galvojums
+    :ARG0 (v21 / valsts
         :mod (v14 / apsolīt)
-        :mod (v21 / valsts)
         :ARG1-of (v20 / hand_out.03)))
 
 # ::sent_id a-p3757-p4s2
@@ -7791,14 +7665,13 @@
 (v1 / happen.01
     :ARG1 (v10 / svētki
         :mod (v9 / atvēršana
-            :mod (v6 / product
-                :mod (v4 / grāmata
-                    :mod (v2 / person
-                        :name (vg0 / name
-                            :op0 "Andris"
-                            :op1 "Vilks")))
+            :mod (v4 / grāmata
                 :name (vg1 / name
-                    :op1 "Grūtupa fenomens")))))
+                    :op1 "Grūtupa fenomens")
+                :mod (v2 / person
+                    :name (vg0 / name
+                        :op0 "Andris"
+                        :op1 "Vilks"))))))
 
 # ::sent_id a-p3767-p3s1
 # ::text Informāciju sagatavoja Ilze Veisbārde, SIA "Jānis Roze" Reklāmas un sabiedrisko attiecību daļas vadītāja.
@@ -7835,8 +7708,7 @@
 # ::text Lasītājiem tiek piedāvāts filozofisks stāstījums, kas balstās pārliecībā, ka cilvēku radījuši tik vareni spēki, ka tos nav iespējams ievietot indivīda apziņai piemītošo kritēriju rāmjos.
 (v3 / offer.01
     :ARG3 (v1 / lasītājs)
-    :ARG1 (v5 / stāstījums
-        :mod (v4 / filozofisks)))
+    :ARG1 (v4 / filozofisks))
 
 # ::sent_id a-p3767-p6s2
 # ::text Jebkurā cilvēkā ir koncentrēta visa cilvēces vēsture diapazonā no viszemiskākā līdz viscēlākajam.
@@ -7980,36 +7852,33 @@
 # ::sent_id a-p5456-p4s1
 # ::text Tā kā ne Viljamam, ne Keitai līdz pat pirmdienas vakaram nav jāpilda nekādi valstij būtiski pienākumi, viņi plāno uz nedēļas nogali izrauties no mājām.
 (v20 / plan.01
-    :ARG0 (v19 / viņš))
+    :ARG0 (v19 / ne))
 
 # ::sent_id a-p5720-p3s1
 # ::text 22 mēnešus vecais princis Džordžs cieši tur mazo māsu, nekautrējas to noskūpstīt un veltīt kamerai savu burvīgo smaidu.
 (v7 / hold.01
-    :ARG0 (v5 / person
-        :mod (v4 / princis
-            :mod (v3 / vecs))
+    :ARG1 (v9 / māsa
+        :mod (v8 / mazs))
+    :ARG0 (v3 / vecs
         :ARG0-of (v11 / shy.02
-            :ARG1 (v13 / kiss.01
-                :ARG0 v5
-                :ARG1 v9)
             :polarity -)
+        :ARG0-of (v13 / kiss.01
+            :ARG1 v9
+            :ARG1-of v11)
         :name (vg0 / name
             :op0 "Džordžs")
-        :wiki "en.wikipedia.org/wiki/Prince_George_of_Cambridge")
-    :ARG1 (v9 / māsa
-        :mod (v8 / mazs)))
+        :wiki "en.wikipedia.org/wiki/Prince_George_of_Cambridge"))
 
 # ::sent_id a-p5744-p2s1
 # ::text Aktrise Nikola Kidmena publiski paziņo, ka nav apvainojusies uz savu meitu, tieši otrādi, tā bija viņas pašas izvēle - neierasties uz kāzām.
 (v5 / inform.01
-    :ARG0 (v2 / person
-        :mod (v1 / aktrise)
-        :ARG0-of (v9 / resent.01)
+    :ARG2 (v9 / resent.01
+        :ARG0 v1)
+    :ARG0 (v1 / aktrise
         :name (vg0 / name
             :op0 "Nikola"
             :op1 "Kidmena")
-        :wiki "en.wikipedia.org/wiki/Nicole_Kidman")
-    :ARG2 v9)
+        :wiki "en.wikipedia.org/wiki/Nicole_Kidman"))
 
 # ::sent_id a-p5756-p3s1
 # ::text Alkoholismā aktieris vaino tēva nāvi un šķiršanos, tieši šīs lietas viņu iebīdījušas nepareizās sliedēs, toties mātes nāve likusi aktierim pilnībā salūzt.
@@ -8050,18 +7919,14 @@
 # ::sent_id a-p5927-p6s1
 # ::text Mākslinieces Ievas Bondares dēls Daniels izvēlējās dzeltenas krāsas amuletu, jo ārā pavasaris, mamma darbos izmanto daudz dzelteno krāsu, dzeltens simbolizē sauli, bet mamma ir kā saule, sekoja amulets, kurš simbolizē māmiņu un veidojot rokassprādzi mammai nevar neizvēlēties šādu amluletu.
 (v6 / choose.01
-    :ARG0 (v5 / person
-        :mod (v2 / person
-            :mod (v1 / māksliniece)
+    :ARG0 (v4 / dēls
+        :name (vg1 / name
+            :op0 "Daniels")
+        :mod (v1 / māksliniece
             :name (vg0 / name
                 :op0 "Ieva"
-                :op1 "Bondare"))
-        :mod (v4 / dēls)
-        :name (vg1 / name
-            :op0 "Daniels"))
-    :ARG1 (v9 / amulets
-        :mod (v8 / krāsa
-            :mod (v7 / dzeltens))))
+                :op1 "Bondare")))
+    :ARG1 (v7 / dzeltens))
 
 # ::sent_id a-p5927-p6s2
 # ::text Kā trešo un noslēdzošo piekariņu Daniels izvēlējās ģimenes koku, lai vai kur mamma arī nebūtu, viņai līdzi būtu ģimene, kaut simboliskā nozīmē.
@@ -8089,14 +7954,13 @@
 # ::sent_id a-p6176-p3s1
 # ::text Klausoties dziedātājas balsī, visi četri žūrijas locekļi beigu beigās apgriezās savos krēslos riņķī, dodot māksliniecei zaļo gaismu tālākai dalībai.
 (v16 / give.01
-    :ARG0 (v8 / loceklis
-        :mod (v7 / žūrija)
-        :ARG0-of (v1 / listen.01
-            :ARG1 (v3 / balss
-                :mod (v2 / dziedātāja))))
-    :ARG2 (v17 / māksliniece)
     :ARG1 (v19 / gaisma
-        :mod (v18 / zaļš)))
+        :mod (v18 / zaļš))
+    :ARG2 (v2 / dziedātāja
+        :mod-of v3)
+    :ARG0 (v7 / žūrija
+        :ARG0-of (v1 / listen.01
+            :ARG1 (v3 / balss))))
 
 # ::sent_id a-p6179-p4s1
 # ::text Jau apmeklējot «Golden globe» ceremoniju, zvaigznes vakaru pavadīja kopā, aktieris nemitīgi kaut ko čukstēja dziedātājai un glāstīja viņas muguru.
@@ -8111,14 +7975,13 @@
 # ::sent_id a-p6182-p2s1
 # ::text Aktieris Džona Hills jau vairākus gadus cīnījies ar lieko svaru, tomēr jau atkal viņam nācies pieņemties svarā.
 (v7 / fight.01
-    :ARG0 (v2 / person
-        :mod (v1 / aktieris)
+    :ARG1 (v10 / svars
+        :mod (v9 / lieks))
+    :ARG0 (v1 / aktieris
         :name (vg0 / name
             :op0 "Džona"
             :op1 "Hills")
-        :wiki "en.wikipedia.org/wiki/Jonah_Hill")
-    :ARG1 (v10 / svars
-        :mod (v9 / lieks)))
+        :wiki "en.wikipedia.org/wiki/Jonah_Hill"))
 
 # ::sent_id a-p6184-p11s1
 # ::text Doma ir un paliek tikai doma, kamēr tā nepiepildās.
@@ -8255,8 +8118,7 @@
 # ::sent_id a-p6239-p3s1
 # ::text Dziesma «Miljoniem dota mīlestība» tapusi par godu Valentīna dienai un visiem mīlētājiem.
 (v7 / create.01
-    :ARG1 (v4 / product
-        :mod (v1 / dziesma)
+    :ARG1 (v1 / dziesma
         :name (vg0 / name
             :op1 "Miljoniem dota mīlestība")))
 
@@ -8281,21 +8143,20 @@
 # ::sent_id a-p6246-p2s1
 # ::text Dziedātāja Bejonsē pēdējā laikā apsver iespēju sākt filmēties filmās un labas lomas dēļ viņa ir gatava filmēties pilnīgi kaila neizmantojot dublieri.
 (v5 / consider.02
-    :ARG0 (v2 / person
-        :mod (v1 / dziedātāja)
+    :time (v4 / laiks)
+    :ARG1 (v6 / iespēja)
+    :ARG0 (v1 / dziedātāja
         :ARG0-of (v20 / use.01
             :ARG1 (v21 / dubliere)
             :polarity -)
         :name (vg0 / name
             :op0 "Bejonsē")
-        :wiki "en.wikipedia.org/wiki/Beyoncé")
-    :time (v4 / laiks)
-    :ARG1 (v6 / iespēja))
+        :wiki "en.wikipedia.org/wiki/Beyoncé"))
 
 # ::sent_id a-p6247-p1s1
 # ::text Britu rokmūziķa Ozija Osborna ģimene no izsoļu nama atpirkusi mantas no smagā metāla grupas «Black Sabbath» sākuma posma, lai nodrošinātos, ka tās nenonāk privāto kolekcionāru rokās.
 (v27 / come.01
-    :ARG1 (v26 / tā)
+    :ARG1 (v26 / mantas)
     :ARG4 (v30 / roka
         :mod (v29 / kolekcionārs
             :mod (v28 / privāts)))
@@ -8345,7 +8206,7 @@
 # ::text Kopš tā laika viņi vairākkārt šķīrās un pēc tam atkal salaba.
 (v6 / separate.01
     :time (v3 / laiks)
-    :ARG1 (v4 / viņš))
+    :ARG1 (v4 / Kerija))
 
 # ::sent_id a-p6290-p5s1
 # ::text Kilmera fani cer, ka aktieris nāks pie prāta un dosies uz slimnīcu, lai saņemtu palīdzību, ne turpinās klausīt savas sektas ieteikumiem.
@@ -8407,14 +8268,10 @@
     :time (v2 / date-entity
         :month 9
         :day 4.)
-    :ARG1 (v15 / prezentācija
-        :mod (v14 / apavs
-            :mod (v11 / "Ecco"
-                :mod (v9 / zīmols))
-            :mod (v13 / rudens)))
-    :location (v5 / name
-        :mod (v3 / lielveikals)
-        :op1 (vg0 / "Galerija centrs")))
+    :location (v3 / lielveikals
+        :op1 (vg0 / "Galerija centrs"))
+    :ARG1 (v13 / rudens
+        :mod (v9 / zīmols)))
 
 # ::sent_id a-p6552-p1s2
 # ::text Pasākums tika ieturēts pop-up stilā un pulcēja gan mūziķus, dīdžejus, gan modes blogerus.
@@ -8471,19 +8328,16 @@
 # ::sent_id a-p8115-p1s1
 # ::text Latvijā iemīļotie skatuves mākslinieki Žoržs Siksna, Roberto Meloni un Kaspars Antess apvienojušies muzikālajā projektā, bruņiniecisku jūtu aizkustināti.
 (v13 / unite.01
-    :ARG1 (v5 / person
-        :mod (v4 / mākslinieks
-            :mod (v2 / iemīļot)
-            :mod (v3 / skatuve))
+    :ARG3 (v15 / projekts
+        :mod (v14 / muzikāls))
+    :ARG1 (v2 / iemīļot
         :ARG1-of (v19 / move.05
             :ARG0 (v18 / jūtas)
             :mod (v17 / bruņiniecisks))
         :name (vg0 / name
             :op0 "Žoržs"
             :op1 "Siksna")
-        :wiki "lv.wikipedia.org/wiki/Žoržs_Siksna")
-    :ARG3 (v15 / projekts
-        :mod (v14 / muzikāls)))
+        :wiki "lv.wikipedia.org/wiki/Žoržs_Siksna"))
 
 # ::sent_id a-p8428-p6s1
 # ::text Apmeklējot viņas koncertu, Jūs priecāsieties un smiesieties, nedaudz skumsiet un pārdzīvosiet par galveno varoni, bet Jūs noteikti nepaliksiet vienaldzīgi.
@@ -8597,13 +8451,13 @@
 # ::sent_id a-p9305-p3s3
 # ::text Tajos joprojām ir daudz vitamīnu un vērtīgu uzturvielu, tāpēc izmanto tās!
 (v3 / include.01
-    :ARG2 (v1 / tas)
+    :ARG2 (v1 / Āboli)
     :ARG1 (v5 / vitamīns))
 
 # ::sent_id a-p9305-p3s4
 # ::text Nomizo dažus saldskābus ābolus, sagriez tos gabaliņos un sautē, pievienojot pāris karotes brūnā cukura un garšvielas pēc savas izvēles – kanēli, kardamonu, krustnagliņas.
 (v6 / cut_up.08
-    :ARG1 (v7 / tas)
+    :ARG1 (v7 / saldskābus)
     :manner (v8 / gabaliņš))
 
 # ::sent_id a-p9305-p3s5
@@ -8612,8 +8466,7 @@
     :ARG2 (v4 / vieta
         :mod (v3 / garša
             :mod (v2 / spēcīgs)))
-    :ARG1 (v9 / pāksts
-        :mod (v8 / vaniļa)))
+    :ARG1 (v8 / vaniļa))
 
 # ::sent_id a-p9305-p3s6
 # ::text Sautē, kamēr ābola gabaliņi kļuvuši mīksti un sulīgi.
@@ -8681,20 +8534,19 @@
 # ::text Ziemai tik ļoti piestāv apelsīnu aromāts…
 (v4 / suit.01
     :ARG2 (v1 / ziema)
-    :ARG1 (v6 / aromāts
-        :mod (v5 / apelsīns)))
+    :ARG1 (v5 / apelsīns))
 
 # ::sent_id a-p9308-p48s2
 # ::text Tas silda un vilina - tieši tādēļ šī pēc svētkiem un Itālijas saules smaržojošā kūka jācep Ziemas saulgriežos.
 (v2 / heat.01
-    :ARG0 (v1 / tas))
+    :ARG0 (v1 / apelsīnu))
 
 # ::sent_id a-p9308-p48s3
 # ::text Biskvīts ir gaisīgs un apelsīnu sīrups to padara neparastu un svētku galda cienīgu.
 (v8 / render.01
     :ARG0 (v6 / sīrups
         :mod (v5 / apelsīns))
-    :ARG1 (v7 / tas)
+    :ARG1 (v7 / Biskvīts)
     :ARG2 (v9 / neparasts))
 
 # ::sent_id a-p9308-p63s3
@@ -8747,16 +8599,13 @@
 # ::text Tas ir vēsturisks notikums, par kuru cilvēki varēs stāstīt saviem mazbērniem," Valsts prezidenta Valda Zatlera vizīti Strenčos vērtē pensionāre Dzidra Ploce.
 (v21 / evaluate.01
     :ARG1 (v19 / vizīte
-        :mod (v17 / person
-            :mod (v16 / prezidents
-                :mod (v15 / valsts))
+        :location (v20 / name
+            :op1 (vg1 / "Strenči"))
+        :mod (v15 / valsts
             :name (vg0 / name
                 :op0 "Valdis"
-                :op1 "Zatlers"))
-        :location (v20 / name
-            :op1 (vg1 / "Strenči")))
-    :ARG0 (v23 / person
-        :mod (v22 / pensionāre)
+                :op1 "Zatlers")))
+    :ARG0 (v22 / pensionāre
         :name (vg2 / name
             :op0 "Dzidra"
             :op1 "Ploce")))
@@ -8764,10 +8613,9 @@
 # ::sent_id a-p980-p1s3
 # ::text Valsts prezidents šodien tikās ar strencēniešiem un apkārtējo pagastu iedzīvotājiem pilsētas kultūras nama zālē.
 (v4 / meet.03
-    :ARG0 (v2 / prezidents
-        :mod (v1 / valsts))
     :time (v3 / "šodien")
-    :ARG1 (v6 / strencēnietis))
+    :ARG1 (v6 / strencēnietis)
+    :ARG0 (v1 / valsts))
 
 # ::sent_id a-p980-p2s1
 # ::text Neraugoties uz iespēju redzēt valsts pirmo amatpersonu darba laikā - pulksten 11.00, ieradās daudz dažāda vecuma cilvēku.
@@ -8779,17 +8627,16 @@
 # ::sent_id a-p980-p3s1
 # ::text Jērcēniete Dzintra Lezdiņa sevi nosauc par V. Zatlera fani.
 (v5 / call.01
-    :ARG0 (v2 / person
-        :mod (v1 / jērcēniete)
-        :name (vg0 / name
-            :op0 "Dzintra"
-            :op1 "Lezdiņa"))
     :ARG2 (v9 / fane
         :mod (v7 / person
             :name (vg1 / name
                 :op0 "V."
                 :op1 "Zatlers")))
-    :ARG1 v1)
+    :ARG0 (v1 / jērcēniete
+        :name (vg0 / name
+            :op0 "Dzintra"
+            :op1 "Lezdiņa")
+        :ARG1-of v5))
 
 # ::sent_id a-p980-p3s2
 # ::text Pērn esot uzrakstījusi viņam pateicības vēstuli, jo aizvadītajā gadā Valsts prezidents ieradās uz politisko represēto salidojuma atklāšanu Ikšķilē.
@@ -8803,16 +8650,16 @@
 (v19 / remember.01
     :ARG1 (v11 / call.16
         :ARG1 (v6 / mēs)
-        :ARG0 (v12 / prezidents))
+        :ARG0 (v12 / prezidents
+            :name (vg1 / name
+                :op0 "V."
+                :op1 "Zatlers")))
     :ARG0 (v15 / person
         :ARG0-of (v26 / hand.01
             :time (v25 / vakar)
-            :ARG2 (v27 / person
-                :name (vg1 / name
-                    :op0 "V."
-                    :op1 "Zatlers"))
             :ARG1 (v33 / naktsvijole
-                :mod (v32 / saplūkt)))
+                :mod (v32 / saplūkt))
+            :ARG2 v12)
         :name (vg0 / name
             :op0 "Dz."
             :op1 "Lezdiņa")))
@@ -8830,19 +8677,17 @@
 # ::sent_id a-p980-p5s1
 # ::text Valsts pirmo amatpersonu un viņa dzīvesbiedri Lilitu Zatleri strencēnieši vakar uzņēma viesmīlīgi, veltot V. Zatleram labus vārdus.
 (v11 / host.01
-    :ARG1 (v3 / amatpersona
-        :mod (v1 / valsts)
-        :mod (v2 / pirmais))
     :ARG0 (v9 / strencēnietis
         :ARG0-of (v14 / give.01
-            :ARG2 (v15 / person
-                :name (vg0 / name
-                    :op0 "V."
-                    :op1 "Zatlers")
-                :wiki "en.wikipedia.org/wiki/Valdis_Zatlers")
             :ARG1 (v18 / vārds
-                :mod (v17 / labs))))
-    :time (v10 / vakar))
+                :mod (v17 / labs))
+            :ARG2 v1))
+    :time (v10 / vakar)
+    :ARG1 (v1 / valsts
+        :name (vg0 / name
+            :op0 "V."
+            :op1 "Zatlers")
+        :wiki "en.wikipedia.org/wiki/Valdis_Zatlers"))
 
 # ::sent_id a-p980-p5s2
 # ::text "Prezidenta vizīte ļoti patika.
@@ -8855,9 +8700,8 @@
 (v22 / consider.01
     :ARG1 (v4 / reply.01
         :ARG1 (v2 / jautājums)
-        :ARG0 (v3 / viņš))
-    :ARG0 (v24 / person
-        :mod (v23 / strencēniete)
+        :ARG0 (v3 / Valsts))
+    :ARG0 (v23 / strencēniete
         :name (vg0 / name
             :op0 "Inese"
             :op1 "Kārkliņa")))
@@ -8881,10 +8725,9 @@
     :ARG1 (v1 / vizīte
         :location (v2 / name
             :op1 (vg0 / "Strenči")))
-    :ARG2 (v4 / prezidents
-        :mod (v3 / valsts))
     :ARG0 (v7 / dāvana
-        :mod (v6 / simbolisks)))
+        :mod (v6 / simbolisks))
+    :ARG2 (v3 / valsts))
 
 # ::sent_id a-p980-p7s2
 # ::text V. Zatlers pirmo reizi iepazinis Strenčus, braucot ar laivu pa Strenču krācēm.
@@ -8973,14 +8816,13 @@
     :ARG2 (v3 / vakcinācija
         :mod (v2 / dzīvnieks
             :mod (v1 / mežs)))
-    :ARG1 (v11 / product
-        :mod (v9 / vakcīna
-            :mod (v8 / saturēt
-                :mod (v7 / vīruss
-                    :mod (v5 / novājināt)
-                    :mod (v6 / trakumsērga))))
+    :ARG1 (v9 / vakcīna
         :name (vg0 / name
-            :op1 "Lusvulpen")))
+            :op1 "Lusvulpen")
+        :mod (v8 / saturēt
+            :mod (v7 / vīruss
+                :mod (v5 / novājināt)
+                :mod (v6 / trakumsērga)))))
 
 # ::sent_id a-p9971-p3s1
 # ::text Arī pērn mūsu sportisti izcīnījuši pirmās vietas pasaules un Eiropas mēroga sacensībās, bijuši citi panākumi.
@@ -9079,12 +8921,11 @@
 # ::sent_id a-p9993-p11s2
 # ::text Saimniece Sandra Lūciņa secina, ka šāda metode tiešām atmaksājas: pavasara stādi labi iesakņojas, nav smagi jācīnās ar nezālēm, ogas padodas skaistākas, tās vieglāk nolasīt.
 (v4 / conclude.01
-    :ARG0 (v2 / person
-        :mod (v1 / saimniece)
+    :ARG1 (v10 / atmaksāties)
+    :ARG0 (v1 / saimniece
         :name (vg0 / name
             :op0 "Sandra"
-            :op1 "Lūciņa"))
-    :ARG1 (v10 / atmaksāties))
+            :op1 "Lūciņa")))
 
 # ::sent_id a-p9994-p1s1
 # ::text Leijerkastes skaņas mijas ar tautas mūziku un dziedājumiem, gaisā virmo lauku labumu aromāts, un ļaudis iepazīst apkūlību un ne tikai šo seno darbu iemaņas – tāda gaisotne Padures klēts pagalmā valdīja sestdien, 10. septembrī.
@@ -9183,8 +9024,7 @@
 # ::sent_id a-s9-p18s6
 # ::text Un ja nu premjera Ķirķila teiktajā ir zināma daļa patiesības?
 (v6 / say.01
-    :ARG0 (v5 / person
-        :mod (v4 / premjers)
+    :ARG0 (v4 / premjers
         :name (vg0 / name
             :op0 "Ķirķils")
         :wiki "en.wikipedia.org/wiki/Gediminas_Kirkilas"))
@@ -9195,13 +9035,11 @@
     :ARG1 (v2 / es
         :ARG0-of (v4 / analyze.01
             :ARG1 (v10 / izteiciens
-                :mod (v8 / deputāts
-                    :mod (v6 / būt)
-                    :mod (v7 / organization
-                        :name (vg0 / name
-                            :op1 "Saeima")
-                        :wiki "en.wikipedia.org/wiki/Saeima"))
-                :mod (v9 / īpatnējs))
+                :mod (v9 / īpatnējs)
+                :mod (v6 / būt
+                    :name (vg0 / name
+                        :op1 "Saeima")
+                    :wiki "en.wikipedia.org/wiki/Saeima"))
             :polarity -
             :ARG2-of v3))
     :polarity -)
@@ -9253,7 +9091,7 @@
 # ::sent_id a-s9-p21s3
 # ::text Mums nav nekur jāskrien, nekādi termiņi te nav jānoliek!
 (v4 / run.02
-    :ARG0 (v1 / mēs))
+    :ARG0 (v1 / cienītie))
 
 # ::sent_id a-s9-p21s5
 # ::text Saeima ir galvenā valsts iestāde Latvijā, un, ja mums šeit vairāk vai mazāk valdīs miers...
@@ -9404,8 +9242,7 @@
 # ::sent_id a-z108-p155s3
 # ::text Konkrētās valstis analīzei izvēlētas, ņemot vērā to sasniegtos rezultātus:
 (v4 / choose.01
-    :ARG1 (v2 / valsts
-        :mod (v1 / konkrēts)))
+    :ARG1 (v1 / konkrēts))
 
 # ::sent_id a-z108-p193s1
 # ::text Pēc 10 gadiem Nīderlande atkārtoti izpelnījās starptautisko atzinību, definējot jaunu terminu „Nīderlandes brīnums”, kas raksturoja šīs valsts ekonomisko attīstību.
@@ -9477,7 +9314,7 @@
 # ::text Vidēji ES nodarbinātības rādītāji ir 66% apmērā, zemākie no tiem ir Maltā (55%) un arī Ungārijā, Itālijā, Rumānijā un Polijā rādītāji ir zem 60% atzīmes.
 (v13 / be.02
     :ARG1 (v10 / zems
-        :mod (v12 / tas))
+        :mod (v12 / Vidēji))
     :location (v14 / name
         :op1 (vg0 / "Malta")
         :wiki "en.wikipedia.org/wiki/Malta"))
@@ -9529,7 +9366,7 @@
 # ::sent_id a-z108-p65s2
 # ::text Turklāt tā pieļauj iespēju noteikt jauniešiem augstāku darba algu nekā pieaugušajiem iedzīvotājiem.
 (v3 / tolerate.01
-    :ARG0 (v2 / tā)
+    :ARG0 (v2 / Diferencētas)
     :ARG1 (v4 / iespēja))
 
 # ::sent_id a-z108-p86s1
@@ -9594,8 +9431,7 @@
     :ARG0 (v1 / tas)
     :ARG1 (v13 / split.01
         :ARG1 (v12 / tauta)
-        :ARG2 (v17 / ļaudis
-            :mod (v14 / laicīgs))))
+        :ARG2 (v14 / laicīgs)))
 
 # ::sent_id a-z109-p132s12
 # ::text Šī pieeja guva atbalstu Mizrahi.
@@ -9698,7 +9534,7 @@
 # ::sent_id a-z109-p142s3
 # ::text Kopā ar grupām no Viļņas un Kauņas viņi nopirka gruntsgabalu Haderā (220 dunamu katram).
 (v9 / buy.01
-    :ARG0 (v8 / viņš)
+    :ARG0 (v8 / Jehošua)
     :ARG1 (v10 / gruntsgabals
         :location (v11 / name
             :op1 (vg0 / "Haders")
@@ -9707,12 +9543,11 @@
 # ::sent_id a-z109-p142s4
 # ::text Bija iespēja nopirkt vēl 2000 dunamu un viņi lūdza palīdzību saviem Rīgas biedriem.
 (v9 / ask.02
-    :ARG0 (v8 / viņš)
+    :ARG0 (v8 / Jehošua)
     :ARG1 (v10 / palīdzība)
-    :ARG2 (v13 / biedrs
-        :location (v12 / name
-            :op1 (vg0 / "Rīga")
-            :wiki "en.wikipedia.org/wiki/Riga")))
+    :ARG2 (v12 / name
+        :op1 (vg0 / "Rīga")
+        :wiki "en.wikipedia.org/wiki/Riga"))
 
 # ::sent_id a-z109-p142s5
 # ::text Leibs Šalits un Jakovs Grindins nopirka atlikušo daļu.
@@ -9737,20 +9572,17 @@
 # ::sent_id a-z109-p142s7
 # ::text Iepriekšminētais kokmateriālu tirgotājs Leibs Šalits, kurš bija viens no kustības pirmajiem dalībniekiem Rīgā, bija piedalījies arī Katovices konferencē 1884. gadā.
 (v17 / participate.01
-    :ARG0 (v4 / person
-        :mod (v3 / tirgotājs
-            :mod (v1 / iepriekšminēts)
-            :mod (v2 / kokmateriāli))
+    :ARG1 (v19 / "Katovices konference"
+        :mod (v21 / "1884. gads"))
+    :ARG0 (v1 / iepriekšminēts
         :name (vg0 / name
             :op0 "Leibs"
-            :op1 "Šalits"))
-    :ARG1 (v19 / "Katovices konference"
-        :mod (v21 / "1884. gads")))
+            :op1 "Šalits")))
 
 # ::sent_id a-z109-p142s8
 # ::text Viņš bija palīdzējis izceļotājiem no Rīgas, Kauņas un Viļņas nopirkt Palestīnā zemi (Haderā).
 (v3 / help.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / Iepriekšminētais)
     :ARG2 (v4 / izceļotājs
         :location (v6 / name
             :op1 (vg0 / "Rīga")
@@ -9767,7 +9599,7 @@
 (v5 / delegate.01
     :time (v2 / date-entity
         :year 1897.)
-    :ARG2 (v3 / viņš
+    :ARG2 (v3 / Iepriekšminētais
         :ARG1-of (v14 / elect.01
             :ARG2 (v19 / direktors
                 :mod (v16 / organization
@@ -9863,7 +9695,7 @@
 # ::sent_id a-z109-p197s12
 # ::text Bet viņi neguva mācību un min tos pašus argumentus, kurus T. Hercls dzirdēja no saviem pretiniekiem, kurus Minhenes ebreji minēja, vēršoties pret Cionistu kongresa sasaukšanu.
 (v3 / get.01
-    :ARG0 (v2 / viņš
+    :ARG0 (v2 / asimilantiem
         :ARG0-of (v6 / mention.01
             :ARG1 (v9 / arguments)))
     :ARG1 (v4 / mācība)
@@ -9951,10 +9783,9 @@
     :ARG4 (v1 / name
         :op1 (vg0 / "Latgale")
         :wiki "en.wikipedia.org/wiki/Latgale")
-    :ARG1 (v3 / ebrejs
-        :mod (v2 / pirmais))
     :time (v7 / date-entity
-        :century sešpadsmitais))
+        :century sešpadsmitais)
+    :ARG1 (v2 / pirmais))
 
 # ::sent_id a-z109-p95s10
 # ::text 1920. gadā Latgalē dzīvoja apmēram 30 tūkstoši ebreju, 1935. gadā skaits bija samazinājies līdz 27,974 ebrejiem.
@@ -9996,13 +9827,13 @@
 # ::sent_id a-z109-p95s3
 # ::text Viņi bija ortodoksi, runāja jidišā un cieši pieturējās pie ebreju tradīcijām.
 (v5 / speak.01
-    :ARG0 (v1 / viņš)
+    :ARG0 (v1 / pirmie)
     :ARG3 (v6 / jidišs))
 
 # ::sent_id a-z109-p95s4
 # ::text Viņi pārsvarā nodarbojās ar muitas punktu nodokļu atpirkšanu, sīktirdzniecību un ceļojošo tirdzniecību, vēlāk sāka tirgoties ar labību un kokiem, kā arī piedalījās eksportā.
 (v25 / participate.01
-    :ARG0 (v1 / viņš
+    :ARG0 (v1 / pirmie
         :ARG0-of (v16 / start.01
             :ARG2 (v17 / tirgoties)))
     :ARG1 (v26 / eksports))
@@ -10074,7 +9905,7 @@
 # ::sent_id a-z22-p164s2
 # ::text Šajā vecumā viņš mācās neskaitāmus kustību variantus, apzinās kā viņa ķermenis funkcionē, un kādā veidā fiziskā pasaule darbojas.
 (v4 / learn.01
-    :ARG0 (v3 / viņš
+    :ARG0 (v3 / bērns
         :ARG0-of (v9 / cognize.01
             :ARG1 (v13 / function.01
                 :ARG0 (v12 / ķermenis))
@@ -10088,8 +9919,7 @@
 (v2 / develop.01
     :ARG1 (v1 / smadzenes)
     :ARG2 (v4 / sapratne
-        :mod (v3 / iekšējs)
-        :mod (v6 / ķermenis)))
+        :mod (v3 / iekšējs)))
 
 # ::sent_id a-z22-p164s4
 # ::text Bērnam ir iekšējs pamudinājums telpu izpētīt ne tikai horizontālā virzienā, bet arī vertikālā [38.].

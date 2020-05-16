@@ -58,33 +58,34 @@ class CoReferencePipe(PipeBase):
                         non_members_to_keep.append(context_group_words)
 
                 is_reference_added = False
+                last_member_to_keep = None
+                last_member_to_coreference = None
 
-                # Standard scenario
-                if len(members_to_keep) > 0 and len(members_to_coreference) > 0:
-                    is_reference_added = True
-                    for reference in members_to_coreference:
-                        container.replace_instance(reference.id, members_to_keep[0].id)
-
-                # If co reference outside of container - replace the first coreference and proceed
-                # ToDo: update condition above instead of checking here.
-                elif len(non_members_to_keep) == 1 and non_members_to_keep[0].pos_value[0:1] != "p" and \
-                        len(members_to_coreference) > 0:
-                    is_reference_added = True
-
-                    # ToDo: refactor - need to update id aswell
-                    # Replace the first co-reference instance
-                    container.update_instance_value(members_to_coreference[0].id, non_members_to_keep[0].form)
-                    member_id = members_to_coreference[0].id
-
-                    # Link the rest to the updated instance
-                    for reference in range(1, len(members_to_coreference)):
-                        container.replace_instance(members_to_coreference[reference].id, member_id)
-
-                # There is more than one word pointing to the same thing, so we reference them to the first instance
-                elif len(members_to_coreference) > 1:
-                    is_reference_added = True
+                # join all references that we want to get rid of
+                if len(members_to_coreference) > 0:
                     for reference in range(1, len(members_to_coreference)):
                         container.replace_instance(members_to_coreference[reference].id, members_to_coreference[0].id)
+                        is_reference_added = True
+
+                    last_member_to_coreference = members_to_coreference[0]
+
+                # join all references that we want to keep (to one specific value)
+                if len(members_to_keep) > 0:
+                    for reference in range(1, len(members_to_keep)):
+                        container.replace_instance(members_to_keep[reference].id, members_to_keep[0].id)
+                        is_reference_added = True
+
+                    last_member_to_keep = members_to_keep[0]
+
+                # simple scenario - replace with desireable word 1-1
+                if last_member_to_coreference and last_member_to_keep:
+                    is_reference_added = True
+                    container.replace_instance(last_member_to_coreference.id, last_member_to_keep.id)
+
+                # update with value of first non-member desireable word 1-1
+                elif last_member_to_coreference and len(non_members_to_keep) > 0 and non_members_to_keep[0].pos_value[0:1] != "p":
+                    is_reference_added = True
+                    container.update_instance_value(last_member_to_coreference.id, non_members_to_keep[0].form)
 
                 if is_reference_added:
                     container.update_stat(ContainerStatistic.COREFERENCE_COUNT, stat_incr)
