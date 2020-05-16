@@ -1,0 +1,10 @@
+======= Statistics:
+Total AMR property count: 5858
+AMR token count: 44894 out of total: 182501
+PropBank frame count in AMR: 13435 out of total: 20055
+Named entity count in AMR: 4178 out of total: 8349
+Wiki count in AMR: 1493 out of total: 3204
+Coreference count in AMR: 2113 out of total: 8583
+Number of AMR graphs generated from PropBank: 10049
+Entries matched with named entities: 9296
+Entries matched with co references: 9194
