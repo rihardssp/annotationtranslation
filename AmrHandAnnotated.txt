@@ -1,4 +1,5 @@
-﻿# ::sent_id a-d62-p34s1
+﻿
+# ::sent_id a-d62-p34s1
 # ::text Toreiz garām skrēja tik balti mākoņi.
 (v1 / pass.03
     :time (v5 / toreiz)
@@ -8,21 +9,21 @@
 
 # ::id a-d62-p34s5
 # ::snt_lv Vida nerunāja, neatvadījās.
-# :: goodbye - jāaizvieto ar latviešu alternatīvu
+# ::misc goodbye - jāaizvieto ar latviešu alternatīvu
 (a / and
-    :op1 (v2 / speak-01
+    :op1 (v2 / speak.01
         :polarity -
         :ARG0 (v1 / person
             :name (v5 / name
                 :op1 "Vida")))
-    :op2 (v3 / say-01
+    :op2 (v3 / say.01
         :polarity -
         :ARG0 v1
         :ARG1 (v4 / goodbye)))
 
 # ::id a-p3754-p5s1
 # ::snt_lv Uzņēmums projekta realizāciju sāka 2001.gadā.
-(v2 / start-01
+(v2 / start.01
     :ARG0 (v1 / Uzņēmums)
     :ARG1 (v3 / projekts)
     :time (v4 / date-entity
@@ -30,7 +31,7 @@
 
 # ::id a-p3754-p5s2
 # ::snt_lv Kopš tā laika poligona attīstībā ieguldīti vairāk nekā septiņi miljoni latu.
-(v4 / invest-01
+(v4 / invest.01
     :ARG1 (v3 / monetary-quantity
         :quant (v2 / more-than
             :op1 7000000)
@@ -41,11 +42,11 @@
 # ::id a-p12841-p1s1
 # ::snt_lv Rēzeknes novadā, apgāžoties automašīnai "Mazda", gājis bojā šoferis.
 # Vai overturn ir pareizais verb? <roleset id="overturn.01" name="invalidate, reverse">
-(v5 / die-01
+(v5 / die.01
     :ARG1 (v3 / šoferis)
     :location (v2 / novads
         :name (v1 / name :op1 "Rēzekne"))
-    :time (v7 / overturn-01
+    :time (v7 / overturn.01
         :ARG1 (v6 / car
             :name (n / name :op1 "Mazda"))
         :ARG0 v3))
@@ -54,7 +55,7 @@
 # ::snt_lv Prot panākt, ka viņu visi mīl.
 (v2 / able.01
     :ARG0 (v1 / viņš)
-    :ARG1 (v4 / love-01
+    :ARG1 (v4 / love.01
         :ARG0 (v3 / visi)
         :ARG1 v1))
 
@@ -68,8 +69,8 @@
         :ARG1 (v11 / tas)
         :ARG3 (v10 / kur))
 
-# sent_id = a-p3739-p6s2
-# text = Apvienojoties šo mazumtirgotāju degvielas uzpildes staciju (DUS) tīkls sasniegtu 57 stacijas, savukārt patlaban pēc skaita otrs lielākais DUS tīkls Latvijā - 56 stacijas - ir "Neste Oil".
+# ::sent_id = a-p3739-p6s2
+# ::text = Apvienojoties šo mazumtirgotāju degvielas uzpildes staciju (DUS) tīkls sasniegtu 57 stacijas, savukārt patlaban pēc skaita otrs lielākais DUS tīkls Latvijā - 56 stacijas - ir "Neste Oil".
 (m1 / multi-sentence
     :snt1 (v1 / reach.01
         :ARG0 (v3 / tīkls
@@ -90,8 +91,8 @@
         :ARG2 (v8 / large
             :degree (v18 / most))))
 
-# sent_id = a-p3744-p2s1
-# text = "Nordea banka" vēlas brīvu piekļuvi putnu fabrikas "Ķekava" kustamajai mantai, vēsta "Dienas Bizness".
+# ::sent_id = a-p3744-p2s1
+# ::text = "Nordea banka" vēlas brīvu piekļuvi putnu fabrikas "Ķekava" kustamajai mantai, vēsta "Dienas Bizness".
 (v1 / tell.01
     :ARG0 (v2 / organization)
         :name (v3 / name
@@ -110,8 +111,8 @@
                         :mod (v14 / putns)))
                 :mod (v11 / kustēt)))))
 
-# sent_id = a-n166-p73s1
-# text = 3) uzlikt par pienākumu Rīgas pilsētas pašvaldībai atmaksāt SIA KU "Baltic Oil Terminal" samaksāto valsts nodevu 28,46 euro (Ls 20) apmērā.
+# ::sent_id = a-n166-p73s1
+# ::text = 3) uzlikt par pienākumu Rīgas pilsētas pašvaldībai atmaksāt SIA KU "Baltic Oil Terminal" samaksāto valsts nodevu 28,46 euro (Ls 20) apmērā.
 (v1 / impose.01
     :ARG1 (v2 / repay.01
         :ARG0 (v3 / pašvaldība)
@@ -124,16 +125,16 @@
             :name (v5 / name
                 :op1 "SIA KU Baltic Oil Terminal"))))
 
-# sent_id = a-d94-p4s3
-# text = Tieši šorīt viņš sevī bija sajutis uzmanības nepieciešamību.
+# ::sent_id = a-d94-p4s3
+# ::text = Tieši šorīt viņš sevī bija sajutis uzmanības nepieciešamību.
 (v1 / feel.01
     :ARG0 (v2 / viņš)
     :ARG1 (v3 / nepieciešamība
         :mod (v4 / uzmanība))
     :time (v5 / šorīt))
 
-# sent_id = a-p1272-p1s1
-# text = Kurmāles pagasta padome decembra sēdē grozīja šī gada budžetu un sprieda, kā jauno pieņemt jau janvārī.
+# ::sent_id = a-p1272-p1s1
+# ::text = Kurmāles pagasta padome decembra sēdē grozīja šī gada budžetu un sprieda, kā jauno pieņemt jau janvārī.
 (v1 / amend.01
     :time (v3 / decembra sēdē)
     :ARG0 (v4 / organization
@@ -149,8 +150,8 @@
     :ARG1 (v2 / budžets
         :mod (v6 / šis gads)))
 
-# sent_id = a-p6228-p3s1
-# text = Dienu pirms Jāņiem Lolita jau ne tikai plānoja, ko likt svētku galdā, bet ķērās pie cepšanas un jau izcepa vairākus gardumus.
+# ::sent_id = a-p6228-p3s1
+# ::text = Dienu pirms Jāņiem Lolita jau ne tikai plānoja, ko likt svētku galdā, bet ķērās pie cepšanas un jau izcepa vairākus gardumus.
 (v1 / plan.01
     :ARG0 (v2 / person
         :name (v3 / name
@@ -164,8 +165,8 @@
         :ARG1 (v6 / galds
             :mod (v7 / svētki))))
 
-# sent_id = a-p10263-p4s1
-# text = Neilgi pēc tam 12:35, VUGD saņēma informāciju, ka Saldus novada, Zirņu pagastā, grāvī atrodas zirgs, kurš saviem spēkiem no tā nevar izkļūt.
+# ::sent_id = a-p10263-p4s1
+# ::text = Neilgi pēc tam 12:35, VUGD saņēma informāciju, ka Saldus novada, Zirņu pagastā, grāvī atrodas zirgs, kurš saviem spēkiem no tā nevar izkļūt.
 (v1 / locate.01
     :ARG1 (v2 / zirgs
         :ARG0-of (v4 / escape.01
@@ -185,10 +186,9 @@
         :ARG0 (v7 / organization
             :name (v8 / name
                 :op1 "VUGD"))))
-                
 
-# sent_id = a-p2968-p5s7
-# text = Misters Rokfellers laika gaitā kļuva par vienu no modernās pasaules bagātākajiem cilvēkiem.
+# ::sent_id = a-p2968-p5s7
+# ::text = Misters Rokfellers laika gaitā kļuva par vienu no modernās pasaules bagātākajiem cilvēkiem.
 (v1 / become.01
     :ARG1 (v2 / person
         :name (v3 / name
@@ -197,16 +197,16 @@
         :location (v6 / modernā pasaule)
         :mod (v5 / bagāts)))
 
-# sent_id = a-p3739-p11s3
-# text = "Aparts" arī pieder 25 DUS.
+# ::sent_id = a-p3739-p11s3
+# ::text = "Aparts" arī pieder 25 DUS.
 (v1 / belong.01
     :ARG0 (v3 / DUS
         :quant 25)
     :ARG1 (v2 / organization
         :name (v5 / name :op1 "Aparts"))
 
-# sent_id = a-d62-p15s1
-# text = Kaula adatas iet kā kājas, diegi saveļas taciņā un tad spindzami izstiepjas skaņā.
+# ::sent_id = a-d62-p15s1
+# ::text = Kaula adatas iet kā kājas, diegi saveļas taciņā un tad spindzami izstiepjas skaņā.
 (v5 / and
     :op1 (v1 / go.01
         :manner (v2 / kāja)
@@ -217,3 +217,26 @@
             :ARG1-of (v9 / expand.01
                 :mod (v10 / spindzami)))
         :ARG2 (v7 / taciņa)))
+
+
+
+
+
+# sent_id = a-p2948-p4s5
+# text = Parasti šāda pirmā vizīte ilgst aptuveni stundu.
+(v5 / last.01
+    :ARG1 (v4 / vizīte
+        :mod (v3 / pirmais))
+    :ARG2 (v7 / stunda
+        :mod (v8 / aptuvens)))
+
+# ::sent_id a-d84-p127s2
+# ::text Ievai ienāca prātā, ka viņš varētu būt labs aktieris, jo viņa seja bija dzīva un izteiksmīga, tajā mainījās viltus un nopietnība, smiekls un asaras, tas viss kopā kā ēnas ik brīdi viļņoja viņa vaibstus.
+(v2 / occur.01
+    :ARG2 (v1 / person
+        :name (vg0 / name
+            :op0 "Ieva"))
+    :ARG1 (v7 / able.01
+        :ARG1 (v6 / Tēvs)
+        :ARG2 (v10 / aktieris
+            :mod (v9 / labs))))
