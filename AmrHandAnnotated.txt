@@ -218,10 +218,6 @@
                 :mod (v10 / spindzami)))
         :ARG2 (v7 / taciņa)))
 
-
-
-
-
 # sent_id = a-p2948-p4s5
 # text = Parasti šāda pirmā vizīte ilgst aptuveni stundu.
 (v5 / last.01
