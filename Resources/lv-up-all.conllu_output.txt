@@ -803,12 +803,14 @@
     :ARG1 (v23 / die.01
         :ARG1 (v18 / valoda
             :mod (v17 / lībietis)))
-    :location (v7 / "Mazo valodu runātāju grupu kontakts"
+    :location (v7 / event
         :mod (v6 / seminārs
             :mod (v3 / valodnieks))
         :location (v12 / name
-            :op1 (vg0 / "Igaunija")
-            :wiki "en.wikipedia.org/wiki/Estonia")))
+            :op1 (vg1 / "Igaunija")
+            :wiki "en.wikipedia.org/wiki/Estonia")
+        :name (vg0 / name
+            :op1 "Mazo valodu runātāju grupu kontakti")))
 
 # ::sent_id a-c41-p19s1
 # ::text Man bija grūti to pateikt, es pat nobijos no šīs domas.
@@ -3117,7 +3119,9 @@
     :ARG1 (v6 / maisiņš
         :mod (v2 / ražot)
         :mod (v4 / ola
-            :mod (v3 / "Lieldiena"
+            :mod (v3 / event
+                :name (vg0 / name
+                    :op1 "Lieldienu")
                 :wiki "en.wikipedia.org/wiki/Easter"))
         :mod (v5 / krāsot)
         :ARG1-of (v9 / use.01
@@ -4431,7 +4435,9 @@
             :ARG2 (v18 / modelis)))
     :ARG1 (v10 / win.01
         :time (v8 / vispirms)
-        :ARG2 (v11 / "Minimiss konkurss")
+        :ARG2 (v11 / event
+            :name (vg1 / name
+                :op1 "Minimiss konkursā"))
         :ARG0 v1))
 
 # ::sent_id a-d130-p50s8
@@ -10097,7 +10103,9 @@
     :time (v1 / šobrīd)
     :ARG1 (v8 / pass_away.16
         :mod (v6 / akcija
-            :mod (v5 / "Ziemassvētks"))))
+            :mod (v5 / event
+                :name (vg0 / name
+                    :op1 "Ziemassvētku")))))
 
 # ::sent_id a-d27-p22s1
 # ::text Bet mans laiks vēl nav pienācis, tā es sev saku.
@@ -12796,7 +12804,9 @@
 (v10 / find_out.03
     :ARG1 (v18 / joma
         :mod (v17 / piemērošana)
-        :mod (v11 / "Direktīvas 80 987 EEK")))
+        :mod (v11 / thing
+            :name (vg0 / name
+                :op1 "Direktīvas 80 987 EEK"))))
 
 # ::sent_id a-n136-p15s2
 # ::text Jo īpaši ir jānorāda iespējamie izņēmumi, ko piešķir dalībvalstīm direktīvas noteikumu ieviešanā, un tādējādi ir jāsvītro tās pielikums.
@@ -12871,7 +12881,9 @@
 # ::sent_id a-n136-p21s1
 # ::text (10) Attiecīgi ir jāgroza Direktīva 80/987/EEK.
 (v6 / amend.01
-    :ARG1 (v7 / "Direktīva 80 987 EEK"))
+    :ARG1 (v7 / thing
+        :name (vg0 / name
+            :op1 "Direktīva 80 987 EEK")))
 
 # ::sent_id a-n136-p22s1
 # ::text (11) Dalībvalstis nevar pienācīgi sasniegt iecerētās darbības mērķus, proti, grozīt dažus Direktīvas 80/987/EEK noteikumus, lai ievērotu izmaiņas uzņēmumu darbībā Kopienā, un tāpēc tie labāk sasniedzami Kopienas līmenī, Kopiena var pieņemt pasākumus saskaņā ar Līguma 5. pantā izklāstīto subsidiaritātes principu.
@@ -12882,7 +12894,9 @@
                 :mod (v9 / darbība
                     :mod (v8 / iecerēt)))))
     :ARG1 (v22 / noteikums
-        :mod (v16 / "Direktīvas 80 987 EEK")))
+        :mod (v16 / thing
+            :name (vg0 / name
+                :op1 "Direktīvas 80 987 EEK"))))
 
 # ::sent_id a-n136-p22s2
 # ::text Saskaņā ar minētajā pantā noteikto proporcionalitātes principu šī direktīva nepārsniedz šā mērķa sasniegšanai vajadzīgo.
@@ -12912,7 +12926,9 @@
 # ::sent_id a-n136-p26s1
 # ::text Direktīvu 80/987/EEK ar šo groza šādi:
 (v9 / amend.01
-    :ARG1 (v1 / "Direktīvu 80 987 EEK"))
+    :ARG1 (v1 / thing
+        :name (vg0 / name
+            :op1 "Direktīvu 80 987 EEK")))
 
 # ::sent_id a-n136-p27s1
 # ::text 1. Direktīvas nosaukumu aizstāj ar šādu:
@@ -13131,12 +13147,18 @@
 (v8 / consider.02
     :ARG0 (v1 / organization
         :ARG0-of (v23 / consider.02
-            :ARG1 (v25 / "Komisijas priekšlikums"))
+            :ARG1 (v25 / thing
+                :name (vg2 / name
+                    :op1 "Komisijas priekšlikumu")))
         :ARG0-of (v31 / consider.02
-            :ARG1 (v33 / "Ekonomikas un sociālo lietu komitejas atzinums"))
+            :ARG1 (v33 / thing
+                :name (vg3 / name
+                    :op1 "Ekonomikas un sociālo lietu komitejas atzinumu")))
         :name (vg0 / name
             :op1 "EIROPAS PARLAMENTS"))
-    :ARG1 (v10 / "Eiropas Kopienas dibināšanas līgums"))
+    :ARG1 (v10 / thing
+        :name (vg1 / name
+            :op1 "Eiropas Kopienas dibināšanas līgumu")))
 
 # ::sent_id a-n136-p60s1
 # ::text 4. Iekļauj šādu iedaļu:
@@ -13656,7 +13678,9 @@
 # ::text 5. Veselības informācijas sistēmā iekļauj vispārpieejamus datus un ierobežotas pieejamības datus.
 (v5 / include.01
     :ARG1 (v7 / dati)
-    :ARG2 (v2 / "Veselības informācijas sistēma"))
+    :ARG2 (v2 / thing
+        :name (vg0 / name
+            :op1 "Veselības informācijas sistēmā")))
 
 # ::sent_id a-n273-p467s1
 # ::text Aizpilda ārstniecības iestāde.
@@ -14348,7 +14372,9 @@
     :ARG0 (v2 / organization
         :name (vg0 / name
             :op1 "Valsts kontroles padome"))
-    :ARG1 (v6 / "Valsts kontroles nolikums"))
+    :ARG1 (v6 / thing
+        :name (vg1 / name
+            :op1 "Valsts kontroles nolikumu")))
 
 # ::sent_id a-n61-p47s1
 # ::text Fondu pārvalda Fonda padome, tās darbību nodrošina direktors, projektus izvērtē Fonda nozaru ekspertu komisijas.
@@ -14525,7 +14551,9 @@
             :op0 "I."
             :op1 "Poriķe"))
     :ARG1 (v9 / happen.01
-        :time (v10 / "Ziemassvētks")
+        :time (v10 / event
+            :name (vg1 / name
+                :op1 "Ziemassvētkos"))
         :ARG1 (v6 / labdarība)))
 
 # ::sent_id a-p10048-p8s2
@@ -14886,7 +14914,9 @@
             :op1 "A."
             :op2 "Rumba"))
     :ARG2 (v8 / satikšanās)
-    :ARG1 (v4 / "Dzejas diena"
+    :ARG1 (v4 / event
+        :name (vg1 / name
+            :op1 "Dzejas dienas")
         :wiki "lv.wikipedia.org/wiki/Dzejas_dienas"))
 
 # ::sent_id a-p10182-p2s2
@@ -14910,7 +14940,9 @@
             :op0 "M."
             :op1 "Anmane"))
     :ARG2 v7
-    :ARG0 (v4 / "Dzejas diena"
+    :ARG0 (v4 / event
+        :name (vg1 / name
+            :op1 "Dzejas dienas")
         :wiki "lv.wikipedia.org/wiki/Dzejas_dienas"))
 
 # ::sent_id a-p10182-p2s4
@@ -14936,7 +14968,9 @@
             :op1 "Briesma"))
     :ARG2 (v8 / svētki
         :mod (v7 / skaists))
-    :ARG1 (v3 / "Dzejas diena"))
+    :ARG1 (v3 / event
+        :name (vg1 / name
+            :op1 "Dzejas dienas")))
 
 # ::sent_id a-p1020-p1s1
 # ::text Pagājušās nedēļas nogalē Valgā 32 kaimiņpilsētu šahisti cīnījās Paula Keresa dzimšanas dienai veltītajā šaha turnīrā.
@@ -14947,7 +14981,9 @@
         :wiki "en.wikipedia.org/wiki/Valga,_Estonia")
     :ARG0 (v7 / šahists
         :mod (v6 / kaimiņpilsēta))
-    :ARG3 (v13 / "Paula Keresa dzimšanas dienai veltītais šaha turnīrs"))
+    :ARG3 (v13 / event
+        :name (vg1 / name
+            :op1 "Paula Keresa dzimšanas dienai veltītajā šaha turnīrā")))
 
 # ::sent_id a-p1020-p1s2
 # ::text Atkal uzvarēja Māris Koops.
@@ -15070,7 +15106,9 @@
     :ARG1 (v13 / pensija
         :mod (v12 / kavēt))
     :ARG2 (v22 / konts
-        :mod (v16 / "Pasta norēķinu sistēma"))
+        :mod (v16 / thing
+            :name (vg2 / name
+                :op1 "Pasta norēķinu sistēmas")))
     :time (v27 / "līdz 14. augusta vakars")
     :ARG1-of (v8 / confirm.01
         :ARG2 (v4 / organization
@@ -15105,7 +15143,9 @@
     :ARG0 (v1 / cits)
     :time (v3 / gads)
     :ARG1 (v7 / vainadziņš
-        :mod (v6 / "advente"
+        :mod (v6 / event
+            :name (vg0 / name
+                :op1 "adventes")
             :wiki "en.wikipedia.org/wiki/Advent")))
 
 # ::sent_id a-p1039-p3s3
@@ -15117,7 +15157,9 @@
 # ::sent_id a-p1039-p3s4
 # ::text Citam advente saistās ar tumšā laika beigšanos un gaišā sākumu.
 (v3 / associate.01
-    :ARG1 (v2 / "advente"
+    :ARG1 (v2 / event
+        :name (vg0 / name
+            :op1 "advente")
         :wiki "en.wikipedia.org/wiki/Advent")
     :ARG2 (v7 / beigšanās
         :mod (v6 / laiks
@@ -15257,9 +15299,11 @@
 (v4 / play.01
     :location (v1 / name
         :op1 (vg0 / "Jelgavas Sporta halle"))
-    :ARG1 (v7 / "44. spartakiādes turnīrs florbols"
+    :ARG1 (v7 / event
         :mod (v16 / zēns
             :mod (v15 / dzimt))
+        :name (vg1 / name
+            :op1 "44. spartakiādes turnīrs florbolā")
         :mod (v6 / skolēns
             :mod (v5 / pilsēta))))
 
@@ -17580,7 +17624,9 @@
         :location (v3 / name
             :op1 (vg0 / "Kalēti")
             :wiki "lv.wikipedia.org/wiki/Kalēti")
-        :ARG1 (v5 / festivāls))
+        :ARG1 (v5 / festivāls
+            :name (vg1 / name
+                :op1 "Rokenrolvasara")))
     :ARG0 (v28 / darbiniece
         :mod (v27 / iecirknis
             :mod (v26 / vēlēšanas))))
@@ -17983,10 +18029,12 @@
 # ::sent_id a-p1198-p1s1
 # ::text Jau, tikai ieejot Pētertirgū no Sv.Annas baznīcas puses, kļūst skaidrs, kas pašlaik valda šajā tirdzniecības vietā.
 (v4 / enter.01
-    :ARG1 (v5 / "Pētertirgū")
+    :ARG1 (v5 / event
+        :name (vg0 / name
+            :op1 "Pētertirgū"))
     :direction (v10 / puse
         :location (v7 / name
-            :op1 (vg0 / "Sv. Annas baznīca"))))
+            :op1 (vg1 / "Sv. Annas baznīca"))))
 
 # ::sent_id a-p1198-p1s5
 # ::text Piemājas saimniecībās audzētās ogas tiek vestas no tuvākas un tālākas apkārtnes, arī no kaimiņvalsts.
@@ -18175,7 +18223,9 @@
 # ::text Cilvēki rosījās, sagaidot Jauno gadu.
 (v4 / wait.01
     :ARG1 (v1 / cilvēks)
-    :ARG2 (v5 / "Jauno gads"))
+    :ARG2 (v5 / event
+        :name (vg0 / name
+            :op1 "Jauno gadu")))
 
 # ::sent_id a-p12211-p1s2
 # ::text Rosība notika arī senioru deju kolektīvos, jo viņi bija aicināti atzīmēt nenogurstošās vadītājas Aloīdas Andžānes jubileju.
@@ -18369,7 +18419,9 @@
 (v17 / inform.01
     :ARG0 (v16 / kurš)
     :ARG2 (v21 / take.14
-        :ARG1 (v20 / "Ziemassvētks")
+        :ARG1 (v20 / event
+            :name (vg0 / name
+                :op1 "Ziemassvētku"))
         :polarity -))
 
 # ::sent_id a-p12364-p3s1
@@ -18421,7 +18473,9 @@
 # ::sent_id a-p12385-p9s1
 # ::text Sākumā tika svinīgi atklāta Eiropas Sporta nedēļa ar kopīgu vingrošanu, kuras vingrojumu kompleksu bērni cītīgi mācījās nedēļu iepriekš.
 (v4 / open.01
-    :ARG1 (v5 / "Eiropas Sporta nedēļa"
+    :ARG1 (v5 / event
+        :name (vg0 / name
+            :op1 "Eiropas Sporta nedēļa")
         :mod (v9 / kopīgs)))
 
 # ::sent_id a-p12385-p9s2
@@ -18658,7 +18712,9 @@
 # ::text Krievu nams nolēmis pirmo reizi organizēt Kristības svētkus un aicina visus pārliecinātos, kā arī interesentus piedalīties pasākumā.
 (v3 / decide.01
     :ARG1 (v6 / organize.01
-        :ARG1 (v7 / "Kristības svētkus"))
+        :ARG1 (v7 / event
+            :name (vg1 / name
+                :op1 "Kristības svētkus")))
     :ARG0 (v1 / name
         :ARG0-of (v10 / invite.01
             :ARG1 (v12 / pārliecināt
@@ -19461,7 +19517,9 @@
     :location (v6 / name
         :op1 (vg0 / "Ludzas pilskalns")
         :wiki "en.wikipedia.org/wiki/Ludza_Castle")
-    :ARG1 (v14 / "Lielais latgaļu tirgus"))
+    :ARG1 (v14 / event
+        :name (vg1 / name
+            :op1 "Lielais latgaļu tirgus")))
 
 # ::sent_id a-p12786-p1s2
 # ::text Te var vienkārši pamielot acis, var pirkt un pārdot, var piedalīties dažādos interesantos pasākumos.
@@ -19664,7 +19722,9 @@
 (v7 / walk.01
     :ARG0 (v5 / cilvēks)
     :direction (v8 / prom)
-    :ARG2 (v3 / "Sv. Mise"))
+    :ARG2 (v3 / event
+        :name (vg0 / name
+            :op1 "Sv. Mises")))
 
 # ::sent_id a-p12818-p11s4
 # ::text Tad tantes bija tā sakaunējušās, ka nākamajā reizē sanesa tik daudz, ka visam grozā nebija vietas,” atceras ilggadējais zakristians.
@@ -19740,7 +19800,9 @@
 
 # ::sent_id a-p12857-p5s2
 # ::text Tāpēc kampaņas "Pierādi sevi citur, nevis uz ceļa!" laikā autovadītāji ar dažādām aktivitātēm tiks izaicināti sevi pierādīt hobijos, darbā un citur, nevis trakojot uz ceļa.
-(v2 / kampaņa)
+(v2 / kampaņa
+    :name (vg0 / name
+        :op1 "Pierādi sevi citur nevis uz ceļa"))
 
 # ::sent_id a-p12869-p4s1
 # ::text Tikmēr Kurzemē, Durbes novadā, kvadraciklu vadījis 1991.gadā dzimis vīrietis, nobraucis no ceļa braucamās daļas un apgāzies.
@@ -20046,13 +20108,17 @@
 # ::sent_id a-p13107-p3s2
 # ::text Kopā ar komandu divas reizes uzvarēts VEF Latvijas Jaunatnes basketbola līgas čempionātā un vairākkārt izcīnītas otrās un trešās vietas.
 (v6 / win.01
-    :ARG2 (v7 / "VEF Latvijas Jaunatnes basketbola līgas čempionāts"))
+    :ARG2 (v7 / event
+        :name (vg0 / name
+            :op1 "VEF Latvijas Jaunatnes basketbola līgas čempionātā")))
 
 # ::sent_id a-p13107-p3s3
 # ::text Pinnes vārds iepriekš figurējis arī Latvijas kadetu un junioru izlases kandidātu sarakstā, tiesa, Eiropas čempionātos vēl nav iznācis piedalīties.
 (v20 / succeed.01
     :ARG1 (v21 / participate.01
-        :ARG1 (v16 / "Eiropas čempionāts")))
+        :ARG1 (v16 / event
+            :name (vg0 / name
+                :op1 "Eiropas čempionātos"))))
 
 # ::sent_id a-p1312-p8s1
 # ::text G.Kārkliņš priecājas, ka izdevies visu veiksmīgi saskaņot ar Kurmāles pašvaldības vadītāju Juri Štorhu un amatpersonām, kas atbild par zivsaimniecību Kuldīgas rajonā.
@@ -21308,7 +21374,9 @@
 # ::text Gada laikā nospēlēt 100 koncertus – to uzņemas tikai “Muse” un arī jaunās grupas, kurām vēl ir jāaug.
 (v8 / undertake.01
     :ARG1 (v7 / tas)
-    :ARG0 (v11 / "Muse"
+    :ARG0 (v11 / thing
+        :name (vg0 / name
+            :op1 "Muse")
         :wiki "en.wikipedia.org/wiki/Muse_(band)"))
 
 # ::sent_id a-p13653-p8s2
@@ -21350,12 +21418,14 @@
 # ::sent_id a-p13670-p4s2
 # ::text The Book of Souls turneja , starp citu, ir pirmā reize, kad Iron Maiden lidmašīnu izmanto arī Eiropas turnejā.
 (v18 / use.01
-    :ARG0 (v15 / "Iron Maiden"
+    :ARG0 (v15 / thing
+        :name (vg0 / name
+            :op1 "Iron Maiden")
         :wiki "en.wikipedia.org/wiki/Iron_Maiden")
     :ARG1 (v17 / lidmašīna)
     :location (v21 / turneja
         :location (v20 / name
-            :op1 (vg0 / "Eiropa")
+            :op1 (vg1 / "Eiropa")
             :wiki "en.wikipedia.org/wiki/Europe")))
 
 # ::sent_id a-p13670-p4s3
@@ -21583,7 +21653,9 @@
     :location (v3 / name
         :op1 (vg0 / "Salaspils")
         :wiki "en.wikipedia.org/wiki/Salaspils")
-    :ARG1 (v5 / "Valsts policijas atklātais čempionāts svaru bumbu celšana"))
+    :ARG1 (v5 / event
+        :name (vg1 / name
+            :op1 "Valsts policijas atklātais čempionāts svaru bumbu celšanā")))
 
 # ::sent_id a-p1383-p1s2
 # ::text Rēzeknes policijas pārvaldi pārstāvēja trīs dalībnieki, un visi ieguva godalgotas vietas.
@@ -22856,9 +22928,11 @@
         :mod (v1 / pārdomāt
             :polarity -)
         :mod (v4 / grozījums
-            :mod (v5 / "Krimināllikums")))
+            :mod (v5 / thing
+                :name (vg0 / name
+                    :op1 "Krimināllikumā"))))
     :ARG2 (v6 / organization
-        :name (vg0 / name
+        :name (vg1 / name
             :op1 "Saeima"))
     :time (v11 / laiks))
 
@@ -22867,7 +22941,9 @@
 (v10 / comply.01
     :ARG0 (v3 / jauninājums)
     :ARG1 (v12 / sistēma
-        :mod (v11 / "Krimināllikums"))
+        :mod (v11 / thing
+            :name (vg0 / name
+                :op1 "Krimināllikuma")))
     :polarity -)
 
 # ::sent_id a-p140-p13s3
@@ -23751,7 +23827,9 @@
     :time (v3 / "plkst. 14")
     :location (v6 / name
         :op1 (vg0 / "Rožkalnu kultūras nams"))
-    :ARG1 (v10 / deja))
+    :ARG1 (v10 / deja
+        :name (vg1 / name
+            :op1 "Lai katrs mirklis gaismas piepildīts mīlestībā ieskauts un sasildīts")))
 
 # ::sent_id a-p14435-p4s2
 # ::text Pasākumā piedalīsies Vārkavas novada pašdarbnieku kolektīvi: "Pašām patīk", "Vecvārkava", "Odziņas" un "Dzīves virpulī", kā arī viesi - senioru deju kolektīvi "Atvasara" no Balviem, Kubulu pagasta "Rūtas", Andrupenes pagasta "Veldzītes", Višķu pagasta "Magones" un Līvānu "Rūžeņas".
@@ -23845,7 +23923,9 @@
 # ::text Kopumā tualetē tika atrasti vairāk nekā 100 000 Austrālijas dolāru (71 760 eiro).
 (v4 / find.01
     :location (v2 / tualete)
-    :ARG1 (v8 / "Austrālijas dolārs"))
+    :ARG1 (v8 / thing
+        :name (vg0 / name
+            :op1 "Austrālijas dolāru")))
 
 # ::sent_id a-p14510-p4s3
 # ::text Daļa bija paslēpta caurulēs.
@@ -24258,11 +24338,13 @@
     :ARG1 (v15 / start.01
         :ARG0 v7
         :ARG2 (v17 / sezona))
-    :ARG0 (v7 / "Londonas olimpiskās spēles"
-        :name (vg0 / name
+    :ARG0 (v7 / event
+        :name (vg1 / name
             :op0 "Pļaviņš")
         :wiki "en.wikipedia.org/wiki/Mārtiņš_Pļaviņš"
-        :mod (v5 / "2012. gads")))
+        :mod (v5 / "2012. gads")
+        :name (vg0 / name
+            :op1 "Londonas olimpisko spēļu")))
 
 # ::sent_id a-p14700-p2s3
 # ::text Sestajā geimā spānis uzvarēja visās izspēlēs un turpināja līdzvērtīgu spēkošanos.
@@ -25395,7 +25477,9 @@
             :op1 "LZNP"))
     :ARG2 (v13 / valdība)
     :ARG1 (v16 / grozījums
-        :mod (v14 / "Notariāta likums")))
+        :mod (v14 / thing
+            :name (vg1 / name
+                :op1 "Notariāta likuma"))))
 
 # ::sent_id a-p15366-p7s1
 # ::text "Ventspils" šosezon FIBA Eiropas kausā sasniedza astotdaļfinālu, kur piekāpās Izraēlas vienībai Rišonlecijonas "Maccabi Rand Media".
@@ -25807,11 +25891,15 @@
         :ARG0-of (v11 / get.01
             :time (v7 / date-entity
                 :year 2011.)
-            :ARG1 (v12 / "Pasaules kauss"))
+            :ARG1 (v12 / event
+                :name (vg1 / name
+                    :op1 "Pasaules kausu")))
         :ARG0-of (v15 / win.01
             :ARG1 (v17 / godalga
                 :mod (v16 / zelts)
-                :mod (v18 / "Eiropas meistarsacīkstēs")))
+                :mod (v18 / event
+                    :name (vg2 / name
+                        :op1 "Eiropas meistarsacīkstēs"))))
         :name (vg0 / name
             :op0 "Mahata")
         :wiki "en.wikipedia.org/wiki/Manuel_Machata")
@@ -25866,7 +25954,9 @@
         :name (vg0 / name
             :op1 "Latvijas Dabas muzejs")
         :wiki "en.wikipedia.org/wiki/Latvian_Museum_of_Natural_History")
-    :ARG1 (v13 / izstāde))
+    :ARG1 (v13 / izstāde
+        :name (vg1 / name
+            :op1 "Telpaugi ziemā")))
 
 # ::sent_id a-p1563-p1s2
 # ::text Tā tapusi sadarbībā ar Nacionālo botānisko dārzu, kur pašlaik valda eksotisks augu zaļums un ziedēšanas prieks.
@@ -26037,7 +26127,9 @@
             :op1 "Saeima")
         :wiki "en.wikipedia.org/wiki/Saeima")
     :time (v2 / "šodien")
-    :ARG1 (v6 / "Jūras kodeksa grozījumu projekts"))
+    :ARG1 (v6 / thing
+        :name (vg1 / name
+            :op1 "Jūras kodeksa grozījumu projektu")))
 
 # ::sent_id a-p15704-p5s1
 # ::text Juris Benjamiņš (1918-1993), dzimis kā Georgs Aihers, Benjamiņu uzvārdu ieguva 1926.gadā, kad mātes Annijas vecākā māsa, izdevēja Emīlija Benjamiņa, viņu adoptēja.
@@ -26147,7 +26239,9 @@
     :ARG1 (v9 / paziņojums
         :mod (v12 / persona
             :mod (v11 / konkrēts)))
-    :ARG2 (v13 / "Šengenas informācijas sistēma"))
+    :ARG2 (v13 / thing
+        :name (vg0 / name
+            :op1 "Šengenas informācijas sistēmā")))
 
 # ::sent_id a-p15763-p3s1
 # ::text Bez automašīnām sadegušas arī līdzās esošās atkritumu tvertnes.
@@ -26217,7 +26311,9 @@
             :ARG0-of (v12 / do.02
                 :ARG1 (v14 / kurināšana
                     :mod (v13 / naids)))))
-    :ARG0 (v1 / "Latvijas Elektronisko plašsaziņas līdzekļu likums"))
+    :ARG0 (v1 / thing
+        :name (vg0 / name
+            :op1 "Latvijas Elektronisko plašsaziņas līdzekļu likums")))
 
 # ::sent_id a-p158-p10s1
 # ::text Kāds bija galvenais uzdevums, ko sev izvirzījāt, sākot ministra darbu?
@@ -26248,7 +26344,9 @@
 # ::text "Future Shorts" rīkotāji esot atlasījuši pasaules lielāko starptautisko kinofestivālu labākās īsmetrāžas filmas.
 (v7 / select.01
     :ARG0 (v5 / rīkotājs
-        :mod (v2 / "Future Shorts"))
+        :mod (v2 / event
+            :name (vg0 / name
+                :op1 "Future Shorts")))
     :ARG1 (v14 / filma
         :mod (v11 / kinofestivāls
             :mod (v9 / liels
@@ -26391,7 +26489,9 @@
 (v3 / demonstrate.01
     :ARG0 (v2 / kanāls)
     :ARG1 (v7 / starptautisks
-        :mod (v6 / garš)))
+        :mod (v6 / garš)
+        :name (vg0 / name
+            :op1 "Oskaru ceremonijas")))
 
 # ::sent_id a-p15884-p5s2
 # ::text Tādu mēs to saņēmām no translācijas tiesību turētāja," sacīja Pirmā kanāla pārstāve Larisa Krimova.
@@ -26518,10 +26618,12 @@
 # ::text MEL turnīrā startēja 11 komandas no Ungārijas, Slovākijas un Horvātijas.
 (v3 / participate.01
     :ARG1 (v2 / turnīrs
-        :mod (v1 / "MEL"))
+        :mod (v1 / event
+            :name (vg0 / name
+                :op1 "MEL")))
     :ARG0 (v5 / komanda
         :location (v7 / name
-            :op1 (vg0 / "Ungārija")
+            :op1 (vg1 / "Ungārija")
             :wiki "en.wikipedia.org/wiki/Hungary")))
 
 # ::sent_id a-p15919-p2s1
@@ -27064,7 +27166,9 @@
     :ARG1 (v10 / darbs
         :mod (v8 / paliekošs)
         :mod (v9 / māksla)
-        :mod (v12 / "Ciemgaļu mežābele")))
+        :mod (v12 / thing
+            :name (vg0 / name
+                :op1 "Ciemgaļu mežābeli"))))
 
 # ::sent_id a-p16246-p4s1
 # ::text Pašlaik 55 gadus vecais Benitess tiek minēts kā favorīts uz Madrides "Real" galvenā trenera amatu, jo pirms pāris dienām no šī posteņa tika atstādināts itālis Karlo Ančeloti.
@@ -27610,9 +27714,13 @@
         :ARG0-of (v20 / play.01
             :time (v18 / sezona)
             :ARG1 (v23 / izcīņa
-                :mod (v21 / "Eiropas kauss"
+                :mod (v21 / event
+                    :name (vg2 / name
+                        :op1 "Eiropas kausa")
                     :wiki "en.wikipedia.org/wiki/Ojārs_Siliņš"))))
-    :ARG2 (v11 / "Eiropas Izaicinājuma kausa turnīrs"))
+    :ARG2 (v11 / event
+        :name (vg1 / name
+            :op1 "Eiropas Izaicinājuma kausa turnīrā")))
 
 # ::sent_id a-p16543-p8s1
 # ::text Liecinieki policijai stāstīja, ka ar pūķi darbojušies divi cilvēki.
@@ -27906,12 +28014,14 @@
 (v4 / emphasize.01
     :ARG1 (v10 / expose.01
         :ARG1 (v7 / organization
-            :name (vg0 / name
+            :name (vg1 / name
                 :op1 "ES")
             :wiki "en.wikipedia.org/wiki/European_Union")
         :time (v8 / pašlaik)
         :ARG2 (v11 / tests))
-    :location (v1 / "Nīderlandes prezidentūras programma"))
+    :location (v1 / thing
+        :name (vg0 / name
+            :op1 "Nīderlandes prezidentūras programmā")))
 
 # ::sent_id a-p16768-p3s2
 # ::text Tāpat arī ģeopolitisko saspīlējumu dēļ ES rēgojas fragmentācijas draudi, turklāt teroristi apdraud eiropiešu dzīvesveidu, tādējādi sabiedrībā sējot bailes un sašķeltību.
@@ -28277,7 +28387,9 @@
     :ARG1 (v1 / regret.01
         :ARG1 (v6 / win.01
             :ARG2 (v11 / turnīrs
-                :mod (v8 / "Grand Sls"
+                :mod (v8 / event
+                    :name (vg0 / name
+                        :op1 "Grand Slam")
                     :wiki "en.wikipedia.org/wiki/Grand_Slam_(tennis)")))
         :polarity -)
     :ARG0 (v32 / tenisists
@@ -28316,15 +28428,17 @@
 # ::text Kremļa paziņojumā teikts, ka Putins devis rīkojumu aizsardzības ministram Sergejam Šoigu atvilkt spēkus uz to bāzēm, jo "vasaras apmācības dienvidu militārajā reģionā ir beigušās".
 (v3 / say.01
     :location (v2 / paziņojums
-        :mod (v1 / "Kremlis"))
+        :mod (v1 / thing
+            :name (vg0 / name
+                :op1 "Kremļa")))
     :ARG1 (v7 / give.01
         :ARG0 (v6 / person
-            :name (vg0 / name
+            :name (vg1 / name
                 :op0 "Putins")
             :wiki "en.wikipedia.org/wiki/Vladimir_Putin")
         :ARG1 (v8 / rīkojums)
         :ARG2 (v9 / aizsardzība
-            :name (vg1 / name
+            :name (vg2 / name
                 :op0 "Sergejs"
                 :op1 "Šoigu")
             :wiki "en.wikipedia.org/wiki/Sergey_Shoygu")))
@@ -28393,7 +28507,9 @@
     :ARG1 (v2 / lieta
         :mod (v1 / ikdienišķs))
     :ARG0 (v9 / tas)
-    :ARG2 (v5 / "Slēptā varonis"))
+    :ARG2 (v5 / thing
+        :name (vg0 / name
+            :op1 "Slēpto varoni")))
 
 # ::sent_id a-p16979-p4s1
 # ::text "Nevar zināt, varbūt kastrēts bebrs grauzīs koku ar vēl lielākām dusmām," piebilda Kļaviņš.
@@ -28478,46 +28594,60 @@
         :day 25.)
     :location (v4 / baznīca
         :mod (v3 / katolis))
-    :ARG1 (v8 / "Svētā Mise"))
+    :ARG1 (v8 / event
+        :name (vg0 / name
+            :op1 "Svētās Mises")))
 
 # ::sent_id a-p17018-p7s3
 # ::text Tautā to sauc par Eņģeļu Misi, jo eņģeļi pirmie sludināja prieka vēsti virs Betlēmes.
 (v3 / call.01
-    :ARG2 (v5 / "Eņģeļu Mise")
+    :ARG2 (v5 / event
+        :name (vg0 / name
+            :op1 "Eņģeļu Misi"))
     :ARG1 v5)
 
 # ::sent_id a-p17018-p7s4
 # ::text Otrā Mise notiek rīta stundā, to mēdz saukt par Ganu Misi, atceroties Betlēmes ganus, kas pirmie aizsteidzās pie Jēzus silītes.
 (v3 / happen.01
     :time (v5 / stunda)
-    :ARG1 (v1 / "Otrā Mise"))
+    :ARG1 (v1 / event
+        :name (vg0 / name
+            :op1 "Otrā Mise")))
 
 # ::sent_id a-p17018-p7s5
 # ::text Savukārt trešā Svētā Mise notiek dienā.
 (v5 / happen.01
     :time (v6 / diena)
-    :ARG1 (v3 / "Svētā Mise"
-        :mod (v2 / trešais)))
+    :ARG1 (v3 / event
+        :mod (v2 / trešais)
+        :name (vg0 / name
+            :op1 "Svētā Mise")))
 
 # ::sent_id a-p17018-p8s1
 # ::text Ziemassvētkiem sekojošās septiņas dienas sauc par Ziemassvētku oktāvu.
 (v5 / call.01
     :ARG1 (v2 / "sekojošā septiņas diena")
-    :ARG2 (v7 / "Ziemassvētku oktāva"))
+    :ARG2 (v7 / event
+        :name (vg0 / name
+            :op1 "Ziemassvētku oktāvu")))
 
 # ::sent_id a-p17018-p8s3
 # ::text Svētdienā pēc Ziemassvētkiem ir Svētās ģimenes svētki.
 (v4 / take.14
     :time (v1 / "Svētdienā pēc Ziemassvētks")
-    :ARG1 (v5 / "Svētā ģimenes svētki"))
+    :ARG1 (v5 / event
+        :name (vg0 / name
+            :op1 "Svētās ģimenes svētki")))
 
 # ::sent_id a-p17021-p7s1
 # ::text Pēc latviešu tradīcijām Ziemassvētku vakarā vajag sadegt visas lampas, lai Laimīte redzētu, kur staigāt, kā arī Ziemassvētku vakarā jātur maize, sāls un uguns uz galda, tad nākamais gads būs svētīgs.
 (v6 / need.01
-    :time (v5 / "Ziemassvētku vakars"
+    :time (v5 / event
         :time-of (v7 / light.04
             :ARG1 (v9 / lampa)
             :ARG1-of v6)
+        :name (vg0 / name
+            :op1 "Ziemassvētku vakarā")
         :wiki "en.wikipedia.org/wiki/Christmas_Eve"))
 
 # ::sent_id a-p17022-p3s1
@@ -28670,7 +28800,9 @@
     :ARG1 (v8 / mačs
         :mod (v7 / kārta
             :mod (v6 / 13.)
-            :mod (v4 / "ULEB Eirolīga")))
+            :mod (v4 / event
+                :name (vg0 / name
+                    :op1 "ULEB Eirolīgas"))))
     :ARG0 (v9 / Lengfords))
 
 # ::sent_id a-p17099-p6s1
@@ -29232,7 +29364,9 @@
 # ::sent_id a-p17545-p2s1
 # ::text "Kolibris" turnīrs notika pēc trīsmīnusu sistēmas, kas nozīmē, ka pēc trešā zaudējuma komanda izstājas.
 (v5 / happen.01
-    :ARG1 (v2 / "Kolibris turnīrs"))
+    :ARG1 (v2 / event
+        :name (vg0 / name
+            :op1 "Kolibris turnīrs")))
 
 # ::sent_id a-p17562-p4s1
 # ::text Pēc divām minūtēm Viktors Hedmans tieši pretī vārtiem izdarīja metienu, kas caururba Krievijas izlases aizsardzību, ātri panākot divu vārtu pārsvaru.
@@ -29275,7 +29409,9 @@
 # ::text Pirmoreiz kampaņa "Dienas bez rindām" tika īstenota pagājušā gada maijā.
 (v9 / carry_out.03
     :time (v12 / "pagājušā gada maija")
-    :ARG1 (v2 / kampaņa))
+    :ARG1 (v2 / kampaņa
+        :name (vg0 / name
+            :op1 "Dienas bez rindām")))
 
 # ::sent_id a-p17594-p5s2
 # ::text Tās mērķis ir iedrošināt iedzīvotājus un uzņēmējus apgūt valsts un pašvaldību iestāžu piedāvātos e-pakalpojumus.
@@ -30351,7 +30487,9 @@
 # ::text Kā savukārt teikts Ieslodzījuma vietu departamenta paziņojumā, neviens Kriminālkodeksa grozījums nav vērsts uz to, lai pasliktinātu ieslodzījuma apstākļus.
 (v13 / direct.01
     :ARG1 (v11 / grozījums
-        :mod (v10 / "Kriminālkodekss"))
+        :mod (v10 / thing
+            :name (vg1 / name
+                :op1 "Kriminālkodeksa")))
     :ARG2 (v15 / tas)
     :ARG1-of (v3 / say.01
         :location (v7 / paziņojums
@@ -30843,12 +30981,16 @@
         :ARG0-of (v23 / help.01
             :ARG1 (v24 / earn.01
                 :ARG1 (v25 / paaugstinājums
-                    :mod (v28 / "Championship turnīrs"
+                    :mod (v28 / event
+                        :name (vg2 / name
+                            :op1 "Championship turnīru")
                         :wiki "en.wikipedia.org/wiki/EFL_Championship")))))
     :ARG2 (v17 / vienība
-        :mod (v8 / "Anglijas trešā līga"
+        :mod (v8 / thing
+            :name (vg0 / name
+                :op1 "Anglijas trešās līgas")
             :wiki "en.wikipedia.org/wiki/EFL_League_One")
-        :name (vg0 / name
+        :name (vg1 / name
             :op1 "Jovila Town")
         :wiki "en.wikipedia.org/wiki/Yeovil_Town_F.C."))
 
@@ -31060,9 +31202,11 @@
 (v14 / happen.01
     :ARG1 (v13 / posms
         :mod (v12 / nākamais)
-        :mod (v8 / "LMT Latvijas autorallija čempionāts"))
+        :mod (v8 / event
+            :name (vg0 / name
+                :op1 "LMT Latvijas autorallija čempionāta")))
     :location (v15 / name
-        :op1 (vg0 / "Lietuva")
+        :op1 (vg1 / "Lietuva")
         :wiki "en.wikipedia.org/wiki/Lithuania"))
 
 # ::sent_id a-p1845-p5s2
@@ -31186,12 +31330,14 @@
 # ::text Gatavojoties 2018.gada olimpiskajām spēlēm Phjončhanā, Dienvidkoreja nolīgusi arī NHL spēlējušu treneru personālu - Seulā dzimušos, bet Ziemeļamerikā uzaugušos Džimu Pēku un Ričardu Parku.
 (v1 / prepare.02
     :ARG1 (v8 / name
-        :op1 (vg1 / "Dienvidkoreja")
+        :op1 (vg2 / "Dienvidkoreja")
         :wiki "en.wikipedia.org/wiki/South_Korea")
-    :ARG2 (v2 / "2018. gada olimpiskās spēles"
+    :ARG2 (v2 / event
         :location (v6 / name
-            :op1 (vg0 / "Phjončhana")
+            :op1 (vg1 / "Phjončhana")
             :wiki "en.wikipedia.org/wiki/Pyeongchang_County")
+        :name (vg0 / name
+            :op1 "2018. gada olimpiskajām spēlēm")
         :wiki "en.wikipedia.org/wiki/2018_Winter_Olympics"))
 
 # ::sent_id a-p18537-p3s1
@@ -31679,7 +31825,9 @@
 # ::text Šai pašā gadā būs Saeimas vēlēšanas.
 (v4 / take.14
     :time (v3 / gads)
-    :ARG1 (v5 / "Saeimas vēlēšanas"
+    :ARG1 (v5 / event
+        :name (vg0 / name
+            :op1 "Saeimas vēlēšanas")
         :wiki "lv.wikipedia.org/wiki/13._Saeimas_vēlēšanas"))
 
 # ::sent_id a-p18685-p35s3
@@ -31898,7 +32046,9 @@
     :ARG0 v4
     :ARG1 (v10 / kārta
         :mod (v9 / elite)
-        :mod (v7 / "UEFA kauss")))
+        :mod (v7 / event
+            :name (vg1 / name
+                :op1 "UEFA kausa"))))
 
 # ::sent_id a-p18732-p5s1
 # ::text Kad lidmašīna nosēdās, asarās izplūdušajai Hiltonei paziņoja, ka tas bija joks.
@@ -32085,12 +32235,14 @@
 # ::text Arī individuālie ceļotāji no kaimiņvalstīm - Lietuvas un Igaunijas - interesējas par iespēju to apmeklēt jūlijā, tādēļ izstādes īpašnieki atsaucās mūsu aicinājumam priecēt skatītājus vēl vienu mēnesi," atklāj "Titanic The Exhibition" projekta vadītāja Latvijā Inga Kadeka.
 (v31 / reveal.01
     :ARG1 (v11 / interesēties)
-    :ARG0 (v33 / "Titanic The Exhibition"
-        :name (vg1 / name
+    :ARG0 (v33 / event
+        :name (vg2 / name
             :op0 "Inga"
             :op1 "Kadeka")
+        :name (vg0 / name
+            :op1 "Titanic The Exhibition")
         :location (v39 / name
-            :op1 (vg0 / "Latvija")
+            :op1 (vg1 / "Latvija")
             :wiki "en.wikipedia.org/wiki/Latvia")))
 
 # ::sent_id a-p18821-p4s1
@@ -32112,10 +32264,12 @@
 (v7 / accomplish.01
     :time (v10 / "2013. gada oktobris")
     :location (v11 / name
-        :op1 (vg0 / "ASV")
+        :op1 (vg1 / "ASV")
         :wiki "en.wikipedia.org/wiki/United_States")
-    :ARG1 (v4 / "Ginesa rekords"
+    :ARG1 (v4 / thing
         :mod (v3 / būt)
+        :name (vg0 / name
+            :op1 "Ginesa rekords")
         :wiki "en.wikipedia.org/wiki/Guinness_World_Records"))
 
 # ::sent_id a-p18834-p6s1
@@ -32137,20 +32291,22 @@
     :ARG1 (v18 / please.01
         :ARG1 (v2 / organization
             :mod (v15 / iniciators
-                :mod (v12 / "Latvijas Labums"
+                :mod (v12 / event
                     :mod (v10 / kampaņa
                         :mod (v5 / radīt)
-                        :mod (v9 / sociāls))))
+                        :mod (v9 / sociāls))
+                    :name (vg1 / name
+                        :op1 "Latvijas Labums")))
             :name (vg0 / name
                 :op1 "LTRK")
             :wiki "lv.wikipedia.org/wiki/Latvijas_Tirdzniecības_un_rūpniecības_kamera")
         :ARG0 (v22 / rezultāts
             :mod (v21 / pētījums
                 :mod (v19 / organization
-                    :name (vg1 / name
+                    :name (vg2 / name
                         :op1 "Citadele Index")))))
     :ARG0 (v26 / person
-        :name (vg2 / name
+        :name (vg3 / name
             :op0 "Endziņš")))
 
 # ::sent_id a-p18860-p5s1
@@ -32253,7 +32409,9 @@
         :ARG1 (v11 / cēliens
             :mod (v10 / pēdējais))
         :time (v16 / "2003. gada decembra vidus")
-        :ARG4 (v17 / "Kopenhāgenas galotņu sanāksme"
+        :ARG4 (v17 / event
+            :name (vg0 / name
+                :op1 "Kopenhāgenas galotņu sanāksmē")
             :wiki "en.wikipedia.org/wiki/2009_United_Nations_Climate_Change_Conference")))
 
 # ::sent_id a-p18912-p4s2
@@ -32886,7 +33044,9 @@
         :op1 (vg0 / "Latvija")
         :wiki "en.wikipedia.org/wiki/Latvia")
     :ARG1 (v7 / posms
-        :mod (v5 / "Pasaules kauss")))
+        :mod (v5 / event
+            :name (vg1 / name
+                :op1 "Pasaules kausa"))))
 
 # ::sent_id a-p19370-p9s2
 # ::text Toreiz tika cerēts, ka šogad Pasaules kausa sacensības risināsies Rīgā, kas gan nav realizējies, bet Latvija cer 2018.gadā uzņemt pasaules čempionātu.
@@ -32895,9 +33055,11 @@
     :ARG1 (v10 / take.14
         :time (v6 / "šogad")
         :ARG1 (v9 / sacensība
-            :mod (v7 / "Pasaules kauss"))
+            :mod (v7 / event
+                :name (vg0 / name
+                    :op1 "Pasaules kausa")))
         :location (v11 / name
-            :op1 (vg0 / "Rīga")
+            :op1 (vg1 / "Rīga")
             :wiki "en.wikipedia.org/wiki/Riga")))
 
 # ::sent_id a-p19372-p6s1
@@ -33529,7 +33691,9 @@
 (v8 / go_over.26
     :ARG0 (v7 / valsts)
     :ARG1 (v11 / aprēķins
-        :mod (v10 / "IKP"
+        :mod (v10 / thing
+            :name (vg1 / name
+                :op1 "IKP")
             :wiki "en.wikipedia.org/wiki/Gross_domestic_product"))
     :time (v15 / temporal-quantity
         :unit (vg0 / gads)
@@ -34521,7 +34685,9 @@
     :time (v3 / date-entity
         :year 1991.)
     :time (v5 / reize)
-    :ARG1 (v9 / "Eiropas Jaunatnes olimpiāde"
+    :ARG1 (v9 / event
+        :name (vg0 / name
+            :op1 "Eiropas Jaunatnes olimpiāde")
         :wiki "en.wikipedia.org/wiki/European_Youth_Olympic_Festival"))
 
 # ::sent_id a-p2230-p8s2
@@ -40019,7 +40185,9 @@
     :ARG1 (v12 / treniņš
         :mod (v19 / izcīņa
             :mod (v16 / paredzēt)
-            :mod (v17 / "Baltijas kauss"
+            :mod (v17 / event
+                :name (vg2 / name
+                    :op1 "Baltijas kausa")
                 :wiki "en.wikipedia.org/wiki/Baltic_Cup_(football)")))
     :ARG0 (v1 / organization
         :name (vg1 / name
@@ -40263,6 +40431,8 @@
 (v3 / accuse.01
     :ARG1 (v2 / persona)
     :ARG2 (v9 / konkurss
+        :name (vg0 / name
+            :op1 "Pļaviņu hidroelektrostacijas hidroagregāta Nr. 4 5 7 rekonstrukcija")
         :mod (v8 / rīkot)))
 
 # ::sent_id a-p3735-p11s2
@@ -40598,10 +40768,14 @@
         :year 1995.)
     :ARG0 (v3 / person
         :ARG0-of (v11 / get.01
-            :ARG1 (v13 / "1991. gada barikāžu dalībnieka piemiņas zīme"))
+            :ARG1 (v13 / thing
+                :name (vg2 / name
+                    :op1 "1991. gada barikāžu dalībnieka piemiņas zīmi")))
         :name (vg0 / name
             :op0 "Ziedonis"))
-    :ARG1 (v5 / "2. šķiras Triju Zvaigžņu ordenis"))
+    :ARG1 (v5 / thing
+        :name (vg1 / name
+            :op1 "2. šķiras Triju Zvaigžņu ordeni")))
 
 # ::sent_id a-p3736-p14s1
 # ::text 1998.gadā dzejnieks ievēlēts Latvijas Nacionālās bibliotēkas atbalsta fonda uzticības padomē
@@ -40621,11 +40795,13 @@
     :ARG2 (v3 / person
         :name (vg0 / name
             :op0 "Ziedonis"))
-    :ARG1 (v5 / "Ministru kabineta balva"
+    :ARG1 (v5 / thing
         :mod (v10 / ieguldījums
             :mod (v9 / mūžs)
             :mod (v12 / kultūra
-                :mod (v11 / latvietis)))))
+                :mod (v11 / latvietis)))
+        :name (vg1 / name
+            :op1 "Ministru kabineta balva")))
 
 # ::sent_id a-p3736-p16s1
 # ::text Ziedonis saņēmis starptautiskas atzinības Hansa Kristiana Andresena vārdā nosaukto pasaku meistara diplomu, internacionālo Januša Korčaka medaļu un Goda diplomu par aktīvu darbību bērnu kultūras attīstībā.
@@ -40633,9 +40809,11 @@
     :ARG0 (v1 / person
         :name (vg0 / name
             :op0 "Ziedonis"))
-    :ARG1 (v9 / "Hansa Kristiana Andresena vārdā nosaukto pasaku meistara diploms"
+    :ARG1 (v9 / thing
         :mod (v4 / atzinība
-            :mod (v3 / starptautisks))))
+            :mod (v3 / starptautisks))
+        :name (vg1 / name
+            :op1 "Hansa Kristiana Andresena vārdā nosaukto pasaku meistara diplomu")))
 
 # ::sent_id a-p3736-p1s1
 # ::text Mūžībā aizgājis dzejnieks Imants Ziedonis
@@ -41548,11 +41726,15 @@
 
 # ::sent_id a-p3760-p2s13
 # ::text 9. - 11.jūlijā Alūksnē - pūtēju orķestru sadraudzības svētki „Mūzika veido Eiropu".
-(v7 / pūtējs)
+(v7 / pūtējs
+    :name (vg0 / name
+        :op1 "Mūzika veido Eiropu"))
 
 # ::sent_id a-p3760-p2s15
 # ::text 10.jūlijā Alūksnes muzejā - Marsannay -la- Cote (Francija) pilsētas jubilejai veltīta izstāde, 11.jūlijā 20.00 Pilssalas estrādē sadraudzības dienu lielkoncerts „Mūzika veido Eiropu".
-(v24 / sadraudzība)
+(v24 / sadraudzība
+    :name (vg0 / name
+        :op1 "Mūzika veido Eiropu"))
 
 # ::sent_id a-p3760-p2s17
 # ::text Spēlēs DJ, disenītes ietvaros nometnes „Paralēle" jauno dīdžeju konkurss.
@@ -43144,17 +43326,21 @@
 (v3 / participate.01
     :ARG0 (v2 / ministrs
         :mod (v1 / finanses))
-    :ARG1 (v4 / "ECOFIN sanāksme"
+    :ARG1 (v4 / event
         :location (v6 / name
-            :op1 (vg0 / "Brisele"))))
+            :op1 (vg1 / "Brisele"))
+        :name (vg0 / name
+            :op1 "ECOFIN sanāksmē")))
 
 # ::sent_id a-p3768-p2s2
 # ::text Finanšu ministrs Andris Vilks (V) un Finanšu ministrijas pārstāvji šodien piedalīsies Eiropas Savienības Ekonomisko un finanšu jautājumu padomes (ECOFIN) sanāksmē Briselē.
 (v13 / participate.01
     :time (v12 / šodien)
-    :ARG1 (v14 / "Eiropas Savienības Ekonomisko un finanšu jautājumu padomes ECOFIN sanāksme"
+    :ARG1 (v14 / event
         :location (v25 / name
-            :op1 (vg1 / "Brisele")))
+            :op1 (vg2 / "Brisele"))
+        :name (vg1 / name
+            :op1 "Eiropas Savienības Ekonomisko un finanšu jautājumu padomes ECOFIN sanāksmē"))
     :ARG0 (v1 / finanses
         :name (vg0 / name
             :op0 "Andris"
@@ -43174,18 +43360,22 @@
     :ARG1 (v8 / demonstrate.01
         :ARG0 (v7 / prezidentūra
             :location (v6 / name
-                :op1 (vg0 / "Īrija")))
+                :op1 (vg1 / "Īrija")))
         :ARG1 (v10 / progress
             :mod (v9 / panākt)
             :mod (v13 / saskaņošana))
-        :location (v4 / "ECOFIN sanāksme")))
+        :location (v4 / event
+            :name (vg0 / name
+                :op1 "ECOFIN sanāksmē"))))
 
 # ::sent_id a-p3768-p4s2
 # ::text Tā savā ziņojumā ECOFIN sanāksmei lūdz padomi vienoties par vēl atvērtajiem jautājumiem un pārapstiprināt padomes mandātu turpmākajām sarunām ar Eiropas Parlamentu.
 (v6 / ask.02
     :ARG0 (v1 / tā)
     :location (v3 / ziņojums
-        :mod (v4 / "ECOFIN sanāksme"))
+        :mod (v4 / event
+            :name (vg0 / name
+                :op1 "ECOFIN sanāksmei")))
     :ARG2 (v7 / padome
         :ARG0-of (v8 / agree.01
             :ARG1 (v12 / jautājums
@@ -43731,10 +43921,12 @@
 (v19 / open.01
     :ARG1 (v20 / organization
         :mod-of (v31 / nominācija
+            :name (vg2 / name
+                :op1 "Baltijas Ceļš cilvēku ķēde trīs valstu vienotiem centieniem pēc brīvības")
+            :mod-of v20
             :mod (v30 / iekļaut))
         :name (vg1 / name
             :op1 "Pasaules atmiņa")
-        :mod v31
         :name (vg0 / name
             :op1 "UNESCO")
         :wiki "en.wikipedia.org/wiki/UNESCO"))
@@ -43765,11 +43957,15 @@
     :ARG2 (v26 / reģistrs
         :mod (v25 / starptautisks)
         :mod (v19 / organization
-            :name (vg0 / name
+            :name (vg2 / name
+                :op1 "Pasaules atmiņa")
+            :name (vg1 / name
                 :op1 "UNESCO")))
     :time (v30 / date-entity
         :year 2009.)
-    :ARG1 (v4 / sagatavot))
+    :ARG1 (v4 / sagatavot
+        :name (vg0 / name
+            :op1 "Baltijas Ceļš cilvēku ķēde trīs valstu vienotiem centieniem pēc brīvības")))
 
 # ::sent_id a-p3772-p6s2
 # ::text Baltijas Ceļš starptautiski tika atzīts par unikālu solidāru rīcību mierīgā masu demonstrācijā, kas notika 1989.gada 23.augustā.
@@ -43800,6 +43996,8 @@
 (v5 / hand.01
     :ARG1 (v15 / zīme
         :mod (v8 / organization
+            :name (vg2 / name
+                :op1 "Pasaules atmiņa")
             :name (vg1 / name
                 :op1 "UNESCO"))
         :ARG1-of v7
@@ -43819,6 +44017,8 @@
     :time (v8 / date-entity
         :year 1992.)
     :ARG1 (v1 / organization
+        :name (vg1 / name
+            :op1 "Pasaules atmiņa")
         :name (vg0 / name
             :op1 "UNESCO")))
 
@@ -43845,6 +44045,8 @@
             :op1 "Latvijas Zinātņu akadēmija")
         :wiki "en.wikipedia.org/wiki/Latvian_Academy_of_Sciences")
     :ARG1 (v16 / organization
+        :name (vg3 / name
+            :op1 "8 ½ grāmatas")
         :mod (v11 / organization
             :name (vg1 / name
                 :op1 "Latvijas Universitāte")
@@ -44632,11 +44834,13 @@
                             :time (v24 / "šī gada jūnijs")
                             :ARG1 (v26 / stāvoklis
                                 :location (v27 / name
-                                    :op1 (vg3 / "Dienvidkaukāzs")))
-                            :location (v17 / "ES Krievijas apspriede"
+                                    :op1 (vg4 / "Dienvidkaukāzs")))
+                            :location (v17 / event
                                 :location (v21 / name
-                                    :op1 (vg2 / "Hantimansijsks")
-                                    :wiki "en.wikipedia.org/wiki/Khanty-Mansiysk"))))
+                                    :op1 (vg3 / "Hantimansijsks")
+                                    :wiki "en.wikipedia.org/wiki/Khanty-Mansiysk")
+                                :name (vg2 / name
+                                    :op1 "ES Krievijas apspriedē"))))
                     :ARG1 v25
                     :ARG2-of v10))))
     :ARG1 v10)
@@ -45653,7 +45857,9 @@
 # ::sent_id a-p530-p25s1
 # ::text Jāņu naktī dzīvoklī vai mājā jānes pīlādžu zari un istabas jākaisa ar kalmēm.
 (v6 / carry.01
-    :time (v2 / "Jāņu nakts"
+    :time (v2 / event
+        :name (vg0 / name
+            :op1 "Jāņu naktī")
         :wiki "en.wikipedia.org/wiki/Jāņi")
     :ARG4 (v3 / dzīvoklis)
     :ARG1 (v8 / zars
@@ -45693,12 +45899,14 @@
 # ::sent_id a-p530-p25s5
 # ::text Jāņu vakarā vajag nest pīlādzi mājās ačgārni pa durvīm, lai raganas nenāk.
 (v3 / need.01
-    :time (v2 / "Jāņu vakars"
+    :time (v2 / event
         :time-of (v4 / carry.01
             :ARG1 (v5 / pīlādzis)
             :ARG4 (v6 / māja)
             :location (v9 / durvis)
             :ARG1-of v3)
+        :name (vg0 / name
+            :op1 "Jāņu vakarā")
         :wiki "en.wikipedia.org/wiki/Jāņi"))
 
 # ::sent_id a-p530-p25s9
@@ -48240,12 +48448,14 @@
 (v7 / reside.01
     :ARG0 (v2 / vecvecāki
         :mod (v1 / meitene))
-    :time (v6 / "Otrais pasaules kars"
+    :time (v6 / event
         :unit (vg0 / karš)
         :quant "otrais"
+        :name (vg1 / name
+            :op1 "Otrajam pasaules karam")
         :wiki "en.wikipedia.org/wiki/World_War_II")
     :ARG1 (v8 / name
-        :op1 (vg1 / "Latvija")
+        :op1 (vg2 / "Latvija")
         :wiki "en.wikipedia.org/wiki/Latvia"))
 
 # ::sent_id a-p6268-p1s1
@@ -48876,12 +49086,14 @@
 # ::sent_id a-p6708-p1s1
 # ::text Lieldienas aktrise Torija Spelinga pavadīja kopā ar ģimeni Ķīniešu restorānā, svētki tika izbojāti mirklī, kad viņa darbinieku nevīžības dēļ paslīdēja un iekrita grilā.
 (v5 / spend.02
-    :ARG1 (v1 / "Lieldiena"
+    :ARG1 (v1 / event
+        :name (vg0 / name
+            :op1 "Lieldienas")
         :wiki "en.wikipedia.org/wiki/Easter")
     :location (v10 / restorāns
         :mod (v9 / ķīnietis))
     :ARG0 (v2 / aktrise
-        :name (vg0 / name
+        :name (vg1 / name
             :op0 "Torija"
             :op1 "Spelinga")
         :wiki "en.wikipedia.org/wiki/Tori_Spelling"))
@@ -49032,7 +49244,9 @@
 # ::sent_id a-p6755-p9s1
 # ::text Man «Erots» ir mājās, turklāt katru dienu.
 (v5 / locate.01
-    :ARG1 (v3 / "Erots")
+    :ARG1 (v3 / event
+        :name (vg0 / name
+            :op1 "Erots"))
     :location (v6 / māja))
 
 # ::sent_id a-p6755-p9s2
@@ -50258,7 +50472,9 @@
 # ::text Izdevums «The national Equirer» paziņojis, ka aktierim Čārlijam Šīnam diagnosticēts HIV.
 (v7 / inform.01
     :ARG2 (v13 / diagnose.01
-        :ARG2 (v14 / "HIV"
+        :ARG2 (v14 / thing
+            :name (vg1 / name
+                :op1 "HIV")
             :wiki "en.wikipedia.org/wiki/HIV"))
     :ARG0 (v1 / izdevums
         :name (vg0 / name
@@ -51332,11 +51548,13 @@
         :ARG0-of (v7 / create.01
             :ARG1 (v8 / attiecība
                 :mod (v10 / person
-                    :name (vg0 / name
+                    :name (vg1 / name
                         :op0 "Dāvis"
                         :op1 "Mazureno")))
-            :location (v2 / "Jaunā Talantu fabrika"
+            :location (v2 / event
                 :mod (v1 / šovs)
+                :name (vg0 / name
+                    :op1 "Jaunā Talantu fabrika")
                 :wiki "lv.wikipedia.org/wiki/Jaunā_talantu_fabrika")))
     :ARG1 v7)
 
@@ -51475,7 +51693,9 @@
 (v8 / include.01
     :ARG2 (v6 / komplekts
         :mod (v4 / dalībnieks
-            :mod (v1 / "Rimi bērnu maratons"))
+            :mod (v1 / event
+                :name (vg0 / name
+                    :op1 "Rimi bērnu maratona")))
         :mod (v5 / starts))
     :ARG1 (v10 / drošība))
 
@@ -52027,6 +52247,8 @@
     :ARG1 (v20 / sezona
         :mod (v19 / otrais)
         :mod (v13 / organization
+            :name (vg1 / name
+                :op1 "Izklausies redzēts")
             :name (vg0 / name
                 :op1 "TV3")
             :wiki "en.wikipedia.org/wiki/TV3_Latvia")))
@@ -52218,7 +52440,9 @@
         :ARG1 (v18 / participate.01
             :ARG0 v5
             :ARG1 (v17 / atlase
-                :mod (v14 / "Eirovīzijas dziesmu konkurss"
+                :mod (v14 / event
+                    :name (vg2 / name
+                        :op1 "Eirovīzijas dziesmu konkursa")
                     :wiki "en.wikipedia.org/wiki/Eurovision_Song_Contest")))
         :ARG2 v5))
 
@@ -52649,8 +52873,10 @@
 # ::text Visu izšķīra pareizās atslēgas meklējumi - tur veiksme uzsmaidīja Zigurdam, un tieši viņš varēs savus vecākus iepriecināt, mājās atvedot vērtīgo Zetor traktoru.
 (v21 / bring.01
     :ARG2 (v20 / māja)
-    :ARG1 (v23 / "Zetor"
-        :mod (v22 / vērtīgs)))
+    :ARG1 (v23 / thing
+        :mod (v22 / vērtīgs)
+        :name (vg0 / name
+            :op1 "Zetor")))
 
 # ::sent_id a-p8551-p1s1
 # ::text 29.septembra «Ugunsgrēks» sērijā noskaidrojās, ka Ieviņa, kuru seriālā atveido aktrise Inga Tropa, uz nenoteikti laiku dosies dzīvot uz Angliju.
@@ -52835,6 +53061,8 @@
     :ARG0 (v15 / komanda
         :mod (v14 / glābējs)
         :mod (v8 / šovs
+            :name (vg1 / name
+                :op1 "Lielceļš cauri ellei")
             :mod (v4 / organization
                 :name (vg0 / name
                     :op1 "National Geographic")
@@ -53392,20 +53620,24 @@
 (v7 / invite.01
     :ARG1 (v8 / meita
         :ARG0-of (v16 / sing.01
-            :time (v10 / "Jāņu nakts")))
+            :time (v10 / event
+                :name (vg3 / name
+                    :op1 "Jāņu naktī"))))
     :ARG2 (v11 / put.01
         :ARG2 (v12 / galva)
         :ARG1 (v14 / vainags
             :mod (v13 / roze)))
     :ARG0 (v4 / soliste
-        :name (vg1 / name
+        :name (vg2 / name
             :op0 "Elīna"
             :op1 "Šimkus")
         :mod (v3 / koncerts
             :location (v1 / name
                 :op1 (vg0 / "Rīga")
                 :wiki "en.wikipedia.org/wiki/Riga")
-            :mod (v2 / "Ziemassvētks"
+            :mod (v2 / event
+                :name (vg1 / name
+                    :op1 "Ziemassvētku")
                 :wiki "en.wikipedia.org/wiki/Ziemassvētki"))))
 
 # ::sent_id a-p8892-p1s2
@@ -54469,7 +54701,9 @@
         :mod (v16 / uzsākšana
             :mod (v15 / izstrāde
                 :mod (v12 / daba))
-            :mod (v17 / daba)))
+            :mod (v17 / daba
+                :name (vg1 / name
+                    :op1 "Ruņupes ieleja"))))
     :location (v4 / name
         :op1 (vg0 / "Priekules daudzfunkcionālā sporta halle")))
 
@@ -54863,7 +55097,9 @@
     :ARG2 (v7 / darbs)
     :location (v4 / name
         :op1 (vg0 / "Amatu māja"))
-    :ARG0 (v8 / fotoplenērs))
+    :ARG0 (v8 / fotoplenērs
+        :name (vg1 / name
+            :op1 "Ventspilnieks")))
 
 # ::sent_id a-p9793-p1s1
 # ::text Priecīgu ziņu pavēstījis grupas The Hobos līderis Rolands Ūdris – viņš apņēmis par sievu ilggadējo draudzeni, ventspilnieci, dziedātāju un rakstnieci Ilonu Balodi.
@@ -54885,7 +55121,9 @@
     :time (v1 / "Piektdien")
     :location (v6 / name
         :op1 (vg0 / "Olimpiskā centra Ventspils stadions"))
-    :ARG1 (v13 / "Olimpiskā diena"))
+    :ARG1 (v13 / event
+        :name (vg1 / name
+            :op1 "Olimpiskā diena")))
 
 # ::sent_id a-p9794-p1s2
 # ::text Šāda diena tiek rīkota, lai vairotu jauniešu interesi par sportu un Olimpisko kustību.
@@ -54922,16 +55160,20 @@
         :time-of (v24 / light.04
             :ARG1 (v29 / egle
                 :mod (v27 / galvenais)
-                :mod (v28 / "Ziemassvētks"
+                :mod (v28 / event
+                    :name (vg3 / name
+                        :op1 "Ziemassvētku")
                     :wiki "en.wikipedia.org/wiki/Ziemassvētki")
                 :location (v25 / name
-                    :op1 (vg1 / "Ventspils pilsēta")
+                    :op1 (vg2 / "Ventspils pilsēta")
                     :wiki "en.wikipedia.org/wiki/Ventspils"))
             :location (v3 / name
                 :op1 (vg0 / "Ventspils Rātslaukums"))))
     :ARG1 (v12 / starts)
     :location v3
-    :ARG2 (v13 / "Ziemassvētku Sajūtu maratonam Lapzeme Ventspils 2015"))
+    :ARG2 (v13 / event
+        :name (vg1 / name
+            :op1 "Ziemassvētku Sajūtu maratonam Lapzeme Ventspils 2015")))
 
 # ::sent_id a-p9824-p28s1
 # ::text Pilsētas domes Vides uzraudzības nodaļa ik gadu organizē reidus, lai noskaidrotu vietas Ventspilī, kur krājas atkritumi.
@@ -55096,7 +55338,9 @@
     :ARG1 (v22 / happen.01
         :ARG1 (v18 / kas)
         :ARG2 (v21 / cilvēks)
-        :time (v23 / "Ziemassvētks"
+        :time (v23 / event
+            :name (vg0 / name
+                :op1 "Ziemassvētkos")
             :wiki "en.wikipedia.org/wiki/Ziemassvētki")))
 
 # ::sent_id a-p9925-p10s2
@@ -55566,7 +55810,9 @@
 (v18 / be.02
     :ARG1 (v17 / pārliecība
         :mod (v11 / gaita
-            :mod (v4 / "Ministru kabineta 2014. gada 29. jūlija sēde"))
+            :mod (v4 / event
+                :name (vg0 / name
+                    :op1 "Ministru kabineta 2014. gada 29. jūlija sēdes")))
         :mod (v16 / skaidrs))
     :polarity -)
 
@@ -56214,7 +56460,9 @@
 # ::text Kas izraisīja Otro pasaules karu?
 (v2 / cause.01
     :ARG0 (v1 / kas)
-    :ARG1 (v3 / "Otrā pasaules kars"
+    :ARG1 (v3 / event
+        :name (vg0 / name
+            :op1 "Otro pasaules karu")
         :wiki "en.wikipedia.org/wiki/World_War_II"))
 
 # ::sent_id a-s166-p5s2
@@ -56318,7 +56566,9 @@
 (v12 / destroy.01
     :ARG1 (v14 / valsts)
     :ARG2-of (v9 / use.01
-        :ARG1 (v4 / "Satversme"
+        :ARG1 (v4 / thing
+            :name (vg0 / name
+                :op1 "Satversme")
             :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")))
 
 # ::sent_id a-s187-p10s1
@@ -58216,7 +58466,9 @@
 # ::text Mēs varam daudz runāt par Izglītības likumu, par Augstskolu likumu, bet nesenā pagātnē mēs saskārāmies arī ar mazliet citu problēmu, kad pēkšņi no Latvijas izlases treneru sastāva tika atskaitīts Arturs Irbe sakarā ar to, ka viņam nav pedagoģiskās izglītības.
 (v4 / discuss.01
     :ARG0 (v1 / mēs)
-    :ARG1 (v6 / "Izglītības likums"))
+    :ARG1 (v6 / thing
+        :name (vg0 / name
+            :op1 "Izglītības likumu")))
 
 # ::sent_id a-s47-p6s2
 # ::text Cilvēks var trenēt Nacionālajā hokeja līgā, bet par treneri strādāt viņš nevar.
@@ -58401,7 +58653,9 @@
 (v2 / regard.01
     :ARG0 (v1 / es
         :ARG0-of (v5 / follow.02
-            :ARG1 (v6 / "Latvijas Satversme"
+            :ARG1 (v6 / thing
+                :name (vg0 / name
+                    :op1 "Latvijas Satversmi")
                 :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")))
     :ARG2 (v3 / svēts)
     :ARG1 v6)
@@ -58430,7 +58684,9 @@
     :ARG1 (v9 / informācija
         :mod (v12 / darbs
             :mod (v11 / sagatavošanās
-                :mod (v13 / "12. Saeimas vēlēšanas"
+                :mod (v13 / event
+                    :name (vg2 / name
+                        :op1 "12. Saeimas vēlēšanām")
                     :wiki "en.wikipedia.org/wiki/Latvian_parliamentary_election,_2014")))
         :mod (v3 / organization
             :name (vg1 / name
@@ -58560,7 +58816,9 @@
 (v5 / hand_over.02
     :ARG0 (v4 / es)
     :ARG2 (v7 / vērtējums)
-    :ARG1 (v8 / "Valdības deklarācija"))
+    :ARG1 (v8 / thing
+        :name (vg0 / name
+            :op1 "Valdības deklarāciju")))
 
 # ::sent_id a-s8-p16s2
 # ::text Tā spēs realizēt svarīgu ilgtermiņa mērķi.
@@ -58750,7 +59008,9 @@
         :ARG0-of (v15 / say.01
             :ARG1 (v35 / pārkāpums
                 :mod (v29 / rupjš)
-                :mod (v33 / "Konkurences likums"))))
+                :mod (v33 / thing
+                    :name (vg1 / name
+                        :op1 "Konkurences likuma")))))
     :ARG1 (v6 / direktīva
         :mod (v4 / būt
             :polarity -)
@@ -58763,7 +59023,9 @@
 (v5 / know.01
     :ARG0 (v4 / mēs)
     :ARG1 (v11 / say.01
-        :location (v8 / "Satversme"
+        :location (v8 / thing
+            :name (vg0 / name
+                :op1 "Satversmē")
             :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")
         :ARG1 (v21 / valoda
             :mod (v17 / galvenais)
@@ -59077,7 +59339,9 @@
 (v10 / schedule.01
     :ARG1 (v11 / adopt.01
         :ARG1 (v1 / izmaiņas
-            :mod (v2 / "Imigrācijas likums"))
+            :mod (v2 / thing
+                :name (vg0 / name
+                    :op1 "Imigrācijas likumā")))
         :time (v14 / "2013. gada laiks"))
     :ARG3 v14)
 
@@ -59584,7 +59848,9 @@
             :mod (v16 / politika
                 :mod (v11 / imigrācija
                     :mod (v10 / kopīgs)))
-            :mod (v5 / "Eiropas Savienības līgums"))
+            :mod (v5 / thing
+                :name (vg0 / name
+                    :op1 "Eiropas Savienības līguma")))
         :direction (v21 / pīlārs
             :mod (v20 / III))
         :ARG2 (v24 / pīlārs)))
@@ -59710,7 +59976,9 @@
         :op1 (vg0 / "Īrija")
         :wiki "en.wikipedia.org/wiki/Republic_of_Ireland")
     :ARG1 (v7 / veids
-        :mod (v4 / "Trūkstošo profesiju saraksts")))
+        :mod (v4 / thing
+            :name (vg1 / name
+                :op1 "Trūkstošo profesiju saraksta"))))
 
 # ::sent_id a-z102-p95s2
 # ::text Īrija sagatavo un aktualizē to profesiju sarakstu, kurās šī dalībvalsts neizsniedz jaunas (zemāk apmaksāta) darba atļaujas.
@@ -60183,7 +60451,9 @@
 # ::text Valodas likums mūs arī skāra, visiem nācās kategoriju kārtot.
 (v5 / impact.01
     :ARG1 (v3 / mēs)
-    :ARG0 (v1 / "Valodas likums"))
+    :ARG0 (v1 / thing
+        :name (vg0 / name
+            :op1 "Valodas likums")))
 
 # ::sent_id a-z106-p292s2
 # ::text Krievi strādā pie krieviem un pieņem darbā krievus.
@@ -60396,11 +60666,13 @@
 # ::sent_id a-z107-p162s1
 # ::text Cilvēkdrošības jēdzienu pirmo reizi plašāka Latvijas sabiedrības daļa iepazina 2003. gadā, kad tika prezentēts ANO Tautas attīstības pārskats (2002./2003. gads) par cilvēkdrošību Latvijā, analizējot galvenokārt cilvēkdrošības iekšpolitisko dimensiju.
 (v15 / demonstrate.01
-    :ARG1 (v16 / "ANO Tautas attīstības pārskats"
+    :ARG1 (v16 / thing
         :mod (v27 / cilvēkdrošība
             :location (v28 / name
-                :op1 (vg0 / "Latvija")
-                :wiki "en.wikipedia.org/wiki/Latvia"))))
+                :op1 (vg1 / "Latvija")
+                :wiki "en.wikipedia.org/wiki/Latvia"))
+        :name (vg0 / name
+            :op1 "ANO Tautas attīstības pārskats")))
 
 # ::sent_id a-z107-p162s2
 # ::text Pārskata metodoloģijas pamatā bija veiktās sabiedrības aptaujas par indivīdu galvenajiem nedrošības cēloņiem, cenšoties identificēt, kuras ir aktuālākās cilvēkdrošības jomas, kurās valdībai būtu jāuzņemas lielāka atbildība.
@@ -60963,7 +61235,9 @@
 (v7 / decrease.01
     :ARG1 (v5 / izredzes
         :mod (v4 / noslēgšana
-            :mod (v2 / "Austrumu pakts"))))
+            :mod (v2 / event
+                :name (vg0 / name
+                    :op1 "Austrumu pakta")))))
 
 # ::sent_id a-z21-p1s4
 # ::text Tomēr 1935. gada pirmās puses notikumi - galvenokārt Vācijas draudu pieaugums Eiropas drošībai - aktivizēja starptautisko attiecību dinamiku.
@@ -60983,14 +61257,18 @@
                 :op1 (vg0 / "Baltijas valstis")
                 :wiki "en.wikipedia.org/wiki/Baltic_states")))
     :ARG1 (v9 / jautājums
-        :mod (v7 / "Austrumu pakts")))
+        :mod (v7 / thing
+            :name (vg1 / name
+                :op1 "Austrumu pakta"))))
 
 # ::sent_id a-z21-p1s6
 # ::text Sākotnējais Austrumu pakta projekts zaudēja savu aktualitāti.
 (v5 / lose.02
     :ARG0 (v4 / projekts
         :mod (v1 / sākotnējs)
-        :mod (v2 / "Austrumu pakts"))
+        :mod (v2 / thing
+            :name (vg0 / name
+                :op1 "Austrumu pakta")))
     :ARG1 (v7 / aktualitāte))
 
 # ::sent_id a-z21-p1s7
@@ -61267,7 +61545,9 @@
                 :op1 (vg1 / "Vācija")
                 :wiki "en.wikipedia.org/wiki/Germany")
             :mod (v8 / viegls)
-            :mod (v11 / "Strezas priekšlikums"
+            :mod (v11 / thing
+                :name (vg2 / name
+                    :op1 "Strezas priekšlikumiem")
                 :wiki "en.wikipedia.org/wiki/Stresa"))))
 
 # ::sent_id a-z21-p47s5
@@ -63383,7 +63663,9 @@
 # ::text Latvijā 4.tautas skaitīšanas, kas notika neilgi pirms okupācijas un 2. pasaules kara - 1935.gadā, rezultāti liecināja, ka, lai gan sievietes precējās jaunākas nekā vīrieši, tomēr kopumā visvēlāk precējās latvieši, kas veidoja vislielāko Latvijas iedzīvotāju īpatsvaru (78%).
 (v20 / show.01
     :ARG0 (v19 / rezultāts
-        :mod (v2 / "Latvijā 4. tautas skaitīšana"))
+        :mod (v2 / event
+            :name (vg0 / name
+                :op1 "Latvijā 4. tautas skaitīšanas")))
     :ARG1 (v35 / marry.01
         :time (v34 / vēlu)
         :ARG1 (v36 / latvietis)))
@@ -64105,7 +64387,9 @@
 # ::sent_id a-c1-p20s1
 # ::text Lielā harta ir zināma kā Anglijas vēstures robežlīnija, kurā tika ierobežotas Anglijas karaļa tiesības, liekot pamatus demokrātiskam valsts pārvaldes modelim.
 (v4 / know.02
-    :ARG1 (v1 / "Lielā harta"
+    :ARG1 (v1 / thing
+        :name (vg0 / name
+            :op1 "Lielā harta")
         :wiki "en.wikipedia.org/wiki/Magna_Carta"))
 
 # ::sent_id a-c1-p20s2
@@ -64121,7 +64405,9 @@
         :time (v11 / date-entity
             :year 1215.
             :wiki "en.wikipedia.org/wiki/1215")
-        :ARG1 (v8 / "Lielā harta"
+        :ARG1 (v8 / thing
+            :name (vg1 / name
+                :op1 "Lielo hartu")
             :wiki "en.wikipedia.org/wiki/Magna_Carta")))
 
 # ::sent_id a-c1-p20s3
@@ -65802,10 +66088,12 @@
                 :mod (v9 / daļa
                     :mod (v7 / pants
                         :mod (v6 / 29.)
-                        :mod (v3 / "Satversmes tiesas likums"))
+                        :mod (v3 / thing
+                            :name (vg0 / name
+                                :op1 "Satversmes tiesas likuma")))
                     :mod (v8 / pirmais))
                 :mod (v10 / 6.)))
-        :name (vg0 / name
+        :name (vg1 / name
             :op1 "Saeima")
         :wiki "en.wikipedia.org/wiki/Saeima")
     :ARG1 (v15 / end.01))
@@ -66105,9 +66393,11 @@
 # ::sent_id a-p11589-p4s1
 # ::text “Sveču dienā Stalbē vienmēr ir kas jauns.
 (v6 / be.02
-    :time (v3 / "Sveču diena")
+    :time (v3 / event
+        :name (vg0 / name
+            :op1 "Sveču dienā"))
     :location (v4 / name
-        :op1 (vg0 / "Stalbe"))
+        :op1 (vg1 / "Stalbe"))
     :ARG1 (v8 / jauns))
 
 # ::sent_id a-p11589-p4s2
@@ -66481,14 +66771,18 @@
 # ::sent_id a-p1178-p6s2
 # ::text “Ja viss ies labi ar iekārtu iegādi, aprīkojumu, uz Jāņiem būs.
 (v14 / be.02
-    :time (v13 / "Jānis"
+    :time (v13 / event
+        :name (vg0 / name
+            :op1 "Jāņiem")
         :wiki "en.wikipedia.org/wiki/Jāņi"))
 
 # ::sent_id a-p1178-p6s3
 # ::text Savulaik veikalu arī atvēru uz Jāņiem.
 (v4 / open.01
     :ARG1 (v2 / veikals)
-    :time (v6 / "Jānis"
+    :time (v6 / event
+        :name (vg0 / name
+            :op1 "Jāņiem")
         :wiki "en.wikipedia.org/wiki/Jāņi"))
 
 # ::sent_id a-p1182-p7s1
@@ -66842,7 +67136,9 @@
     :ARG0 (v16 / organization
         :name (vg0 / name
             :op1 "Līvānu novada pašvaldība"))
-    :ARG1 (v20 / "Novadnieku salidojums"))
+    :ARG1 (v20 / event
+        :name (vg1 / name
+            :op1 "Novadnieku salidojumu")))
 
 # ::sent_id a-p12111-p5s1
 # ::text Dzirkaļu pilskalns atrodas Krustpils novada Kūku pagasta teritorijā.
@@ -67083,11 +67379,13 @@
 # ::text Līgo nakts zaļumballē ar tautā iemīlētām un populārām dziesmām līgotājus priecēs Andris Baltacis un grupa "Baltie lāči".
 (v11 / please.01
     :location (v3 / zaļumballe
-        :mod (v2 / "Līgo nakts"
+        :mod (v2 / event
+            :name (vg0 / name
+                :op1 "Līgo nakts")
             :wiki "lv.wikipedia.org/wiki/Līgo"))
     :ARG1 (v10 / līgotājs)
     :ARG0 (v12 / person
-        :name (vg0 / name
+        :name (vg1 / name
             :op0 "Andris"
             :op1 "Baltacis")))
 
@@ -67208,7 +67506,9 @@
         :ARG1 (v19 / apgrozīt)
         :ARG0 (v1 / name
             :ARG0-of (v8 / carry_out.03
-                :ARG1 (v9 / bizness)
+                :ARG1 (v9 / bizness
+                    :name (vg2 / name
+                        :op1 "Horizon 2021"))
                 :time (v17 / date-entity
                     :year 2021.))
             :name (vg1 / name
@@ -67221,14 +67521,14 @@
             :mod (v28 / nozare
                 :mod (v27 / aviācija))
             :location (v30 / name
-                :op1 (vg2 / "Latvija")
+                :op1 (vg3 / "Latvija")
                 :wiki "en.wikipedia.org/wiki/Latvia")))
     :ARG0 (v35 / valde
-        :name (vg4 / name
+        :name (vg5 / name
             :op0 "Vitolds"
             :op1 "Jakovļevs")
         :mod (v33 / organization
-            :name (vg3 / name
+            :name (vg4 / name
                 :op1 "airbaltic")
             :wiki "en.wikipedia.org/wiki/AirBaltic")))
 
@@ -67369,10 +67669,12 @@
 # ::text Vasaras saulgriežu svinības sāksies "Vītolnieku" priekšpagalmā, kur tiks lasītas zālītes, vīti vainagi, dziedātas Jāņu dziesmas.
 (v4 / begin.01
     :ARG1 (v3 / svinība
-        :mod (v1 / "Vasaras saulgrieze"
+        :mod (v1 / event
+            :name (vg0 / name
+                :op1 "Vasaras saulgriežu")
             :wiki "en.wikipedia.org/wiki/Jāņi"))
     :location (v6 / name
-        :op1 (vg0 / "Vītolnieki")))
+        :op1 (vg1 / "Vītolnieki")))
 
 # ::sent_id a-p15319-p7s2
 # ::text Tiks sagaidīti un aplīgoti Jāņa bērni, kā arī visi kopā varēs izvēlēties vakara Jāņa tēvu un māti.
@@ -68824,7 +69126,9 @@
 # ::text Vai IMS sistēma jau patlaban darbojas?
 (v6 / work.09
     :time (v4 / jau)
-    :ARG1 (v2 / "IMS sistēma"))
+    :ARG1 (v2 / thing
+        :name (vg0 / name
+            :op1 "IMS sistēma")))
 
 # ::sent_id a-p3753-p22s1
 # ::text Darbojas.
@@ -68888,7 +69192,9 @@
 # ::sent_id a-p3753-p26s1
 # ::text Viena no "Lattelecom" vērtībām ir būt saprotamiem klientiem, tādēļ IMS vai cita burtu kopa neparādīsies komunikācijā ar klientiem.
 (v18 / appear.01
-    :ARG1 (v13 / "IMS")
+    :ARG1 (v13 / thing
+        :name (vg0 / name
+            :op1 "IMS"))
     :polarity -)
 
 # ::sent_id a-p3753-p26s2
@@ -70366,6 +70672,8 @@
         :wiki "en.wikipedia.org/wiki/Halle_Berry")
     :ARG1 (v7 / name
         :mod (v6 / prestižs)
+        :name (vg2 / name
+            :op1 "Kinoakadēmijas jeb Oskara balvu")
         :op1 (vg1 / "ASV")
         :wiki "en.wikipedia.org/wiki/United_States"))
 
@@ -71447,7 +71755,9 @@
     :time (v4 / date-entity
         :month 9
         :day 23.)
-    :location (v5 / "Skaties.lv")
+    :location (v5 / thing
+        :name (vg0 / name
+            :op1 "Skaties.lv"))
     :ARG1 (v9 / konkurss))
 
 # ::sent_id a-p9453-p3s1
@@ -71739,7 +72049,9 @@
     :ARG0 (v1 / es)
     :ARG1 (v3 / jūs
         :ARG0-of (v11 / find.01
-            :time (v10 / "NATO sammits"
+            :time (v10 / event
+                :name (vg0 / name
+                    :op1 "NATO sammita")
                 :wiki "en.wikipedia.org/wiki/NATO_summit")
             :ARG1 (v12 / vārds))
         :ARG0-of (v5 / consider.02))
@@ -71974,7 +72286,9 @@
 # ::text Pasaules Sociālā foruma faktors ļauj uzsvērt vismaz divus svarīgus novērojumus.
 (v5 / let.01
     :ARG0 (v4 / faktors
-        :mod (v1 / "Pasaules Sociālais forums"))
+        :mod (v1 / event
+            :name (vg0 / name
+                :op1 "Pasaules Sociālā foruma")))
     :ARG1 (v6 / emphasize.01
         :ARG1 (v10 / novērojums
             :mod (v9 / svarīgs))))
@@ -75702,7 +76016,9 @@
     :ARG1 (v4 / paralēle
         :mod (v7 / noziegums
             :mod (v6 / nacists)
-            :mod (v8 / "Otrā pasaules kars"
+            :mod (v8 / event
+                :name (vg0 / name
+                    :op1 "Otrajā pasaules karā")
                 :wiki "en.wikipedia.org/wiki/World_War_II"))))
 
 # ::sent_id a-n440-p40s3
@@ -75895,7 +76211,9 @@
 (v4 / advise.01
     :ARG2 (v7 / do.02
         :ARG1 (v6 / kas)
-        :time (v10 / "Vecgada vakars")))
+        :time (v10 / event
+            :name (vg0 / name
+                :op1 "Vecgada vakarā"))))
 
 # ::sent_id a-p10101-p1s2
 # ::text Dienas nosaukums ir radies no kristiešu godātā erceņģeļa Miķeļa vārda.
@@ -77583,7 +77901,9 @@
         :ARG0 (v7 / darbinieks
             :mod (v6 / sektors
                 :mod (v5 / valsts)))
-        :ARG1 (v11 / "Ziemassvētks")))
+        :ARG1 (v11 / event
+            :name (vg0 / name
+                :op1 "Ziemassvētku"))))
 
 # ::sent_id a-p14382-p3s2
 # ::text Šis pasākums savulaik izraisīja neapmierināto protestus ielās.
@@ -79592,8 +79912,10 @@
 (v16 / end.01
     :ARG1 (v14 / laiks
         :mod (v13 / darbība)
-        :mod (v5 / "Atkritumu apsaimniekošanas valsts plāna 2006. 2012. gads"
-            :mod (v4 / līdzšinējs))))
+        :mod (v5 / thing
+            :mod (v4 / līdzšinējs)
+            :name (vg0 / name
+                :op1 "Atkritumu apsaimniekošanas valsts plāna 2006. 2012. gadam"))))
 
 # ::sent_id a-p3754-p28s2
 # ::text Ja agrāk zinājām trīs gadus uz priekšu, kāds būs dabas resursu nodoklis, par cik palielināsies, pašlaik neko nezinām.
@@ -79842,7 +80164,9 @@
 (v3 / happen.01
     :ARG1 (v1 / kas)
     :time (v2 / pašlaik)
-    :location (v4 / poligons))
+    :location (v4 / poligons
+        :name (vg0 / name
+            :op1 "Daibe")))
 
 # ::sent_id a-p3754-p40s1
 # ::text Kādas priekšrocības iedzīvotājiem sniedz modernākas tehnoloģijas atkritumu savākšanā un pārstrādē?
@@ -79885,10 +80209,12 @@
 # ::sent_id a-p3754-p4s1
 # ::text Ģirts Kuplais: Gada laikā sadzīves atkritumu poligonā „Daibe" tiek ievesti apmēram 27000 tonnu sadzīves atkritumu.
 (v13 / bring.01
-    :ARG2 (v10 / "Daibe"
+    :ARG2 (v10 / thing
         :mod (v8 / poligons
             :mod (v7 / atkritumi
-                :mod (v6 / sadzīve))))
+                :mod (v6 / sadzīve)))
+        :name (vg0 / name
+            :op1 "Daibe"))
     :ARG1 (v16 / tonna
         :mod (v18 / atkritumi
             :mod (v17 / sadzīve))))
@@ -80446,7 +80772,9 @@
     :ARG0 (v9 / zvaigzne
         :ARG0-of (v2 / attend.01
             :ARG1 (v7 / ceremonija
-                :mod (v4 / "Golden globe"
+                :mod (v4 / event
+                    :name (vg0 / name
+                        :op1 "Golden globe")
                     :wiki "en.wikipedia.org/wiki/Golden_Globe_Award"))))
     :ARG1 (v10 / vakars))
 
@@ -80749,7 +81077,9 @@
     :location (v3 / lielveikals
         :op1 (vg0 / "Galerija centrs"))
     :ARG1 (v13 / rudens
-        :mod (v9 / zīmols)))
+        :mod (v9 / zīmols
+            :name (vg1 / name
+                :op1 "Ecco"))))
 
 # ::sent_id a-p6552-p1s2
 # ::text Pasākums tika ieturēts pop-up stilā un pulcēja gan mūziķus, dīdžejus, gan modes blogerus.
@@ -81637,7 +81967,9 @@
         :mod (v16 / darbs
             :mod (v20 / izstrāde
                 :mod (v19 / grozījums
-                    :mod (v18 / "Satversme"
+                    :mod (v18 / thing
+                        :name (vg1 / name
+                            :op1 "Satversmes")
                         :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")))))
     :ARG0 (v9 / organization
         :name (vg0 / name
@@ -81674,7 +82006,9 @@
             :op1 "Saeima")
         :wiki "en.wikipedia.org/wiki/Constitution_of_Latvia")
     :ARG1 (v4 / izmaiņa
-        :mod (v5 / "Kriminālprocesa likums")))
+        :mod (v5 / thing
+            :name (vg1 / name
+                :op1 "Kriminālprocesa likumā"))))
 
 # ::sent_id a-s98-p9s2
 # ::text Sagatavojot šādu ziņojumu, Valsts probācijas dienests veic apsūdzētā riska un vajadzību novērtējumu, kas ļauj prognozēt recidīva iespējamību un identificēt faktorus, kuri bijuši par iemeslu noziedzīgā nodarījuma izdarīšanai.
@@ -81894,7 +82228,9 @@
     :ARG0 (v11 / viņš)
     :ARG1 (v17 / efektivitāte
         :mod (v15 / cionists
-            :mod (v13 / "Mizrahs"
+            :mod (v13 / thing
+                :name (vg0 / name
+                    :op1 "Mizrahi")
                 :wiki "en.wikipedia.org/wiki/Mizrahi_Jews")
             :mod (v14 / reliģisks))
         :mod (v16 / uzskats)))
@@ -81932,7 +82268,9 @@
     :ARG0 (v1 / viņš)
     :ARG1 (v14 / improve.01
         :ARG0 (v6 / pieeja
-            :mod (v5 / "Mizrahs"
+            :mod (v5 / thing
+                :name (vg0 / name
+                    :op1 "Mizrahi")
                 :wiki "en.wikipedia.org/wiki/Mizrahi_Jews"))
         :ARG1 (v13 / situācija
             :mod (v12 / cionisms))
@@ -82050,7 +82388,9 @@
 # ::sent_id a-z109-p142s7
 # ::text Iepriekšminētais kokmateriālu tirgotājs Leibs Šalits, kurš bija viens no kustības pirmajiem dalībniekiem Rīgā, bija piedalījies arī Katovices konferencē 1884. gadā.
 (v17 / participate.01
-    :ARG1 (v19 / "Katovices konference"
+    :ARG1 (v19 / event
+        :name (vg1 / name
+            :op1 "Katovices konferencē")
         :mod (v21 / "1884. gads"))
     :ARG0 (v1 / iepriekšminēts
         :name (vg0 / name

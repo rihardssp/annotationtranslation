@@ -16,11 +16,11 @@ DEFAULT_IOB_ACTION_MAPPING = {
     "location": ChunkDelegate(concat_chunk_location_action),
     "GPE": ChunkDelegate(concat_chunk_location_action),
     # ToDo: Event category
-    "event": ChunkDelegate(string_concat_chunk_action),
+    "event": ChunkDelegate(instance_with_name_concat_chunk_action, "event"),
     "product": ChunkDelegate(instance_with_name_concat_normalised_chunk_action, "product"),
     "money": ChunkDelegate(money_chunk_action),
     # ToDo: Thing category
-    "entity": ChunkDelegate(string_concat_chunk_action, "thing"),
+    "entity": ChunkDelegate(instance_with_name_concat_chunk_action, "thing"),
     "time": ChunkDelegate(concat_chunk_time_action, "time"),
 }
 
@@ -32,7 +32,7 @@ class INamedEntitiesMapping(ABC):
         pass
 
 
-class NamedEntitiesMapping:
+class NamedEntitiesMapping(INamedEntitiesMapping):
     """This class contains mapping_definitions and actions which propbank uses to transform PropBank to AMR"""
 
     def __init__(self, iob_action_mapping: typing.Dict[str, ChunkDelegate] = None):
