@@ -22,7 +22,7 @@ Separate modules:
 - **localisation:** i18n helper
 - **configuration:** reads input from config.ini
 
-Naming convention is as follows: if its pipe specific then class/module name must show it.
+Naming convention is as follows: if its pipe specific then class/module name must contain pipes name.
 
 
 ## ResultExamples
