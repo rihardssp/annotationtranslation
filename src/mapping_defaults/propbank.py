@@ -64,7 +64,7 @@ DEFAULT_CONLLU_DEPREL_MAPPING = {
     'nmod': 'mod',
     'amod': 'mod',
     #'parataxis': 'mod', Maybe 'and' here?
-    'advmod': 'mod'
+    #'advmod': 'mod' ?
 }
 
 
