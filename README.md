@@ -4,21 +4,21 @@ The goal is to make manual annotation easier by having a backbone AMR generated 
 
 ## The source code structure:
 
-- *src:* code
-  - *caches:* contains cache implementations.
-  - *container:* class responsible for manipulating and printing AMR.
-  - *external:* External services.
-  - *mapping_defaults:* default mapping for pipes. For example PropBank role -> AMR role or logic.
-  - *mapping_definitions:* defines logic to be used in mapping_defaults
-  - *pipes:* a part of the pipeline for creating AMR - takes AMR list as input, with the only exception being PropBank pipe, which creates a list instead.
-  - *readers:* logic to get annotation text into sentences/words.
-  - *sentences:* logic that is used by pipe to query words.
-  - *words:* defines given annotation properties.
+- **src:** code
+  - **caches:** contains cache implementations.
+  - **container:** class responsible for manipulating and printing AMR.
+  - **external:** External services.
+  - **mapping_defaults:** default mapping for pipes. For example PropBank role -> AMR role or logic.
+  - **mapping_definitions:** defines logic to be used in mapping_defaults
+  - **pipes:** a part of the pipeline for creating AMR - takes AMR list as input, with the only exception being PropBank pipe, which creates a list instead.
+  - **readers:** logic to get annotation text into sentences/words.
+  - **sentences:** logic that is used by pipe to query words.
+  - **words:** defines given annotation properties.
 
-There is also:
-- delegates: define how mapping logic is handled.
-- localisation: i18n helper
-- configuration: reads input from config.ini
+Separate modules:
+- **delegates:** define how mapping logic is handled.
+- **localisation:** i18n helper
+- **configuration:** reads input from config.ini
 
 Naming convention is as follows: if its pipe specific then class/module name must show it.
 
