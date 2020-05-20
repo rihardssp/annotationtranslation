@@ -8,9 +8,9 @@ from src.sentences.propbank import IPropBankWord, IPropBankSentence
 
 __logger = logging.getLogger(config_reader.get_logger_name("PropBankMappingDefinitions"))
 
+
 def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBankWord,
                          container: IContainer, sentence: IPropBankSentence):
-
     related_words = sentence.read_words_with_head(argument_word.id)
     mapping_keys_template = "mapping.time_argument_action."
     mapping_value = ["year", "month", "day", "century", "decade", "era", "quarter"]
@@ -40,7 +40,7 @@ def time_argument_action(pipe, root_word: IPropBankWord, argument_word: IPropBan
         if len(cardinal_number) == 0:
             cardinal_number = ordinal_number
             __logger.warning(f"word '{cardinal_number[0].form}' was treated as cardinal number "
-                      f"even though it is ordinal. Perhaps {mapping_keys_template} mapping_definitions needs update?")
+                             f"even though it is ordinal. Perhaps {mapping_keys_template} mapping_definitions needs update?")
 
     # Temporal-quantity
     if len(cardinal_number) > 0:

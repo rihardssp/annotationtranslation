@@ -236,17 +236,17 @@
         :ARG1 (v6 / Tēvs)
         :ARG2 (v10 / aktieris
             :mod (v9 / labs)))
-	:cause (b / be.01
-		:ARG1 (v11 / seja
-			:location-of (a2 / and
-				:op1 (v14 / viltus)
-				:op2 (v15 / nopietnība)
-				:op3 (v16 / smiekls)
-				:op4 (v17 / asaras)
-				:ARG0-of (v18 / change.01)))
-		:ARG2 (a1 / and
-			:op1 (v12 / dzīvs)
-			:op2 (v13 / izteiksmīgs))))
+    :cause (b / be.01
+        :ARG1 (v11 / seja
+            :location-of (a2 / and
+                :op1 (v14 / viltus)
+                :op2 (v15 / nopietnība)
+                :op3 (v16 / smiekls)
+                :op4 (v17 / asaras)
+                :ARG0-of (v18 / change.01)))
+        :ARG2 (a1 / and
+            :op1 (v12 / dzīvs)
+            :op2 (v13 / izteiksmīgs))))
 
 # ::sent_id a-d84-p118s2
 # ::text Māte viņam atļāva iedzert otru glāzīti un atņēma pudeli, nolika kaut kur ārpusē.
@@ -260,17 +260,17 @@
     :ARG2 (v2 / Tēvs
         :ARG0-of (v4 / drink.01
             :ARG1 (v6 / glāzīte
-				:ord (o / ordinal-entity 
-					:value 2))
+                :ord (o / ordinal-entity 
+                    :value 2))
             :ARG1-of v3)))
 
 # ::sent_id a-d21-p32s1
 # ::text Vēl nekad neesmu redzējis pa veikalu durvīm iekšā laižamies putnus.
 (v4 / see.01
-	:polarity -
+    :polarity -
     :ARG1 (v10 / putns
         :ARG0-of (v9 / fly.01
-			:mod (v11 / iekša)
+            :mod (v11 / iekša)
             :location (v7 / durvis
                 :mod (v6 / veikals)))))
 
@@ -280,32 +280,67 @@
     :ARG0 (v3 / mediķis
         :mod (v2 / mūsējs))
     :ARG1 (v11 / receive.01
-		:cause (v14 / gadījums
-			:mod (v15 / vajadzība))
+        :cause (v14 / gadījums
+            :mod (v15 / vajadzība))
         :ARG1 (v13 / atbalsts
             :mod (v12 / līdzīgs))
         :ARG0 v3))
-		
+        
 # ::sent_id a-d62-p31s1
 # ::text "Nē, pēc laika atgriezās Vida, sejs cits.
 (m1 / multi-sentence
-	:snt1 (v6 / return.01
-		:time (v5 / laiks)
-		:ARG1 (v7 / Vida))
-	:snt2 (v8 / be.01 
-		:ARG1 (v9 / sejs)
-		:ARG2 (v10 / cits)))
-		
+    :snt1 (v6 / return.01
+        :time (v5 / laiks)
+        :ARG1 (v7 / Vida))
+    :snt2 (v8 / be.01 
+        :ARG1 (v9 / sejs)
+        :ARG2 (v10 / cits)))
+        
 # ::sent_id a-p1494-p5s13
 # ::text Pašlaik uz stāvvadiem vecā tipa ventiļi nomainīti pret jauniem, kas dos iespēju kaut nedaudz balansēt apkures sistēmu.
 (v7 / replace.01
-	:cause (v12 / balance.01
-		:mod (v13 / nedaudz)
-		:ARG1 (v14 / sistēma
-			:mod (v15 / apkure)))
+    :cause (v12 / balance.01
+        :mod (v13 / nedaudz)
+        :ARG1 (v14 / sistēma
+            :mod (v15 / apkure)))
     :ARG1 (v6 / ventilis
         :mod (v5 / tips
             :mod (v4 / vecs)))
     :ARG2 (v10 / ventilis
-		:mod (v55 / tips
-			:mod (v9 / jauns))))
+        :mod (v55 / tips
+            :mod (v9 / jauns))))
+            
+# ::sent_id a-p2971-p4s6
+# ::text Nav brīnums, ka ceļotājs sāka uztvert savus sapņus nopietni.
+(v6 / start.01
+    :ARG0 (v5 / ceļotājs
+        :ARG0-of (v11 / begin.01
+            :ARG1 (v7 / perceive.01
+                :ARG0 v5
+                :ARG1 (v9 / sapnis
+                    :mod (v12 / savs))
+                :manner (v10 / nopietni)
+                :ARG2-of v6))))
+
+# ::sent_id a-z106-p210s1
+# ::text Arī politiķu (kustības vadības) sastāvs ir maz mainījies.
+(v10 / change.01
+    :ARG1 (v7 / sastāvs
+        :manner (v9 / maz)
+        :mod (v2 / politiķis
+            :mod (v5 / vadība
+                :mod (v4 / kustība)))))
+                
+# ::sent_id a-p15952-p2s1
+# ::text 63 gadus vecā komiķa līķi pirmdienas pusdienlaikā uzgāja viņa asistente.
+(v8 / find.01
+    :ARG1 (v5 / līķis
+        :age (v1 / temporal-quantity
+            :unit year
+            :quant 63)
+        :mod (v4 / komiķis))
+    :time (v7 / date-entity
+        :weekday (m / monday)
+        :dayperiod (a / afternoon))
+    :ARG0 (v10 / asistente))
+    

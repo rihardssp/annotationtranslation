@@ -21,6 +21,14 @@ DEFAULT_PROP_BANK_ACTION_MAPPING = {
     'AM-EXT': ArgumentDelegate(None, 'extent'),
     'AM-TMP': ArgumentDelegate(time_argument_action, 'time'),
 
+    #http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf
+    #'er': ArgumentDelegate(None, 'test'), - error roleset, basically if verb is marked as one but isnt used as one
+    #AM-GOL - goal
+    #AM-ADV - adverbial
+    #AM-PRP Purpose clause
+    #AM-COM - comitaves
+    #AM-SLC - SeLectional Constraint Link
+
     # Merged format mapping (keep in mind we might need additional logic + less complexity if we define them here)
     'ARG0': ArgumentDelegate(None, 'ARG0'),
     'ARG1': ArgumentDelegate(None, 'ARG1'),
@@ -54,7 +62,9 @@ DEFAULT_RULES = {
 # Words related to a word in AMR will be added with given role if they have this deprel
 DEFAULT_CONLLU_DEPREL_MAPPING = {
     'nmod': 'mod',
-    'amod': 'mod'
+    'amod': 'mod',
+    #'parataxis': 'mod', Maybe 'and' here?
+    'advmod': 'mod'
 }
 
 

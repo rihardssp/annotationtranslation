@@ -2,7 +2,8 @@ import logging
 import typing
 import codecs
 
-from src.configuration import ConfigReader, config_reader
+
+from src.configuration import config_reader
 
 # use to log (can be displayed to user!):
 # log_stream = StringIO() | stream=log_stream, datefmt='%H:%M:%S', | print(log_stream.getvalue())
@@ -27,7 +28,7 @@ pipe_line = [
     CoReferencePipe()
 ]
 
-# The magic
+# run pipes
 triplet_list: typing.List[IContainer] = []
 for p in pipe_line:
     triplet_list = p.process(triplet_list)
@@ -36,10 +37,9 @@ for p in pipe_line:
     print(f"Calculation ran {p.last_run_time:0.4f} seconds for {p}")
 
 # Store in file
-f = codecs.open(ConfigReader().get_output_file_path(), "w", "utf-8")
+f = codecs.open(config_reader.get_output_file_path(), "w", "utf-8")
 for triplet in triplet_list:
     triplet.print(f, False)
-
 
 # Some additional data
 propbank_sentence_count = len(triplet_list)
@@ -58,7 +58,7 @@ coreference_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_COUNT, 0)
 coreference_total_count = sum(list(x.get_stat(ContainerStatistic.COREFERENCE_TOTAL_COUNT, 0) for x in triplet_list))
 
 f.close()
-f = codecs.open(ConfigReader().get_output_file_path().replace(".txt", "") + "_statistics.txt", "w", "utf-8")
+f = codecs.open(config_reader.get_output_file_path().replace(".txt", "") + "_statistics.txt", "w", "utf-8")
 
 f.write("======= Statistics:\n")
 f.write(f"Total AMR property count: {property_count}\n")

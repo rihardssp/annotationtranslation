@@ -11,7 +11,7 @@ class ICoReferenceMapping(ABC):
         pass
 
 
-class CoReferenceMapping:
+class CoReferenceMapping(ICoReferenceMapping):
     """This class contains mapping_definitions and actions which propbank uses to transform PropBank to AMR"""
 
     def __init__(self, replaceable_pos_values: typing.List = None):
