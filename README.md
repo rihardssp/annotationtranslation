@@ -58,8 +58,7 @@ ResourceFolder = ..\Resources\NamedEntities\
 # main.py
 
 Currently the only way to configure specific pipes/readers.
-To change used pipes:
-# Define the pipeline and readers you must edit the following (pipes constructor might give some hints):
+To define the pipeline and readers you must edit the following (pipes constructor might give some hints):
 
 pipe_line = [
     PropBankPipe(PropBankMapping()),
