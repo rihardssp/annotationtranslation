@@ -14,6 +14,8 @@ The goal is to make manual annotation easier by having a backbone AMR generated 
   - **readers:** logic to get annotation text into sentences/words.
   - **sentences:** logic that is used by pipe to query words.
   - **words:** defines given annotation properties.
+- **translation:** language specific text files
+- **ResultExamples:** examples of AnnotationTranslation results.
 
 Separate modules:
 - **delegates:** define how mapping logic is handled.
