@@ -926,32 +926,50 @@
 19	.	.	PUNCT	zs	_	7	punct	_	_	_
 
 
-# sent_id = a-p9806-p2s2
-# text = Meža dzīvnieku vakcinācijai izmanto novājinātu trakumsērgas vīrusu saturošu vakcīnu "Lusvulpen", kas iestrādāta zivju miltu, tauku un parafīna maisījuma iekšpusē.
-1	Meža	mežs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_	_
-2	dzīvnieku	dzīvnieks	NOUN	ncmpg1	Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_	_
-3	vakcinācijai	vakcinācija	NOUN	ncfsd4	Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_	A2
-4	izmanto	izmantot	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Y	use.01	_
-5	novājinātu	novājināt	VERB	vmnpdmsapsnpn	Aspect=Perf|Case=Acc|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	7	amod	_	_	_
-6	trakumsērgas	trakumsērga	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_	_
-7	vīrusu	vīruss	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_	_
-8	saturošu	saturēt	VERB	vmnpdfsaapnpn	Aspect=Imp|Case=Acc|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_	_
-9	vakcīnu	vakcīna	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_	_
-10	"	"	PUNCT	zq	_	11	punct	_	_	_
-11	Lusvulpen	Lusvulpen	X	xf	Foreign=Yes	4	obj	_	_	A1
-12	"	"	PUNCT	zq	_	11	punct	_	_	_
-13	,	,	PUNCT	zc	_	15	punct	_	_	_
-14	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	15	nsubj:pass	_	_	_
-15	iestrādāta	iestrādāt	VERB	vmnpdfsnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_	_
-16	zivju	zivs	NOUN	ncfpg6	Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	_	_
-17	miltu	milti	NOUN	ncmdg1	Case=Gen|Gender=Masc|Number=Ptan	22	nmod	_	_	_
-18	,	,	PUNCT	zc	_	19	punct	_	_	_
-19	tauku	tauki	NOUN	ncmdg1	Case=Gen|Gender=Masc|Number=Ptan	17	conj	_	_	_
-20	un	un	CCONJ	cc	_	21	cc	_	_	_
-21	parafīna	parafīns	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	17	conj	_	_	_
-22	maisījuma	maisījums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_	_
-23	iekšpusē	iekšpuse	NOUN	ncfsl5	Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_	_
-24	.	.	PUNCT	zs	_	4	punct	_	_	_
+# sent_id = a-p1494-p5s13
+# text = Pašlaik uz stāvvadiem vecā tipa ventiļi nomainīti pret jauniem, kas dos iespēju kaut nedaudz balansēt apkures sistēmu.
+1	Pašlaik	pašlaik	ADV	r0t	_	7	advmod	_	_	_
+2	uz	uz	ADP	sppd	_	3	case	_	_	_
+3	stāvvadiem	stāvvads	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_	_
+4	vecā	vecs	ADJ	afmsgyp	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+5	tipa	tips	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+6	ventiļi	ventilis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_	_
+7	nomainīti	nomainīt	VERB	vmnpdmpnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_	_
+8	pret	pret	ADP	sppd	_	9	case	_	_	_
+9	jauniem	jauns	ADJ	afmpdnp	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	7	iobj	_	_	_
+10	,	,	PUNCT	zc	_	12	punct	_	_	_
+11	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	12	nsubj	_	_	A0
+12	dos	dot	VERB	vmnifti30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	advcl	Y	give.01	_
+13	iespēju	iespēja	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	A1
+14	kaut	kaut	PART	q	_	15	discourse	_	_	_
+15	nedaudz	nedaudz	ADV	r0q	PronType=Ind,Neg	16	advmod	_	_	_
+16	balansēt	balansēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	13	acl	_	_	_
+17	apkures	apkure	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+18	sistēmu	sistēma	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+19	.	.	PUNCT	zs	_	7	punct	_	_	_
+
+
+# sent_id = a-p1494-p5s13
+# text = Pašlaik uz stāvvadiem vecā tipa ventiļi nomainīti pret jauniem, kas dos iespēju kaut nedaudz balansēt apkures sistēmu.
+1	Pašlaik	pašlaik	ADV	r0t	_	7	advmod	_	_	_
+2	uz	uz	ADP	sppd	_	3	case	_	_	_
+3	stāvvadiem	stāvvads	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	7	obl	_	_	_
+4	vecā	vecs	ADJ	afmsgyp	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+5	tipa	tips	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_	_
+6	ventiļi	ventilis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	7	nsubj:pass	_	_	A1
+7	nomainīti	nomainīt	VERB	vmnpdmpnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	0	root	Y	replace.01	_
+8	pret	pret	ADP	sppd	_	9	case	_	_	_
+9	jauniem	jauns	ADJ	afmpdnp	Case=Dat|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur	7	iobj	_	_	A2
+10	,	,	PUNCT	zc	_	12	punct	_	_	_
+11	kas	kas	PRON	pr000nn	Case=Nom|PronType=Rel	12	nsubj	_	_	_
+12	dos	dot	VERB	vmnifti30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	7	advcl	_	_	_
+13	iespēju	iespēja	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_	_
+14	kaut	kaut	PART	q	_	15	discourse	_	_	_
+15	nedaudz	nedaudz	ADV	r0q	PronType=Ind,Neg	16	advmod	_	_	_
+16	balansēt	balansēt	VERB	vmnn0t2000n	Polarity=Pos|VerbForm=Inf	13	acl	_	_	_
+17	apkures	apkure	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_	_
+18	sistēmu	sistēma	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_	_
+19	.	.	PUNCT	zs	_	7	punct	_	_	_
 
 
 # sent_id = a-p2971-p4s6
@@ -1090,3 +1108,321 @@
 20	pašā	pati	PRON	pg0fsln	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot	19	compound	_	_	_
 21	vietā	vieta	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_	_
 22	.	.	PUNCT	zs	_	1	punct	_	_	_
+
+
+# sent_id = a-d16-p63s1
+# text = Tad pie loga pienāca divi pretekļi, mēs mirklī noslēpāmies.
+1	Tad	tad	ADV	r0t	PronType=Dem	4	advmod	_	_	_
+2	pie	pie	ADP	spsg	_	3	case	_	_	_
+3	loga	logs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_	A4
+4	pienāca	pienākt	VERB	vmnisi130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	Y	come.01	_
+5	divi	divi	NUM	mcsmpn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	6	nummod	_	_	_
+6	pretekļi	preteklis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_	A1
+7	,	,	PUNCT	zc	_	10	punct	_	_	_
+8	mēs	mēs	PRON	pp10pnn	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_	_
+9	mirklī	mirklis	NOUN	ncmsl2	Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_	_
+10	noslēpāmies	noslēpties	VERB	vmyisi13pan	Evident=Fh|Mood=Ind|Number=Plur|Person=3|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_	_
+11	.	.	PUNCT	zs	_	4	punct	_	_	_
+
+
+# sent_id = a-n486-p34s1
+# text = 19. Zemkopības ministrijas galvenais koordinators piešķir un anulē sistēmas lietošanas tiesības Zemkopības ministrijas ierēdnim vai darbiniekam, kurš saskaņā ar amata vai darba pienākumiem izstrādā komercdarbības atbalsta paziņojuma projektu vai kopsavilkuma informāciju Komercdarbības atbalsta kontroles likuma 9. panta otrajā daļā definētajās darbības jomās un nozarēs.
+1	19.	19.	ADJ	xo	NumType=Ord	6	discourse	_	_	_
+2	Zemkopības	zemkopība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+3	ministrijas	ministrija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+4	galvenais	galvenais	ADJ	armsnyp	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+5	koordinators	koordinators	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	_
+6	piešķir	piešķirt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+7	un	un	CCONJ	cc	_	8	cc	_	_	_
+8	anulē	anulēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_	_
+9	sistēmas	sistēma	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+10	lietošanas	lietošana	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+11	tiesības	tiesība	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	_
+12	Zemkopības	zemkopība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+13	ministrijas	ministrija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+14	ierēdnim	ierēdnis	NOUN	ncmsd2	Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_	_
+15	vai	vai	SCONJ	cs	_	16	cc	_	_	_
+16	darbiniekam	darbinieks	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	14	conj	_	_	_
+17	,	,	PUNCT	zc	_	25	punct	_	_	_
+18	kurš	kurš	PRON	pr0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_	A0
+19	saskaņā	saskaņa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_	_
+20	ar	ar	ADP	spsa	_	24	case	_	_	_
+21	amata	amats	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_	_
+22	vai	vai	SCONJ	cs	_	23	cc	_	_	_
+23	darba	darbs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_	_
+24	pienākumiem	pienākums	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	19	iobj	_	_	_
+25	izstrādā	izstrādāt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	Y	generate.01	_
+26	komercdarbības	komercdarbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+27	atbalsta	atbalsts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_	_
+28	paziņojuma	paziņojums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_	_
+29	projektu	projekts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_	A1
+30	vai	vai	SCONJ	cs	_	32	cc	_	_	_
+31	kopsavilkuma	kopsavilkums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+32	informāciju	informācija	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_	_
+33	Komercdarbības	komercdarbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_	_
+34	atbalsta	atbalsts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_	_
+35	kontroles	kontrole	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_	_
+36	likuma	likums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_	_
+37	9.	9.	ADJ	xo	NumType=Ord	38	amod	_	_	_
+38	panta	pants	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_	_
+39	otrajā	otrais	ADJ	mosfsl	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	40	amod	_	_	_
+40	daļā	daļa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	41	obl	_	_	_
+41	definētajās	definēt	VERB	vmnpdfplpsypn	Aspect=Perf|Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_	_
+42	darbības	darbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_	_
+43	jomās	joma	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	29	nmod	_	_	_
+44	un	un	CCONJ	cc	_	45	cc	_	_	_
+45	nozarēs	nozare	NOUN	ncfpl5	Case=Loc|Gender=Fem|Number=Plur	43	conj	_	_	_
+46	.	.	PUNCT	zs	_	6	punct	_	_	_
+
+
+# sent_id = a-n486-p34s1
+# text = 19. Zemkopības ministrijas galvenais koordinators piešķir un anulē sistēmas lietošanas tiesības Zemkopības ministrijas ierēdnim vai darbiniekam, kurš saskaņā ar amata vai darba pienākumiem izstrādā komercdarbības atbalsta paziņojuma projektu vai kopsavilkuma informāciju Komercdarbības atbalsta kontroles likuma 9. panta otrajā daļā definētajās darbības jomās un nozarēs.
+1	19.	19.	ADJ	xo	NumType=Ord	6	discourse	_	_	_
+2	Zemkopības	zemkopība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_	_
+3	ministrijas	ministrija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_	_
+4	galvenais	galvenais	ADJ	armsnyp	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_	_
+5	koordinators	koordinators	NOUN	ncmsn1	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_	A0
+6	piešķir	piešķirt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Y	give.01	_
+7	un	un	CCONJ	cc	_	8	cc	_	_	_
+8	anulē	anulēt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_	_
+9	sistēmas	sistēma	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_	_
+10	lietošanas	lietošana	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_	_
+11	tiesības	tiesība	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_	A1
+12	Zemkopības	zemkopība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_	_
+13	ministrijas	ministrija	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_	_
+14	ierēdnim	ierēdnis	NOUN	ncmsd2	Case=Dat|Gender=Masc|Number=Sing	6	iobj	_	_	A2
+15	vai	vai	SCONJ	cs	_	16	cc	_	_	_
+16	darbiniekam	darbinieks	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	14	conj	_	_	_
+17	,	,	PUNCT	zc	_	25	punct	_	_	_
+18	kurš	kurš	PRON	pr0msnn	Case=Nom|Gender=Masc|Number=Sing|PronType=Rel	25	nsubj	_	_	_
+19	saskaņā	saskaņa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_	_
+20	ar	ar	ADP	spsa	_	24	case	_	_	_
+21	amata	amats	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_	_
+22	vai	vai	SCONJ	cs	_	23	cc	_	_	_
+23	darba	darbs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	21	conj	_	_	_
+24	pienākumiem	pienākums	NOUN	ncmpd1	Case=Dat|Gender=Masc|Number=Plur	19	iobj	_	_	_
+25	izstrādā	izstrādāt	VERB	vmnipt230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	_	_
+26	komercdarbības	komercdarbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_	_
+27	atbalsta	atbalsts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_	_
+28	paziņojuma	paziņojums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_	_
+29	projektu	projekts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	_	_
+30	vai	vai	SCONJ	cs	_	32	cc	_	_	_
+31	kopsavilkuma	kopsavilkums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_	_
+32	informāciju	informācija	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	29	conj	_	_	_
+33	Komercdarbības	komercdarbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	34	nmod	_	_	_
+34	atbalsta	atbalsts	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	_	_
+35	kontroles	kontrole	NOUN	ncfsg5	Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_	_
+36	likuma	likums	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_	_
+37	9.	9.	ADJ	xo	NumType=Ord	38	amod	_	_	_
+38	panta	pants	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_	_
+39	otrajā	otrais	ADJ	mosfsl	Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Sing|NumType=Ord	40	amod	_	_	_
+40	daļā	daļa	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	41	obl	_	_	_
+41	definētajās	definēt	VERB	vmnpdfplpsypn	Aspect=Perf|Case=Loc|Definite=Def|Degree=Pos|Gender=Fem|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_	_
+42	darbības	darbība	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	43	nmod	_	_	_
+43	jomās	joma	NOUN	ncfpl4	Case=Loc|Gender=Fem|Number=Plur	29	nmod	_	_	_
+44	un	un	CCONJ	cc	_	45	cc	_	_	_
+45	nozarēs	nozare	NOUN	ncfpl5	Case=Loc|Gender=Fem|Number=Plur	43	conj	_	_	_
+46	.	.	PUNCT	zs	_	6	punct	_	_	_
+
+
+# sent_id = a-p3307-p16s3
+# text = Nešaubos, ka izdzīvosim arī šogad.
+1	Nešaubos	šaubīties	VERB	vmyipi31say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+2	,	,	PUNCT	zc	_	4	punct	_	_	_
+3	ka	ka	SCONJ	cs	_	4	mark	_	_	_
+4	izdzīvosim	izdzīvot	VERB	vmnift21pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	Y	survive.01	_
+5	arī	arī	PART	q	_	6	discourse	_	_	_
+6	šogad	šogad	ADV	r0t	_	4	advmod	_	_	AM-TMP
+7	.	.	PUNCT	zs	_	1	punct	_	_	_
+
+
+# sent_id = a-p3307-p16s3
+# text = Nešaubos, ka izdzīvosim arī šogad.
+1	Nešaubos	šaubīties	VERB	vmyipi31say	Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Y	doubt.01	_
+2	,	,	PUNCT	zc	_	4	punct	_	_	_
+3	ka	ka	SCONJ	cs	_	4	mark	_	_	_
+4	izdzīvosim	izdzīvot	VERB	vmnift21pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	1	ccomp	_	_	A1
+5	arī	arī	PART	q	_	6	discourse	_	_	_
+6	šogad	šogad	ADV	r0t	_	4	advmod	_	_	_
+7	.	.	PUNCT	zs	_	1	punct	_	_	_
+
+
+# sent_id = a-p5288-p5s2
+# text = Ņemot vērā, ka “SEAT” markas sauklis ir “emociju auto”, arī Ķīpsalā šīs markas oficiālais pārstāvis “Autobrava” eksponēs “SEAT” dinamiskākās modifikācijas, kuras pazīstam ar “FR” un “Cupra” piebildi modeļu nosaukumā.
+1	Ņemot	ņemt	VERB	vmnpu0000000n	Polarity=Pos|VerbForm=Conv	25	advcl	_	_	_
+2	vērā	vērā	ADV	r0p	_	1	advmod	_	_	_
+3	,	,	PUNCT	zc	_	9	punct	_	_	_
+4	ka	ka	SCONJ	cs	_	9	mark	_	_	_
+5	“	“	PUNCT	zq	_	6	punct	_	_	_
+6	SEAT	SEAT	X	xf	Foreign=Yes	9	nmod	_	_	_
+7	”	”	PUNCT	zq	_	6	punct	_	_	_
+8	markas	marka	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_	_
+9	sauklis	sauklis	NOUN	ncmsn2	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	_	_
+10	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	_
+11	“	“	PUNCT	zq	_	13	punct	_	_	_
+12	emociju	emocijas	NOUN	ncfdg4	Case=Gen|Gender=Fem|Number=Ptan	13	nmod	_	_	_
+13	auto	auto	NOUN	ncm000	Gender=Masc	9	nsubj	_	_	_
+14	”	”	PUNCT	zq	_	13	punct	_	_	_
+15	,	,	PUNCT	zc	_	9	punct	_	_	_
+16	arī	arī	PART	q	_	17	discourse	_	_	_
+17	Ķīpsalā	Ķīpsala	PROPN	npfsl4	Case=Loc|Gender=Fem|Number=Sing	25	obl	_	_	_
+18	šīs	šī	DET	pd3fsgn	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Dem	19	det	_	_	_
+19	markas	marka	NOUN	ncfsg4	Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_	_
+20	oficiālais	oficiāls	ADJ	afmsnyp	Case=Nom|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_	_
+21	pārstāvis	pārstāvis	NOUN	ncmsn2	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_	_
+22	“	“	PUNCT	zq	_	23	punct	_	_	_
+23	Autobrava	Autobrava	PROPN	npfsn4	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_	_
+24	”	”	PUNCT	zq	_	23	punct	_	_	_
+25	eksponēs	eksponēt	VERB	vmnift230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_	_
+26	“	“	PUNCT	zq	_	27	punct	_	_	_
+27	SEAT	SEAT	X	xf	Foreign=Yes	30	nmod	_	_	_
+28	”	”	PUNCT	zq	_	27	punct	_	_	_
+29	dinamiskākās	dinamisks	ADJ	affpayc	Case=Acc|Definite=Def|Degree=Cmp|Gender=Fem|Number=Plur	30	amod	_	_	_
+30	modifikācijas	modifikācija	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	25	obj	_	_	_
+31	,	,	PUNCT	zc	_	33	punct	_	_	_
+32	kuras	kura	PRON	pr0fpan	Case=Acc|Gender=Fem|Number=Plur|PronType=Rel	33	obj	_	_	A1
+33	pazīstam	pazīt	VERB	vmnipt11pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	30	acl	Y	know.02	_
+34	ar	ar	ADP	spsa	_	42	case	_	_	_
+35	“	“	PUNCT	zq	_	36	punct	_	_	_
+36	FR	FR	SYM	xx	_	42	amod	_	_	_
+37	”	”	PUNCT	zq	_	36	punct	_	_	_
+38	un	un	CCONJ	cc	_	40	cc	_	_	_
+39	“	“	PUNCT	zq	_	40	punct	_	_	_
+40	Cupra	Cupra	X	xf	Foreign=Yes	36	conj	_	_	_
+41	”	”	PUNCT	zq	_	40	punct	_	_	_
+42	piebildi	piebilde	NOUN	ncfsa5	Case=Acc|Gender=Fem|Number=Sing	33	obl	_	_	_
+43	modeļu	modelis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	44	nmod	_	_	_
+44	nosaukumā	nosaukums	NOUN	ncmsl1	Case=Loc|Gender=Masc|Number=Sing	42	nmod	_	_	_
+45	.	.	PUNCT	zs	_	25	punct	_	_	_
+
+
+# sent_id = a-p3516-p26s7
+# text = Godīgumam, ar kādu izturējāmies pret darbu, agri vai vēlu vajadzēja dot šādu rezultātu.
+1	Godīgumam	godīgums	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	12	nsubj	_	_	A0
+2	,	,	PUNCT	zc	_	5	punct	_	_	_
+3	ar	ar	ADP	spsa	_	4	case	_	_	_
+4	kādu	kāds	PRON	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	iobj	_	_	_
+5	izturējāmies	izturēties	VERB	vmyisi31pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	_	_	_
+6	pret	pret	ADP	spsa	_	7	case	_	_	_
+7	darbu	darbs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	5	iobj	_	_	_
+8	,	,	PUNCT	zc	_	5	punct	_	_	_
+9	agri	agri	ADV	rpt	Degree=Pos	12	advmod	_	_	_
+10	vai	vai	CCONJ	cc	_	11	cc	_	_	_
+11	vēlu	vēlu	ADV	rpt	Degree=Pos	9	conj	_	_	_
+12	vajadzēja	vajadzēt	VERB	vonisi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+13	dot	dot	VERB	vmnn0ti000n	Polarity=Pos|VerbForm=Inf	12	xcomp	Y	give.01	_
+14	šādu	šāds	DET	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_	_
+15	rezultātu	rezultāts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	A1
+16	.	.	PUNCT	zs	_	12	punct	_	_	_
+
+
+# sent_id = a-p3516-p26s7
+# text = Godīgumam, ar kādu izturējāmies pret darbu, agri vai vēlu vajadzēja dot šādu rezultātu.
+1	Godīgumam	godīgums	NOUN	ncmsd1	Case=Dat|Gender=Masc|Number=Sing	12	nsubj	_	_	_
+2	,	,	PUNCT	zc	_	5	punct	_	_	_
+3	ar	ar	ADP	spsa	_	4	case	_	_	_
+4	kādu	kāds	PRON	pi0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	iobj	_	_	AM-MNR
+5	izturējāmies	izturēties	VERB	vmyisi31pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Reflex=Yes|Tense=Past|VerbForm=Fin|Voice=Act	1	acl	Y	treat.01	_
+6	pret	pret	ADP	spsa	_	7	case	_	_	_
+7	darbu	darbs	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	5	iobj	_	_	A1
+8	,	,	PUNCT	zc	_	5	punct	_	_	_
+9	agri	agri	ADV	rpt	Degree=Pos	12	advmod	_	_	_
+10	vai	vai	CCONJ	cc	_	11	cc	_	_	_
+11	vēlu	vēlu	ADV	rpt	Degree=Pos	9	conj	_	_	_
+12	vajadzēja	vajadzēt	VERB	vonisi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_	_
+13	dot	dot	VERB	vmnn0ti000n	Polarity=Pos|VerbForm=Inf	12	xcomp	_	_	_
+14	šādu	šāds	DET	pd0msan	Case=Acc|Gender=Masc|Number=Sing|PronType=Dem	15	det	_	_	_
+15	rezultātu	rezultāts	NOUN	ncmsa1	Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_	_
+16	.	.	PUNCT	zs	_	12	punct	_	_	_
+
+
+# sent_id = a-p6343-p9s1
+# text = «Pirmā septembra puķu izvēlē ir tradicionāla, pērkam rudens ziedus, gladiolas vai asteres, kuras ikvienam asociējas ar skolu,» nobeidz Agnese.
+1	«	«	PUNCT	zq	_	7	punct	_	_	_
+2	Pirmā	pirmais	ADJ	mosmsg	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_	_
+3	septembra	septembris	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+4	puķu	puķe	NOUN	ncfpg5	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+5	izvēlē	izvēle	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	7	nsubj	_	_	_
+6	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_
+7	tradicionāla	tradicionāls	ADJ	affsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	24	parataxis	_	_	A1
+8	,	,	PUNCT	zc	_	9	punct	_	_	_
+9	pērkam	pirkt	VERB	vmnipt11pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_	_
+10	rudens	rudens	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+11	ziedus	zieds	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	_
+12	,	,	PUNCT	zc	_	13	punct	_	_	_
+13	gladiolas	gladiola	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	11	appos	_	_	_
+14	vai	vai	SCONJ	cs	_	15	cc	_	_	_
+15	asteres	astere	NOUN	ncfpa5	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	_	_
+16	,	,	PUNCT	zc	_	19	punct	_	_	_
+17	kuras	kura	PRON	pr0fpnn	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	19	nsubj	_	_	_
+18	ikvienam	ikviens	PRON	pg0msdn	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	19	obl	_	_	_
+19	asociējas	asociēties	VERB	vmyipi230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_	_
+20	ar	ar	ADP	spsa	_	21	case	_	_	_
+21	skolu	skola	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	19	iobj	_	_	_
+22	,	,	PUNCT	zc	_	7	punct	_	_	_
+23	»	»	PUNCT	zq	_	7	punct	_	_	_
+24	nobeidz	nobeigt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Y	say.01	_
+25	Agnese	Agnese	PROPN	npfsn5	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	A0
+26	.	.	PUNCT	zs	_	24	punct	_	_	_
+
+
+# sent_id = a-p6343-p9s1
+# text = «Pirmā septembra puķu izvēlē ir tradicionāla, pērkam rudens ziedus, gladiolas vai asteres, kuras ikvienam asociējas ar skolu,» nobeidz Agnese.
+1	«	«	PUNCT	zq	_	7	punct	_	_	_
+2	Pirmā	pirmais	ADJ	mosmsg	Case=Gen|Definite=Def|Degree=Pos|Gender=Masc|Number=Sing|NumType=Ord	3	amod	_	_	_
+3	septembra	septembris	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_	_
+4	puķu	puķe	NOUN	ncfpg5	Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_	_
+5	izvēlē	izvēle	NOUN	ncfsn5	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	7	nsubj	_	_	_
+6	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_	_
+7	tradicionāla	tradicionāls	ADJ	affsnnp	Case=Nom|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	24	parataxis	_	_	_
+8	,	,	PUNCT	zc	_	9	punct	_	_	_
+9	pērkam	pirkt	VERB	vmnipt11pan	Evident=Fh|Mood=Ind|Number=Plur|Person=1|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	Y	buy.01	_
+10	rudens	rudens	NOUN	ncmsg2	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_	_
+11	ziedus	zieds	NOUN	ncmpa1	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_	A1
+12	,	,	PUNCT	zc	_	13	punct	_	_	_
+13	gladiolas	gladiola	NOUN	ncfpa4	Case=Acc|Gender=Fem|Number=Plur	11	appos	_	_	_
+14	vai	vai	SCONJ	cs	_	15	cc	_	_	_
+15	asteres	astere	NOUN	ncfpa5	Case=Acc|Gender=Fem|Number=Plur	13	conj	_	_	_
+16	,	,	PUNCT	zc	_	19	punct	_	_	_
+17	kuras	kura	PRON	pr0fpnn	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	19	nsubj	_	_	_
+18	ikvienam	ikviens	PRON	pg0msdn	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot	19	obl	_	_	_
+19	asociējas	asociēties	VERB	vmyipi230an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Reflex=Yes|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_	_
+20	ar	ar	ADP	spsa	_	21	case	_	_	_
+21	skolu	skola	NOUN	ncfsa4	Case=Acc|Gender=Fem|Number=Sing	19	iobj	_	_	_
+22	,	,	PUNCT	zc	_	7	punct	_	_	_
+23	»	»	PUNCT	zq	_	7	punct	_	_	_
+24	nobeidz	nobeigt	VERB	vmnipt130an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_	_
+25	Agnese	Agnese	PROPN	npfsn5	Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_	_
+26	.	.	PUNCT	zs	_	24	punct	_	_	_
+
+
+# sent_id = a-c15-p10s5
+# text = No tīra sudraba ir rati, no tīra zelta ir riteņi, bet riteņu spieķi mirdz varā kalti.
+1	No	no	ADP	spsg	_	3	case	_	_	_
+2	tīra	tīrs	ADJ	afmsgnp	Case=Gen|Definite=Ind|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_	_
+3	sudraba	sudrabs	NOUN	ncmsg1	Case=Gen|Gender=Masc|Number=Sing	0	root	_	_	_
+4	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_	_
+5	rati	rats	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_	_
+6	,	,	PUNCT	zc	_	9	punct	_	_	_
+7	no	no	ADP	spsg	_	9	case	_	_	_
+8	tīra	tīrs	ADJ	affsgnp	Case=Gen|Definite=Ind|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_	_
+9	zelta	zelts	NOUN	ncmvg1	Case=Gen|Gender=Masc|Number=Coll	3	conj	_	_	_
+10	ir	būt	AUX	vcnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_	_
+11	riteņi	ritenis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_	_
+12	,	,	PUNCT	zc	_	16	punct	_	_	_
+13	bet	bet	CCONJ	cc	_	16	cc	_	_	_
+14	riteņu	ritenis	NOUN	ncmpg2	Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_	_
+15	spieķi	spieķis	NOUN	ncmpn2	Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_	A1
+16	mirdz	mirdzēt	VERB	vmnipi330an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	Y	shine.01	_
+17	varā	vara	NOUN	ncfsl4	Case=Loc|Gender=Fem|Number=Sing	18	obl	_	_	_
+18	kalti	kalt	VERB	vmnpdmpnpsnpn	Aspect=Perf|Case=Nom|Definite=Ind|Degree=Pos|Gender=Masc|Number=Plur|Polarity=Pos|Tense=Past|VerbForm=Part|Voice=Pass	16	xcomp	_	_	_
+19	.	.	PUNCT	zs	_	3	punct	_	_	_
+
+
+# sent_id = a-p576-p20s1
+# text = Airisai ir trīs gadiņi.
+1	Airisai	Airisa	PROPN	npfsd4	Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_	er
+2	ir	būt	VERB	vmnipii30an	Evident=Fh|Mood=Ind|Person=3|Polarity=Pos|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Y	have.03	_
+3	trīs	trīs	NUM	mcsmpn	Case=Nom|Gender=Masc|Number=Plur|NumType=Card	4	nummod	_	_	_
+4	gadiņi	gadiņš	NOUN	ncmpn1	Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_	A1
+5	.	.	PUNCT	zs	_	2	punct	_	_	_

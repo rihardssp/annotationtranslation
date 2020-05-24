@@ -343,4 +343,124 @@
         :weekday (m / monday)
         :dayperiod (a / afternoon))
     :ARG0 (v10 / asistente))
-    
+
+# ::sent_id a-p6642-p4s1
+# ::text Izrādās Heidija ne tikai salauza kāju otro reizi pēc tik grandioza pasākuma, bet kāja tika salauzta tieši tajā pašā vietā.
+(v1 / turn_out.11
+    :ARG2 (a / and
+        :op1 (v5 / fracture.01
+            :location (v21 / vieta
+                :mod (v19 / tā
+                    :mod (v20 / pati)))
+            :ord (o / ordinal-entity 
+               :value 2)
+            :ARG0 (v2 / person
+                :name (vg0 / name
+                    :op0 "Heidija"))
+            :ARG1 (v6 / kāja))))
+
+# ::sent_id a-d16-p63s1
+# ::text Tad pie loga pienāca divi pretekļi, mēs mirklī noslēpāmies.
+(a / and
+    :op1 (v4 / come.01
+        :ARG4 (v3 / logs)
+        :ARG1 (v6 / preteklis
+            :quant 2))
+    :op2 (v10 / hide.01
+        :ARG0 (v8 / mēs)))
+
+# ::sent_id a-n486-p34s1
+# ::text 19. Zemkopības ministrijas galvenais koordinators piešķir un anulē sistēmas lietošanas tiesības Zemkopības ministrijas ierēdnim vai darbiniekam, kurš saskaņā ar amata vai darba pienākumiem izstrādā komercdarbības atbalsta paziņojuma projektu vai kopsavilkuma informāciju Komercdarbības atbalsta kontroles likuma 9. panta otrajā daļā definētajās darbības jomās un nozarēs.
+(v6 / give.01
+    :ARG0 (v5 / koordinators
+        :ARG0-of (v8 / revoke.01
+            :ARG1 v11)
+        :mod (v4 / galvenais)
+        :mod (v2 / organization
+            :name (vg0 / name
+                :op1 "Zemkopības ministrija")
+            :wiki "lv.wikipedia.org/wiki/Latvijas_Republikas_Zemkopības_ministrija"))
+    :ARG1 (v11 / tiesība
+        :mod (v10 / lietošana
+            :mod (v9 / sistēma)))
+    :ARG2 (v14 / ierēdnis
+        :ARG0-of (v25 / develop.02
+        :ARG1 (29 / projekts
+            :mod (v28 / paziņojums
+                :mod (v27 / atbalsts)))
+        :mod v2)))
+        
+# ::sent_id a-p3307-p16s3
+# ::text Nešaubos, ka izdzīvosim arī šogad.
+(v1 / doubt.01
+    :polarity -
+    :ARG1 (v4 / survive.01
+        :time (v6 / šogad)))
+        
+# ::sent_id a-p5288-p5s2
+# ::text Ņemot vērā, ka “SEAT” markas sauklis ir “emociju auto”, arī Ķīpsalā šīs markas oficiālais pārstāvis “Autobrava” eksponēs “SEAT” dinamiskākās modifikācijas, kuras pazīstam ar “FR” un “Cupra” piebildi modeļu nosaukumā.
+# ::comment1 ignored named entities
+(v25 / exhibit.01
+    :ARG0 (v23 / Autobrava
+        :mod (v22 / pārstāvis
+            :mod (v21 / oficiāls)))
+    :ARG1 (v28 / modifikācija
+        :mod (v29 / dinamisks)
+        :mod (v27 / SEAT
+            :ARG0-of (v10 / be.01
+                :ARG1 (v12 / “emociju auto”))
+            :mod-of (v32 / kura
+                :ARG1-of (v33 / know.02
+                    :ARG2 (v35 / FR))))))
+
+# ::sent_id a-p3516-p26s7
+# ::text Godīgumam, ar kādu izturējāmies pret darbu, agri vai vēlu vajadzēja dot šādu rezultātu.
+(v5 / treat.01
+    :manner (v4 / godīgums
+        :ARG0-of (v13 / give.01
+            :ARG1 (v15 / rezultāts)))
+    :ARG1 (v7 / darbs))
+
+# ::sent_id a-p6343-p9s1
+# ::text «Pirmā septembra puķu izvēlē ir tradicionāla, pērkam rudens ziedus, gladiolas vai asteres, kuras ikvienam asociējas ar skolu,» nobeidz Agnese.
+(v24 / say.01
+    :ARG1 (a / and
+        :op1 (v9 / buy.01
+            :ARG1 (v11 / zieds
+                :ARG0-of (v19 / associate.01
+                    :ARG1 (v21 / skola))))
+        :op2 (v6 / be.01
+            :ARG1 (v7 / tradicionāls)
+            :ARG0 (v5 / izvēle
+                :mod (v4 / puķe)
+                :mod (v1 / septembris))))
+    :ARG0 (v25 / person
+        :name (vg0 / name
+            :op0 "Agnese")))
+
+# ::sent_id a-c15-p10s5
+# ::text No tīra sudraba ir rati, no tīra zelta ir riteņi, bet riteņu spieķi mirdz varā kalti.
+(a / and
+    :op1 (v16 / shine.01
+        :manner (v18 / kalts
+            :mod (v17 / vara))
+        :ARG1 (v15 / spieķis
+            :mod (v14 / ritenis)))
+    :op2 (v4 / be.01
+        :ARG1 (v5 / rats)
+        :ARG2 (v3 / sudrabs
+            :mod (v2 / tīrs)))
+    :op3 (v10 / be.01
+        :ARG1 (v11 / ritenis)
+        :ARG2 (v9 / zelts
+            :mod (v8 / tīrs))))
+
+# ::sent_id a-p576-p20s1
+# ::text Airisai ir trīs gadiņi.
+(v2 / have.03
+    :ARG1 (p / person
+        :name (n / name
+            :op1 "Airisa"))
+    :ARG1 (v4 / gadiņš
+        :quant 3))
+

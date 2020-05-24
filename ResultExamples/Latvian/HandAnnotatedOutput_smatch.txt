@@ -1,0 +1,16 @@
+'Instances:' 
+Precision: 0.80
+Recall: 0.51
+F-score: 0.63
+'Attributes:' 
+Precision: 0.67
+Recall: 0.55
+F-score: 0.60
+'Relations:' 
+Precision: 0.84
+Recall: 0.49
+F-score: 0.62
+'Total:' 
+Precision: 0.78
+Recall: 0.50
+F-score: 0.61

@@ -1,0 +1,335 @@
+# ::sent_id a-d62-p34s1
+# ::text Toreiz garām skrēja tik balti mākoņi.
+(v3 / pass.03
+    :direction (v2 / garām)
+    :ARG1 (v6 / mākonis
+        :mod (v5 / balts)))
+
+# ::sent_id a-d62-p34s5
+# ::text Vida nerunāja, neatvadījās.
+(v2 / speak.01
+    :ARG0 (v1 / person
+        :name (vg0 / name
+            :op0 "Vida"))
+    :polarity -)
+
+# ::sent_id a-p3754-p5s1
+# ::text Uzņēmums projekta realizāciju sāka 2001.gadā.
+(v4 / start.01
+    :ARG0 (v1 / uzņēmums)
+    :ARG2 (v3 / realizācija
+        :mod (v2 / projekts))
+    :time (v6 / date-entity
+        :year 2001.))
+
+# ::sent_id a-p3754-p5s2
+# ::text Kopš tā laika poligona attīstībā ieguldīti vairāk nekā septiņi miljoni latu.
+(v6 / invest.01
+    :time (v3 / "Kopš tā laiks")
+    :ARG2 (v5 / attīstība
+        :mod (v4 / poligons))
+    :ARG1 (v10 / miljons
+        :mod (v11 / lats)))
+
+# ::sent_id a-p12841-p1s1
+# ::text Rēzeknes novadā, apgāžoties automašīnai "Mazda", gājis bojā šoferis.
+(v10 / perish.01
+    :ARG0 (v12 / šoferis)
+    :location (v1 / name
+        :op1 (vg0 / "Rēzeknes novads")
+        :wiki "en.wikipedia.org/wiki/Rēzekne_Municipality"))
+
+# ::sent_id a-c13-p43s6
+# ::text Prot panākt, ka viņu visi mīl.
+(v1 / know.03
+    :ARG1 (v2 / achieve.01
+        :ARG1 (v7 / love.01
+            :ARG1 (v5 / Jaunākie)
+            :ARG0 (v6 / viss))))
+
+# ::sent_id a-c18-p3s4
+# ::text Pat jaunās varas ieceltās vietējās varas iestādes nezināja, kur tie palikuši.
+(v8 / know.01
+    :ARG0 (v7 / iestāde
+        :mod (v4 / iecelt)
+        :mod (v6 / vara
+            :mod (v5 / vietējs)))
+    :ARG1 (v12 / remain.01
+        :ARG3 (v10 / kur)
+        :ARG1 (v11 / aizvestie))
+    :polarity -)
+
+# ::sent_id a-p3739-p6s2
+# ::text Apvienojoties šo mazumtirgotāju degvielas uzpildes staciju (DUS) tīkls sasniegtu 57 stacijas, savukārt patlaban pēc skaita otrs lielākais DUS tīkls Latvijā - 56 stacijas - ir "Neste Oil".
+(v11 / reach.01
+    :ARG0 (v10 / tīkls
+        :mod (v3 / mazumtirgotājs)
+        :mod (v4 / degviela))
+    :ARG1 (v13 / stacija))
+
+# ::sent_id a-p3744-p2s1
+# ::text "Nordea banka" vēlas brīvu piekļuvi putnu fabrikas "Ķekava" kustamajai mantai, vēsta "Dienas Bizness".
+(v16 / tell.01
+    :ARG1 (v5 / desire.01
+        :ARG1 (v7 / piekļuve
+            :mod (v6 / brīvs)
+            :mod (v14 / manta
+                :mod (v13 / kustēt)
+                :mod (v8 / putns
+                    :name (vg1 / name
+                        :op1 "Ķekava"))))
+        :ARG0 (v2 / organization
+            :name (vg0 / name
+                :op1 "Nordea banka")))
+    :ARG0 (v18 / organization
+        :name (vg2 / name
+            :op1 "Dienas Bizness")))
+
+# ::sent_id a-n166-p73s1
+# ::text 3) uzlikt par pienākumu Rīgas pilsētas pašvaldībai atmaksāt SIA KU "Baltic Oil Terminal" samaksāto valsts nodevu 28,46 euro (Ls 20) apmērā.
+(v3 / impose.01
+    :ARG1 (v9 / repay.01
+        :ARG3 (v26 / apmērs
+            :mod (v21 / euro))
+        :ARG0 (v6 / organization
+            :name (vg0 / name
+                :op1 "Rīgas pilsētas pašvaldība"))
+        :ARG2 (v10 / organization
+            :name (vg1 / name
+                :op1 "SIA KU Baltic Oil Terminal"))))
+
+# ::sent_id a-d94-p4s3
+# ::text Tieši šorīt viņš sevī bija sajutis uzmanības nepieciešamību.
+(v6 / feel.01
+    :time (v2 / šorīt)
+    :ARG0 (v3 / Žans)
+    :ARG1 (v8 / nepieciešamība
+        :mod (v7 / uzmanība)))
+
+# ::sent_id a-p1272-p1s1
+# ::text Kurmāles pagasta padome decembra sēdē grozīja šī gada budžetu un sprieda, kā jauno pieņemt jau janvārī.
+(v6 / amend.01
+    :time (v5 / sēde)
+    :ARG1 (v9 / budžets
+        :mod (v8 / gads))
+    :ARG0 (v1 / organization
+        :ARG0-of (v11 / discuss.01
+            :ARG1 (v15 / adopt.01
+                :ARG1 (v14 / jauns)
+                :time (v17 / "janvāris")))
+        :name (vg0 / name
+            :op1 "Kurmāles pagasta padome")))
+
+# ::sent_id a-p6228-p3s1
+# ::text Dienu pirms Jāņiem Lolita jau ne tikai plānoja, ko likt svētku galdā, bet ķērās pie cepšanas un jau izcepa vairākus gardumus.
+(v8 / plan.01
+    :time (v1 / diena
+        :time-of (v16 / get_down.15
+            :ARG1 (v4 / person
+                :name (vg0 / name
+                    :op0 "Lolita"))
+            :ARG1 (v18 / cepšana)))
+    :ARG0 v4
+    :ARG1 (v11 / put.01
+        :ARG1 (v10 / kas)
+        :ARG2 (v13 / galds
+            :mod (v12 / svētki))))
+
+# ::sent_id a-p10263-p4s1
+# ::text Neilgi pēc tam 12:35, VUGD saņēma informāciju, ka Saldus novada, Zirņu pagastā, grāvī atrodas zirgs, kurš saviem spēkiem no tā nevar izkļūt.
+(v7 / get.01
+    :time (v3 / temporal-quantity
+        :unit (vg0 / tas)
+        :quant "12:35")
+    :ARG0 (v6 / organization
+        :name (vg1 / name
+            :op1 "VUGD"))
+    :ARG1 (v8 / informācija))
+
+# ::sent_id a-p2968-p5s7
+# ::text Misters Rokfellers laika gaitā kļuva par vienu no modernās pasaules bagātākajiem cilvēkiem.
+(v5 / become.01
+    :ARG2 (v7 / viens
+        :mod (v12 / cilvēks
+            :mod (v10 / pasaule
+                :mod (v9 / moderns))
+            :mod (v11 / bagāts)))
+    :ARG1 (v1 / misters
+        :name (vg0 / name
+            :op0 "Rokfellers")
+        :wiki "en.wikipedia.org/wiki/John_D._Rockefeller"))
+
+# ::sent_id a-p3739-p11s3
+# ::text "Aparts" arī pieder 25 DUS.
+(v5 / belong.01
+    :ARG1 (v2 / organization
+        :name (vg0 / name
+            :op1 "Aparts"))
+    :ARG0 (v7 / DUS))
+
+# ::sent_id a-d62-p15s1
+# ::text Kaula adatas iet kā kājas, diegi saveļas taciņā un tad spindzami izstiepjas skaņā.
+(v3 / go.01
+    :ARG1 (v2 / adata
+        :mod (v1 / kauls))
+    :manner (v5 / kāja))
+
+# ::sent_id a-p2948-p4s5
+# ::text Parasti šāda pirmā vizīte ilgst aptuveni stundu.
+(v5 / last.01
+    :ARG1 (v4 / vizīte
+        :mod (v3 / pirmais))
+    :ARG2 (v7 / stunda))
+
+# ::sent_id a-d84-p127s2
+# ::text Ievai ienāca prātā, ka viņš varētu būt labs aktieris, jo viņa seja bija dzīva un izteiksmīga, tajā mainījās viltus un nopietnība, smiekls un asaras, tas viss kopā kā ēnas ik brīdi viļņoja viņa vaibstus.
+(v2 / occur.01
+    :ARG2 (v1 / person
+        :name (vg0 / name
+            :op0 "Ieva"))
+    :ARG1 (v7 / able.01
+        :ARG1 (v6 / Tēvs)
+        :ARG2 (v10 / aktieris
+            :mod (v9 / labs))))
+
+# ::sent_id a-d84-p118s2
+# ::text Māte viņam atļāva iedzert otru glāzīti un atņēma pudeli, nolika kaut kur ārpusē.
+(v3 / permit.01
+    :ARG0 (v1 / māte
+        :ARG0-of (v8 / confiscate.01
+            :ARG1 (v9 / pudele))
+        :ARG0-of (v11 / put.01
+            :ARG1 v9
+            :ARG2 (v14 / ārpuse)))
+    :ARG2 (v2 / Tēvs
+        :ARG0-of (v4 / drink.01
+            :ARG1 (v6 / glāzīte)
+            :ARG1-of v3)))
+
+# ::sent_id a-d21-p32s1
+# ::text Vēl nekad neesmu redzējis pa veikalu durvīm iekšā laižamies putnus.
+(v4 / see.01
+    :time (v2 / nekad)
+    :ARG1 (v10 / putns
+        :ARG0-of (v9 / fly.01
+            :location (v7 / durvis
+                :mod (v6 / veikals)))))
+
+# ::sent_id a-p1466-p5s3
+# ::text Savukārt mūsējie mediķi zina, ka vajadzības gadījumā arī viņi saņems līdzīgu atbalstu.
+(v4 / know.01
+    :ARG0 (v3 / mediķis
+        :mod (v2 / mūsējs))
+    :ARG1 (v11 / receive.01
+        :ARG1 (v13 / atbalsts
+            :mod (v12 / līdzīgs))
+        :ARG0 v3))
+
+# ::sent_id a-d62-p31s1
+# ::text "Nē, pēc laika atgriezās Vida, sejs cits.
+(v6 / return.01
+    :time (v5 / laiks)
+    :ARG1 (v7 / Vida))
+
+# ::sent_id a-p1494-p5s13
+# ::text Pašlaik uz stāvvadiem vecā tipa ventiļi nomainīti pret jauniem, kas dos iespēju kaut nedaudz balansēt apkures sistēmu.
+(v7 / replace.01
+    :ARG1 (v6 / ventilis
+        :mod (v5 / tips
+            :mod (v4 / vecs)))
+    :ARG2 (v9 / jauns))
+
+# ::sent_id a-p2971-p4s6
+# ::text Nav brīnums, ka ceļotājs sāka uztvert savus sapņus nopietni.
+(v6 / start.01
+    :ARG0 (v5 / ceļotājs
+        :ARG0-of (v7 / perceive.01
+            :ARG1 (v9 / sapnis)
+            :manner (v10 / nopietni)
+            :ARG2-of v6)))
+
+# ::sent_id a-z106-p210s1
+# ::text Arī politiķu (kustības vadības) sastāvs ir maz mainījies.
+(v10 / change.01
+    :ARG1 (v7 / sastāvs
+        :mod (v2 / politiķis)))
+
+# ::sent_id a-p15952-p2s1
+# ::text 63 gadus vecā komiķa līķi pirmdienas pusdienlaikā uzgāja viņa asistente.
+(v8 / find.01
+    :ARG1 (v5 / līķis
+        :mod (v4 / komiķis
+            :mod (v3 / vecs)))
+    :time (v7 / pusdienlaiks)
+    :ARG0 (v10 / asistente))
+
+# ::sent_id a-p6642-p4s1
+# ::text Izrādās Heidija ne tikai salauza kāju otro reizi pēc tik grandioza pasākuma, bet kāja tika salauzta tieši tajā pašā vietā.
+(v1 / turn_out.11
+    :ARG2 (v5 / fracture.01
+        :ARG0 (v2 / person
+            :name (vg0 / name
+                :op0 "Heidija"))
+        :ARG1 (v6 / kāja)))
+
+# ::sent_id a-d16-p63s1
+# ::text Tad pie loga pienāca divi pretekļi, mēs mirklī noslēpāmies.
+(v4 / come.01
+    :ARG4 (v3 / logs)
+    :ARG1 (v6 / preteklis))
+
+# ::sent_id a-n486-p34s1
+# ::text 19. Zemkopības ministrijas galvenais koordinators piešķir un anulē sistēmas lietošanas tiesības Zemkopības ministrijas ierēdnim vai darbiniekam, kurš saskaņā ar amata vai darba pienākumiem izstrādā komercdarbības atbalsta paziņojuma projektu vai kopsavilkuma informāciju Komercdarbības atbalsta kontroles likuma 9. panta otrajā daļā definētajās darbības jomās un nozarēs.
+(v6 / give.01
+    :ARG0 (v5 / koordinators
+        :mod (v4 / galvenais)
+        :mod (v2 / organization
+            :name (vg0 / name
+                :op1 "Zemkopības ministrija")
+            :wiki "lv.wikipedia.org/wiki/Latvijas_Republikas_Zemkopības_ministrija"))
+    :ARG1 (v11 / tiesība
+        :mod (v10 / lietošana
+            :mod (v9 / sistēma)))
+    :ARG2 (v14 / ierēdnis
+        :mod (v12 / organization
+            :name (vg1 / name
+                :op1 "Zemkopības ministrija")
+            :wiki "lv.wikipedia.org/wiki/Latvijas_Republikas_Zemkopības_ministrija")))
+
+# ::sent_id a-p3307-p16s3
+# ::text Nešaubos, ka izdzīvosim arī šogad.
+(v1 / doubt.01
+    :ARG1 (v4 / survive.01
+        :time (v6 / "šogad"))
+    :polarity -)
+
+# ::sent_id a-p5288-p5s2
+# ::text Ņemot vērā, ka “SEAT” markas sauklis ir “emociju auto”, arī Ķīpsalā šīs markas oficiālais pārstāvis “Autobrava” eksponēs “SEAT” dinamiskākās modifikācijas, kuras pazīstam ar “FR” un “Cupra” piebildi modeļu nosaukumā.
+(v33 / know.02
+    :ARG1 (v32 / kura))
+
+# ::sent_id a-p3516-p26s7
+# ::text Godīgumam, ar kādu izturējāmies pret darbu, agri vai vēlu vajadzēja dot šādu rezultātu.
+(v5 / treat.01
+    :manner (v4 / kāds)
+    :ARG1 (v7 / darbs))
+
+# ::sent_id a-p6343-p9s1
+# ::text «Pirmā septembra puķu izvēlē ir tradicionāla, pērkam rudens ziedus, gladiolas vai asteres, kuras ikvienam asociējas ar skolu,» nobeidz Agnese.
+(v24 / say.01
+    :ARG1 (v7 / tradicionāls)
+    :ARG0 (v25 / person
+        :name (vg0 / name
+            :op0 "Agnese")))
+
+# ::sent_id a-c15-p10s5
+# ::text No tīra sudraba ir rati, no tīra zelta ir riteņi, bet riteņu spieķi mirdz varā kalti.
+(v16 / shine.01
+    :ARG1 (v15 / spieķis
+        :mod (v14 / ritenis)))
+
+# ::sent_id a-p576-p20s1
+# ::text Airisai ir trīs gadiņi.
+(v2 / have.03
+    :ARG1 (v4 / gadiņš))
+
