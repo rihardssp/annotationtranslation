@@ -1,4 +1,4 @@
-﻿# generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_French
+# generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_French
 
 
 (v3 / last.01
@@ -4969,6 +4969,9 @@
 (v6 / finish.01
     :ARG0 (v2 / Bourse
         :mod (v4 / Paris))
+    :time-of (v16 / meet.03
+        :ARG1 (v18 / niveau
+            :mod (v22 / point)))
     :mod (v8 / fanfare)
     :mod (v9 / jeudi)
     :mod (v13 / %)
@@ -6022,6 +6025,15 @@
     :ARG0 (v16 / Kiarostami)
     :manner (v18 / souvent)
     :ARG1 (v20 / ostensiblement)
+    :time-of (v23 / provide.01
+        :ARG1 (v25 / métaphore
+            :mod (v26 / visuel)
+            :mod (v29 / technique
+                :mod (v30 / spécifique)
+                :mod (v32 / montage)
+                :mod (v35 / poésie
+                    :mod (v36 / persan)
+                    :mod (v38 / classique)))))
     :mod (v4 / adaptation
         :mod (v5 / concret)
         :mod (v8 / texte)

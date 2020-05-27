@@ -148,7 +148,9 @@
 # ::text Usually, these are just a chance for the suckups to suck up, but this time people are actually concerned about the company's plans.
 (v7 / chance.02
     :ARG0 (v12 / suck_up.04
-        :ARG0 (v10 / suckup)))
+        :ARG0 (v10 / suckup))
+    :ARG2-of (v4 / be.01
+        :ARG1 (v3 / these)))
 
 # ::sent_id weblog-blogspot.com_marketview_20050210075500_ENG_20050210_075500-0003
 # ::text They work on Wall Street, after all, so when they hear a company who's stated goals include "Don't be evil," they imagine a company who's eventually history will be "Don't be profitable."
@@ -255,7 +257,16 @@
 
 # ::sent_id weblog-juancole.com_juancole_20041120060600_ENG_20041120_060600-0009
 # ::text Resolving this conflict would be the most effective weapon the United States could deploy in its war on terror."
-(v3 / conflict.01)
+(v3 / conflict.01
+    :ARG1-of (v1 / resolve.01
+        :ARG1-of (v5 / be.01
+            :ARG2 (v9 / weapon
+                :mod (v8 / effective)
+                :ARG1-of (v14 / deploy.01
+                    :ARG0 (v12 / States)
+                    :ARG2 (v17 / war.01
+                        :ARG0 (v16 / its)
+                        :ARG2 (v19 / terror)))))))
 
 # ::newdoc id weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800
 # ::sent_id weblog-juancole.com_juancole_20040324065800_ENG_20040324_065800-0001
@@ -372,7 +383,7 @@
 (v14 / fear.01
     :time (v5 / temporal-quantity
         :unit (vg0 / whisper)
-        :quant first)
+        :quant "first")
     :ARG0 (v12 / investor
         :mod (v11 / most))
     :ARG1 (v19 / come.04
@@ -575,7 +586,7 @@
             :mod (v4 / top))
         :time (v11 / temporal-quantity
             :unit (vg0 / September)
-            :quant 2)))
+            :quant "2")))
 
 # ::sent_id weblog-blogspot.com_aggressivevoicedaily_20060814163400_ENG_20060814_163400-0012
 # ::text This cute little stunt is only going to prove just how fanatic the extremist Muslims are.
@@ -761,7 +772,8 @@
 
 # ::sent_id weblog-juancole.com_juancole_20041111060900_ENG_20041111_060900-0016
 # ::text [Am at a conference and can't blog much right now but will try to catch up the next couple of days.]
-(v5 / confer.01)
+(v5 / confer.01
+    :ARG2-of (v2 / be.01))
 
 # ::newdoc id weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207
 # ::sent_id weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0001
@@ -897,7 +909,15 @@
 # ::text But getting past who should get them, is who has them, and who is really close.
 (v6 / get.01
     :ARG0 (v4 / who
-        :ARG2-of (v2 / get.05))
+        :ARG2-of (v2 / get.05
+            :ARG1-of (v9 / be.01
+                :ARG2 (v10 / who
+                    :ARG0-of (v11 / have.03
+                        :ARG1 (v12 / they))
+                    :ARG1-of (v16 / be.01
+                        :ARG2 (v18 / close.10
+                            :ARG1 v10
+                            :extent (v17 / really)))))))
     :ARG1 (v7 / they))
 
 # ::sent_id weblog-blogspot.com_thelameduck_20041119192207_ENG_20041119_192207-0016
@@ -1054,11 +1074,13 @@
                 :mod (v27 / Tyre)))
         :time (v31 / temporal-quantity
             :unit (vg0 / July)
-            :quant 13)))
+            :quant "13")))
 
 # ::sent_id weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0017
 # ::text The wedding had to be postponed as family members fled the outbreak of the war, she said.
-(v3 / have.02)
+(v3 / have.02
+    :ARG1-of (v18 / say.01
+        :ARG0 (v17 / she)))
 
 # ::sent_id weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0018
 # ::text "We were on the road and the first bridge was bombed and we drove home and all the other bridges were bombed and there was absolutely no way for us to get home," Chahine told reporters outside federal court in Detroit.
@@ -1088,7 +1110,11 @@
 (v5 / way.01
     :ARG0 (v4 / my)
     :ARG1 (v8 / wed.01
-        :ARG1 (v7 / my)))
+        :ARG1 (v7 / my))
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / I
+            :ARG0-of (v9 / fear.01
+                :ARG1 (v10 / die.01)))))
 
 # ::sent_id weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0022
 # ::text Chahine said her immediate family spent about $20,000 to return to Detroit via Syria and Jordan.
@@ -1104,7 +1130,9 @@
 
 # ::sent_id weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0024
 # ::text Here's a tip: Don't get married in countries that house illegal militias that attack other countries and hence are likely to come under counter-attack!
-(v4 / tip.05)
+(v4 / tip.05
+    :ARG1-of (v2 / be.01
+        :ARG2 (v1 / here)))
 
 # ::sent_id weblog-blogspot.com_alaindewitt_20060827093500_ENG_20060827_093500-0025
 # ::text Crap like this sure makes me want to rush right out and rescue people from dilemmas of their own making.
@@ -1339,6 +1367,8 @@
 # ::sent_id weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0037
 # ::text Now that's a rambling response.
 (v6 / respond.01
+    :ARG2-of (v3 / be.01
+        :ARG1 (v2 / that))
     :mod (v5 / rambling))
 
 # ::sent_id weblog-blogspot.com_tacitusproject_20040712123425_ENG_20040712_123425-0038
@@ -1407,7 +1437,7 @@
 (v12 / change.01
     :time (v3 / temporal-quantity
         :unit (vg0 / January)
-        :quant 10)
+        :quant "10")
     :ARG1 (v9 / source
         :mod (v11 / income))
     :ARG3 (v16 / Foundation)
@@ -1463,7 +1493,7 @@
     :ARG1 (v5 / respond.01)
     :time (v7 / temporal-quantity
         :unit (vg0 / January)
-        :quant 25))
+        :quant "25"))
 
 # ::sent_id weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0016
 # ::text Following on the heels of Ben's annoucement yesterday, I thought I'd post that I have joined Google as well.
@@ -1592,14 +1622,14 @@
 (v3 / have.03
     :ARG0 (v1 / they
         :ARG0-of (v6 / take.01
-            :ARG1 (v7 / it))
+            :ARG1 (v7 / it)
+            :ARG2-of (v4 / right.05))
         :ARG0-of (v9 / alter.01
             :ARG1 (v10 / it))
         :ARG0-of (v13 / release.01
             :ARG1 (v15 / change.01)))
     :time (v2 / already)
-    :ARG1 (v4 / right.05
-        :ARG2 v6))
+    :ARG1 v4)
 
 # ::sent_id weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0031
 # ::text I'm inclined to say that google is doing what they can to both shape and support the growth of the most popular non-Microsoft browser out there - by taking on the leading lights in Firefox development, they're ensuring the continued life of the project, and ensuring (not that I think they need to) that their voice will be heard admidst the higher echelons of the firefox development team.
@@ -1650,12 +1680,12 @@
     :ARG2 (v7 / company
         :ARG0-of (v14 / anticipate.01
             :ARG1 (v16 / direction
-                :ARG1-of (v12 / influence.01)
+                :ARG1-of (v12 / influence.01
+                    :ARG1-of (v10 / way.01
+                        :mod (v9 / inexpensive)))
                 :ARG4-of (v22 / go.01
                     :ARG1 (v20 / project)))))
-    :ARG1 (v10 / way.01
-        :ARG1 v12
-        :mod (v9 / inexpensive)))
+    :ARG1 v10)
 
 # ::sent_id weblog-typepad.com_ripples_20050410122300_ENG_20050410_122300-0037
 # ::text It probably gives more bang for the buck than acquiring a private company and having to handle the inevitable culture clashes and process mis-matches.
@@ -1814,7 +1844,7 @@
                     :ARG0-of (v14 / administer.01)))))
     :time (v18 / temporal-quantity
         :unit (vg0 / Sept.)
-        :quant 10)
+        :quant "10")
     :ARG1 (v35 / be.01
         :ARG1 (v26 / motive
             :mod (v25 / ulterior)
@@ -1944,7 +1974,7 @@
 (v12 / arrest.01
     :time (v3 / temporal-quantity
         :unit (vg0 / April)
-        :quant 3)
+        :quant "3")
     :ARG1 (v7 / aide
         :mod (v6 / chief)
         :mod (v9 / Najaf))
@@ -2217,7 +2247,17 @@
 # ::sent_id email-enronsent05_01-0004
 # ::text It is my understanding, from good sources in the Govs office that the Gov will order Loretta Lynch to expeditiously implement the provision to suspend all parties auhtority to enter into direct access contracts.
 (v4 / understand.01
-    :ARG0 (v3 / my))
+    :ARG0 (v3 / my)
+    :ARG2-of (v2 / be.01
+        :ARG1 (v18 / order.01
+            :ARG0 (v16 / Gov)
+            :ARG1 (v19 / Loretta
+                :ARG0-of (v23 / implement.01
+                    :ARG1 (v25 / provide.01
+                        :ARG1 (v27 / suspend.01
+                            :ARG1 (v30 / auhtority))
+                        :ARG0-of v27)))
+            :ARG2 v23)))
 
 # ::sent_id email-enronsent05_01-0005
 # ::text The premise with which the administartion is acting is that if they expeditiously suspend everyone's right to bilateral contracts quickly, it sets up a barrier which the direct access coalition must break through.
@@ -2437,7 +2477,7 @@
                 :mod (v7 / you))
             :time (v12 / temporal-quantity
                 :unit (vg0 / year)
-                :quant five)
+                :quant "five")
             :ARG2 (v16 / Azurix)
             :ARG1-of v2)))
 
@@ -2469,7 +2509,7 @@
             :time (v8 / Tuesday)
             :time (v12 / temporal-quantity
                 :unit (vg0 / 1:30)
-                :quant 2:30))))
+                :quant "2:30"))))
 
 # ::sent_id email-enronsent20_02-0015
 # ::text We will meeting Rod's office EB4054
@@ -2737,7 +2777,7 @@
 (v13 / place.01
     :time (v4 / temporal-quantity
         :unit (vg0 / September)
-        :quant 23)
+        :quant "23")
     :ARG1 (v9 / request.01
         :ARG1 (v11 / serve.01))
     :ARG0 (v18 / counterparty
@@ -2748,7 +2788,9 @@
 (v9 / agree.01
     :ARG0 (v6 / intrastate)
     :ARG1 (v8 / transport.01
-        :ARG1 (v7 / gas)))
+        :ARG1 (v7 / gas))
+    :ARG2-of (v3 / be.01
+        :ARG1 (v2 / request.01)))
 
 # ::sent_id email-enronsent28_03-0005
 # ::text These agreements were forwarded to the counterparty, CCNG, Inc..
@@ -2761,15 +2803,13 @@
 (v24 / call.02
     :time (v4 / temporal-quantity
         :unit (vg0 / October)
-        :quant 6
+        :quant "6"
         :time-of (v26 / inform.01
             :ARG0 (v10 / Cloud)
             :ARG1 (v27 / I)
             :ARG2 (v35 / L.P.
                 :ARG2-of (v32 / be.01
-                    :ARG1 (v30 / counterparty))))
-        :unit (vg1 / October)
-        :quant 6)
+                    :ARG1 (v30 / counterparty)))))
     :ARG0 v10)
 
 # ::sent_id email-enronsent28_03-0007
@@ -2883,7 +2923,10 @@
 # ::sent_id email-enronsent28_03-0026
 # ::text Heather moving in has been a different story.
 (v2 / move.01
-    :ARG1 (v1 / Heather))
+    :ARG1 (v1 / Heather)
+    :ARG1-of (v5 / be.01
+        :ARG2 (v8 / story
+            :mod (v7 / different))))
 
 # ::sent_id email-enronsent28_03-0027
 # ::text I didn't realize how much "stuff" you could pack into a one bedroom apartment.
@@ -3292,7 +3335,9 @@
 # ::sent_id email-enronsent08_01-0020
 # ::text Brokering over here has been pretty rewarding.
 (v1 / broker.01
-    :location (v3 / here))
+    :location (v3 / here)
+    :ARG1-of (v5 / be.01
+        :ARG2 (v7 / rewarding)))
 
 # ::sent_id email-enronsent08_01-0021
 # ::text Traders over here seem to have a lot more respect for other humans.
@@ -3326,7 +3371,9 @@
 
 # ::sent_id email-enronsent08_01-0028
 # ::text For me it isn't about fulfillment or finding my life's purpose in my work.
-(v7 / fulfill.01)
+(v7 / fulfill.01
+    :ARG2-of (v4 / be.01
+        :ARG1 (v3 / it)))
 
 # ::sent_id email-enronsent08_01-0029
 # ::text It's all about the $$$.
@@ -3388,6 +3435,10 @@
 # ::text This transmittal and/or attachments may be a confidential attorney-client communication or may otherwise be privileged or confidential.
 (v14 / communicate.01
     :ARG0 (v13 / client)
+    :ARG2-of (v8 / be.01
+        :ARG1 (v2 / transmittal
+            :ARG1-of (v18 / be.01
+                :ARG2 (v19 / privileged))))
     :mod (v10 / confidential))
 
 # ::sent_id email-enronsent08_01-0043
@@ -3437,7 +3488,13 @@
 # ::newdoc id email-enronsent30_02
 # ::sent_id email-enronsent30_02-0001
 # ::text You have always been on the move seeking affectionate, satisfying and harmonious relationships.
-(v7 / move.01)
+(v7 / move.01
+    :ARG2-of (v4 / be.01
+        :ARG1 (v1 / you
+            :ARG0-of (v8 / seek.01
+                :ARG1 (v14 / relation.03
+                    :mod (v9 / affectionate))))
+        :time (v3 / always)))
 
 # ::sent_id email-enronsent30_02-0002
 # ::text Your ultimate goal has been the realisation of an intimate union in which there could be love, self-sacrifice and mutual trust.
@@ -3445,7 +3502,10 @@
     :ARG1 (v11 / union.02
         :mod (v10 / intimate)
         :location-of (v16 / be.02
-            :ARG1 (v17 / love.01))))
+            :ARG1 (v17 / love.01)))
+    :ARG2-of (v5 / be.01
+        :ARG1 (v3 / goal
+            :mod (v2 / ultimate))))
 
 # ::sent_id email-enronsent30_02-0003
 # ::text It has often been said that "True love is just around the corner"...and maybe... if you haven't found it as yet - you possibly soon will.
@@ -3619,7 +3679,11 @@
 
 # ::sent_id email-enronsent30_02-0028
 # ::text I was on vacation from October 4th to October 19th and I didn't submit my timesheet yet.
-(v4 / vacation.01)
+(v4 / vacation.01
+    :ARG2-of (v2 / be.01
+        :time (v6 / October)
+        :time (v9 / October)
+        :ARG1 (v1 / I)))
 
 # ::sent_id email-enronsent30_02-0029
 # ::text I tried to do it on the HRonline web-site, but the procedure is too complicated.
@@ -3635,7 +3699,9 @@
 (v3 / possible.01
     :ARG1 (v13 / mark.02
         :ARG0 (v5 / you)
-        :ARG1 (v16 / time)))
+        :ARG1 (v16 / time))
+    :ARG2-of (v1 / be.01
+        :ARG1 (v2 / it)))
 
 # ::sent_id email-enronsent30_02-0031
 # ::text I would really appreciate that.
@@ -3749,7 +3815,9 @@
     :ARG1 (v7 / review.01
         :ARG1 (v10 / provide.01
             :ARG0 (v8 / you)
-            :mod (v9 / special))))
+            :mod (v9 / special)))
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / I)))
 
 # ::sent_id email-enronsent29_01-0022
 # ::text Best regards,
@@ -4001,7 +4069,7 @@
         :time (v6 / hourly))
     :time (v10 / temporal-quantity
         :unit (vg0 / December)
-        :quant 13))
+        :quant "13"))
 
 # ::sent_id email-enronsent19_02-0010
 # ::text However, the result from Ordinary Least Squares was not as expected due to different sign for both slope & intercept.
@@ -4062,6 +4130,8 @@
 # ::sent_id email-enronsent19_02-0026
 # ::text This is the best solution given all the uncertainties we face.
 (v5 / solve.01
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / this))
     :mod (v4 / best))
 
 # ::sent_id email-enronsent19_02-0029
@@ -4079,7 +4149,13 @@
         :ARG1 (v15 / need.01
             :ARG0 (v12 / we)
             :ARG1 (v14 / hire
-                :mod (v13 / new)))))
+                :mod (v13 / new))))
+    :ARG2-of (v5 / be.01
+        :time (v2 / now
+            :time-of (v25 / decide.01
+                :ARG0 (v4 / we)
+                :time (v28 / first)))
+        :ARG1 v4))
 
 # ::sent_id email-enronsent19_02-0031
 # ::text Until we have come up with those numbers it would be premature to make any offers for the summer.
@@ -4232,6 +4308,8 @@
                     :ARG0 (v15 / I)
                     :location (v20 / field))))
         :ARG1 v13)
+    :ARG2-of (v4 / be.01
+        :ARG1 (v3 / it))
     :mod (v6 / good))
 
 # ::sent_id email-enronsent19_02-0054
@@ -4262,7 +4340,9 @@
 # ::text I would like to have a meeting to go over the payment methodology.
 (v3 / like.02
     :ARG0 (v1 / I
-        :ARG0-of (v7 / meet.03))
+        :ARG0-of (v7 / meet.03
+            :location-of (v9 / go_over.26
+                :ARG1 (v13 / methodology))))
     :ARG1 (v5 / have.LV))
 
 # ::sent_id email-enronsent00_02-0003
@@ -4361,7 +4441,9 @@
         :ARG1 (v13 / serve.01
             :ARG1 (v12 / recordkeeping))
         :ARG3 (v15 / NTRC)
-        :ARG2 (v17 / Hewitt)))
+        :ARG2 (v17 / Hewitt))
+    :ARG2-of (v6 / be.01
+        :ARG1 (v5 / we)))
 
 # ::sent_id email-enronsent00_02-0016
 # ::text As such, we have a CPA, Larry Lewis, working with us to audit and set up transition files.
@@ -4452,7 +4534,7 @@
                 :mod (v27 / common))
             :time (v31 / temporal-quantity
                 :unit (vg0 / January)
-                :quant 1)
+                :quant "1")
             :mod (v22 / close))))
 
 # ::sent_id email-enronsent00_02-0028
@@ -4508,7 +4590,9 @@
     :ARG1 (v10 / remove.01
         :ARG1 (v7 / rock
             :ARG1-of (v12 / replace.01
-                :ARG2 (v14 / siding)))))
+                :ARG2 (v14 / siding))))
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / it)))
 
 # ::sent_id email-enronsent00_02-0035
 # ::text If they are getting quotes to put up new rock then we will need to clarify.
@@ -4818,7 +4902,9 @@
 # ::sent_id newsgroup-groups.google.com_alt.animals_1054ad831ec01b4c_ENG_20031204_144900-0001
 # ::text The end of the year is a time for compiling statistics - and according to the World Conservation Union (IUCN), the year 2003 has been bad news for plants and non-human animals, with many species now closer to extinction than ever before.
 (v2 / end.01
-    :ARG1 (v5 / year))
+    :ARG1 (v5 / year)
+    :ARG1-of (v6 / be.01
+        :ARG2 (v8 / time)))
 
 # ::newdoc id newsgroup-groups.google.com_AgeingMonkeys_37131d1864a0b950_ENG_20051114_080100
 # ::sent_id newsgroup-groups.google.com_AgeingMonkeys_37131d1864a0b950_ENG_20051114_080100-0001
@@ -5104,7 +5190,7 @@
     :ARG1 (v7 / astronaut')
     :time (v15 / temporal-quantity
         :unit (vg0 / year)
-        :quant five))
+        :quant "five"))
 
 # ::sent_id newsgroup-groups.google.com_hiddennook_0bfb82789af9c3c5_ENG_20050309_232400-0007
 # ::text Posted by Hidden Nook to Hidden Nook at 3/9/2005 11:16:00 PM
@@ -5113,7 +5199,7 @@
     :ARG2 (v7 / Nook)
     :time (v11 / temporal-quantity
         :unit (vg0 / pm)
-        :quant 3/9/2005))
+        :quant "3/9/2005"))
 
 # ::sent_id newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0002
 # ::text The multiple planetary afflictions are taking their toll.
@@ -5135,6 +5221,11 @@
 (v31 / afflict.01
     :ARG0 (v34 / Rahu
         :mod (v33 / transit))
+    :ARG2-of (v26 / be.01
+        :location (v4 / chart
+            :mod (v3 / national))
+        :ARG1 (v23 / Saturn
+            :mod (v22 / natal)))
     :mod (v30 / close))
 
 # ::sent_id newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0005
@@ -5152,7 +5243,17 @@
 # ::sent_id newsgroup-groups.google.com_JyotishRemedies_7596b7f4aa16afa6_ENG_20050713_030900-0006
 # ::text In Indian national chart besides the transit affliction to transit Mercury by Rahu and Venus the natal Saturn and Venus are also under the transit affliction of Rahu which has resulted into floods in many parts of the country taking toll of human lives, properties, etc.
 (v26 / afflict.01
-    :ARG0 (v28 / Rahu))
+    :ARG0 (v28 / Rahu)
+    :ARG2-of (v21 / be.01
+        :location (v4 / chart
+            :mod (v2 / indian)
+            :mod (v3 / national))
+        :ARG1 (v18 / Saturn
+            :mod (v17 / natal))))
+
+# ::sent_id newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0003
+# ::text - U P D A T E D -
+(v8 / update.01)
 
 # ::sent_id newsgroup-groups.google.com_alt.animals.cat_0382388c4d68ddf5_ENG_20031019_125000-0004
 # ::text -Page 71, 72 and 73 with 48 new pictures of cats and kittens are added to The Cat Album today.
@@ -5247,19 +5348,15 @@
 (v12 / young.01
     :time (v2 / temporal-quantity
         :unit (vg0 / time)
-        :quant first
+        :quant "first"
         :time-of (v4 / start.01
             :ARG0 (v3 / I
                 :ARG0-of (v5 / wear.01
                     :ARG1 (v8 / lingerie)
                     :ARG1-of v4)))
-        :unit (vg1 / time)
-        :quant first
         :time-of (v10 / be.01
             :ARG1 (v9 / I)
-            :ARG2 v12)
-        :unit (vg2 / time)
-        :quant first)
+            :ARG2 v12))
     :ARG1 v9
     :extent (v11 / very))
 
@@ -5424,7 +5521,12 @@
 
 # ::sent_id newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800-0003
 # ::text The test itself is what is called a substitution test.
-(v2 / test.01)
+(v2 / test.01
+    :ARG1-of (v4 / be.01
+        :ARG2 (v5 / what
+            :ARG1-of (v7 / call.01
+                :ARG2 (v10 / test.01
+                    :ARG2 (v9 / substitution))))))
 
 # ::sent_id newsgroup-groups.google.com_homeopathyclinic_46a87f7e5ce279d5_ENG_20051107_133800-0004
 # ::text It has two parts, both of which are timed for 90 seconds each and the differential between the resulting two scores determines the likelihood of having a learning disability or attention deficit disorder.
@@ -5509,7 +5611,10 @@
 # ::sent_id newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0004
 # ::text badger baiting is natrually a huge turn on, so i thought a few words in this group might uncover some mutual enthusiasts.
 (v2 / bait.02
-    :ARG1 (v1 / badger))
+    :ARG1 (v1 / badger)
+    :ARG1-of (v3 / be.01
+        :ARG2 (v8 / on
+            :mod (v6 / huge))))
 
 # ::sent_id newsgroup-groups.google.com_alt.animals.badgers_2044a3376e5a87a5_ENG_20040529_135300-0005
 # ::text sincere appologies to anyone who is offended by my request but my request is genuine.
@@ -5574,7 +5679,7 @@
         :ARG0-of (v24 / work.01
             :time (v27 / temporal-quantity
                 :unit (vg0 / year)
-                :quant 20)
+                :quant "20")
             :ARG2 (v30 / Press)
             :ARG1 (v34 / writer)))
     :ARG2 (v4 / author
@@ -5951,7 +6056,10 @@
 # ::sent_id newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0007
 # ::text Outsourcing these responsibilities would be a wise alternative, considering the accomplishments of the private sector regarding the space elevator .
 (v1 / outsource.01
-    :ARG1 (v3 / responsibility))
+    :ARG1 (v3 / responsibility)
+    :ARG1-of (v5 / be.01
+        :ARG2 (v8 / alternative
+            :mod (v7 / wise))))
 
 # ::sent_id newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0008
 # ::text Although some may praise this as an opportunity for the private sector to finally serve the public good, NASA seems hesitant about turning over the reigns to the corporate world.
@@ -5969,7 +6077,7 @@
 (v9 / tell.01
     :time (v3 / temporal-quantity
         :unit (vg0 / November)
-        :quant 3)
+        :quant "3")
     :ARG0 (v7 / Michael)
     :ARG2 (v14 / committee)
     :ARG1 (v18 / expect.01
@@ -5980,7 +6088,7 @@
                     :mod (v27 / commercial))
                 :time (v34 / temporal-quantity
                     :unit (vg1 / year)
-                    :quant five)))
+                    :quant "five")))
         :ARG1 v20))
 
 # ::sent_id newsgroup-groups.google.com_hiddennook_edef226e24a57863_ENG_20051116_085200-0011
@@ -6067,7 +6175,7 @@
         :mod (v2 / palestinian))
     :time (v26 / temporal-quantity
         :unit (vg0 / speech)
-        :quant first
+        :quant "first"
         :ARG0 (v22 / he)
         :time (v23 / first)
         :ARG1 (v25 / campaign)
@@ -6348,7 +6456,7 @@
     :ARG2 (v7 / Nook)
     :time (v11 / temporal-quantity
         :unit (vg0 / pm)
-        :quant 9/26/2005))
+        :quant "9/26/2005"))
 
 # ::newdoc id answers-20090605110350AA2V8bW_ans
 # ::sent_id answers-20090605110350AA2V8bW_ans-0001
@@ -6632,7 +6740,7 @@
     :ARG1 (v1 / it)
     :time (v8 / temporal-quantity
         :unit (vg0 / May)
-        :quant 26))
+        :quant "26"))
 
 # ::sent_id answers-20090705172848AAU56mj_ans-0006
 # ::text Miramar was founded September 20 1888.
@@ -6640,7 +6748,7 @@
     :ARG1 (v1 / Miramar)
     :time (v4 / temporal-quantity
         :unit (vg0 / September)
-        :quant 20))
+        :quant "20"))
 
 # ::newdoc id answers-20111108033619AAb3VQ4_ans
 # ::sent_id answers-20111108033619AAb3VQ4_ans-0001
@@ -6689,7 +6797,7 @@
 (v7 / party.01
     :time (v3 / temporal-quantity
         :unit (vg0 / turn)
-        :quant 21
+        :quant "21"
         :time (v1 / when)
         :ARG1 (v2 / you)
         :ARG2 (v4 / 21))
@@ -7406,7 +7514,10 @@
 # ::text It's my two year anniversary in a few days and was wondering if somone could tell me about a great restaurant in sf or other nearby cities
 (v6 / anniversary.01
     :ARG0 (v3 / my)
-    :ARG2 (v5 / year))
+    :ARG2 (v5 / year)
+    :ARG2-of (v2 / be.01
+        :time (v10 / day)
+        :ARG1 (v1 / it)))
 
 # ::sent_id answers-20111107080027AA9zCIG_ans-0003
 # ::text I like Hayes Street Grill....another plus, it's right by Civic Center, so you can take a romantic walk around the Opera House, City Hall, Symphony Auditorium...all very beautiful.
@@ -7471,7 +7582,9 @@
 # ::sent_id answers-20111106032810AA43zpY_ans-0007
 # ::text Yes, it would be an execution punishment.
 (v8 / punish.01
-    :ARG3 (v7 / execution))
+    :ARG3 (v7 / execution)
+    :ARG2-of (v5 / be.01
+        :ARG1 (v3 / it)))
 
 # ::newdoc id answers-20111106213308AA5Nh2g_ans
 # ::sent_id answers-20111106213308AA5Nh2g_ans-0001
@@ -7811,10 +7924,12 @@
 # ::sent_id answers-20111108104636AAw51HV_ans-0006
 # ::text People are open minded thr since the place is frequented by Firangs.
 (v2 / be.01
-    :ARG1 (v1 / people)
+    :ARG1 (v1 / people
+        :ARG1-of (v3 / openminded.01
+            :location (v5 / thr)))
     :ARG2 (v4 / minded
-        :mod (v3 / open))
-    :location (v5 / thr))
+        :mod v3)
+    :location v5)
 
 # ::newdoc id answers-20111108102531AAqeDhx_ans
 # ::sent_id answers-20111108102531AAqeDhx_ans-0001
@@ -8059,7 +8174,7 @@
             :ARG1 (v9 / california)
             :time (v11 / temporal-quantity
                 :unit (vg0 / week)
-                :quant one)))
+                :quant "one")))
     :ARG2 (v4 / mexico))
 
 # ::sent_id answers-20111108110008AA7xHnL_ans-0003
@@ -8121,7 +8236,7 @@
     :ARG3 (v5 / Fiji)
     :time (v8 / temporal-quantity
         :unit (vg0 / night)
-        :quant four))
+        :quant "four"))
 
 # ::sent_id answers-20111107203006AA9ojw8_ans-0004
 # ::text 1) what islad of Fiji is a good island that is not TOO far from the main airpart in Fiji.
@@ -8315,7 +8430,7 @@
     :location (v6 / anywhere)
     :time (v9 / temporal-quantity
         :unit (vg0 / 7)
-        :quant 24)
+        :quant "24")
     :location (v15 / gb))
 
 # ::sent_id answers-20111108081748AAkQhGe_ans-0002
@@ -8646,6 +8761,8 @@
 # ::sent_id answers-20111107155302AAXXuM1_ans-0011
 # ::text It's an amazing experience!
 (v5 / experience.01
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / it))
     :mod (v4 / amazing))
 
 # ::newdoc id answers-20111107201700AAKdymq_ans
@@ -8653,7 +8770,9 @@
 # ::text Is it better to book a cruise online or by a travel agent?
 (v3 / good.02
     :ARG1 (v5 / book.03
-        :ARG1 (v7 / cruise)))
+        :ARG1 (v7 / cruise))
+    :ARG2-of (v1 / be.01
+        :ARG1 (v2 / it)))
 
 # ::sent_id answers-20111107201700AAKdymq_ans-0002
 # ::text First time to go on A cruise any and all info is appreciated
@@ -8688,11 +8807,9 @@
 (v14 / get.01
     :time (v3 / temporal-quantity
         :unit (vg0 / time)
-        :quant one
+        :quant "one"
         :time-of (v6 / book.03
-            :ARG0 (v4 / I))
-        :unit (vg1 / time)
-        :quant one)
+            :ARG0 (v4 / I)))
     :ARG0 (v11 / I)
     :ARG1 (v15 / all
         :mod (v18 / amenity)))
@@ -8930,6 +9047,9 @@
 # ::sent_id answers-20111108071348AAWu2FU_ans-0004
 # ::text Its still a fairly new relationship and we havent had sex yet so its kind of a big deal.
 (v7 / relation.03
+    :ARG2-of (v2 / be.01
+        :ARG1 (v1 / it)
+        :time (v3 / still))
     :mod (v6 / new))
 
 # ::sent_id answers-20111108071348AAWu2FU_ans-0005
@@ -9193,6 +9313,8 @@
 # ::sent_id reviews-076440-0001
 # ::text really amazing the new and exciting plays done at this theatre !
 (v7 / play.12
+    :ARG1-of (v8 / do.02
+        :location (v11 / theatre))
     :mod (v4 / new))
 
 # ::sent_id reviews-365688-0002
@@ -10275,10 +10397,10 @@
     :ARG0 v6
     :time (v10 / temporal-quantity
         :unit (vg0 / pm)
-        :quant 7)
+        :quant "7")
     :time (v13 / temporal-quantity
         :unit (vg1 / am)
-        :quant 4))
+        :quant "4"))
 
 # ::sent_id reviews-202402-0003
 # ::text That's what I call customer service!
@@ -10410,7 +10532,7 @@
                 :mod (v8 / full))
             :time (v13 / temporal-quantity
                 :unit (vg0 / month)
-                :quant 9)))
+                :quant "9")))
     :ARG2 v6)
 
 # ::sent_id reviews-306740-0003
@@ -10487,6 +10609,10 @@
 # ::text moving with a pod was the best moving experience i have had.
 (v9 / experience.01
     :ARG1 (v8 / moving)
+    :ARG2-of (v5 / be.01
+        :ARG1 (v1 / move.01))
+    :ARG1-of (v12 / have.03
+        :ARG0 (v10 / i))
     :mod (v7 / best))
 
 # ::sent_id reviews-188461-0002
@@ -10527,7 +10653,7 @@
     :ARG1 (v10 / teeth)
     :time (v15 / temporal-quantity
         :unit (vg0 / year)
-        :quant seven))
+        :quant "seven"))
 
 # ::sent_id reviews-067423-0003
 # ::text I wouldn't go to anyone else.
@@ -10552,7 +10678,7 @@
     :location (v6 / here)
     :time (v8 / temporal-quantity
         :unit (vg0 / December)
-        :quant 2009))
+        :quant "2009"))
 
 # ::sent_id reviews-016861-0002
 # ::text WOW what stunning views.
@@ -10816,6 +10942,8 @@
 # ::sent_id reviews-009775-0003
 # ::text Salad bar is hit and miss for freshness - sometimes the broccoli looks browned around the edges.
 (v4 / hit.01
+    :ARG2-of (v3 / be.01
+        :ARG1 (v2 / bar))
     :mod (v8 / freshness))
 
 # ::sent_id reviews-009775-0005
@@ -11006,7 +11134,7 @@
 (v13 / go.01
     :time (v3 / temporal-quantity
         :unit (vg0 / meeting)
-        :quant first
+        :quant "first"
         :time (v2 / first)
         :ARG0 (v5 / they))
     :time (v7 / launch
@@ -11385,12 +11513,10 @@
 (v14 / know.01
     :time (v3 / temporal-quantity
         :unit (vg0 / time)
-        :quant first
+        :quant "first"
         :time-of (v5 / walk.01
             :ARG0 (v4 / I)
-            :ARG2 (v7 / there))
-        :unit (vg1 / time)
-        :quant first)
+            :ARG2 (v7 / there)))
     :ARG0 (v13 / I)
     :ARG1 (v18 / here
         :ARG2-of (v17 / be.01
@@ -11602,7 +11728,9 @@
 # ::sent_id reviews-140164-0003
 # ::text Their selection is top notch and the staff is very knowledgable.
 (v2 / select.01
-    :ARG0 (v1 / they))
+    :ARG0 (v1 / they)
+    :ARG1-of (v3 / be.01
+        :ARG2 (v5 / notch)))
 
 # ::sent_id reviews-140164-0004
 # ::text Go to the Looking Glass for all your smoking needs!!!!!!!!!!
@@ -11856,7 +11984,7 @@
     :time (v3 / over)
     :time (v6 / temporal-quantity
         :unit (vg0 / time)
-        :quant 5))
+        :quant "5"))
 
 # ::sent_id reviews-210019-0003
 # ::text We have never had a problem with the cabins.
@@ -11996,7 +12124,9 @@
 
 # ::sent_id reviews-313558-0005
 # ::text The team focus is prevention and education.
-(v5 / prevent.01)
+(v5 / prevent.01
+    :ARG2-of (v4 / be.01
+        :ARG1 (v3 / focus)))
 
 # ::sent_id reviews-313558-0006
 # ::text That alone makes them unique.

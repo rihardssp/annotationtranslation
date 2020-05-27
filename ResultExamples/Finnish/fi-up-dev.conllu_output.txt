@@ -212,7 +212,7 @@
 (v3 / feel.01
     :time (v2 / temporal-quantity
         :unit (vg0 / aika)
-        :quant yksi)
+        :quant "yksi")
     :ARG1 (v4 / do.02))
 
 (v1 / get.01
@@ -274,6 +274,12 @@
 
 (v3 / clean_up.02
     :time (v5 / kunnolla)
+    :time-of (v11 / be.01
+        :time (v12 / hieman)
+        :ARG2 (v13 / helppo)
+        :ARG1 (v14 / keep.02
+            :ARG1 (v9 / asunto)
+            :ARG2 (v15 / puhdas)))
     :mod (v6 / kamera#ryhmä))
 
 (v1 / be.01
@@ -380,7 +386,7 @@
         :mod (v1 / lopullinen))
     :time (v8 / temporal-quantity
         :unit (vg0 / euro)
-        :quant 150)
+        :quant "150")
     :cause (v12 / miss.01
         :manner (v11 / proto#tyyppi)
         :time (v13 / vielä)
@@ -1030,7 +1036,7 @@
         :ARG2 (v7 / metsä)
         :time (v11 / temporal-quantity
             :unit (vg0 / päivä)
-            :quant yksi)))
+            :quant "yksi")))
 
 (v1 / command.02
     :ARG1 (v3 / collect.01
@@ -1232,7 +1238,7 @@
 (v5 / celebrate.02
     :time (v3 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant kymmenen)
+        :quant "kymmenen")
     :ARG1 (v6 / kuusikymppinen))
 
 (v4 / be.01
@@ -1407,7 +1413,7 @@
     :ARG2 (v2 / hän)
     :time (v4 / temporal-quantity
         :unit (vg0 / tunti)
-        :quant kaksi))
+        :quant "kaksi"))
 
 (v4 / be.01
     :ARG2 (v2 / kiltti)
@@ -1432,7 +1438,7 @@
     :location (v4 / Ruotsi)
     :time (v9 / temporal-quantity
         :unit (vg0 / kuu#kausi)
-        :quant neljä)
+        :quant "neljä")
     :time (v13 / myöntää
         :ARG2 (v12 / hän)
         :ARG1 (v14 / kansalaisuus)))
@@ -1721,7 +1727,10 @@
 
 (v8 / dare.01)
 
-(v1 / happen.01)
+(v1 / happen.01
+    :ARG0-of (v2 / pick_up.04
+        :time (v7 / laukku)
+        :ARG1 (v8 / täyte#keksi#paketti)))
 
 (v1 / be.01
     :ARG1 (v3 / Lipponen)
@@ -1833,12 +1842,12 @@
 (v5 / come.01
     :time (v2 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1992)
+        :quant "1992")
     :ARG1 (v4 / pakolainen)
     :ARG4 (v6 / Suomi)
     :time (v9 / temporal-quantity
         :unit (vg1 / 000)
-        :quant 3))
+        :quant "3"))
 
 (v2 / show.01
     :time (v1 / sieltä)
@@ -1963,7 +1972,7 @@
     :ARG1 (v5 / klassikko)
     :time (v7 / temporal-quantity
         :unit (vg0 / kerta)
-        :quant ensimmäinen)
+        :quant "ensimmäinen")
     :time (v9 / vuosi))
 
 (v1 / hang_up.03
@@ -2060,7 +2069,7 @@
 (v5 / confirm.01
     :time (v2 / temporal-quantity
         :unit (vg0 / artikla)
-        :quant 1)
+        :quant "1")
     :ARG2 (v4 / direktiivi)
     :ARG1 (v6 / sääntö
         :ARG0-of (v9 / follow.02
@@ -2132,7 +2141,7 @@
         :ARG1-of (v13 / adjust.01
             :time (v12 / temporal-quantity
                 :unit (vg0 / artikla)
-                :quant 7))))
+                :quant "7"))))
 
 (v5 / grant.01
     :time (v1 / 1.)
@@ -2688,7 +2697,7 @@
         :ARG1-of (v5 / accept.01
             :time (v3 / temporal-quantity
                 :unit (vg0 / vuosi)
-                :quant 2009)))
+                :quant "2009")))
     :ARG1 (v10 / hyväksyntä
         :mod (v14 / hoito#työ
             :mod (v13 / psykiatrinen))))
@@ -2700,7 +2709,7 @@
             :ARG1 (v11 / joka)
             :time (v15 / temporal-quantity
                 :unit (vg0 / vuosi)
-                :quant 2004-2007))))
+                :quant "2004-2007"))))
 
 (v3 / work.01
     :location (v2 / ohjaaja)
@@ -2755,7 +2764,7 @@
     :ARG0 (v1 / Ballard)
     :time (v3 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1967–1969)
+        :quant "1967–1969")
     :location (v6 / tilanne#komedia))
 
 (v2 / know.01
@@ -2775,7 +2784,7 @@
     :ARG0 (v1 / hän)
     :time (v4 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1970)
+        :quant "1970")
     :location (v6 / Rancho
         :mod (v10 / Coachella
             :mod (v12 / asunto))))
@@ -2832,14 +2841,14 @@
     :ARG2 (v1 / Blake)
     :time (v3 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1994)
+        :quant "1994")
     :ARG1 (v8 / arvo#nimi))
 
 (v2 / be.01
     :ARG1 (v1 / hän)
     :time (v3 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1981)
+        :quant "1981")
     :ARG2 (v8 / ehto
         :mod (v10 / saaja)
         :mod (v11 / musiikki
@@ -2866,7 +2875,7 @@
     :time (v6 / Ranska)
     :time (v11 / temporal-quantity
         :unit (vg0 / heinä#kuu)
-        :quant 12.))
+        :quant "12."))
 
 (v4 / participate.01
     :ARG1 (v6 / kerta
@@ -2938,7 +2947,7 @@
     :time (v5 / rangaistus#potku#kilpailu)
     :time (v8 / temporal-quantity
         :unit (vg0 / päättyä)
-        :quant 2–2
+        :quant "2–2"
         :ARG1 (v7 / ottelu)
         :time (v9 / 2–2)))
 
@@ -2978,7 +2987,7 @@
 (v4 / pour.01
     :time (v2 / temporal-quantity
         :unit (vg0 / väli#erä)
-        :quant toinen)
+        :quant "toinen")
     :ARG0 (v3 / Brasilia)
     :ARG1 (v5 / Alankomaat)
     :time (v6 / rangaistus#potku#kilpailu))
@@ -3018,7 +3027,7 @@
     :ARG0 (v1 / Zinédine)
     :time (v5 / temporal-quantity
         :unit (vg0 / puoli#aika)
-        :quant ensimmäinen)
+        :quant "ensimmäinen")
     :ARG1 (v7 / pusku#maali)
     :ARG2 (v8 / kulma#potku#tilanne))
 
@@ -3064,7 +3073,7 @@
 (v4 / give.01
     :time (v1 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 1946)
+        :quant "1946")
     :ARG0 (v3 / sairaala)
     :ARG1 (v6 / tila
         :mod (v5 / nykyinen)))
@@ -3246,7 +3255,7 @@
 (v4 / be.01
     :time (v1 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 2001)
+        :quant "2001")
     :ARG2 (v3 / siellä)
     :ARG1 (v8 / asukas))
 
@@ -3378,7 +3387,7 @@
     :ARG1 (v3 / paavi)
     :time (v7 / temporal-quantity
         :unit (vg0 / paavi)
-        :quant ensimmäinen))
+        :quant "ensimmäinen"))
 
 (v2 / start.01
     :location (v1 / Puola)
@@ -3407,7 +3416,7 @@
     :ARG1 (v3 / Do)
     :time (v9 / temporal-quantity
         :unit (vg0 / kerta)
-        :quant ensimmäinen)
+        :quant "ensimmäinen")
     :manner (v10 / live)
     :ARG2 (v17 / touko#kuu)
     :mod (v15 / tv#ohjelma))
@@ -3454,7 +3463,7 @@
             :time (v23 / nyt)
             :time (v25 / temporal-quantity
                 :unit (vg0 / viikko)
-                :quant kuusi))))
+                :quant "kuusi"))))
 
 (v2 / be.01
     :ARG1 (v1 / kyse))
@@ -3476,7 +3485,7 @@
     :location (v10 / väki#valta)
     :time (v11 / temporal-quantity
         :unit (vg0 / heinä#kuu)
-        :quant 2009))
+        :quant "2009"))
 
 (v9 / arrange.01
     :time (v1 / Helsinki)
@@ -3563,7 +3572,7 @@
     :ARG1 (v4 / sarja)
     :time (v5 / temporal-quantity
         :unit (vg0 / vuosi)
-        :quant 2002))
+        :quant "2002"))
 
 (v6 / be.01
     :ARG1 (v4 / budjetti

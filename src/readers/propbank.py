@@ -1,3 +1,4 @@
+import logging
 import typing
 from abc import ABC, abstractmethod
 from io import StringIO
@@ -5,6 +6,7 @@ from io import StringIO
 from conllu import parse_incr, string_to_file
 from conllu.parser import DEFAULT_FIELDS, DEFAULT_FIELD_PARSERS
 
+from src.configuration import config_reader
 from src.readers.base import parse_string
 from src.sentences.propbank import IPropBankSentence, PropBankTokenSentence, PropBankMergedTokenSentence
 from src.words.propbank import PropBankTokenWord
@@ -72,12 +74,12 @@ class PropBankContentAnnotationReader(PropBankFileAnnotationReader, IPropBankAnn
         return self._get_sentence_list(string_to_file(self._content))
 
 
-class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
-    """"Implements PropBank reading from file.
-    Assumes multiple sentences can have the same sent_id and joins them"""
+class PropBankMergedContentFormatAnnotationReader(IPropBankAnnotationReaderBase):
+    """"Implements PropBank reading from content. Merged format - each entry can have different format"""
 
     def __init__(self, content: str, additional_field: bool = False):
         self._content = content
+        self.__logger = logging.getLogger(config_reader.get_logger_name("PropBankMergedContentFormatAnnotationReader"))
 
         # Custom format for Conllu to parse
         self.DEFAULT_FIELD_PARSERS = DEFAULT_FIELD_PARSERS.copy()
@@ -87,7 +89,7 @@ class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
 
         # If there's an additional field before misc
         if additional_field:
-            self.FIELDS += ("ignore")
+            self.FIELDS += ("ignore",)
             self.DEFAULT_FIELD_PARSERS['ignore'] = lambda line, i: None
 
         self.FIELDS += ("misc",)
@@ -95,13 +97,13 @@ class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
     def read(self) -> typing.List[IPropBankSentence]:
         sentence_list: typing.List[PropBankTokenSentence] = []
 
-        # split the entries of files because we need to treat each row separately
+        # split the entries because we need to treat them separately
         for entry in self._content.split('\n\n'):
             if entry != "":
                 argument_count = -1
 
+                # Get row format and adjust parser on first row
                 for row in entry.split('\n'):
-
                     if row != "" and row[0] != '#':
                         argument_count = len(row.split('\t')) - len(self.FIELDS)
                         entry_argument_fields = list()
@@ -118,9 +120,30 @@ class PropBankMergedFormatAnnotationReader(IPropBankAnnotationReaderBase):
                         self.DEFAULT_FIELDS = self.FIELDS + tuple(entry_argument_fields)
                         break
 
+            # Actual parsing
             if argument_count > 0:
                 entry_io = string_to_file(entry)
-                sentence_list += list(PropBankMergedTokenSentence(x, argument_count) for x in
-                                      parse_incr(entry_io, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS))
+                token_lists = list(x for x in parse_incr(entry_io, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS))
+
+                for token_list in token_lists:
+                    try:
+                        sentence_list.append(PropBankMergedTokenSentence(token_list, argument_count))
+                    except Exception as ex:
+                        self.__logger.debug(
+                            f"Sentence '{token_list}' failed to initialize. Exception: '{ex}'")
 
         return sentence_list
+
+
+class PropBankMergedFileFormatAnnotationReader(PropBankMergedContentFormatAnnotationReader,
+                                               IPropBankAnnotationReaderBase):
+    def __init__(self, file_path: str, additional_field: bool = False):
+        data_file = open(file_path, "r", encoding="utf-8")
+        try:
+            content = data_file.read()
+        finally:
+            if data_file is not None:
+                data_file.close()
+
+        super().__init__(content, additional_field)
+        pass

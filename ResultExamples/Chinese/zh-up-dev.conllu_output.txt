@@ -1,4 +1,4 @@
-﻿# generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_Chinese
+# generated from https://github.com/System-T/UniversalPropositions/tree/master/UP_Chinese
 
 
 (v29 / look.01
@@ -123,7 +123,8 @@
         :ARG1-of (v2 / be.01
             :ARG2 (v3 / be.03)
             :time-of v16))
-    :ARG2 (v19 / 系列))
+    :ARG2 (v19 / 系列)
+    :ARG1-of (v17 / be.01))
 
 (v17 / have.03
     :ARG0 (v13 / 此)
@@ -213,7 +214,9 @@
         :mod (v4 / 北京)
         :mod (v5 / 大学)
         :mod (v7 / 部)
-        :mod (v9 / 楼)))
+        :mod (v9 / 楼))
+    :ARG1-of (v3 / be.01
+        :ARG2 v4))
 
 (v17 / demand.01
     :time (v6 / 日)
@@ -321,6 +324,7 @@
     :ARG2 (v14 / 狂气)
     :ARG1 (v24 / 狂气
         :ARG0-of (v17 / act.01
+            :ARG1-of (v18 / be.01)
             :ARG1 (v20 / 演技)))
     :ARG2-of (v9 / be.01
         :ARG1 v24))
@@ -373,7 +377,8 @@
 (v35 / use.01
     :ARG0 (v34 / 款项)
     :ARG1 (v37 / 招待
-        :ARG0-of (v38 / campaign.01)))
+        :ARG0-of (v38 / campaign.01))
+    :ARG1-of (v36 / be.01))
 
 (v14 / change.01
     :ARG1 (v10 / 全线
@@ -403,7 +408,8 @@
         :mod (v7 / 个)
         :mod (v12 / 铁路)
         :ARG0-of (v30 / build.01
-            :ARG1 (v33 / 年))))
+            :ARG1 (v33 / 年)
+            :ARG1-of (v31 / be.01))))
 
 (v2 / be.01
     :ARG1 (v1 / 鉴)
@@ -651,7 +657,8 @@
         :mod (v9 / 个))
     :time (v11 / 已经)
     :ARG1 (v17 / 术语
-        :mod (v15 / 不同)))
+        :mod (v15 / 不同))
+    :ARG1-of (v13 / be.01))
 
 (v22 / keep.02
     :location (v2 / 微积分)
@@ -732,7 +739,9 @@
         :mod (v14 / 南北国)))
 
 (v1 / have.03
-    :ARG0 (v3 / 上告))
+    :ARG0 (v3 / 上告)
+    :ARG1-of (v4 / say.01
+        :ARG0 (v2 / 人)))
 
 (v20 / die.01
     :ARG1 (v4 / 陆斯佛得
@@ -745,12 +754,15 @@
     :ARG1 (v1 / 南坑
         :ARG1-of (v3 / be.01
             :ARG2 (v6 / 北部
-                :mod (v5 / 台湾)))
+                :mod (v5 / 台湾))
+            :ARG1-of (v4 / be.01
+                :ARG2 v5))
         :ARG1-of (v8 / be.01
             :ARG2 (v12 / 支流)))
     :ARG2 (v20 / 中部
         :mod (v17 / 市)
-        :mod (v19 / 区)))
+        :mod (v19 / 区))
+    :ARG1-of (v15 / be.01))
 
 (v33 / call.01
     :time (v6 / 日)
@@ -840,6 +852,10 @@
     :ARG0 (v30 / 迄今
         :time-of (v13 / be.03
             :time (v31 / 已)
+            :ARG1-of (v28 / execute.02
+                :time (v26 / 日)
+                :ARG0 (v3 / 条约
+                    :mod (v2 / 南极)))
             :time (v11 / 日)))
     :ARG1 (v34 / 国
         :ARG0-of (v35 / sign.01
@@ -974,11 +990,15 @@
     :ARG1 (v32 / 高炉
         :mod (v31 / 号)
         :ARG1-of (v21 / be.01
+            :ARG1-of (v22 / be.01)
             :ARG2 (v28 / 一))))
 
 (v11 / happen.01
     :ARG1 (v4 / 一切)
-    :time (v10 / 般))
+    :time (v10 / 般)
+    :ARG1-of (v9 / arrange.01
+        :ARG0 (v7 / 亮
+            :mod (v6 / 诸葛))))
 
 (v4 / be.01
     :ARG2 (v5 / 圭亚那)
@@ -1019,7 +1039,8 @@
     :manner (v4 / 年)
     :ARG1 (v14 / 家庭
         :mod (v11 / 个)
-        :mod (v13 / 教)))
+        :mod (v13 / 教))
+    :ARG1-of (v6 / be.01))
 
 (v9 / have.03
     :ARG0 (v1 / 理察)
@@ -1173,7 +1194,8 @@
         :ARG0 (v2 / 婴儿)
         :ARG1 (v3 / 性别
             :mod v2))
-    :ARG2 (v8 / 违法))
+    :ARG2 (v8 / 违法)
+    :ARG1-of (v7 / be.01))
 
 (v9 / perform.01
     :ARG0 (v1 / 印戒)
@@ -1232,7 +1254,8 @@
     :location (v11 / 广场
         :mod (v10 / 拉德芳斯))
     :ARG2 (v12 / 下方
-        :mod v11))
+        :mod v11)
+    :ARG1-of (v7 / be.01))
 
 (v2 / be.01
     :ARG1 (v1 / 原驼)
@@ -1425,7 +1448,9 @@
     :time (v4 / 日
         :ARG0-of (v19 / attract.01
             :manner (v18 / 成功)
-            :ARG1 (v20 / 国军))
+            :ARG1 (v20 / 国军)
+            :ARG0-of (v6 / free.01
+                :ARG1 v24))
         :ARG0-of (v21 / notice.01
             :time (v22 / 力)
             :ARG1 v24))
@@ -1490,8 +1515,10 @@
     :ARG2 v17
     :ARG1 (v31 / 房屋
         :ARG1-of (v20 / be.01
+            :ARG1-of (v21 / be.01
+                :ARG2 (v22 / 狄俄尼索斯
+                    :mod-of v24))
             :ARG2 (v24 / 附近
-                :mod (v22 / 狄俄尼索斯)
                 :mod (v23 / 神庙)))
         :ARG1-of (v29 / use.01
             :ARG0 (v26 / 她))))
@@ -1515,7 +1542,8 @@
                 :mod (v9 / 常见)))
         :ARG1-of (v13 / be.01
             :ARG2 (v14 / 欧洲)))
-    :ARG1 (v20 / 现象))
+    :ARG1 (v20 / 现象)
+    :ARG2-of (v5 / be.01))
 
 (v8 / be.01)
 
@@ -1661,7 +1689,9 @@
 (v30 / be.03
     :time (v3 / 方面)
     :time (v15 / 创刊)
-    :time (v29 / 最后))
+    :time (v29 / 最后)
+    :ARG0-of (v32 / unite.01
+        :ARG1 (v37 / 征信)))
 
 (v28 / come.01
     :time (v10 / 苦行)
@@ -1926,7 +1956,11 @@
 (v10 / head.02
     :time (v6 / 日)
     :ARG0 (v8 / 他)
-    :ARG1 (v11 / 俄国))
+    :ARG1 (v11 / 俄国)
+    :time-of (v17 / arrive.01
+        :ARG1 (v14 / 月)
+        :time (v16 / 日)
+        :ARG4 (v18 / 莫斯科)))
 
 (v4 / found.01
     :time (v1 / 次年
@@ -2000,13 +2034,13 @@
         :ARG0-of (v10 / select.01
             :ARG1 (v12 / 生日)
             :ARG1-of (v11 / be.01
-                :ARG2 v27)))
+                :ARG2 (v27 / 消息
+                    :ARG1-of (v25 / marry.01
+                        :ARG2 (v23 / 健
+                            :mod (v22 / 末田))
+                        :time (v24 / 闪电))))))
     :ARG2 (v19 / 世人)
-    :ARG1 (v27 / 消息
-        :ARG1-of (v25 / marry.01
-            :ARG2 (v23 / 健
-                :mod (v22 / 末田))
-            :time (v24 / 闪电)))
+    :ARG1 v27
     :mod (v17 / 网站))
 
 (v7 / involve.01
@@ -2097,7 +2131,8 @@
         :mod (v16 / 研究)))
 
 (v22 / be.01
-    :ARG2 (v24 / 青藏))
+    :ARG2 (v24 / 青藏)
+    :ARG1-of (v23 / be.01))
 
 (v11 / be.01
     :ARG1 (v10 / be.01
@@ -2212,7 +2247,8 @@
         :mod (v11 / 吴)))
 
 (v4 / be.01
-    :ARG1 (v3 / 高潮))
+    :ARG1 (v3 / 高潮)
+    :ARG1-of (v5 / be.01))
 
 (v18 / be.01)
 
@@ -2535,7 +2571,8 @@
     :ARG0 (v4 / 小丑
         :ARG0-of (v10 / research.01
             :ARG1 (v14 / 事)))
-    :ARG1 v14)
+    :ARG1 v14
+    :ARG1-of (v7 / start.01))
 
 (v23 / involve.01
     :time (v3 / 晚会)
@@ -2853,6 +2890,7 @@
     :ARG0 (v7 / 皮克特
         :ARG0-of (v8 / bear.02
             :ARG1 (v13 / 里奇蒙)
+            :ARG1-of (v9 / be.01)
             :time (v6 / 日)))
     :time (v16 / 年)
     :ARG1 (v18 / 西点)
@@ -2863,7 +2901,8 @@
     :ARG1 (v1 / 皮克特)
     :location (v4 / 末年
         :mod (v3 / 内战))
-    :time (v5 / 一直))
+    :time (v5 / 一直)
+    :ARG1-of (v7 / be.01))
 
 (v2 / same.01
     :ARG1 (v1 / 他
@@ -3027,7 +3066,10 @@
 (v3 / think.01
     :ARG0 (v2 / 瑜
         :mod (v1 / 萧))
-    :ARG1 (v6 / 拜访))
+    :ARG1 (v6 / 拜访)
+    :ARG1-of (v10 / indicate.01
+        :ARG0 (v5 / 光
+            :mod (v4 / 严))))
 
 (v8 / use.01
     :ARG0 (v1 / 四川)
@@ -3094,7 +3136,9 @@
         :ARG0-of (v9 / push.01
             :ARG1 (v11 / 理论
                 :mod (v10 / 电磁))
-            :ARG2 (v27 / 教育))))
+            :ARG2 (v27 / 教育)
+            :ARG2-of (v8 / be.01
+                :ARG1 (v7 / 致力)))))
 
 (v11 / happen.01
     :ARG1 (v3 / 战役
@@ -3142,7 +3186,10 @@
 
 (v15 / try.01
     :ARG0 (v7 / 偷袭)
-    :ARG1 (v16 / 切断))
+    :ARG1 (v16 / 切断)
+    :ARG2-of (v12 / attack.01
+        :ARG0 (v11 / 随后)
+        :ARG1 (v13 / 缅甸)))
 
 (v15 / be.01
     :ARG1 (v3 / 该军

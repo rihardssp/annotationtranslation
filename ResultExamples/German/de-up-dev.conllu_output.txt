@@ -21,7 +21,7 @@
 (v5 / hold.01
     :time (v4 / temporal-quantity
         :unit (vg0 / Jahr)
-        :quant Viertel)
+        :quant "Viertel")
     :ARG0 (v6 / ich)
     :ARG1 (v9 / Wunder
         :mod (v8 / duftend))
@@ -272,7 +272,7 @@
     :ARG0 (v6 / Leute)
     :time (v9 / temporal-quantity
         :unit (vg0 / Uhr)
-        :quant 20.00)
+        :quant "20.00")
     :ARG1 (v11 / Fähre)
     :ARG2 (v22 / visit.01
         :time (v16 / Biergarten)
@@ -389,7 +389,7 @@
     :ARG1 (v7 / es)
     :time (v10 / temporal-quantity
         :unit (vg0 / mal)
-        :quant zweit))
+        :quant "zweit"))
 
 (v2 / do.02
     :ARG0 (v1 / der)
@@ -439,7 +439,7 @@
     :ARG0 (v1 / ich)
     :time (v6 / temporal-quantity
         :unit (vg0 / Jahr)
-        :quant 15)
+        :quant "15")
     :ARG2 (v8 / Musik))
 
 (v2 / give.01
@@ -466,7 +466,7 @@
     :ARG1 (v3 / ich)
     :time (v7 / temporal-quantity
         :unit (vg0 / mal)
-        :quant 10)
+        :quant "10")
     :ARG2 (v8 / da))
 
 (v7 / massage.01
@@ -562,7 +562,7 @@
     :time (v5 / jetzt)
     :time (v7 / temporal-quantity
         :unit (vg0 / Juni)
-        :quant 2011))
+        :quant "2011"))
 
 (v8 / run.02
     :ARG0 (v1 / Beratung)
@@ -613,7 +613,7 @@
     :ARG0 (v2 / Firma)
     :time (v9 / temporal-quantity
         :unit (vg0 / Jahr)
-        :quant 3)
+        :quant "3")
     :ARG1 (v11 / Leistung)
     :manner (v14 / Auftrag))
 
@@ -983,7 +983,7 @@
         :ARG1-of (v11 / wait.01
             :time (v10 / temporal-quantity
                 :unit (vg0 / Minute)
-                :quant 45)))
+                :quant "45")))
     :manner (v4 / dazwischen))
 
 (v6 / be.01
@@ -1265,7 +1265,7 @@
     :ARG0 (v3 / wir)
     :time (v7 / temporal-quantity
         :unit (vg0 / Mal)
-        :quant erst)
+        :quant "erst")
     :ARG1 (v10 / Restaurant)
     :time (v13 / Abend))
 
@@ -1355,7 +1355,7 @@
 (v20 / run.02
     :time (v5 / temporal-quantity
         :unit (vg0 / Trainingseinheit)
-        :quant erst)
+        :quant "erst")
     :ARG0 (v14 / wir)
     :ARG1 (v16 / normal)
     :ARG2 (v19 / Hund))
@@ -1429,13 +1429,13 @@
     :ARG0 (v1 / ich)
     :time (v5 / temporal-quantity
         :unit (vg0 / Jahr)
-        :quant 5)
+        :quant "5")
     :ARG1 (v8 / Haarteil))
 
 (v15 / learn.01
     :time (v5 / temporal-quantity
         :unit (vg0 / Jahr)
-        :quant 5)
+        :quant "5")
     :ARG1 (v7 / Studio)
     :manner (v10 / Grund
         :mod (v12 / Umzug
@@ -1743,7 +1743,7 @@
 (v5 / order.02
     :time (v2 / temporal-quantity
         :unit (vg0 / Uhr)
-        :quant 17.45)
+        :quant "17.45")
     :ARG0 (v4 / ich))
 
 (v3 / be.01
@@ -1834,7 +1834,7 @@
 (v4 / sit.01
     :time (v3 / temporal-quantity
         :unit (vg0 / Tag)
-        :quant 8)
+        :quant "8")
     :ARG1 (v5 / ich)
     :ARG2 (v12 / Büro
         :mod (v15 / Feldkamp))
@@ -2830,10 +2830,10 @@
         :ARG0-of (v13 / close.01
             :time (v12 / temporal-quantity
                 :unit (vg0 / Uhr)
-                :quant 19)))
+                :quant "19")))
     :time (v7 / temporal-quantity
         :unit (vg1 / Uhr)
-        :quant acht))
+        :quant "acht"))
 
 (v22 / call.01
     :ARG0 (v1 / Ministerpräsident)
@@ -2880,7 +2880,7 @@
     :ARG0 (v2 / Görtz)
     :time (v8 / temporal-quantity
         :unit (vg0 / Monat)
-        :quant achtzehn)
+        :quant "achtzehn")
     :ARG1 (v11 / Börsengang
         :mod (v14 / Nasdaq
             :mod (v17 / USA))))
@@ -3080,7 +3080,7 @@
     :ARG0 (v1 / Vietnam)
     :time (v12 / temporal-quantity
         :unit (vg0 / Flirt)
-        :quant erst)
+        :quant "erst")
     :location (v18 / alle)
     :ARG1 (v20 / Bürokratismus)
     :mod (v6 / Schwierigkeit
@@ -3895,7 +3895,7 @@
     :ARG0 (v2 / Ministerpräsident)
     :time (v5 / temporal-quantity
         :unit (vg0 / Stunde)
-        :quant ein)
+        :quant "ein")
     :time (v11 / erneut)
     :ARG1 (v13 / Friedensprozeß
         :mod (v17 / Osten))

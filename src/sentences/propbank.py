@@ -49,7 +49,7 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
     def get_root(self) -> IPropBankWord:
         """propbank root verb - verb with smallest head number.
             ToDo: This should be based on either verb with head == 0 OR biggest graph in PropBank!"""
-        #for verb_args_tuple in self.frame_list:
+        # for verb_args_tuple in self.frame_list:
         #    if verb_args_tuple[0].id == 0:
         #        return verb_args_tuple[0]
 
@@ -95,17 +95,21 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
 
     def add_token(self, token_list):
         """This will contain all token_lists that belong to a single sentence"""
-        temp_word_list = list(PropBankTokenWord(x) for x in token_list)
+        words = list(PropBankTokenWord(x) for x in token_list)
 
         # The rest are stored as frame_argument tuples
         if self.word_list is None:
-            self.word_list = temp_word_list
+            self.word_list = words
 
-        frame_verb = next(x for x in temp_word_list if x.has_verb)
+        self._add_verb_arg_tuple(words, token_list)
+
+    def _add_verb_arg_tuple(self, words: typing.List[IPropBankWord], token_list):
+
+        frame_verb = next((x for x in words if x.has_verb), None)
         if frame_verb is None:
             raise Exception(f"A frame without a verb? '{token_list}'")
 
-        arguments = list(x for x in temp_word_list if x.has_arg)
+        arguments = list(x for x in words if x.has_arg)
         self.frame_list.append((frame_verb, arguments))
 
     @property
@@ -120,10 +124,13 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
 
 
 class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
-    """ Uses the super class logic and transforms the merged format into logical structure that would be perceived as superclasses case"""
+    """ Uses the super class logic and transforms the merged format into logical structure that would be perceived as
+    superclasses case """
 
     def __init__(self, token_list: TokenList, argument_size: int):
         super().__init__(token_list)
+
+        # This merges both formats where 'V' is/isn't present by manually inserting it
         verb_number = 0
         for token in token_list:
             word = PropBankMergedTokenWord(token, 0)
@@ -132,8 +139,10 @@ class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
             if word.inner_verb != "":
                 word.add_symbol(verb_number)
                 verb_number += 1
-        self.word_list.append(list(PropBankMergedTokenWord(x, 0) for x in token_list))
+
+        self.word_list = list(PropBankMergedTokenWord(x, 0) for x in token_list)
 
         # Emulate the multiple lists of standard PropBankToken sentence
-        for i in range(1, argument_size):
-            self.word_list.append(list(x.switch_context(i) for x in self.word_list[0]))
+        for i in range(0, argument_size):
+            words = list(x.switch_context(i) for x in self.word_list)
+            self._add_verb_arg_tuple(words, token_list)
