@@ -46,7 +46,7 @@ class PropBankFileAnnotationReader(IPropBankAnnotationReaderBase):
         for token_list in parse_incr(content, self.DEFAULT_FIELDS, self.DEFAULT_FIELD_PARSERS):
             sentence = PropBankTokenSentence(token_list)
 
-            # Might want to optimise this in the future, as this is O(n^2)
+            # ToDo: Might want to optimise this in the future, as this is O(n^2)
             same_sentence = list(x for x in sentence_list if x.sent_id == sentence.sent_id)
 
             if len(same_sentence) == 0:

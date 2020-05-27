@@ -33,7 +33,7 @@ class PropBankPipe(PipeBase):
             # container = Sentence.GetFrameCount()
             if root_word is not None:
                 container = TripletContainer(sentence.metadata)
-                container.set_stat(ContainerStatistic.SENTENCE_TOKEN_TOTAL_COUNT, len(sentence.word_list))
+                container.set_stat(ContainerStatistic.SENTENCE_TOKEN_TOTAL_COUNT, len(sentence.list_of_words))
                 container.set_stat(ContainerStatistic.FRAME_TOTAL_COUNT, sentence.frame_count)
                 self.add_root(root_word, container, sentence)
                 container_list.append(container)

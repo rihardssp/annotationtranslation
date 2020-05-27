@@ -29,7 +29,7 @@ class IPropBankSentence(ISentence):
 
     @property
     @abstractmethod
-    def word_list(self) -> typing.List[IPropBankWord]:
+    def list_of_words(self) -> typing.List[IPropBankWord]:
         pass
 
     @property
@@ -37,52 +37,47 @@ class IPropBankSentence(ISentence):
     def frame_count(self) -> int:
         pass
 
+
 class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
     """Propbank specific logic for reading sentences from Conllu"""
 
     def __init__(self, token_list: TokenList):
         super().__init__(token_list)
-        self.sentence_list: typing.List[typing.List[IPropBankWord]] = []
+        self.word_list: typing.List[IPropBankWord] = None
+        self.frame_list: typing.List[(IPropBankWord, typing.List[IPropBankWord])] = []
 
     def get_root(self) -> IPropBankWord:
         """propbank root verb - verb with smallest head number.
             ToDo: This should be based on either verb with head == 0 OR biggest graph in PropBank!"""
-        min_head = sys.maxsize
-        root = None
+        #for verb_args_tuple in self.frame_list:
+        #    if verb_args_tuple[0].id == 0:
+        #        return verb_args_tuple[0]
 
-        for sentence in self.sentence_list:
-            for word in sentence:
-                if word.has_verb and word.head < min_head:
-                    min_head = word.head
-                    root = word
+        # ToDo: first verb instead?
+        min_head = sys.maxsize
+        for verb_args_tuple in self.frame_list:
+            if verb_args_tuple[0].head < min_head:
+                min_head = verb_args_tuple[0].head
+                root = verb_args_tuple[0]
 
         return root
 
     def get_arguments(self, head_id: int) -> (PropBankTokenWord, typing.List[IPropBankWord]):
         """If head_id is root, return root word with its arguments"""
-        args = list()
-        root_word: PropBankTokenWord = None
-
-        # Look through each sentence to find one with root_id and existing PropBank verb
-        for sentence in self.sentence_list:
-            possible_root = list(x for x in sentence if x.id == head_id and x.has_verb)
-
-            # Such a word exists in this sentence and we store the root_word and arguments
-            if len(possible_root) > 0:
-                root_word = possible_root[0]
-                for token in sentence:
-                    if token.has_arg:
-                        args.append(token)
 
         # While recursively adding, the root word is necessary as instead of the word the verb is added, which does
         # not exist in returned arguments even if they're roots (as only one verb per frame, which obviously cant be
         # argument as root is one)
-        return root_word, args
+        for verb_args_tuple in self.frame_list:
+            if verb_args_tuple[0].id == head_id:
+                return verb_args_tuple[0], verb_args_tuple[1]
+
+        return None, []
 
     def read_words_with_head(self, head_id) -> typing.List[IPropBankWord]:
         """TreeBank words with given head_id"""
         args = list()
-        for token in self.sentence_list[0]:
+        for token in self.word_list:
             if token.head is not None and token.head == head_id:
                 args.append(token)
         return args
@@ -90,26 +85,38 @@ class PropBankTokenSentence(TokenSentenceBase, IPropBankSentence):
     def get_roots_of_argument(self, argument_id) -> typing.List[IPropBankWord]:
         """Find roots of a given argument"""
         root_list: typing.List[IPropBankWord] = []
-        for sentence in self.sentence_list:
-            if len(list(x for x in sentence if x.id == argument_id and x.has_arg)) > 0:
-                found_verb = list(x for x in sentence if x.has_verb)
-                if len(found_verb) == 1:
-                    root_list.append(found_verb[0])
+
+        for verb_args_tuple in self.frame_list:
+            for argument in verb_args_tuple[1]:
+                if argument.id == argument_id:
+                    root_list.append(verb_args_tuple[0])
+
         return root_list
 
     def add_token(self, token_list):
         """This will contain all token_lists that belong to a single sentence"""
-        self.sentence_list.append(list(PropBankTokenWord(x) for x in token_list))
+        temp_word_list = list(PropBankTokenWord(x) for x in token_list)
+
+        # The rest are stored as frame_argument tuples
+        if self.word_list is None:
+            self.word_list = temp_word_list
+
+        frame_verb = next(x for x in temp_word_list if x.has_verb)
+        if frame_verb is None:
+            raise Exception(f"A frame without a verb? '{token_list}'")
+
+        arguments = list(x for x in temp_word_list if x.has_arg)
+        self.frame_list.append((frame_verb, arguments))
 
     @property
-    def word_list(self) -> typing.List[IPropBankWord]:
+    def list_of_words(self) -> typing.List[IPropBankWord]:
         """Gets a sentence with PropBank words. Note: not all verbs might be present"""
-        return self.sentence_list[0]
+        return self.word_list
 
     @property
     def frame_count(self) -> int:
         """Gets a sentence with PropBank words. Note: not all verbs might be present"""
-        return len(self.sentence_list)
+        return len(self.frame_list)
 
 
 class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
@@ -125,8 +132,8 @@ class PropBankMergedTokenSentence(PropBankTokenSentence, IPropBankSentence):
             if word.inner_verb != "":
                 word.add_symbol(verb_number)
                 verb_number += 1
-        self.sentence_list.append(list(PropBankMergedTokenWord(x, 0) for x in token_list))
+        self.word_list.append(list(PropBankMergedTokenWord(x, 0) for x in token_list))
 
         # Emulate the multiple lists of standard PropBankToken sentence
         for i in range(1, argument_size):
-            self.sentence_list.append(list(x.switch_context(i) for x in self.sentence_list[0]))
+            self.word_list.append(list(x.switch_context(i) for x in self.word_list[0]))

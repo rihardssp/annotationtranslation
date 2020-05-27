@@ -65,6 +65,8 @@ DEFAULT_CONLLU_DEPREL_MAPPING = {
     'amod': 'mod',
     #'parataxis': 'mod', Maybe 'and' here?
     #'advmod': 'mod' ?
+    #appos (appositive) -> group?
+    #nummod - same thing as with num args?
 }
 
 
