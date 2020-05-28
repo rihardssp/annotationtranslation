@@ -36,7 +36,7 @@ class CoReferenceTokenSentence(TokenSentenceBase, ICoReferenceSentence):
 
     def __init__(self, token_list: TokenList):
         super().__init__(token_list)
-        self.__additional_context_references = None
+        self.__additional_context_references: typing.Dict[str, typing.List[ICoReferenceWord]] = {}
         self.sentence: typing.List[CoReferenceTokenWord] = list(CoReferenceTokenWord(x) for x in token_list)
         self.__co_reference_dictionary = None
 

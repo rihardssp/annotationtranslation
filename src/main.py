@@ -16,16 +16,18 @@ from src.mapping_defaults.propbank import PropBankMapping
 from src.pipes.coreference import CoReferencePipe
 from src.pipes.named_entity import NamedEntitiesPipe
 from src.pipes.propbank import PropBankPipe
-from src.readers.coreference import CoReferenceContentAnnotationReader
+from src.readers.coreference import CoReferenceContentAnnotationReader, CoReferenceFilesAnnotationReader
 from src.readers.named_entity import NamedEntitiesContentAnnotationReader
-from src.readers.propbank import PropBankContentAnnotationReader, PropBankMergedFormatAnnotationReader
+from src.readers.propbank import PropBankContentAnnotationReader,  \
+    PropBankMergedFileFormatAnnotationReader
 
 
 # Define the pipeline
 pipe_line = [
     PropBankPipe(PropBankMapping()),
     NamedEntitiesPipe(NamedEntitiesMapping(), phrase_normalizer=RestletPhraseNormalizer()),
-    CoReferencePipe()
+    # ToDo : What if coreference IS a named entity?
+    CoReferencePipe(None, CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path()))
 ]
 
 # run pipes
@@ -71,5 +73,4 @@ f.write(f"Coreference count in AMR: {coreference_count} out of total: {coreferen
 f.write(f"Number of AMR graphs generated from PropBank: {propbank_sentence_count}\n")
 f.write(f"Entries matched with named entities: {with_named_entities}\n")
 f.write(f"Entries matched with co references: {with_co_reference}\n")
-
 f.close()

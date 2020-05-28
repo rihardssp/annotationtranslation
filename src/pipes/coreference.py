@@ -14,7 +14,7 @@ class CoReferencePipe(PipeBase):
         super().__init__()
         self.mapping = mapping if mapping is not None else CoReferenceMapping()
         self.annotation_reader: ICoReferenceAnnotationReaderBase = annotation_reader if annotation_reader is not None \
-            else CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path())
+            else CoReferenceFilesAnnotationReader(config_reader.get_co_reference_resource_folder_path(), False)
 
     def _process_amr(self, container_list: typing.List[IContainer]) -> typing.List[IContainer]:
         for sentence in self.annotation_reader.read():
@@ -53,9 +53,10 @@ class CoReferencePipe(PipeBase):
                         non_members_to_keep.append(group_word)
 
                 # in case there is some additional context for our coreference group
-                for context_group_words in sentence.additional_context_references[name]:
-                    if context_group_words.pos_value[0:2] not in self.mapping.get_replaceable_pos_values():
-                        non_members_to_keep.append(context_group_words)
+                if name in sentence.additional_context_references:
+                    for context_group_words in sentence.additional_context_references[name]:
+                        if context_group_words.pos_value[0:2] not in self.mapping.get_replaceable_pos_values():
+                            non_members_to_keep.append(context_group_words)
 
                 is_reference_added = False
                 last_member_to_keep = None
@@ -88,6 +89,7 @@ class CoReferencePipe(PipeBase):
                 # update with value of first non-member desireable word 1-1
                 elif last_member_to_coreference and len(non_members_to_keep) > 0 and non_members_to_keep[0].pos_value[0:1] != "p":
                     is_reference_added = True
+                    # ToDo: Need to transform to base word. Perhaps querying UD somehow?
                     container.update_instance_value(last_member_to_coreference.id, non_members_to_keep[0].form)
 
                 if is_reference_added:

@@ -9,6 +9,10 @@ def format_url_ending(value):
     return value
 
 
+def is_true(value: str) -> bool:
+    return value.upper() == "TRUE"
+
+
 class ConfigReader:
     """This class provides config reading functionality"""
 
@@ -58,6 +62,9 @@ class ConfigReader:
 
     def get_co_reference_resource_folder_path(self):
         return self.__get_co_reference_pipe_value("ResourceFolder")
+
+    def get_co_reference_are_file_coreferences_cross_sentence(self) -> bool:
+        return is_true(self.__get_co_reference_pipe_value("AreFileCoreferencesCrossSentence"))
 
     # RestletPhraseNormalizer
     def __get_restlet_phrase_normalizer_value(self, key):
